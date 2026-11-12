@@ -124,27 +124,34 @@ def fantasy(p, mult=1.0):
     return (p.get("proj") or 0) * (1 + 0.1 * pw) * mult
 
 
+
+
 # ------------------------------------------------------------------ html bits
-def jersey(code, label=None):
-    short, _, c1, c2 = TEAM.get(code, ("?", "", "#777", "#fff"))
+def jersey(code, label=None, cls="jsy"):
+    short, _, c1, c2 = TEAM.get(code, ("?", "", "#777777", "#ffffff"))
     r, g, b = (int(c1[i:i + 2], 16) for i in (1, 3, 5))
-    txt = "#1d1838" if (0.299 * r + 0.587 * g + 0.114 * b) > 160 else "#ffffff"
-    return f"""<svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+    txt = "#14152a" if (0.299 * r + 0.587 * g + 0.114 * b) > 160 else "#ffffff"
+    return f"""<svg class="{cls}" viewBox="0 0 60 64" aria-hidden="true">
 <path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="{c1}" stroke="{c2}" stroke-width="2.5"/>
-<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="{txt}">{esc(label or short)}</text></svg>"""
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="{txt}" font-family="Fira Sans,sans-serif">{esc(label or short)}</text></svg>"""
 
 
-def opp_txt(g):
+def opp_txt(g, long=False):
     if not g:
         return "–"
     o = TEAM.get(g["opp"], (g["opp"],))[0]
-    return f"T{g.get('turn') or '?'} {'vs' if g.get('home') else '@'} {o}"
+    day = f"T{g.get('turn') or '?'}"
+    return f"{day} {'vs' if g.get('home') else '@'} {o}"
 
 
-def card(p, slot="", captain=False, vice=False, small=False):
+def surname(n):
+    return n.split(" ", 1)[-1] if " " in n else n
+
+
+def card(p, captain=False, vice=False, small=False):
     g = p.get("game") or {}
-    badge = '<span class="cap">C</span>' if captain else ('<span class="cap vc">VC</span>' if vice else "")
-    fire = '<span class="fire" title="Hot form: last 3 games well above season level">🔥</span>' if p.get("hot") else ""
+    badge = '<span class="cap">C</span>' if captain else ('<span class="cap vc">V</span>' if vice else "")
+    fire = '<span class="fire" title="Hot: last 3 games well above season level">🔥</span>' if p.get("hot") else ""
     warn = ""
     if p.get("status") in ("injured", "out", "doubtful"):
         warn = f'<span class="stat {p["status"]}">{esc(p["status"]).upper()}</span>'
@@ -152,14 +159,13 @@ def card(p, slot="", captain=False, vice=False, small=False):
         warn = '<span class="stat injured">NOT FOUND</span>'
     return f"""<div class="pl{' sm' if small else ''}">
   <div class="shirt">{jersey(p.get('t'))}{badge}{fire}</div>
-  <div class="tag"><div class="nm"><b>{POSL.get(p.get('pos'), '?')}</b> {esc(p['name'].split(' ', 1)[-1] if ' ' in p['name'] else p['name'])}</div>
-  <div class="gm">{esc(opp_txt(g))}<span class="pj">{p.get('proj', 0):.1f}</span></div></div>{warn}
-  <div class="meta">{p.get('price') or '–'} cr · L3 {p.get('l3') if p.get('l3') is not None else '–'}{(' · ' + slot) if slot else ''}</div>
+  <div class="tag"><div class="nm"><i>{POSL.get(p.get('pos'), '?')}</i>{esc(surname(p['name']))}</div>
+  <div class="gm"><span>{esc(opp_txt(g))}</span><b>{p.get('proj', 0):.1f}</b></div></div>{warn}
+  <div class="meta">{p.get('price') or '–'} cr · form {p.get('l3') if p.get('l3') is not None else '–'}</div>
 </div>"""
 
 
 def court(starters, formation, captain, vice):
-    g, f, c = FORMATIONS.get(formation, (2, 2, 1))
     by = {"Guard": [], "Forward": [], "Center": []}
     for p in starters:
         by.setdefault(p.get("pos"), []).append(p)
@@ -167,10 +173,10 @@ def court(starters, formation, captain, vice):
     for pos in ("Center", "Forward", "Guard"):
         cells = "".join(card(p, captain=norm(p["name"]) == norm(captain), vice=norm(p["name"]) == norm(vice))
                         for p in by.get(pos, []))
-        rows.append(f'<div class="row r{pos[0]}">{cells}</div>')
+        rows.append(f'<div class="row">{cells}</div>')
     return f"""<div class="court"><svg class="lines" viewBox="0 0 400 300" preserveAspectRatio="none" aria-hidden="true">
-<path d="M120 0v95h160V0M150 95a50 50 0 0 0 100 0M40 0v40a160 160 0 0 0 320 0V0" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="2"/>
-<circle cx="200" cy="300" r="45" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="2"/></svg>
+<path d="M120 0v95h160V0M150 95a50 50 0 0 0 100 0M40 0v40a160 160 0 0 0 320 0V0" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="2"/>
+<circle cx="200" cy="300" r="45" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="2"/></svg>
 <div class="frm">{esc(formation)}</div>{''.join(rows)}</div>"""
 
 
@@ -185,7 +191,7 @@ def squad_points(starters, sixth, bench, captain, coach_game):
     return round(pts + cpts, 1), cpts
 
 
-def validate(players, coach_code, bank, budget_note):
+def validate(players, bank, n_trades):
     issues = []
     cnt = {"Guard": 0, "Forward": 0, "Center": 0}
     clubs = {}
@@ -201,80 +207,136 @@ def validate(players, coach_code, bank, budget_note):
         issues.append(f"more than 6 from {over}")
     if bank is not None and bank < -0.05:
         issues.append(f"bank {bank:.1f} < 0")
+    if n_trades < 4:
+        issues.append(f"uses only {n_trades} of 4 trades")
     return issues
+
+
+def coach_code_of(name):
+    k = norm(name)
+    return NAME2CODE.get(k) or next((c for n, c in NAME2CODE.items() if k and (k in n or n in k)), (name or "")[:3].upper())
+
+
+def mini(name, code, price, kind):
+    return f"""<div class="mini {kind}">{jersey(code, cls='mj')}<div><span class="lbl">{'OUT' if kind == 'out' else 'IN'}</span>
+<b>{esc(name)}</b>{f' <small>{esc(price)}</small>' if price else ''}</div></div>"""
+
+
+def split_name(s):
+    m = re.match(r"\s*(?:Coach\s+)?(.+?)\s*\(([\d.]+)\)\s*$", s)
+    return (m.group(1), m.group(2)) if m else (s.replace("Coach ", ""), "")
 
 
 # ------------------------------------------------------------------ page
 CSS = """
-:root{--o1:#f6a019;--o2:#ef6a2c;--o3:#e6402f;--ink:#1d1838;--card:#fff;--muted:#6b6880;--panel:rgba(255,255,255,.92);
---line:#2a2350;--good:#12a150;--bad:#d7263d;--wood1:#e9b97f;--wood2:#d99a5b}
-@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--card:#24203d;--panel:rgba(28,24,52,.94);--ink:#f3f1ff;--muted:#b7b3cf}}
-:root[data-theme=dark]{--card:#24203d;--panel:rgba(28,24,52,.94);--ink:#f3f1ff;--muted:#b7b3cf}
-*{box-sizing:border-box}body{margin:0;font-family:'Fira Sans',system-ui,sans-serif;color:var(--ink);
-background:linear-gradient(160deg,var(--o1),var(--o2) 45%,var(--o3));background-attachment:fixed;min-height:100vh}
-h1,h2,h3,.cond{font-family:'Fira Sans Extra Condensed','Fira Sans',sans-serif;letter-spacing:.3px}
-.wrap{max-width:1100px;margin:0 auto;padding:16px}
-header.top{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;justify-content:space-between;color:#fff;margin:8px 0 14px}
-header.top h1{font-size:40px;margin:0;line-height:1;text-shadow:0 2px 0 rgba(0,0,0,.15)}
-header.top .sub{opacity:.95;font-size:15px}
-.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{background:var(--line);color:#fff;border-radius:6px;padding:6px 10px;font-weight:600;font-size:14px}
-.chip.y{background:#e8ff3a;color:#1d1838}
-.panel{background:var(--panel);border-radius:14px;padding:16px 18px;margin:14px 0;box-shadow:0 6px 20px rgba(0,0,0,.12)}
-.panel h2{margin:0 0 10px;font-size:26px}.bottom{font-size:17px;line-height:1.5}
-.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
-.tab{border:0;cursor:pointer;border-radius:10px;padding:10px 14px;font:600 16px 'Fira Sans Extra Condensed',sans-serif;background:rgba(255,255,255,.25);color:#fff}
-.tab[aria-selected=true]{background:var(--line);box-shadow:inset 0 -4px 0 #e8ff3a}
-.tab small{display:block;font:500 12px 'Fira Sans',sans-serif;opacity:.85}
+:root{color-scheme:dark;--bg:#0c0d19;--card:#171830;--card2:#1f2042;--ink:#eeedf7;--muted:#a9a7c4;--faint:#77759a;
+--line:rgba(255,255,255,.09);--orange:#ff7a1a;--lime:#d4ff3a;--green:#3ddc84;--red:#ff5d6c;--amber:#ffb02e;--blue:#6aa7ff;
+--wood1:#b9834c;--wood2:#a87543}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.6 'Fira Sans',system-ui,sans-serif;color:var(--ink);background:
+radial-gradient(900px 380px at 50% -140px,rgba(255,122,26,.45),transparent 70%),var(--bg);min-height:100vh}
+h1,h2,h3,h4,.cond{font-family:'Fira Sans Extra Condensed','Fira Sans',sans-serif;letter-spacing:.2px;line-height:1.15}
+a{color:var(--blue)}
+.wrap{max-width:1120px;margin:0 auto;padding:20px 16px 40px}
+.kick{color:var(--orange);font:700 14px 'Fira Sans Extra Condensed';letter-spacing:2px;text-transform:uppercase}
+h1{font-size:46px;margin:2px 0 12px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:14px;color:var(--muted)}
+.chip b{color:var(--ink);font-weight:600}.chip.hot{border-color:rgba(255,122,26,.6);color:#ffd2b0}.chip.hot b{color:#fff}
+section{margin-top:28px}
+h2{font-size:28px;margin:0 0 14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
+.plan{border-left:4px solid var(--orange);background:linear-gradient(90deg,rgba(255,122,26,.10),transparent 60%),var(--card)}
+.plan .lead{font-size:18px;margin:0 0 16px;color:#fff}
+.steps{display:grid;gap:12px;counter-reset:s;margin:0;padding:0;list-style:none}
+.steps li{display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:start}
+.steps li::before{counter-increment:s;content:counter(s);width:34px;height:34px;border-radius:50%;background:var(--orange);color:#140b02;
+font:800 18px/34px 'Fira Sans Extra Condensed';text-align:center}
+.steps h4{margin:4px 0 6px;font-size:19px}
+.tl{display:grid;gap:6px}.tl div{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:15px}
+.o{color:var(--red)}.n{color:var(--green)}.cr{margin-left:auto;color:var(--faint);font-size:13px;font-variant-numeric:tabular-nums}
+.lineup{font-size:15px;color:var(--muted)}.lineup b{color:var(--ink);font-weight:600}
+.delta{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;margin-top:14px;padding-top:12px;border-top:1px solid var(--line);color:var(--muted);font-size:15px}
+.delta strong{font:800 30px 'Fira Sans Extra Condensed';color:var(--lime)}
+.fix{margin-top:12px;font-size:15px;color:var(--muted)}.fix b{color:var(--amber)}
+.tabs{position:sticky;top:0;z-index:5;display:flex;gap:8px;overflow-x:auto;padding:10px 0;background:linear-gradient(var(--bg) 75%,transparent)}
+.tab{flex:0 0 auto;border:1px solid var(--line);cursor:pointer;border-radius:12px;padding:8px 14px;text-align:left;
+background:var(--card);color:var(--muted);font:600 17px 'Fira Sans Extra Condensed'}
+.tab small{display:block;font:500 12px 'Fira Sans';color:var(--faint)}
+.tab[aria-selected=true]{background:var(--card2);color:#fff;border-color:var(--orange);box-shadow:inset 0 -3px 0 var(--orange)}
 .var{display:none}.var.on{display:block}
-.grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:16px;align-items:start}
-@media(max-width:860px){.grid{grid-template-columns:minmax(0,1fr)}}
-.court{position:relative;border-radius:18px;padding:34px 8px 26px;overflow:hidden;
-background:repeating-linear-gradient(90deg,var(--wood1) 0 38px,var(--wood2) 38px 40px,#e2ab6c 40px 78px,var(--wood2) 78px 80px);
-box-shadow:inset 0 0 0 4px rgba(255,255,255,.35),0 10px 24px rgba(0,0,0,.18)}
+.vhead{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:6px 0 4px}.vhead h3{font-size:30px;margin:0}
+.pill{font:700 11px 'Fira Sans';letter-spacing:.6px;text-transform:uppercase;padding:3px 9px;border-radius:999px;background:var(--card2);color:var(--muted)}
+.pill.rec{background:var(--lime);color:#14152a}.pill.Low{color:var(--green)}.pill.Medium{color:var(--amber)}.pill.High{color:var(--red)}
+.tagline{color:var(--muted);margin:0 0 14px;font-size:16px}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:16px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.kpi span{display:block;font-size:12px;color:var(--faint);text-transform:uppercase;letter-spacing:.6px}
+.kpi b{font:700 24px 'Fira Sans Extra Condensed';color:#fff}.kpi b.l{color:var(--lime)}
+@media(max-width:620px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}h1{font-size:38px}}
+.grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:18px;align-items:start}
+@media(max-width:900px){.grid{grid-template-columns:minmax(0,1fr)}}
+.court{position:relative;border-radius:18px;padding:36px 6px 22px;overflow:hidden;
+background:repeating-linear-gradient(90deg,var(--wood1) 0 38px,var(--wood2) 38px 40px,#b07b47 40px 78px,var(--wood2) 78px 80px);
+box-shadow:inset 0 0 0 3px rgba(255,255,255,.18),inset 0 0 80px rgba(0,0,0,.35)}
 .court .lines{position:absolute;inset:0;width:100%;height:100%}
-.frm{position:absolute;top:8px;left:12px;background:var(--line);color:#fff;font:700 13px 'Fira Sans Extra Condensed';padding:3px 8px;border-radius:5px}
-.row{position:relative;display:flex;justify-content:space-evenly;gap:6px;margin:6px 0 14px}
-.pl{width:132px;max-width:31%;text-align:center;position:relative}
-.shirt{position:relative;height:66px}.jsy{height:66px;filter:drop-shadow(0 3px 3px rgba(0,0,0,.25))}
-.cap{position:absolute;right:14px;top:4px;background:#e8ff3a;color:#1d1838;border-radius:50%;width:24px;height:24px;font:800 13px/24px 'Fira Sans Extra Condensed'}
-.cap.vc{background:#fff;font-size:10px}
-.fire{position:absolute;left:12px;top:2px;font-size:16px;background:#e8ff3a;border-radius:5px;padding:0 2px}
-.tag{border-radius:6px;overflow:hidden;box-shadow:0 3px 8px rgba(0,0,0,.2)}
-.nm{background:var(--line);color:#fff;font:500 15px 'Fira Sans Extra Condensed';padding:4px 4px 3px;border-bottom:3px solid #19d3a2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.nm b{opacity:.7;font-weight:500;margin-right:3px}
-.gm{background:#fff;color:#1d1838;font:600 16px 'Fira Sans Extra Condensed';padding:5px 4px;display:flex;justify-content:space-between;gap:4px}
-.pj{background:#1d1838;color:#e8ff3a;border-radius:4px;padding:0 5px}
-.meta{font-size:11px;color:#3b2a14;margin-top:3px}
-.stat{display:inline-block;margin-top:3px;font:700 11px 'Fira Sans';border-radius:4px;padding:1px 5px;color:#fff;background:var(--bad)}
-.stat.doubtful{background:#e08a00}
-.benchwrap{display:grid;grid-template-columns:1fr;gap:12px;margin-top:12px}
-.box{background:rgba(255,255,255,.18);border-radius:14px;padding:10px 6px}
-.box h4{margin:0 0 6px;text-align:center;color:#fff;font:600 14px 'Fira Sans Extra Condensed';letter-spacing:1px;opacity:.9}
-.box .row{margin:0;flex-wrap:wrap;row-gap:10px}.box .pl{width:124px;max-width:23%}
-@media(max-width:520px){.box .pl{max-width:46%}}.box .meta{color:#fff}
-.coach .nm{border-bottom-color:#e8ff3a}
-.why h3{margin:4px 0 6px;font-size:22px}.why ul{margin:6px 0 10px;padding-left:18px;line-height:1.45}
-.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:8px 0 12px}
-.kpi{background:var(--line);color:#fff;border-radius:10px;padding:8px;text-align:center}
-.kpi b{display:block;font:700 24px 'Fira Sans Extra Condensed';color:#e8ff3a}.kpi span{font-size:12px;opacity:.85}
-.trade{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:7px 0;border-bottom:1px dashed rgba(127,127,127,.35)}
-.trade .out{color:var(--bad);font-weight:600}.trade .in{color:var(--good);font-weight:600}.trade .d{margin-left:auto;font-size:13px;color:var(--muted)}
-.trade .r{flex-basis:100%;font-size:13px;color:var(--muted)}
-.pill{display:inline-block;font:600 12px 'Fira Sans';padding:2px 8px;border-radius:20px;background:#ece9ff;color:#2a2350}
-.pill.rec{background:#e8ff3a}.pill.warn{background:#ffe1e1;color:#8a1020}
-table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:7px 6px;border-bottom:1px solid rgba(127,127,127,.25);text-align:left;vertical-align:top}
-th{font:600 13px 'Fira Sans Extra Condensed';text-transform:uppercase;color:var(--muted)}
-.v{font:700 12px 'Fira Sans';padding:2px 7px;border-radius:4px;color:#fff;white-space:nowrap}
-.v.KEEP{background:var(--good)}.v.SELL{background:var(--bad)}.v.WATCH{background:#e08a00}.v.BUY{background:#2a62ff}.v.CAPTAIN{background:#1d1838}
-.rumour{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;padding:8px 0;border-bottom:1px solid rgba(127,127,127,.2)}
-.rumour .k{font:700 11px 'Fira Sans';text-transform:uppercase;border-radius:4px;padding:2px 6px;height:fit-content;color:#fff;background:#6b6880}
-.rumour .k.confirmed{background:var(--good)}.rumour .k.rumour{background:#e08a00}.rumour .k.report{background:#2a62ff}
-.rumour .imp{grid-column:2;font-size:13px;color:var(--muted)}.rumour a{color:inherit}
-.alert{padding:8px 10px;border-left:4px solid #e08a00;margin:6px 0;background:rgba(224,138,0,.08);border-radius:4px}
-.alert.high{border-color:var(--bad);background:rgba(215,38,61,.08)}
-.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:860px){.cols{grid-template-columns:1fr}}
-footer{color:#fff;opacity:.9;font-size:12px;text-align:center;padding:18px 0 30px}
-.issues{color:var(--bad);font-weight:600}
+.frm{position:absolute;top:10px;left:12px;background:rgba(12,13,25,.85);color:#fff;font:700 13px 'Fira Sans Extra Condensed';padding:2px 9px;border-radius:6px}
+.row{position:relative;display:flex;justify-content:space-evenly;gap:6px;margin:4px 0 14px}
+.pl{width:136px;max-width:31%;text-align:center;position:relative}
+.shirt{position:relative;height:62px}.jsy{height:62px;filter:drop-shadow(0 4px 4px rgba(0,0,0,.35))}
+.cap{position:absolute;right:12px;top:2px;background:var(--lime);color:#14152a;border-radius:50%;width:24px;height:24px;font:800 13px/24px 'Fira Sans Extra Condensed'}
+.cap.vc{background:#fff}
+.fire{position:absolute;left:12px;top:0;font-size:15px}
+.tag{border-radius:8px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,.35)}
+.nm{background:#14152a;color:#fff;font:600 16px 'Fira Sans Extra Condensed';padding:4px 6px 3px;border-bottom:3px solid var(--orange);
+white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.nm i{font-style:normal;color:var(--faint);margin-right:5px}
+.gm{background:#f4f2ea;color:#14152a;font:600 15px 'Fira Sans Extra Condensed';padding:4px 6px;display:flex;justify-content:space-between;gap:4px;align-items:center}
+.gm b{background:#14152a;color:var(--lime);border-radius:5px;padding:0 6px}
+.meta{font-size:11.5px;color:rgba(255,255,255,.85);margin-top:4px;text-shadow:0 1px 2px rgba(0,0,0,.5)}
+.stat{display:inline-block;margin-top:4px;font:700 11px 'Fira Sans';border-radius:4px;padding:1px 6px;color:#fff;background:var(--red)}
+.stat.doubtful{background:var(--amber);color:#14152a}
+.box{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 6px;margin-top:12px}
+.box h4{margin:0 0 8px;text-align:center;color:var(--faint);font:600 13px 'Fira Sans';letter-spacing:1.5px;text-transform:uppercase}
+.box .row{margin:0;flex-wrap:wrap;row-gap:12px}.box .pl{width:124px;max-width:23%}.box .meta{color:var(--faint);text-shadow:none}
+@media(max-width:520px){.box .pl{max-width:46%}}
+.side h4{font-size:20px;margin:18px 0 10px}.side h4:first-child{margin-top:0}
+.trade{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:10px}
+.trade .pair{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:8px;align-items:center}
+.trade .arrow{color:var(--faint);font-size:18px}
+.mini{display:flex;gap:8px;align-items:center;min-width:0}.mini b{font-weight:600;font-size:15px}.mini small{color:var(--faint)}
+.mini .lbl{display:block;font:700 10px 'Fira Sans';letter-spacing:1px}.mini.out .lbl{color:var(--red)}.mini.in .lbl{color:var(--green)}
+.mj{height:34px;flex:0 0 auto}
+.trade .why{margin:8px 0 0;font-size:14.5px;color:var(--muted);line-height:1.5}
+.trade .num{float:right;font:700 13px 'Fira Sans';color:var(--faint);font-variant-numeric:tabular-nums}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;margin-top:10px}
+summary{cursor:pointer;font:600 18px 'Fira Sans Extra Condensed';list-style:none}
+summary::-webkit-details-marker{display:none}summary::after{content:'＋';float:right;color:var(--faint)}
+details[open] summary::after{content:'－'}
+details ul{margin:10px 0 2px;padding-left:20px}details li{margin:6px 0;color:var(--muted)}details li::marker{color:var(--orange)}
+.capline{font-size:15px;color:var(--muted)}.capline b{color:var(--lime)}
+.issues{background:rgba(255,93,108,.12);border:1px solid rgba(255,93,108,.4);color:#ffc2c8;border-radius:10px;padding:8px 12px;margin-bottom:12px;font-size:14px}
+.alerts{display:grid;gap:10px}
+.alert{display:grid;grid-template-columns:12px 1fr;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:15.5px}
+.alert::before{content:'';width:10px;height:10px;border-radius:50%;margin-top:7px;background:var(--amber)}
+.alert.high::before{background:var(--red);box-shadow:0 0 0 4px rgba(255,93,108,.18)}
+.rum{display:grid;gap:10px}
+.r{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.r .top{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:4px}
+.r .k{font:700 10.5px 'Fira Sans';letter-spacing:.8px;text-transform:uppercase;border-radius:4px;padding:2px 7px;background:var(--card2);color:var(--muted)}
+.r .k.confirmed{color:var(--green)}.r .k.report{color:var(--blue)}.r .k.rumour{color:var(--amber)}
+.r .team{font-weight:600}.r p{margin:0;font-size:15px}
+.r .imp{margin-top:6px;font-size:14.5px;color:var(--muted)}.r .imp::before{content:'→ ';color:var(--orange)}
+.players{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}@media(max-width:760px){.players{grid-template-columns:minmax(0,1fr)}}
+.pc{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.pc .top{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:4px}.pc b{font-size:16px}
+.pc p{margin:0;font-size:14.5px;color:var(--muted)}
+.v{font:700 11px 'Fira Sans';letter-spacing:.6px;padding:3px 8px;border-radius:999px;white-space:nowrap;background:var(--card2)}
+.v.KEEP{color:var(--green)}.v.SELL{color:var(--red)}.v.WATCH{color:var(--amber)}.v.BUY{color:var(--blue)}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}@media(max-width:860px){.two{grid-template-columns:minmax(0,1fr)}}
+.watch{margin:0;padding:0;list-style:none;display:grid;gap:10px}.watch li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;font-size:15px;color:var(--muted)}
+.watch b{color:var(--ink)}
+footer{color:var(--faint);font-size:12.5px;text-align:center;margin-top:36px;line-height:1.5}
 """
 
 JS = """
@@ -286,84 +348,140 @@ try{const s=localStorage.getItem('elf-tab');const b=s&&document.querySelector('.
 """
 
 
+def current_points(D):
+    """Projected points of the squad exactly as it is set now (my_team.json lineup)."""
+    try:
+        t = json.loads((ROOT / "my_team.json").read_text(encoding="utf-8"))
+        lu = t.get("lineup") or {}
+        st = [D.player(n) for n in lu.get("starters", [])]
+        if len(st) != 5:
+            return None
+        pts, _ = squad_points(st, D.player(lu["sixth"]) if lu.get("sixth") else None,
+                              [D.player(n) for n in lu.get("bench", [])], t.get("captain", ""),
+                              D.games.get(coach_code_of(t.get("coach", ""))))
+        return pts
+    except Exception:
+        return None
+
+
+def deadline(D):
+    t1 = [g for g in D.games.values() if g.get("turn") == 1 and g.get("time")]
+    if not t1:
+        return None
+    g = min(t1, key=lambda g: g["time"])
+    hh, mm = map(int, g["time"].split(":"))
+    return f"{g['date']} · {hh - 1:02d}:{mm:02d} CET"   # site times are Athens time (CET+1)
+
+
 def render(date):
     R = json.loads((ROOT / "reports" / f"{date}.json").read_text(encoding="utf-8"))
     D = Data(date)
     rnd = R.get("round", D.target)
-    tabs, panes = [], []
+    tabs, panes, built = [], [], []
     for i, v in enumerate(R["variations"]):
         vid = f"v{v['key']}"
         st = [D.player(n) for n in v["starters"]]
         sixth = D.player(v["sixth"]) if v.get("sixth") else None
         bench = [D.player(n) for n in v["bench"]]
-        coach_code = NAME2CODE.get(norm(v["coach"]).replace("  ", " "), v["coach"].upper()[:3])
-        cg = D.games.get(coach_code)
+        cc = coach_code_of(v["coach"])
+        cg = D.games.get(cc)
         total, cpts = squad_points(st, sixth, bench, v["captain"], cg)
-        issues = validate(st + ([sixth] if sixth else []) + bench, coach_code, v.get("bank_after"), None)
-        # next-round sum for the same 10 (no lineup weighting) as a double-week signal
-        nxt = sum((p.get("proj_next") or 0) for p in st + ([sixth] if sixth else []))
-        trades = "".join(
-            f"""<div class="trade"><span class="out">▼ {esc(t['out'])}</span>→<span class="in">▲ {esc(t['in'])}</span>
-<span class="d">{esc(t.get('credits', ''))}</span><div class="r">{esc(t.get('why', ''))}</div></div>"""
-            for t in v.get("trades", [])) or '<p>No trades: lineup changes only.</p>'
+        trades = v.get("trades", [])
+        issues = validate(st + ([sixth] if sixth else []) + bench, v.get("bank_after"), len(trades))
+        built.append((v, st, sixth, bench, cc, total))
+
+        tcards = []
+        for k, t in enumerate(trades, 1):
+            on, op = split_name(t["out"])
+            inn, ip = split_name(t["in"])
+            oc = D.player(on).get("t") if not t["out"].startswith("Coach") else coach_code_of(on)
+            ic = D.player(inn).get("t") if not t["in"].startswith("Coach") else coach_code_of(inn)
+            tcards.append(f"""<div class="trade"><span class="num">#{k} · {esc(t.get('credits', ''))}</span>
+<div class="pair">{mini(on, oc, op, 'out')}<span class="arrow">→</span>{mini(inn, ic, ip, 'in')}</div>
+<p class="why">{esc(t.get('why', ''))}</p></div>""")
         g_c = cg or {}
-        coach_card = f"""<div class="pl sm coach"><div class="shirt">{jersey(coach_code, 'HC')}</div>
-<div class="tag"><div class="nm"><b>HC</b> {esc(TEAM.get(coach_code, ('', v['coach']))[1])}</div>
-<div class="gm">{esc(opp_txt(g_c))}<span class="pj">{cpts:+.1f}</span></div></div>
+        coach_card = f"""<div class="pl sm"><div class="shirt">{jersey(cc, 'HC')}</div>
+<div class="tag"><div class="nm"><i>HC</i>{esc(TEAM.get(cc, ('', v['coach']))[1])}</div>
+<div class="gm"><span>{esc(opp_txt(g_c))}</span><b>{cpts:+.1f}</b></div></div>
 <div class="meta">win {int(round((g_c.get('pwin') or 0) * 100))}% · margin {g_c.get('margin', 0):+d}</div></div>"""
-        rec = '<span class="pill rec">RECOMMENDED</span> ' if v.get("recommended") else ""
         tabs.append(f'<button class="tab" role="tab" data-v="{vid}" aria-selected="{str(i == 0).lower()}">'
-                    f'{esc(v["key"])} · {esc(v["name"])}<small>{total:.0f} proj pts · {esc(v.get("risk", ""))} risk</small></button>')
-        panes.append(f"""<section class="var{' on' if i == 0 else ''}" id="{vid}">
+                    f'{esc(v["key"])} · {esc(v["name"])}<small>{total:.0f} pts · {esc(v.get("risk", ""))} risk'
+                    f'{" · recommended" if v.get("recommended") else ""}</small></button>')
+        panes.append(f"""<div class="var{' on' if i == 0 else ''}" id="{vid}">
+<div class="vhead"><h3>{esc(v['name'])}</h3>{'<span class="pill rec">Recommended</span>' if v.get('recommended') else ''}
+<span class="pill {esc(v.get('risk', ''))}">{esc(v.get('risk', ''))} risk</span></div>
+<p class="tagline">{esc(v.get('tagline', ''))}</p>
+{('<div class="issues">⚠ ' + esc('; '.join(issues)) + '</div>') if issues else ''}
+<div class="kpis"><div class="kpi"><span>Projected pts</span><b class="l">{total:.0f}</b></div>
+<div class="kpi"><span>Trades</span><b>{len(trades)}/4</b></div>
+<div class="kpi"><span>Bank after</span><b>{v.get('bank_after', 0):.1f}</b></div>
+<div class="kpi"><span>Captain</span><b>{esc(surname(v['captain']))}</b></div></div>
 <div class="grid"><div>
 {court(st, v.get('formation', '2-2-1'), v['captain'], v.get('vice', ''))}
-<div class="benchwrap"><div class="box"><h4>6TH MAN (100%) &amp; COACH</h4><div class="row">{card(sixth, small=True) if sixth else ''}{coach_card}</div></div>
-<div class="box"><h4>BENCH (50%)</h4><div class="row">{''.join(card(p, small=True) for p in bench)}</div></div></div>
-</div>
-<div class="panel why"><h3>{rec}{esc(v['name'])}</h3><p><i>{esc(v.get('tagline', ''))}</i></p>
-<div class="kpis"><div class="kpi"><b>{total:.0f}</b><span>proj. fantasy pts R{rnd}</span></div>
-<div class="kpi"><b>{v.get('bank_after', 0):.1f}</b><span>bank after</span></div>
-<div class="kpi"><b>{len(v.get('trades', []))}/4</b><span>trades used</span></div></div>
-{('<p class="issues">⚠ ' + esc('; '.join(issues)) + '</p>') if issues else ''}
-<h4>Trades</h4>{trades}
-<h4>Why this squad</h4><ul>{''.join(f'<li>{esc(x)}</li>' for x in v.get('reasoning', []))}</ul>
-<h4>Captain</h4><p>{esc(v.get('captain_note', v['captain']))}</p>
-{('<h4>Cancel if…</h4><ul>' + ''.join(f'<li>{esc(x)}</li>' for x in v.get('cancel_if', [])) + '</ul>') if v.get('cancel_if') else ''}
-<p class="meta" style="color:var(--muted)">Next round (R{rnd + 1}) raw projection of the active six: {nxt:.0f} PIR</p>
-</div></div></section>""")
+<div class="box"><h4>6th man (100%) &amp; coach</h4><div class="row">{card(sixth, small=True) if sixth else ''}{coach_card}</div></div>
+<div class="box"><h4>Bench (50%)</h4><div class="row">{''.join(card(p, small=True) for p in bench)}</div></div>
+</div><div class="side">
+<h4>Trades</h4>{''.join(tcards) or '<p>No trades.</p>'}
+<p class="capline">🧢 <b>{esc(surname(v['captain']))}</b> captain{(' · vice ' + esc(surname(v['vice']))) if v.get('vice') else ''}. {esc(v.get('captain_note', ''))}</p>
+<details{' open' if v.get('recommended') else ''}><summary>Why this squad</summary><ul>{''.join(f'<li>{esc(x)}</li>' for x in v.get('reasoning', []))}</ul></details>
+{('<details><summary>Change the plan if…</summary><ul>' + ''.join(f'<li>{esc(x)}</li>' for x in v.get('cancel_if', [])) + '</ul></details>') if v.get('cancel_if') else ''}
+</div></div></div>""")
 
-    alerts = "".join(f'<div class="alert {esc(a.get("level", ""))}">{esc(a["text"])}</div>' for a in R.get("alerts", []))
-    rum = "".join(
-        f"""<div class="rumour"><span class="k {esc(r.get('kind', ''))}">{esc(r.get('kind', ''))}</span>
-<div><b>{esc(r.get('team', ''))}</b> {esc(r['text'])} {f'<a href="{esc(r["source"])}" target="_blank" rel="noopener">source</a>' if r.get('source') else ''}</div>
-<div class="imp">Fantasy impact: {esc(r.get('impact', ''))}</div></div>""" for r in R.get("rumours", []))
-    rows = "".join(
-        f"<tr><td><b>{esc(p['name'])}</b></td><td><span class='v {esc(p['verdict'].split('/')[0])}'>{esc(p['verdict'])}</span></td>"
-        f"<td>{esc(p['read'])}</td></tr>" for p in R.get("players", []))
+    # ---- 60-second plan from the recommended variation
+    rv, rst, rsix, rbench, rcc, rtotal = next((b for b in built if b[0].get("recommended")), built[0])
+    now = current_points(D)
+    tl = "".join(f'<div><span class="o">▼ {esc(split_name(t["out"])[0])}</span> → <span class="n">▲ {esc(split_name(t["in"])[0])}</span>'
+                 f'<span class="cr">{esc(t.get("credits", ""))}</span></div>' for t in rv.get("trades", []))
+    plan = f"""<section><div class="card plan"><div class="kick">Your plan in 60 seconds · Variation {esc(rv['key'])}</div>
+<p class="lead">{esc(R['bottom_line'])}</p>
+<ol class="steps">
+<li><div><h4>Make {len(rv.get('trades', []))} trades</h4><div class="tl">{tl}</div></div></li>
+<li><div><h4>Set the lineup ({esc(rv.get('formation', ''))})</h4><div class="lineup"><b>Start:</b> {esc(', '.join(surname(p['name']) for p in rst))}
+· <b>6th:</b> {esc(surname(rsix['name']) if rsix else '–')} · <b>Bench:</b> {esc(', '.join(surname(p['name']) for p in rbench))}
+· <b>Coach:</b> {esc(TEAM.get(rcc, ('', rv['coach']))[1])}</div></div></li>
+<li><div><h4>Captain {esc(surname(rv['captain']))}</h4><div class="lineup">Vice: {esc(surname(rv.get('vice', '')) or '–')}</div></div></li>
+</ol>
+<div class="delta">{f'Your lineup now <b style="color:var(--ink)">{now:.0f}</b> →' if now else ''} with this plan <strong>{rtotal:.0f}</strong> projected points</div>
+{f'<div class="fix"><b>No-trade fix:</b> {esc(R["current_fix"])}</div>' if R.get('current_fix') else ''}
+</div></section>"""
+
+    alerts = "".join(f'<div class="alert {esc(a.get("level", ""))}"><div>{esc(a["text"])}</div></div>' for a in R.get("alerts", []))
+
+    def rum_item(r):
+        src = f' · <a href="{esc(r["source"])}" target="_blank" rel="noopener">source</a>' if r.get("source") else ""
+        return (f'<div class="r"><div class="top"><span class="k {esc(r.get("kind", ""))}">{esc(r.get("kind", ""))}</span>'
+                f'<span class="team">{esc(r.get("team", ""))}</span></div><p>{esc(r["text"])}{src}</p>'
+                f'<div class="imp">{esc(r.get("impact", ""))}</div></div>')
+    rums = R.get("rumours", [])
+    rum_html = "".join(rum_item(r) for r in rums[:4])
+    if len(rums) > 4:
+        rum_html += f'<details><summary>{len(rums) - 4} more</summary><div class="rum" style="margin-top:10px">' + \
+                    "".join(rum_item(r) for r in rums[4:]) + "</div></details>"
+    players = "".join(
+        f"<div class='pc'><div class='top'><b>{esc(p['name'])}</b><span class='v {esc(p['verdict'].split('/')[0])}'>{esc(p['verdict'])}</span></div>"
+        f"<p>{esc(p['read'])}</p></div>" for p in R.get("players", []))
     watch = "".join(f"<li><b>{esc(w['name'])}</b>: {esc(w['why'])}</li>" for w in R.get("watchlist", []))
-    cur = R.get("current_fix")
-    cur_html = f"""<div class="panel"><h2>Your squad right now</h2><p>{esc(cur)}</p></div>""" if cur else ""
+    dl = deadline(D)
+    b = R.get("budget", {})
 
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Fantasy Round {rnd} Plan</title>
+<meta name="theme-color" content="#0c0d19"><title>Fantasy Round {rnd} Plan</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@500;600;700;800&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>{CSS}</style></head><body><div class="wrap">
-<header class="top"><div><div class="sub cond">EUROLEAGUE FANTASY · ANALYST REPORT · {esc(date)}</div>
-<h1>Round {rnd} plan</h1></div>
-<div class="chips"><span class="chip y">Budget {R.get('budget', {}).get('total', '–')}</span>
-<span class="chip">Bank {R.get('budget', {}).get('bank', '–')}</span><span class="chip">{esc(R.get('window', ''))}</span></div></header>
-<div class="panel bottom"><h2>Bottom line</h2>{esc(R['bottom_line'])}</div>
-{cur_html}
-<div class="tabs" role="tablist">{''.join(tabs)}</div>
-{''.join(panes)}
-<div class="cols"><div class="panel"><h2>🚨 Alerts</h2>{alerts or '<p>None.</p>'}</div>
-<div class="panel"><h2>🗞 Locker room &amp; rumours</h2>{rum or '<p>Nothing notable.</p>'}</div></div>
-<div class="panel"><h2>📋 Your players</h2><table><thead><tr><th>Player</th><th>Verdict</th><th>Read</th></tr></thead><tbody>{rows}</tbody></table></div>
-<div class="cols"><div class="panel"><h2>🔭 Watchlist</h2><ul>{watch}</ul></div>
-<div class="panel"><h2>📊 Last round review</h2><p>{esc(R.get('review', ''))}</p></div></div>
-<footer>Projections: basketballstats.eu model, adjusted by the analyst. Points = PIR × win bonus, captain ×2, bench ×0.5, coach expected value from projected margin.
-Recommendations only — make changes in the official game yourself.</footer>
+<header><div class="kick">EuroLeague Fantasy · analyst report · {esc(date)}</div><h1>Round {rnd} plan</h1>
+<div class="chips">{f'<span class="chip hot">Deadline <b>{esc(dl)}</b></span>' if dl else ''}
+<span class="chip">Budget <b>{esc(b.get('total', '–'))}</b></span><span class="chip">Bank <b>{esc(b.get('bank', '–'))}</b></span>
+{f'<span class="chip">{esc(R["window"])}</span>' if R.get('window') else ''}</div></header>
+{plan}
+<section><h2>Three ways to play it</h2><div class="tabs" role="tablist">{''.join(tabs)}</div>{''.join(panes)}</section>
+<section class="two"><div><h2>🚨 Alerts</h2><div class="alerts">{alerts or '<p>None.</p>'}</div></div>
+<div><h2>🗞 Locker room &amp; rumours</h2><div class="rum">{rum_html or '<p>Nothing notable.</p>'}</div></div></section>
+<section><h2>📋 Your players</h2><div class="players">{players}</div></section>
+<section class="two"><div><h2>🔭 Watchlist</h2><ul class="watch">{watch}</ul></div>
+<div><h2>📊 Last round</h2><div class="card" style="color:var(--muted)">{esc(R.get('review', ''))}</div></div></section>
+<footer>Projected points = projected PIR × win bonus, captain ×2, bench ×0.5, plus the coach's expected score from the projected margin.<br>
+Data: basketballstats.eu model plus the analyst's own research. Recommendations only: make your changes in the official game.</footer>
 </div><script>{JS}</script></body></html>"""
     out = ROOT / "reports" / f"{date}.html"
     out.write_text(page, encoding="utf-8")

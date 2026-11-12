@@ -57,10 +57,16 @@ say whether you **agree, and why**, or **disagree, and why**.
 - Price momentum: buy **before** the rise (strong form, easy upcoming games), sell **before**
   the drop (injury, tough games, role loss). A +0.3/round riser held for 3 rounds adds about 1
   credit of team value, which pays for an upgrade later.
-- Trade economy: every trade costs a slot you can't get back this round. Don't spend one for a
-  gain under about 3 projected points over the horizon unless it also fixes availability or
-  price. **Before an unlimited window, never pay for the long term**: optimise only for the
-  rounds before it, and keep trades for injuries.
+- **Trade economy (the user's rule): use all 4 trades every round.** Unused trades don't carry
+  over, so an unused trade is wasted value. Every variation must use exactly 4 trades (the coach
+  counts as one). After the obvious upgrades, spend the remaining trades on, in order:
+  dead-weight bench players (low PIR, falling price), price-rise buys before they rise, cheap
+  enablers that fund next round's upgrade, Wednesday/late-turn players for captain and
+  lineup flexibility. Only use fewer than 4 if every remaining move has negative expected value,
+  and then say exactly why in the reasoning.
+  "Wait for news" is not a reason to hold trades in a report: the report is the plan. Put the
+  late-news contingency in `cancel_if` instead ("if X is ruled out, swap trade 3 to Y").
+  **Before an unlimited window, never pay for the long term**: optimise only for the rounds before it.
 - Double weeks: two rounds back to back. Players with two good matchups and no fatigue risk
   are worth a premium. Think through both rounds before using trades in the first one.
 - Ownership: high-owned players are "template". Benching or selling one is a risk to your
@@ -131,16 +137,16 @@ page shows a red "⚠" issues line for a variation, fix the JSON and render agai
 Copy the shape of the latest existing `reports/*.json` exactly. Fields:
 
 - `date`, `round` (target round), `budget` {`total`, `bank`}, `window` (one short line about the trade window)
-- `bottom_line`: 3–4 sentences. What to do and why, in plain words.
+- `bottom_line`: 2–3 short sentences. What to do and why, in plain words. No jargon.
 - `current_fix`: what to change in the current lineup with zero trades (or null).
 - `variations`: **exactly 3**, ordered A, B, C. Each one is a different strategy, not a small tweak:
   usually A = recommended / balanced, B = high ceiling / differential, C = an alternative angle
   (double-week planning, sell-high, safety for rank protection, etc.). Each has:
   `key`, `name`, `recommended` (true only for one), `risk` (Low/Medium/High), `tagline`,
-  `trades` [{`out`, `in`, `credits` like "−2.4", `why`}] (coach trades as "Coach X (price)"),
+  `trades` [{`out`, `in`, `credits` like "−2.4", `why`}]: **4 entries** (coach trades as "Coach X (price)"; keep `why` to 1–2 short sentences),
   `bank_after`, `formation` (one of 2-2-1, 1-2-2, 2-1-2, 1-3-1, 3-1-1), `starters` (5 names
   matching the formation's G-F-C counts), `sixth`, `bench` (4 names), `coach` (club name),
-  `captain`, `vice`, `captain_note`, `reasoning` (4–6 bullets mixing the coach lens and the fantasy lens),
+  `captain`, `vice`, `captain_note` (1–2 sentences), `reasoning` (4–6 short bullets, one idea each, mixing the coach lens and the fantasy lens),
   `cancel_if` (1–3 triggers).
   Use full player names as on basketballstats.eu.
 - `alerts` [{`level`: "high" or "", `text`}]
