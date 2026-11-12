@@ -9,7 +9,35 @@ Target round: **R12** · decision horizon: R12, R13 · rounds in progress today:
 - R15: 2026-12-03 → 2026-12-04 · 4 trades
 
 ## My team
-Cost 99.5 · bank 0.5 · coach MUN · captain Dwayne Bacon · clubs {'MAD': 2, 'MIL': 2, 'BES': 1, 'DUB': 1, 'IST': 1, 'OLY': 1, 'MUN': 1, 'VIR': 1}
+Cost 103.3 · bank 0.5 · coach PAR · captain Sasha Vezenkov · clubs {'PRS': 1, 'RED': 1, 'OLY': 1, 'MAD': 1, 'TEL': 1, 'BAS': 1, 'VIR': 1, 'PAN': 1, 'IST': 1, 'BAR': 1}
+
+### Mouhamed Faye — Paris Basketball · Center · 7.8 cr · owned 3.0%
+- Status: **?** · site signal None () · grade None · data fresh today: False
+- Form PIR L3/L5/L10: None/None/None · minutes L3 None vs L10 None · PIR/min None · starts 0%
+- Round log (round, PIR, min): 11 games, 6.4 points, 3.9 rebounds, 1.1 assists and 10.1 PIR per game
+- Price Δ last 3/5/10 rounds: None/None/None · since start 0.8 · projected change after round None · PIR≥price 7/10
+- Schedule: no projection
+- Window score (site proj, weighted): None · P10–P90 this round None–None · win prob None
+- Domestic league: LNB Élite (France)
+
+### Dejan Davidovac — Crvena Zvezda · Forward · 4.7 cr · owned 11.0%
+- Status: **playing** · site signal buy (value+, price+, schedule-) · grade A · data fresh today: True
+- Form PIR L3/L5/L10: 7/5.8/6.1 · minutes L3 12.2 vs L10 12.7 · PIR/min 0.485 · starts 20%
+- Round log (round, PIR, min): [(4, 6, 14.9), (5, 8, 10.8), (6, 9, 16.1), (7, -1, 10.4), (8, 4, 12.9), (9, 12, 12.1), (10, 5, 11.6)]
+- Price Δ last 3/5/10 rounds: 0.3/0.3/0.3 · since start 0.3 · projected change after round 0.0 · PIR≥price 5/7
+- Schedule: R12 @MIL 5.5 (diff 4/5) | R13 @BAR 5.3 (diff 5/5)
+- Window score (site proj, weighted): 9.21 · P10–P90 this round -1.7–14 · win prob 0.42
+- Domestic league: ABA League
+
+### Sasha Vezenkov — Olympiacos · Forward · 18.9 cr · owned 46.0%
+- Status: **playing** · site signal buy (value+, price+, schedule-) · grade A+ · data fresh today: True
+- Form PIR L3/L5/L10: 23/25.4/22.9 · minutes L3 29.9 vs L10 27.3 · PIR/min 0.838 · starts 100%
+- Round log (round, PIR, min): [(1, 30, 19.0), (2, 26, 24.6), (3, 23, 26.6), (4, 7, 21.7), (5, 16, 27.2), (6, 38, 30.7), (7, 20, 33.9), (8, 19, 24.0), (9, 22, 31.9), (10, 28, 33.8)]
+- Price Δ last 3/5/10 rounds: 0.5/1.4/1.9 · since start 1.9 · projected change after round 0.2 · PIR≥price 8/10
+- Schedule: R12 @TEL 23.3 (diff 4/5) | R13 vsMAD 23.5 (diff 3/5)
+- Window score (site proj, weighted): 39.75 · P10–P90 this round 14.2–36 · win prob 0.634
+- When Tyler Dorsey, Jean Montero out (4 games): minutes +1.1, PIR +0.9 (avg min then 30.9)
+- Domestic league: GBL (Greece)
 
 ### Andres Feliz — Real Madrid · Guard · 9.3 cr · owned 36.0%
 - Status: **playing** · site signal buy (value+, price+, minutes+) · grade A+ · data fresh today: True
@@ -21,72 +49,24 @@ Cost 99.5 · bank 0.5 · coach MUN · captain Dwayne Bacon · clubs {'MAD': 2, '
 - When Gabriel Deck, Mikael Jantunen, Facundo Campazzo, Theo Maledon out (1 games): minutes +4.2, PIR +2.5 (avg min then 33.9)
 - Domestic league: Liga ACB (Spain)
 
-### Rj Cole — Olimpia Milano · Guard · 8.9 cr · owned 0.7%
-- Status: **playing** · site signal buy (value+, dip-, minutes+) · grade A+ · data fresh today: True
-- Form PIR L3/L5/L10: 14/14.2/9.6 · minutes L3 27.2 vs L10 19.8 · PIR/min 0.485 · starts 100%
-- Round log (round, PIR, min): [(1, -6, 8.2), (2, 8, 15.9), (3, 10, 21.8), (4, 9, 21.1), (5, 4, 11.1), (6, 19, 20.1), (7, 10, 18.3), (8, 11, 26.1), (9, 21, 27.8), (10, 10, 27.8)]
-- Price Δ last 3/5/10 rounds: 0.6/1.1/0.4 · since start 0.4 · projected change after round 0.1 · PIR≥price 7/10
-- Schedule: R12 vsRED 10.8 (diff 3/5) | R13 vsULK 10.9 (diff 2/5, B2B)
-- Window score (site proj, weighted): 18.43 · P10–P90 this round 2.6–23.3 · win prob 0.395
-- When Devin Booker out (1 games): minutes +2.1, PIR +1 (avg min then 27.8)
-- Domestic league: LBA (Italy)
-  - news [minutes_up] 2026-11-04:  {"m3": 24.1, "m10": 18.9}
+### Yam Madar — Maccabi Tel Aviv · Guard · 10.5 cr · owned 9.0%
+- Status: **playing** · site signal buy (value+, price+, dip+) · grade A+ · data fresh today: True
+- Form PIR L3/L5/L10: 10.7/13/14.4 · minutes L3 21.5 vs L10 22.3 · PIR/min 0.647 · starts 80%
+- Round log (round, PIR, min): [(1, 16, 26.0), (2, 10, 20.8), (3, 0, 15.7), (4, 22, 23.0), (5, 31, 26.8), (6, 15, 19.7), (7, 18, 26.1), (8, 2, 15.8), (9, 17, 27.2), (10, 13, 21.4)]
+- Price Δ last 3/5/10 rounds: -0.1/0.4/1.7 · since start 1.7 · projected change after round 0.1 · PIR≥price 7/10
+- Schedule: R12 vsOLY 13 (diff 2/5) | R13 vsDUB 13.1 (diff 4/5, B2B)
+- Window score (site proj, weighted): 22.17 · P10–P90 this round 4.4–25.3 · win prob 0.366
+- When Iffe Lundberg out (4 games): minutes +0.9, PIR +0.6 (avg min then 22.6)
+- Domestic league: Winner League (Israel)
 
-### Scottie Wilbekin — Besiktas · Guard · 8.6 cr · owned 6.0%
-- Status: **playing** · site signal buy (value+, price+, minutes-) · grade B+ · data fresh today: True
-- Form PIR L3/L5/L10: 3.3/8.2/10.9 · minutes L3 16.8 vs L10 22 · PIR/min 0.496 · starts 20%
-- Round log (round, PIR, min): [(1, 13, 24.2), (2, 18, 22.9), (3, 16, 25.4), (4, 17, 26.4), (5, 4, 20.3), (6, 17, 24.4), (7, 14, 25.8), (8, -1, 17.8), (9, 16, 24.2), (10, -5, 8.3)]
-- Price Δ last 3/5/10 rounds: -0.7/-0.1/1.1 · since start 1.1 · projected change after round 0.0 · PIR≥price 7/10
-- Schedule: R12 vsMAD 8.7 (diff 2/5) | R13 @PAR 7.9 (diff 2/5, B2B)
-- Window score (site proj, weighted): 14.23 · P10–P90 this round 0.3–20.4 · win prob 0.419
-- When Jaylen Nowell out (None games): minutes +0.7, PIR +0.3 (avg min then None)
-- Domestic league: BSL (Turkey)
-
-### Devon Hall — Olimpia Milano · Guard · 8.6 cr · owned 1.0%
-- Status: **playing** · site signal buy (value+, price+, dip+) · grade A · data fresh today: True
-- Form PIR L3/L5/L10: 8.7/6.8/10.6 · minutes L3 25.3 vs L10 25.5 · PIR/min 0.415 · starts 100%
-- Round log (round, PIR, min): [(1, 16, 27.9), (2, 10, 22.9), (3, 18, 35.0), (4, 12, 24.8), (5, 16, 26.8), (6, 5, 22.4), (7, 3, 19.6), (8, 13, 31.0), (9, 7, 21.9), (10, 6, 23.1)]
-- Price Δ last 3/5/10 rounds: -0.1/-0.6/0.4 · since start 0.4 · projected change after round 0.1 · PIR≥price 6/10
-- Schedule: R12 vsRED 9.7 (diff 3/5) | R13 vsULK 9.9 (diff 2/5, B2B)
-- Window score (site proj, weighted): 16.63 · P10–P90 this round 0.4–20.2 · win prob 0.395
-- Domestic league: LBA (Italy)
-
-### Dwayne Bacon — Dubai Basketball · Forward · 14.6 cr · owned 13.0%
-- Status: **playing** · site signal buy (value+, price+, minutes+) · grade A · data fresh today: True
-- Form PIR L3/L5/L10: 20/19/18.5 · minutes L3 30.8 vs L10 27.1 · PIR/min 0.682 · starts 100%
-- Round log (round, PIR, min): [(1, 31, 29.1), (2, 19, 26.2), (3, 9, 24.8), (4, 15, 30.9), (5, 16, 26.9), (6, 27, 24.6), (7, 8, 16.4), (8, 27, 34.0), (9, 20, 30.1), (10, 13, 28.2)]
-- Price Δ last 3/5/10 rounds: 0.7/1.0/1.9 · since start 1.9 · projected change after round 0.0 · PIR≥price 7/10
-- Schedule: R12 vsIST 15.8 (diff 5/5) | R13 @TEL 15.5 (diff 4/5, B2B)
-- Window score (site proj, weighted): 26.65 · P10–P90 this round 5.4–26.7 · win prob 0.366
-- When Thomas Walkup out (4 games): minutes +1.1, PIR +0.6 (avg min then 27.2)
-- Domestic league: ABA League
-
-### Collin Malcolm — Anadolu Efes · Forward · 9.8 cr · owned 19.0%
-- Status: **playing** · site signal buy (value+, dip-, price+) · grade A+ · data fresh today: True
-- Form PIR L3/L5/L10: 18.3/17/13 · minutes L3 29.8 vs L10 25.8 · PIR/min 0.503 · starts 100%
-- Round log (round, PIR, min): [(1, 9, 17.4), (2, 2, 15.8), (3, 10, 23.9), (4, 5, 16.4), (5, 19, 28.8), (6, 19, 36.0), (7, 11, 30.9), (8, 13, 25.9), (9, 21, 31.4), (10, 21, 31.9)]
-- Price Δ last 3/5/10 rounds: 1.0/1.6/1.7 · since start 1.7 · projected change after round 0.2 · PIR≥price 7/10
-- Schedule: R12 @DUB 12.4 (diff 5/5) | R13 vsASV 15.2 (diff 2/5)
-- Window score (site proj, weighted): 23.04 · P10–P90 this round 4.3–24.3 · win prob 0.625
-- Domestic league: BSL (Turkey)
-
-### Mbaye Ndiaye — Olympiacos · Forward · 8.3 cr · owned 5.0%
-- Status: **playing** · site signal buy (value+, price+, schedule-) · grade B+ · data fresh today: True
-- Form PIR L3/L5/L10: 4.7/7.2/10.2 · minutes L3 17.8 vs L10 17.4 · PIR/min 0.585 · starts 0%
-- Round log (round, PIR, min): [(1, 2, 7.6), (2, 11, 18.6), (3, 29, 20.0), (4, 14, 18.3), (5, 10, 23.9), (6, 28, 24.2), (7, -6, 8.4), (8, 6, 21.3), (9, 5, 20.0), (10, 3, 12.2)]
-- Price Δ last 3/5/10 rounds: -0.6/-0.4/0.8 · since start 0.8 · projected change after round 0.0 · PIR≥price 5/10
-- Schedule: R12 @TEL 8.3 (diff 4/5) | R13 vsMAD 8.3 (diff 3/5)
-- Window score (site proj, weighted): 14.11 · P10–P90 this round 0.2–18.8 · win prob 0.634
-- Domestic league: GBL (Greece)
-
-### Oscar Da Silva — Bayern Munich · Forward · 7.6 cr · owned 1.0%
-- Status: **playing** · site signal hold (value-, price+, schedule+) · grade C+ · data fresh today: True
-- Form PIR L3/L5/L10: 10.7/9.8/9.2 · minutes L3 16.5 vs L10 16.9 · PIR/min 0.548 · starts 0%
-- Round log (round, PIR, min): [(1, 1, 9.2), (2, 4, 16.9), (4, 20, 26.0), (5, 2, 9.3), (6, 15, 24.2), (7, 18, 23.1), (8, 5, 9.2), (9, 9, 17.1)]
-- Price Δ last 3/5/10 rounds: -0.2/0.5/0.3 · since start 0.3 · projected change after round -0.1 · PIR≥price 4/8
-- Schedule: R12 @ZAL 4.8 (diff 1/5) | R13 vsBAS 4.9 (diff 5/5, B2B)
-- Window score (site proj, weighted): 8.23 · P10–P90 this round -1.2–14.5 · win prob 0.177
-- Domestic league: BBL (Germany)
+### Stefan Joksimovic — Baskonia · Forward · 4.2 cr · owned 15.0%
+- Status: **?** · site signal None () · grade None · data fresh today: False
+- Form PIR L3/L5/L10: None/None/None · minutes L3 None vs L10 None · PIR/min None · starts 0%
+- Round log (round, PIR, min): 10 games, 5.1 points, 1.5 rebounds, 1.8 assists and 3.2 PIR per game
+- Price Δ last 3/5/10 rounds: None/None/None · since start 0.2 · projected change after round None · PIR≥price 3/10
+- Schedule: no projection
+- Window score (site proj, weighted): None · P10–P90 this round None–None · win prob None
+- Domestic league: Liga ACB (Spain)
 
 ### Aliou Diarra — Virtus Bologna · Center · 10.8 cr · owned 38.0%
 - Status: **playing** · site signal buy (value+, price+, minutes-) · grade A+ · data fresh today: True
@@ -97,27 +77,46 @@ Cost 99.5 · bank 0.5 · coach MUN · captain Dwayne Bacon · clubs {'MAD': 2, '
 - Window score (site proj, weighted): 22.19 · P10–P90 this round 3.2–24.6 · win prob 0.375
 - Domestic league: LBA (Italy)
 
-### Chuma Okeke — Real Madrid · Center · 8.8 cr · owned 1.0%
-- Status: **playing** · site signal buy (value+, price+, dip+) · grade A · data fresh today: True
-- Form PIR L3/L5/L10: 8/10.8/9.2 · minutes L3 20.7 vs L10 18.2 · PIR/min 0.507 · starts 40%
-- Round log (round, PIR, min): [(2, 14, 20.1), (3, 5, 13.9), (4, 3, 11.9), (5, 7, 13.6), (6, 20, 18.8), (7, 10, 23.2), (8, 7, 12.4), (9, 9, 23.1), (10, 8, 26.7)]
-- Price Δ last 3/5/10 rounds: -0.2/0.3/-0.2 · since start -0.2 · projected change after round 0.1 · PIR≥price 4/9
-- Schedule: R12 @BES 9.4 (diff 4/5) | R13 @OLY 8.9 (diff 4/5, B2B)
-- Window score (site proj, weighted): 15.63 · P10–P90 this round 2–19.7 · win prob 0.58
-- When Gabriel Deck, Mikael Jantunen, Facundo Campazzo, Theo Maledon out (1 games): minutes +2.6, PIR +1.2 (avg min then 26.7)
+### Kendrick Nunn — Panathinaikos · Guard · 14.8 cr · owned 15.0%
+- Status: **playing** · site signal hold (value+, minutes+, schedule+) · grade B+ · data fresh today: True
+- Form PIR L3/L5/L10: 22.3/18.8/18.8 · minutes L3 24.2 vs L10 23.1 · PIR/min 0.812 · starts 25%
+- Round log (round, PIR, min): [(7, 8, 19.6), (8, 26, 22.8), (9, 10, 26.2), (10, 31, 23.7)]
+- Price Δ last 3/5/10 rounds: 1.1/0.7/0.2 · since start 0.2 · projected change after round 0.0 · PIR≥price 2/4
+- Schedule: R12 @VIR 13.9 (diff 3/5) | R13 @ZAL 13.4 (diff 3/5, B2B)
+- Window score (site proj, weighted): 23.28 · P10–P90 this round 4.7–26.8 · win prob 0.718
+- When Nikolaos Rogkavopoulos out (4 games): minutes +0.6, PIR +0.4 (avg min then 23.1)
+- Domestic league: GBL (Greece)
+
+### Collin Malcolm — Anadolu Efes · Forward · 9.8 cr · owned 19.0%
+- Status: **playing** · site signal buy (value+, dip-, price+) · grade A+ · data fresh today: True
+- Form PIR L3/L5/L10: 18.3/17/13 · minutes L3 29.8 vs L10 25.8 · PIR/min 0.503 · starts 100%
+- Round log (round, PIR, min): [(1, 9, 17.4), (2, 2, 15.8), (3, 10, 23.9), (4, 5, 16.4), (5, 19, 28.8), (6, 19, 36.0), (7, 11, 30.9), (8, 13, 25.9), (9, 21, 31.4), (10, 21, 31.9)]
+- Price Δ last 3/5/10 rounds: 1.0/1.6/1.7 · since start 1.7 · projected change after round 0.2 · PIR≥price 7/10
+- Schedule: R12 @DUB 12.4 (diff 5/5) | R13 vsASV 15.2 (diff 2/5)
+- Window score (site proj, weighted): 23.04 · P10–P90 this round 4.3–24.3 · win prob 0.625
+- Domestic league: BSL (Turkey)
+
+### Dario Brizuela — Barcelona · Guard · 6.3 cr · owned 6.0%
+- Status: **playing** · site signal hold (dip-, value+, schedule+) · grade B · data fresh today: True
+- Form PIR L3/L5/L10: 9/7/5.8 · minutes L3 17.3 vs L10 18.6 · PIR/min 0.311 · starts 0%
+- Round log (round, PIR, min): [(1, 16, 19.4), (2, -8, 17.6), (3, 6, 17.0), (4, 3, 21.4), (5, -1, 19.2), (6, 9, 20.7), (8, -4, 12.1), (9, 12, 21.2), (10, 19, 18.6)]
+- Price Δ last 3/5/10 rounds: 0.5/0.5/-0.1 · since start -0.1 · projected change after round 0.0 · PIR≥price 4/9
+- Schedule: R12 vsPRS 6 (diff 1/5) | R13 vsRED 5.8 (diff 3/5)
+- Window score (site proj, weighted): 10.06 · P10–P90 this round -1.9–16.9 · win prob 0.282
+- When Kevin Punter out (None games): minutes +0.6, PIR +0.2 (avg min then None)
 - Domestic league: Liga ACB (Spain)
 
 ## Mechanical swap baseline (same position, budget & 6-per-club feasible — NOT advice)
-- OUT Andres Feliz (score 21.2): Tyty Washington Jr (ASV, 9.6cr, score 19.09, gain -2.1, own 1.0%); Wendell Moore (VIR, 9.7cr, score 18.14, gain -3.1, own 0.7%); Jordan Loyd (IST, 9.4cr, score 17.32, gain -3.9, own 0.8%); Jimmy Clark Iii (TEL, 9.6cr, score 17.31, gain -3.9, own 0.8%)
-- OUT Rj Cole (score 18.43): Jordan Loyd (IST, 9.4cr, score 17.32, gain -1.1, own 0.8%); Rokas Jokubaitis (MUN, 8.6cr, score 15.52, gain -2.9, own 1.0%); Leandro Bolmaro (MIL, 8.2cr, score 14.42, gain -4.0, own 0.6%); Tyson Carter (RED, 7.4cr, score 14.42, gain -4.0, own 5.0%)
-- OUT Scottie Wilbekin (score 14.23): Rokas Jokubaitis (MUN, 8.6cr, score 15.52, gain +1.3, own 1.0%); Leandro Bolmaro (MIL, 8.2cr, score 14.42, gain +0.2, own 0.6%); Tyson Carter (RED, 7.4cr, score 14.42, gain +0.2, own 5.0%); Saben Lee (ZAL, 8.2cr, score 14.14, gain -0.1, own 0.6%)
-- OUT Devon Hall (score 16.63): Rokas Jokubaitis (MUN, 8.6cr, score 15.52, gain -1.1, own 1.0%); Leandro Bolmaro (MIL, 8.2cr, score 14.42, gain -2.2, own 0.6%); Tyson Carter (RED, 7.4cr, score 14.42, gain -2.2, own 5.0%); Saben Lee (ZAL, 8.2cr, score 14.14, gain -2.5, own 0.6%)
-- OUT Dwayne Bacon (score 26.65): Zach Leday (HTA, 13.2cr, score 24.25, gain -2.4, own 4.0%); Jordan Nwora (RED, 13.9cr, score 23.79, gain -2.9, own 12.0%); Dario Saric (IST, 14.4cr, score 23.58, gain -3.1, own 4.0%); Azuolas Tubelis (ZAL, 12.6cr, score 22.71, gain -3.9, own 18.0%)
-- OUT Collin Malcolm (score 23.04): Vladimir Lucic (MUN, 9.6cr, score 17.21, gain -5.8, own 2.0%); Tyson Ward (OLY, 8.1cr, score 16.02, gain -7.0, own 5.0%); Tyrese Martin (BAR, 8.6cr, score 15.36, gain -7.7, own 1.0%); Anthony Brown (BES, 9.3cr, score 14.6, gain -8.4, own 0.8%)
-- OUT Mbaye Ndiaye (score 14.11): Tyson Ward (OLY, 8.1cr, score 16.02, gain +1.9, own 5.0%); Tyrese Martin (BAR, 8.6cr, score 15.36, gain +1.2, own 1.0%); Derrick Alston Jr. (VIR, 8.5cr, score 14.26, gain +0.2, own 1.0%); Jaron Blossomgame (DUB, 8.7cr, score 13.77, gain -0.3, own 1.0%)
-- OUT Oscar Da Silva (score 8.23): Tyson Ward (OLY, 8.1cr, score 16.02, gain +7.8, own 5.0%); Arnas Butkevicius (ZAL, 6.9cr, score 13.26, gain +5.0, own 1.0%); Joel Parra (BAR, 7.2cr, score 12.74, gain +4.5, own 5.0%); Dylan Osetkowski (PAM, 7.1cr, score 12.09, gain +3.9, own 0.8%)
+- OUT Mouhamed Faye (score None): Conor Morgan (BES, 7.9cr, score 11.31, gain +11.3, own 0.5%); Ousmane Diop (MIL, 4.5cr, score 10.95, gain +10.9, own 19.0%); Wenyen Gabriel (BES, 7.5cr, score 10.59, gain +10.6, own 1.0%); Johannes Voigtmann (MUN, 6.8cr, score 10.28, gain +10.3, own 0.9%)
+- OUT Dejan Davidovac (score 9.21): Gabriele Procida (MAD, 4.5cr, score 10.8, gain +1.6, own 11.0%); Edwin Jackson (ASV, 4.1cr, score 7.89, gain -1.3, own 6.0%); Kostas Papanikolaou (OLY, 4.2cr, score 6.33, gain -2.9, own 17.0%); Ognjen Dobric (RED, 4.7cr, score 5.47, gain -3.7, own 7.0%)
+- OUT Sasha Vezenkov (score 39.75): Dwayne Bacon (DUB, 14.6cr, score 26.65, gain -13.1, own 13.0%); Zach Leday (HTA, 13.2cr, score 24.25, gain -15.5, own 4.0%); Jordan Nwora (RED, 13.9cr, score 23.79, gain -16.0, own 12.0%); Dario Saric (IST, 14.4cr, score 23.58, gain -16.2, own 4.0%)
+- OUT Andres Feliz (score 21.2): Tyty Washington Jr (ASV, 9.6cr, score 19.09, gain -2.1, own 1.0%); Rj Cole (MIL, 8.9cr, score 18.43, gain -2.8, own 0.7%); Wendell Moore (VIR, 9.7cr, score 18.14, gain -3.1, own 0.7%); Jordan Loyd (IST, 9.4cr, score 17.32, gain -3.9, own 0.8%)
+- OUT Yam Madar (score 22.17): Cameron Payne (IST, 10.2cr, score 22.25, gain +0.1, own 12.0%); Codi Miller-Mcintyre (OLY, 10.2cr, score 19.83, gain -2.3, own 5.0%); Tyty Washington Jr (ASV, 9.6cr, score 19.09, gain -3.1, own 1.0%); Rj Cole (MIL, 8.9cr, score 18.43, gain -3.7, own 0.7%)
+- OUT Stefan Joksimovic (score None): Gabriele Procida (MAD, 4.5cr, score 10.8, gain +10.8, own 11.0%); Edwin Jackson (ASV, 4.1cr, score 7.89, gain +7.9, own 6.0%); Kostas Papanikolaou (OLY, 4.2cr, score 6.33, gain +6.3, own 17.0%); Ognjen Dobric (RED, 4.7cr, score 5.47, gain +5.5, own 7.0%)
 - OUT Aliou Diarra (score 22.19): Bruno Fernando (IST, 10.3cr, score 16.53, gain -5.7, own 2.0%); Johannes Thiemann (MUN, 10.6cr, score 16.47, gain -5.7, own 1.0%); Donta Hall (OLY, 10.0cr, score 16.19, gain -6.0, own 2.0%); Daniel Theis (TEL, 11.3cr, score 16.12, gain -6.1, own 0.6%)
-- OUT Chuma Okeke (score 15.63): Neal Sako (PAM, 9.2cr, score 15.76, gain +0.1, own 1.0%); Kai Jones (IST, 8.4cr, score 14.01, gain -1.6, own 0.8%); Damian Jones (MAD, 8.5cr, score 13.39, gain -2.2, own 0.4%); Conor Morgan (BES, 7.9cr, score 11.31, gain -4.3, own 0.5%)
+- OUT Kendrick Nunn (score 23.28): Justin Robinson (BAR, 12.8cr, score 25.29, gain +2.0, own 3.0%); Sylvain Francisco (PAN, 14.1cr, score 24.13, gain +0.8, own 8.0%); Cameron Payne (IST, 10.2cr, score 22.25, gain -1.0, own 12.0%); Chris Jones (RED, 12.5cr, score 21.49, gain -1.8, own 5.0%)
+- OUT Collin Malcolm (score 23.04): Vladimir Lucic (MUN, 9.6cr, score 17.21, gain -5.8, own 2.0%); Tyson Ward (OLY, 8.1cr, score 16.02, gain -7.0, own 5.0%); Tyrese Martin (BAR, 8.6cr, score 15.36, gain -7.7, own 1.0%); Anthony Brown (BES, 9.3cr, score 14.6, gain -8.4, own 0.8%)
+- OUT Dario Brizuela (score 10.06): Cory Joseph (OLY, 5.5cr, score 9.25, gain -0.8, own 3.0%); Sergio Llull (MAD, 4.2cr, score 8.43, gain -1.6, own 6.0%); Josep Puerto (PAM, 5.0cr, score 7.9, gain -2.2, own 4.0%); Daniel Hackett (VIR, 4.6cr, score 7.85, gain -2.2, own 5.0%)
 
 ## Guards — market
 **Top window score:**

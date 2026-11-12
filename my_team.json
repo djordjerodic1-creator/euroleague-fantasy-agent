@@ -1,21 +1,26 @@
 {
-  "_note": "EXAMPLE TEAM - replace with your real squad. Names as on basketballstats.eu. bank = credits left (leave null to compute 100 - cost).",
+  "_note": "Real squad from the user's screenshot (Round 11, 12 Nov 2026). Maintained by the agent: after each trade deadline it applies Variation A of the latest report unless the user reports otherwise (see PLAYBOOK.md, Team tracking).",
   "round": 11,
   "players": [
-    "Andres Feliz",
-    "Rj Cole",
-    "Scottie Wilbekin",
-    "Devon Hall",
-    "Dwayne Bacon",
-    "Collin Malcolm",
-    "Mbaye Ndiaye",
-    "Oscar Da Silva",
-    "Aliou Diarra",
-    "Chuma Okeke"
+    "Mouhamed Faye", "Dejan Davidovac", "Sasha Vezenkov", "Andres Feliz", "Yam Madar",
+    "Stefan Joksimovic",
+    "Aliou Diarra", "Kendrick Nunn", "Collin Malcolm", "Dario Brizuela"
   ],
-  "captain": "Dwayne Bacon",
-  "coach": "Bayern Munich",
-  "bank": null,
+  "lineup": {
+    "starters": ["Mouhamed Faye", "Dejan Davidovac", "Sasha Vezenkov", "Andres Feliz", "Yam Madar"],
+    "sixth": "Stefan Joksimovic",
+    "bench": ["Aliou Diarra", "Kendrick Nunn", "Collin Malcolm", "Dario Brizuela"]
+  },
+  "captain": "Sasha Vezenkov",
+  "coach": "Partizan",
+  "bank": 0.5,
+  "bank_known": true,
+  "total_budget": 103.8,
   "trades_left_this_round": 4,
-  "notes": "Anything you want the analyst to know: risk appetite, rank, leagues you are chasing, players you refuse to sell..."
+  "tracking": {
+    "source": "user screenshot",
+    "updated": "2026-11-12",
+    "last_applied_report": null
+  },
+  "notes": "Bank not confirmed (screenshot doesn't show it) - assume 0.0 and flag it. Screenshot showed 221 next to CAP during Round 11."
 }

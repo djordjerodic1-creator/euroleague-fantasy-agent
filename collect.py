@@ -127,8 +127,19 @@ def parse_preview(page: str):
     km = txt.find("Key matchups")
     extra = txt[km:km + 900] if km > 0 else ""
     fav = re.search(r"Favourite: (.+?), with a (\d+)% chance", txt)
+    teams = re.search(r"Preview (.+?) vs (.+?): ", txt)
+    when = re.search(r"tips off \w+ (\d+) (\w+) at ([\d:]+)", txt)
+    score = re.search(r"projects (\d+)-(\d+)", txt)
+    w = txt.find("Projected PIR", txt.find("Players to watch", txt.find("Coaches:")))
+    proj = {n.strip(): float(v) for n, v in
+            re.findall(r"([A-Z][\w'.\- ]+?) (-?\d+\.\d) PIR", txt[w + 14:w + 900])} if w > 0 else {}
     return {"summary": core[:1400], "key_matchups": extra,
-            "favourite": fav.group(1) if fav else None, "fav_pct": int(fav.group(2)) if fav else None}
+            "favourite": fav.group(1) if fav else None, "fav_pct": int(fav.group(2)) if fav else None,
+            "home": NAME2CODE.get(teams.group(1).lower()) if teams else None,
+            "away": NAME2CODE.get(teams.group(2).lower()) if teams else None,
+            "fav_code": NAME2CODE.get(fav.group(1).lower()) if fav else None,
+            "date": f"{when.group(1)} {when.group(2)[:3]}" if when else None, "time": when.group(3) if when else None,
+            "score": [int(score.group(1)), int(score.group(2))] if score else None, "player_proj": proj}
 
 
 # ---------------------------------------------------------------- helpers
@@ -261,7 +272,7 @@ def main():
         p["round_log"] = parse_round_log(get(f"/en/fantasy/player/{slug}/"))
         if not p["round_log"]:  # team already played this round -> no fantasy page; use season summary
             t = text_of(get(f"/en/player/{slug}/"))
-            m = re.search(r"in the EuroLeague \d{4}-\d{2}: ([^.]+PIR per game)", t)
+            m = re.search(r"in the EuroLeague \d{4}-\d{2}: (.+?PIR per game)", t)
             p["season_summary"] = m.group(1) if m else "no data"
 
     # ----- next-round game previews (matchup / coach view)
@@ -307,6 +318,10 @@ def main():
                  "captain": team_cfg.get("captain"), "cost": round(cost, 1), "bank": bank, "club_count": club_count},
         "swaps": swaps, "previews": previews,
     }
+    keep = ("name", "slug", "s", "c", "t", "pos", "price", "status", "owned", "l3", "l5", "l10", "m3", "m10",
+            "nx", "nxe", "sig", "p10", "p90", "pwin", "proj_price_change", "price_d3", "season_summary")
+    slim = [{k: p.get(k) for k in keep if p.get(k) is not None} for p in pool.values()]
+    (OUT / "pool.json").write_text(json.dumps(slim, ensure_ascii=False), encoding="utf-8")
     (OUT / "digest.json").write_text(json.dumps({**digest, "roster": mine}, ensure_ascii=False, default=str, indent=1),
                                      encoding="utf-8")
     write_markdown(digest, mine, shortlists, coaches, news_by, inj_txt, pool, news)

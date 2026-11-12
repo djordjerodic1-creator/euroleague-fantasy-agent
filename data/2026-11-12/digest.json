@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T18:59",
+ "generated": "2026-11-12T20:09",
  "today": "2026-11-12",
  "source_round": 11,
  "rounds_in_progress": [
@@ -49,34 +49,174 @@
  },
  "team": {
   "players": [
+   "Mouhamed Faye",
+   "Dejan Davidovac",
+   "Sasha Vezenkov",
    "Andres Feliz",
-   "Rj Cole",
-   "Scottie Wilbekin",
-   "Devon Hall",
-   "Dwayne Bacon",
-   "Collin Malcolm",
-   "Mbaye Ndiaye",
-   "Oscar Da Silva",
+   "Yam Madar",
+   "Stefan Joksimovic",
    "Aliou Diarra",
-   "Chuma Okeke"
+   "Kendrick Nunn",
+   "Collin Malcolm",
+   "Dario Brizuela"
   ],
   "unmatched": [],
-  "coach": "MUN",
-  "captain": "Dwayne Bacon",
-  "cost": 99.5,
+  "coach": "PAR",
+  "captain": "Sasha Vezenkov",
+  "cost": 103.3,
   "bank": 0.5,
   "club_count": {
-   "MAD": 2,
-   "MIL": 2,
-   "BES": 1,
-   "DUB": 1,
-   "IST": 1,
+   "PRS": 1,
+   "RED": 1,
    "OLY": 1,
-   "MUN": 1,
-   "VIR": 1
+   "MAD": 1,
+   "TEL": 1,
+   "BAS": 1,
+   "VIR": 1,
+   "PAN": 1,
+   "IST": 1,
+   "BAR": 1
   }
  },
  "swaps": [
+  {
+   "out": "Mouhamed Faye",
+   "out_score": null,
+   "options": [
+    {
+     "name": "Conor Morgan",
+     "team": "BES",
+     "price": 7.9,
+     "score": 11.31,
+     "gain": 11.3,
+     "owned": 0.5
+    },
+    {
+     "name": "Ousmane Diop",
+     "team": "MIL",
+     "price": 4.5,
+     "score": 10.95,
+     "gain": 10.9,
+     "owned": 19.0
+    },
+    {
+     "name": "Wenyen Gabriel",
+     "team": "BES",
+     "price": 7.5,
+     "score": 10.59,
+     "gain": 10.6,
+     "owned": 1.0
+    },
+    {
+     "name": "Johannes Voigtmann",
+     "team": "MUN",
+     "price": 6.8,
+     "score": 10.28,
+     "gain": 10.3,
+     "owned": 0.9
+    },
+    {
+     "name": "Kevin Kokila",
+     "team": "VIR",
+     "price": 7.4,
+     "score": 9.65,
+     "gain": 9.7,
+     "owned": 0.1
+    }
+   ]
+  },
+  {
+   "out": "Dejan Davidovac",
+   "out_score": 9.21,
+   "options": [
+    {
+     "name": "Gabriele Procida",
+     "team": "MAD",
+     "price": 4.5,
+     "score": 10.8,
+     "gain": 1.6,
+     "owned": 11.0
+    },
+    {
+     "name": "Edwin Jackson",
+     "team": "ASV",
+     "price": 4.1,
+     "score": 7.89,
+     "gain": -1.3,
+     "owned": 6.0
+    },
+    {
+     "name": "Kostas Papanikolaou",
+     "team": "OLY",
+     "price": 4.2,
+     "score": 6.33,
+     "gain": -2.9,
+     "owned": 17.0
+    },
+    {
+     "name": "Ognjen Dobric",
+     "team": "RED",
+     "price": 4.7,
+     "score": 5.47,
+     "gain": -3.7,
+     "owned": 7.0
+    },
+    {
+     "name": "Giampaolo Ricci",
+     "team": "MIL",
+     "price": 4.1,
+     "score": 3.91,
+     "gain": -5.3,
+     "owned": 4.0
+    }
+   ]
+  },
+  {
+   "out": "Sasha Vezenkov",
+   "out_score": 39.75,
+   "options": [
+    {
+     "name": "Dwayne Bacon",
+     "team": "DUB",
+     "price": 14.6,
+     "score": 26.65,
+     "gain": -13.1,
+     "owned": 13.0
+    },
+    {
+     "name": "Zach Leday",
+     "team": "HTA",
+     "price": 13.2,
+     "score": 24.25,
+     "gain": -15.5,
+     "owned": 4.0
+    },
+    {
+     "name": "Jordan Nwora",
+     "team": "RED",
+     "price": 13.9,
+     "score": 23.79,
+     "gain": -16.0,
+     "owned": 12.0
+    },
+    {
+     "name": "Dario Saric",
+     "team": "IST",
+     "price": 14.4,
+     "score": 23.58,
+     "gain": -16.2,
+     "owned": 4.0
+    },
+    {
+     "name": "Azuolas Tubelis",
+     "team": "ZAL",
+     "price": 12.6,
+     "score": 22.71,
+     "gain": -17.0,
+     "owned": 18.0
+    }
+   ]
+  },
   {
    "out": "Andres Feliz",
    "out_score": 21.2,
@@ -88,6 +228,14 @@
      "score": 19.09,
      "gain": -2.1,
      "owned": 1.0
+    },
+    {
+     "name": "Rj Cole",
+     "team": "MIL",
+     "price": 8.9,
+     "score": 18.43,
+     "gain": -2.8,
+     "owned": 0.7
     },
     {
      "name": "Wendell Moore",
@@ -112,336 +260,98 @@
      "score": 17.31,
      "gain": -3.9,
      "owned": 0.8
-    },
-    {
-     "name": "Rokas Jokubaitis",
-     "team": "MUN",
-     "price": 8.6,
-     "score": 15.52,
-     "gain": -5.7,
-     "owned": 1.0
     }
    ]
   },
   {
-   "out": "Rj Cole",
-   "out_score": 18.43,
+   "out": "Yam Madar",
+   "out_score": 22.17,
    "options": [
     {
-     "name": "Jordan Loyd",
+     "name": "Cameron Payne",
      "team": "IST",
-     "price": 9.4,
-     "score": 17.32,
-     "gain": -1.1,
-     "owned": 0.8
-    },
-    {
-     "name": "Rokas Jokubaitis",
-     "team": "MUN",
-     "price": 8.6,
-     "score": 15.52,
-     "gain": -2.9,
-     "owned": 1.0
-    },
-    {
-     "name": "Leandro Bolmaro",
-     "team": "MIL",
-     "price": 8.2,
-     "score": 14.42,
-     "gain": -4.0,
-     "owned": 0.6
-    },
-    {
-     "name": "Tyson Carter",
-     "team": "RED",
-     "price": 7.4,
-     "score": 14.42,
-     "gain": -4.0,
-     "owned": 5.0
-    },
-    {
-     "name": "Saben Lee",
-     "team": "ZAL",
-     "price": 8.2,
-     "score": 14.14,
-     "gain": -4.3,
-     "owned": 0.6
-    }
-   ]
-  },
-  {
-   "out": "Scottie Wilbekin",
-   "out_score": 14.23,
-   "options": [
-    {
-     "name": "Rokas Jokubaitis",
-     "team": "MUN",
-     "price": 8.6,
-     "score": 15.52,
-     "gain": 1.3,
-     "owned": 1.0
-    },
-    {
-     "name": "Leandro Bolmaro",
-     "team": "MIL",
-     "price": 8.2,
-     "score": 14.42,
-     "gain": 0.2,
-     "owned": 0.6
-    },
-    {
-     "name": "Tyson Carter",
-     "team": "RED",
-     "price": 7.4,
-     "score": 14.42,
-     "gain": 0.2,
-     "owned": 5.0
-    },
-    {
-     "name": "Saben Lee",
-     "team": "ZAL",
-     "price": 8.2,
-     "score": 14.14,
-     "gain": -0.1,
-     "owned": 0.6
-    },
-    {
-     "name": "Andreas Obst",
-     "team": "MUN",
-     "price": 9.0,
-     "score": 14.03,
-     "gain": -0.2,
-     "owned": 2.0
-    }
-   ]
-  },
-  {
-   "out": "Devon Hall",
-   "out_score": 16.63,
-   "options": [
-    {
-     "name": "Rokas Jokubaitis",
-     "team": "MUN",
-     "price": 8.6,
-     "score": 15.52,
-     "gain": -1.1,
-     "owned": 1.0
-    },
-    {
-     "name": "Leandro Bolmaro",
-     "team": "MIL",
-     "price": 8.2,
-     "score": 14.42,
-     "gain": -2.2,
-     "owned": 0.6
-    },
-    {
-     "name": "Tyson Carter",
-     "team": "RED",
-     "price": 7.4,
-     "score": 14.42,
-     "gain": -2.2,
-     "owned": 5.0
-    },
-    {
-     "name": "Saben Lee",
-     "team": "ZAL",
-     "price": 8.2,
-     "score": 14.14,
-     "gain": -2.5,
-     "owned": 0.6
-    },
-    {
-     "name": "Andreas Obst",
-     "team": "MUN",
-     "price": 9.0,
-     "score": 14.03,
-     "gain": -2.6,
-     "owned": 2.0
-    }
-   ]
-  },
-  {
-   "out": "Dwayne Bacon",
-   "out_score": 26.65,
-   "options": [
-    {
-     "name": "Zach Leday",
-     "team": "HTA",
-     "price": 13.2,
-     "score": 24.25,
-     "gain": -2.4,
-     "owned": 4.0
-    },
-    {
-     "name": "Jordan Nwora",
-     "team": "RED",
-     "price": 13.9,
-     "score": 23.79,
-     "gain": -2.9,
+     "price": 10.2,
+     "score": 22.25,
+     "gain": 0.1,
      "owned": 12.0
     },
     {
-     "name": "Dario Saric",
-     "team": "IST",
-     "price": 14.4,
-     "score": 23.58,
-     "gain": -3.1,
-     "owned": 4.0
+     "name": "Codi Miller-Mcintyre",
+     "team": "OLY",
+     "price": 10.2,
+     "score": 19.83,
+     "gain": -2.3,
+     "owned": 5.0
     },
     {
-     "name": "Azuolas Tubelis",
-     "team": "ZAL",
-     "price": 12.6,
-     "score": 22.71,
-     "gain": -3.9,
-     "owned": 18.0
-    },
-    {
-     "name": "Chima Moneke",
-     "team": "RED",
-     "price": 14.5,
-     "score": 20.46,
-     "gain": -6.2,
-     "owned": 3.0
-    }
-   ]
-  },
-  {
-   "out": "Collin Malcolm",
-   "out_score": 23.04,
-   "options": [
-    {
-     "name": "Vladimir Lucic",
-     "team": "MUN",
+     "name": "Tyty Washington Jr",
+     "team": "ASV",
      "price": 9.6,
-     "score": 17.21,
-     "gain": -5.8,
-     "owned": 2.0
-    },
-    {
-     "name": "Tyson Ward",
-     "team": "OLY",
-     "price": 8.1,
-     "score": 16.02,
-     "gain": -7.0,
-     "owned": 5.0
-    },
-    {
-     "name": "Tyrese Martin",
-     "team": "BAR",
-     "price": 8.6,
-     "score": 15.36,
-     "gain": -7.7,
+     "score": 19.09,
+     "gain": -3.1,
      "owned": 1.0
     },
     {
-     "name": "Anthony Brown",
-     "team": "BES",
-     "price": 9.3,
-     "score": 14.6,
-     "gain": -8.4,
-     "owned": 0.8
+     "name": "Rj Cole",
+     "team": "MIL",
+     "price": 8.9,
+     "score": 18.43,
+     "gain": -3.7,
+     "owned": 0.7
     },
     {
-     "name": "Derrick Alston Jr.",
+     "name": "Wendell Moore",
      "team": "VIR",
-     "price": 8.5,
-     "score": 14.26,
-     "gain": -8.8,
-     "owned": 1.0
+     "price": 9.7,
+     "score": 18.14,
+     "gain": -4.0,
+     "owned": 0.7
     }
    ]
   },
   {
-   "out": "Mbaye Ndiaye",
-   "out_score": 14.11,
+   "out": "Stefan Joksimovic",
+   "out_score": null,
    "options": [
     {
-     "name": "Tyson Ward",
-     "team": "OLY",
-     "price": 8.1,
-     "score": 16.02,
-     "gain": 1.9,
-     "owned": 5.0
-    },
-    {
-     "name": "Tyrese Martin",
-     "team": "BAR",
-     "price": 8.6,
-     "score": 15.36,
-     "gain": 1.2,
-     "owned": 1.0
-    },
-    {
-     "name": "Derrick Alston Jr.",
-     "team": "VIR",
-     "price": 8.5,
-     "score": 14.26,
-     "gain": 0.2,
-     "owned": 1.0
-    },
-    {
-     "name": "Jaron Blossomgame",
-     "team": "DUB",
-     "price": 8.7,
-     "score": 13.77,
-     "gain": -0.3,
-     "owned": 1.0
-    },
-    {
-     "name": "Semi Ojeleye",
-     "team": "RED",
-     "price": 8.3,
-     "score": 13.49,
-     "gain": -0.6,
-     "owned": 4.0
-    }
-   ]
-  },
-  {
-   "out": "Oscar Da Silva",
-   "out_score": 8.23,
-   "options": [
-    {
-     "name": "Tyson Ward",
-     "team": "OLY",
-     "price": 8.1,
-     "score": 16.02,
-     "gain": 7.8,
-     "owned": 5.0
-    },
-    {
-     "name": "Arnas Butkevicius",
-     "team": "ZAL",
-     "price": 6.9,
-     "score": 13.26,
-     "gain": 5.0,
-     "owned": 1.0
-    },
-    {
-     "name": "Joel Parra",
-     "team": "BAR",
-     "price": 7.2,
-     "score": 12.74,
-     "gain": 4.5,
-     "owned": 5.0
-    },
-    {
-     "name": "Dylan Osetkowski",
-     "team": "PAM",
-     "price": 7.1,
-     "score": 12.09,
-     "gain": 3.9,
-     "owned": 0.8
-    },
-    {
-     "name": "Alberto Abalde",
+     "name": "Gabriele Procida",
      "team": "MAD",
-     "price": 6.1,
-     "score": 12.09,
+     "price": 4.5,
+     "score": 10.8,
+     "gain": 10.8,
+     "owned": 11.0
+    },
+    {
+     "name": "Edwin Jackson",
+     "team": "ASV",
+     "price": 4.1,
+     "score": 7.89,
+     "gain": 7.9,
+     "owned": 6.0
+    },
+    {
+     "name": "Kostas Papanikolaou",
+     "team": "OLY",
+     "price": 4.2,
+     "score": 6.33,
+     "gain": 6.3,
+     "owned": 17.0
+    },
+    {
+     "name": "Ognjen Dobric",
+     "team": "RED",
+     "price": 4.7,
+     "score": 5.47,
+     "gain": 5.5,
+     "owned": 7.0
+    },
+    {
+     "name": "Giampaolo Ricci",
+     "team": "MIL",
+     "price": 4.1,
+     "score": 3.91,
      "gain": 3.9,
-     "owned": 21.0
+     "owned": 4.0
     }
    ]
   },
@@ -492,48 +402,140 @@
    ]
   },
   {
-   "out": "Chuma Okeke",
-   "out_score": 15.63,
+   "out": "Kendrick Nunn",
+   "out_score": 23.28,
    "options": [
     {
-     "name": "Neal Sako",
-     "team": "PAM",
-     "price": 9.2,
-     "score": 15.76,
-     "gain": 0.1,
+     "name": "Justin Robinson",
+     "team": "BAR",
+     "price": 12.8,
+     "score": 25.29,
+     "gain": 2.0,
+     "owned": 3.0
+    },
+    {
+     "name": "Sylvain Francisco",
+     "team": "PAN",
+     "price": 14.1,
+     "score": 24.13,
+     "gain": 0.8,
+     "owned": 8.0
+    },
+    {
+     "name": "Cameron Payne",
+     "team": "IST",
+     "price": 10.2,
+     "score": 22.25,
+     "gain": -1.0,
+     "owned": 12.0
+    },
+    {
+     "name": "Chris Jones",
+     "team": "RED",
+     "price": 12.5,
+     "score": 21.49,
+     "gain": -1.8,
+     "owned": 5.0
+    },
+    {
+     "name": "Mckinley Wright Iv",
+     "team": "DUB",
+     "price": 13.0,
+     "score": 21.14,
+     "gain": -2.1,
+     "owned": 2.0
+    }
+   ]
+  },
+  {
+   "out": "Collin Malcolm",
+   "out_score": 23.04,
+   "options": [
+    {
+     "name": "Vladimir Lucic",
+     "team": "MUN",
+     "price": 9.6,
+     "score": 17.21,
+     "gain": -5.8,
+     "owned": 2.0
+    },
+    {
+     "name": "Tyson Ward",
+     "team": "OLY",
+     "price": 8.1,
+     "score": 16.02,
+     "gain": -7.0,
+     "owned": 5.0
+    },
+    {
+     "name": "Tyrese Martin",
+     "team": "BAR",
+     "price": 8.6,
+     "score": 15.36,
+     "gain": -7.7,
      "owned": 1.0
     },
     {
-     "name": "Kai Jones",
-     "team": "IST",
-     "price": 8.4,
-     "score": 14.01,
-     "gain": -1.6,
+     "name": "Anthony Brown",
+     "team": "BES",
+     "price": 9.3,
+     "score": 14.6,
+     "gain": -8.4,
      "owned": 0.8
     },
     {
-     "name": "Damian Jones",
-     "team": "MAD",
+     "name": "Derrick Alston Jr.",
+     "team": "VIR",
      "price": 8.5,
-     "score": 13.39,
+     "score": 14.26,
+     "gain": -8.8,
+     "owned": 1.0
+    }
+   ]
+  },
+  {
+   "out": "Dario Brizuela",
+   "out_score": 10.06,
+   "options": [
+    {
+     "name": "Cory Joseph",
+     "team": "OLY",
+     "price": 5.5,
+     "score": 9.25,
+     "gain": -0.8,
+     "owned": 3.0
+    },
+    {
+     "name": "Sergio Llull",
+     "team": "MAD",
+     "price": 4.2,
+     "score": 8.43,
+     "gain": -1.6,
+     "owned": 6.0
+    },
+    {
+     "name": "Josep Puerto",
+     "team": "PAM",
+     "price": 5.0,
+     "score": 7.9,
      "gain": -2.2,
-     "owned": 0.4
+     "owned": 4.0
     },
     {
-     "name": "Conor Morgan",
-     "team": "BES",
-     "price": 7.9,
-     "score": 11.31,
-     "gain": -4.3,
-     "owned": 0.5
+     "name": "Daniel Hackett",
+     "team": "VIR",
+     "price": 4.6,
+     "score": 7.85,
+     "gain": -2.2,
+     "owned": 5.0
     },
     {
-     "name": "Ousmane Diop",
-     "team": "MIL",
-     "price": 4.5,
-     "score": 10.95,
-     "gain": -4.7,
-     "owned": 19.0
+     "name": "Alvaro Cardenas",
+     "team": "PAM",
+     "price": 4.3,
+     "score": 7.66,
+     "gain": -2.4,
+     "owned": 5.0
     }
    ]
   }
@@ -544,6 +546,27 @@
    "key_matchups": "Key matchups Guard: Kevin Punter (14.8 PIR) – Nadir Hifi (18.5 PIR) Forward: Tyrese Martin (7.9 PIR) – Tj Warren (11.9 PIR) Center: Josh Nebo (13.6 PIR) – Allan Dokossi (10.7 PIR) Top scorer vs defense: Kevin Punter (15.9 pts) vs a defense with DRtg 120.1 (15) · Nadir Hifi (20.8 pts) vs a defense with DRtg 117.6 (13) Rebounding battle: Barcelona OREB% 34.9% vs DREB% 61.4% Paris Basketball · Paris Basketball OREB% 35.3% vs DREB% 66.6% Barcelona Pace battle: Barcelona 74.5 – Paris Basketball 77.5 · projected 77.5 Bench (PIR from reserves per game): Barcelona 58.4 – Paris Basketball 63.2 Coaches: Aleksander Sekulic – Maxime Lefevre Players to watch Barcelona Paris Basketball Projected PIR Justin Robinson 13.7 PIR Josh Nebo 13.5 PIR Tyrese Martin 8.2 PIR Joel Parra 6.7 PIR Dario Brizuela 5.8 PIR Nadir Hifi 18.5 PIR Tj Warren 11.9 PIR Jared Rhoden 11.4 PIR Allan Dokossi 10.7 PIR Mouhamed Faye",
    "favourite": "Barcelona",
    "fav_pct": 68,
+   "home": "BAR",
+   "away": "PRS",
+   "fav_code": "BAR",
+   "date": "17 Nov",
+   "time": "21:30",
+   "score": [
+    93,
+    87
+   ],
+   "player_proj": {
+    "Justin Robinson": 13.7,
+    "Josh Nebo": 13.5,
+    "Tyrese Martin": 8.2,
+    "Joel Parra": 6.7,
+    "Dario Brizuela": 5.8,
+    "Nadir Hifi": 18.5,
+    "Tj Warren": 11.9,
+    "Jared Rhoden": 11.4,
+    "Allan Dokossi": 10.7,
+    "Mouhamed Faye": 10.1
+   },
    "url": "https://basketballstats.eu/en/game/barcelona-paris-12/"
   },
   "baskonia-hapoel-tel-aviv-12": {
@@ -551,6 +574,27 @@
    "key_matchups": "Key matchups Guard: Damion Baugh (7.6 PIR) – Elijah Bryant (22.1 PIR) Forward: Tadas Sedekerskis (13.0 PIR) – Zach Leday (13.5 PIR) Center: Kenneth Faried (13.8 PIR) – Dan Oturu (14.3 PIR) Top scorer vs defense: A.J. Lawson (11.5 pts) vs a defense with DRtg 115.9 (11) · Elijah Bryant (14.8 pts) vs a defense with DRtg 120.1 (16) Rebounding battle: Baskonia OREB% 32.4% vs DREB% 68.2% Hapoel Tel Aviv · Hapoel Tel Aviv OREB% 28.0% vs DREB% 66.8% Baskonia Pace battle: Baskonia 76.5 – Hapoel Tel Aviv 75.8 · projected 76.9 Bench (PIR from reserves per game): Baskonia 40.7 – Hapoel Tel Aviv 35.3 Coaches: Velimir Perasovic – Dimitris Itoudis Players to watch Baskonia Hapoel Tel Aviv Projected PIR Kenneth Faried 13.8 PIR Chris Duarte 10.6 PIR A.J. Lawson 9.4 PIR Dj Stewart 7.9 PIR Damion Baugh 7.6 PIR Elijah Bryant 18.9 PIR Dan Oturu 15.3 PIR Zach Leday 14.4 PIR Vasilije Micic 12.1 PIR Antonio Bla",
    "favourite": "Hapoel Tel Aviv",
    "fav_pct": 75,
+   "home": "BAS",
+   "away": "HTA",
+   "fav_code": "HTA",
+   "date": "17 Nov",
+   "time": "21:30",
+   "score": [
+    86,
+    95
+   ],
+   "player_proj": {
+    "Kenneth Faried": 13.8,
+    "Chris Duarte": 10.6,
+    "A.J. Lawson": 9.4,
+    "Dj Stewart": 7.9,
+    "Damion Baugh": 7.6,
+    "Elijah Bryant": 18.9,
+    "Dan Oturu": 15.3,
+    "Zach Leday": 14.4,
+    "Vasilije Micic": 12.1,
+    "Antonio Blakeney": 10.4
+   },
    "url": "https://basketballstats.eu/en/game/baskonia-hapoel-tel-aviv-12/"
   },
   "besiktas-real-madrid-12": {
@@ -558,6 +602,27 @@
    "key_matchups": "Key matchups Guard: Lonnie Walker Iv (15.0 PIR) – Theo Maledon (20.4 PIR) Forward: Anthony Brown (9.1 PIR) – Alberto Abalde (8.3 PIR) Center: Ante Zizic (11.8 PIR) – Walter Tavares (16.0 PIR) Top scorer vs defense: Lonnie Walker Iv (14.0 pts) vs a defense with DRtg 115.5 (10) · Theo Maledon (16.3 pts) vs a defense with DRtg 119.7 (14) Rebounding battle: Besiktas OREB% 28.4% vs DREB% 68.8% Real Madrid · Real Madrid OREB% 33.5% vs DREB% 67.1% Besiktas Pace battle: Besiktas 75.9 – Real Madrid 77.6 · projected 76.8 Bench (PIR from reserves per game): Besiktas 54.1 – Real Madrid 55.7 Coaches: Dusan Alimpijevic – Pedro Martinez Players to watch Besiktas Real Madrid Projected PIR Lonnie Walker Iv 10.5 PIR Devon Dotson 9.0 PIR Eugene Omoruyi 8.8 PIR Anthony Brown 8.6 PIR Scottie Wilbekin 8.5 PIR Andres Feliz 16.1 PIR Walter Tavares 14.6 PIR Chuma Okeke 10.5 PIR Damian Jones 9.1 PIR Alberto Abald",
    "favourite": "Real Madrid",
    "fav_pct": 66,
+   "home": "BES",
+   "away": "MAD",
+   "fav_code": "MAD",
+   "date": "18 Nov",
+   "time": "19:00",
+   "score": [
+    88,
+    92
+   ],
+   "player_proj": {
+    "Lonnie Walker Iv": 10.5,
+    "Devon Dotson": 9.0,
+    "Eugene Omoruyi": 8.8,
+    "Anthony Brown": 8.6,
+    "Scottie Wilbekin": 8.5,
+    "Andres Feliz": 16.1,
+    "Walter Tavares": 14.6,
+    "Chuma Okeke": 10.5,
+    "Damian Jones": 9.1,
+    "Alberto Abalde": 8.3
+   },
    "url": "https://basketballstats.eu/en/game/besiktas-real-madrid-12/"
   },
   "dubai-anadolu-efes-12": {
@@ -565,6 +630,27 @@
    "key_matchups": "Key matchups Guard: Elie Okobo (13.5 PIR) – Mike James (14.0 PIR) Forward: Dwayne Bacon (18.5 PIR) – Dario Saric (14.9 PIR) Center: Mfiondu Kabengele (17.8 PIR) – Bruno Fernando (10.2 PIR) Top scorer vs defense: Dwayne Bacon (16.3 pts) vs a defense with DRtg 113.4 (7) · Cameron Payne (17.6 pts) vs a defense with DRtg 115.1 (9) Rebounding battle: Dubai Basketball OREB% 33.5% vs DREB% 68.7% Anadolu Efes · Anadolu Efes OREB% 28.6% vs DREB% 68.5% Dubai Basketball Pace battle: Dubai Basketball 73.0 – Anadolu Efes 76.8 · projected 75.0 Bench (PIR from reserves per game): Dubai Basketball 48.7 – Anadolu Efes 20.9 Coaches: Xavi Pascual – Pablo Laso Players to watch Dubai Basketball Anadolu Efes Projected PIR Mfiondu Kabengele 16.2 PIR Dwayne Bacon 15.0 PIR Mckinley Wright Iv 11.7 PIR Elie Okobo 11.3 PIR Filip Petrusev 9.2 PIR Dario Saric 14.7 PIR Collin Malcolm 14.1 PIR Cameron Payne 13.9 PIR Jo",
    "favourite": "Dubai Basketball",
    "fav_pct": 75,
+   "home": "DUB",
+   "away": "IST",
+   "fav_code": "DUB",
+   "date": "17 Nov",
+   "time": "18:00",
+   "score": [
+    93,
+    84
+   ],
+   "player_proj": {
+    "Mfiondu Kabengele": 16.2,
+    "Dwayne Bacon": 15.0,
+    "Mckinley Wright Iv": 11.7,
+    "Elie Okobo": 11.3,
+    "Filip Petrusev": 9.2,
+    "Dario Saric": 14.7,
+    "Collin Malcolm": 14.1,
+    "Cameron Payne": 13.9,
+    "Jordan Loyd": 10.9,
+    "Matthew Strazel": 10.2
+   },
    "url": "https://basketballstats.eu/en/game/dubai-anadolu-efes-12/"
   },
   "fenerbahce-asvel-12": {
@@ -572,6 +658,27 @@
    "key_matchups": "Key matchups Guard: Talen Horton Tucker (14.1 PIR) – Patty Mills (14.0 PIR) Forward: Shavon Shields (13.2 PIR) – Jae Crowder (11.0 PIR) Center: Marcus Bingham (8.7 PIR) – Joel Bolomboy (8.6 PIR) Top scorer vs defense: Talen Horton Tucker (13.3 pts) vs a defense with DRtg 121.7 (17) · Patty Mills (15.9 pts) vs a defense with DRtg 106.5 (3) Rebounding battle: Fenerbahce OREB% 34.7% vs DREB% 59.3% ASVEL · ASVEL OREB% 28.6% vs DREB% 67.2% Fenerbahce Pace battle: Fenerbahce 73.0 – ASVEL 76.4 · projected 74.6 Bench (PIR from reserves per game): Fenerbahce 59.6 – ASVEL 59.7 Coaches: Saras Jasikevicius – Tony Parker Players to watch Fenerbahce ASVEL Projected PIR Talen Horton Tucker 14.1 PIR Wade Baldwin Iv 13.8 PIR Shavon Shields 13.2 PIR Will Clyburn 10.1 PIR Marcus Bingham 8.7 PIR Patty Mills 12.5 PIR Tyty Washington Jr 11.8 PIR Hugo Besson 10.6 PIR Both Gach 9.3 PIR Jae Crowder 9.0 PIR Score",
    "favourite": "Fenerbahce",
    "fav_pct": 83,
+   "home": "ULK",
+   "away": "ASV",
+   "fav_code": "ULK",
+   "date": "17 Nov",
+   "time": "20:00",
+   "score": [
+    89,
+    79
+   ],
+   "player_proj": {
+    "Talen Horton Tucker": 14.1,
+    "Wade Baldwin Iv": 13.8,
+    "Shavon Shields": 13.2,
+    "Will Clyburn": 10.1,
+    "Marcus Bingham": 8.7,
+    "Patty Mills": 12.5,
+    "Tyty Washington Jr": 11.8,
+    "Hugo Besson": 10.6,
+    "Both Gach": 9.3,
+    "Jae Crowder": 9.0
+   },
    "url": "https://basketballstats.eu/en/game/fenerbahce-asvel-12/"
   },
   "maccabi-tel-aviv-olympiacos-12": {
@@ -579,6 +686,27 @@
    "key_matchups": "Key matchups Guard: Yam Madar (14.4 PIR) – Jean Montero (20.3 PIR) Forward: O'Shae J Brissett (11.7 PIR) – Sasha Vezenkov (22.9 PIR) Center: Daniel Theis (10.9 PIR) – Nikola Milutinov (8.8 PIR) Top scorer vs defense: Jimmy Clark Iii (13.4 pts) vs a defense with DRtg 108.1 (5) · Sasha Vezenkov (19.1 pts) vs a defense with DRtg 125.4 (20) Rebounding battle: Maccabi Tel Aviv OREB% 31.1% vs DREB% 66.8% Olympiacos · Olympiacos OREB% 37.3% vs DREB% 67.8% Maccabi Tel Aviv Pace battle: Maccabi Tel Aviv 75.0 – Olympiacos 73.7 · projected 74.7 Bench (PIR from reserves per game): Maccabi Tel Aviv 33.4 – Olympiacos 56.0 Coaches: Oded Kattash – Georgios Bartzokas Players to watch Maccabi Tel Aviv Olympiacos Projected PIR Yam Madar 13.7 PIR Bonzie Colson 11.8 PIR Jimmy Clark Iii 10.8 PIR O'Shae J Brissett 10.7 PIR Jaylen Hoard 10.6 PIR Sasha Vezenkov 24.3 PIR Codi Miller-Mcintyre 11.8 PIR Tyson Ward 1",
    "favourite": "Olympiacos",
    "fav_pct": 79,
+   "home": "TEL",
+   "away": "OLY",
+   "fav_code": "OLY",
+   "date": "17 Nov",
+   "time": "19:00",
+   "score": [
+    85,
+    93
+   ],
+   "player_proj": {
+    "Yam Madar": 13.7,
+    "Bonzie Colson": 11.8,
+    "Jimmy Clark Iii": 10.8,
+    "O'Shae J Brissett": 10.7,
+    "Jaylen Hoard": 10.6,
+    "Sasha Vezenkov": 24.3,
+    "Codi Miller-Mcintyre": 11.8,
+    "Tyson Ward": 10.6,
+    "Donta Hall": 9.8,
+    "Evan Fournier": 8.4
+   },
    "url": "https://basketballstats.eu/en/game/maccabi-tel-aviv-olympiacos-12/"
   },
   "olimpia-milano-crvena-zvezda-12": {
@@ -586,6 +714,27 @@
    "key_matchups": "Key matchups Guard: Devon Hall (10.6 PIR) – Chris Jones (13.4 PIR) Forward: Alec Peters (10.1 PIR) – Jordan Nwora (15.1 PIR) Center: Moses Wright (14.6 PIR) – Christian Koloko (11.3 PIR) Top scorer vs defense: Moses Wright (12.1 pts) vs a defense with DRtg 100.8 (1) · Jordan Nwora (15.0 pts) vs a defense with DRtg 122.1 (18) Rebounding battle: Olimpia Milano OREB% 33.8% vs DREB% 65.9% Crvena Zvezda · Crvena Zvezda OREB% 33.8% vs DREB% 65.8% Olimpia Milano Pace battle: Olimpia Milano 73.4 – Crvena Zvezda 73.5 · projected 73.4 Bench (PIR from reserves per game): Olimpia Milano 44.7 – Crvena Zvezda 33.1 Coaches: Giuseppe Poeta – Ibon Navarro Players to watch Olimpia Milano Crvena Zvezda Projected PIR Moses Wright 13.3 PIR Rj Cole 11.9 PIR Devon Hall 9.8 PIR Ousmane Diop 8.3 PIR Leandro Bolmaro 8.2 PIR Jordan Nwora 13.5 PIR Chris Jones 12.5 PIR Chima Moneke 11.6 PIR Tyson Carter 8.3 PIR Jare",
    "favourite": "Crvena Zvezda",
    "fav_pct": 73,
+   "home": "MIL",
+   "away": "RED",
+   "fav_code": "RED",
+   "date": "17 Nov",
+   "time": "21:30",
+   "score": [
+    83,
+    89
+   ],
+   "player_proj": {
+    "Moses Wright": 13.3,
+    "Rj Cole": 11.9,
+    "Devon Hall": 9.8,
+    "Ousmane Diop": 8.3,
+    "Leandro Bolmaro": 8.2,
+    "Jordan Nwora": 13.5,
+    "Chris Jones": 12.5,
+    "Chima Moneke": 11.6,
+    "Tyson Carter": 8.3,
+    "Jared Butler": 7.6
+   },
    "url": "https://basketballstats.eu/en/game/olimpia-milano-crvena-zvezda-12/"
   },
   "partizan-valencia-12": {
@@ -593,6 +742,27 @@
    "key_matchups": "Key matchups Guard: Carlik Jones (15.2 PIR) – Tj Shorts (20.4 PIR) Forward: Lamar Stevens (12.1 PIR) – Nikola Mirotic (15.0 PIR) Center: Tonye Jekiri (15.3 PIR) – Neal Sako (9.8 PIR) Top scorer vs defense: Carlik Jones (13.8 pts) vs a defense with DRtg 114.5 (8) · Tj Shorts (16.9 pts) vs a defense with DRtg 106.7 (4) Rebounding battle: Partizan OREB% 28.7% vs DREB% 70.9% Valencia Basket · Valencia Basket OREB% 35.7% vs DREB% 69.6% Partizan Pace battle: Partizan 72.0 – Valencia Basket 76.8 · projected 73.9 Bench (PIR from reserves per game): Partizan 34.7 – Valencia Basket 64.1 Coaches: Joan Penarroya – Xavier Albert Players to watch Partizan Valencia Basket Projected PIR Tonye Jekiri 15.3 PIR Carlik Jones 15.2 PIR Lamar Stevens 12.1 PIR Nikola Tanaskovic 9.7 PIR Robert Franks 9.5 PIR Tj Shorts 16.4 PIR Kameron Taylor 13.3 PIR Armoni Brooks 12.2 PIR Neal Sako 10.2 PIR Dylan Osetkowski 8.0",
    "favourite": "Valencia Basket",
    "fav_pct": 58,
+   "home": "PAR",
+   "away": "PAM",
+   "fav_code": "PAM",
+   "date": "17 Nov",
+   "time": "21:45",
+   "score": [
+    84,
+    86
+   ],
+   "player_proj": {
+    "Tonye Jekiri": 15.3,
+    "Carlik Jones": 15.2,
+    "Lamar Stevens": 12.1,
+    "Nikola Tanaskovic": 9.7,
+    "Robert Franks": 9.5,
+    "Tj Shorts": 16.4,
+    "Kameron Taylor": 13.3,
+    "Armoni Brooks": 12.2,
+    "Neal Sako": 10.2,
+    "Dylan Osetkowski": 8.0
+   },
    "url": "https://basketballstats.eu/en/game/partizan-valencia-12/"
   },
   "virtus-bologna-panathinaikos-12": {
@@ -600,6 +770,27 @@
    "key_matchups": "Key matchups Guard: Wendell Moore (11.8 PIR) – Kendrick Nunn (18.8 PIR) Forward: Derrick Alston Jr. (9.0 PIR) – Nikolaos Rogkavopoulos (10.3 PIR) Center: Aliou Diarra (19.2 PIR) – Mathias Lessort (20.8 PIR) Top scorer vs defense: Derrick Alston Jr. (12.8 pts) vs a defense with DRtg 105.7 (2) · Kendrick Nunn (20.3 pts) vs a defense with DRtg 117.2 (12) Rebounding battle: Virtus Bologna OREB% 36.2% vs DREB% 67.6% Panathinaikos · Panathinaikos OREB% 36.9% vs DREB% 64.1% Virtus Bologna Pace battle: Virtus Bologna 76.4 – Panathinaikos 73.5 · projected 75.1 Bench (PIR from reserves per game): Virtus Bologna 49.1 – Panathinaikos 101.4 Coaches: Alex Mumbru – Zeljko Obradovic Players to watch Virtus Bologna Panathinaikos Projected PIR Aliou Diarra 12.7 PIR Wendell Moore 10.7 PIR Marcus Carr 9.6 PIR Trent Frazier 8.3 PIR Derrick Alston Jr. 7.5 PIR Mathias Lessort 18.9 PIR Sylvain Francisco 14.9 PI",
    "favourite": "Panathinaikos",
    "fav_pct": 70,
+   "home": "VIR",
+   "away": "PAN",
+   "fav_code": "PAN",
+   "date": "17 Nov",
+   "time": "22:00",
+   "score": [
+    84,
+    89
+   ],
+   "player_proj": {
+    "Aliou Diarra": 12.7,
+    "Wendell Moore": 10.7,
+    "Marcus Carr": 9.6,
+    "Trent Frazier": 8.3,
+    "Derrick Alston Jr.": 7.5,
+    "Mathias Lessort": 18.9,
+    "Sylvain Francisco": 14.9,
+    "Kendrick Nunn": 14.6,
+    "Nigel Hayes-Davis": 10.4,
+    "Guerschon Yabusele": 10.2
+   },
    "url": "https://basketballstats.eu/en/game/virtus-bologna-panathinaikos-12/"
   },
   "zalgiris-bayern-munich-12": {
@@ -607,10 +798,508 @@
    "key_matchups": "Key matchups Guard: Carsen Edwards (11.6 PIR) – Duane Washington (10.8 PIR) Forward: Azuolas Tubelis (15.9 PIR) – Vladimir Lucic (10.2 PIR) Center: Jonas Valanciunas (19.7 PIR) – Johannes Thiemann (11.7 PIR) Top scorer vs defense: Carsen Edwards (15.3 pts) vs a defense with DRtg 125.2 (19) · Duane Washington (15.3 pts) vs a defense with DRtg 110.0 (6) Rebounding battle: Zalgiris OREB% 35.3% vs DREB% 66.3% Bayern Munich · Bayern Munich OREB% 32.1% vs DREB% 72.8% Zalgiris Pace battle: Zalgiris 74.8 – Bayern Munich 75.5 · projected 74.7 Bench (PIR from reserves per game): Zalgiris 45.5 – Bayern Munich 58.3 Coaches: Tomas Masiulis – Anton Gavel Players to watch Zalgiris Bayern Munich Projected PIR Jonas Valanciunas 16.8 PIR Azuolas Tubelis 13.1 PIR Carsen Edwards 10.5 PIR Sterling Brown 8.9 PIR Saben Lee 8.4 PIR Vladimir Lucic 10.0 PIR Johannes Thiemann 9.4 PIR Austin Wiley 9.1 PIR Rokas Jok",
    "favourite": "Zalgiris",
    "fav_pct": 80,
+   "home": "ZAL",
+   "away": "MUN",
+   "fav_code": "ZAL",
+   "date": "17 Nov",
+   "time": "20:00",
+   "score": [
+    92,
+    81
+   ],
+   "player_proj": {
+    "Jonas Valanciunas": 16.8,
+    "Azuolas Tubelis": 13.1,
+    "Carsen Edwards": 10.5,
+    "Sterling Brown": 8.9,
+    "Saben Lee": 8.4,
+    "Vladimir Lucic": 10.0,
+    "Johannes Thiemann": 9.4,
+    "Austin Wiley": 9.1,
+    "Rokas Jokubaitis": 9.0,
+    "Andreas Obst": 7.9
+   },
    "url": "https://basketballstats.eu/en/game/zalgiris-bayern-munich-12/"
   }
  },
  "roster": [
+  {
+   "slug": "mouhamed-faye",
+   "name": "Mouhamed Faye",
+   "team_name": "Paris Basketball",
+   "t": "PRS",
+   "pos": "Center",
+   "price": 7.8,
+   "since_start": 0.8,
+   "owned": 3.0,
+   "pir_ge_price": "7/10",
+   "proj_price_change": null,
+   "price_official": 7.8,
+   "score": null,
+   "fresh": false,
+   "round_log": [],
+   "season_summary": "11 games, 6.4 points, 3.9 rebounds, 1.1 assists and 10.1 PIR per game"
+  },
+  {
+   "slug": "dejan-davidovac",
+   "name": "Dejan Davidovac",
+   "team_name": "Crvena Zvezda",
+   "t": "RED",
+   "pos": "Forward",
+   "price": 4.7,
+   "since_start": 0.3,
+   "owned": 11.0,
+   "pir_ge_price": "5/7",
+   "proj_price_change": 0.0,
+   "c": "007960",
+   "n": "DAVIDOVAC, DEJAN",
+   "price_src": "official",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 5.8,
+   "l10": 6.1,
+   "pirpm": 0.485,
+   "pm": 12.4,
+   "pp0": 5.2,
+   "pm0": 12.4,
+   "ppm": 0.414,
+   "pp": 5.2,
+   "p10": -1.7,
+   "p50": 4.5,
+   "p90": 14,
+   "conf": 67,
+   "opp": "MAD",
+   "home": 0,
+   "day": 1,
+   "pwin": 0.42,
+   "f": [
+    [
+     "opponent",
+     -0.2
+    ],
+    [
+     "home",
+     0
+    ],
+    [
+     "rest",
+     0
+    ],
+    [
+     "form",
+     0
+    ]
+   ],
+   "nxe": [
+    [
+     14,
+     "VIR",
+     1,
+     5.6,
+     2,
+     0
+    ],
+    [
+     15,
+     "ULK",
+     0,
+     5,
+     3,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     11,
+     "MAD",
+     0,
+     5.2,
+     2,
+     0
+    ],
+    [
+     12,
+     "MIL",
+     0,
+     5.5,
+     4,
+     0
+    ],
+    [
+     13,
+     "BAR",
+     0,
+     5.3,
+     5,
+     0
+    ]
+   ],
+   "p3": 16,
+   "p5": 26.6,
+   "start": 0.2,
+   "odrtg": 112.6,
+   "gpace": 78.2,
+   "mcv": 0.155,
+   "hcap": 12.3,
+   "hhit": 0,
+   "hneg": 0.43,
+   "rest": 6,
+   "b2b": 0,
+   "ph": [
+    [
+     7,
+     9.8
+    ],
+    [
+     8,
+     8.1
+    ],
+    [
+     9,
+     7.9
+    ],
+    [
+     10,
+     8.3
+    ],
+    [
+     11,
+     4.7
+    ]
+   ],
+   "l3": 7,
+   "m3": 12.2,
+   "m10": 12.7,
+   "gp": 7,
+   "vpc": 1.106,
+   "small": 0,
+   "sig": "buy",
+   "sigScore": 43,
+   "sigConf": "high",
+   "why": [
+    "value+",
+    "price+",
+    "schedule-"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 34
+    },
+    {
+     "k": "price",
+     "v": 14
+    },
+    {
+     "k": "schedule",
+     "v": -4
+    }
+   ],
+   "grade": "A",
+   "posPct": 93,
+   "posRank": 7,
+   "rank": 18,
+   "vpc3": 3.404,
+   "fvpc": 1.153,
+   "fvpc3": 3.566,
+   "dn": "Dejan Davidovac",
+   "s": "dejan-davidovac",
+   "_seen": "2026-11-12",
+   "price_d3": 0.3,
+   "price_d5": 0.3,
+   "price_d10": 0.3,
+   "price_official": 4.7,
+   "score": 9.21,
+   "fresh": true,
+   "round_log": [
+    [
+     4,
+     6,
+     14.9
+    ],
+    [
+     5,
+     8,
+     10.8
+    ],
+    [
+     6,
+     9,
+     16.1
+    ],
+    [
+     7,
+     -1,
+     10.4
+    ],
+    [
+     8,
+     4,
+     12.9
+    ],
+    [
+     9,
+     12,
+     12.1
+    ],
+    [
+     10,
+     5,
+     11.6
+    ]
+   ]
+  },
+  {
+   "slug": "sasha-vezenkov",
+   "name": "Sasha Vezenkov",
+   "team_name": "Olympiacos",
+   "t": "OLY",
+   "pos": "Forward",
+   "price": 18.9,
+   "since_start": 1.9,
+   "owned": 46.0,
+   "pir_ge_price": "8/10",
+   "proj_price_change": 0.2,
+   "c": "003469",
+   "n": "VEZENKOV, SASHA",
+   "price_src": "official",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 25.4,
+   "l10": 22.9,
+   "pirpm": 0.838,
+   "pm": 30.3,
+   "pp0": 23.4,
+   "pm0": 29.2,
+   "ppm": 0.799,
+   "pp": 24.3,
+   "p10": 14.2,
+   "p50": 24,
+   "p90": 36,
+   "conf": 77,
+   "opp": "DUB",
+   "home": 1,
+   "day": 1,
+   "pwin": 0.634,
+   "f": [
+    [
+     "home",
+     0.8
+    ],
+    [
+     "role",
+     0.3
+    ],
+    [
+     "rest",
+     -0.2
+    ],
+    [
+     "opponent",
+     0
+    ]
+   ],
+   "vx": {
+    "k": "ww",
+    "n": 4,
+    "m": 30.9,
+    "a": [
+     "009849",
+     "010042"
+    ],
+    "dm": 1.1,
+    "dp": 0.9,
+    "absent_names": [
+     "Tyler Dorsey",
+     "Jean Montero"
+    ]
+   },
+   "nxe": [
+    [
+     14,
+     "HTA",
+     1,
+     23.5,
+     5,
+     0
+    ],
+    [
+     15,
+     "ASV",
+     1,
+     23.4,
+     2,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     11,
+     "DUB",
+     1,
+     24.3,
+     5,
+     0
+    ],
+    [
+     12,
+     "TEL",
+     0,
+     23.3,
+     4,
+     0
+    ],
+    [
+     13,
+     "MAD",
+     1,
+     23.5,
+     3,
+     0
+    ]
+   ],
+   "p3": 71.1,
+   "p5": 118,
+   "start": 1,
+   "odrtg": 113.4,
+   "gpace": 75.4,
+   "mcv": 0.178,
+   "hcap": 45.8,
+   "hhit": 0.7,
+   "hneg": 0,
+   "rest": 6,
+   "b2b": 0,
+   "ph": [
+    [
+     4,
+     23.8
+    ],
+    [
+     5,
+     20.1
+    ],
+    [
+     6,
+     19.3
+    ],
+    [
+     7,
+     21.5
+    ],
+    [
+     8,
+     21.1
+    ],
+    [
+     9,
+     20.8
+    ],
+    [
+     10,
+     20.7
+    ],
+    [
+     11,
+     18.9
+    ]
+   ],
+   "l3": 23,
+   "m3": 29.9,
+   "m10": 27.3,
+   "gp": 10,
+   "vpc": 1.286,
+   "small": 0,
+   "sig": "buy",
+   "sigScore": 45,
+   "sigConf": "high",
+   "why": [
+    "value+",
+    "price+",
+    "schedule-"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 38
+    },
+    {
+     "k": "price",
+     "v": 9
+    },
+    {
+     "k": "schedule",
+     "v": -6
+    }
+   ],
+   "grade": "A+",
+   "posPct": 98,
+   "posRank": 3,
+   "rank": 6,
+   "vpc3": 3.762,
+   "fvpc": 1.367,
+   "fvpc3": 3.967,
+   "dn": "Sasha Vezenkov",
+   "s": "sasha-vezenkov",
+   "_seen": "2026-11-12",
+   "price_d3": 0.5,
+   "price_d5": 1.4,
+   "price_d10": 1.9,
+   "price_official": 18.9,
+   "score": 39.75,
+   "fresh": true,
+   "round_log": [
+    [
+     1,
+     30,
+     19.0
+    ],
+    [
+     2,
+     26,
+     24.6
+    ],
+    [
+     3,
+     23,
+     26.6
+    ],
+    [
+     4,
+     7,
+     21.7
+    ],
+    [
+     5,
+     16,
+     27.2
+    ],
+    [
+     6,
+     38,
+     30.7
+    ],
+    [
+     7,
+     20,
+     33.9
+    ],
+    [
+     8,
+     19,
+     24.0
+    ],
+    [
+     9,
+     22,
+     31.9
+    ],
+    [
+     10,
+     28,
+     33.8
+    ]
+   ]
+  },
   {
    "slug": "andres-feliz",
    "name": "Andres Feliz",
@@ -867,41 +1556,41 @@
    ]
   },
   {
-   "slug": "rj-cole",
-   "name": "Rj Cole",
-   "team_name": "Olimpia Milano",
-   "t": "MIL",
+   "slug": "yam-madar",
+   "name": "Yam Madar",
+   "team_name": "Maccabi Tel Aviv",
+   "t": "TEL",
    "pos": "Guard",
-   "price": 8.9,
-   "since_start": 0.4,
-   "owned": 0.7,
+   "price": 10.5,
+   "since_start": 1.7,
+   "owned": 9.0,
    "pir_ge_price": "7/10",
    "proj_price_change": 0.1,
-   "c": "013929",
-   "n": "COLE, RJ",
+   "c": "011052",
+   "n": "MADAR, YAM",
    "price_src": "official",
    "status": "playing",
    "status_src": "none",
-   "l5": 14.2,
-   "l10": 9.6,
-   "pirpm": 0.485,
-   "pm": 24.6,
-   "pp0": 10.9,
-   "pm0": 22.5,
-   "ppm": 0.483,
-   "pp": 11.9,
-   "p10": 2.6,
-   "p50": 11.6,
-   "p90": 23.3,
-   "conf": 71,
-   "opp": "ZAL",
+   "l5": 13,
+   "l10": 14.4,
+   "pirpm": 0.647,
+   "pm": 22.1,
+   "pp0": 13.1,
+   "pm0": 21.2,
+   "ppm": 0.617,
+   "pp": 13.7,
+   "p10": 4.4,
+   "p50": 13.4,
+   "p90": 25.3,
+   "conf": 72,
+   "opp": "HTA",
    "home": 1,
    "day": 1,
-   "pwin": 0.395,
+   "pwin": 0.366,
    "f": [
     [
      "home",
-     1
+     1.1
     ],
     [
      "role",
@@ -909,738 +1598,6 @@
     ],
     [
      "opponent",
-     -0.1
-    ],
-    [
-     "rest",
-     -0.1
-    ]
-   ],
-   "vx": {
-    "k": "ww",
-    "n": 1,
-    "m": 27.8,
-    "a": [
-     "007056"
-    ],
-    "dm": 2.1,
-    "dp": 1,
-    "absent_names": [
-     "Devin Booker"
-    ]
-   },
-   "nxe": [
-    [
-     14,
-     "ASV",
-     0,
-     10.4,
-     5,
-     0
-    ],
-    [
-     15,
-     "HTA",
-     0,
-     10,
-     4,
-     0
-    ]
-   ],
-   "nx": [
-    [
-     11,
-     "ZAL",
-     1,
-     11.9,
-     3,
-     0
-    ],
-    [
-     12,
-     "RED",
-     1,
-     10.8,
-     3,
-     0
-    ],
-    [
-     13,
-     "ULK",
-     1,
-     10.9,
-     2,
-     1
-    ]
-   ],
-   "p3": 33.6,
-   "p5": 54,
-   "start": 1,
-   "odrtg": 108.2,
-   "gpace": 75.4,
-   "mcv": 0.319,
-   "hcap": 19.2,
-   "hhit": 0.1,
-   "hneg": 0.2,
-   "rest": 7,
-   "b2b": 1,
-   "ph": [
-    [
-     4,
-     7
-    ],
-    [
-     5,
-     7.9
-    ],
-    [
-     6,
-     7.8
-    ],
-    [
-     7,
-     9.5
-    ],
-    [
-     8,
-     9.8
-    ],
-    [
-     9,
-     10.1
-    ],
-    [
-     10,
-     11.5
-    ],
-    [
-     11,
-     8.9
-    ]
-   ],
-   "l3": 14,
-   "m3": 27.2,
-   "m10": 19.8,
-   "gp": 10,
-   "vpc": 1.337,
-   "small": 0,
-   "sig": "buy",
-   "sigScore": 37,
-   "sigConf": "high",
-   "why": [
-    "value+",
-    "dip-",
-    "minutes+"
-   ],
-   "factors": [
-    {
-     "k": "value",
-     "v": 38
-    },
-    {
-     "k": "dip",
-     "v": -18
-    },
-    {
-     "k": "minutes",
-     "v": 11
-    }
-   ],
-   "grade": "A+",
-   "posPct": 97,
-   "posRank": 4,
-   "rank": 9,
-   "vpc3": 3.775,
-   "fvpc": 1.39,
-   "fvpc3": 3.95,
-   "dn": "Rj Cole",
-   "s": "rj-cole",
-   "_seen": "2026-11-12",
-   "price_d3": 0.6,
-   "price_d5": 1.1,
-   "price_d10": 0.4,
-   "price_official": 8.9,
-   "score": 18.43,
-   "fresh": true,
-   "round_log": [
-    [
-     1,
-     -6,
-     8.2
-    ],
-    [
-     2,
-     8,
-     15.9
-    ],
-    [
-     3,
-     10,
-     21.8
-    ],
-    [
-     4,
-     9,
-     21.1
-    ],
-    [
-     5,
-     4,
-     11.1
-    ],
-    [
-     6,
-     19,
-     20.1
-    ],
-    [
-     7,
-     10,
-     18.3
-    ],
-    [
-     8,
-     11,
-     26.1
-    ],
-    [
-     9,
-     21,
-     27.8
-    ],
-    [
-     10,
-     10,
-     27.8
-    ]
-   ]
-  },
-  {
-   "slug": "scottie-wilbekin",
-   "name": "Scottie Wilbekin",
-   "team_name": "Besiktas",
-   "t": "BES",
-   "pos": "Guard",
-   "price": 8.6,
-   "since_start": 1.1,
-   "owned": 6.0,
-   "pir_ge_price": "7/10",
-   "proj_price_change": 0.0,
-   "c": "006661",
-   "n": "WILBEKIN, SCOTTIE",
-   "price_src": "official",
-   "status": "playing",
-   "status_src": "none",
-   "l5": 8.2,
-   "l10": 10.9,
-   "pirpm": 0.496,
-   "pm": 18.3,
-   "pp0": 8.2,
-   "pm0": 17.6,
-   "ppm": 0.467,
-   "pp": 8.5,
-   "p10": 0.3,
-   "p50": 8.8,
-   "p90": 20.4,
-   "conf": 70,
-   "opp": "ASV",
-   "home": 0,
-   "day": 2,
-   "pwin": 0.419,
-   "f": [
-    [
-     "form",
-     -0.7
-    ],
-    [
-     "role",
-     0.3
-    ],
-    [
-     "opponent",
-     -0.1
-    ],
-    [
-     "home",
-     0
-    ]
-   ],
-   "vx": {
-    "k": "vac",
-    "a": [
-     "014786"
-    ],
-    "dm": 0.7,
-    "dp": 0.3,
-    "absent_names": [
-     "Jaylen Nowell"
-    ]
-   },
-   "nxe": [
-    [
-     14,
-     "PRS",
-     1,
-     8.7,
-     1,
-     0
-    ],
-    [
-     15,
-     "PAN",
-     1,
-     8.4,
-     4,
-     0
-    ]
-   ],
-   "nx": [
-    [
-     11,
-     "ASV",
-     0,
-     8.5,
-     5,
-     0
-    ],
-    [
-     12,
-     "MAD",
-     1,
-     8.7,
-     2,
-     0
-    ],
-    [
-     13,
-     "PAR",
-     0,
-     7.9,
-     2,
-     1
-    ]
-   ],
-   "p3": 25.1,
-   "p5": 42.2,
-   "start": 0.2,
-   "odrtg": 119.7,
-   "gpace": 77.5,
-   "mcv": 0.237,
-   "hcap": 21.8,
-   "hhit": 0,
-   "hneg": 0.3,
-   "rest": 7,
-   "b2b": 1,
-   "ph": [
-    [
-     4,
-     15.8
-    ],
-    [
-     5,
-     16
-    ],
-    [
-     6,
-     14.2
-    ],
-    [
-     7,
-     14.6
-    ],
-    [
-     8,
-     14.6
-    ],
-    [
-     9,
-     13.2
-    ],
-    [
-     10,
-     12.9
-    ],
-    [
-     11,
-     8.6
-    ]
-   ],
-   "l3": 3.3,
-   "m3": 16.8,
-   "m10": 22,
-   "gp": 10,
-   "vpc": 0.988,
-   "small": 0,
-   "sig": "buy",
-   "sigScore": 25,
-   "sigConf": "high",
-   "why": [
-    "value+",
-    "price+",
-    "minutes-"
-   ],
-   "factors": [
-    {
-     "k": "value",
-     "v": 18
-    },
-    {
-     "k": "price",
-     "v": 15
-    },
-    {
-     "k": "minutes",
-     "v": -8
-    }
-   ],
-   "grade": "B+",
-   "posPct": 73,
-   "posRank": 29,
-   "rank": 64,
-   "vpc3": 2.919,
-   "fvpc": 1.03,
-   "fvpc3": 3.057,
-   "dn": "Scottie Wilbekin",
-   "s": "scottie-wilbekin",
-   "_seen": "2026-11-12",
-   "price_d3": -0.7,
-   "price_d5": -0.1,
-   "price_d10": 1.1,
-   "price_official": 8.6,
-   "score": 14.23,
-   "fresh": true,
-   "round_log": [
-    [
-     1,
-     13,
-     24.2
-    ],
-    [
-     2,
-     18,
-     22.9
-    ],
-    [
-     3,
-     16,
-     25.4
-    ],
-    [
-     4,
-     17,
-     26.4
-    ],
-    [
-     5,
-     4,
-     20.3
-    ],
-    [
-     6,
-     17,
-     24.4
-    ],
-    [
-     7,
-     14,
-     25.8
-    ],
-    [
-     8,
-     -1,
-     17.8
-    ],
-    [
-     9,
-     16,
-     24.2
-    ],
-    [
-     10,
-     -5,
-     8.3
-    ]
-   ]
-  },
-  {
-   "slug": "devon-hall",
-   "name": "Devon Hall",
-   "team_name": "Olimpia Milano",
-   "t": "MIL",
-   "pos": "Guard",
-   "price": 8.6,
-   "since_start": 0.4,
-   "owned": 1.0,
-   "pir_ge_price": "6/10",
-   "proj_price_change": 0.1,
-   "c": "011205",
-   "n": "HALL, DEVON",
-   "price_src": "official",
-   "status": "playing",
-   "status_src": "none",
-   "l5": 6.8,
-   "l10": 10.6,
-   "pirpm": 0.415,
-   "pm": 22.7,
-   "pp0": 9.8,
-   "pm0": 22.7,
-   "ppm": 0.432,
-   "pp": 9.8,
-   "p10": 0.4,
-   "p50": 9.6,
-   "p90": 20.2,
-   "conf": 71,
-   "opp": "ZAL",
-   "home": 1,
-   "day": 1,
-   "pwin": 0.395,
-   "f": [
-    [
-     "home",
-     1.6
-    ],
-    [
-     "role",
-     0.6
-    ],
-    [
-     "rest",
-     -0.1
-    ],
-    [
-     "opponent",
-     0
-    ]
-   ],
-   "nxe": [
-    [
-     14,
-     "ASV",
-     0,
-     8.6,
-     5,
-     0
-    ],
-    [
-     15,
-     "HTA",
-     0,
-     8.2,
-     4,
-     0
-    ]
-   ],
-   "nx": [
-    [
-     11,
-     "ZAL",
-     1,
-     9.8,
-     3,
-     0
-    ],
-    [
-     12,
-     "RED",
-     1,
-     9.7,
-     3,
-     0
-    ],
-    [
-     13,
-     "ULK",
-     1,
-     9.9,
-     2,
-     1
-    ]
-   ],
-   "p3": 29.4,
-   "p5": 46.2,
-   "start": 1,
-   "odrtg": 108.2,
-   "gpace": 75.4,
-   "mcv": 0.175,
-   "hcap": 21.2,
-   "hhit": 0,
-   "hneg": 0.2,
-   "rest": 7,
-   "b2b": 1,
-   "ph": [
-    [
-     4,
-     15
-    ],
-    [
-     5,
-     14.5
-    ],
-    [
-     6,
-     14.8
-    ],
-    [
-     7,
-     13.6
-    ],
-    [
-     8,
-     12.6
-    ],
-    [
-     9,
-     12.7
-    ],
-    [
-     10,
-     11.9
-    ],
-    [
-     11,
-     8.6
-    ]
-   ],
-   "l3": 8.7,
-   "m3": 25.3,
-   "m10": 25.5,
-   "gp": 10,
-   "vpc": 1.14,
-   "small": 0,
-   "sig": "buy",
-   "sigScore": 58,
-   "sigConf": "high",
-   "why": [
-    "value+",
-    "price+",
-    "dip+"
-   ],
-   "factors": [
-    {
-     "k": "value",
-     "v": 34
-    },
-    {
-     "k": "price",
-     "v": 15
-    },
-    {
-     "k": "dip",
-     "v": 7
-    }
-   ],
-   "grade": "A",
-   "posPct": 92,
-   "posRank": 9,
-   "rank": 20,
-   "vpc3": 3.419,
-   "fvpc": 1.185,
-   "fvpc3": 3.578,
-   "dn": "Devon Hall",
-   "s": "devon-hall",
-   "_seen": "2026-11-12",
-   "price_d3": -0.1,
-   "price_d5": -0.6,
-   "price_d10": 0.4,
-   "price_official": 8.6,
-   "score": 16.63,
-   "fresh": true,
-   "round_log": [
-    [
-     1,
-     16,
-     27.9
-    ],
-    [
-     2,
-     10,
-     22.9
-    ],
-    [
-     3,
-     18,
-     35.0
-    ],
-    [
-     4,
-     12,
-     24.8
-    ],
-    [
-     5,
-     16,
-     26.8
-    ],
-    [
-     6,
-     5,
-     22.4
-    ],
-    [
-     7,
-     3,
-     19.6
-    ],
-    [
-     8,
-     13,
-     31.0
-    ],
-    [
-     9,
-     7,
-     21.9
-    ],
-    [
-     10,
-     6,
-     23.1
-    ]
-   ]
-  },
-  {
-   "slug": "dwayne-bacon",
-   "name": "Dwayne Bacon",
-   "team_name": "Dubai Basketball",
-   "t": "DUB",
-   "pos": "Forward",
-   "price": 14.6,
-   "since_start": 1.9,
-   "owned": 13.0,
-   "pir_ge_price": "7/10",
-   "proj_price_change": 0.0,
-   "c": "011286",
-   "n": "BACON, DWAYNE",
-   "price_src": "official",
-   "status": "playing",
-   "status_src": "none",
-   "l5": 19,
-   "l10": 18.5,
-   "pirpm": 0.682,
-   "pm": 26.5,
-   "pp0": 14.4,
-   "pm0": 25.4,
-   "ppm": 0.565,
-   "pp": 15,
-   "p10": 5.4,
-   "p50": 14.8,
-   "p90": 26.7,
-   "conf": 73,
-   "opp": "OLY",
-   "home": 0,
-   "day": 1,
-   "pwin": 0.366,
-   "f": [
-    [
-     "opponent",
-     -0.6
-    ],
-    [
-     "role",
-     0.3
-    ],
-    [
-     "home",
      0
     ],
     [
@@ -1651,91 +1608,344 @@
    "vx": {
     "k": "ww",
     "n": 4,
-    "m": 27.2,
+    "m": 22.6,
     "a": [
-     "008855"
+     "010781"
     ],
-    "dm": 1.1,
+    "dm": 0.9,
     "dp": 0.6,
     "absent_names": [
-     "Thomas Walkup"
+     "Iffe Lundberg"
     ]
    },
    "nxe": [
     [
      14,
-     "PAR",
-     1,
-     15.6,
-     1,
+     "MUN",
+     0,
+     12.8,
+     3,
      0
     ],
     [
      15,
-     "ZAL",
+     "BAS",
      0,
-     14.9,
-     1,
+     12.7,
+     3,
      0
     ]
    ],
    "nx": [
     [
      11,
-     "OLY",
-     0,
-     15,
-     3,
+     "HTA",
+     1,
+     13.7,
+     4,
      0
     ],
     [
      12,
-     "IST",
+     "OLY",
      1,
-     15.8,
-     5,
+     13,
+     2,
      0
     ],
     [
      13,
-     "TEL",
-     0,
-     15.5,
+     "DUB",
+     1,
+     13.1,
      4,
      1
     ]
    ],
-   "p3": 46.3,
-   "p5": 76.8,
-   "start": 1,
-   "odrtg": 106.5,
-   "gpace": 75.4,
-   "mcv": 0.166,
-   "hcap": 37,
-   "hhit": 0.4,
-   "hneg": 0,
+   "p3": 39.8,
+   "p5": 65.3,
+   "start": 0.8,
+   "odrtg": 113.1,
+   "gpace": 77.1,
+   "mcv": 0.184,
+   "hcap": 28.8,
+   "hhit": 0.2,
+   "hneg": 0.2,
    "rest": 6,
    "b2b": 1,
    "ph": [
     [
      4,
-     18.8
+     10.5
     ],
     [
      5,
-     17.9
+     13
     ],
     [
      6,
-     17.5
+     15.9
     ],
     [
      7,
-     18.6
+     15.8
     ],
     [
      8,
-     17.4
+     16
+    ],
+    [
+     9,
+     14.7
+    ],
+    [
+     10,
+     14.3
+    ],
+    [
+     11,
+     10.5
+    ]
+   ],
+   "l3": 10.7,
+   "m3": 21.5,
+   "m10": 22.3,
+   "gp": 10,
+   "vpc": 1.305,
+   "small": 0,
+   "sig": "buy",
+   "sigScore": 60,
+   "sigConf": "high",
+   "why": [
+    "value+",
+    "price+",
+    "dip+"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 38
+    },
+    {
+     "k": "price",
+     "v": 15
+    },
+    {
+     "k": "dip",
+     "v": 10
+    }
+   ],
+   "grade": "A+",
+   "posPct": 98,
+   "posRank": 3,
+   "rank": 7,
+   "vpc3": 3.79,
+   "fvpc": 1.353,
+   "fvpc3": 3.963,
+   "dn": "Yam Madar",
+   "s": "yam-madar",
+   "_seen": "2026-11-12",
+   "price_d3": -0.1,
+   "price_d5": 0.4,
+   "price_d10": 1.7,
+   "price_official": 10.5,
+   "score": 22.17,
+   "fresh": true,
+   "round_log": [
+    [
+     1,
+     16,
+     26.0
+    ],
+    [
+     2,
+     10,
+     20.8
+    ],
+    [
+     3,
+     0,
+     15.7
+    ],
+    [
+     4,
+     22,
+     23.0
+    ],
+    [
+     5,
+     31,
+     26.8
+    ],
+    [
+     6,
+     15,
+     19.7
+    ],
+    [
+     7,
+     18,
+     26.1
+    ],
+    [
+     8,
+     2,
+     15.8
+    ],
+    [
+     9,
+     17,
+     27.2
+    ],
+    [
+     10,
+     13,
+     21.4
+    ]
+   ]
+  },
+  {
+   "slug": "stefan-joksimovic",
+   "name": "Stefan Joksimovic",
+   "team_name": "Baskonia",
+   "t": "BAS",
+   "pos": "Forward",
+   "price": 4.2,
+   "since_start": 0.2,
+   "owned": 15.0,
+   "pir_ge_price": "3/10",
+   "proj_price_change": null,
+   "price_official": 4.2,
+   "score": null,
+   "fresh": false,
+   "round_log": [],
+   "season_summary": "10 games, 5.1 points, 1.5 rebounds, 1.8 assists and 3.2 PIR per game"
+  },
+  {
+   "slug": "aliou-diarra",
+   "name": "Aliou Diarra",
+   "team_name": "Virtus Bologna",
+   "t": "VIR",
+   "pos": "Center",
+   "price": 10.8,
+   "since_start": 4.3,
+   "owned": 38.0,
+   "pir_ge_price": "9/10",
+   "proj_price_change": 0.1,
+   "c": "014108",
+   "n": "DIARRA, ALIOU",
+   "price_src": "official",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 18.8,
+   "l10": 19.2,
+   "pirpm": 1.001,
+   "pm": 16.8,
+   "pp0": 12.7,
+   "pm0": 16.8,
+   "ppm": 0.758,
+   "pp": 12.7,
+   "p10": 3.2,
+   "p50": 12.4,
+   "p90": 24.6,
+   "conf": 71,
+   "opp": "IST",
+   "home": 0,
+   "day": 2,
+   "pwin": 0.375,
+   "f": [
+    [
+     "opponent",
+     -0.3
+    ],
+    [
+     "home",
+     0
+    ],
+    [
+     "rest",
+     0
+    ],
+    [
+     "form",
+     0
+    ]
+   ],
+   "nxe": [
+    [
+     14,
+     "RED",
+     0,
+     12.3,
+     2,
+     0
+    ],
+    [
+     15,
+     "PAR",
+     1,
+     13.3,
+     2,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     11,
+     "IST",
+     0,
+     12.7,
+     4,
+     0
+    ],
+    [
+     12,
+     "PAN",
+     1,
+     13.3,
+     2,
+     0
+    ],
+    [
+     13,
+     "PAM",
+     0,
+     12.7,
+     4,
+     1
+    ]
+   ],
+   "p3": 38.7,
+   "p5": 64.3,
+   "start": 0,
+   "odrtg": 111.5,
+   "gpace": 78.2,
+   "mcv": 0.16,
+   "hcap": 38.4,
+   "hhit": 0.4,
+   "hneg": 0,
+   "rest": 7,
+   "b2b": 1,
+   "ph": [
+    [
+     4,
+     19.5
+    ],
+    [
+     5,
+     19
+    ],
+    [
+     6,
+     18.7
+    ],
+    [
+     7,
+     18.1
+    ],
+    [
+     8,
+     18.5
     ],
     [
      9,
@@ -1743,107 +1953,302 @@
     ],
     [
      10,
-     16.9
+     15.6
     ],
     [
      11,
-     14.6
+     10.8
     ]
    ],
-   "l3": 20,
-   "m3": 30.8,
-   "m10": 27.1,
+   "l3": 19,
+   "m3": 17.7,
+   "m10": 19.2,
    "gp": 10,
-   "vpc": 1.027,
+   "vpc": 1.176,
    "small": 0,
    "sig": "buy",
-   "sigScore": 41,
+   "sigScore": 49,
    "sigConf": "high",
    "why": [
     "value+",
     "price+",
-    "minutes+"
+    "minutes-"
    ],
    "factors": [
     {
      "k": "value",
-     "v": 30
+     "v": 38
     },
     {
      "k": "price",
-     "v": 11
+     "v": 15
     },
     {
      "k": "minutes",
-     "v": 6
+     "v": -2
     }
    ],
-   "grade": "A",
-   "posPct": 87,
-   "posRank": 12,
-   "rank": 32,
-   "vpc3": 3.171,
-   "fvpc": 1.065,
-   "fvpc3": 3.316,
-   "dn": "Dwayne Bacon",
-   "s": "dwayne-bacon",
+   "grade": "A+",
+   "posPct": 98,
+   "posRank": 2,
+   "rank": 8,
+   "vpc3": 3.583,
+   "fvpc": 1.22,
+   "fvpc3": 3.748,
+   "dn": "Aliou Diarra",
+   "s": "aliou-diarra",
    "_seen": "2026-11-12",
-   "price_d3": 0.7,
-   "price_d5": 1.0,
-   "price_d10": 1.9,
-   "price_official": 14.6,
-   "score": 26.65,
+   "price_d3": 1.0,
+   "price_d5": 1.8,
+   "price_d10": 4.3,
+   "price_official": 10.8,
+   "score": 22.19,
    "fresh": true,
    "round_log": [
     [
      1,
-     31,
-     29.1
+     10,
+     21.7
     ],
     [
      2,
-     19,
-     26.2
+     22,
+     23.2
     ],
     [
      3,
-     9,
-     24.8
+     30,
+     25.1
     ],
     [
      4,
-     15,
-     30.9
+     18,
+     17.1
     ],
     [
      5,
-     16,
-     26.9
+     18,
+     17.8
     ],
     [
      6,
-     27,
-     24.6
+     15,
+     14.7
     ],
     [
      7,
-     8,
-     16.4
+     22,
+     18.9
     ],
     [
      8,
-     27,
-     34.0
+     16,
+     16.9
     ],
     [
      9,
-     20,
-     30.1
+     12,
+     17.2
     ],
     [
      10,
+     29,
+     19.1
+    ]
+   ]
+  },
+  {
+   "slug": "kendrick-nunn",
+   "name": "Kendrick Nunn",
+   "team_name": "Panathinaikos",
+   "t": "PAN",
+   "pos": "Guard",
+   "price": 14.8,
+   "since_start": 0.2,
+   "owned": 15.0,
+   "pir_ge_price": "2/4",
+   "proj_price_change": 0.0,
+   "c": "012774",
+   "n": "NUNN, KENDRICK",
+   "price_src": "official",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 18.8,
+   "l10": 18.8,
+   "pirpm": 0.812,
+   "pm": 22.8,
+   "pp0": 14.2,
+   "pm0": 22.2,
+   "ppm": 0.642,
+   "pp": 14.6,
+   "p10": 4.7,
+   "p50": 15.4,
+   "p90": 26.8,
+   "conf": 47,
+   "opp": "BAR",
+   "home": 1,
+   "day": 2,
+   "pwin": 0.718,
+   "f": [
+    [
+     "opponent",
+     0.2
+    ],
+    [
+     "home",
+     0.2
+    ],
+    [
+     "rest",
+     -0.1
+    ],
+    [
+     "role",
+     0.1
+    ]
+   ],
+   "vx": {
+    "k": "ww",
+    "n": 4,
+    "m": 23.1,
+    "a": [
+     "011085"
+    ],
+    "dm": 0.6,
+    "dp": 0.4,
+    "absent_names": [
+     "Nikolaos Rogkavopoulos"
+    ]
+   },
+   "nxe": [
+    [
+     14,
+     "PAM",
+     0,
+     13.4,
+     1,
+     0
+    ],
+    [
+     15,
+     "BES",
+     0,
+     13.9,
+     4,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     11,
+     "BAR",
+     1,
+     14.6,
+     2,
+     0
+    ],
+    [
+     12,
+     "VIR",
+     0,
+     13.9,
+     3,
+     0
+    ],
+    [
      13,
-     28.2
+     "ZAL",
+     0,
+     13.4,
+     3,
+     1
+    ]
+   ],
+   "p3": 41.9,
+   "p5": 69.2,
+   "start": 0.25,
+   "odrtg": 116.4,
+   "gpace": 75.7,
+   "mcv": 0.102,
+   "hcap": 37.5,
+   "hhit": 0.5,
+   "hneg": 0,
+   "rest": 9,
+   "b2b": 1,
+   "ph": [
+    [
+     10,
+     15
+    ],
+    [
+     11,
+     14.8
+    ]
+   ],
+   "l3": 22.3,
+   "m3": 24.2,
+   "m10": 23.1,
+   "gp": 4,
+   "vpc": 0.986,
+   "small": 0,
+   "sig": "hold",
+   "sigScore": 21,
+   "sigConf": "medium",
+   "why": [
+    "value+",
+    "minutes+",
+    "schedule+"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 17
+    },
+    {
+     "k": "minutes",
+     "v": 2
+    },
+    {
+     "k": "schedule",
+     "v": 2
+    }
+   ],
+   "grade": "B+",
+   "posPct": 71,
+   "posRank": 31,
+   "rank": 69,
+   "vpc3": 2.831,
+   "fvpc": 1.057,
+   "fvpc3": 2.994,
+   "dn": "Kendrick Nunn",
+   "s": "kendrick-nunn",
+   "_seen": "2026-11-12",
+   "price_d3": 1.1,
+   "price_d5": 0.7,
+   "price_d10": 0.2,
+   "price_official": 14.8,
+   "score": 23.28,
+   "fresh": true,
+   "round_log": [
+    [
+     7,
+     8,
+     19.6
+    ],
+    [
+     8,
+     26,
+     22.8
+    ],
+    [
+     9,
+     10,
+     26.2
+    ],
+    [
+     10,
+     31,
+     23.7
     ]
    ]
   },
@@ -2084,942 +2489,240 @@
    ]
   },
   {
-   "slug": "mbaye-ndiaye",
-   "name": "Mbaye Ndiaye",
-   "team_name": "Olympiacos",
-   "t": "OLY",
-   "pos": "Forward",
-   "price": 8.3,
-   "since_start": 0.8,
-   "owned": 5.0,
-   "pir_ge_price": "5/10",
+   "slug": "dario-brizuela",
+   "name": "Dario Brizuela",
+   "team_name": "Barcelona",
+   "t": "BAR",
+   "pos": "Guard",
+   "price": 6.3,
+   "since_start": -0.1,
+   "owned": 6.0,
+   "pir_ge_price": "4/9",
    "proj_price_change": 0.0,
-   "c": "012731",
-   "n": "NDIAYE, MBAYE",
+   "c": "009992",
+   "n": "BRIZUELA, DARIO",
    "price_src": "official",
    "status": "playing",
    "status_src": "none",
-   "l5": 7.2,
-   "l10": 10.2,
-   "pirpm": 0.585,
-   "pm": 15.9,
-   "pp0": 8.2,
-   "pm0": 15.9,
-   "ppm": 0.517,
-   "pp": 8.2,
-   "p10": 0.2,
-   "p50": 8.1,
-   "p90": 18.8,
-   "conf": 72,
-   "opp": "DUB",
-   "home": 1,
-   "day": 1,
-   "pwin": 0.634,
+   "l5": 7,
+   "l10": 5.8,
+   "pirpm": 0.311,
+   "pm": 17,
+   "pp0": 5.6,
+   "pm0": 16.4,
+   "ppm": 0.341,
+   "pp": 5.8,
+   "p10": -1.9,
+   "p50": 5.6,
+   "p90": 16.9,
+   "conf": 69,
+   "opp": "PAN",
+   "home": 0,
+   "day": 2,
+   "pwin": 0.282,
    "f": [
     [
-     "form",
-     -0.4
-    ],
-    [
-     "home",
-     0.3
+     "opponent",
+     -0.3
     ],
     [
      "role",
      0.2
     ],
     [
-     "opponent",
+     "home",
+     0
+    ],
+    [
+     "rest",
      0
     ]
    ],
+   "vx": {
+    "k": "vac",
+    "a": [
+     "009862"
+    ],
+    "dm": 0.6,
+    "dp": 0.2,
+    "absent_names": [
+     "Kevin Punter"
+    ]
+   },
    "nxe": [
     [
      14,
-     "HTA",
+     "ULK",
      1,
-     8.2,
-     5,
+     5.9,
+     3,
      0
     ],
     [
      15,
-     "ASV",
+     "MAD",
+     0,
+     5.7,
      1,
-     8.3,
-     2,
      0
     ]
    ],
    "nx": [
     [
      11,
-     "DUB",
-     1,
-     8.2,
-     5,
+     "PAN",
+     0,
+     5.8,
+     3,
      0
     ],
     [
      12,
-     "TEL",
-     0,
-     8.3,
-     4,
+     "PRS",
+     1,
+     6,
+     1,
      0
     ],
     [
      13,
-     "MAD",
+     "RED",
      1,
-     8.3,
+     5.8,
      3,
      0
     ]
    ],
-   "p3": 24.8,
-   "p5": 41.3,
+   "p3": 17.6,
+   "p5": 29.2,
    "start": 0,
-   "odrtg": 113.4,
-   "gpace": 75.4,
-   "mcv": 0.326,
-   "hcap": 20.4,
-   "hhit": 0.2,
-   "hneg": 0.4,
-   "rest": 6,
+   "odrtg": 104.7,
+   "gpace": 75.7,
+   "mcv": 0.146,
+   "hcap": 11.6,
+   "hhit": 0,
+   "hneg": 0.44,
+   "rest": 8,
    "b2b": 0,
    "ph": [
     [
      4,
-     14.5
+     7.5
     ],
     [
      5,
-     14.5
+     7.2
     ],
     [
      6,
-     13.9
-    ],
-    [
-     7,
-     15.8
+     6.4
     ],
     [
      8,
-     13.4
+     7.1
     ],
     [
      9,
-     12.8
+     6.2
     ],
     [
      10,
-     11.8
+     7.8
     ],
     [
      11,
-     8.3
+     6.3
     ]
    ],
-   "l3": 4.7,
-   "m3": 17.8,
-   "m10": 17.4,
-   "gp": 10,
-   "vpc": 0.988,
-   "small": 0,
-   "sig": "buy",
-   "sigScore": 33,
-   "sigConf": "high",
-   "why": [
-    "value+",
-    "price+",
-    "schedule-"
-   ],
-   "factors": [
-    {
-     "k": "value",
-     "v": 23
-    },
-    {
-     "k": "price",
-     "v": 15
-    },
-    {
-     "k": "schedule",
-     "v": -6
-    }
-   ],
-   "grade": "B+",
-   "posPct": 79,
-   "posRank": 19,
-   "rank": 51,
-   "vpc3": 2.988,
-   "fvpc": 1.051,
-   "fvpc3": 3.151,
-   "dn": "Mbaye Ndiaye",
-   "s": "mbaye-ndiaye",
-   "_seen": "2026-11-12",
-   "price_d3": -0.6,
-   "price_d5": -0.4,
-   "price_d10": 0.8,
-   "price_official": 8.3,
-   "score": 14.11,
-   "fresh": true,
-   "round_log": [
-    [
-     1,
-     2,
-     7.6
-    ],
-    [
-     2,
-     11,
-     18.6
-    ],
-    [
-     3,
-     29,
-     20.0
-    ],
-    [
-     4,
-     14,
-     18.3
-    ],
-    [
-     5,
-     10,
-     23.9
-    ],
-    [
-     6,
-     28,
-     24.2
-    ],
-    [
-     7,
-     -6,
-     8.4
-    ],
-    [
-     8,
-     6,
-     21.3
-    ],
-    [
-     9,
-     5,
-     20.0
-    ],
-    [
-     10,
-     3,
-     12.2
-    ]
-   ]
-  },
-  {
-   "slug": "oscar-da-silva",
-   "name": "Oscar Da Silva",
-   "team_name": "Bayern Munich",
-   "t": "MUN",
-   "pos": "Forward",
-   "price": 7.6,
-   "since_start": 0.3,
-   "owned": 1.0,
-   "pir_ge_price": "4/8",
-   "proj_price_change": -0.1,
-   "c": "011244",
-   "n": "DA SILVA, OSCAR",
-   "price_src": "official",
-   "status": "playing",
-   "status_src": "none",
-   "l5": 9.8,
-   "l10": 9.2,
-   "pirpm": 0.548,
-   "pm": 10.3,
-   "pp0": 5,
-   "pm0": 10.3,
-   "ppm": 0.483,
-   "pp": 5,
-   "p10": -1.2,
-   "p50": 4.6,
-   "p90": 14.5,
-   "conf": 73,
-   "opp": "PAM",
-   "home": 0,
-   "day": 1,
-   "pwin": 0.177,
-   "f": [
-    [
-     "form",
-     -2.9
-    ],
-    [
-     "rest",
-     0.2
-    ],
-    [
-     "opponent",
-     0
-    ],
-    [
-     "home",
-     0
-    ]
-   ],
-   "nxe": [
-    [
-     14,
-     "TEL",
-     1,
-     5,
-     4,
-     0
-    ],
-    [
-     15,
-     "PRS",
-     1,
-     5.2,
-     2,
-     0
-    ]
-   ],
-   "nx": [
-    [
-     11,
-     "PAM",
-     0,
-     5,
-     1,
-     0
-    ],
-    [
-     12,
-     "ZAL",
-     0,
-     4.8,
-     1,
-     0
-    ],
-    [
-     13,
-     "BAS",
-     1,
-     4.9,
-     5,
-     1
-    ]
-   ],
-   "p3": 14.7,
-   "p5": 24.9,
-   "start": 0,
-   "odrtg": 111.4,
-   "gpace": 78.6,
-   "mcv": 0.392,
-   "hcap": 18.5,
-   "hhit": 0.12,
-   "hneg": 0.5,
-   "rest": 7,
-   "b2b": 1,
-   "ph": [
-    [
-     5,
-     10.2
-    ],
-    [
-     6,
-     9.1
-    ],
-    [
-     7,
-     10.3
-    ],
-    [
-     8,
-     11.5
-    ],
-    [
-     9,
-     11
-    ],
-    [
-     10,
-     10.6
-    ],
-    [
-     11,
-     7.6
-    ]
-   ],
-   "l3": 10.7,
-   "m3": 16.5,
-   "m10": 16.9,
-   "gp": 8,
-   "vpc": 0.658,
+   "l3": 9,
+   "m3": 17.3,
+   "m10": 18.6,
+   "gp": 9,
+   "vpc": 0.921,
    "small": 0,
    "sig": "hold",
-   "sigScore": 2,
+   "sigScore": -6,
    "sigConf": "high",
    "why": [
-    "value-",
-    "price+",
+    "dip-",
+    "value+",
     "schedule+"
    ],
    "factors": [
     {
-     "k": "value",
-     "v": -16
+     "k": "dip",
+     "v": -20
     },
     {
-     "k": "price",
-     "v": 15
+     "k": "value",
+     "v": 9
     },
     {
      "k": "schedule",
      "v": 4
     }
    ],
-   "grade": "C+",
-   "posPct": 30,
-   "posRank": 60,
-   "rank": 162,
-   "vpc3": 1.934,
-   "fvpc": 0.67,
-   "fvpc3": 2.01,
-   "dn": "Oscar Da Silva",
-   "s": "oscar-da-silva",
+   "grade": "B",
+   "posPct": 61,
+   "posRank": 41,
+   "rank": 91,
+   "vpc3": 2.794,
+   "fvpc": 0.947,
+   "fvpc3": 2.913,
+   "dn": "Dario Brizuela",
+   "s": "dario-brizuela",
    "_seen": "2026-11-12",
-   "price_d3": -0.2,
+   "price_d3": 0.5,
    "price_d5": 0.5,
-   "price_d10": 0.3,
-   "price_official": 7.6,
-   "score": 8.23,
+   "price_d10": -0.1,
+   "price_official": 6.3,
+   "score": 10.06,
    "fresh": true,
    "round_log": [
     [
      1,
-     1,
-     9.2
-    ],
-    [
-     2,
-     4,
-     16.9
-    ],
-    [
-     4,
-     20,
-     26.0
-    ],
-    [
-     5,
-     2,
-     9.3
-    ],
-    [
-     6,
-     15,
-     24.2
-    ],
-    [
-     7,
-     18,
-     23.1
-    ],
-    [
-     8,
-     5,
-     9.2
-    ],
-    [
-     9,
-     9,
-     17.1
-    ]
-   ]
-  },
-  {
-   "slug": "aliou-diarra",
-   "name": "Aliou Diarra",
-   "team_name": "Virtus Bologna",
-   "t": "VIR",
-   "pos": "Center",
-   "price": 10.8,
-   "since_start": 4.3,
-   "owned": 38.0,
-   "pir_ge_price": "9/10",
-   "proj_price_change": 0.1,
-   "c": "014108",
-   "n": "DIARRA, ALIOU",
-   "price_src": "official",
-   "status": "playing",
-   "status_src": "none",
-   "l5": 18.8,
-   "l10": 19.2,
-   "pirpm": 1.001,
-   "pm": 16.8,
-   "pp0": 12.7,
-   "pm0": 16.8,
-   "ppm": 0.758,
-   "pp": 12.7,
-   "p10": 3.2,
-   "p50": 12.4,
-   "p90": 24.6,
-   "conf": 71,
-   "opp": "IST",
-   "home": 0,
-   "day": 2,
-   "pwin": 0.375,
-   "f": [
-    [
-     "opponent",
-     -0.3
-    ],
-    [
-     "home",
-     0
-    ],
-    [
-     "rest",
-     0
-    ],
-    [
-     "form",
-     0
-    ]
-   ],
-   "nxe": [
-    [
-     14,
-     "RED",
-     0,
-     12.3,
-     2,
-     0
-    ],
-    [
-     15,
-     "PAR",
-     1,
-     13.3,
-     2,
-     0
-    ]
-   ],
-   "nx": [
-    [
-     11,
-     "IST",
-     0,
-     12.7,
-     4,
-     0
-    ],
-    [
-     12,
-     "PAN",
-     1,
-     13.3,
-     2,
-     0
-    ],
-    [
-     13,
-     "PAM",
-     0,
-     12.7,
-     4,
-     1
-    ]
-   ],
-   "p3": 38.7,
-   "p5": 64.3,
-   "start": 0,
-   "odrtg": 111.5,
-   "gpace": 78.2,
-   "mcv": 0.16,
-   "hcap": 38.4,
-   "hhit": 0.4,
-   "hneg": 0,
-   "rest": 7,
-   "b2b": 1,
-   "ph": [
-    [
-     4,
-     19.5
-    ],
-    [
-     5,
-     19
-    ],
-    [
-     6,
-     18.7
-    ],
-    [
-     7,
-     18.1
-    ],
-    [
-     8,
-     18.5
-    ],
-    [
-     9,
-     18.2
-    ],
-    [
-     10,
-     15.6
-    ],
-    [
-     11,
-     10.8
-    ]
-   ],
-   "l3": 19,
-   "m3": 17.7,
-   "m10": 19.2,
-   "gp": 10,
-   "vpc": 1.176,
-   "small": 0,
-   "sig": "buy",
-   "sigScore": 49,
-   "sigConf": "high",
-   "why": [
-    "value+",
-    "price+",
-    "minutes-"
-   ],
-   "factors": [
-    {
-     "k": "value",
-     "v": 38
-    },
-    {
-     "k": "price",
-     "v": 15
-    },
-    {
-     "k": "minutes",
-     "v": -2
-    }
-   ],
-   "grade": "A+",
-   "posPct": 98,
-   "posRank": 2,
-   "rank": 8,
-   "vpc3": 3.583,
-   "fvpc": 1.22,
-   "fvpc3": 3.748,
-   "dn": "Aliou Diarra",
-   "s": "aliou-diarra",
-   "_seen": "2026-11-12",
-   "price_d3": 1.0,
-   "price_d5": 1.8,
-   "price_d10": 4.3,
-   "price_official": 10.8,
-   "score": 22.19,
-   "fresh": true,
-   "round_log": [
-    [
-     1,
-     10,
-     21.7
-    ],
-    [
-     2,
-     22,
-     23.2
-    ],
-    [
-     3,
-     30,
-     25.1
-    ],
-    [
-     4,
-     18,
-     17.1
-    ],
-    [
-     5,
-     18,
-     17.8
-    ],
-    [
-     6,
-     15,
-     14.7
-    ],
-    [
-     7,
-     22,
-     18.9
-    ],
-    [
-     8,
      16,
-     16.9
+     19.4
+    ],
+    [
+     2,
+     -8,
+     17.6
+    ],
+    [
+     3,
+     6,
+     17.0
+    ],
+    [
+     4,
+     3,
+     21.4
+    ],
+    [
+     5,
+     -1,
+     19.2
+    ],
+    [
+     6,
+     9,
+     20.7
+    ],
+    [
+     8,
+     -4,
+     12.1
     ],
     [
      9,
      12,
-     17.2
+     21.2
     ],
     [
      10,
-     29,
-     19.1
-    ]
-   ]
-  },
-  {
-   "slug": "chuma-okeke",
-   "name": "Chuma Okeke",
-   "team_name": "Real Madrid",
-   "t": "MAD",
-   "pos": "Center",
-   "price": 8.8,
-   "since_start": -0.2,
-   "owned": 1.0,
-   "pir_ge_price": "4/9",
-   "proj_price_change": 0.1,
-   "c": "014006",
-   "n": "OKEKE, CHUMA",
-   "price_src": "official",
-   "status": "playing",
-   "status_src": "none",
-   "l5": 10.8,
-   "l10": 9.2,
-   "pirpm": 0.507,
-   "pm": 22.8,
-   "pp0": 9.3,
-   "pm0": 20.2,
-   "ppm": 0.463,
-   "pp": 10.5,
-   "p10": 2,
-   "p50": 9.9,
-   "p90": 19.7,
-   "conf": 74,
-   "opp": "RED",
-   "home": 1,
-   "day": 1,
-   "pwin": 0.58,
-   "f": [
-    [
-     "home",
-     0.6
-    ],
-    [
-     "opponent",
-     -0.3
-    ],
-    [
-     "rest",
-     -0.1
-    ],
-    [
-     "form",
-     0.1
-    ]
-   ],
-   "vx": {
-    "k": "ww",
-    "n": 1,
-    "m": 26.7,
-    "a": [
-     "009005",
-     "012613",
-     "005928",
-     "007027"
-    ],
-    "dm": 2.6,
-    "dp": 1.2,
-    "absent_names": [
-     "Gabriel Deck",
-     "Mikael Jantunen",
-     "Facundo Campazzo",
-     "Theo Maledon"
-    ]
-   },
-   "nxe": [
-    [
-     14,
-     "ZAL",
-     1,
-     9.6,
-     5,
-     0
-    ],
-    [
-     15,
-     "BAR",
-     1,
-     9.8,
-     3,
-     0
-    ]
-   ],
-   "nx": [
-    [
-     11,
-     "RED",
-     1,
-     10.5,
-     2,
-     0
-    ],
-    [
-     12,
-     "BES",
-     0,
-     9.4,
-     4,
-     0
-    ],
-    [
-     13,
-     "OLY",
-     0,
-     8.9,
-     4,
-     1
-    ]
-   ],
-   "p3": 28.8,
-   "p5": 48.2,
-   "start": 0.4,
-   "odrtg": 98.8,
-   "gpace": 78.2,
-   "mcv": 0.283,
-   "hcap": 18.4,
-   "hhit": 0.11,
-   "hneg": 0.22,
-   "rest": 8,
-   "b2b": 1,
-   "ph": [
-    [
-     5,
-     9.5
-    ],
-    [
-     6,
-     9.4
-    ],
-    [
-     7,
-     11.4
-    ],
-    [
-     8,
-     11.4
-    ],
-    [
-     9,
-     11.1
-    ],
-    [
-     10,
-     11.1
-    ],
-    [
-     11,
-     8.8
-    ]
-   ],
-   "l3": 8,
-   "m3": 20.7,
-   "m10": 18.2,
-   "gp": 9,
-   "vpc": 1.193,
-   "small": 0,
-   "sig": "buy",
-   "sigScore": 50,
-   "sigConf": "high",
-   "why": [
-    "value+",
-    "price+",
-    "dip+"
-   ],
-   "factors": [
-    {
-     "k": "value",
-     "v": 33
-    },
-    {
-     "k": "price",
-     "v": 10
-    },
-    {
-     "k": "dip",
-     "v": 5
-    }
-   ],
-   "grade": "A",
-   "posPct": 91,
-   "posRank": 5,
-   "rank": 23,
-   "vpc3": 3.273,
-   "fvpc": 1.262,
-   "fvpc3": 3.446,
-   "dn": "Chuma Okeke",
-   "s": "chuma-okeke",
-   "_seen": "2026-11-12",
-   "price_d3": -0.2,
-   "price_d5": 0.3,
-   "price_d10": -0.2,
-   "price_official": 8.8,
-   "score": 15.63,
-   "fresh": true,
-   "round_log": [
-    [
-     2,
-     14,
-     20.1
-    ],
-    [
-     3,
-     5,
-     13.9
-    ],
-    [
-     4,
-     3,
-     11.9
-    ],
-    [
-     5,
-     7,
-     13.6
-    ],
-    [
-     6,
-     20,
-     18.8
-    ],
-    [
-     7,
-     10,
-     23.2
-    ],
-    [
-     8,
-     7,
-     12.4
-    ],
-    [
-     9,
-     9,
-     23.1
-    ],
-    [
-     10,
-     8,
-     26.7
+     19,
+     18.6
     ]
    ]
   }

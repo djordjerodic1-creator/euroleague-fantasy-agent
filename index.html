@@ -1,0 +1,404 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fantasy Round 12 Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@500;600;700;800&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--o1:#f6a019;--o2:#ef6a2c;--o3:#e6402f;--ink:#1d1838;--card:#fff;--muted:#6b6880;--panel:rgba(255,255,255,.92);
+--line:#2a2350;--good:#12a150;--bad:#d7263d;--wood1:#e9b97f;--wood2:#d99a5b}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--card:#24203d;--panel:rgba(28,24,52,.94);--ink:#f3f1ff;--muted:#b7b3cf}}
+:root[data-theme=dark]{--card:#24203d;--panel:rgba(28,24,52,.94);--ink:#f3f1ff;--muted:#b7b3cf}
+*{box-sizing:border-box}body{margin:0;font-family:'Fira Sans',system-ui,sans-serif;color:var(--ink);
+background:linear-gradient(160deg,var(--o1),var(--o2) 45%,var(--o3));background-attachment:fixed;min-height:100vh}
+h1,h2,h3,.cond{font-family:'Fira Sans Extra Condensed','Fira Sans',sans-serif;letter-spacing:.3px}
+.wrap{max-width:1100px;margin:0 auto;padding:16px}
+header.top{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;justify-content:space-between;color:#fff;margin:8px 0 14px}
+header.top h1{font-size:40px;margin:0;line-height:1;text-shadow:0 2px 0 rgba(0,0,0,.15)}
+header.top .sub{opacity:.95;font-size:15px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{background:var(--line);color:#fff;border-radius:6px;padding:6px 10px;font-weight:600;font-size:14px}
+.chip.y{background:#e8ff3a;color:#1d1838}
+.panel{background:var(--panel);border-radius:14px;padding:16px 18px;margin:14px 0;box-shadow:0 6px 20px rgba(0,0,0,.12)}
+.panel h2{margin:0 0 10px;font-size:26px}.bottom{font-size:17px;line-height:1.5}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.tab{border:0;cursor:pointer;border-radius:10px;padding:10px 14px;font:600 16px 'Fira Sans Extra Condensed',sans-serif;background:rgba(255,255,255,.25);color:#fff}
+.tab[aria-selected=true]{background:var(--line);box-shadow:inset 0 -4px 0 #e8ff3a}
+.tab small{display:block;font:500 12px 'Fira Sans',sans-serif;opacity:.85}
+.var{display:none}.var.on{display:block}
+.grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:16px;align-items:start}
+@media(max-width:860px){.grid{grid-template-columns:minmax(0,1fr)}}
+.court{position:relative;border-radius:18px;padding:34px 8px 26px;overflow:hidden;
+background:repeating-linear-gradient(90deg,var(--wood1) 0 38px,var(--wood2) 38px 40px,#e2ab6c 40px 78px,var(--wood2) 78px 80px);
+box-shadow:inset 0 0 0 4px rgba(255,255,255,.35),0 10px 24px rgba(0,0,0,.18)}
+.court .lines{position:absolute;inset:0;width:100%;height:100%}
+.frm{position:absolute;top:8px;left:12px;background:var(--line);color:#fff;font:700 13px 'Fira Sans Extra Condensed';padding:3px 8px;border-radius:5px}
+.row{position:relative;display:flex;justify-content:space-evenly;gap:6px;margin:6px 0 14px}
+.pl{width:132px;max-width:31%;text-align:center;position:relative}
+.shirt{position:relative;height:66px}.jsy{height:66px;filter:drop-shadow(0 3px 3px rgba(0,0,0,.25))}
+.cap{position:absolute;right:14px;top:4px;background:#e8ff3a;color:#1d1838;border-radius:50%;width:24px;height:24px;font:800 13px/24px 'Fira Sans Extra Condensed'}
+.cap.vc{background:#fff;font-size:10px}
+.fire{position:absolute;left:12px;top:2px;font-size:16px;background:#e8ff3a;border-radius:5px;padding:0 2px}
+.tag{border-radius:6px;overflow:hidden;box-shadow:0 3px 8px rgba(0,0,0,.2)}
+.nm{background:var(--line);color:#fff;font:500 15px 'Fira Sans Extra Condensed';padding:4px 4px 3px;border-bottom:3px solid #19d3a2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.nm b{opacity:.7;font-weight:500;margin-right:3px}
+.gm{background:#fff;color:#1d1838;font:600 16px 'Fira Sans Extra Condensed';padding:5px 4px;display:flex;justify-content:space-between;gap:4px}
+.pj{background:#1d1838;color:#e8ff3a;border-radius:4px;padding:0 5px}
+.meta{font-size:11px;color:#3b2a14;margin-top:3px}
+.stat{display:inline-block;margin-top:3px;font:700 11px 'Fira Sans';border-radius:4px;padding:1px 5px;color:#fff;background:var(--bad)}
+.stat.doubtful{background:#e08a00}
+.benchwrap{display:grid;grid-template-columns:1fr;gap:12px;margin-top:12px}
+.box{background:rgba(255,255,255,.18);border-radius:14px;padding:10px 6px}
+.box h4{margin:0 0 6px;text-align:center;color:#fff;font:600 14px 'Fira Sans Extra Condensed';letter-spacing:1px;opacity:.9}
+.box .row{margin:0;flex-wrap:wrap;row-gap:10px}.box .pl{width:124px;max-width:23%}
+@media(max-width:520px){.box .pl{max-width:46%}}.box .meta{color:#fff}
+.coach .nm{border-bottom-color:#e8ff3a}
+.why h3{margin:4px 0 6px;font-size:22px}.why ul{margin:6px 0 10px;padding-left:18px;line-height:1.45}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:8px 0 12px}
+.kpi{background:var(--line);color:#fff;border-radius:10px;padding:8px;text-align:center}
+.kpi b{display:block;font:700 24px 'Fira Sans Extra Condensed';color:#e8ff3a}.kpi span{font-size:12px;opacity:.85}
+.trade{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:7px 0;border-bottom:1px dashed rgba(127,127,127,.35)}
+.trade .out{color:var(--bad);font-weight:600}.trade .in{color:var(--good);font-weight:600}.trade .d{margin-left:auto;font-size:13px;color:var(--muted)}
+.trade .r{flex-basis:100%;font-size:13px;color:var(--muted)}
+.pill{display:inline-block;font:600 12px 'Fira Sans';padding:2px 8px;border-radius:20px;background:#ece9ff;color:#2a2350}
+.pill.rec{background:#e8ff3a}.pill.warn{background:#ffe1e1;color:#8a1020}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:7px 6px;border-bottom:1px solid rgba(127,127,127,.25);text-align:left;vertical-align:top}
+th{font:600 13px 'Fira Sans Extra Condensed';text-transform:uppercase;color:var(--muted)}
+.v{font:700 12px 'Fira Sans';padding:2px 7px;border-radius:4px;color:#fff;white-space:nowrap}
+.v.KEEP{background:var(--good)}.v.SELL{background:var(--bad)}.v.WATCH{background:#e08a00}.v.BUY{background:#2a62ff}.v.CAPTAIN{background:#1d1838}
+.rumour{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;padding:8px 0;border-bottom:1px solid rgba(127,127,127,.2)}
+.rumour .k{font:700 11px 'Fira Sans';text-transform:uppercase;border-radius:4px;padding:2px 6px;height:fit-content;color:#fff;background:#6b6880}
+.rumour .k.confirmed{background:var(--good)}.rumour .k.rumour{background:#e08a00}.rumour .k.report{background:#2a62ff}
+.rumour .imp{grid-column:2;font-size:13px;color:var(--muted)}.rumour a{color:inherit}
+.alert{padding:8px 10px;border-left:4px solid #e08a00;margin:6px 0;background:rgba(224,138,0,.08);border-radius:4px}
+.alert.high{border-color:var(--bad);background:rgba(215,38,61,.08)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:860px){.cols{grid-template-columns:1fr}}
+footer{color:#fff;opacity:.9;font-size:12px;text-align:center;padding:18px 0 30px}
+.issues{color:var(--bad);font-weight:600}
+</style></head><body><div class="wrap">
+<header class="top"><div><div class="sub cond">EUROLEAGUE FANTASY · ANALYST REPORT · 2026-11-12</div>
+<h1>Round 12 plan</h1></div>
+<div class="chips"><span class="chip y">Budget 103.8</span>
+<span class="chip">Bank 0.5</span><span class="chip">R12+R13 double week · unlimited trades before R14</span></div></header>
+<div class="panel bottom"><h2>Bottom line</h2>Two things decide your Round 12. First, a free fix: your current lineup has Davidovac and Joksimović in active slots while Nunn, Diarra and Malcolm sit on the half-points bench, and reordering alone is worth about +11 points. Second, your coach: Partizan are 42% underdogs at home to Valencia, so the expected return is about +1. Fenerbahçe (83% vs ASVEL, then at struggling Milano in R13) is the best coach for the whole double week. Variation A does both with only 2 trades and keeps 2 in hand for Tuesday&#x27;s injury news.</div>
+<div class="panel"><h2>Your squad right now</h2><p>Before any trade: move Nunn, Diarra and Malcolm into the active five, put Madar as 6th man, and send Davidovac (5.5 proj, 12 min, 20% starts) and Joksimović (3.2 PIR/game) to the bench. Same 10 players: about 122 → 133 projected points. Keep Feliz in the starting five; he is your only Wednesday player, which keeps a late captain/backup option open.</p></div>
+<div class="tabs" role="tablist"><button class="tab" role="tab" data-v="vA" aria-selected="true">A · Balanced: coach fix + guard upgrade<small>145 proj pts · Low risk</small></button><button class="tab" role="tab" data-v="vB" aria-selected="false">B · Zalgiris stack: high ceiling<small>146 proj pts · High risk</small></button><button class="tab" role="tab" data-v="vC" aria-selected="false">C · Sell-high + double-week builder<small>144 proj pts · Medium risk</small></button></div>
+<section class="var on" id="vA">
+<div class="grid"><div>
+<div class="court"><svg class="lines" viewBox="0 0 400 300" preserveAspectRatio="none" aria-hidden="true">
+<path d="M120 0v95h160V0M150 95a50 50 0 0 0 100 0M40 0v40a160 160 0 0 0 320 0V0" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="2"/>
+<circle cx="200" cy="300" r="45" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="2"/></svg>
+<div class="frm">2-2-1</div><div class="row rC"><div class="pl">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#151515" stroke="#ffffff" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">VIR</text></svg></div>
+  <div class="tag"><div class="nm"><b>C</b> Diarra</div>
+  <div class="gm">T1 vs PAO<span class="pj">13.3</span></div></div>
+  <div class="meta">10.8 cr · L3 19</div>
+</div></div><div class="row rF"><div class="pl">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#e0001b" stroke="#ffffff" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">OLY</text></svg><span class="cap">C</span></div>
+  <div class="tag"><div class="nm"><b>F</b> Vezenkov</div>
+  <div class="gm">T1 @ MTA<span class="pj">23.3</span></div></div>
+  <div class="meta">18.9 cr · L3 23</div>
+</div><div class="pl">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#0c2c84" stroke="#ffffff" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">EFS</text></svg><span class="fire" title="Hot form: last 3 games well above season level">🔥</span></div>
+  <div class="tag"><div class="nm"><b>F</b> Malcolm</div>
+  <div class="gm">T1 @ DUB<span class="pj">12.4</span></div></div>
+  <div class="meta">9.8 cr · L3 18.3</div>
+</div></div><div class="row rG"><div class="pl">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#a50044" stroke="#004d98" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">BAR</text></svg></div>
+  <div class="tag"><div class="nm"><b>G</b> Robinson</div>
+  <div class="gm">T1 vs PBB<span class="pj">15.0</span></div></div>
+  <div class="meta">12.8 cr · L3 16.3</div>
+</div><div class="pl">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#f4f4f4" stroke="#4b2a8a" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#1d1838">RMB</text></svg><span class="cap vc">VC</span></div>
+  <div class="tag"><div class="nm"><b>G</b> Feliz</div>
+  <div class="gm">T2 @ BJK<span class="pj">12.8</span></div></div>
+  <div class="meta">9.3 cr · L3 14.3</div>
+</div></div></div>
+<div class="benchwrap"><div class="box"><h4>6TH MAN (100%) &amp; COACH</h4><div class="row"><div class="pl sm">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#ffd200" stroke="#003a8c" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#1d1838">MTA</text></svg></div>
+  <div class="tag"><div class="nm"><b>G</b> Madar</div>
+  <div class="gm">T1 vs OLY<span class="pj">13.0</span></div></div>
+  <div class="meta">10.5 cr · L3 10.7</div>
+</div><div class="pl sm coach"><div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#001a57" stroke="#ffd200" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">HC</text></svg></div>
+<div class="tag"><div class="nm"><b>HC</b> Fenerbahce</div>
+<div class="gm">T1 vs ASV<span class="pj">+12.5</span></div></div>
+<div class="meta">win 83% · margin +10</div></div></div></div>
+<div class="box"><h4>BENCH (50%)</h4><div class="row"><div class="pl sm">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#151515" stroke="#e5004f" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">PBB</text></svg></div>
+  <div class="tag"><div class="nm"><b>C</b> Faye</div>
+  <div class="gm">T1 @ BAR<span class="pj">10.1</span></div></div>
+  <div class="meta">7.8 cr · L3 –</div>
+</div><div class="pl sm">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#c8102e" stroke="#ffffff" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">CZV</text></svg></div>
+  <div class="tag"><div class="nm"><b>F</b> Davidovac</div>
+  <div class="gm">T1 @ MIL<span class="pj">5.5</span></div></div>
+  <div class="meta">4.7 cr · L3 7</div>
+</div><div class="pl sm">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#a50044" stroke="#004d98" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">BAR</text></svg></div>
+  <div class="tag"><div class="nm"><b>G</b> Brizuela</div>
+  <div class="gm">T1 vs PBB<span class="pj">6.0</span></div></div>
+  <div class="meta">6.3 cr · L3 9</div>
+</div><div class="pl sm">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#0b2d6b" stroke="#c8102e" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">BAS</text></svg></div>
+  <div class="tag"><div class="nm"><b>F</b> Joksimovic</div>
+  <div class="gm">T1 vs HTA<span class="pj">3.2</span></div></div>
+  <div class="meta">4.2 cr · L3 –</div>
+</div></div></div></div>
+</div>
+<div class="panel why"><h3><span class="pill rec">RECOMMENDED</span> Balanced: coach fix + guard upgrade</h3><p><i>Fix the biggest leak (coach), upgrade Nunn to a cheaper guard with a bigger role, and keep 2 trades for the Tuesday injury report.</i></p>
+<div class="kpis"><div class="kpi"><b>145</b><span>proj. fantasy pts R12</span></div>
+<div class="kpi"><b>0.1</b><span>bank after</span></div>
+<div class="kpi"><b>2/4</b><span>trades used</span></div></div>
+
+<h4>Trades</h4><div class="trade"><span class="out">▼ Coach Partizan (6.2)</span>→<span class="in">▲ Coach Fenerbahçe (8.6)</span>
+<span class="d">−2.4</span><div class="r">Partizan 42% at home to Valencia (proj −2): expected about +1. Fenerbahçe 83% vs ASVEL (proj +10): about +12.5, and R13 is at Milano (19th, new coach Banchi still installing his system). The best coach over both double-week rounds.</div></div><div class="trade"><span class="out">▼ Kendrick Nunn (14.8)</span>→<span class="in">▲ Justin Robinson (12.8)</span>
+<span class="d">+2.0</span><div class="r">Punter is out about 3 weeks with an ankle injury, so Robinson becomes Barcelona&#x27;s lead ball-handler. Home vs Paris (fastest pace in the league, weak defence) in R12, home vs Zvezda in R13, no back-to-back. Nunn starts only 25% of the time in a crowded Panathinaikos backcourt and has a B2B at Zalgiris.</div></div>
+<h4>Why this squad</h4><ul><li>Coach lens: Real Madrid are without Campazzo, Maledon, Deck and Jantunen. Feliz played 33.9 minutes last round, and the Wednesday game at Beşiktaş (also missing Nowell, Jeffries and Korkmaz) keeps him a heavy-minutes starter.</li><li>Malcolm is starting and playing 30 minutes. R12 at Dubai is tough (25% win), but R13 vs ASVEL is the best matchup on your team (15.2 projected). Keep him through the double week.</li><li>Diarra: 1.0 PIR per minute is elite. Virtus are underdogs to Panathinaikos (Lessort matchup), but he&#x27;s 38% owned. Selling him is a rank risk and his price is still rising.</li><li>Madar as 6th man rather than a starter: Maccabi are 21% vs Olympiacos and he plays the same game as your captain. Not a starter for this matchup.</li><li>Faye is benched, not sold. He just scored 20.9 in the buzzer-beater win over Fenerbahçe, so his price rises after R11. Selling him next window, at the higher price, is better value.</li><li>2 trades held: use them Monday night if the injury report changes things (Campazzo return would cut Feliz&#x27;s minutes; Koloko&#x27;s visa issue affects Zvezda&#x27;s frontcourt).</li></ul>
+<h4>Captain</h4><p>Vezenkov: 23 PIR projected, 30 min, 79% win at Maccabi, a floor of about 14 even in a bad game. Feliz is your only Wednesday (T2) player. If Vezenkov flops on Tuesday you can&#x27;t move the captaincy after he&#x27;s played, so decide before Tuesday tip-off. Keep Feliz in the five so the option exists if late news hits Vezenkov.</p>
+<h4>Cancel if…</h4><ul><li>Robinson is listed doubtful on Monday&#x27;s injury report: then keep Nunn.</li><li>Fenerbahçe rule out two starters: switch the coach to Zalgiris (80% vs Bayern, 7.3 credits, leaves 1.2 in the bank).</li></ul>
+<p class="meta" style="color:var(--muted)">Next round (R13) raw projection of the active six: 91 PIR</p>
+</div></div></section><section class="var" id="vB">
+<div class="grid"><div>
+<div class="court"><svg class="lines" viewBox="0 0 400 300" preserveAspectRatio="none" aria-hidden="true">
+<path d="M120 0v95h160V0M150 95a50 50 0 0 0 100 0M40 0v40a160 160 0 0 0 320 0V0" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="2"/>
+<circle cx="200" cy="300" r="45" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="2"/></svg>
+<div class="frm">2-2-1</div><div class="row rC"><div class="pl">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#00843d" stroke="#ffffff" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">ZAL</text></svg><span class="cap vc">VC</span><span class="fire" title="Hot form: last 3 games well above season level">🔥</span></div>
+  <div class="tag"><div class="nm"><b>C</b> Valanciunas</div>
+  <div class="gm">T1 vs MUN<span class="pj">17.5</span></div></div>
+  <div class="meta">16.9 cr · L3 23</div>
+</div></div><div class="row rF"><div class="pl">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#e0001b" stroke="#ffffff" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">OLY</text></svg><span class="cap">C</span></div>
+  <div class="tag"><div class="nm"><b>F</b> Vezenkov</div>
+  <div class="gm">T1 @ MTA<span class="pj">23.3</span></div></div>
+  <div class="meta">18.9 cr · L3 23</div>
+</div><div class="pl">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#0c2c84" stroke="#ffffff" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">EFS</text></svg><span class="fire" title="Hot form: last 3 games well above season level">🔥</span></div>
+  <div class="tag"><div class="nm"><b>F</b> Malcolm</div>
+  <div class="gm">T1 @ DUB<span class="pj">12.4</span></div></div>
+  <div class="meta">9.8 cr · L3 18.3</div>
+</div></div><div class="row rG"><div class="pl">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#ffd200" stroke="#003a8c" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#1d1838">MTA</text></svg></div>
+  <div class="tag"><div class="nm"><b>G</b> Madar</div>
+  <div class="gm">T1 vs OLY<span class="pj">13.0</span></div></div>
+  <div class="meta">10.5 cr · L3 10.7</div>
+</div><div class="pl">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#f4f4f4" stroke="#4b2a8a" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#1d1838">RMB</text></svg></div>
+  <div class="tag"><div class="nm"><b>G</b> Feliz</div>
+  <div class="gm">T2 @ BJK<span class="pj">12.8</span></div></div>
+  <div class="meta">9.3 cr · L3 14.3</div>
+</div></div></div>
+<div class="benchwrap"><div class="box"><h4>6TH MAN (100%) &amp; COACH</h4><div class="row"><div class="pl sm">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#151515" stroke="#ffffff" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">VIR</text></svg></div>
+  <div class="tag"><div class="nm"><b>C</b> Diarra</div>
+  <div class="gm">T1 vs PAO<span class="pj">13.3</span></div></div>
+  <div class="meta">10.8 cr · L3 19</div>
+</div><div class="pl sm coach"><div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#00843d" stroke="#ffffff" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">HC</text></svg></div>
+<div class="tag"><div class="nm"><b>HC</b> Zalgiris</div>
+<div class="gm">T1 vs MUN<span class="pj">+13.3</span></div></div>
+<div class="meta">win 80% · margin +11</div></div></div></div>
+<div class="box"><h4>BENCH (50%)</h4><div class="row"><div class="pl sm">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#f4f4f4" stroke="#4b2a8a" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#1d1838">RMB</text></svg></div>
+  <div class="tag"><div class="nm"><b>G</b> Llull</div>
+  <div class="gm">T2 @ BJK<span class="pj">5.0</span></div></div>
+  <div class="meta">4.2 cr · L3 9</div>
+</div><div class="pl sm">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#a50044" stroke="#004d98" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">BAR</text></svg></div>
+  <div class="tag"><div class="nm"><b>G</b> Brizuela</div>
+  <div class="gm">T1 vs PBB<span class="pj">6.0</span></div></div>
+  <div class="meta">6.3 cr · L3 9</div>
+</div><div class="pl sm">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#c8102e" stroke="#ffffff" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">CZV</text></svg></div>
+  <div class="tag"><div class="nm"><b>F</b> Davidovac</div>
+  <div class="gm">T1 @ MIL<span class="pj">5.5</span></div></div>
+  <div class="meta">4.7 cr · L3 7</div>
+</div><div class="pl sm">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#0b2d6b" stroke="#c8102e" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">BAS</text></svg></div>
+  <div class="tag"><div class="nm"><b>F</b> Joksimovic</div>
+  <div class="gm">T1 vs HTA<span class="pj">3.2</span></div></div>
+  <div class="meta">4.2 cr · L3 –</div>
+</div></div></div></div>
+</div>
+<div class="panel why"><h3>Zalgiris stack: high ceiling</h3><p><i>Bet on one correlated outcome: Zalgiris beat Bayern by double digits. Valančiūnas and the Zalgiris coach both pay out if it happens.</i></p>
+<div class="kpis"><div class="kpi"><b>146</b><span>proj. fantasy pts R12</span></div>
+<div class="kpi"><b>0.9</b><span>bank after</span></div>
+<div class="kpi"><b>3/4</b><span>trades used</span></div></div>
+
+<h4>Trades</h4><div class="trade"><span class="out">▼ Mouhamed Faye (7.8)</span>→<span class="in">▲ Jonas Valančiūnas (16.9)</span>
+<span class="d">−9.1</span><div class="r">23 PIR over his last 3 games. Bayern are weak on the defensive glass, and Zalgiris are 80% at home. Only 16% owned, so this is a differential.</div></div><div class="trade"><span class="out">▼ Kendrick Nunn (14.8)</span>→<span class="in">▲ Sergio Llull (4.2)</span>
+<span class="d">+10.6</span><div class="r">Pure funding move. With Campazzo and Maledon out, Llull gets about 20 minutes and has a Wednesday game.</div></div><div class="trade"><span class="out">▼ Coach Partizan (6.2)</span>→<span class="in">▲ Coach Zalgiris (7.3)</span>
+<span class="d">−1.1</span><div class="r">80% win, projected +11. Correlated with Valančiūnas: a blowout pays both.</div></div>
+<h4>Why this squad</h4><ul><li>This gives up guard depth (Nunn out, Llull in) to buy the best centre available in R12.</li><li>The problem is R13: Zalgiris host Panathinaikos on a back-to-back, so you&#x27;d likely need to change the coach again before R13 and use a trade on it.</li><li>Valančiūnas is 34. On a B2B against Panathinaikos expect fewer minutes (about 20) and foul-trouble risk against Lessort.</li><li>Choose this if you&#x27;re behind in your league and need a swing. It&#x27;s the wrong choice if you&#x27;re protecting a lead.</li></ul>
+<h4>Captain</h4><p>Vezenkov stays captain. Valančiūnas is the vice and the higher-ceiling pick if you&#x27;re chasing: a blowout of Bayern can produce 30+ PIR. He plays at 20:00 Tuesday, one hour after Vezenkov, so you can&#x27;t switch based on Vezenkov&#x27;s result.</p>
+<h4>Cancel if…</h4><ul><li>Valančiūnas sits out Zalgiris&#x27; LKL game on the weekend with any knock.</li><li>Bayern announce their whole rotation is fit (the margin projection shrinks).</li></ul>
+<p class="meta" style="color:var(--muted)">Next round (R13) raw projection of the active six: 94 PIR</p>
+</div></div></section><section class="var" id="vC">
+<div class="grid"><div>
+<div class="court"><svg class="lines" viewBox="0 0 400 300" preserveAspectRatio="none" aria-hidden="true">
+<path d="M120 0v95h160V0M150 95a50 50 0 0 0 100 0M40 0v40a160 160 0 0 0 320 0V0" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="2"/>
+<circle cx="200" cy="300" r="45" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="2"/></svg>
+<div class="frm">2-1-2</div><div class="row rC"><div class="pl">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#a50044" stroke="#004d98" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">BAR</text></svg></div>
+  <div class="tag"><div class="nm"><b>C</b> Nebo</div>
+  <div class="gm">T1 vs PBB<span class="pj">14.6</span></div></div>
+  <div class="meta">12.7 cr · L3 16</div>
+</div><div class="pl">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#151515" stroke="#ffffff" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">VIR</text></svg></div>
+  <div class="tag"><div class="nm"><b>C</b> Diarra</div>
+  <div class="gm">T1 vs PAO<span class="pj">13.3</span></div></div>
+  <div class="meta">10.8 cr · L3 19</div>
+</div></div><div class="row rF"><div class="pl">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#e0001b" stroke="#ffffff" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">OLY</text></svg><span class="cap">C</span></div>
+  <div class="tag"><div class="nm"><b>F</b> Vezenkov</div>
+  <div class="gm">T1 @ MTA<span class="pj">23.3</span></div></div>
+  <div class="meta">18.9 cr · L3 23</div>
+</div></div><div class="row rG"><div class="pl">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#a50044" stroke="#004d98" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">BAR</text></svg><span class="cap vc">VC</span></div>
+  <div class="tag"><div class="nm"><b>G</b> Robinson</div>
+  <div class="gm">T1 vs PBB<span class="pj">15.0</span></div></div>
+  <div class="meta">12.8 cr · L3 16.3</div>
+</div><div class="pl">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#ffd200" stroke="#003a8c" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#1d1838">MTA</text></svg></div>
+  <div class="tag"><div class="nm"><b>G</b> Madar</div>
+  <div class="gm">T1 vs OLY<span class="pj">13.0</span></div></div>
+  <div class="meta">10.5 cr · L3 10.7</div>
+</div></div></div>
+<div class="benchwrap"><div class="box"><h4>6TH MAN (100%) &amp; COACH</h4><div class="row"><div class="pl sm">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#0c2c84" stroke="#ffffff" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">EFS</text></svg><span class="fire" title="Hot form: last 3 games well above season level">🔥</span></div>
+  <div class="tag"><div class="nm"><b>F</b> Malcolm</div>
+  <div class="gm">T1 @ DUB<span class="pj">12.4</span></div></div>
+  <div class="meta">9.8 cr · L3 18.3</div>
+</div><div class="pl sm coach"><div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#001a57" stroke="#ffd200" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">HC</text></svg></div>
+<div class="tag"><div class="nm"><b>HC</b> Fenerbahce</div>
+<div class="gm">T1 vs ASV<span class="pj">+12.5</span></div></div>
+<div class="meta">win 83% · margin +10</div></div></div></div>
+<div class="box"><h4>BENCH (50%)</h4><div class="row"><div class="pl sm">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#f4f4f4" stroke="#4b2a8a" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#1d1838">RMB</text></svg></div>
+  <div class="tag"><div class="nm"><b>G</b> Llull</div>
+  <div class="gm">T2 @ BJK<span class="pj">5.0</span></div></div>
+  <div class="meta">4.2 cr · L3 9</div>
+</div><div class="pl sm">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#a50044" stroke="#004d98" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">BAR</text></svg></div>
+  <div class="tag"><div class="nm"><b>G</b> Brizuela</div>
+  <div class="gm">T1 vs PBB<span class="pj">6.0</span></div></div>
+  <div class="meta">6.3 cr · L3 9</div>
+</div><div class="pl sm">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#c8102e" stroke="#ffffff" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">CZV</text></svg></div>
+  <div class="tag"><div class="nm"><b>F</b> Davidovac</div>
+  <div class="gm">T1 @ MIL<span class="pj">5.5</span></div></div>
+  <div class="meta">4.7 cr · L3 7</div>
+</div><div class="pl sm">
+  <div class="shirt"><svg class="jsy" viewBox="0 0 60 64" aria-hidden="true">
+<path d="M14 2h9c1 5 4 8 7 8s6-3 7-8h9l1 13c-4 3-6 7-6 12v35H19V27c0-5-2-9-6-12z" fill="#0b2d6b" stroke="#c8102e" stroke-width="2.5"/>
+<text x="30" y="40" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">BAS</text></svg></div>
+  <div class="tag"><div class="nm"><b>F</b> Joksimovic</div>
+  <div class="gm">T1 vs HTA<span class="pj">3.2</span></div></div>
+  <div class="meta">4.2 cr · L3 –</div>
+</div></div></div></div>
+</div>
+<div class="panel why"><h3>Sell-high + double-week builder</h3><p><i>Optimise R12 and R13 together: Barcelona&#x27;s home double (Paris, then Zvezda) with no back-to-backs, cashing out Feliz at his price peak.</i></p>
+<div class="kpis"><div class="kpi"><b>144</b><span>proj. fantasy pts R12</span></div>
+<div class="kpi"><b>0.3</b><span>bank after</span></div>
+<div class="kpi"><b>4/4</b><span>trades used</span></div></div>
+
+<h4>Trades</h4><div class="trade"><span class="out">▼ Coach Partizan (6.2)</span>→<span class="in">▲ Coach Fenerbahçe (8.6)</span>
+<span class="d">−2.4</span><div class="r">Same as A: the best coach across both rounds.</div></div><div class="trade"><span class="out">▼ Kendrick Nunn (14.8)</span>→<span class="in">▲ Justin Robinson (12.8)</span>
+<span class="d">+2.0</span><div class="r">Same as A.</div></div><div class="trade"><span class="out">▼ Mouhamed Faye (7.8)</span>→<span class="in">▲ Josh Nebo (12.7)</span>
+<span class="d">−4.9</span><div class="r">26 minutes and a 16 PIR average while Barcelona&#x27;s frontcourt is thin. Home vs Paris (Faye&#x27;s own team) and home vs a Zvezda side missing Koloko, Motley and Miljenović. Two home games, no B2B.</div></div><div class="trade"><span class="out">▼ Andres Feliz (9.3)</span>→<span class="in">▲ Sergio Llull (4.2)</span>
+<span class="d">+5.1</span><div class="r">Sell high: Feliz is +3.1 since the start and 36% owned. His 33.9-minute role depends on injured guards, and Campazzo (awaiting tests) or Maledon returning would cut it. He also has a B2B at Olympiacos in R13.</div></div>
+<h4>Why this squad</h4><ul><li>This is the strongest R13 squad of the three: Robinson, Nebo, Vezenkov and Malcolm all have good R13 games and no back-to-backs.</li><li>3 Barcelona players (Robinson, Nebo, Brizuela) are all in one game vs Paris. That&#x27;s correlation risk: if Barcelona have an off night, it costs you three times.</li><li>Selling Feliz goes against the crowd (36% own him). If Madrid&#x27;s guards stay out he keeps scoring and you lose ground on the managers who kept him.</li><li>Uses all 4 trades, so nothing is left for Tuesday&#x27;s injury news.</li></ul>
+<h4>Captain</h4><p>Vezenkov. Robinson is the vice: Barcelona at home with a 68% win chance.</p>
+<h4>Cancel if…</h4><ul><li>Real Madrid confirm Campazzo is out for R12 and R13 as well: then keep Feliz and play A.</li></ul>
+<p class="meta" style="color:var(--muted)">Next round (R13) raw projection of the active six: 93 PIR</p>
+</div></div></section>
+<div class="cols"><div class="panel"><h2>🚨 Alerts</h2><div class="alert high">Lineup: Davidovac and Joksimović are in active slots while Nunn, Diarra and Malcolm sit on the 50% bench. Fix this before Tuesday&#x27;s deadline (worth about +11).</div><div class="alert high">Coach Partizan: Valencia are 58% favourites in Belgrade. Partizan are still without Hayes, Allman and Willis, and Chris Silva is only arriving now (medicals done, not yet integrated).</div><div class="alert ">Feliz&#x27;s minutes depend on injuries: Campazzo is &#x27;out indefinitely&#x27; with a biceps femoris strain and no timetable; Maledon and Deck are also out. Watch Monday&#x27;s Real Madrid medical report.</div><div class="alert ">Madar: Maccabi&#x27;s sporting director said publicly they&#x27;re looking for backcourt help. A new guard signing would cut Madar&#x27;s role. Not imminent, but worth watching.</div><div class="alert ">Turn structure: 9 of 10 R12 games are Tuesday 17 Nov. Only Beşiktaš vs Real Madrid is on Wednesday, so Feliz (and Llull/Abalde if bought) are your only late-turn options.</div></div>
+<div class="panel"><h2>🗞 Locker room &amp; rumours</h2><div class="rumour"><span class="k confirmed">confirmed</span>
+<div><b>Olimpia Milano</b> Poeta sacked; Luca Banchi back as head coach while also coaching Italy. The press calls the roster &#x27;badly built&#x27; and the club has dropped its pursuit of Mike Tobey. <a href="https://www.eurohoops.net/en/euroleague/2032190/luca-banchi-officially-returns-to-olimpia-milano-as-head-coach/" target="_blank" rel="noopener">source</a></div>
+<div class="imp">Fantasy impact: New coach means a rotation reshuffle, with Bolmaro the new leader in the Gazzetta&#x27;s view. Avoid Milano role players until the minutes settle, but they&#x27;re a good opponent for your coach in R13.</div></div><div class="rumour"><span class="k confirmed">confirmed</span>
+<div><b>Partizan</b> Chris Silva arrived from Fenerbahçe for medicals and is completing the transfer. </div>
+<div class="imp">Fantasy impact: Extra frontcourt depth for your coach team in a few weeks. It slightly lowers Fenerbahçe&#x27;s big-man depth too, but not enough to change the R12 pick.</div></div><div class="rumour"><span class="k confirmed">confirmed</span>
+<div><b>Baskonia</b> Kenan Kamenjaš signed on loan from Dubai until the end of the season. Baskonia (1-10) collapsed in the 4th quarter in Belgrade. </div>
+<div class="imp">Fantasy impact: More bigs at Baskonia means fewer frontcourt minutes, which is bad news for Joksimović. Sell him in the R14 unlimited window.</div></div><div class="rumour"><span class="k report">report</span>
+<div><b>Dubai</b> Marcelinho Huertas (43) is joining Dubai from Tenerife while Walkup is out with a back injury. </div>
+<div class="imp">Fantasy impact: A veteran point guard eats into McKinley Wright and Okobo&#x27;s minutes and assists. Avoid Dubai guards. Bacon (a forward) is not affected.</div></div><div class="rumour"><span class="k report">report</span>
+<div><b>Hapoel Tel Aviv</b> Mičić admits &#x27;sometimes we have different opinions&#x27; with Itoudis, but says they&#x27;re united and he wants to retire at Hapoel. </div>
+<div class="imp">Fantasy impact: Mild chemistry noise, no role change. Hapoel are still 75% at Baskonia, so the HTA coach (7.9) is a fallback option.</div></div><div class="rumour"><span class="k confirmed">confirmed</span>
+<div><b>Olympiacos</b> The appeal against the sanctions (-2 and Jones&#x27; suspension) was rejected. Dorsey is out on a &#x27;club decision&#x27;, and Bartzokas says &#x27;good players don&#x27;t leave their teams&#x27;. </div>
+<div class="imp">Fantasy impact: Dorsey&#x27;s situation looks like a possible exit, which means more shots for Vezenkov. Supports keeping him as captain.</div></div><div class="rumour"><span class="k rumour">rumour</span>
+<div><b>Fenerbahçe</b> Turkish press ran &#x27;bad news from Melli&#x27; after the Paris loss. Not confirmed: no injury report lists him. </div>
+<div class="imp">Fantasy impact: Check Monday&#x27;s Fenerbahçe report before buying the coach. If Melli is out, they&#x27;re still about 80% vs ASVEL.</div></div><div class="rumour"><span class="k confirmed">confirmed</span>
+<div><b>Virtus Bologna</b> Casarin out about 8 weeks (tibial plateau fracture); Hackett added to the injury report. Abass is returning to the rotation. </div>
+<div class="imp">Fantasy impact: Thinner Virtus guard rotation; Diarra&#x27;s role is unchanged.</div></div></div></div>
+<div class="panel"><h2>📋 Your players</h2><table><thead><tr><th>Player</th><th>Verdict</th><th>Read</th></tr></thead><tbody><tr><td><b>Sasha Vezenkov</b></td><td><span class='v KEEP'>KEEP/CAPTAIN</span></td><td>28 PIR in 33.8 minutes last round and 23 over his last 3. Dorsey and Montero are out, so his usage stays high. Price rising (+0.2).</td></tr><tr><td><b>Andres Feliz</b></td><td><span class='v KEEP'>KEEP</span></td><td>Minutes jumped to 33.9 because of Madrid&#x27;s injuries. Your only Wednesday player. A sell-high candidate once the guards return (see Variation C).</td></tr><tr><td><b>Kendrick Nunn</b></td><td><span class='v SELL'>SELL</span></td><td>Good form (22.3 over his last 3), but starts only 25% of the time and has a B2B at Zalgiris in R13. Robinson does the same job for 2 credits less with a bigger role.</td></tr><tr><td><b>Yam Madar</b></td><td><span class='v WATCH'>WATCH</span></td><td>Starts 80% of the time and is cheap at 10.5, but Maccabi are underdogs in both rounds (OLY, then DUB on a B2B) and are shopping for a guard. 6th man.</td></tr><tr><td><b>Collin Malcolm</b></td><td><span class='v KEEP'>KEEP</span></td><td>30 minutes as a starter and 18.3 PIR over his last 3. R13 vs ASVEL is the best matchup on your team.</td></tr><tr><td><b>Aliou Diarra</b></td><td><span class='v KEEP'>KEEP</span></td><td>1.0 PIR per minute, 38% owned, price up 4.3 since the start. A tough matchup with Lessort, but he&#x27;s template protection.</td></tr><tr><td><b>Mouhamed Faye</b></td><td><span class='v WATCH'>WATCH</span></td><td>20.9 in R11 and Paris are +16 with him on court. A 10.1 average and Barcelona away next. Bench him, then sell in the R14 window after the price rise.</td></tr><tr><td><b>Dejan Davidovac</b></td><td><span class='v WATCH'>WATCH</span></td><td>12 minutes off the bench. Zvezda&#x27;s frontcourt injuries (Motley, Koloko, Miljenović) could push him into small-ball minutes, but not yet. Budget filler.</td></tr><tr><td><b>Dario Brizuela</b></td><td><span class='v WATCH'>WATCH</span></td><td>Punter&#x27;s absence gives him only about 0.6 extra minutes; Robinson gets the ball. Budget filler with two home games.</td></tr><tr><td><b>Stefan Joksimovic</b></td><td><span class='v SELL'>SELL</span></td><td>3.2 PIR/game. Kamenjaš&#x27;s arrival squeezes the frontcourt further. First out in the unlimited window.</td></tr></tbody></table></div>
+<div class="cols"><div class="panel"><h2>🔭 Watchlist</h2><ul><li><b>Elijah Bryant (HTA, 17.7)</b>: 22 PIR average; at Baskonia (1-10) in R12, then at Paris. A premium guard to target in the R14 unlimited window.</li><li><b>Jonas Valančiūnas (ZAL, 16.9)</b>: 23 over his last 3; buy for the unlimited window if he handles the Panathinaikos B2B well.</li><li><b>Mathias Lessort (PAN, 16.7)</b>: 21 PIR over his last 3, offensive-rebound monster; pairs with Panathinaikos&#x27; tough-defence schedule.</li><li><b>Alberto Abalde (MAD, 6.1)</b>: 14 PIR over his last 3 in 23 minutes thanks to Madrid&#x27;s injuries, and 21% owned. A cheap Wednesday enabler if you need one.</li><li><b>Josh Nebo (BAR, 12.7)</b>: Barcelona&#x27;s double-home double week. Becomes a buy if you sell Faye.</li></ul></div>
+<div class="panel"><h2>📊 Last round review</h2><p>First report: nothing to grade yet. In R11 so far, Faye scored 20.9 in Paris&#x27; buzzer-beater win over Fenerbahçe, Peñarroya&#x27;s Partizan beat Baskonia (+20 coach points), and Joksimović managed 2. Your Tuesday/Wednesday players are still to play tonight and tomorrow (Vezenkov vs Dubai, Feliz vs Zvezda, Madar vs Hapoel).</p></div></div>
+<footer>Projections: basketballstats.eu model, adjusted by the analyst. Points = PIR × win bonus, captain ×2, bench ×0.5, coach expected value from projected margin.
+Recommendations only — make changes in the official game yourself.</footer>
+</div><script>
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
+document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected',x===t));
+document.querySelectorAll('.var').forEach(v=>v.classList.toggle('on',v.id===t.dataset.v));
+try{localStorage.setItem('elf-tab',t.dataset.v)}catch(e){}}));
+try{const s=localStorage.getItem('elf-tab');const b=s&&document.querySelector('.tab[data-v="'+s+'"]');if(b)b.click()}catch(e){}
+</script></body></html>

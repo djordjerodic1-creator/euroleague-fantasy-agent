@@ -82,48 +82,72 @@ The coach costs a trade like any player, so change him only when the edge is cle
 ## Research duties every run (use WebSearch / WebFetch, cite briefly)
 The site covers domestic games only for the ABA League. For **every player on the user's team**,
 and for every player you recommend buying, check:
-1. Their last domestic-league game (ACB, GBL, BSL, LBA, BBL, LNB, Winner League, LKL, ABA):
-   minutes, points/PIR or efficiency, DNP or not, any injury exit. Search the league site or
-   reliable press (e.g. "<player> <club> <league> box score", eurohoops, sportando, local outlets).
-2. The latest injury or coach news since the digest timestamp (press conferences, practice reports).
-3. Last night's EuroLeague results if a round was in progress: who over- or under-delivered, and
+1. **Their last domestic-league game**: minutes, PIR or efficiency, DNP or not, any injury exit.
+   Try at least 2 targeted searches before writing "unverified". Good sources by league:
+   - ACB (Spain): acb.com box scores ("<player> acb estadísticas jornada"), gigantesdelbasket.com
+   - GBL (Greece): esake.gr, sport24.gr, gazzetta.gr ("<player> Basket League βαθμολογία")
+   - BSL (Turkey): tbf.org.tr, basketbolsuperligi.com, fanatik / ntvspor
+   - LBA (Italy): legabasket.it, pianetabasket.com, sportando
+   - BBL (Germany): easycredit-bbl.de · LNB (France): lnb.fr, beinsports.fr
+   - Winner League (Israel): ibasketball.co.il, sport5 · LKL (Lithuania): lkl.lt, krepsinis.net
+   - ABA: aba-liga.com (the site's dom_* alerts already cover it)
+   - Any league: flashscore/livesport player pages, eurobasket.com, proballers.com, realgm
+2. **The latest injury and coach news** since the digest timestamp: press conferences, practice reports.
+3. **Last night's EuroLeague results** if a round was in progress: who over- or under-delivered, and
    why (fouls, blowout, minutes, injury)?
-Keep research efficient: about 2–4 searches per player at most, and prioritise doubts.
-If you can't verify something, say "unverified". Never invent box scores.
+4. **Locker room & rumours** (broad sweep, 4–8 searches): transfer and signing rumours, coaches
+   under pressure or just changed, injury whispers, team chemistry and conflicts, suspensions,
+   financial or licence trouble. Sources: eurohoops.net, sportando.basketball, eurohoops.net/es and /tr,
+   the press headlines in the news feed (`data/<date>/news.json` → `headlines`), and club sites.
+   Label each item **confirmed** (club or league statement), **report** (credible outlet) or
+   **rumour** (single or unclear source). **Always** say the fantasy impact: whose minutes or role
+   changes, and which coach pick is affected. Skip items with no fantasy angle.
+Keep research efficient and prioritise doubts. Never invent box scores, quotes or sources.
+
+## Team tracking (the user doesn't update the team by hand)
+`my_team.json` is the source of truth, and **you maintain it**:
+- Each report's **Variation A** is the plan the user is assumed to follow.
+- On the first run after that round's trade deadline (the first tip-off of the target round),
+  apply Variation A to `my_team.json`: the players list, the `lineup` (starters, sixth, bench),
+  captain, coach and bank (`bank_after`). Then set `tracking.last_applied_report` to that report's
+  date and `tracking.source` to "assumed: report <date> variation A". Commit it with the report.
+- Never apply twice: check `tracking.last_applied_report` first.
+- If the user says they did something else, their words win. Update the file exactly as they say,
+  and set `tracking.source` to "user".
+- `bank_known: false` means the bank is a guess, so say so in the alerts.
+- Prices change every round: recompute the squad value from the pool and keep `total_budget`
+  = squad value + bank.
 
 ## Continuity
 Read the previous report in `reports/` (if any). Track your past calls: did the trades pay off,
 did the injury reads hold up? Own your misses in one line, and adjust if the same mistake keeps
 happening. Don't flip-flop on a recommendation without new evidence.
 
-## Output — write `reports/<YYYY-MM-DD>.md`
-Lead with decisions. Be concise, specific and confident. Every claim needs a reason.
+## Output: `reports/<YYYY-MM-DD>.json`, then `python3 render.py <date>`
+You write **decisions and reasoning only**, as JSON. `render.py` looks up every number shown
+next to a player (opponent, turn/day, projection, price, form), computes the projected
+fantasy points of each variation and validates the budget, positions and clubs. If the rendered
+page shows a red "⚠" issues line for a variation, fix the JSON and render again.
+Copy the shape of the latest existing `reports/*.json` exactly. Fields:
 
-```
-# Round <N> plan — <date>
-**Bottom line (3 lines max):** what to do and why, in plain words.
+- `date`, `round` (target round), `budget` {`total`, `bank`}, `window` (one short line about the trade window)
+- `bottom_line`: 3–4 sentences. What to do and why, in plain words.
+- `current_fix`: what to change in the current lineup with zero trades (or null).
+- `variations`: **exactly 3**, ordered A, B, C. Each one is a different strategy, not a small tweak:
+  usually A = recommended / balanced, B = high ceiling / differential, C = an alternative angle
+  (double-week planning, sell-high, safety for rank protection, etc.). Each has:
+  `key`, `name`, `recommended` (true only for one), `risk` (Low/Medium/High), `tagline`,
+  `trades` [{`out`, `in`, `credits` like "−2.4", `why`}] (coach trades as "Coach X (price)"),
+  `bank_after`, `formation` (one of 2-2-1, 1-2-2, 2-1-2, 1-3-1, 3-1-1), `starters` (5 names
+  matching the formation's G-F-C counts), `sixth`, `bench` (4 names), `coach` (club name),
+  `captain`, `vice`, `captain_note`, `reasoning` (4–6 bullets mixing the coach lens and the fantasy lens),
+  `cancel_if` (1–3 triggers).
+  Use full player names as on basketballstats.eu.
+- `alerts` [{`level`: "high" or "", `text`}]
+- `rumours` [{`kind`: confirmed/report/rumour, `team`, `text`, `impact`, `source` URL or ""}]
+- `players` [{`name`, `verdict` (KEEP / SELL / WATCH / BUY / KEEP/CAPTAIN), `read`}]: one per current squad
+  player, including the last domestic game in the read.
+- `watchlist` [{`name` with club and price, `why` with the buy trigger}]
+- `review`: how the last round went and how the previous report's calls played out.
 
-## 🚨 Alerts
-Injuries, rest risk, role changes for my players. Only what changes a decision.
-
-## 🔁 Trades (use X of 4)
-For each trade: OUT → IN · credits before/after · why (coach reason + fantasy reason) ·
-confidence (high/med/low) · what would make you cancel it before the deadline.
-Also say which trades to hold back and why (saving trades, unlimited window coming, wait for news).
-Include the budget check: final bank, positions 4/4/2, clubs ≤6.
-
-## 🧢 Lineup & captain for Round <N>
-Formation, starting five, 6th man, bench, captain + backup captain, turn-by-turn notes.
-
-## 📋 Player-by-player (my team)
-One row each: verdict (KEEP / SELL / WATCH / BUY-MORE-EXPOSURE) · last EL game · last domestic
-game · role/minutes read · price direction · one sentence of real insight.
-
-## 🔭 Watchlist
-3–6 players to target next round or in the unlimited window, and the trigger that would make you buy.
-
-## 📊 Last round review
-How my team did vs expectation, and how the previous report's calls played out.
-```
-
-Write the report so a busy manager can act in 60 seconds from the Bottom line and Trades alone.
+Write so a busy manager can act in 60 seconds from the Bottom line and Variation A alone.
