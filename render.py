@@ -364,6 +364,26 @@ def current_points(D):
         return None
 
 
+def sim_of(st, sixth, bench, captain, cc, D, target, n=6000):
+    from sim import prep, simulate
+    sp = [prep(p) for p in st]
+    cap = next((p for p in sp if norm(p["name"]) == norm(captain)), sp[0])
+    return simulate(sp, prep(sixth) if sixth else None, [prep(p) for p in bench], cap, cc, D.games, target, n=n)
+
+
+def current_sim(D, target):
+    try:
+        t = json.loads((ROOT / "my_team.json").read_text(encoding="utf-8"))
+        lu = t.get("lineup") or {}
+        st = [D.player(n) for n in lu.get("starters", [])]
+        if len(st) != 5:
+            return None
+        return sim_of(st, D.player(lu["sixth"]) if lu.get("sixth") else None, [D.player(n) for n in lu.get("bench", [])],
+                      t.get("captain", ""), coach_code_of(t.get("coach", "")), D, target)
+    except Exception:
+        return None
+
+
 def deadline(D):
     t1 = [g for g in D.games.values() if g.get("turn") == 1 and g.get("time")]
     if not t1:
@@ -376,6 +396,11 @@ def deadline(D):
 def render(date):
     R = json.loads((ROOT / "reports" / f"{date}.json").read_text(encoding="utf-8"))
     D = Data(date)
+    try:
+        target = float(json.loads((ROOT / "my_team.json").read_text(encoding="utf-8")).get("target_points", 200))
+    except Exception:
+        target = 200.0
+    target = float(R.get("target", target))
     rnd = R.get("round", D.target)
     tabs, panes, built = [], [], []
     for i, v in enumerate(R["variations"]):
@@ -386,9 +411,10 @@ def render(date):
         cc = coach_code_of(v["coach"])
         cg = D.games.get(cc)
         total, cpts = squad_points(st, sixth, bench, v["captain"], cg)
+        mc = sim_of(st, sixth, bench, v["captain"], cc, D, target)
         trades = v.get("trades", [])
         issues = validate(st + ([sixth] if sixth else []) + bench, v.get("bank_after"), len(trades))
-        built.append((v, st, sixth, bench, cc, total))
+        built.append((v, st, sixth, bench, cc, total, mc))
 
         tcards = []
         for k, t in enumerate(trades, 1):
@@ -405,17 +431,17 @@ def render(date):
 <div class="gm"><span>{esc(opp_txt(g_c))}</span><b>{cpts:+.1f}</b></div></div>
 <div class="meta">win {int(round((g_c.get('pwin') or 0) * 100))}% · margin {g_c.get('margin', 0):+d}</div></div>"""
         tabs.append(f'<button class="tab" role="tab" data-v="{vid}" aria-selected="{str(i == 0).lower()}">'
-                    f'{esc(v["key"])} · {esc(v["name"])}<small>{total:.0f} pts · {esc(v.get("risk", ""))} risk'
-                    f'{" · recommended" if v.get("recommended") else ""}</small></button>')
+                    f'{esc(v["key"])} · {esc(v["name"])}<small>{mc["p_target"]:.0%} chance of {target:.0f}+ · exp {mc["mean"]:.0f}'
+                    f'</small></button>')
         panes.append(f"""<div class="var{' on' if i == 0 else ''}" id="{vid}">
 <div class="vhead"><h3>{esc(v['name'])}</h3>{'<span class="pill rec">Recommended</span>' if v.get('recommended') else ''}
 <span class="pill {esc(v.get('risk', ''))}">{esc(v.get('risk', ''))} risk</span></div>
 <p class="tagline">{esc(v.get('tagline', ''))}</p>
 {('<div class="issues">⚠ ' + esc('; '.join(issues)) + '</div>') if issues else ''}
-<div class="kpis"><div class="kpi"><span>Projected pts</span><b class="l">{total:.0f}</b></div>
-<div class="kpi"><span>Trades</span><b>{len(trades)}/4</b></div>
-<div class="kpi"><span>Bank after</span><b>{v.get('bank_after', 0):.1f}</b></div>
-<div class="kpi"><span>Captain</span><b>{esc(surname(v['captain']))}</b></div></div>
+<div class="kpis"><div class="kpi"><span>Chance of {target:.0f}+</span><b class="l">{mc['p_target']:.0%}</b></div>
+<div class="kpi"><span>Expected</span><b>{mc['mean']:.0f}</b></div>
+<div class="kpi"><span>Top-10% night</span><b>{mc['p90']:.0f}+</b></div>
+<div class="kpi"><span>Trades · bank</span><b>{len(trades)}/4 · {v.get('bank_after', 0):.1f}</b></div></div>
 <div class="grid"><div>
 {court(st, v.get('formation', '2-2-1'), v['captain'], v.get('vice', ''))}
 <div class="box"><h4>6th man (100%) &amp; coach</h4><div class="row">{card(sixth, small=True) if sixth else ''}{coach_card}</div></div>
@@ -428,8 +454,8 @@ def render(date):
 </div></div></div>""")
 
     # ---- 60-second plan from the recommended variation
-    rv, rst, rsix, rbench, rcc, rtotal = next((b for b in built if b[0].get("recommended")), built[0])
-    now = current_points(D)
+    rv, rst, rsix, rbench, rcc, rtotal, rmc = next((b for b in built if b[0].get("recommended")), built[0])
+    now = current_sim(D, target)
     tl = "".join(f'<div><span class="o">▼ {esc(split_name(t["out"])[0])}</span> → <span class="n">▲ {esc(split_name(t["in"])[0])}</span>'
                  f'<span class="cr">{esc(t.get("credits", ""))}</span></div>' for t in rv.get("trades", []))
     plan = f"""<section><div class="card plan"><div class="kick">Your plan in 60 seconds · Variation {esc(rv['key'])}</div>
@@ -441,7 +467,8 @@ def render(date):
 · <b>Coach:</b> {esc(TEAM.get(rcc, ('', rv['coach']))[1])}</div></div></li>
 <li><div><h4>Captain {esc(surname(rv['captain']))}</h4><div class="lineup">Vice: {esc(surname(rv.get('vice', '')) or '–')}</div></div></li>
 </ol>
-<div class="delta">{f'Your lineup now <b style="color:var(--ink)">{now:.0f}</b> →' if now else ''} with this plan <strong>{rtotal:.0f}</strong> projected points</div>
+<div class="delta">Chance of {target:.0f}+: {f'now <b style="color:var(--ink)">{now["p_target"]:.1%}</b> →' if now else ''} with this plan <strong>{rmc["p_target"]:.0%}</strong>
+<span>· expected {f'{now["mean"]:.0f} → ' if now else ''}{rmc["mean"]:.0f} · top-10% night {rmc["p90"]:.0f}+</span></div>
 {f'<div class="fix"><b>No-trade fix:</b> {esc(R["current_fix"])}</div>' if R.get('current_fix') else ''}
 </div></section>"""
 
@@ -480,7 +507,7 @@ def render(date):
 <section><h2>📋 Your players</h2><div class="players">{players}</div></section>
 <section class="two"><div><h2>🔭 Watchlist</h2><ul class="watch">{watch}</ul></div>
 <div><h2>📊 Last round</h2><div class="card" style="color:var(--muted)">{esc(R.get('review', ''))}</div></div></section>
-<footer>Projected points = projected PIR × win bonus, captain ×2, bench ×0.5, plus the coach's expected score from the projected margin.<br>
+<footer>Chance / expected / top-10% come from 6,000 simulated rounds: each player's range from the site's P10–P90 band, players in the same game rise and fall together, win bonus and coach score follow the simulated result.<br>
 Data: basketballstats.eu model plus the analyst's own research. Recommendations only: make your changes in the official game.</footer>
 </div><script>{JS}</script></body></html>"""
     out = ROOT / "reports" / f"{date}.html"

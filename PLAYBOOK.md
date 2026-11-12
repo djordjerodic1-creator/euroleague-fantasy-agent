@@ -29,6 +29,23 @@ say whether you **agree, and why**, or **disagree, and why**.
 - Prices move after each round based on performance against the price (the site's
   "projected change" estimates this).
 
+## The user's goal: chase the target (`target_points` in my_team.json, currently 200)
+The user wants **big rounds, not safe rounds**. Rank every decision by its effect on
+**P(round total ≥ target)**, not by expected points. In practice:
+- Prefer **ceiling** over floor: players whose good nights reach 30+ PIR (usage, minutes,
+  rebounding and foul-drawing bigs, volume scorers in fast games) beat steady 12–15 players.
+- **Captain = biggest realistic ceiling** on a likely winner. A 200 round almost always needs a 30+ captain.
+- **Correlation helps**: two or three players from the same likely blowout (plus that team's
+  coach) boom together. Avoid holding both sides of one game in active slots.
+- The coach is a ceiling lever too: big favourites reach the +20/+25 brackets.
+- Be honest about the odds. Say what the chance actually is (e.g. "about 1 in 12"), and how the
+  squad can get there over the coming rounds (team value growth, unlimited-window rebuilds).
+- Tools: `python3 sim.py <date>` simulates thousands of rounds (correlated by game) and searches
+  4-trade plans for the best P(≥target). It writes `data/<date>/optimizer.json`. Use its top plans
+  as **candidates**, then apply your coach and fantasy judgement (injury news, minutes, role
+  changes the model can't see). The renderer re-simulates each variation and shows its chance
+  of reaching the target, expected score and top-10% score.
+
 ## How a pro thinks — run every question for every player you hold
 
 **Availability (coach lens)**
@@ -140,8 +157,8 @@ Copy the shape of the latest existing `reports/*.json` exactly. Fields:
 - `bottom_line`: 2–3 short sentences. What to do and why, in plain words. No jargon.
 - `current_fix`: what to change in the current lineup with zero trades (or null).
 - `variations`: **exactly 3**, ordered A, B, C. Each one is a different strategy, not a small tweak:
-  usually A = recommended / balanced, B = high ceiling / differential, C = an alternative angle
-  (double-week planning, sell-high, safety for rank protection, etc.). Each has:
+  A = best chance of reaching the target (recommended), B = nearly as good but safer for rank
+  (keeps template players), C = moonshot (differential captain / max variance). Each has:
   `key`, `name`, `recommended` (true only for one), `risk` (Low/Medium/High), `tagline`,
   `trades` [{`out`, `in`, `credits` like "−2.4", `why`}]: **4 entries** (coach trades as "Coach X (price)"; keep `why` to 1–2 short sentences),
   `bank_after`, `formation` (one of 2-2-1, 1-2-2, 2-1-2, 1-3-1, 3-1-1), `starters` (5 names

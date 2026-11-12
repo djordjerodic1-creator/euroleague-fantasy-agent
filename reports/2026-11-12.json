@@ -5,199 +5,203 @@
   "total": 103.8,
   "bank": 0.5
  },
- "window": "R12+R13 double week · unlimited trades before R14",
- "bottom_line": "Fix your lineup first: Nunn, Diarra and Malcolm are on the half-points bench while Davidovac and Joksimović play, which costs about 11 points. Then swap the coach: Partizan are underdogs, Fenerbahçe are 83% favourites in both double-week rounds. Variation A does that, upgrades Nunn to Robinson, and clears your two dead-weight bench spots: 4 trades, 0.3 left in the bank.",
- "current_fix": "start Nunn, Diarra and Malcolm; make Madar 6th man; bench Davidovac and Joksimović. Same 10 players, about 122 → 133 projected points.",
+ "window": "R12+R13 double week · unlimited trades before R14 (the big rebuild)",
+ "bottom_line": "Honest number first: with a ~104-credit budget, 200 is a top-10% night. Your squad as set now gets there 0.3% of the time (about 1.5% even with the best lineup). Variation A raises that to about 8% (1 round in 12) with four ceiling moves: Zalgiris as coach, Partizan's Jekiri and Carlik Jones, and Robinson as Barcelona's lead guard. Vezenkov stays captain: he's the player most likely to post a 35+.",
+ "current_fix": "Start Nunn, Diarra and Malcolm; make Madar 6th man; bench Davidovac and Joksimović. Same 10 players: expected 122 → 133, chance of 200+ from 0.3% to about 1.5%.",
  "variations": [
   {
    "key": "A",
-   "name": "Balanced: coach fix + guard upgrade",
+   "name": "Best shot at 200",
    "recommended": true,
-   "risk": "Low",
-   "tagline": "Fix the coach, upgrade Nunn to a guard with a bigger role, and turn two dead bench spots into Wednesday players.",
+   "risk": "Medium",
+   "coach": "Zalgiris",
+   "tagline": "Swap capped players (Diarra, Nunn, Madar) for players with 30+ PIR nights in their range, and take the coach most likely to win big.",
    "trades": [
     {
-     "out": "Coach Partizan (6.2)",
-     "in": "Coach Fenerbahçe (8.6)",
-     "credits": "−2.4",
-     "why": "Partizan are 42% at home to Valencia. Fenerbahçe are 83% vs ASVEL, then visit a Milano side in coaching turmoil in R13."
+     "out": "Aliou Diarra (10.8)",
+     "in": "Tonye Jekiri (9.0)",
+     "credits": "+1.8",
+     "why": "Jekiri averages 15.3 PIR and just carried Partizan past Baskonia. He faces Sako (9.8 PIR), and Valencia are thin up front. Cheaper than Diarra, with a higher ceiling."
     },
     {
      "out": "Kendrick Nunn (14.8)",
+     "in": "Carlik Jones (13.7)",
+     "credits": "+1.1",
+     "why": "Partizan's engine: on the ball every possession, 15.2 projected. Nunn shares the ball with Francisco and starts only 25% of the time."
+    },
+    {
+     "out": "Yam Madar (10.5)",
      "in": "Justin Robinson (12.8)",
-     "credits": "+2.0",
-     "why": "With Punter out ~3 weeks, Robinson runs Barcelona. Two home games, no back-to-back. Nunn starts only 25% of the time."
-    },
-    {
-     "out": "Stefan Joksimovic (4.2)",
-     "in": "Alberto Abalde (6.1)",
-     "credits": "−1.9",
-     "why": "Joksimović averages 3.2 PIR and Baskonia just signed another big. Abalde gets 23 min on an injury-hit Madrid (14 PIR over his last 3)."
-    },
-    {
-     "out": "Dario Brizuela (6.3)",
-     "in": "Sergio Llull (4.2)",
-     "credits": "+2.1",
-     "why": "Funds the Abalde move. Similar output (5–6 PIR), and Llull plays Wednesday, which gives you a late-turn option."
-    }
-   ],
-   "bank_after": 0.3,
-   "formation": "2-2-1",
-   "starters": [
-    "Justin Robinson",
-    "Andres Feliz",
-    "Sasha Vezenkov",
-    "Collin Malcolm",
-    "Aliou Diarra"
-   ],
-   "sixth": "Yam Madar",
-   "bench": [
-    "Mouhamed Faye",
-    "Alberto Abalde",
-    "Dejan Davidovac",
-    "Sergio Llull"
-   ],
-   "captain": "Sasha Vezenkov",
-   "vice": "Andres Feliz",
-   "captain_note": "Vezenkov: 79% win at Maccabi, 30 min, a floor of about 14. Feliz plays Wednesday, so he's your late backup.",
-   "reasoning": [
-    "Madrid are missing four guards and forwards. Feliz (33.9 min last game), Abalde and Llull all benefit, and all three play on Wednesday.",
-    "Malcolm stays: tough R12 at Dubai, but R13 vs ASVEL is your best matchup.",
-    "Diarra stays: elite PIR per minute and 38% owned. Selling him risks your rank.",
-    "Madar is 6th man, not a starter: Maccabi are 21% vs Olympiacos.",
-    "Faye stays on the bench: his price rises after his 20.9 in R11, so sell him later at the higher price."
-   ],
-   "cancel_if": [
-    "Robinson listed doubtful on Monday: keep Nunn and use trade 2 on Davidovac → Procida instead.",
-    "Campazzo cleared to play: swap trade 3 to Joksimović → Tyson Ward (Olympiacos)."
-   ],
-   "coach": "Fenerbahce"
-  },
-  {
-   "key": "B",
-   "name": "Zalgiris stack: high ceiling",
-   "recommended": false,
-   "risk": "High",
-   "tagline": "One correlated bet: Zalgiris beat Bayern big, so Valančiūnas and the Zalgiris coach both pay out.",
-   "trades": [
-    {
-     "out": "Mouhamed Faye (7.8)",
-     "in": "Jonas Valančiūnas (16.9)",
-     "credits": "−9.1",
-     "why": "23 PIR over his last 3 games vs a weak Bayern frontcourt. Only 16% own him."
-    },
-    {
-     "out": "Kendrick Nunn (14.8)",
-     "in": "Sergio Llull (4.2)",
-     "credits": "+10.6",
-     "why": "Funding move. Llull gets about 20 minutes with Madrid's guards out."
+     "credits": "−2.3",
+     "why": "Robinson runs Barcelona while Punter is out, at home to fast, leaky Paris. Madar faces Olympiacos with Maccabi at 21%."
     },
     {
      "out": "Coach Partizan (6.2)",
      "in": "Coach Zalgiris (7.3)",
      "credits": "−1.1",
-     "why": "80% to win, projected +11. Pays together with Valančiūnas."
+     "why": "80% vs Bayern with a projected +11 margin: the best chance of the +20 coach bracket in R12."
+    }
+   ],
+   "bank_after": 0.0,
+   "formation": "2-2-1",
+   "starters": [
+    "Carlik Jones",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Tonye Jekiri"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Mouhamed Faye",
+    "Dejan Davidovac",
+    "Dario Brizuela",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Sasha Vezenkov",
+   "vice": "Justin Robinson",
+   "captain_note": "Vezenkov has the biggest ceiling on your team (38 PIR in R6) and Olympiacos are 79% favourites. A 200 round almost always needs a 30+ captain.",
+   "reasoning": [
+    "Every trade swaps a player who usually tops out around 20 for one who can post 30.",
+    "Jekiri and Jones play the same game: if Partizan upset Valencia, both explode together. That correlation is what produces 200-point rounds.",
+    "Selling Diarra (38% owned) goes against the crowd. That's the price of chasing 200 rather than protecting your rank.",
+    "Feliz is the 6th man and your only Wednesday player, so he's full points and a late option.",
+    "Davidovac and Joksimović stay on the bench at 50%: no trades left for them, and they cost almost nothing there."
+   ],
+   "cancel_if": [
+    "Jekiri listed doubtful on Monday (he was a game-time call last week): keep Diarra and use trade 1 on Faye → Valančiūnas instead (needs Nunn → Horton-Tucker for the money).",
+    "Carlik Jones not 100%: Nunn → Talen Horton-Tucker (Fenerbahçe) instead."
+   ]
+  },
+  {
+   "key": "B",
+   "name": "200 with a safety net",
+   "recommended": false,
+   "risk": "Low",
+   "coach": "Zalgiris",
+   "tagline": "Almost the same 200 chance, but keeps Diarra (38% owned) so a bad night doesn't sink your rank.",
+   "trades": [
+    {
+     "out": "Kendrick Nunn (14.8)",
+     "in": "Talen Horton Tucker (12.3)",
+     "credits": "+2.5",
+     "why": "Career night in Paris last round. Fenerbahçe are 83% at home to ASVEL, and he's their go-to scorer."
+    },
+    {
+     "out": "Mouhamed Faye (7.8)",
+     "in": "Tonye Jekiri (9.0)",
+     "credits": "−1.2",
+     "why": "Same Jekiri logic as A, but Diarra stays. Faye's price has just risen, so you sell at a good moment."
     },
     {
      "out": "Stefan Joksimovic (4.2)",
      "in": "Gabriele Procida (4.5)",
      "credits": "−0.3",
      "why": "Dead weight out. Procida plays Wednesday for an injury-hit Madrid."
+    },
+    {
+     "out": "Coach Partizan (6.2)",
+     "in": "Coach Zalgiris (7.3)",
+     "credits": "−1.1",
+     "why": "Same as A."
     }
    ],
-   "bank_after": 0.6,
-   "formation": "2-2-1",
+   "bank_after": 0.4,
+   "formation": "2-1-2",
    "starters": [
+    "Talen Horton Tucker",
     "Yam Madar",
-    "Andres Feliz",
     "Sasha Vezenkov",
-    "Collin Malcolm",
-    "Jonas Valanciunas"
+    "Tonye Jekiri",
+    "Aliou Diarra"
    ],
-   "sixth": "Aliou Diarra",
+   "sixth": "Andres Feliz",
    "bench": [
-    "Sergio Llull",
-    "Dario Brizuela",
+    "Collin Malcolm",
     "Dejan Davidovac",
+    "Dario Brizuela",
     "Gabriele Procida"
    ],
    "captain": "Sasha Vezenkov",
-   "vice": "Jonas Valanciunas",
-   "captain_note": "Vezenkov, with Valančiūnas as the higher-ceiling vice if you're chasing.",
+   "vice": "Talen Horton Tucker",
+   "captain_note": "Vezenkov. Horton-Tucker is the vice: a hot scorer on an 83% favourite.",
    "reasoning": [
-    "Gives up guard depth to buy the best centre in R12.",
-    "R13 is the catch: Zalgiris host Panathinaikos on a back-to-back, so you'd likely change the coach again.",
-    "Valančiūnas is 34: expect fewer minutes on that back-to-back.",
-    "Pick this if you're behind in your league and need a swing, not if you're protecting a lead."
+    "The highest expected score of the three, with a 200 chance close to A's.",
+    "Two centres (Jekiri, Diarra) in a 2-1-2: both rebound and draw fouls, which is how bigs post high PIR.",
+    "Malcolm drops to the bench for R12 (tough game at Dubai) and comes back for R13 vs ASVEL.",
+    "Choose this if you also care about your overall rank, not just single-round peaks."
    ],
    "cancel_if": [
-    "Valančiūnas misses Zalgiris' weekend league game."
-   ],
-   "coach": "Zalgiris"
+    "Jekiri doubtful: keep Faye, and use trade 2 on Davidovac → Abalde instead."
+   ]
   },
   {
    "key": "C",
-   "name": "Sell-high + double-week builder",
+   "name": "Moonshot: Hifi captain",
    "recommended": false,
-   "risk": "Medium",
-   "tagline": "Plan R12 and R13 together: Barcelona's two home games, no back-to-backs, and sell Feliz at his price peak.",
+   "risk": "High",
+   "coach": "Zalgiris",
+   "tagline": "The most boom-or-bust option: captain Nadir Hifi (9% owned), the hottest scorer in the league, in a fast game.",
    "trades": [
     {
-     "out": "Coach Partizan (6.2)",
-     "in": "Coach Fenerbahçe (8.6)",
-     "credits": "−2.4",
-     "why": "Same as A: best coach across both rounds."
-    },
-    {
      "out": "Kendrick Nunn (14.8)",
-     "in": "Justin Robinson (12.8)",
-     "credits": "+2.0",
+     "in": "Nadir Hifi (16.2)",
+     "credits": "−1.4",
+     "why": "20.8 points a game and the buzzer-beater vs Fenerbahçe. Paris vs Barcelona is the fastest game of the round (77.5 pace)."
+    },
+    {
+     "out": "Aliou Diarra (10.8)",
+     "in": "Tonye Jekiri (9.0)",
+     "credits": "+1.8",
+     "why": "Funds Hifi and raises the ceiling at centre."
+    },
+    {
+     "out": "Yam Madar (10.5)",
+     "in": "Cameron Payne (10.2)",
+     "credits": "+0.3",
+     "why": "Payne is up to 24 minutes, with 15 PIR over his last 3 games. More upside than Madar."
+    },
+    {
+     "out": "Coach Partizan (6.2)",
+     "in": "Coach Zalgiris (7.3)",
+     "credits": "−1.1",
      "why": "Same as A."
-    },
-    {
-     "out": "Mouhamed Faye (7.8)",
-     "in": "Josh Nebo (12.7)",
-     "credits": "−4.9",
-     "why": "Nebo: 26 min, 16 PIR, two home games, no back-to-back. Zvezda's bigs are injured in R13."
-    },
-    {
-     "out": "Andres Feliz (9.3)",
-     "in": "Sergio Llull (4.2)",
-     "credits": "+5.1",
-     "why": "Sell high: +3.1 since the start. His minutes depend on injured teammates, and he has a back-to-back in R13."
     }
    ],
-   "bank_after": 0.3,
-   "formation": "2-1-2",
+   "bank_after": 0.1,
+   "formation": "3-1-1",
    "starters": [
-    "Justin Robinson",
-    "Yam Madar",
+    "Nadir Hifi",
+    "Andres Feliz",
+    "Cameron Payne",
     "Sasha Vezenkov",
-    "Josh Nebo",
-    "Aliou Diarra"
+    "Tonye Jekiri"
    ],
    "sixth": "Collin Malcolm",
    "bench": [
-    "Sergio Llull",
-    "Dario Brizuela",
+    "Mouhamed Faye",
     "Dejan Davidovac",
+    "Dario Brizuela",
     "Stefan Joksimovic"
    ],
-   "captain": "Sasha Vezenkov",
-   "vice": "Justin Robinson",
-   "captain_note": "Vezenkov, with Robinson as vice (Barcelona at home, 68%).",
+   "captain": "Nadir Hifi",
+   "vice": "Sasha Vezenkov",
+   "captain_note": "Hifi as captain: if he hits 35, few managers have him, so you jump the table. If he goes 4 for 18, it's a lost round.",
    "reasoning": [
-    "Best R13 squad of the three: Robinson, Nebo, Vezenkov and Malcolm all have good games and no back-to-backs.",
-    "Three Barcelona players in one game vs Paris: if Barça have an off night, it hurts three times.",
-    "Selling Feliz goes against the 36% who own him. If Madrid's guards stay out, he keeps scoring."
+    "A differential captain is the classic way to leapfrog rivals in one round.",
+    "Paris are 32% underdogs. Hifi's volume holds up even in a loss, but the +10% win bonus usually won't apply.",
+    "Lower expected score than A or B: only pick this when you need a big swing."
    ],
    "cancel_if": [
-    "Campazzo ruled out for both rounds: keep Feliz and play A instead."
-   ],
-   "coach": "Fenerbahce"
+    "Hifi listed with any knock on Monday's report."
+   ]
   }
  ],
  "alerts": [
+  {
+   "level": "high",
+   "text": "Jekiri (in all three options) was a game-time decision last week and sat out Partizan's league game on 8 Nov, then dominated vs Baskonia. Check Monday's injury report before confirming."
+  },
   {
    "level": "high",
    "text": "Lineup: Davidovac and Joksimović are in active slots while Nunn, Diarra and Malcolm sit on the 50% bench. Fix this before Tuesday's deadline (worth about +11)."
@@ -291,12 +295,12 @@
   {
    "name": "Kendrick Nunn",
    "verdict": "SELL",
-   "read": "Good form (22.3 over his last 3), but starts only 25% of the time and has a B2B at Zalgiris in R13. Robinson does the same job for 2 credits less with a bigger role."
+   "read": "Good form (22.3 over his last 3) but starts only 25% of the time and shares the ball. Carlik Jones, Horton-Tucker and Hifi all have more upside in R12."
   },
   {
    "name": "Yam Madar",
-   "verdict": "WATCH",
-   "read": "Starts 80% of the time and is cheap at 10.5, but Maccabi are underdogs in both rounds (OLY, then DUB on a B2B) and are shopping for a guard. 6th man."
+   "verdict": "SELL",
+   "read": "Maccabi 21% vs Olympiacos, then Dubai on a back-to-back. A steady 13, but rarely 25+. Robinson and Payne have bigger ceilings."
   },
   {
    "name": "Collin Malcolm",
@@ -305,8 +309,8 @@
   },
   {
    "name": "Aliou Diarra",
-   "verdict": "KEEP",
-   "read": "1.0 PIR per minute, 38% owned, price up 4.3 since the start. A tough matchup with Lessort, but he's template protection."
+   "verdict": "SELL",
+   "read": "Very efficient (1.0 PIR per minute) but capped: under 20 minutes off the bench, and Virtus are underdogs vs Panathinaikos. For a 200 target, Jekiri gives more upside for less money. Keep him only in Variation B."
   },
   {
    "name": "Mouhamed Faye",
@@ -345,11 +349,8 @@
   {
    "name": "Alberto Abalde (MAD, 6.1)",
    "why": "14 PIR over his last 3 in 23 minutes thanks to Madrid's injuries, and 21% owned. A cheap Wednesday enabler if you need one."
-  },
-  {
-   "name": "Josh Nebo (BAR, 12.7)",
-   "why": "Barcelona's double-home double week. Becomes a buy if you sell Faye."
   }
  ],
- "review": "First report: nothing to grade yet. In R11 so far, Faye scored 20.9 in Paris' buzzer-beater win over Fenerbahçe, Peñarroya's Partizan beat Baskonia (+20 coach points), and Joksimović managed 2. Your Tuesday/Wednesday players are still to play tonight and tomorrow (Vezenkov vs Dubai, Feliz vs Zvezda, Madar vs Hapoel)."
+ "review": "First report: nothing to grade yet. In R11 so far, Faye scored 20.9 in Paris' buzzer-beater win over Fenerbahçe, Peñarroya's Partizan beat Baskonia (+20 coach points), and Joksimović managed 2. Your Tuesday/Wednesday players are still to play tonight and tomorrow (Vezenkov vs Dubai, Feliz vs Zvezda, Madar vs Hapoel).",
+ "target": 200
 }
