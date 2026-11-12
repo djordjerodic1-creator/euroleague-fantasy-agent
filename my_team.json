@@ -1,0 +1,21 @@
+{
+  "_note": "EXAMPLE TEAM - replace with your real squad. Names as on basketballstats.eu. bank = credits left (leave null to compute 100 - cost).",
+  "round": 11,
+  "players": [
+    "Andres Feliz",
+    "Rj Cole",
+    "Scottie Wilbekin",
+    "Devon Hall",
+    "Dwayne Bacon",
+    "Collin Malcolm",
+    "Mbaye Ndiaye",
+    "Oscar Da Silva",
+    "Aliou Diarra",
+    "Chuma Okeke"
+  ],
+  "captain": "Dwayne Bacon",
+  "coach": "Bayern Munich",
+  "bank": null,
+  "trades_left_this_round": 4,
+  "notes": "Anything you want the analyst to know: risk appetite, rank, leagues you are chasing, players you refuse to sell..."
+}
