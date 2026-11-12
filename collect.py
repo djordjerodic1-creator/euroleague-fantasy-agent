@@ -179,6 +179,10 @@ def main():
 
     print("Fetching projections, news, calendar, injuries, prices…")
     proj = json.loads(get("/api/fantasy/projections/latest.json") or "{}")
+    if not proj.get("players"):
+        sys.exit("FATAL: basketballstats.eu unreachable or returned no projections "
+                 "(in a cloud run: allow basketballstats.eu in the environment's network settings). "
+                 "Nothing written.")
     news = json.loads(get("/api/fantasy/news.json") or "{}")
     cal_txt = text_of(get("/en/fantasy/calendar/"))
     inj_txt = text_of(get("/en/injury-report/"))
