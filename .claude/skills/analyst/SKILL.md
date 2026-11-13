@@ -16,7 +16,8 @@ Default: fire the cloud routine, so the run is identical to the daily one.
    check `list_runs` once when they ask, then `git pull` and show `reports/<today>.html`.
 4. If the run failed, read `get_run_log` and explain the cause in one line.
 
-Fallback, run locally (when the cloud is down or the user asks): follow the routine's steps
+Fallback, run here (when RemoteTrigger isn't available, e.g. in a phone/web cloud session, when
+the routine fails, or when the user asks): follow the routine's steps
 yourself in this repo: read PLAYBOOK.md, apply `inbox/team.md` and team tracking,
 `python collect.py`, `python sim.py <date>`, research, write `reports/<date>.json`,
 `python render.py <date>`, fix any "⚠" lines, commit and push.
