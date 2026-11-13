@@ -15,3 +15,12 @@ runs the collector, researches domestic games, injuries and rumours on the web, 
 the report, and commits it here. It does not need the laptop or the desktop app.
 
 Run manually: `python collect.py`, write `reports/<date>.json`, then `python render.py <date>`.
+
+## Run it on demand
+- **From the Claude desktop app** (this folder): type `/analyst`. It fires the cloud routine now; the report lands on the Pages site in about 5–15 minutes.
+- **From anywhere**: open the routine on claude.ai/code (Routines) and press **Run now**.
+
+## Update your team
+- **With a screenshot** (desktop app): type `/team` and paste a screenshot of your Fantasy team, or write changes in plain words. It updates `my_team.json`, pushes, and offers a fresh run. The screenshot is never committed.
+- **From your phone**: edit `inbox/team.md` on github.com (e.g. `sold Nunn, bought Carlik Jones, bank 1.3`) and commit. The next run applies it before analysing, then clears the inbox.
+- The **bank** is the number that matters: team value is recomputed from current prices automatically.

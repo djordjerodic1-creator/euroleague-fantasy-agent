@@ -137,6 +137,20 @@ Keep research efficient and prioritise doubts. Never invent box scores, quotes o
 - Never apply twice: check `tracking.last_applied_report` first.
 - If the user says they did something else, their words win. Update the file exactly as they say,
   and set `tracking.source` to "user".
+- **Inbox (check first, every run):** if `inbox/team.md` has anything below its `---` line, the
+  user wrote it (often from their phone). It beats both the old file and any assumed Variation A.
+  1. Apply it to `my_team.json`. It can be a full squad or a change list ("sold Nunn, bought
+     Carlik Jones, bank 1.3, captain Vezenkov"); keep everything it doesn't mention. Match names
+     to the pool's spelling. If a line is ambiguous, apply what is clear and raise a high alert
+     for the rest.
+  2. Set `tracking.source` to "user (inbox <date>)", `tracking.updated` to today, and
+     `bank_known: true` if it gives a bank. If it describes trades made for a round whose
+     deadline has passed, also set `tracking.last_applied_report` to that round's report date,
+     so Variation A is not applied on top.
+  3. Reset `inbox/team.md` to its template (keep everything above the `---`), and commit both
+     files with the report. Say in the alerts what you applied.
+- The bank is the number that matters most: squad value comes from current prices in the pool,
+  so a price rise shows up on its own. A wrong bank makes every budget check wrong.
 - `bank_known: false` means the bank is a guess, so say so in the alerts.
 - Prices change every round: recompute the squad value from the pool and keep `total_budget`
   = squad value + bank.
