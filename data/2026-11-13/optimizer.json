@@ -1,0 +1,511 @@
+{
+ "target": 200.0,
+ "current_best_lineup": {
+  "mean": 134.7,
+  "p90": 174.8,
+  "p10": 94.9,
+  "p_target": 0.017
+ },
+ "plans": [
+  {
+   "trades": [
+    {
+     "out": "Aliou Diarra",
+     "out_price": 10.8,
+     "in": "Tonye Jekiri",
+     "in_price": 9.0
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Carlik Jones",
+     "in_price": 13.7
+    },
+    {
+     "out": "Yam Madar",
+     "out_price": 10.5,
+     "in": "Justin Robinson",
+     "in_price": 12.8
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 0.0,
+   "formation": "2-2-1",
+   "starters": [
+    "Carlik Jones",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Tonye Jekiri"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Mouhamed Faye",
+    "Dario Brizuela",
+    "Dejan Davidovac",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 151.3,
+   "p90": 196.0,
+   "p10": 107.7,
+   "p_target": 0.078
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Carlik Jones",
+     "in_price": 13.7
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 9.8,
+     "in": "Lamar Stevens",
+     "in_price": 9.1
+    },
+    {
+     "out": "Mouhamed Faye",
+     "out_price": 7.8,
+     "in": "Tonye Jekiri",
+     "in_price": 9.0
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 0.0,
+   "formation": "2-2-1",
+   "starters": [
+    "Carlik Jones",
+    "Yam Madar",
+    "Sasha Vezenkov",
+    "Lamar Stevens",
+    "Tonye Jekiri"
+   ],
+   "sixth": "Aliou Diarra",
+   "bench": [
+    "Andres Feliz",
+    "Dario Brizuela",
+    "Dejan Davidovac",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 150.4,
+   "p90": 195.3,
+   "p10": 106.3,
+   "p_target": 0.076
+  },
+  {
+   "trades": [
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.3,
+     "in": "Sergio Llull",
+     "in_price": 4.2
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ULK",
+     "in_price": 8.6
+    },
+    {
+     "out": "Aliou Diarra",
+     "out_price": 10.8,
+     "in": "Tonye Jekiri",
+     "in_price": 9.0
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Nadir Hifi",
+     "in_price": 16.2
+    }
+   ],
+   "coach": "ULK",
+   "bank_after": 0.6,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Yam Madar",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Tonye Jekiri"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Mouhamed Faye",
+    "Dejan Davidovac",
+    "Sergio Llull",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Nadir Hifi",
+   "mean": 147.7,
+   "p90": 194.6,
+   "p10": 101.4,
+   "p_target": 0.074
+  },
+  {
+   "trades": [
+    {
+     "out": "Aliou Diarra",
+     "out_price": 10.8,
+     "in": "Tonye Jekiri",
+     "in_price": 9.0
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 9.8,
+     "in": "Lamar Stevens",
+     "in_price": 9.1
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Nadir Hifi",
+     "in_price": 16.2
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 0.5,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Yam Madar",
+    "Sasha Vezenkov",
+    "Lamar Stevens",
+    "Tonye Jekiri"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Mouhamed Faye",
+    "Dario Brizuela",
+    "Dejan Davidovac",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Nadir Hifi",
+   "mean": 146.7,
+   "p90": 194.4,
+   "p10": 100.3,
+   "p_target": 0.074
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Talen Horton Tucker",
+     "in_price": 12.3
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Mouhamed Faye",
+     "out_price": 7.8,
+     "in": "Tonye Jekiri",
+     "in_price": 9.0
+    },
+    {
+     "out": "Stefan Joksimovic",
+     "out_price": 4.2,
+     "in": "Gabriele Procida",
+     "in_price": 4.5
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 0.4,
+   "formation": "2-1-2",
+   "starters": [
+    "Talen Horton Tucker",
+    "Yam Madar",
+    "Sasha Vezenkov",
+    "Tonye Jekiri",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Collin Malcolm",
+    "Gabriele Procida",
+    "Dario Brizuela",
+    "Dejan Davidovac"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 152.1,
+   "p90": 194.1,
+   "p10": 110.5,
+   "p_target": 0.073
+  },
+  {
+   "trades": [
+    {
+     "out": "Aliou Diarra",
+     "out_price": 10.8,
+     "in": "Tonye Jekiri",
+     "in_price": 9.0
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Dejan Davidovac",
+     "out_price": 4.7,
+     "in": "Gabriele Procida",
+     "in_price": 4.5
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Nadir Hifi",
+     "in_price": 16.2
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 0.0,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Yam Madar",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Tonye Jekiri"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Mouhamed Faye",
+    "Gabriele Procida",
+    "Dario Brizuela",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Nadir Hifi",
+   "mean": 147.3,
+   "p90": 193.9,
+   "p10": 101.3,
+   "p_target": 0.073
+  },
+  {
+   "trades": [
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.3,
+     "in": "Sergio Llull",
+     "in_price": 4.2
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ULK",
+     "in_price": 8.6
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Carlik Jones",
+     "in_price": 13.7
+    },
+    {
+     "out": "Mouhamed Faye",
+     "out_price": 7.8,
+     "in": "Tonye Jekiri",
+     "in_price": 9.0
+    }
+   ],
+   "coach": "ULK",
+   "bank_after": 0.1,
+   "formation": "2-1-2",
+   "starters": [
+    "Carlik Jones",
+    "Yam Madar",
+    "Sasha Vezenkov",
+    "Tonye Jekiri",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Collin Malcolm",
+    "Dejan Davidovac",
+    "Sergio Llull",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 151.8,
+   "p90": 193.6,
+   "p10": 109.7,
+   "p_target": 0.071
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 12.8
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Mouhamed Faye",
+     "out_price": 7.8,
+     "in": "Tonye Jekiri",
+     "in_price": 9.0
+    },
+    {
+     "out": "Stefan Joksimovic",
+     "out_price": 4.2,
+     "in": "Edwin Jackson",
+     "in_price": 4.1
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 0.3,
+   "formation": "2-1-2",
+   "starters": [
+    "Justin Robinson",
+    "Yam Madar",
+    "Sasha Vezenkov",
+    "Tonye Jekiri",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Collin Malcolm",
+    "Dario Brizuela",
+    "Dejan Davidovac",
+    "Edwin Jackson"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 151.5,
+   "p90": 193.8,
+   "p10": 110.3,
+   "p_target": 0.07
+  },
+  {
+   "trades": [
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.3,
+     "in": "Sergio Llull",
+     "in_price": 4.2
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Nadir Hifi",
+     "in_price": 16.2
+    },
+    {
+     "out": "Aliou Diarra",
+     "out_price": 10.8,
+     "in": "Tonye Jekiri",
+     "in_price": 9.0
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 1.9,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Yam Madar",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Tonye Jekiri"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Mouhamed Faye",
+    "Dejan Davidovac",
+    "Sergio Llull",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Nadir Hifi",
+   "mean": 146.1,
+   "p90": 193.2,
+   "p10": 100.0,
+   "p_target": 0.07
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 12.8
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Mouhamed Faye",
+     "out_price": 7.8,
+     "in": "Tonye Jekiri",
+     "in_price": 9.0
+    },
+    {
+     "out": "Aliou Diarra",
+     "out_price": 10.8,
+     "in": "Kenneth Faried",
+     "in_price": 10.8
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 0.2,
+   "formation": "2-1-2",
+   "starters": [
+    "Justin Robinson",
+    "Yam Madar",
+    "Sasha Vezenkov",
+    "Tonye Jekiri",
+    "Kenneth Faried"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Collin Malcolm",
+    "Dario Brizuela",
+    "Dejan Davidovac",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 151.0,
+   "p90": 192.8,
+   "p10": 109.1,
+   "p_target": 0.069
+  }
+ ]
+}

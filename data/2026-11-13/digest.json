@@ -1,0 +1,2545 @@
+{
+ "generated": "2026-11-13T09:06",
+ "today": "2026-11-13",
+ "source_round": 11,
+ "rounds_in_progress": [
+  11
+ ],
+ "target_round": 12,
+ "horizon": [
+  12,
+  13
+ ],
+ "calendar": {
+  "11": {
+   "start": "2026-11-11",
+   "end": "2026-11-13",
+   "double_week": false,
+   "unlimited_before": false,
+   "unlimited_window": null
+  },
+  "12": {
+   "start": "2026-11-17",
+   "end": "2026-11-18",
+   "double_week": true,
+   "unlimited_before": false,
+   "unlimited_window": null
+  },
+  "13": {
+   "start": "2026-11-19",
+   "end": "2026-11-20",
+   "double_week": true,
+   "unlimited_before": false,
+   "unlimited_window": null
+  },
+  "14": {
+   "start": "2026-11-24",
+   "end": "2026-11-25",
+   "double_week": false,
+   "unlimited_before": true,
+   "unlimited_window": "21 Nov – 24 Nov"
+  },
+  "15": {
+   "start": "2026-12-03",
+   "end": "2026-12-04",
+   "double_week": false,
+   "unlimited_before": false,
+   "unlimited_window": null
+  }
+ },
+ "team": {
+  "players": [
+   "Mouhamed Faye",
+   "Dejan Davidovac",
+   "Sasha Vezenkov",
+   "Andres Feliz",
+   "Yam Madar",
+   "Stefan Joksimovic",
+   "Aliou Diarra",
+   "Kendrick Nunn",
+   "Collin Malcolm",
+   "Dario Brizuela"
+  ],
+  "unmatched": [],
+  "coach": "PAR",
+  "captain": "Sasha Vezenkov",
+  "cost": 103.3,
+  "bank": 0.5,
+  "club_count": {
+   "PRS": 1,
+   "RED": 1,
+   "OLY": 1,
+   "MAD": 1,
+   "TEL": 1,
+   "BAS": 1,
+   "VIR": 1,
+   "PAN": 1,
+   "IST": 1,
+   "BAR": 1
+  }
+ },
+ "swaps": [
+  {
+   "out": "Mouhamed Faye",
+   "out_score": null,
+   "options": [
+    {
+     "name": "Conor Morgan",
+     "team": "BES",
+     "price": 7.9,
+     "score": 11.31,
+     "gain": 11.3,
+     "owned": 0.5
+    },
+    {
+     "name": "Ousmane Diop",
+     "team": "MIL",
+     "price": 4.5,
+     "score": 10.95,
+     "gain": 10.9,
+     "owned": 19.0
+    },
+    {
+     "name": "Wenyen Gabriel",
+     "team": "BES",
+     "price": 7.5,
+     "score": 10.52,
+     "gain": 10.5,
+     "owned": 1.0
+    },
+    {
+     "name": "Johannes Voigtmann",
+     "team": "MUN",
+     "price": 6.8,
+     "score": 10.28,
+     "gain": 10.3,
+     "owned": 0.9
+    },
+    {
+     "name": "Kevin Kokila",
+     "team": "VIR",
+     "price": 7.4,
+     "score": 9.99,
+     "gain": 10.0,
+     "owned": 0.1
+    }
+   ]
+  },
+  {
+   "out": "Dejan Davidovac",
+   "out_score": 9.21,
+   "options": [
+    {
+     "name": "Gabriele Procida",
+     "team": "MAD",
+     "price": 4.5,
+     "score": 10.8,
+     "gain": 1.6,
+     "owned": 11.0
+    },
+    {
+     "name": "Edwin Jackson",
+     "team": "ASV",
+     "price": 4.1,
+     "score": 7.96,
+     "gain": -1.3,
+     "owned": 6.0
+    },
+    {
+     "name": "Kostas Papanikolaou",
+     "team": "OLY",
+     "price": 4.2,
+     "score": 6.33,
+     "gain": -2.9,
+     "owned": 17.0
+    },
+    {
+     "name": "Ognjen Dobric",
+     "team": "RED",
+     "price": 4.7,
+     "score": 5.47,
+     "gain": -3.7,
+     "owned": 7.0
+    },
+    {
+     "name": "Erkan Yilmaz",
+     "team": "IST",
+     "price": 4.0,
+     "score": 4.05,
+     "gain": -5.2,
+     "owned": 2.0
+    }
+   ]
+  },
+  {
+   "out": "Sasha Vezenkov",
+   "out_score": 39.75,
+   "options": [
+    {
+     "name": "Dwayne Bacon",
+     "team": "DUB",
+     "price": 14.6,
+     "score": 26.65,
+     "gain": -13.1,
+     "owned": 13.0
+    },
+    {
+     "name": "Zach Leday",
+     "team": "HTA",
+     "price": 13.2,
+     "score": 24.25,
+     "gain": -15.5,
+     "owned": 4.0
+    },
+    {
+     "name": "Jordan Nwora",
+     "team": "RED",
+     "price": 13.9,
+     "score": 23.79,
+     "gain": -16.0,
+     "owned": 12.0
+    },
+    {
+     "name": "Dario Saric",
+     "team": "IST",
+     "price": 14.4,
+     "score": 23.68,
+     "gain": -16.1,
+     "owned": 4.0
+    },
+    {
+     "name": "Azuolas Tubelis",
+     "team": "ZAL",
+     "price": 12.6,
+     "score": 22.71,
+     "gain": -17.0,
+     "owned": 18.0
+    }
+   ]
+  },
+  {
+   "out": "Andres Feliz",
+   "out_score": 21.2,
+   "options": [
+    {
+     "name": "Tyty Washington Jr",
+     "team": "ASV",
+     "price": 9.6,
+     "score": 19.2,
+     "gain": -2.0,
+     "owned": 1.0
+    },
+    {
+     "name": "Rj Cole",
+     "team": "MIL",
+     "price": 8.9,
+     "score": 18.43,
+     "gain": -2.8,
+     "owned": 0.7
+    },
+    {
+     "name": "Wendell Moore",
+     "team": "VIR",
+     "price": 9.7,
+     "score": 17.98,
+     "gain": -3.2,
+     "owned": 0.7
+    },
+    {
+     "name": "Jimmy Clark Iii",
+     "team": "TEL",
+     "price": 9.6,
+     "score": 17.31,
+     "gain": -3.9,
+     "owned": 0.8
+    },
+    {
+     "name": "Jordan Loyd",
+     "team": "IST",
+     "price": 9.4,
+     "score": 16.92,
+     "gain": -4.3,
+     "owned": 0.8
+    }
+   ]
+  },
+  {
+   "out": "Yam Madar",
+   "out_score": 22.17,
+   "options": [
+    {
+     "name": "Cameron Payne",
+     "team": "IST",
+     "price": 10.2,
+     "score": 21.88,
+     "gain": -0.3,
+     "owned": 12.0
+    },
+    {
+     "name": "Codi Miller-Mcintyre",
+     "team": "OLY",
+     "price": 10.2,
+     "score": 19.83,
+     "gain": -2.3,
+     "owned": 5.0
+    },
+    {
+     "name": "Tyty Washington Jr",
+     "team": "ASV",
+     "price": 9.6,
+     "score": 19.2,
+     "gain": -3.0,
+     "owned": 1.0
+    },
+    {
+     "name": "Rj Cole",
+     "team": "MIL",
+     "price": 8.9,
+     "score": 18.43,
+     "gain": -3.7,
+     "owned": 0.7
+    },
+    {
+     "name": "Wendell Moore",
+     "team": "VIR",
+     "price": 9.7,
+     "score": 17.98,
+     "gain": -4.2,
+     "owned": 0.7
+    }
+   ]
+  },
+  {
+   "out": "Stefan Joksimovic",
+   "out_score": null,
+   "options": [
+    {
+     "name": "Gabriele Procida",
+     "team": "MAD",
+     "price": 4.5,
+     "score": 10.8,
+     "gain": 10.8,
+     "owned": 11.0
+    },
+    {
+     "name": "Edwin Jackson",
+     "team": "ASV",
+     "price": 4.1,
+     "score": 7.96,
+     "gain": 8.0,
+     "owned": 6.0
+    },
+    {
+     "name": "Kostas Papanikolaou",
+     "team": "OLY",
+     "price": 4.2,
+     "score": 6.33,
+     "gain": 6.3,
+     "owned": 17.0
+    },
+    {
+     "name": "Ognjen Dobric",
+     "team": "RED",
+     "price": 4.7,
+     "score": 5.47,
+     "gain": 5.5,
+     "owned": 7.0
+    },
+    {
+     "name": "Erkan Yilmaz",
+     "team": "IST",
+     "price": 4.0,
+     "score": 4.05,
+     "gain": 4.0,
+     "owned": 2.0
+    }
+   ]
+  },
+  {
+   "out": "Aliou Diarra",
+   "out_score": 22.6,
+   "options": [
+    {
+     "name": "Bruno Fernando",
+     "team": "IST",
+     "price": 10.3,
+     "score": 16.5,
+     "gain": -6.1,
+     "owned": 2.0
+    },
+    {
+     "name": "Johannes Thiemann",
+     "team": "MUN",
+     "price": 10.6,
+     "score": 16.47,
+     "gain": -6.1,
+     "owned": 1.0
+    },
+    {
+     "name": "Donta Hall",
+     "team": "OLY",
+     "price": 10.0,
+     "score": 16.19,
+     "gain": -6.4,
+     "owned": 2.0
+    },
+    {
+     "name": "Daniel Theis",
+     "team": "TEL",
+     "price": 11.3,
+     "score": 16.12,
+     "gain": -6.5,
+     "owned": 0.6
+    },
+    {
+     "name": "Austin Wiley",
+     "team": "MUN",
+     "price": 10.5,
+     "score": 15.93,
+     "gain": -6.7,
+     "owned": 0.4
+    }
+   ]
+  },
+  {
+   "out": "Kendrick Nunn",
+   "out_score": 23.25,
+   "options": [
+    {
+     "name": "Justin Robinson",
+     "team": "BAR",
+     "price": 12.8,
+     "score": 25.29,
+     "gain": 2.0,
+     "owned": 3.0
+    },
+    {
+     "name": "Sylvain Francisco",
+     "team": "PAN",
+     "price": 14.1,
+     "score": 23.62,
+     "gain": 0.4,
+     "owned": 8.0
+    },
+    {
+     "name": "Cameron Payne",
+     "team": "IST",
+     "price": 10.2,
+     "score": 21.88,
+     "gain": -1.4,
+     "owned": 12.0
+    },
+    {
+     "name": "Chris Jones",
+     "team": "RED",
+     "price": 12.5,
+     "score": 21.49,
+     "gain": -1.8,
+     "owned": 5.0
+    },
+    {
+     "name": "Mckinley Wright Iv",
+     "team": "DUB",
+     "price": 13.0,
+     "score": 21.14,
+     "gain": -2.1,
+     "owned": 2.0
+    }
+   ]
+  },
+  {
+   "out": "Collin Malcolm",
+   "out_score": 22.58,
+   "options": [
+    {
+     "name": "Vladimir Lucic",
+     "team": "MUN",
+     "price": 9.6,
+     "score": 17.21,
+     "gain": -5.4,
+     "owned": 2.0
+    },
+    {
+     "name": "Tyson Ward",
+     "team": "OLY",
+     "price": 8.1,
+     "score": 16.02,
+     "gain": -6.6,
+     "owned": 5.0
+    },
+    {
+     "name": "Tyrese Martin",
+     "team": "BAR",
+     "price": 8.6,
+     "score": 15.57,
+     "gain": -7.0,
+     "owned": 1.0
+    },
+    {
+     "name": "Anthony Brown",
+     "team": "BES",
+     "price": 9.3,
+     "score": 14.53,
+     "gain": -8.0,
+     "owned": 0.8
+    },
+    {
+     "name": "Mbaye Ndiaye",
+     "team": "OLY",
+     "price": 8.3,
+     "score": 14.11,
+     "gain": -8.5,
+     "owned": 5.0
+    }
+   ]
+  },
+  {
+   "out": "Dario Brizuela",
+   "out_score": 10.54,
+   "options": [
+    {
+     "name": "Cory Joseph",
+     "team": "OLY",
+     "price": 5.5,
+     "score": 9.25,
+     "gain": -1.3,
+     "owned": 3.0
+    },
+    {
+     "name": "Sergio Llull",
+     "team": "MAD",
+     "price": 4.2,
+     "score": 8.43,
+     "gain": -2.1,
+     "owned": 6.0
+    },
+    {
+     "name": "Josep Puerto",
+     "team": "PAM",
+     "price": 5.0,
+     "score": 7.9,
+     "gain": -2.6,
+     "owned": 4.0
+    },
+    {
+     "name": "Daniel Hackett",
+     "team": "VIR",
+     "price": 4.6,
+     "score": 7.88,
+     "gain": -2.7,
+     "owned": 5.0
+    },
+    {
+     "name": "Alvaro Cardenas",
+     "team": "PAM",
+     "price": 4.3,
+     "score": 7.66,
+     "gain": -2.9,
+     "owned": 5.0
+    }
+   ]
+  }
+ ],
+ "previews": {
+  "barcelona-paris-12": {
+   "summary": "Preview Barcelona vs Paris Basketball: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 21:30 (Athens time) at Palau Blaugrana. Barcelona: 4th place, 7-3, form LWWWW. Paris Basketball: 12th place, 5-6, form LWWWW. Our model projects 92-87. Favourite: Barcelona, with a 68% chance to win. Players to watch: Justin Robinson (13.7 points, 13.7 PIR) and Nadir Hifi (20.8 points, 18.5 PIR). Absences: Barcelona: Tosan Evbuomwan, Umoja Gibson and Kevin Punter · Paris Basketball: Daulton Hommes. Matchup Center BAR Barcelona 68% 32% Paris Basketball PRS Projected score 92-87 Margin +5.3 Projected total 179.5 Pace 77.4 Model confidence Medium Barcelona 68% win probability | Projected score: 92-87 | Projected total: 180 | Pace: 77.4 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 13 Nov, 08:44 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Kevin Punter (14.8 PIR) – Nadir Hifi (18.5 PIR) Forward: Tyrese Martin (7.9 PIR) – Tj Warren (11.9 PIR) Center: Josh Nebo (13.6 PIR) – Allan Dokossi (10.7 PIR) Top scorer vs defense: Kevin Punter (15.9 pts) vs a defense with DRtg 120.1 (15) · Nadir Hifi (20.8 pts) vs a defense with DRtg 117.6 (12) Rebounding battle: Barcelona OREB% 34.9% vs DREB% 61.4% Paris Basketball · Paris Basketball OREB% 35.3% vs DREB% 66.6% Barcelona Pace battle: Barcelona 74.5 – Paris Basketball 77.5 · projected 77.4 Bench (PIR from reserves per game): Barcelona 58.4 – Paris Basketball 63.2 Coaches: Aleksander Sekulic – Maxime Lefevre Players to watch Barcelona Paris Basketball Projected PIR Justin Robinson 13.8 PIR Josh Nebo 13.3 PIR Tyrese Martin 8.3 PIR Joel Parra 6.5 PIR Dario Brizuela 6.1 PIR Nadir Hifi 18.5 PIR Tj Warren 11.9 PIR Jared Rhoden 11.4 PIR Allan Dokossi 10.7 PIR Mouhamed Faye",
+   "favourite": "Barcelona",
+   "fav_pct": 68,
+   "home": "BAR",
+   "away": "PRS",
+   "fav_code": "BAR",
+   "date": "17 Nov",
+   "time": "21:30",
+   "score": [
+    92,
+    87
+   ],
+   "player_proj": {
+    "Justin Robinson": 13.8,
+    "Josh Nebo": 13.3,
+    "Tyrese Martin": 8.3,
+    "Joel Parra": 6.5,
+    "Dario Brizuela": 6.1,
+    "Nadir Hifi": 18.5,
+    "Tj Warren": 11.9,
+    "Jared Rhoden": 11.4,
+    "Allan Dokossi": 10.7,
+    "Mouhamed Faye": 10.1
+   },
+   "url": "https://basketballstats.eu/en/game/barcelona-paris-12/"
+  },
+  "baskonia-hapoel-tel-aviv-12": {
+   "summary": "Preview Baskonia vs Hapoel Tel Aviv: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 21:30 (Athens time) at Buesa Arena. Baskonia: 20th place, 1-10, form LLLLL. Hapoel Tel Aviv: 10th place, 6-5, form WWLLL. Our model projects 84-93. Favourite: Hapoel Tel Aviv, with a 72% chance to win. Players to watch: Kenneth Faried (8.7 points, 13.8 PIR) and Elijah Bryant (14.5 points, 21.6 PIR). Absences: Baskonia: Markus Howard, Marcio Santos and Tadas Sedekerskis · Hapoel Tel Aviv: none known. Matchup Center BAS Baskonia 28% 72% Hapoel Tel Aviv HTA Projected score 84-93 Margin -8.2 Projected total 176.8 Pace 76.8 Model confidence High Hapoel Tel Aviv 72% win probability | Projected score: 84-93 | Projected total: 177 | Pace: 76.8 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 13 Nov, 08:44 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Damion Baugh (7.6 PIR) – Elijah Bryant (21.6 PIR) Forward: Tadas Sedekerskis (13.0 PIR) – Zach Leday (12.5 PIR) Center: Kenneth Faried (13.8 PIR) – Dan Oturu (14.8 PIR) Top scorer vs defense: A.J. Lawson (11.5 pts) vs a defense with DRtg 114.9 (9) · Elijah Bryant (14.5 pts) vs a defense with DRtg 120.1 (16) Rebounding battle: Baskonia OREB% 32.4% vs DREB% 68.2% Hapoel Tel Aviv · Hapoel Tel Aviv OREB% 28.2% vs DREB% 66.8% Baskonia Pace battle: Baskonia 76.5 – Hapoel Tel Aviv 75.9 · projected 76.8 Bench (PIR from reserves per game): Baskonia 40.7 – Hapoel Tel Aviv 34.2 Coaches: Velimir Perasovic – Dimitris Itoudis Players to watch Baskonia Hapoel Tel Aviv Projected PIR Kenneth Faried 13.8 PIR Chris Duarte 10.6 PIR A.J. Lawson 9.4 PIR Dj Stewart 7.9 PIR Damion Baugh 7.6 PIR Elijah Bryant 21.6 PIR Dan Oturu 14.8 PIR Zach Leday 12.5 PIR Vasilije Micic 11.6 PIR Antonio Blak",
+   "favourite": "Hapoel Tel Aviv",
+   "fav_pct": 72,
+   "home": "BAS",
+   "away": "HTA",
+   "fav_code": "HTA",
+   "date": "17 Nov",
+   "time": "21:30",
+   "score": [
+    84,
+    93
+   ],
+   "player_proj": {
+    "Kenneth Faried": 13.8,
+    "Chris Duarte": 10.6,
+    "A.J. Lawson": 9.4,
+    "Dj Stewart": 7.9,
+    "Damion Baugh": 7.6,
+    "Elijah Bryant": 21.6,
+    "Dan Oturu": 14.8,
+    "Zach Leday": 12.5,
+    "Vasilije Micic": 11.6,
+    "Antonio Blakeney": 9.9
+   },
+   "url": "https://basketballstats.eu/en/game/baskonia-hapoel-tel-aviv-12/"
+  },
+  "besiktas-real-madrid-12": {
+   "summary": "Preview Besiktas vs Real Madrid: the EuroLeague 2026-27 Round 12 game tips off Wednesday 18 November at 19:00 (Athens time) at Turkcell Basketball Development Center. Besiktas: 14th place, 4-6, form WLLWL. Real Madrid: 5th place, 7-4, form WWWLW. Our model projects 87-91. Favourite: Real Madrid, with a 69% chance to win. Players to watch: Lonnie Walker Iv (14.0 points, 15.0 PIR) and Walter Tavares (9.9 points, 15.3 PIR). Absences: Besiktas: Daquan Jeffries, Furkan Korkmaz and Jaylen Nowell · Real Madrid: Gabriel Deck, Mikael Jantunen, Facundo Campazzo and Theo Maledon. Matchup Center BES Besiktas 31% 69% Real Madrid MAD Projected score 87-91 Margin -4.3 Projected total 178.0 Pace 76.6 Model confidence Medium Real Madrid 69% win probability | Projected score: 87-91 | Projected total: 178 | Pace: 76.6 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 13 Nov, 08:44 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Lonnie Walker Iv (15.0 PIR) – Theo Maledon (20.4 PIR) Forward: Anthony Brown (9.1 PIR) – Alberto Abalde (8.2 PIR) Center: Ante Zizic (11.8 PIR) – Walter Tavares (15.3 PIR) Top scorer vs defense: Lonnie Walker Iv (14.0 pts) vs a defense with DRtg 115.4 (10) · Theo Maledon (16.3 pts) vs a defense with DRtg 119.7 (14) Rebounding battle: Besiktas OREB% 28.4% vs DREB% 68.4% Real Madrid · Real Madrid OREB% 34.3% vs DREB% 67.1% Besiktas Pace battle: Besiktas 75.9 – Real Madrid 77.2 · projected 76.6 Bench (PIR from reserves per game): Besiktas 54.1 – Real Madrid 61.3 Coaches: Dusan Alimpijevic – Pedro Martinez Players to watch Besiktas Real Madrid Projected PIR Lonnie Walker Iv 10.7 PIR Eugene Omoruyi 9.0 PIR Devon Dotson 8.7 PIR Anthony Brown 8.6 PIR Scottie Wilbekin 8.6 PIR Walter Tavares 15.3 PIR Andres Feliz 14.8 PIR Chuma Okeke 9.2 PIR Alberto Abalde 8.2 PIR Gabriele Pro",
+   "favourite": "Real Madrid",
+   "fav_pct": 69,
+   "home": "BES",
+   "away": "MAD",
+   "fav_code": "MAD",
+   "date": "18 Nov",
+   "time": "19:00",
+   "score": [
+    87,
+    91
+   ],
+   "player_proj": {
+    "Lonnie Walker Iv": 10.7,
+    "Eugene Omoruyi": 9.0,
+    "Devon Dotson": 8.7,
+    "Anthony Brown": 8.6,
+    "Scottie Wilbekin": 8.6,
+    "Walter Tavares": 15.3,
+    "Andres Feliz": 14.8,
+    "Chuma Okeke": 9.2,
+    "Alberto Abalde": 8.2,
+    "Gabriele Procida": 7.6
+   },
+   "url": "https://basketballstats.eu/en/game/besiktas-real-madrid-12/"
+  },
+  "dubai-anadolu-efes-12": {
+   "summary": "Preview Dubai Basketball vs Anadolu Efes: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 18:00 (Athens time) at Coca-Cola Arena. Dubai Basketball: 9th place, 7-4, form WLWWL. Anadolu Efes: 13th place, 4-6, form WWLWL. Our model projects 93-87. Favourite: Dubai Basketball, with a 71% chance to win. Players to watch: Dwayne Bacon (16.6 points, 18.5 PIR) and Dario Saric (11.4 points, 14.9 PIR). Absences: Dubai Basketball: Thomas Walkup and Davis Bertans · Anadolu Efes: Pj Dozier and Mike James. Matchup Center DUB Dubai Basketball 71% 29% Anadolu Efes IST Projected score 93-87 Margin +6.5 Projected total 179.9 Pace 74.5 Model confidence High Dubai Basketball 71% win probability | Projected score: 93-87 | Projected total: 180 | Pace: 74.5 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 13 Nov, 08:44 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Elie Okobo (12.7 PIR) – Mike James (14.0 PIR) Forward: Dwayne Bacon (18.5 PIR) – Dario Saric (14.9 PIR) Center: Mfiondu Kabengele (18.0 PIR) – Bruno Fernando (10.2 PIR) Top scorer vs defense: Dwayne Bacon (16.6 pts) vs a defense with DRtg 113.4 (7) · Cameron Payne (17.6 pts) vs a defense with DRtg 118.0 (13) Rebounding battle: Dubai Basketball OREB% 34.6% vs DREB% 68.7% Anadolu Efes · Anadolu Efes OREB% 28.6% vs DREB% 68.0% Dubai Basketball Pace battle: Dubai Basketball 72.6 – Anadolu Efes 76.8 · projected 74.5 Bench (PIR from reserves per game): Dubai Basketball 43.8 – Anadolu Efes 20.9 Coaches: Xavi Pascual – Pablo Laso Players to watch Dubai Basketball Anadolu Efes Projected PIR Dwayne Bacon 18.5 PIR Mfiondu Kabengele 18.0 PIR Elie Okobo 12.7 PIR Mckinley Wright Iv 10.8 PIR Filip Petrusev 10.2 PIR Dario Saric 14.7 PIR Cameron Payne 13.9 PIR Collin Malcolm 13.5 PIR ",
+   "favourite": "Dubai Basketball",
+   "fav_pct": 71,
+   "home": "DUB",
+   "away": "IST",
+   "fav_code": "DUB",
+   "date": "17 Nov",
+   "time": "18:00",
+   "score": [
+    93,
+    87
+   ],
+   "player_proj": {
+    "Dwayne Bacon": 18.5,
+    "Mfiondu Kabengele": 18.0,
+    "Elie Okobo": 12.7,
+    "Mckinley Wright Iv": 10.8,
+    "Filip Petrusev": 10.2,
+    "Dario Saric": 14.7,
+    "Cameron Payne": 13.9,
+    "Collin Malcolm": 13.5,
+    "Jordan Loyd": 10.8,
+    "Matthew Strazel": 10.2
+   },
+   "url": "https://basketballstats.eu/en/game/dubai-anadolu-efes-12/"
+  },
+  "fenerbahce-asvel-12": {
+   "summary": "Preview Fenerbahce vs ASVEL: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 20:00 (Athens time) at Ulker Sports And Event Hall. Fenerbahce: 7th place, 7-4, form WLLWL. ASVEL: 16th place, 4-6, form LLWWL. Our model projects 90-79. Favourite: Fenerbahce, with a 83% chance to win. Players to watch: Talen Horton Tucker (13.3 points, 14.1 PIR) and Patty Mills (15.9 points, 14.0 PIR). Absences: Fenerbahce: Sertac Sanli · ASVEL: Myles Cale. Matchup Center ULK Fenerbahce 83% 17% ASVEL ASV Projected score 90-79 Margin +10.7 Projected total 168.2 Pace 74.7 Model confidence High Fenerbahce 83% win probability | Projected score: 90-79 | Projected total: 168 | Pace: 74.7 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 13 Nov, 08:44 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Talen Horton Tucker (14.1 PIR) – Patty Mills (14.0 PIR) Forward: Shavon Shields (13.2 PIR) – Jae Crowder (11.0 PIR) Center: Marcus Bingham (8.7 PIR) – Joel Bolomboy (8.6 PIR) Top scorer vs defense: Talen Horton Tucker (13.3 pts) vs a defense with DRtg 121.7 (18) · Patty Mills (15.9 pts) vs a defense with DRtg 106.5 (3) Rebounding battle: Fenerbahce OREB% 34.7% vs DREB% 59.3% ASVEL · ASVEL OREB% 28.6% vs DREB% 67.2% Fenerbahce Pace battle: Fenerbahce 73.0 – ASVEL 76.4 · projected 74.7 Bench (PIR from reserves per game): Fenerbahce 59.6 – ASVEL 59.7 Coaches: Saras Jasikevicius – Tony Parker Players to watch Fenerbahce ASVEL Projected PIR Talen Horton Tucker 14.1 PIR Wade Baldwin Iv 13.8 PIR Shavon Shields 13.2 PIR Will Clyburn 10.1 PIR Marcus Bingham 8.7 PIR Patty Mills 12.1 PIR Tyty Washington Jr 11.9 PIR Hugo Besson 10.6 PIR Both Gach 9.3 PIR Jae Crowder 8.9 PIR Score",
+   "favourite": "Fenerbahce",
+   "fav_pct": 83,
+   "home": "ULK",
+   "away": "ASV",
+   "fav_code": "ULK",
+   "date": "17 Nov",
+   "time": "20:00",
+   "score": [
+    90,
+    79
+   ],
+   "player_proj": {
+    "Talen Horton Tucker": 14.1,
+    "Wade Baldwin Iv": 13.8,
+    "Shavon Shields": 13.2,
+    "Will Clyburn": 10.1,
+    "Marcus Bingham": 8.7,
+    "Patty Mills": 12.1,
+    "Tyty Washington Jr": 11.9,
+    "Hugo Besson": 10.6,
+    "Both Gach": 9.3,
+    "Jae Crowder": 8.9
+   },
+   "url": "https://basketballstats.eu/en/game/fenerbahce-asvel-12/"
+  },
+  "maccabi-tel-aviv-olympiacos-12": {
+   "summary": "Preview Maccabi Tel Aviv vs Olympiacos: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 19:00 (Athens time) at Spyros Kyprianou Athletic Center. Maccabi Tel Aviv: 17th place, 3-8, form LLLLW. Olympiacos: 3rd place, 8-3, form LWWLW. Our model projects 85-92. Favourite: Olympiacos, with a 78% chance to win. Players to watch: Yam Madar (11.5 points, 14.1 PIR) and Sasha Vezenkov (19.2 points, 23.2 PIR). Absences: Maccabi Tel Aviv: Iffe Lundberg · Olympiacos: Tyler Dorsey and Jean Montero. Matchup Center TEL Maccabi Tel Aviv 22% 78% Olympiacos OLY Projected score 85-92 Margin -7.1 Projected total 176.9 Pace 74.4 Model confidence High Olympiacos 78% win probability | Projected score: 85-92 | Projected total: 177 | Pace: 74.4 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 13 Nov, 08:44 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Yam Madar (14.1 PIR) – Jean Montero (20.3 PIR) Forward: Bonzie Colson (11.7 PIR) – Sasha Vezenkov (23.2 PIR) Center: Daniel Theis (11.1 PIR) – Nikola Milutinov (9.1 PIR) Top scorer vs defense: Jimmy Clark Iii (13.5 pts) vs a defense with DRtg 107.9 (5) · Sasha Vezenkov (19.2 pts) vs a defense with DRtg 122.6 (19) Rebounding battle: Maccabi Tel Aviv OREB% 31.3% vs DREB% 65.8% Olympiacos · Olympiacos OREB% 37.3% vs DREB% 67.9% Maccabi Tel Aviv Pace battle: Maccabi Tel Aviv 75.1 – Olympiacos 73.2 · projected 74.4 Bench (PIR from reserves per game): Maccabi Tel Aviv 46.4 – Olympiacos 55.8 Coaches: Oded Kattash – Georgios Bartzokas Players to watch Maccabi Tel Aviv Olympiacos Projected PIR Yam Madar 14.1 PIR Bonzie Colson 11.7 PIR Daniel Theis 11.1 PIR O'Shae J Brissett 11.1 PIR Jaylen Hoard 9.7 PIR Sasha Vezenkov 23.2 PIR Mbaye Ndiaye 10.6 PIR Evan Fournier 9.3 PIR Nikola",
+   "favourite": "Olympiacos",
+   "fav_pct": 78,
+   "home": "TEL",
+   "away": "OLY",
+   "fav_code": "OLY",
+   "date": "17 Nov",
+   "time": "19:00",
+   "score": [
+    85,
+    92
+   ],
+   "player_proj": {
+    "Yam Madar": 14.1,
+    "Bonzie Colson": 11.7,
+    "Daniel Theis": 11.1,
+    "O'Shae J Brissett": 11.1,
+    "Jaylen Hoard": 9.7,
+    "Sasha Vezenkov": 23.2,
+    "Mbaye Ndiaye": 10.6,
+    "Evan Fournier": 9.3,
+    "Nikola Milutinov": 9.1,
+    "Tyson Ward": 9.1
+   },
+   "url": "https://basketballstats.eu/en/game/maccabi-tel-aviv-olympiacos-12/"
+  },
+  "olimpia-milano-crvena-zvezda-12": {
+   "summary": "Preview Olimpia Milano vs Crvena Zvezda: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 21:30 (Athens time) at Unipol Forum. Olimpia Milano: 19th place, 1-10, form LLLLL. Crvena Zvezda: 6th place, 7-4, form LWWWL. Our model projects 83-89. Favourite: Crvena Zvezda, with a 72% chance to win. Players to watch: Moses Wright (11.5 points, 13.1 PIR) and Jordan Nwora (14.7 points, 15.4 PIR). Absences: Olimpia Milano: Devin Booker · Crvena Zvezda: Johnathan Motley and Stefan Miljenovic. Matchup Center MIL Olimpia Milano 28% 72% Crvena Zvezda RED Projected score 83-89 Margin -5.4 Projected total 172.0 Pace 74.3 Model confidence High Crvena Zvezda 72% win probability | Projected score: 83-89 | Projected total: 172 | Pace: 74.3 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 13 Nov, 08:44 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Devon Hall (10.5 PIR) – Chris Jones (13.3 PIR) Forward: Alec Peters (9.3 PIR) – Jordan Nwora (15.4 PIR) Center: Moses Wright (13.1 PIR) – Christian Koloko (10.8 PIR) Top scorer vs defense: Moses Wright (11.5 pts) vs a defense with DRtg 104.6 (1) · Jordan Nwora (14.7 pts) vs a defense with DRtg 120.6 (17) Rebounding battle: Olimpia Milano OREB% 32.6% vs DREB% 65.3% Crvena Zvezda · Crvena Zvezda OREB% 33.9% vs DREB% 64.9% Olimpia Milano Pace battle: Olimpia Milano 74.0 – Crvena Zvezda 73.5 · projected 74.3 Bench (PIR from reserves per game): Olimpia Milano 47.0 – Crvena Zvezda 33.3 Coaches: Luca Banchi – Ibon Navarro Players to watch Olimpia Milano Crvena Zvezda Projected PIR Moses Wright 13.1 PIR Devon Hall 10.5 PIR Rj Cole 9.5 PIR Alec Peters 9.3 PIR Leandro Bolmaro 8.1 PIR Jordan Nwora 15.4 PIR Chris Jones 13.3 PIR Chima Moneke 12.5 PIR Christian Koloko 10.8 PIR Semi",
+   "favourite": "Crvena Zvezda",
+   "fav_pct": 72,
+   "home": "MIL",
+   "away": "RED",
+   "fav_code": "RED",
+   "date": "17 Nov",
+   "time": "21:30",
+   "score": [
+    83,
+    89
+   ],
+   "player_proj": {
+    "Moses Wright": 13.1,
+    "Devon Hall": 10.5,
+    "Rj Cole": 9.5,
+    "Alec Peters": 9.3,
+    "Leandro Bolmaro": 8.1,
+    "Jordan Nwora": 15.4,
+    "Chris Jones": 13.3,
+    "Chima Moneke": 12.5,
+    "Christian Koloko": 10.8,
+    "Semi Ojeleye": 9.5
+   },
+   "url": "https://basketballstats.eu/en/game/olimpia-milano-crvena-zvezda-12/"
+  },
+  "partizan-valencia-12": {
+   "summary": "Preview Partizan vs Valencia Basket: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 21:45 (Athens time) at Belgrade Arena. Partizan: 11th place, 6-5, form WLLWW. Valencia Basket: 2nd place, 8-3, form WWLWW. Our model projects 84-86. Favourite: Valencia Basket, with a 59% chance to win. Players to watch: Tonye Jekiri (11.1 points, 15.3 PIR) and Tj Shorts (16.6 points, 20.6 PIR). Absences: Partizan: Derek Willis, Kyle Allman and Kevarrius Hayes · Valencia Basket: Nathan Reuvers and Nikola Mirotic. Matchup Center PAR Partizan 41% 59% Valencia Basket PAM Projected score 84-86 Margin -2.1 Projected total 169.5 Pace 74.1 Model confidence Medium Valencia Basket 59% win probability | Projected score: 84-86 | Projected total: 170 | Pace: 74.1 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 13 Nov, 08:44 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Carlik Jones (15.2 PIR) – Tj Shorts (20.6 PIR) Forward: Lamar Stevens (12.1 PIR) – Nikola Mirotic (15.0 PIR) Center: Tonye Jekiri (15.3 PIR) – Neal Sako (10.3 PIR) Top scorer vs defense: Carlik Jones (13.8 pts) vs a defense with DRtg 114.2 (8) · Tj Shorts (16.6 pts) vs a defense with DRtg 106.7 (4) Rebounding battle: Partizan OREB% 28.7% vs DREB% 70.6% Valencia Basket · Valencia Basket OREB% 35.4% vs DREB% 69.6% Partizan Pace battle: Partizan 72.0 – Valencia Basket 77.0 · projected 74.1 Bench (PIR from reserves per game): Partizan 34.7 – Valencia Basket 65.6 Coaches: Joan Penarroya – Xavier Albert Players to watch Partizan Valencia Basket Projected PIR Tonye Jekiri 15.3 PIR Carlik Jones 15.2 PIR Lamar Stevens 12.1 PIR Nikola Tanaskovic 9.7 PIR Robert Franks 9.5 PIR Tj Shorts 20.6 PIR Armoni Brooks 13.4 PIR Kameron Taylor 11.4 PIR Neal Sako 10.3 PIR Jasiel Rivero 8.1 P",
+   "favourite": "Valencia Basket",
+   "fav_pct": 59,
+   "home": "PAR",
+   "away": "PAM",
+   "fav_code": "PAM",
+   "date": "17 Nov",
+   "time": "21:45",
+   "score": [
+    84,
+    86
+   ],
+   "player_proj": {
+    "Tonye Jekiri": 15.3,
+    "Carlik Jones": 15.2,
+    "Lamar Stevens": 12.1,
+    "Nikola Tanaskovic": 9.7,
+    "Robert Franks": 9.5,
+    "Tj Shorts": 20.6,
+    "Armoni Brooks": 13.4,
+    "Kameron Taylor": 11.4,
+    "Neal Sako": 10.3,
+    "Jasiel Rivero": 8.1
+   },
+   "url": "https://basketballstats.eu/en/game/partizan-valencia-12/"
+  },
+  "virtus-bologna-panathinaikos-12": {
+   "summary": "Preview Virtus Bologna vs Panathinaikos: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 22:00 (Athens time) at Paladozza. Virtus Bologna: 15th place, 4-6, form WLLLL. Panathinaikos: 1st place, 8-2, form LWWLW. Our model projects 84-90. Favourite: Panathinaikos, with a 70% chance to win. Players to watch: Aliou Diarra (12.3 points, 19.2 PIR) and Mathias Lessort (12.6 points, 20.8 PIR). Absences: Virtus Bologna: Tommaso Baldasso · Panathinaikos: Nikolaos Rogkavopoulos and Eleftherios Mantzoukas. Matchup Center VIR Virtus Bologna 30% 70% Panathinaikos PAN Projected score 84-90 Margin -5.2 Projected total 173.9 Pace 75.3 Model confidence High Panathinaikos 70% win probability | Projected score: 84-90 | Projected total: 174 | Pace: 75.3 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 13 Nov, 08:44 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Wendell Moore (11.8 PIR) – Kendrick Nunn (18.8 PIR) Forward: Derrick Alston Jr. (9.0 PIR) – Nikolaos Rogkavopoulos (10.3 PIR) Center: Aliou Diarra (19.2 PIR) – Mathias Lessort (20.8 PIR) Top scorer vs defense: Derrick Alston Jr. (12.8 pts) vs a defense with DRtg 105.7 (2) · Kendrick Nunn (20.3 pts) vs a defense with DRtg 117.2 (11) Rebounding battle: Virtus Bologna OREB% 36.2% vs DREB% 67.6% Panathinaikos · Panathinaikos OREB% 36.9% vs DREB% 64.1% Virtus Bologna Pace battle: Virtus Bologna 76.4 – Panathinaikos 73.5 · projected 75.3 Bench (PIR from reserves per game): Virtus Bologna 49.1 – Panathinaikos 101.4 Coaches: Alex Mumbru – Zeljko Obradovic Players to watch Virtus Bologna Panathinaikos Projected PIR Aliou Diarra 12.9 PIR Wendell Moore 10.9 PIR Marcus Carr 9.8 PIR Trent Frazier 8.5 PIR Derrick Alston Jr. 7.6 PIR Mathias Lessort 19.3 PIR Sylvain Francisco 15.0 PI",
+   "favourite": "Panathinaikos",
+   "fav_pct": 70,
+   "home": "VIR",
+   "away": "PAN",
+   "fav_code": "PAN",
+   "date": "17 Nov",
+   "time": "22:00",
+   "score": [
+    84,
+    90
+   ],
+   "player_proj": {
+    "Aliou Diarra": 12.9,
+    "Wendell Moore": 10.9,
+    "Marcus Carr": 9.8,
+    "Trent Frazier": 8.5,
+    "Derrick Alston Jr.": 7.6,
+    "Mathias Lessort": 19.3,
+    "Sylvain Francisco": 15.0,
+    "Kendrick Nunn": 14.9,
+    "Nigel Hayes-Davis": 10.8,
+    "Guerschon Yabusele": 10.3
+   },
+   "url": "https://basketballstats.eu/en/game/virtus-bologna-panathinaikos-12/"
+  },
+  "zalgiris-bayern-munich-12": {
+   "summary": "Preview Zalgiris vs Bayern Munich: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 20:00 (Athens time) at Zalgirio Arena. Zalgiris: 8th place, 7-4, form WWWWW. Bayern Munich: 18th place, 3-8, form LLLWL. Our model projects 92-82. Favourite: Zalgiris, with a 80% chance to win. Players to watch: Jonas Valanciunas (12.5 points, 21.2 PIR) and Johannes Thiemann (8.9 points, 11.7 PIR). Absences: Zalgiris: Nigel Williams-Goss and Maodo Lo · Bayern Munich: Tobias Jensen. Matchup Center ZAL Zalgiris 80% 20% Bayern Munich MUN Projected score 92-82 Margin +10.8 Projected total 174.0 Pace 75.5 Model confidence High Zalgiris 80% win probability | Projected score: 92-82 | Projected total: 174 | Pace: 75.5 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 13 Nov, 08:44 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Carsen Edwards (11.3 PIR) – Duane Washington (9.9 PIR) Forward: Azuolas Tubelis (16.1 PIR) – Vladimir Lucic (9.9 PIR) Center: Jonas Valanciunas (21.2 PIR) – Johannes Thiemann (11.7 PIR) Top scorer vs defense: Carsen Edwards (15.2 pts) vs a defense with DRtg 125.6 (20) · Duane Washington (15.0 pts) vs a defense with DRtg 109.4 (6) Rebounding battle: Zalgiris OREB% 36.1% vs DREB% 66.5% Bayern Munich · Bayern Munich OREB% 32.1% vs DREB% 73.3% Zalgiris Pace battle: Zalgiris 75.3 – Bayern Munich 75.8 · projected 75.5 Bench (PIR from reserves per game): Zalgiris 39.9 – Bayern Munich 56.1 Coaches: Tomas Masiulis – Anton Gavel Players to watch Zalgiris Bayern Munich Projected PIR Jonas Valanciunas 21.2 PIR Azuolas Tubelis 16.1 PIR Carsen Edwards 11.3 PIR Sterling Brown 10.5 PIR Marius Grigonis 8.6 PIR Johannes Thiemann 11.7 PIR Austin Wiley 10.5 PIR Vladimir Lucic 9.9 PIR Dua",
+   "favourite": "Zalgiris",
+   "fav_pct": 80,
+   "home": "ZAL",
+   "away": "MUN",
+   "fav_code": "ZAL",
+   "date": "17 Nov",
+   "time": "20:00",
+   "score": [
+    92,
+    82
+   ],
+   "player_proj": {
+    "Jonas Valanciunas": 21.2,
+    "Azuolas Tubelis": 16.1,
+    "Carsen Edwards": 11.3,
+    "Sterling Brown": 10.5,
+    "Marius Grigonis": 8.6,
+    "Johannes Thiemann": 11.7,
+    "Austin Wiley": 10.5,
+    "Vladimir Lucic": 9.9,
+    "Duane Washington": 9.9,
+    "Oscar Da Silva": 9.4
+   },
+   "url": "https://basketballstats.eu/en/game/zalgiris-bayern-munich-12/"
+  }
+ },
+ "roster": [
+  {
+   "slug": "mouhamed-faye",
+   "name": "Mouhamed Faye",
+   "team_name": "Paris Basketball",
+   "t": "PRS",
+   "pos": "Center",
+   "price": 7.8,
+   "since_start": 0.8,
+   "owned": 3.0,
+   "pir_ge_price": "7/10",
+   "proj_price_change": null,
+   "price_official": 7.8,
+   "score": null,
+   "fresh": false,
+   "round_log": [],
+   "season_summary": "11 games, 6.4 points, 3.9 rebounds, 1.1 assists and 10.1 PIR per game"
+  },
+  {
+   "slug": "dejan-davidovac",
+   "name": "Dejan Davidovac",
+   "team_name": "Crvena Zvezda",
+   "t": "RED",
+   "pos": "Forward",
+   "price": 4.7,
+   "since_start": 0.3,
+   "owned": 11.0,
+   "pir_ge_price": "6/8",
+   "proj_price_change": null,
+   "c": "007960",
+   "n": "DAVIDOVAC, DEJAN",
+   "price_src": "official",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 5.8,
+   "l10": 6.1,
+   "pirpm": 0.485,
+   "pm": 12.4,
+   "pp0": 5.2,
+   "pm0": 12.4,
+   "ppm": 0.414,
+   "pp": 5.2,
+   "p10": -1.7,
+   "p50": 4.5,
+   "p90": 14,
+   "conf": 67,
+   "opp": "MAD",
+   "home": 0,
+   "day": 1,
+   "pwin": 0.42,
+   "f": [
+    [
+     "opponent",
+     -0.2
+    ],
+    [
+     "home",
+     0
+    ],
+    [
+     "rest",
+     0
+    ],
+    [
+     "form",
+     0
+    ]
+   ],
+   "nxe": [
+    [
+     14,
+     "VIR",
+     1,
+     5.6,
+     2,
+     0
+    ],
+    [
+     15,
+     "ULK",
+     0,
+     5,
+     3,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     11,
+     "MAD",
+     0,
+     5.2,
+     2,
+     0
+    ],
+    [
+     12,
+     "MIL",
+     0,
+     5.5,
+     4,
+     0
+    ],
+    [
+     13,
+     "BAR",
+     0,
+     5.3,
+     5,
+     0
+    ]
+   ],
+   "p3": 16,
+   "p5": 26.6,
+   "start": 0.2,
+   "odrtg": 112.6,
+   "gpace": 78.2,
+   "mcv": 0.155,
+   "hcap": 12.3,
+   "hhit": 0,
+   "hneg": 0.43,
+   "rest": 6,
+   "b2b": 0,
+   "ph": [
+    [
+     7,
+     9.8
+    ],
+    [
+     8,
+     8.1
+    ],
+    [
+     9,
+     7.9
+    ],
+    [
+     10,
+     8.3
+    ],
+    [
+     11,
+     4.7
+    ]
+   ],
+   "l3": 7,
+   "m3": 12.2,
+   "m10": 12.7,
+   "gp": 7,
+   "vpc": 1.106,
+   "small": 0,
+   "sig": "buy",
+   "sigScore": 43,
+   "sigConf": "high",
+   "why": [
+    "value+",
+    "price+",
+    "schedule-"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 34
+    },
+    {
+     "k": "price",
+     "v": 14
+    },
+    {
+     "k": "schedule",
+     "v": -4
+    }
+   ],
+   "grade": "A",
+   "posPct": 93,
+   "posRank": 7,
+   "rank": 18,
+   "vpc3": 3.404,
+   "fvpc": 1.153,
+   "fvpc3": 3.566,
+   "dn": "Dejan Davidovac",
+   "s": "dejan-davidovac",
+   "_seen": "2026-11-12",
+   "price_d3": 0.3,
+   "price_d5": 0.3,
+   "price_d10": 0.3,
+   "price_official": 4.7,
+   "score": 9.21,
+   "fresh": false,
+   "round_log": [],
+   "season_summary": "8 games, 3.5 points, 2.4 rebounds, 1.1 assists and 6.4 PIR per game"
+  },
+  {
+   "slug": "sasha-vezenkov",
+   "name": "Sasha Vezenkov",
+   "team_name": "Olympiacos",
+   "t": "OLY",
+   "pos": "Forward",
+   "price": 18.9,
+   "since_start": 1.9,
+   "owned": 46.0,
+   "pir_ge_price": "8/10",
+   "proj_price_change": null,
+   "c": "003469",
+   "n": "VEZENKOV, SASHA",
+   "price_src": "official",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 25.4,
+   "l10": 22.9,
+   "pirpm": 0.838,
+   "pm": 30.3,
+   "pp0": 23.4,
+   "pm0": 29.2,
+   "ppm": 0.799,
+   "pp": 24.3,
+   "p10": 14.2,
+   "p50": 24,
+   "p90": 36,
+   "conf": 77,
+   "opp": "DUB",
+   "home": 1,
+   "day": 1,
+   "pwin": 0.634,
+   "f": [
+    [
+     "home",
+     0.8
+    ],
+    [
+     "role",
+     0.3
+    ],
+    [
+     "rest",
+     -0.2
+    ],
+    [
+     "opponent",
+     0
+    ]
+   ],
+   "vx": {
+    "k": "ww",
+    "n": 4,
+    "m": 30.9,
+    "a": [
+     "009849",
+     "010042"
+    ],
+    "dm": 1.1,
+    "dp": 0.9,
+    "absent_names": [
+     "Tyler Dorsey",
+     "Jean Montero"
+    ]
+   },
+   "nxe": [
+    [
+     14,
+     "HTA",
+     1,
+     23.5,
+     5,
+     0
+    ],
+    [
+     15,
+     "ASV",
+     1,
+     23.4,
+     2,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     11,
+     "DUB",
+     1,
+     24.3,
+     5,
+     0
+    ],
+    [
+     12,
+     "TEL",
+     0,
+     23.3,
+     4,
+     0
+    ],
+    [
+     13,
+     "MAD",
+     1,
+     23.5,
+     3,
+     0
+    ]
+   ],
+   "p3": 71.1,
+   "p5": 118,
+   "start": 1,
+   "odrtg": 113.4,
+   "gpace": 75.4,
+   "mcv": 0.178,
+   "hcap": 45.8,
+   "hhit": 0.7,
+   "hneg": 0,
+   "rest": 6,
+   "b2b": 0,
+   "ph": [
+    [
+     4,
+     23.8
+    ],
+    [
+     5,
+     20.1
+    ],
+    [
+     6,
+     19.3
+    ],
+    [
+     7,
+     21.5
+    ],
+    [
+     8,
+     21.1
+    ],
+    [
+     9,
+     20.8
+    ],
+    [
+     10,
+     20.7
+    ],
+    [
+     11,
+     18.9
+    ]
+   ],
+   "l3": 23,
+   "m3": 29.9,
+   "m10": 27.3,
+   "gp": 10,
+   "vpc": 1.286,
+   "small": 0,
+   "sig": "buy",
+   "sigScore": 45,
+   "sigConf": "high",
+   "why": [
+    "value+",
+    "price+",
+    "schedule-"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 38
+    },
+    {
+     "k": "price",
+     "v": 9
+    },
+    {
+     "k": "schedule",
+     "v": -6
+    }
+   ],
+   "grade": "A+",
+   "posPct": 98,
+   "posRank": 3,
+   "rank": 6,
+   "vpc3": 3.762,
+   "fvpc": 1.367,
+   "fvpc3": 3.967,
+   "dn": "Sasha Vezenkov",
+   "s": "sasha-vezenkov",
+   "_seen": "2026-11-12",
+   "price_d3": 0.5,
+   "price_d5": 1.4,
+   "price_d10": 1.9,
+   "price_official": 18.9,
+   "score": 39.75,
+   "fresh": false,
+   "round_log": [],
+   "season_summary": "11 games, 19.2 points, 5.8 rebounds, 1.0 assists and 23.2 PIR per game"
+  },
+  {
+   "slug": "andres-feliz",
+   "name": "Andres Feliz",
+   "team_name": "Real Madrid",
+   "t": "MAD",
+   "pos": "Guard",
+   "price": 9.3,
+   "since_start": 3.1,
+   "owned": 36.0,
+   "pir_ge_price": "7/10",
+   "proj_price_change": null,
+   "c": "011247",
+   "n": "FELIZ, ANDRES",
+   "price_src": "official",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 18,
+   "l10": 14.4,
+   "pirpm": 0.665,
+   "pm": 27.5,
+   "pp0": 13.6,
+   "pm0": 23.3,
+   "ppm": 0.583,
+   "pp": 16.1,
+   "p10": 6.4,
+   "p50": 15.8,
+   "p90": 27.8,
+   "conf": 72,
+   "opp": "RED",
+   "home": 1,
+   "day": 1,
+   "pwin": 0.58,
+   "f": [
+    [
+     "home",
+     1.8
+    ],
+    [
+     "role",
+     0.8
+    ],
+    [
+     "opponent",
+     -0.2
+    ],
+    [
+     "rest",
+     -0.1
+    ]
+   ],
+   "vx": {
+    "k": "ww",
+    "n": 1,
+    "m": 33.9,
+    "a": [
+     "009005",
+     "012613",
+     "005928",
+     "007027"
+    ],
+    "dm": 4.2,
+    "dp": 2.5,
+    "absent_names": [
+     "Gabriel Deck",
+     "Mikael Jantunen",
+     "Facundo Campazzo",
+     "Theo Maledon"
+    ]
+   },
+   "nxe": [
+    [
+     14,
+     "ZAL",
+     1,
+     13.8,
+     3,
+     0
+    ],
+    [
+     15,
+     "BAR",
+     1,
+     13.9,
+     2,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     11,
+     "RED",
+     1,
+     16.1,
+     3,
+     0
+    ],
+    [
+     12,
+     "BES",
+     0,
+     12.8,
+     4,
+     0
+    ],
+    [
+     13,
+     "OLY",
+     0,
+     12,
+     2,
+     1
+    ]
+   ],
+   "p3": 40.9,
+   "p5": 68.6,
+   "start": 1,
+   "odrtg": 98.8,
+   "gpace": 78.2,
+   "mcv": 0.242,
+   "hcap": 28.8,
+   "hhit": 0.3,
+   "hneg": 0.1,
+   "rest": 8,
+   "b2b": 1,
+   "ph": [
+    [
+     4,
+     8.8
+    ],
+    [
+     5,
+     9.6
+    ],
+    [
+     6,
+     12.1
+    ],
+    [
+     7,
+     14.5
+    ],
+    [
+     8,
+     14.8
+    ],
+    [
+     9,
+     14.3
+    ],
+    [
+     10,
+     13
+    ],
+    [
+     11,
+     9.3
+    ]
+   ],
+   "l3": 14.3,
+   "m3": 26,
+   "m10": 21.6,
+   "gp": 10,
+   "vpc": 1.731,
+   "small": 0,
+   "sig": "buy",
+   "sigScore": 62,
+   "sigConf": "high",
+   "why": [
+    "value+",
+    "price+",
+    "minutes+"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 40
+    },
+    {
+     "k": "price",
+     "v": 15
+    },
+    {
+     "k": "minutes",
+     "v": 7
+    }
+   ],
+   "grade": "A+",
+   "posPct": 100,
+   "posRank": 1,
+   "rank": 3,
+   "vpc3": 4.398,
+   "fvpc": 1.832,
+   "fvpc3": 4.632,
+   "dn": "Andres Feliz",
+   "s": "andres-feliz",
+   "_seen": "2026-11-12",
+   "price_d3": 0.7,
+   "price_d5": 2.1,
+   "price_d10": 3.1,
+   "price_official": 9.3,
+   "score": 21.2,
+   "fresh": false,
+   "round_log": [],
+   "season_summary": "11 games, 13.4 points, 3.1 rebounds, 4.1 assists and 14.8 PIR per game"
+  },
+  {
+   "slug": "yam-madar",
+   "name": "Yam Madar",
+   "team_name": "Maccabi Tel Aviv",
+   "t": "TEL",
+   "pos": "Guard",
+   "price": 10.5,
+   "since_start": 1.7,
+   "owned": 9.0,
+   "pir_ge_price": "7/10",
+   "proj_price_change": null,
+   "c": "011052",
+   "n": "MADAR, YAM",
+   "price_src": "official",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 13,
+   "l10": 14.4,
+   "pirpm": 0.647,
+   "pm": 22.1,
+   "pp0": 13.1,
+   "pm0": 21.2,
+   "ppm": 0.617,
+   "pp": 13.7,
+   "p10": 4.4,
+   "p50": 13.4,
+   "p90": 25.3,
+   "conf": 72,
+   "opp": "HTA",
+   "home": 1,
+   "day": 1,
+   "pwin": 0.366,
+   "f": [
+    [
+     "home",
+     1.1
+    ],
+    [
+     "role",
+     0.5
+    ],
+    [
+     "opponent",
+     0
+    ],
+    [
+     "rest",
+     0
+    ]
+   ],
+   "vx": {
+    "k": "ww",
+    "n": 4,
+    "m": 22.6,
+    "a": [
+     "010781"
+    ],
+    "dm": 0.9,
+    "dp": 0.6,
+    "absent_names": [
+     "Iffe Lundberg"
+    ]
+   },
+   "nxe": [
+    [
+     14,
+     "MUN",
+     0,
+     12.8,
+     3,
+     0
+    ],
+    [
+     15,
+     "BAS",
+     0,
+     12.7,
+     3,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     11,
+     "HTA",
+     1,
+     13.7,
+     4,
+     0
+    ],
+    [
+     12,
+     "OLY",
+     1,
+     13,
+     2,
+     0
+    ],
+    [
+     13,
+     "DUB",
+     1,
+     13.1,
+     4,
+     1
+    ]
+   ],
+   "p3": 39.8,
+   "p5": 65.3,
+   "start": 0.8,
+   "odrtg": 113.1,
+   "gpace": 77.1,
+   "mcv": 0.184,
+   "hcap": 28.8,
+   "hhit": 0.2,
+   "hneg": 0.2,
+   "rest": 6,
+   "b2b": 1,
+   "ph": [
+    [
+     4,
+     10.5
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     6,
+     15.9
+    ],
+    [
+     7,
+     15.8
+    ],
+    [
+     8,
+     16
+    ],
+    [
+     9,
+     14.7
+    ],
+    [
+     10,
+     14.3
+    ],
+    [
+     11,
+     10.5
+    ]
+   ],
+   "l3": 10.7,
+   "m3": 21.5,
+   "m10": 22.3,
+   "gp": 10,
+   "vpc": 1.305,
+   "small": 0,
+   "sig": "buy",
+   "sigScore": 60,
+   "sigConf": "high",
+   "why": [
+    "value+",
+    "price+",
+    "dip+"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 38
+    },
+    {
+     "k": "price",
+     "v": 15
+    },
+    {
+     "k": "dip",
+     "v": 10
+    }
+   ],
+   "grade": "A+",
+   "posPct": 98,
+   "posRank": 3,
+   "rank": 7,
+   "vpc3": 3.79,
+   "fvpc": 1.353,
+   "fvpc3": 3.963,
+   "dn": "Yam Madar",
+   "s": "yam-madar",
+   "_seen": "2026-11-12",
+   "price_d3": -0.1,
+   "price_d5": 0.4,
+   "price_d10": 1.7,
+   "price_official": 10.5,
+   "score": 22.17,
+   "fresh": false,
+   "round_log": [],
+   "season_summary": "11 games, 11.5 points, 2.2 rebounds, 4.8 assists and 14.1 PIR per game"
+  },
+  {
+   "slug": "stefan-joksimovic",
+   "name": "Stefan Joksimovic",
+   "team_name": "Baskonia",
+   "t": "BAS",
+   "pos": "Forward",
+   "price": 4.2,
+   "since_start": 0.2,
+   "owned": 15.0,
+   "pir_ge_price": "3/10",
+   "proj_price_change": null,
+   "price_official": 4.2,
+   "score": null,
+   "fresh": false,
+   "round_log": [],
+   "season_summary": "10 games, 5.1 points, 1.5 rebounds, 1.8 assists and 3.2 PIR per game"
+  },
+  {
+   "slug": "aliou-diarra",
+   "name": "Aliou Diarra",
+   "team_name": "Virtus Bologna",
+   "t": "VIR",
+   "pos": "Center",
+   "price": 10.8,
+   "since_start": 4.3,
+   "owned": 38.0,
+   "pir_ge_price": "9/10",
+   "proj_price_change": 0.1,
+   "c": "014108",
+   "n": "DIARRA, ALIOU",
+   "price_src": "official",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 18.8,
+   "l10": 19.2,
+   "pirpm": 1.001,
+   "pm": 16.7,
+   "pp0": 12.9,
+   "pm0": 16.7,
+   "ppm": 0.773,
+   "pp": 12.9,
+   "p10": 3.2,
+   "p50": 12.4,
+   "p90": 24.1,
+   "conf": 72,
+   "opp": "IST",
+   "home": 0,
+   "day": 2,
+   "pwin": 0.375,
+   "f": [
+    [
+     "opponent",
+     -0.1
+    ],
+    [
+     "home",
+     0
+    ],
+    [
+     "rest",
+     0
+    ],
+    [
+     "form",
+     0
+    ]
+   ],
+   "nxe": [
+    [
+     14,
+     "RED",
+     0,
+     12.4,
+     2,
+     0
+    ],
+    [
+     15,
+     "PAR",
+     1,
+     13.4,
+     2,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     11,
+     "IST",
+     0,
+     12.9,
+     4,
+     0
+    ],
+    [
+     12,
+     "PAN",
+     1,
+     13.5,
+     2,
+     0
+    ],
+    [
+     13,
+     "PAM",
+     0,
+     13,
+     3,
+     1
+    ]
+   ],
+   "p3": 39.4,
+   "p5": 65.2,
+   "start": 0,
+   "odrtg": 111.5,
+   "gpace": 78.2,
+   "mcv": 0.16,
+   "hcap": 38.4,
+   "hhit": 0.4,
+   "hneg": 0,
+   "rest": 7,
+   "b2b": 1,
+   "ph": [
+    [
+     4,
+     19.5
+    ],
+    [
+     5,
+     19
+    ],
+    [
+     6,
+     18.7
+    ],
+    [
+     7,
+     18.1
+    ],
+    [
+     8,
+     18.5
+    ],
+    [
+     9,
+     18.2
+    ],
+    [
+     10,
+     15.6
+    ],
+    [
+     11,
+     10.8
+    ]
+   ],
+   "l3": 19,
+   "m3": 17.7,
+   "m10": 19.2,
+   "gp": 10,
+   "vpc": 1.194,
+   "small": 0,
+   "sig": "buy",
+   "sigScore": 53,
+   "sigConf": "high",
+   "why": [
+    "value+",
+    "price+",
+    "minutes-"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 40
+    },
+    {
+     "k": "price",
+     "v": 15
+    },
+    {
+     "k": "minutes",
+     "v": -2
+    }
+   ],
+   "grade": "A+",
+   "posPct": 100,
+   "posRank": 1,
+   "rank": 3,
+   "vpc3": 3.648,
+   "fvpc": 1.239,
+   "fvpc3": 3.816,
+   "dn": "Aliou Diarra",
+   "s": "aliou-diarra",
+   "_seen": "2026-11-13",
+   "price_d3": 1.0,
+   "price_d5": 1.8,
+   "price_d10": 4.3,
+   "price_official": 10.8,
+   "score": 22.6,
+   "fresh": true,
+   "round_log": [
+    [
+     1,
+     10,
+     21.7
+    ],
+    [
+     2,
+     22,
+     23.2
+    ],
+    [
+     3,
+     30,
+     25.1
+    ],
+    [
+     4,
+     18,
+     17.1
+    ],
+    [
+     5,
+     18,
+     17.8
+    ],
+    [
+     6,
+     15,
+     14.7
+    ],
+    [
+     7,
+     22,
+     18.9
+    ],
+    [
+     8,
+     16,
+     16.9
+    ],
+    [
+     9,
+     12,
+     17.2
+    ],
+    [
+     10,
+     29,
+     19.1
+    ]
+   ]
+  },
+  {
+   "slug": "kendrick-nunn",
+   "name": "Kendrick Nunn",
+   "team_name": "Panathinaikos",
+   "t": "PAN",
+   "pos": "Guard",
+   "price": 14.8,
+   "since_start": 0.2,
+   "owned": 15.0,
+   "pir_ge_price": "2/4",
+   "proj_price_change": 0.0,
+   "c": "012774",
+   "n": "NUNN, KENDRICK",
+   "price_src": "official",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 18.8,
+   "l10": 18.8,
+   "pirpm": 0.812,
+   "pm": 22.8,
+   "pp0": 14.5,
+   "pm0": 22.2,
+   "ppm": 0.654,
+   "pp": 14.9,
+   "p10": 4.9,
+   "p50": 16,
+   "p90": 27.1,
+   "conf": 48,
+   "opp": "BAR",
+   "home": 1,
+   "day": 2,
+   "pwin": 0.718,
+   "f": [
+    [
+     "home",
+     0.4
+    ],
+    [
+     "opponent",
+     0.2
+    ],
+    [
+     "role",
+     0.2
+    ],
+    [
+     "rest",
+     -0.1
+    ]
+   ],
+   "vx": {
+    "k": "ww",
+    "n": 4,
+    "m": 23.1,
+    "a": [
+     "011085"
+    ],
+    "dm": 0.6,
+    "dp": 0.4,
+    "absent_names": [
+     "Nikolaos Rogkavopoulos"
+    ]
+   },
+   "nxe": [
+    [
+     14,
+     "PAM",
+     0,
+     13.8,
+     1,
+     0
+    ],
+    [
+     15,
+     "BES",
+     0,
+     14,
+     4,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     11,
+     "BAR",
+     1,
+     14.9,
+     2,
+     0
+    ],
+    [
+     12,
+     "VIR",
+     0,
+     13.8,
+     3,
+     0
+    ],
+    [
+     13,
+     "ZAL",
+     0,
+     13.5,
+     2,
+     1
+    ]
+   ],
+   "p3": 42.2,
+   "p5": 70,
+   "start": 0.25,
+   "odrtg": 116.4,
+   "gpace": 75.7,
+   "mcv": 0.102,
+   "hcap": 37.5,
+   "hhit": 0.5,
+   "hneg": 0,
+   "rest": 9,
+   "b2b": 1,
+   "ph": [
+    [
+     10,
+     15
+    ],
+    [
+     11,
+     14.8
+    ]
+   ],
+   "l3": 22.3,
+   "m3": 24.2,
+   "m10": 23.1,
+   "gp": 4,
+   "vpc": 1.007,
+   "small": 0,
+   "sig": "hold",
+   "sigScore": 20,
+   "sigConf": "medium",
+   "why": [
+    "value+",
+    "schedule+",
+    "minutes+"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 14
+    },
+    {
+     "k": "schedule",
+     "v": 4
+    },
+    {
+     "k": "minutes",
+     "v": 2
+    }
+   ],
+   "grade": "B",
+   "posPct": 68,
+   "posRank": 13,
+   "rank": 28,
+   "vpc3": 2.851,
+   "fvpc": 1.079,
+   "fvpc3": 3.016,
+   "dn": "Kendrick Nunn",
+   "s": "kendrick-nunn",
+   "_seen": "2026-11-13",
+   "price_d3": 1.1,
+   "price_d5": 0.7,
+   "price_d10": 0.2,
+   "price_official": 14.8,
+   "score": 23.25,
+   "fresh": true,
+   "round_log": [
+    [
+     7,
+     8,
+     19.6
+    ],
+    [
+     8,
+     26,
+     22.8
+    ],
+    [
+     9,
+     10,
+     26.2
+    ],
+    [
+     10,
+     31,
+     23.7
+    ]
+   ]
+  },
+  {
+   "slug": "collin-malcolm",
+   "name": "Collin Malcolm",
+   "team_name": "Anadolu Efes",
+   "t": "IST",
+   "pos": "Forward",
+   "price": 9.8,
+   "since_start": 1.7,
+   "owned": 19.0,
+   "pir_ge_price": "7/10",
+   "proj_price_change": 0.2,
+   "c": "012609",
+   "n": "MALCOLM, COLLIN",
+   "price_src": "official",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 17,
+   "l10": 13,
+   "pirpm": 0.503,
+   "pm": 29.3,
+   "pp0": 13.5,
+   "pm0": 29.3,
+   "ppm": 0.462,
+   "pp": 13.5,
+   "p10": 4.4,
+   "p50": 13.5,
+   "p90": 23.5,
+   "conf": 75,
+   "opp": "VIR",
+   "home": 1,
+   "day": 2,
+   "pwin": 0.625,
+   "f": [
+    [
+     "home",
+     0.9
+    ],
+    [
+     "role",
+     0.6
+    ],
+    [
+     "rest",
+     -0.1
+    ],
+    [
+     "opponent",
+     0
+    ]
+   ],
+   "nxe": [
+    [
+     14,
+     "BAS",
+     0,
+     12.4,
+     5,
+     0
+    ],
+    [
+     15,
+     "PAM",
+     1,
+     13.5,
+     1,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     11,
+     "VIR",
+     1,
+     13.5,
+     1,
+     0
+    ],
+    [
+     12,
+     "DUB",
+     0,
+     12.5,
+     5,
+     0
+    ],
+    [
+     13,
+     "ASV",
+     1,
+     14.4,
+     2,
+     0
+    ]
+   ],
+   "p3": 40.4,
+   "p5": 66.3,
+   "start": 1,
+   "odrtg": 114.5,
+   "gpace": 78.2,
+   "mcv": 0.265,
+   "hcap": 26,
+   "hhit": 0.2,
+   "hneg": 0.2,
+   "rest": 8,
+   "b2b": 0,
+   "ph": [
+    [
+     4,
+     9.2
+    ],
+    [
+     5,
+     8.9
+    ],
+    [
+     6,
+     10.8
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     12
+    ],
+    [
+     9,
+     12.2
+    ],
+    [
+     10,
+     13.5
+    ],
+    [
+     11,
+     9.8
+    ]
+   ],
+   "l3": 18.3,
+   "m3": 29.8,
+   "m10": 25.8,
+   "gp": 10,
+   "vpc": 1.378,
+   "small": 0,
+   "sig": "buy",
+   "sigScore": 41,
+   "sigConf": "high",
+   "why": [
+    "value+",
+    "dip-",
+    "price+"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 40
+    },
+    {
+     "k": "dip",
+     "v": -16
+    },
+    {
+     "k": "price",
+     "v": 9
+    }
+   ],
+   "grade": "A+",
+   "posPct": 100,
+   "posRank": 1,
+   "rank": 1,
+   "vpc3": 4.122,
+   "fvpc": 1.464,
+   "fvpc3": 4.346,
+   "dn": "Collin Malcolm",
+   "s": "collin-malcolm",
+   "_seen": "2026-11-13",
+   "price_d3": 1.0,
+   "price_d5": 1.6,
+   "price_d10": 1.7,
+   "price_official": 9.8,
+   "score": 22.58,
+   "fresh": true,
+   "round_log": [
+    [
+     1,
+     9,
+     17.4
+    ],
+    [
+     2,
+     2,
+     15.8
+    ],
+    [
+     3,
+     10,
+     23.9
+    ],
+    [
+     4,
+     5,
+     16.4
+    ],
+    [
+     5,
+     19,
+     28.8
+    ],
+    [
+     6,
+     19,
+     36.0
+    ],
+    [
+     7,
+     11,
+     30.9
+    ],
+    [
+     8,
+     13,
+     25.9
+    ],
+    [
+     9,
+     21,
+     31.4
+    ],
+    [
+     10,
+     21,
+     31.9
+    ]
+   ]
+  },
+  {
+   "slug": "dario-brizuela",
+   "name": "Dario Brizuela",
+   "team_name": "Barcelona",
+   "t": "BAR",
+   "pos": "Guard",
+   "price": 6.3,
+   "since_start": -0.1,
+   "owned": 6.0,
+   "pir_ge_price": "4/9",
+   "proj_price_change": 0.0,
+   "c": "009992",
+   "n": "BRIZUELA, DARIO",
+   "price_src": "official",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 7,
+   "l10": 5.8,
+   "pirpm": 0.311,
+   "pm": 16.9,
+   "pp0": 5.9,
+   "pm0": 16.3,
+   "ppm": 0.361,
+   "pp": 6.1,
+   "p10": -1.3,
+   "p50": 5.7,
+   "p90": 17.3,
+   "conf": 70,
+   "opp": "PAN",
+   "home": 0,
+   "day": 2,
+   "pwin": 0.282,
+   "f": [
+    [
+     "role",
+     0.6
+    ],
+    [
+     "opponent",
+     -0.3
+    ],
+    [
+     "home",
+     0
+    ],
+    [
+     "rest",
+     0
+    ]
+   ],
+   "vx": {
+    "k": "vac",
+    "a": [
+     "009862"
+    ],
+    "dm": 0.6,
+    "dp": 0.2,
+    "absent_names": [
+     "Kevin Punter"
+    ]
+   },
+   "nxe": [
+    [
+     14,
+     "ULK",
+     1,
+     6.2,
+     2,
+     0
+    ],
+    [
+     15,
+     "MAD",
+     0,
+     6.1,
+     2,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     11,
+     "PAN",
+     0,
+     6.1,
+     3,
+     0
+    ],
+    [
+     12,
+     "PRS",
+     1,
+     6.2,
+     1,
+     0
+    ],
+    [
+     13,
+     "RED",
+     1,
+     6.2,
+     3,
+     0
+    ]
+   ],
+   "p3": 18.5,
+   "p5": 30.8,
+   "start": 0,
+   "odrtg": 104.7,
+   "gpace": 75.7,
+   "mcv": 0.146,
+   "hcap": 11.6,
+   "hhit": 0,
+   "hneg": 0.44,
+   "rest": 8,
+   "b2b": 0,
+   "ph": [
+    [
+     4,
+     7.5
+    ],
+    [
+     5,
+     7.2
+    ],
+    [
+     6,
+     6.4
+    ],
+    [
+     8,
+     7.1
+    ],
+    [
+     9,
+     6.2
+    ],
+    [
+     10,
+     7.8
+    ],
+    [
+     11,
+     6.3
+    ]
+   ],
+   "l3": 9,
+   "m3": 17.3,
+   "m10": 18.6,
+   "gp": 9,
+   "vpc": 0.968,
+   "small": 0,
+   "sig": "hold",
+   "sigScore": 4,
+   "sigConf": "high",
+   "why": [
+    "dip-",
+    "value+",
+    "schedule+"
+   ],
+   "factors": [
+    {
+     "k": "dip",
+     "v": -20
+    },
+    {
+     "k": "value",
+     "v": 19
+    },
+    {
+     "k": "schedule",
+     "v": 4
+    }
+   ],
+   "grade": "B+",
+   "posPct": 74,
+   "posRank": 11,
+   "rank": 23,
+   "vpc3": 2.937,
+   "fvpc": 0.996,
+   "fvpc3": 3.062,
+   "dn": "Dario Brizuela",
+   "s": "dario-brizuela",
+   "_seen": "2026-11-13",
+   "price_d3": 0.5,
+   "price_d5": 0.5,
+   "price_d10": -0.1,
+   "price_official": 6.3,
+   "score": 10.54,
+   "fresh": true,
+   "round_log": [
+    [
+     1,
+     16,
+     19.4
+    ],
+    [
+     2,
+     -8,
+     17.6
+    ],
+    [
+     3,
+     6,
+     17.0
+    ],
+    [
+     4,
+     3,
+     21.4
+    ],
+    [
+     5,
+     -1,
+     19.2
+    ],
+    [
+     6,
+     9,
+     20.7
+    ],
+    [
+     8,
+     -4,
+     12.1
+    ],
+    [
+     9,
+     12,
+     21.2
+    ],
+    [
+     10,
+     19,
+     18.6
+    ]
+   ]
+  }
+ ]
+}
