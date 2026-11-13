@@ -179,6 +179,11 @@ did the injury reads hold up? Own your misses in one line, and adjust if the sam
 happening. Don't flip-flop on a recommendation without new evidence.
 
 ## Output: `reports/<YYYY-MM-DD>.json`, then `python3 render.py <date>`
+**Write the JSON in sections, never in one giant write.** One huge write can stall the run. First
+write a small skeleton (date, round, budget, window, bottom_line, current_fix, empty lists), then add
+each part with its own edit or small Python step: variation A, B, C, then alerts, rumours, players,
+watchlist, review. Validate with `python3 -m json.tool` after the last step. Print a one-line progress
+note after each section, so a stall shows where it happened.
 You write **decisions and reasoning only**, as JSON. `render.py` looks up every number shown
 next to a player (opponent, turn/day, projection, price, form), computes the projected
 fantasy points of each variation and validates the budget, positions and clubs. If the rendered
