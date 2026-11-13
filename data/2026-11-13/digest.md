@@ -14,7 +14,8 @@ Cost 103.3 · bank 0.5 · coach PAR · captain Sasha Vezenkov · clubs {'PRS': 1
 ### Mouhamed Faye — Paris Basketball · Center · 7.8 cr · owned 3.0%
 - Status: **?** · site signal None () · grade None · data fresh today: False
 - Form PIR L3/L5/L10: None/None/None · minutes L3 None vs L10 None · PIR/min None · starts 0%
-- Round log (round, PIR, min): 11 games, 6.4 points, 3.9 rebounds, 1.1 assists and 10.1 PIR per game
+- Season: 11 games, 10.1 PIR per game, 16.4 min
+- Last 5 games: R7 vs PAM L 93-104: 14 PIR, 19.0 min, 7p 5r 1a (start) · R8 @ DUB W 99-93: 18 PIR, 19.2 min, 10p 5r 3a (bench) · R9 @ TEL W 99-94: 9 PIR, 22.2 min, 8p 3r 1a (start) · R10 @ IST W 95-90: 3 PIR, 11.5 min, 7p 0r 0a (start) · R11 vs ULK W 111-109: 19 PIR, 20.2 min, 10p 5r 0a (start)
 - Price Δ last 3/5/10 rounds: None/None/None · since start 0.8 · projected change after round None · PIR≥price 7/10
 - Schedule: no projection
 - Window score (site proj, weighted): None · P10–P90 this round None–None · win prob None
@@ -23,7 +24,8 @@ Cost 103.3 · bank 0.5 · coach PAR · captain Sasha Vezenkov · clubs {'PRS': 1
 ### Dejan Davidovac — Crvena Zvezda · Forward · 4.7 cr · owned 11.0%
 - Status: **playing** · site signal buy (value+, price+, schedule-) · grade A · data fresh today: False
 - Form PIR L3/L5/L10: 7/5.8/6.1 · minutes L3 12.2 vs L10 12.7 · PIR/min 0.485 · starts 20%
-- Round log (round, PIR, min): 8 games, 3.5 points, 2.4 rebounds, 1.1 assists and 6.4 PIR per game
+- Season: 8 games, 6.4 PIR per game, 13.0 min
+- Last 5 games: R7 @ PAR L 82-85: -1 PIR, 10.4 min, 1p 0r 0a (start) · R8 vs TEL W 100-78: 4 PIR, 12.9 min, 2p 1r 0a (bench) · R9 vs MUN W 103-73: 12 PIR, 12.1 min, 5p 3r 4a (bench) · R10 @ OLY W 62-57: 5 PIR, 11.6 min, 5p 2r 0a (bench) · R11 @ MAD L 84-105: 8 PIR, 15.3 min, 5p 2r 1a (bench)
 - Price Δ last 3/5/10 rounds: 0.3/0.3/0.3 · since start 0.3 · projected change after round None · PIR≥price 6/8
 - Schedule: R12 @MIL 5.5 (diff 4/5) | R13 @BAR 5.3 (diff 5/5)
 - Window score (site proj, weighted): 9.21 · P10–P90 this round -1.7–14 · win prob 0.42
@@ -32,7 +34,8 @@ Cost 103.3 · bank 0.5 · coach PAR · captain Sasha Vezenkov · clubs {'PRS': 1
 ### Sasha Vezenkov — Olympiacos · Forward · 18.9 cr · owned 46.0%
 - Status: **playing** · site signal buy (value+, price+, schedule-) · grade A+ · data fresh today: False
 - Form PIR L3/L5/L10: 23/25.4/22.9 · minutes L3 29.9 vs L10 27.3 · PIR/min 0.838 · starts 100%
-- Round log (round, PIR, min): 11 games, 19.2 points, 5.8 rebounds, 1.0 assists and 23.2 PIR per game
+- Season: 11 games, 23.2 PIR per game, 26.8 min
+- Last 5 games: R7 vs ULK L 61-64: 20 PIR, 33.9 min, 17p 10r 2a (start) · R8 @ BES W 81-73: 19 PIR, 24.0 min, 16p 5r 2a (start) · R9 vs MIL W 84-78: 22 PIR, 31.9 min, 23p 4r 1a (start) · R10 vs RED L 57-62: 28 PIR, 33.8 min, 27p 6r 1a (start) · R11 vs DUB W 101-72: 26 PIR, 20.9 min, 20p 4r 1a (start)
 - Price Δ last 3/5/10 rounds: 0.5/1.4/1.9 · since start 1.9 · projected change after round None · PIR≥price 8/10
 - Schedule: R12 @TEL 23.3 (diff 4/5) | R13 vsMAD 23.5 (diff 3/5)
 - Window score (site proj, weighted): 39.75 · P10–P90 this round 14.2–36 · win prob 0.634
@@ -42,7 +45,8 @@ Cost 103.3 · bank 0.5 · coach PAR · captain Sasha Vezenkov · clubs {'PRS': 1
 ### Andres Feliz — Real Madrid · Guard · 9.3 cr · owned 36.0%
 - Status: **playing** · site signal buy (value+, price+, minutes+) · grade A+ · data fresh today: False
 - Form PIR L3/L5/L10: 14.3/18/14.4 · minutes L3 26 vs L10 21.6 · PIR/min 0.665 · starts 100%
-- Round log (round, PIR, min): 11 games, 13.4 points, 3.1 rebounds, 4.1 assists and 14.8 PIR per game
+- Season: 11 games, 14.8 PIR per game, 21.6 min
+- Last 5 games: R7 @ TEL W 113-99: 17 PIR, 21.2 min, 18p 2r 4a (start) · R8 @ BAS W 104-86: 9 PIR, 21.9 min, 12p 1r 3a (start) · R9 vs ULK W 95-76: 6 PIR, 22.1 min, 8p 2r 1a (start) · R10 vs PAN L 112-115: 28 PIR, 33.9 min, 27p 2r 6a (start) · R11 vs RED W 105-84: 19 PIR, 21.0 min, 11p 4r 7a (start)
 - Price Δ last 3/5/10 rounds: 0.7/2.1/3.1 · since start 3.1 · projected change after round None · PIR≥price 7/10
 - Schedule: R12 @BES 12.8 (diff 4/5) | R13 @OLY 12 (diff 2/5, B2B)
 - Window score (site proj, weighted): 21.2 · P10–P90 this round 6.4–27.8 · win prob 0.58
@@ -52,7 +56,8 @@ Cost 103.3 · bank 0.5 · coach PAR · captain Sasha Vezenkov · clubs {'PRS': 1
 ### Yam Madar — Maccabi Tel Aviv · Guard · 10.5 cr · owned 9.0%
 - Status: **playing** · site signal buy (value+, price+, dip+) · grade A+ · data fresh today: False
 - Form PIR L3/L5/L10: 10.7/13/14.4 · minutes L3 21.5 vs L10 22.3 · PIR/min 0.647 · starts 80%
-- Round log (round, PIR, min): 11 games, 11.5 points, 2.2 rebounds, 4.8 assists and 14.1 PIR per game
+- Season: 11 games, 14.1 PIR per game, 21.3 min
+- Last 5 games: R7 vs MAD L 99-113: 18 PIR, 26.1 min, 14p 4r 5a (start) · R8 @ RED L 78-100: 2 PIR, 15.8 min, 7p 1r 1a (start) · R9 vs PRS L 94-99: 17 PIR, 27.2 min, 13p 2r 9a (start) · R10 @ PAR L 67-88: 13 PIR, 21.4 min, 10p 4r 4a (bench) · R11 vs HTA W 80-73: 11 PIR, 11.6 min, 10p 1r 7a (start)
 - Price Δ last 3/5/10 rounds: -0.1/0.4/1.7 · since start 1.7 · projected change after round None · PIR≥price 7/10
 - Schedule: R12 vsOLY 13 (diff 2/5) | R13 vsDUB 13.1 (diff 4/5, B2B)
 - Window score (site proj, weighted): 22.17 · P10–P90 this round 4.4–25.3 · win prob 0.366
@@ -62,7 +67,8 @@ Cost 103.3 · bank 0.5 · coach PAR · captain Sasha Vezenkov · clubs {'PRS': 1
 ### Stefan Joksimovic — Baskonia · Forward · 4.2 cr · owned 15.0%
 - Status: **?** · site signal None () · grade None · data fresh today: False
 - Form PIR L3/L5/L10: None/None/None · minutes L3 None vs L10 None · PIR/min None · starts 0%
-- Round log (round, PIR, min): 10 games, 5.1 points, 1.5 rebounds, 1.8 assists and 3.2 PIR per game
+- Season: 10 games, 3.2 PIR per game, 13.2 min
+- Last 5 games: R7 @ PAN L 79-85: 12 PIR, 19.3 min, 13p 0r 3a (bench) · R8 vs MAD L 86-104: 10 PIR, 24.6 min, 12p 4r 3a (start) · R9 @ ASV L 79-94: 1 PIR, 19.2 min, 9p 1r 1a (start) · R10 @ ULK L 65-84: 2 PIR, 21.9 min, 7p 4r 1a (start) · R11 @ PAR L 66-80: 2 PIR, 10.7 min, 2p 1r 2a (start)
 - Price Δ last 3/5/10 rounds: None/None/None · since start 0.2 · projected change after round None · PIR≥price 3/10
 - Schedule: no projection
 - Window score (site proj, weighted): None · P10–P90 this round None–None · win prob None
@@ -71,7 +77,8 @@ Cost 103.3 · bank 0.5 · coach PAR · captain Sasha Vezenkov · clubs {'PRS': 1
 ### Aliou Diarra — Virtus Bologna · Center · 10.8 cr · owned 38.0%
 - Status: **playing** · site signal buy (value+, price+, minutes-) · grade A+ · data fresh today: True
 - Form PIR L3/L5/L10: 19/18.8/19.2 · minutes L3 17.7 vs L10 19.2 · PIR/min 1.001 · starts 0%
-- Round log (round, PIR, min): [(1, 10, 21.7), (2, 22, 23.2), (3, 30, 25.1), (4, 18, 17.1), (5, 18, 17.8), (6, 15, 14.7), (7, 22, 18.9), (8, 16, 16.9), (9, 12, 17.2), (10, 29, 19.1)]
+- Season: 10 games, 19.2 PIR per game, 19.2 min
+- Last 5 games: R6 vs BAS W 86-78: 15 PIR, 14.7 min, 16p 2r 0a (bench) · R7 @ HTA L 81-90: 22 PIR, 18.9 min, 12p 7r 0a (bench) · R8 vs ZAL L 74-91: 16 PIR, 16.9 min, 13p 6r 0a (bench) · R9 vs BES L 101-103: 12 PIR, 17.2 min, 8p 7r 1a (bench) · R10 vs DUB L 75-93: 29 PIR, 19.1 min, 19p 7r 3a (bench)
 - Price Δ last 3/5/10 rounds: 1.0/1.8/4.3 · since start 4.3 · projected change after round 0.1 · PIR≥price 9/10
 - Schedule: R12 vsPAN 13.5 (diff 2/5) | R13 @PAM 13 (diff 3/5, B2B)
 - Window score (site proj, weighted): 22.6 · P10–P90 this round 3.2–24.1 · win prob 0.375
@@ -80,7 +87,8 @@ Cost 103.3 · bank 0.5 · coach PAR · captain Sasha Vezenkov · clubs {'PRS': 1
 ### Kendrick Nunn — Panathinaikos · Guard · 14.8 cr · owned 15.0%
 - Status: **playing** · site signal hold (value+, schedule+, minutes+) · grade B · data fresh today: True
 - Form PIR L3/L5/L10: 22.3/18.8/18.8 · minutes L3 24.2 vs L10 23.1 · PIR/min 0.812 · starts 25%
-- Round log (round, PIR, min): [(7, 8, 19.6), (8, 26, 22.8), (9, 10, 26.2), (10, 31, 23.7)]
+- Season: 4 games, 18.8 PIR per game, 23.1 min
+- Last 5 games: R7 vs BAS W 85-79: 8 PIR, 19.6 min, 11p 1r 5a (bench) · R8 vs MIL W 80-75: 26 PIR, 22.8 min, 20p 2r 6a (bench) · R9 @ IST L 68-83: 10 PIR, 26.2 min, 17p 3r 1a (start) · R10 @ MAD W 115-112: 31 PIR, 23.7 min, 33p 1r 1a (bench)
 - Price Δ last 3/5/10 rounds: 1.1/0.7/0.2 · since start 0.2 · projected change after round 0.0 · PIR≥price 2/4
 - Schedule: R12 @VIR 13.8 (diff 3/5) | R13 @ZAL 13.5 (diff 2/5, B2B)
 - Window score (site proj, weighted): 23.25 · P10–P90 this round 4.9–27.1 · win prob 0.718
@@ -90,7 +98,8 @@ Cost 103.3 · bank 0.5 · coach PAR · captain Sasha Vezenkov · clubs {'PRS': 1
 ### Collin Malcolm — Anadolu Efes · Forward · 9.8 cr · owned 19.0%
 - Status: **playing** · site signal buy (value+, dip-, price+) · grade A+ · data fresh today: True
 - Form PIR L3/L5/L10: 18.3/17/13 · minutes L3 29.8 vs L10 25.8 · PIR/min 0.503 · starts 100%
-- Round log (round, PIR, min): [(1, 9, 17.4), (2, 2, 15.8), (3, 10, 23.9), (4, 5, 16.4), (5, 19, 28.8), (6, 19, 36.0), (7, 11, 30.9), (8, 13, 25.9), (9, 21, 31.4), (10, 21, 31.9)]
+- Season: 10 games, 13.0 PIR per game, 25.8 min
+- Last 5 games: R6 @ ZAL W 85-70: 19 PIR, 36.0 min, 15p 6r 1a (start) · R7 vs BES W 89-80: 11 PIR, 30.9 min, 15p 5r 2a (start) · R8 @ HTA L 88-118: 13 PIR, 25.9 min, 9p 6r 4a (start) · R9 vs PAN W 83-68: 21 PIR, 31.4 min, 15p 6r 1a (start) · R10 vs PRS L 90-95: 21 PIR, 31.9 min, 20p 6r 2a (start)
 - Price Δ last 3/5/10 rounds: 1.0/1.6/1.7 · since start 1.7 · projected change after round 0.2 · PIR≥price 7/10
 - Schedule: R12 @DUB 12.5 (diff 5/5) | R13 vsASV 14.4 (diff 2/5)
 - Window score (site proj, weighted): 22.58 · P10–P90 this round 4.4–23.5 · win prob 0.625
@@ -99,7 +108,8 @@ Cost 103.3 · bank 0.5 · coach PAR · captain Sasha Vezenkov · clubs {'PRS': 1
 ### Dario Brizuela — Barcelona · Guard · 6.3 cr · owned 6.0%
 - Status: **playing** · site signal hold (dip-, value+, schedule+) · grade B+ · data fresh today: True
 - Form PIR L3/L5/L10: 9/7/5.8 · minutes L3 17.3 vs L10 18.6 · PIR/min 0.311 · starts 0%
-- Round log (round, PIR, min): [(1, 16, 19.4), (2, -8, 17.6), (3, 6, 17.0), (4, 3, 21.4), (5, -1, 19.2), (6, 9, 20.7), (8, -4, 12.1), (9, 12, 21.2), (10, 19, 18.6)]
+- Season: 9 games, 5.8 PIR per game, 18.6 min
+- Last 5 games: R5 vs TEL W 90-87: -1 PIR, 19.2 min, 1p 3r 4a (bench) · R6 vs OLY L 100-105: 9 PIR, 20.7 min, 13p 1r 1a (bench) · R8 @ MUN W 88-84: -4 PIR, 12.1 min, 1p 0r 1a (bench) · R9 vs PAM W 98-94: 12 PIR, 21.2 min, 15p 2r 3a (bench) · R10 @ HTA W 93-90: 19 PIR, 18.6 min, 22p 1r 1a (bench)
 - Price Δ last 3/5/10 rounds: 0.5/0.5/-0.1 · since start -0.1 · projected change after round 0.0 · PIR≥price 4/9
 - Schedule: R12 vsPRS 6.2 (diff 1/5) | R13 vsRED 6.2 (diff 3/5)
 - Window score (site proj, weighted): 10.54 · P10–P90 this round -1.3–17.3 · win prob 0.282
@@ -264,26 +274,26 @@ https://basketballstats.eu/en/game/zalgiris-bayern-munich-12/
 
 
 ## Coaches (current-round projections)
-- PAM 8cr exp 13.18 · win 0.823 · vs MUN home
-- PAR 6.2cr exp 12.12 · win 0.794 · vs BAS home
-- PAN 10.6cr exp 9.58 · win 0.718 · vs BAR home
-- HTA 7.9cr exp 7.1 · win 0.634 · vs TEL away
-- OLY 9.5cr exp 7.1 · win 0.634 · vs DUB home
-- IST 5.9cr exp 6.79 · win 0.625 · vs VIR home
-- ZAL 7.3cr exp 6.18 · win 0.605 · vs MIL away
-- ASV 4.6cr exp 5.57 · win 0.581 · vs BES home
-- MAD 9.1cr exp 5.47 · win 0.58 · vs RED home
-- ULK 8.6cr exp 4.55 · win 0.546 · vs PRS away
-- PRS 4.5cr exp 1.9 · win 0.454 · vs ULK home
-- RED 7.8cr exp 0.99 · win 0.42 · vs MAD away
-- BES 4.7cr exp 0.89 · win 0.419 · vs ASV away
-- MIL 4.3cr exp 0.29 · win 0.395 · vs ZAL home
-- VIR 4cr exp -0.3 · win 0.375 · vs IST away
-- TEL 4cr exp -0.6 · win 0.366 · vs HTA home
-- DUB 8.5cr exp -0.6 · win 0.366 · vs OLY away
-- BAR 8cr exp -2.98 · win 0.282 · vs PAN away
-- BAS 4cr exp -5.41 · win 0.206 · vs PAR away
-- MUN 4.2cr exp -6.43 · win 0.177 · vs PAM away
+- Xavier Albert (PAM) 8cr exp 13.18 · win 0.823 · vs MUN home
+- Joan Penarroya (PAR) 6.2cr exp 12.12 · win 0.794 · vs BAS home
+- Zeljko Obradovic (PAN) 10.6cr exp 9.58 · win 0.718 · vs BAR home
+- Dimitris Itoudis (HTA) 7.9cr exp 7.1 · win 0.634 · vs TEL away
+- Georgios Bartzokas (OLY) 9.5cr exp 7.1 · win 0.634 · vs DUB home
+- Pablo Laso (IST) 5.9cr exp 6.79 · win 0.625 · vs VIR home
+- Tomas Masiulis (ZAL) 7.3cr exp 6.18 · win 0.605 · vs MIL away
+- Tony Parker (ASV) 4.6cr exp 5.57 · win 0.581 · vs BES home
+- Pedro Martinez (MAD) 9.1cr exp 5.47 · win 0.58 · vs RED home
+- Saras Jasikevicius (ULK) 8.6cr exp 4.55 · win 0.546 · vs PRS away
+- Maxime Lefevre (PRS) 4.5cr exp 1.9 · win 0.454 · vs ULK home
+- Ibon Navarro (RED) 7.8cr exp 0.99 · win 0.42 · vs MAD away
+- Dusan Alimpijevic (BES) 4.7cr exp 0.89 · win 0.419 · vs ASV away
+- Luca Banchi (MIL) 4.3cr exp 0.29 · win 0.395 · vs ZAL home
+- Alex Mumbru (VIR) 4cr exp -0.3 · win 0.375 · vs IST away
+- Oded Kattash (TEL) 4cr exp -0.6 · win 0.366 · vs HTA home
+- Xavi Pascual (DUB) 8.5cr exp -0.6 · win 0.366 · vs OLY away
+- Aleksander Sekulic (BAR) 8cr exp -2.98 · win 0.282 · vs PAN away
+- Velimir Perasovic (BAS) 4cr exp -5.41 · win 0.206 · vs PAR away
+- Anton Gavel (MUN) 4.2cr exp -6.43 · win 0.177 · vs PAM away
 
 ## Domestic-league alerts (ABA only from site; other leagues → research)
 - MOTLEY, JOHNATHAN (RED) dom_absent {"league": "ABA", "date": "2026-11-09", "home": "Crvena zvezda Meridianbet", "away": "Slovan Bratislava", "link": "https://www.aba-liga.com/match/61/26/1/Boxscore/"}

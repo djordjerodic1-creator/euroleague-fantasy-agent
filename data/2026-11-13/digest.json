@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T09:06",
+ "generated": "2026-11-13T10:56",
  "today": "2026-11-13",
  "source_round": 11,
  "rounds_in_progress": [
@@ -567,6 +567,10 @@
     "Allan Dokossi": 10.7,
     "Mouhamed Faye": 10.1
    },
+   "coaches": [
+    "Aleksander Sekulic",
+    "Maxime Lefevre"
+   ],
    "url": "https://basketballstats.eu/en/game/barcelona-paris-12/"
   },
   "baskonia-hapoel-tel-aviv-12": {
@@ -595,6 +599,10 @@
     "Vasilije Micic": 11.6,
     "Antonio Blakeney": 9.9
    },
+   "coaches": [
+    "Velimir Perasovic",
+    "Dimitris Itoudis"
+   ],
    "url": "https://basketballstats.eu/en/game/baskonia-hapoel-tel-aviv-12/"
   },
   "besiktas-real-madrid-12": {
@@ -623,6 +631,10 @@
     "Alberto Abalde": 8.2,
     "Gabriele Procida": 7.6
    },
+   "coaches": [
+    "Dusan Alimpijevic",
+    "Pedro Martinez"
+   ],
    "url": "https://basketballstats.eu/en/game/besiktas-real-madrid-12/"
   },
   "dubai-anadolu-efes-12": {
@@ -651,6 +663,10 @@
     "Jordan Loyd": 10.8,
     "Matthew Strazel": 10.2
    },
+   "coaches": [
+    "Xavi Pascual",
+    "Pablo Laso"
+   ],
    "url": "https://basketballstats.eu/en/game/dubai-anadolu-efes-12/"
   },
   "fenerbahce-asvel-12": {
@@ -679,6 +695,10 @@
     "Both Gach": 9.3,
     "Jae Crowder": 8.9
    },
+   "coaches": [
+    "Saras Jasikevicius",
+    "Tony Parker"
+   ],
    "url": "https://basketballstats.eu/en/game/fenerbahce-asvel-12/"
   },
   "maccabi-tel-aviv-olympiacos-12": {
@@ -707,6 +727,10 @@
     "Nikola Milutinov": 9.1,
     "Tyson Ward": 9.1
    },
+   "coaches": [
+    "Oded Kattash",
+    "Georgios Bartzokas"
+   ],
    "url": "https://basketballstats.eu/en/game/maccabi-tel-aviv-olympiacos-12/"
   },
   "olimpia-milano-crvena-zvezda-12": {
@@ -735,6 +759,10 @@
     "Christian Koloko": 10.8,
     "Semi Ojeleye": 9.5
    },
+   "coaches": [
+    "Luca Banchi",
+    "Ibon Navarro"
+   ],
    "url": "https://basketballstats.eu/en/game/olimpia-milano-crvena-zvezda-12/"
   },
   "partizan-valencia-12": {
@@ -763,6 +791,10 @@
     "Neal Sako": 10.3,
     "Jasiel Rivero": 8.1
    },
+   "coaches": [
+    "Joan Penarroya",
+    "Xavier Albert"
+   ],
    "url": "https://basketballstats.eu/en/game/partizan-valencia-12/"
   },
   "virtus-bologna-panathinaikos-12": {
@@ -791,6 +823,10 @@
     "Nigel Hayes-Davis": 10.8,
     "Guerschon Yabusele": 10.3
    },
+   "coaches": [
+    "Alex Mumbru",
+    "Zeljko Obradovic"
+   ],
    "url": "https://basketballstats.eu/en/game/virtus-bologna-panathinaikos-12/"
   },
   "zalgiris-bayern-munich-12": {
@@ -819,6 +855,10 @@
     "Duane Washington": 9.9,
     "Oscar Da Silva": 9.4
    },
+   "coaches": [
+    "Tomas Masiulis",
+    "Anton Gavel"
+   ],
    "url": "https://basketballstats.eu/en/game/zalgiris-bayern-munich-12/"
   }
  },
@@ -837,8 +877,223 @@
    "price_official": 7.8,
    "score": null,
    "fresh": false,
-   "round_log": [],
-   "season_summary": "11 games, 6.4 points, 3.9 rebounds, 1.1 assists and 10.1 PIR per game"
+   "g5": [
+    [
+     7,
+     14,
+     19.0
+    ],
+    [
+     8,
+     18,
+     19.2
+    ],
+    [
+     9,
+     9,
+     22.2
+    ],
+    [
+     10,
+     3,
+     11.5
+    ],
+    [
+     11,
+     19,
+     20.2
+    ]
+   ],
+   "round_log": [
+    {
+     "rd": 1,
+     "date": "2026-09-24",
+     "opp": "PAN",
+     "home": false,
+     "res": "L 72-91",
+     "start": true,
+     "min": 7.6,
+     "pts": 0,
+     "reb": 2,
+     "ast": 1,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": -15,
+     "pir": -2
+    },
+    {
+     "rd": 2,
+     "date": "2026-09-29",
+     "opp": "PAR",
+     "home": true,
+     "res": "L 79-92",
+     "start": true,
+     "min": 19.6,
+     "pts": 3,
+     "reb": 3,
+     "ast": 1,
+     "stl": 0,
+     "to": 1,
+     "blk": 3,
+     "pm": -6,
+     "pir": 7
+    },
+    {
+     "rd": 3,
+     "date": "2026-10-01",
+     "opp": "ZAL",
+     "home": true,
+     "res": "W 82-78",
+     "start": true,
+     "min": 8.1,
+     "pts": 0,
+     "reb": 2,
+     "ast": 0,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": 3,
+     "pir": -2
+    },
+    {
+     "rd": 4,
+     "date": "2026-10-07",
+     "opp": "ASV",
+     "home": true,
+     "res": "L 96-98",
+     "start": true,
+     "min": 14.2,
+     "pts": 9,
+     "reb": 6,
+     "ast": 0,
+     "stl": 0,
+     "to": 1,
+     "blk": 1,
+     "pm": 3,
+     "pir": 12
+    },
+    {
+     "rd": 5,
+     "date": "2026-10-14",
+     "opp": "VIR",
+     "home": true,
+     "res": "L 94-96",
+     "start": false,
+     "min": 21.2,
+     "pts": 10,
+     "reb": 7,
+     "ast": 3,
+     "stl": 0,
+     "to": 0,
+     "blk": 3,
+     "pm": 21,
+     "pir": 18
+    },
+    {
+     "rd": 6,
+     "date": "2026-10-16",
+     "opp": "RED",
+     "home": false,
+     "res": "L 81-90",
+     "start": true,
+     "min": 17.6,
+     "pts": 6,
+     "reb": 5,
+     "ast": 2,
+     "stl": 0,
+     "to": 1,
+     "blk": 2,
+     "pm": 4,
+     "pir": 15
+    },
+    {
+     "rd": 7,
+     "date": "2026-10-23",
+     "opp": "PAM",
+     "home": true,
+     "res": "L 93-104",
+     "start": true,
+     "min": 19.0,
+     "pts": 7,
+     "reb": 5,
+     "ast": 1,
+     "stl": 0,
+     "to": 0,
+     "blk": 2,
+     "pm": -3,
+     "pir": 14
+    },
+    {
+     "rd": 8,
+     "date": "2026-10-27",
+     "opp": "DUB",
+     "home": false,
+     "res": "W 99-93",
+     "start": false,
+     "min": 19.2,
+     "pts": 10,
+     "reb": 5,
+     "ast": 3,
+     "stl": 1,
+     "to": 0,
+     "blk": 1,
+     "pm": 4,
+     "pir": 18
+    },
+    {
+     "rd": 9,
+     "date": "2026-10-29",
+     "opp": "TEL",
+     "home": false,
+     "res": "W 99-94",
+     "start": true,
+     "min": 22.2,
+     "pts": 8,
+     "reb": 3,
+     "ast": 1,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": 9,
+     "pir": 9
+    },
+    {
+     "rd": 10,
+     "date": "2026-11-05",
+     "opp": "IST",
+     "home": false,
+     "res": "W 95-90",
+     "start": true,
+     "min": 11.5,
+     "pts": 7,
+     "reb": 0,
+     "ast": 0,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": 3,
+     "pir": 3
+    },
+    {
+     "rd": 11,
+     "date": "2026-11-11",
+     "opp": "ULK",
+     "home": true,
+     "res": "W 111-109",
+     "start": true,
+     "min": 20.2,
+     "pts": 10,
+     "reb": 5,
+     "ast": 0,
+     "stl": 3,
+     "to": 1,
+     "blk": 2,
+     "pm": 2,
+     "pir": 19
+    }
+   ],
+   "season_summary": "11 games, 10.1 PIR per game, 16.4 min"
   },
   {
    "slug": "dejan-davidovac",
@@ -1011,8 +1266,172 @@
    "price_official": 4.7,
    "score": 9.21,
    "fresh": false,
-   "round_log": [],
-   "season_summary": "8 games, 3.5 points, 2.4 rebounds, 1.1 assists and 6.4 PIR per game"
+   "g5": [
+    [
+     7,
+     -1,
+     10.4
+    ],
+    [
+     8,
+     4,
+     12.9
+    ],
+    [
+     9,
+     12,
+     12.1
+    ],
+    [
+     10,
+     5,
+     11.6
+    ],
+    [
+     11,
+     8,
+     15.3
+    ]
+   ],
+   "round_log": [
+    {
+     "rd": 4,
+     "date": "2026-10-08",
+     "opp": "DUB",
+     "home": false,
+     "res": "W 77-58",
+     "start": false,
+     "min": 14.9,
+     "pts": 3,
+     "reb": 5,
+     "ast": 0,
+     "stl": 2,
+     "to": 0,
+     "blk": 1,
+     "pm": 20,
+     "pir": 6
+    },
+    {
+     "rd": 5,
+     "date": "2026-10-13",
+     "opp": "ASV",
+     "home": false,
+     "res": "W 84-82",
+     "start": false,
+     "min": 10.8,
+     "pts": 2,
+     "reb": 3,
+     "ast": 2,
+     "stl": 1,
+     "to": 1,
+     "blk": 1,
+     "pm": 4,
+     "pir": 8
+    },
+    {
+     "rd": 6,
+     "date": "2026-10-16",
+     "opp": "PRS",
+     "home": true,
+     "res": "W 90-81",
+     "start": false,
+     "min": 16.1,
+     "pts": 5,
+     "reb": 3,
+     "ast": 2,
+     "stl": 0,
+     "to": 0,
+     "blk": 1,
+     "pm": 5,
+     "pir": 9
+    },
+    {
+     "rd": 7,
+     "date": "2026-10-22",
+     "opp": "PAR",
+     "home": false,
+     "res": "L 82-85",
+     "start": true,
+     "min": 10.4,
+     "pts": 1,
+     "reb": 0,
+     "ast": 0,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": -15,
+     "pir": -1
+    },
+    {
+     "rd": 8,
+     "date": "2026-10-27",
+     "opp": "TEL",
+     "home": true,
+     "res": "W 100-78",
+     "start": false,
+     "min": 12.9,
+     "pts": 2,
+     "reb": 1,
+     "ast": 0,
+     "stl": 1,
+     "to": 0,
+     "blk": 0,
+     "pm": 7,
+     "pir": 4
+    },
+    {
+     "rd": 9,
+     "date": "2026-10-29",
+     "opp": "MUN",
+     "home": true,
+     "res": "W 103-73",
+     "start": false,
+     "min": 12.1,
+     "pts": 5,
+     "reb": 3,
+     "ast": 4,
+     "stl": 1,
+     "to": 0,
+     "blk": 0,
+     "pm": 6,
+     "pir": 12
+    },
+    {
+     "rd": 10,
+     "date": "2026-11-06",
+     "opp": "OLY",
+     "home": false,
+     "res": "W 62-57",
+     "start": false,
+     "min": 11.6,
+     "pts": 5,
+     "reb": 2,
+     "ast": 0,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": -8,
+     "pir": 5
+    },
+    {
+     "rd": 11,
+     "date": "2026-11-12",
+     "opp": "MAD",
+     "home": false,
+     "res": "L 84-105",
+     "start": false,
+     "min": 15.3,
+     "pts": 5,
+     "reb": 2,
+     "ast": 1,
+     "stl": 0,
+     "to": 0,
+     "blk": 1,
+     "pm": -1,
+     "pir": 8
+    }
+   ],
+   "season_summary": "8 games, 6.4 PIR per game, 13.0 min"
   },
   {
    "slug": "sasha-vezenkov",
@@ -1212,8 +1631,223 @@
    "price_official": 18.9,
    "score": 39.75,
    "fresh": false,
-   "round_log": [],
-   "season_summary": "11 games, 19.2 points, 5.8 rebounds, 1.0 assists and 23.2 PIR per game"
+   "g5": [
+    [
+     7,
+     20,
+     33.9
+    ],
+    [
+     8,
+     19,
+     24.0
+    ],
+    [
+     9,
+     22,
+     31.9
+    ],
+    [
+     10,
+     28,
+     33.8
+    ],
+    [
+     11,
+     26,
+     20.9
+    ]
+   ],
+   "round_log": [
+    {
+     "rd": 1,
+     "date": "2026-09-24",
+     "opp": "BAS",
+     "home": false,
+     "res": "W 106-89",
+     "start": true,
+     "min": 19.0,
+     "pts": 22,
+     "reb": 5,
+     "ast": 1,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": 12,
+     "pir": 30
+    },
+    {
+     "rd": 2,
+     "date": "2026-09-29",
+     "opp": "ZAL",
+     "home": false,
+     "res": "W 93-91",
+     "start": true,
+     "min": 24.6,
+     "pts": 18,
+     "reb": 8,
+     "ast": 1,
+     "stl": 1,
+     "to": 1,
+     "blk": 0,
+     "pm": 1,
+     "pir": 26
+    },
+    {
+     "rd": 3,
+     "date": "2026-10-01",
+     "opp": "VIR",
+     "home": false,
+     "res": "L 94-96",
+     "start": true,
+     "min": 26.6,
+     "pts": 20,
+     "reb": 6,
+     "ast": 0,
+     "stl": 1,
+     "to": 0,
+     "blk": 0,
+     "pm": -12,
+     "pir": 23
+    },
+    {
+     "rd": 4,
+     "date": "2026-10-09",
+     "opp": "IST",
+     "home": true,
+     "res": "W 89-66",
+     "start": true,
+     "min": 21.7,
+     "pts": 9,
+     "reb": 3,
+     "ast": 0,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": 17,
+     "pir": 7
+    },
+    {
+     "rd": 5,
+     "date": "2026-10-13",
+     "opp": "PAM",
+     "home": false,
+     "res": "W 102-97",
+     "start": true,
+     "min": 27.2,
+     "pts": 14,
+     "reb": 7,
+     "ast": 1,
+     "stl": 1,
+     "to": 1,
+     "blk": 0,
+     "pm": 3,
+     "pir": 16
+    },
+    {
+     "rd": 6,
+     "date": "2026-10-16",
+     "opp": "BAR",
+     "home": false,
+     "res": "W 105-100",
+     "start": true,
+     "min": 30.7,
+     "pts": 25,
+     "reb": 6,
+     "ast": 1,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": 2,
+     "pir": 38
+    },
+    {
+     "rd": 7,
+     "date": "2026-10-23",
+     "opp": "ULK",
+     "home": true,
+     "res": "L 61-64",
+     "start": true,
+     "min": 33.9,
+     "pts": 17,
+     "reb": 10,
+     "ast": 2,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": -2,
+     "pir": 20
+    },
+    {
+     "rd": 8,
+     "date": "2026-10-28",
+     "opp": "BES",
+     "home": false,
+     "res": "W 81-73",
+     "start": true,
+     "min": 24.0,
+     "pts": 16,
+     "reb": 5,
+     "ast": 2,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": 10,
+     "pir": 19
+    },
+    {
+     "rd": 9,
+     "date": "2026-10-30",
+     "opp": "MIL",
+     "home": true,
+     "res": "W 84-78",
+     "start": true,
+     "min": 31.9,
+     "pts": 23,
+     "reb": 4,
+     "ast": 1,
+     "stl": 0,
+     "to": 2,
+     "blk": 0,
+     "pm": 9,
+     "pir": 22
+    },
+    {
+     "rd": 10,
+     "date": "2026-11-06",
+     "opp": "RED",
+     "home": true,
+     "res": "L 57-62",
+     "start": true,
+     "min": 33.8,
+     "pts": 27,
+     "reb": 6,
+     "ast": 1,
+     "stl": 3,
+     "to": 2,
+     "blk": 0,
+     "pm": -5,
+     "pir": 28
+    },
+    {
+     "rd": 11,
+     "date": "2026-11-12",
+     "opp": "DUB",
+     "home": true,
+     "res": "W 101-72",
+     "start": true,
+     "min": 20.9,
+     "pts": 20,
+     "reb": 4,
+     "ast": 1,
+     "stl": 1,
+     "to": 0,
+     "blk": 1,
+     "pm": 27,
+     "pir": 26
+    }
+   ],
+   "season_summary": "11 games, 23.2 PIR per game, 26.8 min"
   },
   {
    "slug": "andres-feliz",
@@ -1417,8 +2051,223 @@
    "price_official": 9.3,
    "score": 21.2,
    "fresh": false,
-   "round_log": [],
-   "season_summary": "11 games, 13.4 points, 3.1 rebounds, 4.1 assists and 14.8 PIR per game"
+   "g5": [
+    [
+     7,
+     17,
+     21.2
+    ],
+    [
+     8,
+     9,
+     21.9
+    ],
+    [
+     9,
+     6,
+     22.1
+    ],
+    [
+     10,
+     28,
+     33.9
+    ],
+    [
+     11,
+     19,
+     21.0
+    ]
+   ],
+   "round_log": [
+    {
+     "rd": 1,
+     "date": "2026-09-24",
+     "opp": "DUB",
+     "home": false,
+     "res": "L 77-78",
+     "start": false,
+     "min": 23.4,
+     "pts": 9,
+     "reb": 5,
+     "ast": 4,
+     "stl": 0,
+     "to": 2,
+     "blk": 1,
+     "pm": 3,
+     "pir": 8
+    },
+    {
+     "rd": 2,
+     "date": "2026-09-29",
+     "opp": "IST",
+     "home": false,
+     "res": "L 84-94",
+     "start": false,
+     "min": 18.3,
+     "pts": 10,
+     "reb": 3,
+     "ast": 5,
+     "stl": 1,
+     "to": 2,
+     "blk": 1,
+     "pm": 4,
+     "pir": 15
+    },
+    {
+     "rd": 3,
+     "date": "2026-10-01",
+     "opp": "HTA",
+     "home": false,
+     "res": "L 98-102",
+     "start": false,
+     "min": 12.5,
+     "pts": 2,
+     "reb": 1,
+     "ast": 2,
+     "stl": 0,
+     "to": 2,
+     "blk": 0,
+     "pm": -9,
+     "pir": -4
+    },
+    {
+     "rd": 4,
+     "date": "2026-10-08",
+     "opp": "PAR",
+     "home": true,
+     "res": "W 86-76",
+     "start": false,
+     "min": 18.6,
+     "pts": 9,
+     "reb": 5,
+     "ast": 3,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": -4,
+     "pir": 11
+    },
+    {
+     "rd": 5,
+     "date": "2026-10-13",
+     "opp": "MIL",
+     "home": false,
+     "res": "W 98-89",
+     "start": false,
+     "min": 19.4,
+     "pts": 15,
+     "reb": 5,
+     "ast": 5,
+     "stl": 1,
+     "to": 2,
+     "blk": 1,
+     "pm": 11,
+     "pir": 24
+    },
+    {
+     "rd": 6,
+     "date": "2026-10-15",
+     "opp": "ASV",
+     "home": true,
+     "res": "W 111-92",
+     "start": true,
+     "min": 25.1,
+     "pts": 26,
+     "reb": 4,
+     "ast": 5,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": 16,
+     "pir": 30
+    },
+    {
+     "rd": 7,
+     "date": "2026-10-22",
+     "opp": "TEL",
+     "home": false,
+     "res": "W 113-99",
+     "start": true,
+     "min": 21.2,
+     "pts": 18,
+     "reb": 2,
+     "ast": 4,
+     "stl": 2,
+     "to": 0,
+     "blk": 0,
+     "pm": 9,
+     "pir": 17
+    },
+    {
+     "rd": 8,
+     "date": "2026-10-27",
+     "opp": "BAS",
+     "home": false,
+     "res": "W 104-86",
+     "start": true,
+     "min": 21.9,
+     "pts": 12,
+     "reb": 1,
+     "ast": 3,
+     "stl": 1,
+     "to": 1,
+     "blk": 0,
+     "pm": 13,
+     "pir": 9
+    },
+    {
+     "rd": 9,
+     "date": "2026-10-29",
+     "opp": "ULK",
+     "home": true,
+     "res": "W 95-76",
+     "start": true,
+     "min": 22.1,
+     "pts": 8,
+     "reb": 2,
+     "ast": 1,
+     "stl": 0,
+     "to": 2,
+     "blk": 0,
+     "pm": 21,
+     "pir": 6
+    },
+    {
+     "rd": 10,
+     "date": "2026-11-04",
+     "opp": "PAN",
+     "home": true,
+     "res": "L 112-115",
+     "start": true,
+     "min": 33.9,
+     "pts": 27,
+     "reb": 2,
+     "ast": 6,
+     "stl": 1,
+     "to": 3,
+     "blk": 0,
+     "pm": -6,
+     "pir": 28
+    },
+    {
+     "rd": 11,
+     "date": "2026-11-12",
+     "opp": "RED",
+     "home": true,
+     "res": "W 105-84",
+     "start": true,
+     "min": 21.0,
+     "pts": 11,
+     "reb": 4,
+     "ast": 7,
+     "stl": 0,
+     "to": 3,
+     "blk": 0,
+     "pm": 23,
+     "pir": 19
+    }
+   ],
+   "season_summary": "11 games, 14.8 PIR per game, 21.6 min"
   },
   {
    "slug": "yam-madar",
@@ -1616,8 +2465,223 @@
    "price_official": 10.5,
    "score": 22.17,
    "fresh": false,
-   "round_log": [],
-   "season_summary": "11 games, 11.5 points, 2.2 rebounds, 4.8 assists and 14.1 PIR per game"
+   "g5": [
+    [
+     7,
+     18,
+     26.1
+    ],
+    [
+     8,
+     2,
+     15.8
+    ],
+    [
+     9,
+     17,
+     27.2
+    ],
+    [
+     10,
+     13,
+     21.4
+    ],
+    [
+     11,
+     11,
+     11.6
+    ]
+   ],
+   "round_log": [
+    {
+     "rd": 1,
+     "date": "2026-09-24",
+     "opp": "ASV",
+     "home": false,
+     "res": "L 74-84",
+     "start": true,
+     "min": 26.0,
+     "pts": 13,
+     "reb": 3,
+     "ast": 8,
+     "stl": 0,
+     "to": 4,
+     "blk": 0,
+     "pm": 7,
+     "pir": 16
+    },
+    {
+     "rd": 2,
+     "date": "2026-09-30",
+     "opp": "BES",
+     "home": true,
+     "res": "L 93-109",
+     "start": false,
+     "min": 20.8,
+     "pts": 6,
+     "reb": 1,
+     "ast": 6,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": -15,
+     "pir": 10
+    },
+    {
+     "rd": 3,
+     "date": "2026-10-02",
+     "opp": "PAN",
+     "home": false,
+     "res": "L 67-90",
+     "start": false,
+     "min": 15.7,
+     "pts": 4,
+     "reb": 0,
+     "ast": 4,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": -18,
+     "pir": 0
+    },
+    {
+     "rd": 4,
+     "date": "2026-10-08",
+     "opp": "MIL",
+     "home": true,
+     "res": "W 97-79",
+     "start": true,
+     "min": 23.0,
+     "pts": 17,
+     "reb": 2,
+     "ast": 4,
+     "stl": 2,
+     "to": 0,
+     "blk": 0,
+     "pm": 16,
+     "pir": 22
+    },
+    {
+     "rd": 5,
+     "date": "2026-10-13",
+     "opp": "BAR",
+     "home": false,
+     "res": "L 87-90",
+     "start": true,
+     "min": 26.8,
+     "pts": 22,
+     "reb": 3,
+     "ast": 4,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": -9,
+     "pir": 31
+    },
+    {
+     "rd": 6,
+     "date": "2026-10-15",
+     "opp": "PAM",
+     "home": false,
+     "res": "W 91-88",
+     "start": true,
+     "min": 19.7,
+     "pts": 11,
+     "reb": 3,
+     "ast": 1,
+     "stl": 1,
+     "to": 1,
+     "blk": 0,
+     "pm": -11,
+     "pir": 15
+    },
+    {
+     "rd": 7,
+     "date": "2026-10-22",
+     "opp": "MAD",
+     "home": true,
+     "res": "L 99-113",
+     "start": true,
+     "min": 26.1,
+     "pts": 14,
+     "reb": 4,
+     "ast": 5,
+     "stl": 0,
+     "to": 3,
+     "blk": 0,
+     "pm": -2,
+     "pir": 18
+    },
+    {
+     "rd": 8,
+     "date": "2026-10-27",
+     "opp": "RED",
+     "home": false,
+     "res": "L 78-100",
+     "start": true,
+     "min": 15.8,
+     "pts": 7,
+     "reb": 1,
+     "ast": 1,
+     "stl": 0,
+     "to": 3,
+     "blk": 0,
+     "pm": -22,
+     "pir": 2
+    },
+    {
+     "rd": 9,
+     "date": "2026-10-29",
+     "opp": "PRS",
+     "home": true,
+     "res": "L 94-99",
+     "start": true,
+     "min": 27.2,
+     "pts": 13,
+     "reb": 2,
+     "ast": 9,
+     "stl": 1,
+     "to": 2,
+     "blk": 0,
+     "pm": 9,
+     "pir": 17
+    },
+    {
+     "rd": 10,
+     "date": "2026-11-06",
+     "opp": "PAR",
+     "home": false,
+     "res": "L 67-88",
+     "start": false,
+     "min": 21.4,
+     "pts": 10,
+     "reb": 4,
+     "ast": 4,
+     "stl": 1,
+     "to": 4,
+     "blk": 0,
+     "pm": -1,
+     "pir": 13
+    },
+    {
+     "rd": 11,
+     "date": "2026-11-12",
+     "opp": "HTA",
+     "home": true,
+     "res": "W 80-73",
+     "start": true,
+     "min": 11.6,
+     "pts": 10,
+     "reb": 1,
+     "ast": 7,
+     "stl": 1,
+     "to": 4,
+     "blk": 0,
+     "pm": 4,
+     "pir": 11
+    }
+   ],
+   "season_summary": "11 games, 14.1 PIR per game, 21.3 min"
   },
   {
    "slug": "stefan-joksimovic",
@@ -1633,8 +2697,206 @@
    "price_official": 4.2,
    "score": null,
    "fresh": false,
-   "round_log": [],
-   "season_summary": "10 games, 5.1 points, 1.5 rebounds, 1.8 assists and 3.2 PIR per game"
+   "g5": [
+    [
+     7,
+     12,
+     19.3
+    ],
+    [
+     8,
+     10,
+     24.6
+    ],
+    [
+     9,
+     1,
+     19.2
+    ],
+    [
+     10,
+     2,
+     21.9
+    ],
+    [
+     11,
+     2,
+     10.7
+    ]
+   ],
+   "round_log": [
+    {
+     "rd": 1,
+     "date": "2026-09-24",
+     "opp": "OLY",
+     "home": true,
+     "res": "L 89-106",
+     "start": false,
+     "min": 9.1,
+     "pts": 0,
+     "reb": 0,
+     "ast": 3,
+     "stl": 1,
+     "to": 3,
+     "blk": 0,
+     "pm": -14,
+     "pir": -1
+    },
+    {
+     "rd": 2,
+     "date": "2026-09-29",
+     "opp": "PAM",
+     "home": false,
+     "res": "L 88-111",
+     "start": false,
+     "min": 8.2,
+     "pts": 2,
+     "reb": 3,
+     "ast": 4,
+     "stl": 1,
+     "to": 0,
+     "blk": 1,
+     "pm": 3,
+     "pir": 7
+    },
+    {
+     "rd": 3,
+     "date": "2026-10-02",
+     "opp": "MIL",
+     "home": true,
+     "res": "W 86-76",
+     "start": false,
+     "min": 3.4,
+     "pts": 0,
+     "reb": 0,
+     "ast": 0,
+     "stl": 0,
+     "to": 2,
+     "blk": 0,
+     "pm": 2,
+     "pir": -4
+    },
+    {
+     "rd": 4,
+     "date": "2026-10-09",
+     "opp": "BES",
+     "home": true,
+     "res": "L 84-92",
+     "start": false,
+     "min": 11.4,
+     "pts": 6,
+     "reb": 2,
+     "ast": 0,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": 5,
+     "pir": 4
+    },
+    {
+     "rd": 5,
+     "date": "2026-10-13",
+     "opp": "DUB",
+     "home": true,
+     "res": "L 79-93",
+     "start": false,
+     "min": 4.7,
+     "pts": 0,
+     "reb": 0,
+     "ast": 1,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": -1,
+     "pir": -1
+    },
+    {
+     "rd": 7,
+     "date": "2026-10-22",
+     "opp": "PAN",
+     "home": false,
+     "res": "L 79-85",
+     "start": false,
+     "min": 19.3,
+     "pts": 13,
+     "reb": 0,
+     "ast": 3,
+     "stl": 1,
+     "to": 0,
+     "blk": 0,
+     "pm": 10,
+     "pir": 12
+    },
+    {
+     "rd": 8,
+     "date": "2026-10-27",
+     "opp": "MAD",
+     "home": true,
+     "res": "L 86-104",
+     "start": true,
+     "min": 24.6,
+     "pts": 12,
+     "reb": 4,
+     "ast": 3,
+     "stl": 1,
+     "to": 0,
+     "blk": 0,
+     "pm": -8,
+     "pir": 10
+    },
+    {
+     "rd": 9,
+     "date": "2026-10-30",
+     "opp": "ASV",
+     "home": false,
+     "res": "L 79-94",
+     "start": true,
+     "min": 19.2,
+     "pts": 9,
+     "reb": 1,
+     "ast": 1,
+     "stl": 1,
+     "to": 3,
+     "blk": 0,
+     "pm": -1,
+     "pir": 1
+    },
+    {
+     "rd": 10,
+     "date": "2026-11-05",
+     "opp": "ULK",
+     "home": false,
+     "res": "L 65-84",
+     "start": true,
+     "min": 21.9,
+     "pts": 7,
+     "reb": 4,
+     "ast": 1,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": 5,
+     "pir": 2
+    },
+    {
+     "rd": 11,
+     "date": "2026-11-11",
+     "opp": "PAR",
+     "home": false,
+     "res": "L 66-80",
+     "start": true,
+     "min": 10.7,
+     "pts": 2,
+     "reb": 1,
+     "ast": 2,
+     "stl": 1,
+     "to": 1,
+     "blk": 0,
+     "pm": -5,
+     "pir": 2
+    }
+   ],
+   "season_summary": "10 games, 3.2 PIR per game, 13.2 min"
   },
   {
    "slug": "aliou-diarra",
@@ -1819,32 +3081,7 @@
    "price_official": 10.8,
    "score": 22.6,
    "fresh": true,
-   "round_log": [
-    [
-     1,
-     10,
-     21.7
-    ],
-    [
-     2,
-     22,
-     23.2
-    ],
-    [
-     3,
-     30,
-     25.1
-    ],
-    [
-     4,
-     18,
-     17.1
-    ],
-    [
-     5,
-     18,
-     17.8
-    ],
+   "g5": [
     [
      6,
      15,
@@ -1870,7 +3107,180 @@
      29,
      19.1
     ]
-   ]
+   ],
+   "round_log": [
+    {
+     "rd": 1,
+     "date": "2026-09-25",
+     "opp": "ULK",
+     "home": false,
+     "res": "L 68-78",
+     "start": true,
+     "min": 21.7,
+     "pts": 8,
+     "reb": 1,
+     "ast": 1,
+     "stl": 0,
+     "to": 0,
+     "blk": 1,
+     "pm": 7,
+     "pir": 10
+    },
+    {
+     "rd": 2,
+     "date": "2026-09-29",
+     "opp": "MIL",
+     "home": false,
+     "res": "L 85-87",
+     "start": false,
+     "min": 23.2,
+     "pts": 15,
+     "reb": 7,
+     "ast": 0,
+     "stl": 1,
+     "to": 1,
+     "blk": 4,
+     "pm": -2,
+     "pir": 22
+    },
+    {
+     "rd": 3,
+     "date": "2026-10-01",
+     "opp": "OLY",
+     "home": true,
+     "res": "W 96-94",
+     "start": true,
+     "min": 25.1,
+     "pts": 18,
+     "reb": 14,
+     "ast": 0,
+     "stl": 1,
+     "to": 0,
+     "blk": 1,
+     "pm": 1,
+     "pir": 30
+    },
+    {
+     "rd": 4,
+     "date": "2026-10-08",
+     "opp": "MUN",
+     "home": false,
+     "res": "W 94-87",
+     "start": false,
+     "min": 17.1,
+     "pts": 6,
+     "reb": 8,
+     "ast": 0,
+     "stl": 0,
+     "to": 1,
+     "blk": 3,
+     "pm": 10,
+     "pir": 18
+    },
+    {
+     "rd": 5,
+     "date": "2026-10-14",
+     "opp": "PRS",
+     "home": false,
+     "res": "W 96-94",
+     "start": false,
+     "min": 17.8,
+     "pts": 8,
+     "reb": 11,
+     "ast": 1,
+     "stl": 0,
+     "to": 3,
+     "blk": 4,
+     "pm": 3,
+     "pir": 18
+    },
+    {
+     "rd": 6,
+     "date": "2026-10-16",
+     "opp": "BAS",
+     "home": true,
+     "res": "W 86-78",
+     "start": false,
+     "min": 14.7,
+     "pts": 16,
+     "reb": 2,
+     "ast": 0,
+     "stl": 1,
+     "to": 1,
+     "blk": 0,
+     "pm": 15,
+     "pir": 15
+    },
+    {
+     "rd": 7,
+     "date": "2026-10-21",
+     "opp": "HTA",
+     "home": false,
+     "res": "L 81-90",
+     "start": false,
+     "min": 18.9,
+     "pts": 12,
+     "reb": 7,
+     "ast": 0,
+     "stl": 1,
+     "to": 0,
+     "blk": 4,
+     "pm": -5,
+     "pir": 22
+    },
+    {
+     "rd": 8,
+     "date": "2026-10-28",
+     "opp": "ZAL",
+     "home": true,
+     "res": "L 74-91",
+     "start": false,
+     "min": 16.9,
+     "pts": 13,
+     "reb": 6,
+     "ast": 0,
+     "stl": 0,
+     "to": 1,
+     "blk": 1,
+     "pm": -7,
+     "pir": 16
+    },
+    {
+     "rd": 9,
+     "date": "2026-10-30",
+     "opp": "BES",
+     "home": true,
+     "res": "L 101-103",
+     "start": false,
+     "min": 17.2,
+     "pts": 8,
+     "reb": 7,
+     "ast": 1,
+     "stl": 0,
+     "to": 2,
+     "blk": 1,
+     "pm": -6,
+     "pir": 12
+    },
+    {
+     "rd": 10,
+     "date": "2026-11-06",
+     "opp": "DUB",
+     "home": true,
+     "res": "L 75-93",
+     "start": false,
+     "min": 19.1,
+     "pts": 19,
+     "reb": 7,
+     "ast": 3,
+     "stl": 1,
+     "to": 0,
+     "blk": 1,
+     "pm": 9,
+     "pir": 29
+    }
+   ],
+   "season_summary": "10 games, 19.2 PIR per game, 19.2 min"
   },
   {
    "slug": "kendrick-nunn",
@@ -2044,7 +3454,7 @@
    "price_official": 14.8,
    "score": 23.25,
    "fresh": true,
-   "round_log": [
+   "g5": [
     [
      7,
      8,
@@ -2065,7 +3475,78 @@
      31,
      23.7
     ]
-   ]
+   ],
+   "round_log": [
+    {
+     "rd": 7,
+     "date": "2026-10-22",
+     "opp": "BAS",
+     "home": true,
+     "res": "W 85-79",
+     "start": false,
+     "min": 19.6,
+     "pts": 11,
+     "reb": 1,
+     "ast": 5,
+     "stl": 1,
+     "to": 3,
+     "blk": 0,
+     "pm": -2,
+     "pir": 8
+    },
+    {
+     "rd": 8,
+     "date": "2026-10-27",
+     "opp": "MIL",
+     "home": true,
+     "res": "W 80-75",
+     "start": false,
+     "min": 22.8,
+     "pts": 20,
+     "reb": 2,
+     "ast": 6,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": 19,
+     "pir": 26
+    },
+    {
+     "rd": 9,
+     "date": "2026-10-30",
+     "opp": "IST",
+     "home": false,
+     "res": "L 68-83",
+     "start": true,
+     "min": 26.2,
+     "pts": 17,
+     "reb": 3,
+     "ast": 1,
+     "stl": 1,
+     "to": 3,
+     "blk": 0,
+     "pm": -17,
+     "pir": 10
+    },
+    {
+     "rd": 10,
+     "date": "2026-11-04",
+     "opp": "MAD",
+     "home": false,
+     "res": "W 115-112",
+     "start": false,
+     "min": 23.7,
+     "pts": 33,
+     "reb": 1,
+     "ast": 1,
+     "stl": 0,
+     "to": 5,
+     "blk": 0,
+     "pm": 0,
+     "pir": 31
+    }
+   ],
+   "season_summary": "4 games, 18.8 PIR per game, 23.1 min"
   },
   {
    "slug": "collin-malcolm",
@@ -2250,32 +3731,7 @@
    "price_official": 9.8,
    "score": 22.58,
    "fresh": true,
-   "round_log": [
-    [
-     1,
-     9,
-     17.4
-    ],
-    [
-     2,
-     2,
-     15.8
-    ],
-    [
-     3,
-     10,
-     23.9
-    ],
-    [
-     4,
-     5,
-     16.4
-    ],
-    [
-     5,
-     19,
-     28.8
-    ],
+   "g5": [
     [
      6,
      19,
@@ -2301,7 +3757,180 @@
      21,
      31.9
     ]
-   ]
+   ],
+   "round_log": [
+    {
+     "rd": 1,
+     "date": "2026-09-24",
+     "opp": "BAR",
+     "home": false,
+     "res": "L 82-89",
+     "start": true,
+     "min": 17.4,
+     "pts": 5,
+     "reb": 2,
+     "ast": 2,
+     "stl": 1,
+     "to": 0,
+     "blk": 0,
+     "pm": 6,
+     "pir": 9
+    },
+    {
+     "rd": 2,
+     "date": "2026-09-29",
+     "opp": "MAD",
+     "home": true,
+     "res": "W 94-84",
+     "start": false,
+     "min": 15.8,
+     "pts": 2,
+     "reb": 0,
+     "ast": 0,
+     "stl": 1,
+     "to": 0,
+     "blk": 0,
+     "pm": -12,
+     "pir": 2
+    },
+    {
+     "rd": 3,
+     "date": "2026-10-01",
+     "opp": "RED",
+     "home": false,
+     "res": "L 72-77",
+     "start": true,
+     "min": 23.9,
+     "pts": 5,
+     "reb": 3,
+     "ast": 4,
+     "stl": 1,
+     "to": 0,
+     "blk": 1,
+     "pm": -2,
+     "pir": 10
+    },
+    {
+     "rd": 4,
+     "date": "2026-10-09",
+     "opp": "OLY",
+     "home": false,
+     "res": "L 66-89",
+     "start": false,
+     "min": 16.4,
+     "pts": 6,
+     "reb": 3,
+     "ast": 2,
+     "stl": 2,
+     "to": 2,
+     "blk": 0,
+     "pm": -9,
+     "pir": 5
+    },
+    {
+     "rd": 5,
+     "date": "2026-10-14",
+     "opp": "MUN",
+     "home": true,
+     "res": "L 93-101",
+     "start": true,
+     "min": 28.8,
+     "pts": 13,
+     "reb": 5,
+     "ast": 1,
+     "stl": 1,
+     "to": 1,
+     "blk": 0,
+     "pm": -8,
+     "pir": 19
+    },
+    {
+     "rd": 6,
+     "date": "2026-10-16",
+     "opp": "ZAL",
+     "home": false,
+     "res": "W 85-70",
+     "start": true,
+     "min": 36.0,
+     "pts": 15,
+     "reb": 6,
+     "ast": 1,
+     "stl": 4,
+     "to": 1,
+     "blk": 1,
+     "pm": 14,
+     "pir": 19
+    },
+    {
+     "rd": 7,
+     "date": "2026-10-22",
+     "opp": "BES",
+     "home": true,
+     "res": "W 89-80",
+     "start": true,
+     "min": 30.9,
+     "pts": 15,
+     "reb": 5,
+     "ast": 2,
+     "stl": 0,
+     "to": 3,
+     "blk": 0,
+     "pm": -11,
+     "pir": 11
+    },
+    {
+     "rd": 8,
+     "date": "2026-10-28",
+     "opp": "HTA",
+     "home": false,
+     "res": "L 88-118",
+     "start": true,
+     "min": 25.9,
+     "pts": 9,
+     "reb": 6,
+     "ast": 4,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": -18,
+     "pir": 13
+    },
+    {
+     "rd": 9,
+     "date": "2026-10-30",
+     "opp": "PAN",
+     "home": true,
+     "res": "W 83-68",
+     "start": true,
+     "min": 31.4,
+     "pts": 15,
+     "reb": 6,
+     "ast": 1,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": 7,
+     "pir": 21
+    },
+    {
+     "rd": 10,
+     "date": "2026-11-05",
+     "opp": "PRS",
+     "home": true,
+     "res": "L 90-95",
+     "start": true,
+     "min": 31.9,
+     "pts": 20,
+     "reb": 6,
+     "ast": 2,
+     "stl": 0,
+     "to": 2,
+     "blk": 1,
+     "pm": 5,
+     "pir": 21
+    }
+   ],
+   "season_summary": "10 games, 13.0 PIR per game, 25.8 min"
   },
   {
    "slug": "dario-brizuela",
@@ -2493,27 +4122,7 @@
    "price_official": 6.3,
    "score": 10.54,
    "fresh": true,
-   "round_log": [
-    [
-     1,
-     16,
-     19.4
-    ],
-    [
-     2,
-     -8,
-     17.6
-    ],
-    [
-     3,
-     6,
-     17.0
-    ],
-    [
-     4,
-     3,
-     21.4
-    ],
+   "g5": [
     [
      5,
      -1,
@@ -2539,7 +4148,163 @@
      19,
      18.6
     ]
-   ]
+   ],
+   "round_log": [
+    {
+     "rd": 1,
+     "date": "2026-09-24",
+     "opp": "IST",
+     "home": true,
+     "res": "W 89-82",
+     "start": false,
+     "min": 19.4,
+     "pts": 20,
+     "reb": 2,
+     "ast": 0,
+     "stl": 1,
+     "to": 3,
+     "blk": 0,
+     "pm": 14,
+     "pir": 16
+    },
+    {
+     "rd": 2,
+     "date": "2026-09-29",
+     "opp": "DUB",
+     "home": false,
+     "res": "L 87-94",
+     "start": false,
+     "min": 17.6,
+     "pts": 0,
+     "reb": 1,
+     "ast": 1,
+     "stl": 0,
+     "to": 2,
+     "blk": 0,
+     "pm": -2,
+     "pir": -8
+    },
+    {
+     "rd": 3,
+     "date": "2026-10-02",
+     "opp": "BES",
+     "home": false,
+     "res": "W 95-82",
+     "start": false,
+     "min": 17.0,
+     "pts": 8,
+     "reb": 3,
+     "ast": 0,
+     "stl": 1,
+     "to": 1,
+     "blk": 0,
+     "pm": 9,
+     "pir": 6
+    },
+    {
+     "rd": 4,
+     "date": "2026-10-09",
+     "opp": "ZAL",
+     "home": true,
+     "res": "L 81-88",
+     "start": false,
+     "min": 21.4,
+     "pts": 7,
+     "reb": 1,
+     "ast": 2,
+     "stl": 0,
+     "to": 1,
+     "blk": 1,
+     "pm": -11,
+     "pir": 3
+    },
+    {
+     "rd": 5,
+     "date": "2026-10-13",
+     "opp": "TEL",
+     "home": true,
+     "res": "W 90-87",
+     "start": false,
+     "min": 19.2,
+     "pts": 1,
+     "reb": 3,
+     "ast": 4,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": -2,
+     "pir": -1
+    },
+    {
+     "rd": 6,
+     "date": "2026-10-16",
+     "opp": "OLY",
+     "home": true,
+     "res": "L 100-105",
+     "start": false,
+     "min": 20.7,
+     "pts": 13,
+     "reb": 1,
+     "ast": 1,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": -9,
+     "pir": 9
+    },
+    {
+     "rd": 8,
+     "date": "2026-10-27",
+     "opp": "MUN",
+     "home": false,
+     "res": "W 88-84",
+     "start": false,
+     "min": 12.1,
+     "pts": 1,
+     "reb": 0,
+     "ast": 1,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": 3,
+     "pir": -4
+    },
+    {
+     "rd": 9,
+     "date": "2026-10-30",
+     "opp": "PAM",
+     "home": true,
+     "res": "W 98-94",
+     "start": false,
+     "min": 21.2,
+     "pts": 15,
+     "reb": 2,
+     "ast": 3,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": 7,
+     "pir": 12
+    },
+    {
+     "rd": 10,
+     "date": "2026-11-05",
+     "opp": "HTA",
+     "home": false,
+     "res": "W 93-90",
+     "start": false,
+     "min": 18.6,
+     "pts": 22,
+     "reb": 1,
+     "ast": 1,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": 11,
+     "pir": 19
+    }
+   ],
+   "season_summary": "9 games, 5.8 PIR per game, 18.6 min"
   }
  ]
 }
