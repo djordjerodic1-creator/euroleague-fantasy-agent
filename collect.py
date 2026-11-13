@@ -114,6 +114,14 @@ def parse_prices(page: str):
     return out
 
 
+def parse_game(r):
+    """One row of the site's game log (index layout taken from the site's own renderer)."""
+    return {"rd": r[0], "date": r[1], "opp": r[2], "home": bool(r[3]),
+            "res": f"{'W' if r[4] > r[5] else 'L'} {r[4]}-{r[5]}", "start": bool(r[6]),
+            "min": round(r[7] / 60, 1), "pts": r[8], "reb": r[15] + r[16], "ast": r[17],
+            "stl": r[18], "to": r[19], "blk": r[20], "pm": r[24], "pir": r[25]}
+
+
 def parse_round_log(page: str):
     txt = text_of(page)
     return [(int(r), int(p), float(m)) for r, p, m in re.findall(r"Round (\d+): (-?\d+) PIR, ([\d.]+)'", txt)]
@@ -268,14 +276,26 @@ def main():
     for p in mine:
         club_count[p.get("t")] = club_count.get(p.get("t"), 0) + 1
 
-    print(f"Fetching game logs for {len(mine)} roster players…")
+    # ----- full game logs for every player, from the site's own data file (one request)
+    print("Fetching game logs (site data file)…")
+    try:
+        site = json.loads(get("/assets/data.json"))
+        logs = {sp.get("s"): sp.get("g") or [] for sp in site.get("players", [])}
+    except Exception as e:  # keep running without logs rather than abort
+        print(f"! game logs unavailable: {e}")
+        logs = {}
+    for p in pool.values():
+        g = logs.get(p.get("slug") or p.get("s"))
+        if g:
+            p["g5"] = [[r[0], r[25], round(r[7] / 60, 1)] for r in g[-5:]]  # round, PIR, minutes
     for p in mine:
-        slug = p.get("slug") or p.get("s")
-        p["round_log"] = parse_round_log(get(f"/en/fantasy/player/{slug}/"))
-        if not p["round_log"]:  # team already played this round -> no fantasy page; use season summary
-            t = text_of(get(f"/en/player/{slug}/"))
-            m = re.search(r"in the EuroLeague \d{4}-\d{2}: (.+?PIR per game)", t)
-            p["season_summary"] = m.group(1) if m else "no data"
+        g = logs.get(p.get("slug") or p.get("s")) or []
+        p["round_log"] = [parse_game(r) for r in g]
+        if g:
+            p["season_summary"] = (f"{len(g)} games, {sum(r[25] for r in g) / len(g):.1f} PIR per game, "
+                                   f"{sum(r[7] for r in g) / 60 / len(g):.1f} min")
+        else:
+            p["season_summary"] = "no data"
 
     # ----- next-round game previews (matchup / coach view)
     print(f"Fetching Round {target} game previews…")
@@ -330,7 +350,7 @@ def main():
         "swaps": swaps, "previews": previews,
     }
     keep = ("name", "slug", "s", "c", "t", "pos", "price", "status", "owned", "l3", "l5", "l10", "m3", "m10",
-            "nx", "nxe", "sig", "p10", "p90", "pwin", "proj_price_change", "price_d3", "season_summary")
+            "nx", "nxe", "sig", "p10", "p90", "pwin", "proj_price_change", "price_d3", "season_summary", "g5")
     slim = [{k: p.get(k) for k in keep if p.get(k) is not None} for p in pool.values()]
     (OUT / "pool.json").write_text(json.dumps(slim, ensure_ascii=False), encoding="utf-8")
     (OUT / "digest.json").write_text(json.dumps({**digest, "roster": mine}, ensure_ascii=False, default=str, indent=1),
@@ -365,7 +385,11 @@ def write_markdown(dg, mine, shortlists, coaches, news_by, inj_txt, pool, news):
         L += ["", f"### {p['name']} — {TEAMS.get(p.get('t'), (p.get('t'),))[0]} · {p.get('pos')} · {p.get('price')} cr · owned {p.get('owned')}%",
               f"- Status: **{p.get('status', '?')}** · site signal {p.get('sig')} ({', '.join(p.get('why') or [])}) · grade {p.get('grade')} · data fresh today: {p.get('fresh')}",
               f"- Form PIR L3/L5/L10: {p.get('l3')}/{p.get('l5')}/{p.get('l10')} · minutes L3 {p.get('m3')} vs L10 {p.get('m10')} · PIR/min {p.get('pirpm')} · starts {int((p.get('start') or 0)*100)}%",
-              f"- Round log (round, PIR, min): {p.get('round_log') or p.get('season_summary')}",
+              f"- Season: {p.get('season_summary')}",
+              "- Last 5 games: " + (" · ".join(
+                  f"R{x['rd']} {'vs' if x['home'] else '@'} {x['opp']} {x['res']}: {x['pir']} PIR, {x['min']} min, "
+                  f"{x['pts']}p {x['reb']}r {x['ast']}a{' (start)' if x['start'] else ' (bench)'}"
+                  for x in (p.get('round_log') or [])[-5:]) or "none"),
               f"- Price Δ last 3/5/10 rounds: {p.get('price_d3')}/{p.get('price_d5')}/{p.get('price_d10')} · since start {p.get('since_start')} · projected change after round {p.get('proj_price_change')} · PIR≥price {p.get('pir_ge_price')}",
               f"- Schedule: {fmt_p(p, H)}",
               f"- Window score (site proj, weighted): {p.get('score')} · P10–P90 this round {p.get('p10')}–{p.get('p90')} · win prob {p.get('pwin')}"]

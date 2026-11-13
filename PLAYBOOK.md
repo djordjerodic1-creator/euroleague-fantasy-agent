@@ -127,6 +127,24 @@ and for every player you recommend buying, check:
    changes, and which coach pick is affected. Skip items with no fantasy angle.
 Keep research efficient and prioritise doubts. Never invent box scores, quotes or sources.
 
+**The research is not optional, and it must show.** A run that skips it is a failed run, even if
+the report renders. Minimum per run:
+- At least 2 searches per squad player and per player you recommend buying (about 25–40 searches
+  in total), plus the rumours sweep. Use WebFetch on the best result when a snippet isn't enough.
+- Every `players[].read` and every bought player's trade `why` ends with its evidence in brackets:
+  `[dom: <league> <date> <min>' <PIR or pts/reb>, <source domain>]` or
+  `[dom: unverified after 2 searches]`. EuroLeague numbers come from the digest's "Last 5 games"
+  lines (the site's official game log): use them, don't search for them.
+- `review` ends with one line: "Research: N searches, M pages read, K players unverified."
+If you can't do the research (search tool failing), say so as the first alert, with level "high".
+
+## Re-runs (on-demand runs)
+A manual run on a day that already has a report is a request for a **fresh** report, never a no-op.
+Do the full process again: collector, optimiser, research focused on what changed since the previous
+run's `generated` time (injury and coach news, team updates in the inbox, new results), then rewrite
+`reports/<date>.json`, re-render, commit and push as "Report update <date> HH:MM". The first alert
+says what changed since the earlier run, or "No change since HH:MM" with what you checked.
+
 ## Team tracking (the user doesn't update the team by hand)
 `my_team.json` is the source of truth, and **you maintain it**:
 - Each report's **Variation A** is the plan the user is assumed to follow.
