@@ -122,6 +122,29 @@ def parse_game(r):
             "stl": r[18], "to": r[19], "blk": r[20], "pm": r[24], "pir": r[25]}
 
 
+def parse_schedule(page: str):
+    """Full season schedule from /en/schedule/: results for played games, win % and projection for the rest."""
+    games = []
+    for rd, body in re.findall(r'<details class="schr" id="r(\d+)".*?>(.*?)</details>', page, flags=re.S):
+        for g in re.findall(r'<div class="tdg">(.*?)</div></div>(?=<div class="tdg">|$)', body, flags=re.S):
+            t = re.search(r'<div class="tdt">([\d:]+)<small>([^<]+)</small>', g)
+            n = re.search(r'<a href="/en/game/[^"]+">([^<]+?) – ([^<]+?)</a>', g)
+            if not (t and n):
+                continue
+            fin = re.search(r'class="tdfin">(\d+)-(\d+)<', g)
+            pw = re.search(r'<b>(\d+)%</b> – <b>(\d+)%</b>', g)
+            pj = re.search(r'projected (\d+)-(\d+)', g)
+            tv = re.search(r'class="tvch">📺 ([^<]+)<', g)
+            games.append({"rd": int(rd), "day": html.unescape(t.group(2)).strip(), "time": t.group(1),
+                          "h": NAME2CODE.get(html.unescape(n.group(1)).strip().lower()),
+                          "a": NAME2CODE.get(html.unescape(n.group(2)).strip().lower()),
+                          "res": [int(fin.group(1)), int(fin.group(2))] if fin else None,
+                          "pw": int(pw.group(1)) / 100 if pw else None,
+                          "proj": [int(pj.group(1)), int(pj.group(2))] if pj else None,
+                          "tv": tv.group(1).strip() if tv else None})
+    return sorted(games, key=lambda g: g["rd"])
+
+
 def parse_round_log(page: str):
     txt = text_of(page)
     return [(int(r), int(p), float(m)) for r, p, m in re.findall(r"Round (\d+): (-?\d+) PIR, ([\d.]+)'", txt)]
@@ -281,13 +304,22 @@ def main():
     try:
         site = json.loads(get("/assets/data.json"))
         logs = {sp.get("s"): sp.get("g") or [] for sp in site.get("players", [])}
+        bio = {sp.get("s"): {"age": sp.get("age"), "h": sp.get("h"), "no": sp.get("no"), "ct": sp.get("ct")}
+               for sp in site.get("players", [])}
+        standings = (site.get("league") or {}).get("stand") or []
     except Exception as e:  # keep running without logs rather than abort
         print(f"! game logs unavailable: {e}")
-        logs = {}
+        logs, bio, standings = {}, {}, []
     for p in pool.values():
         g = logs.get(p.get("slug") or p.get("s"))
         if g:
             p["g5"] = [[r[0], r[25], round(r[7] / 60, 1)] for r in g[-5:]]  # round, PIR, minutes
+            # compact full log for the report's player cards:
+            # rd, date, opp, home, team score, opp score, start, min, pts, reb, ast, stl, to, blk, +/-, PIR, 2PM, 2PA, 3PM, 3PA, FTM, FTA
+            p["gl"] = [[r[0], r[1], r[2], r[3], r[4], r[5], r[6], round(r[7] / 60, 1), r[8], r[15] + r[16], r[17], r[18],
+                        r[19], r[20], r[24], r[25], r[9], r[10], r[11], r[12], r[13], r[14]] for r in g]
+        if bio.get(p.get("slug") or p.get("s")):
+            p["bio"] = bio[p.get("slug") or p.get("s")]
     for p in mine:
         g = logs.get(p.get("slug") or p.get("s")) or []
         p["round_log"] = [parse_game(r) for r in g]
@@ -299,7 +331,11 @@ def main():
 
     # ----- next-round game previews (matchup / coach view)
     print(f"Fetching Round {target} game previews…")
-    links = set(re.findall(rf'href="(/en/game/[a-z0-9-]+-{target}/)"', get("/en/schedule/") + hub + get("/en/")))
+    sched_page = get("/en/schedule/")
+    schedule = parse_schedule(sched_page)
+    (OUT / "schedule.json").write_text(json.dumps({"games": schedule, "standings": standings}, ensure_ascii=False),
+                                       encoding="utf-8")
+    links = set(re.findall(rf'href="(/en/game/[a-z0-9-]+-{target}/)"', sched_page + hub + get("/en/")))
     previews = {}
     for ln in sorted(links):
         pv = parse_preview(get(ln))
@@ -350,7 +386,7 @@ def main():
         "swaps": swaps, "previews": previews,
     }
     keep = ("name", "slug", "s", "c", "t", "pos", "price", "status", "owned", "l3", "l5", "l10", "m3", "m10",
-            "nx", "nxe", "sig", "p10", "p90", "pwin", "proj_price_change", "price_d3", "season_summary", "g5")
+            "nx", "nxe", "sig", "p10", "p90", "pwin", "proj_price_change", "price_d3", "season_summary", "g5", "gl", "bio", "since_start", "pirpm", "start", "grade")
     slim = [{k: p.get(k) for k in keep if p.get(k) is not None} for p in pool.values()]
     (OUT / "pool.json").write_text(json.dumps(slim, ensure_ascii=False), encoding="utf-8")
     (OUT / "digest.json").write_text(json.dumps({**digest, "roster": mine}, ensure_ascii=False, default=str, indent=1),
