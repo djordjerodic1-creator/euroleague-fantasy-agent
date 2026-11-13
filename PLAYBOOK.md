@@ -174,7 +174,7 @@ Copy the shape of the latest existing `reports/*.json` exactly. Fields:
   A = best chance of reaching the target (recommended), B = nearly as good but safer for rank
   (keeps template players), C = moonshot (differential captain / max variance). Each has:
   `key`, `name`, `recommended` (true only for one), `risk` (Low/Medium/High), `tagline`,
-  `trades` [{`out`, `in`, `credits` like "−2.4", `why`}]: **4 entries** (coach trades as "Coach X (price)"; keep `why` to 1–2 short sentences),
+  `trades` [{`out`, `in`, `credits` like "−2.4", `why`}]: **4 entries** (coach trades as "Coach Bartzokas (OLY) (7.3)"; keep `why` to 1–2 short sentences),
   `bank_after`, `formation` (one of 2-2-1, 1-2-2, 2-1-2, 1-3-1, 3-1-1), `starters` (5 names
   matching the formation's G-F-C counts), `sixth`, `bench` (4 names), `coach` (club name),
   `captain`, `vice`, `captain_note` (1–2 sentences), `reasoning` (4–6 short bullets, one idea each, mixing the coach lens and the fantasy lens),
@@ -186,5 +186,11 @@ Copy the shape of the latest existing `reports/*.json` exactly. Fields:
   player, including the last domestic game in the read.
 - `watchlist` [{`name` with club and price, `why` with the buy trigger}]
 - `review`: how the last round went and how the previous report's calls played out.
+
+**Naming coaches:** everywhere in the report text (trades, alerts, reasoning, rumours) call a Fantasy
+coach pick by the head coach's surname plus the short club label, e.g. "Bartzokas (OLY)",
+"Penarroya (PAR)". Names come from `data/coaches.json` (refreshed from the site's previews each run).
+Labels: ASV, BAR, BAS, BJK, DUB, HTA, EFS, RMB, MIL, MUN, OLY, VBC, PAO, PAR, PBB, CZV, MTA, FBB, VIR, ZAL.
+The `coach` field itself can stay the club name.
 
 Write so a busy manager can act in 60 seconds from the Bottom line and Variation A alone.

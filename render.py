@@ -36,6 +36,9 @@ TEAM = {  # code: (short label, full name, primary, secondary)
 NAME2CODE = {v[1].lower(): k for k, v in TEAM.items()}
 NAME2CODE.update({"real madrid": "MAD", "dubai basketball": "DUB", "valencia basket": "PAM", "bayern munich": "MUN",
                   "paris basketball": "PRS", "fenerbahce": "ULK", "zalgiris": "ZAL"})
+_CP = ROOT / "data" / "coaches.json"
+COACHES = json.loads(_CP.read_text(encoding="utf-8")) if _CP.exists() else {}  # code: head coach name
+LABEL2CODE = {v[0]: k for k, v in TEAM.items()}
 POSL = {"Guard": "G", "Forward": "F", "Center": "C"}
 FORMATIONS = {"2-2-1": (2, 2, 1), "1-2-2": (1, 2, 2), "2-1-2": (2, 1, 2), "1-3-1": (1, 3, 1), "3-1-1": (3, 1, 1)}
 
@@ -212,8 +215,21 @@ def validate(players, bank, n_trades):
     return issues
 
 
+def coach_label(code, fallback=""):
+    """'Bartzokas (OLY)': coach surname plus short club label."""
+    lab = TEAM.get(code, (code or fallback, fallback))[0]
+    nm = COACHES.get(code)
+    return f"{nm.split()[-1]} ({lab})" if nm else (TEAM.get(code, ('', fallback))[1] or fallback)
+
+
 def coach_code_of(name):
+    m = re.search(r"\(([A-Z]{3})\)", name or "")
+    if m and (m.group(1) in TEAM or m.group(1) in LABEL2CODE):
+        return m.group(1) if m.group(1) in TEAM else LABEL2CODE[m.group(1)]
     k = norm(name)
+    for code, nm in COACHES.items():
+        if k and norm(nm.split()[-1]) in k.split():
+            return code
     return NAME2CODE.get(k) or next((c for n, c in NAME2CODE.items() if k and (k in n or n in k)), (name or "")[:3].upper())
 
 
@@ -224,6 +240,9 @@ def mini(name, code, price, kind):
 
 def split_name(s):
     m = re.match(r"\s*(?:Coach\s+)?(.+?)\s*\(([\d.]+)\)\s*$", s)
+    if s.strip().startswith("Coach"):
+        nm, pr = (m.group(1), m.group(2)) if m else (s.replace("Coach ", ""), "")
+        return coach_label(coach_code_of(nm), nm), pr
     return (m.group(1), m.group(2)) if m else (s.replace("Coach ", ""), "")
 
 
@@ -427,7 +446,7 @@ def render(date):
 <p class="why">{esc(t.get('why', ''))}</p></div>""")
         g_c = cg or {}
         coach_card = f"""<div class="pl sm"><div class="shirt">{jersey(cc, 'HC')}</div>
-<div class="tag"><div class="nm"><i>HC</i>{esc(TEAM.get(cc, ('', v['coach']))[1])}</div>
+<div class="tag"><div class="nm"><i>HC</i>{esc(coach_label(cc, v['coach']))}</div>
 <div class="gm"><span>{esc(opp_txt(g_c))}</span><b>{cpts:+.1f}</b></div></div>
 <div class="meta">win {int(round((g_c.get('pwin') or 0) * 100))}% · margin {g_c.get('margin', 0):+d}</div></div>"""
         tabs.append(f'<button class="tab" role="tab" data-v="{vid}" aria-selected="{str(i == 0).lower()}">'
@@ -464,7 +483,7 @@ def render(date):
 <li><div><h4>Make {len(rv.get('trades', []))} trades</h4><div class="tl">{tl}</div></div></li>
 <li><div><h4>Set the lineup ({esc(rv.get('formation', ''))})</h4><div class="lineup"><b>Start:</b> {esc(', '.join(surname(p['name']) for p in rst))}
 · <b>6th:</b> {esc(surname(rsix['name']) if rsix else '–')} · <b>Bench:</b> {esc(', '.join(surname(p['name']) for p in rbench))}
-· <b>Coach:</b> {esc(TEAM.get(rcc, ('', rv['coach']))[1])}</div></div></li>
+· <b>Coach:</b> {esc(coach_label(rcc, rv['coach']))}</div></div></li>
 <li><div><h4>Captain {esc(surname(rv['captain']))}</h4><div class="lineup">Vice: {esc(surname(rv.get('vice', '')) or '–')}</div></div></li>
 </ol>
 <div class="delta">Chance of {target:.0f}+: {f'now <b style="color:var(--ink)">{now["p_target"]:.1%}</b> →' if now else ''} with this plan <strong>{rmc["p_target"]:.0%}</strong>

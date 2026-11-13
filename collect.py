@@ -127,6 +127,7 @@ def parse_preview(page: str):
     km = txt.find("Key matchups")
     extra = txt[km:km + 900] if km > 0 else ""
     fav = re.search(r"Favourite: (.+?), with a (\d+)% chance", txt)
+    hc = re.search(r"Coaches: (.+?) [–-] (.+?) Players to watch", txt)
     teams = re.search(r"Preview (.+?) vs (.+?): ", txt)
     when = re.search(r"tips off \w+ (\d+) (\w+) at ([\d:]+)", txt)
     score = re.search(r"projects (\d+)-(\d+)", txt)
@@ -139,7 +140,8 @@ def parse_preview(page: str):
             "away": NAME2CODE.get(teams.group(2).lower()) if teams else None,
             "fav_code": NAME2CODE.get(fav.group(1).lower()) if fav else None,
             "date": f"{when.group(1)} {when.group(2)[:3]}" if when else None, "time": when.group(3) if when else None,
-            "score": [int(score.group(1)), int(score.group(2))] if score else None, "player_proj": proj}
+            "score": [int(score.group(1)), int(score.group(2))] if score else None, "player_proj": proj,
+            "coaches": [hc.group(1).strip(), hc.group(2).strip()] if hc else None}
 
 
 # ---------------------------------------------------------------- helpers
@@ -284,6 +286,15 @@ def main():
         pv["url"] = BASE + ln
         previews[ln.split("/")[3]] = pv
 
+    # ----- head coach names (from the previews), cached so a missing preview keeps the last known name
+    cpath = ROOT / "data" / "coaches.json"
+    coach_names = json.loads(cpath.read_text(encoding="utf-8")) if cpath.exists() else {}
+    for pv in previews.values():
+        for code, nm in zip((pv.get("home"), pv.get("away")), pv.get("coaches") or []):
+            if code and nm:
+                coach_names[code] = nm
+    cpath.write_text(json.dumps(dict(sorted(coach_names.items())), ensure_ascii=False, indent=1), encoding="utf-8")
+
     # ----- mechanical baseline: candidate replacements (the analyst decides)
     def feasible(cand, out_p):
         if cand.get("pos") != out_p.get("pos") or cand in mine:
@@ -382,8 +393,10 @@ def write_markdown(dg, mine, shortlists, coaches, news_by, inj_txt, pool, news):
         L += [f"### {k}", v["summary"], v["key_matchups"], v["url"], ""]
 
     L += ["", "## Coaches (current-round projections)"]
+    cpath = ROOT / "data" / "coaches.json"
+    hc = json.loads(cpath.read_text(encoding="utf-8")) if cpath.exists() else {}
     for c in sorted(coaches.values(), key=lambda c: -c.get("exp", 0)):
-        L.append(f"- {c['t']} {c['price']}cr exp {c['exp']} · win {c.get('pwin')} · vs {c.get('opp')} {'home' if c.get('home') else 'away'}")
+        L.append(f"- {hc.get(c['t'], '?')} ({c['t']}) {c['price']}cr exp {c['exp']} · win {c.get('pwin')} · vs {c.get('opp')} {'home' if c.get('home') else 'away'}")
 
     L += ["", "## Domestic-league alerts (ABA only from site; other leagues → research)"]
     for it in news.get("items", []):
