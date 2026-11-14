@@ -1,45 +1,45 @@
 {
   "_note": "Real squad from the user's screenshot (Round 11, 12 Nov 2026). Maintained by the agent: after each trade deadline it applies Variation A of the latest report unless the user reports otherwise (see PLAYBOOK.md, Team tracking).",
-  "round": 11,
+  "round": 12,
   "players": [
-    "Mouhamed Faye",
-    "Dejan Davidovac",
-    "Sasha Vezenkov",
+    "Justin Robinson",
+    "Kendrick Nunn",
     "Andres Feliz",
-    "Yam Madar",
+    "Cory Joseph",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Dejan Davidovac",
     "Stefan Joksimovic",
     "Aliou Diarra",
-    "Kendrick Nunn",
-    "Collin Malcolm",
-    "Dario Brizuela"
+    "Ousmane Diop"
   ],
   "lineup": {
     "starters": [
-      "Mouhamed Faye",
-      "Dejan Davidovac",
-      "Sasha Vezenkov",
-      "Andres Feliz",
-      "Yam Madar"
-    ],
-    "sixth": "Stefan Joksimovic",
-    "bench": [
-      "Aliou Diarra",
+      "Justin Robinson",
       "Kendrick Nunn",
+      "Sasha Vezenkov",
       "Collin Malcolm",
-      "Dario Brizuela"
+      "Aliou Diarra"
+    ],
+    "sixth": "Andres Feliz",
+    "bench": [
+      "Cory Joseph",
+      "Dejan Davidovac",
+      "Stefan Joksimovic",
+      "Ousmane Diop"
     ]
   },
   "captain": "Sasha Vezenkov",
-  "coach": "Partizan",
-  "bank": 0.5,
+  "coach": "Zalgiris",
+  "bank": 0.6,
   "bank_known": true,
-  "total_budget": 105.5,
+  "total_budget": 105.6,
   "trades_left_this_round": 4,
   "tracking": {
     "source": "user",
     "updated": "2026-11-14",
-    "last_applied_report": null
+    "last_applied_report": "2026-11-14"
   },
-  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. User confirmed 14 Nov: squad unchanged, total budget 105.5 (bank 0.5, squad value 105.0).",
+  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. R12 trades done 14 Nov (user): Madar->Robinson, Faye->Diop, Brizuela->Cory Joseph, coach Partizan->Zalgiris; bank 0.6 in app. Total budget estimated at about 105.6 from the earlier 105.5.",
   "target_points": 200
 }
