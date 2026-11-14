@@ -802,7 +802,8 @@ function edRender(){
 <td><input type="radio" name="ecap" value="${x.s}"${ED.cap===x.s?' checked':''} aria-label="Captain"></td><td><button class="lnk2" data-rm="${x.s}" aria-label="Remove">✕</button></td></tr>`}).join('')}</tbody></table></div>
 ${ED.rows.length<10?`<input id="esearch" class="srch" placeholder="Add a player: type a name…" autocomplete="off"><div id="eres" class="eres"></div>`:''}
 <div class="ederr">${errs.map(x=>'<div>'+E(x)+'</div>').join('')}</div>
-<div class="edbtns"><button class="btn" id="esave"${errs.length?' disabled':''}>Save my team</button><span class="sub" id="emsg"></span></div>`);
+<div class="edbtns"><button class="btn" id="esave"${errs.length?' disabled':''}>Save my team</button><span class="sub" id="emsg"></span></div>
+<p class="sub" style="margin-top:14px;font-size:12.5px">Your user id: <code>${E(AUTH.user.uid)}</code>${AUTH.user.uid===FBC.owner?' · the analyst uses this team':''}</p>`);
   $('#so').onclick=()=>window.ELF_FB.signOut();
   $('#ename').oninput=e=>ED.name=e.target.value;$('#ebank').oninput=e=>{ED.bank=e.target.value;edSoft()};$('#etgt').oninput=e=>ED.target=e.target.value;
   $('#ecoach').onchange=e=>{ED.coach=e.target.value;edSoft()};
