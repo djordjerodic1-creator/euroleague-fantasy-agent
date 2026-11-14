@@ -79,6 +79,16 @@ class Data:
                                   "time": v.get("time"), "pwin": pw, "margin": margin}
             for n, val in (v.get("player_proj") or {}).items():
                 self.preview_proj[norm(n)] = val
+        sf = d / "schedule.json"
+        for g in (json.loads(sf.read_text(encoding="utf-8")).get("games", []) if sf.exists() else []):
+            if g["rd"] != self.target or not g.get("mkt") or g["h"] not in self.games:
+                continue
+            m = 0.7 * (-g["mkt"]["spread"]) + 0.3 * self.games[g["h"]]["margin"]
+            pw = 0.5 * (1 + math.erf(m / (12 * math.sqrt(2))))
+            for me, sign in ((g["h"], 1), (g["a"], -1)):
+                if me in self.games:
+                    self.games[me].update({"margin": round(sign * m, 1), "pwin": pw if sign > 0 else 1 - pw,
+                                           "market": round(-sign * g["mkt"]["spread"], 1)})
 
     def player(self, name):
         k = norm(name)
@@ -436,6 +446,153 @@ def sched_tab(D, sched):
 </section>"""
 
 
+# ------------------------------------------------------------------ predictions, scorecard, rebuild, day plan
+def write_predictions(date, D, built, team, now):
+    """Everything the scorecard needs to grade this report once the round is played."""
+    proj = {}
+    for q in D.pool:
+        p = D.player(q["name"])
+        if not p.get("missing"):
+            proj[p["name"]] = [p.get("t"), p.get("proj"), p.get("p10"), p.get("p90"), p.get("price"), p.get("owned")]
+    vs = [{"key": v["key"], "name": v.get("name"), "recommended": v.get("recommended"), "starters": v["starters"],
+           "sixth": v.get("sixth"), "bench": v["bench"], "captain": v["captain"], "coach_code": cc,
+           "mean": mc["mean"], "p90": mc["p90"], "p_target": mc["p_target"]} for v, st, sixth, bench, cc, total, mc in built]
+    lu = team.get("lineup") or {}
+    snap = ({"starters": lu.get("starters", []), "sixth": lu.get("sixth"), "bench": lu.get("bench", []),
+             "captain": team.get("captain"), "coach_code": coach_code_of(team.get("coach", "")),
+             "source": (team.get("tracking") or {}).get("source")} if lu else None)
+    inprog = D.digest.get("rounds_in_progress") or []
+    band_round = D.digest.get("source_round")
+    out = {"date": date, "round": D.target, "team_round": inprog[0] if inprog else None, "band_round": band_round,
+           "proj": proj if band_round == D.target else {k: v[:2] + [None, None] + v[4:] for k, v in proj.items()},
+           "variations": vs, "team": snap, "team_sim": now}
+    (ROOT / "data" / date / "predictions.json").write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
+
+
+def day_plan(v, D):
+    """Captain by day: captain an early starter and switch to a later one if he has a quiet night.
+    Keep-threshold = the later option's expected score; picks the early captain with the best E[max(X, later)]."""
+    from sim import spread
+    lineup = [D.player(n) for n in v["starters"]] + ([D.player(v["sixth"])] if v.get("sixth") else [])
+    turns = {p["name"]: (p.get("game") or {}).get("turn") for p in lineup}
+    if len({t for t in turns.values() if t}) < 2:
+        return None
+    mu = {p["name"]: fantasy(p) for p in lineup}
+    sd = {p["name"]: spread(p) for p in lineup}
+    starters = [D.player(n) for n in v["starters"]]
+    best = None
+    for x in starters:
+        tx = turns.get(x["name"])
+        # you can only hand the armband to a starter who hasn't played yet (subs in/out must both be unplayed)
+        later = [p for p in starters if turns.get(p["name"]) and tx and turns[p["name"]] > tx]
+        if not later:
+            continue
+        l = max(later, key=lambda p: mu[p["name"]])
+        m, s_, c = mu[x["name"]], max(sd[x["name"]], 1.0), mu[l["name"]]
+        d = (m - c) / s_
+        val = m * 0.5 * (1 + math.erf(d / math.sqrt(2))) + s_ * math.exp(-d * d / 2) / math.sqrt(2 * math.pi) + c * 0.5 * (1 + math.erf(-d / math.sqrt(2)))
+        if not best or val > best[0]:
+            best = (val, x, l, c)
+    if not best:
+        first = min(t for t in turns.values() if t)
+        late = [p for p in lineup[5:] if (turns.get(p["name"]) or 0) > first]
+        swap = next((q for q in starters if late and q.get("pos") == late[0].get("pos")), None)
+        if late and swap:
+            g = late[0].get("game") or {}
+            return (f"All your starters play on day 1, so there's no captain switch later. Starting {surname(late[0]['name'])} "
+                    f"({g.get('date', '')}) instead of {surname(swap['name'])} keeps that option open.")
+        return None
+    _, x, l, c = best
+    gx, gl = x.get("game") or {}, l.get("game") or {}
+    move = ""
+    return (f"Captain {surname(x['name'])} first ({gx.get('date', '')}). Keep the armband if he scores {math.ceil(c / (1.1 if gx.get('pwin', 0) > .5 else 1))}+ PIR; "
+            f"otherwise switch it to {surname(l['name'])} ({gl.get('date', '')}){move} before his game.")
+
+
+def scorecard_html():
+    sc = load_json(ROOT / "data" / "scorecard.json", {}).get("rounds", {})
+    if not sc:
+        return ""
+    rds = sorted(sc, key=int)
+    r = sc[rds[-1]]
+    pr = r["projections"]
+    a = next((v for v in r["variations"] if v.get("recommended")), r["variations"][0] if r["variations"] else None)
+    rows = ""
+    for v in r["variations"]:
+        cap_pir = v["captain_pir"] if v["captain_pir"] is not None else "–"
+        best = "" if v["captain"] == v["best_captain"] else \
+            f" <small>(best: {esc(surname(v['best_captain'] or ''))} {v['best_captain_pir']})</small>"
+        rows += (f"<tr><td class='l'>{esc(v['key'])} · {esc(v.get('name') or '')}</td><td>{v['pred_mean']:.0f}</td>"
+                 f"<td><b>{v['total']:.0f}</b></td><td class='l'>{esc(surname(v['captain'] or ''))} {cap_pir}{best}</td></tr>")
+    if r.get("team"):
+        t = r["team"]
+        rep = f" <small>(you reported {t['reported']})</small>" if t.get("reported") is not None else ""
+        rows += (f"<tr class='tg'><td class='l'>Your team</td><td>–</td><td><b>{t['total']:.0f}</b>{rep}</td>"
+                 f"<td class='l'>{esc(surname(t['captain'] or ''))} {t['captain_pir'] if t['captain_pir'] is not None else '–'}</td></tr>")
+    ups = ", ".join(f"<span data-p-name='{esc(m['name'])}'>{esc(m['name'])}</span> {m['proj']:.0f}→{m['pir']}" for m in pr["upside_misses"][:5])
+    season = ""
+    if len(rds) > 1:
+        caps = [v["captain"] == v["best_captain"] for x in rds for v in sc[x]["variations"] if v.get("recommended")]
+        maes = [sc[x]["projections"]["mae"] for x in rds if sc[x]["projections"]["mae"] is not None]
+        season = (f"<p class='sub'>Season so far ({len(rds)} rounds): recommended captain was the best pick "
+                  f"{sum(caps)}/{len(caps)} times · projection error {sum(maes) / len(maes):.1f} PIR on average.</p>")
+    inside = f"{pr['inside_p10_p90']:.0%} inside the predicted range (target 80%)" if pr.get("inside_p10_p90") is not None else ""
+    return f"""<div class="card"><h4 class="ovh">Round {esc(r['round'])} scorecard <small style="color:var(--faint)">(report of {esc(r['report_date'])})</small></h4>
+<div class="tblw"><table class="sch"><thead><tr><th class="l">Lineup</th><th>Predicted</th><th>Actual</th><th class="l">Captain PIR</th></tr></thead><tbody>{rows}</tbody></table></div>
+<p class="sub" style="margin-top:10px">Projections: off by {pr['mae']} PIR on average (bias {pr['bias']:+}) · {inside}.
+{('Biggest upside surprises: ' + ups + '.') if ups else ''}</p>{season}</div>"""
+
+
+def load_json(f, default):
+    try:
+        return json.loads(Path(f).read_text(encoding="utf-8"))
+    except Exception:
+        return default
+
+
+def rebuild_html(date, D, R):
+    rb = load_json(ROOT / "data" / date / "rebuild.json", None)
+    if not rb or not rb.get("plans"):
+        return ""
+    W, cur = rb["window_before"], {x["rd"]: x for x in rb.get("current", [])}
+
+    def chip(n, kind=""):
+        p = D.player(n)
+        return (f'<button class="pchip {kind}" data-p="{esc(slug_of(p))}"><i>{POSL.get(p.get("pos"), "?")}</i>{esc(surname(n))}</button>'
+                if not p.get("missing") else esc(n))
+
+    def plan_block(pl, i):
+        rows = "".join(f"<tr><td>R{x['rd']}</td><td>{cur[x['rd']]['p_target']:.1%} · {cur[x['rd']]['mean']:.0f}</td>"
+                       f"<td><b>{x['p_target']:.1%}</b> · {x['mean']:.0f}</td><td class='l'>{esc(surname(x['captain']))}</td></tr>"
+                       if x["rd"] in cur else f"<tr><td>R{x['rd']}</td><td>–</td><td><b>{x['p_target']:.1%}</b> · {x['mean']:.0f}</td><td class='l'>{esc(surname(x['captain']))}</td></tr>"
+                       for x in pl["rounds"])
+        r0 = pl["rounds"][0]
+        lineup = (f"<b>R{r0['rd']} lineup ({esc(r0['formation'])}):</b> " + "".join(chip(n, "pcap" if n == r0["captain"] else "") for n in r0["starters"])
+                  + " · 6th " + chip(r0["sixth"]) + " · bench " + "".join(chip(n) for n in r0["bench"]))
+        coach = f"Coach {esc(coach_label(pl['coach']))}" + (" (change)" if pl.get("coach_change") else " (keep)")
+        return f"""<div class="rbp"><div class="rbh"><b>{'Best plan' if i == 0 else f'Option {i + 1}'}</b>
+<span class="pill">{pl['avg_p_target']:.1%} avg chance of 200</span><span class="pill">cost {pl['cost']} · bank {pl['bank_after']}</span><span class="pill">{coach}</span></div>
+<div class="rbm"><div><span class="lbl o">SELL</span>{''.join(chip(n, 'out') for n in pl['sell']) or '–'}</div>
+<div><span class="lbl n">BUY</span>{''.join(chip(n, 'plan') for n in pl['buy']) or '–'}</div></div>
+<div class="lineup" style="margin:8px 0">{lineup}</div>
+<div class="tblw"><table class="sch"><thead><tr><th>Round</th><th>Current squad</th><th>This plan</th><th class="l">Captain</th></tr></thead><tbody>{rows}</tbody></table></div></div>"""
+    first = plan_block(rb["plans"][0], 0)
+    rest = "".join(plan_block(pl, i) for i, pl in enumerate(rb["plans"][1:], 1))
+    note = f'<p class="lead2">{esc(R["window_plan"])}</p>' if R.get("window_plan") else ""
+    return f"""<section><h2>🔁 Unlimited trades before R{W}{f" ({esc(rb.get('window'))})" if rb.get('window') else ''}: rebuild plan</h2>
+<p class="sub">Best 10 + coach from scratch for your total budget ({rb['budget']}), judged over rounds {', '.join(f'R{r}' for r in rb['rounds'])}: chance of 200 and expected score per round, against your current squad. Prices may move before the window opens.</p>
+{note}<div class="card">{first}{f'<details><summary>{len(rb["plans"]) - 1} more options</summary>{rest}</details>' if rest else ''}</div></section>"""
+
+
+def upside_html(D):
+    rj = D.digest.get("role_jumps") or []
+    if not rj:
+        return ""
+    items = "".join(f"<li{pc_attr(r['name'], D)}><b>{esc(r['name'])}</b> <small>{esc(r['t'])} · {r['price']} cr · {r['owned']}% owned</small><br>"
+                    f"{esc('; '.join(r['reasons']))} · ~{r['est_pir_if_role_holds']} PIR if the role holds</li>" for r in rj[:8])
+    return f"<div><h2>🌱 Cheap upside watch</h2><ul class='watch'>{items}</ul></div>"
+
+
 # ------------------------------------------------------------------ page
 CSS = """
 :root{color-scheme:dark;--bg:#0c0d19;--card:#171830;--card2:#1f2042;--ink:#eeedf7;--muted:#a9a7c4;--faint:#77759a;
@@ -622,6 +779,11 @@ dialog details{background:var(--card2)}
 .wpm span{display:block;height:100%;background:var(--orange)}
 .chipsrow{display:flex;flex-wrap:wrap;gap:2px}
 .ov tr.planrow td{background:rgba(106,167,255,.06)}
+.dayplan{border-left:3px solid var(--lime);padding-left:10px}
+.rbp{padding:4px 0 10px}.rbp+.rbp,details .rbp{border-top:1px solid var(--line);padding-top:12px;margin-top:6px}
+.rbh{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}.rbh b{font:700 19px 'Fira Sans Extra Condensed'}
+.rbm{display:grid;gap:6px}.rbm .lbl{display:inline-block;width:42px;font:700 11px 'Fira Sans';letter-spacing:1px}
+.lbl.o{color:var(--red)}.lbl.n{color:var(--green)}.lead2{color:#fff;font-size:16px;margin:0 0 10px}
 .ptab.mybtn{margin-left:auto;color:#fff}
 .showing{font-size:15px;color:var(--muted);margin:-6px 0 6px}.showing b{color:var(--lime)}
 .lnk2{background:none;border:0;color:var(--blue);font:inherit;cursor:pointer;padding:0 2px;text-decoration:underline}
@@ -953,6 +1115,7 @@ def render(date):
 </div><div class="side">
 <h4>Trades</h4>{''.join(tcards) or '<p>No trades.</p>'}
 <p class="capline">🧢 <b>{esc(surname(v['captain']))}</b> captain{(' · vice ' + esc(surname(v['vice']))) if v.get('vice') else ''}. {esc(v.get('captain_note', ''))}</p>
+{(lambda dp: f'<p class="capline dayplan">🔁 <b>Day plan:</b> {esc(dp)}</p>' if dp else '')(v.get('captain_plan') or day_plan(v, D))}
 <details{' open' if v.get('recommended') else ''}><summary>Why this squad</summary><ul>{''.join(f'<li>{esc(x)}</li>' for x in v.get('reasoning', []))}</ul></details>
 {('<details><summary>Change the plan if…</summary><ul>' + ''.join(f'<li>{esc(x)}</li>' for x in v.get('cancel_if', [])) + '</ul></details>') if v.get('cancel_if') else ''}
 </div></div></div>""")
@@ -960,6 +1123,10 @@ def render(date):
     # ---- 60-second plan from the recommended variation
     rv, rst, rsix, rbench, rcc, rtotal, rmc = next((b for b in built if b[0].get("recommended")), built[0])
     now = current_sim(D, target)
+    try:
+        write_predictions(date, D, built, json.loads((ROOT / "my_team.json").read_text(encoding="utf-8")), now)
+    except Exception as e:
+        print("! predictions not saved:", e)
     tl = "".join(f'<div><span class="o">▼ {esc(split_name(t["out"])[0])}</span> → <span class="n">▲ {esc(split_name(t["in"])[0])}</span>'
                  f'<span class="cr">{esc(t.get("credits", ""))}</span></div>' for t in rv.get("trades", []))
     plan = f"""<section><div class="card plan"><div class="kick">Your plan in 60 seconds · Variation {esc(rv['key'])}</div>
@@ -1029,8 +1196,9 @@ def render(date):
 <section class="two"><div><h2>🚨 Alerts</h2><div class="alerts">{alerts or '<p>None.</p>'}</div></div>
 <div><h2>🗞 Locker room &amp; rumours</h2><div class="rum">{rum_html or '<p>Nothing notable.</p>'}</div></div></section>
 <section><h2>📋 Your players</h2><div class="players">{players}</div></section>
-<section class="two"><div><h2>🔭 Watchlist</h2><ul class="watch">{watch}</ul></div>
-<div><h2>📊 Last round</h2><div class="card" style="color:var(--muted)">{esc(R.get('review', ''))}</div></div></section>
+{rebuild_html(date, D, R)}
+<section class="two"><div><h2>🔭 Watchlist</h2><ul class="watch">{watch}</ul></div>{upside_html(D)}</section>
+<section><h2>📊 Last round</h2>{scorecard_html()}<div class="card" style="color:var(--muted);margin-top:10px">{esc(R.get('review', ''))}</div></section>
 </div>
 <div class="pg" id="pg-sched">{schedule_html}</div>
 <footer>Chance / expected / top-10% come from 6,000 simulated rounds: each player's range from the site's P10–P90 band, players in the same game rise and fall together, win bonus and coach score follow the simulated result.<br>

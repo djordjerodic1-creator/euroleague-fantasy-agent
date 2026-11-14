@@ -1,0 +1,216 @@
+{
+ "rounds": {
+  "11": {
+   "round": 11,
+   "report_date": "2026-11-12 (backfill: your team + projections only)",
+   "variations": [],
+   "team": {
+    "total": 168.2,
+    "coach_pts": 20,
+    "players": [
+     {
+      "name": "Mouhamed Faye",
+      "pir": 19,
+      "mult": 1.0,
+      "pts": 20.9
+     },
+     {
+      "name": "Dejan Davidovac",
+      "pir": 8,
+      "mult": 1.0,
+      "pts": 8.0
+     },
+     {
+      "name": "Sasha Vezenkov",
+      "pir": 26,
+      "mult": 2.0,
+      "pts": 57.2
+     },
+     {
+      "name": "Andres Feliz",
+      "pir": 19,
+      "mult": 1.0,
+      "pts": 20.9
+     },
+     {
+      "name": "Yam Madar",
+      "pir": 11,
+      "mult": 1.0,
+      "pts": 12.1
+     },
+     {
+      "name": "Stefan Joksimovic",
+      "pir": 2,
+      "mult": 1.0,
+      "pts": 2.0
+     },
+     {
+      "name": "Aliou Diarra",
+      "pir": 11,
+      "mult": 0.5,
+      "pts": 5.5
+     },
+     {
+      "name": "Kendrick Nunn",
+      "pir": 19,
+      "mult": 0.5,
+      "pts": 9.5
+     },
+     {
+      "name": "Collin Malcolm",
+      "pir": 22,
+      "mult": 0.5,
+      "pts": 12.1
+     },
+     {
+      "name": "Dario Brizuela",
+      "pir": 0,
+      "mult": 0.5,
+      "pts": 0.0
+     }
+    ],
+    "captain": "Sasha Vezenkov",
+    "captain_pir": 26,
+    "best_captain": "Sasha Vezenkov",
+    "best_captain_pir": 26,
+    "source": "user screenshot 12 Nov"
+   },
+   "projections": {
+    "n": 172,
+    "bias": 0.66,
+    "mae": 5.41,
+    "inside_p10_p90": 0.826,
+    "below_p10": 15,
+    "above_p90": 15,
+    "by_tier": {
+     "15+": {
+      "n": 9,
+      "bias": 3.23
+     },
+     "8-15": {
+      "n": 75,
+      "bias": -0.57
+     },
+     "<8": {
+      "n": 88,
+      "bias": 1.45
+     }
+    },
+    "upside_misses": [
+     {
+      "name": "Tremont Waters",
+      "t": "ASV",
+      "price": 9.7,
+      "owned": 0.3,
+      "proj": 6.5,
+      "pir": 30,
+      "min": 24.9,
+      "kind": "upside"
+     },
+     {
+      "name": "Evan Fournier",
+      "t": "OLY",
+      "price": 8.4,
+      "owned": 4.0,
+      "proj": 8.4,
+      "pir": 28,
+      "min": 26.6,
+      "kind": "upside"
+     },
+     {
+      "name": "Jonas Valanciunas",
+      "t": "ZAL",
+      "price": 16.9,
+      "owned": 16.0,
+      "proj": 16.8,
+      "pir": 36,
+      "min": 25.2,
+      "kind": "upside"
+     },
+     {
+      "name": "Timothe Luwawu-Cabarrot",
+      "t": "MAD",
+      "price": 9.1,
+      "owned": 3.0,
+      "proj": 6.7,
+      "pir": 24,
+      "min": 17.2,
+      "kind": "upside"
+     },
+     {
+      "name": "Jordan Loyd",
+      "t": "IST",
+      "price": 9.4,
+      "owned": 0.8,
+      "proj": 10.9,
+      "pir": 28,
+      "min": 24.9,
+      "kind": "upside"
+     },
+     {
+      "name": "Gabriele Procida",
+      "t": "MAD",
+      "price": 4.5,
+      "owned": 11.0,
+      "proj": 7.7,
+      "pir": 22,
+      "min": 22.4,
+      "kind": "upside"
+     },
+     {
+      "name": "Patrick Baldwin",
+      "t": "RED",
+      "price": 8.9,
+      "owned": 0.4,
+      "proj": 0.9,
+      "pir": 12,
+      "min": 15.0,
+      "kind": "upside"
+     }
+    ],
+    "downside_misses": [
+     {
+      "name": "Moses Wright",
+      "t": "MIL",
+      "price": 13.7,
+      "owned": 4.0,
+      "proj": 13.3,
+      "pir": -2,
+      "min": 18.3,
+      "kind": "downside"
+     },
+     {
+      "name": "Jared Butler",
+      "t": "RED",
+      "price": 8.9,
+      "owned": 4.0,
+      "proj": 7.6,
+      "pir": -6,
+      "min": 12.1,
+      "kind": "downside"
+     },
+     {
+      "name": "Damian Jones",
+      "t": "MAD",
+      "price": 8.5,
+      "owned": 0.4,
+      "proj": 9.1,
+      "pir": -4,
+      "min": 4.5,
+      "kind": "downside"
+     },
+     {
+      "name": "Umoja Gibson",
+      "t": "BAR",
+      "price": 10.7,
+      "owned": 0.3,
+      "proj": 2.2,
+      "pir": -4,
+      "min": 11.5,
+      "kind": "downside"
+     }
+    ]
+   }
+  }
+ }
+}

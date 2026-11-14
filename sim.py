@@ -144,6 +144,7 @@ def optimise(D, team, coach_prices, target, trades=4, beam=80, per_pos=30):
         lst = [p for p in pool if p["pos"] == pos]
         cands += sorted(lst, key=lambda p: -(p["_m"] + 1.28 * p["_s"]))[:per_pos]
         cands += sorted([p for p in lst if p["price"] <= 6.5], key=lambda p: -p["_m"] / p["price"])[:8]
+        cands += [p for p in lst if p.get("rj")]  # role just grew: projections tend to lag
     seen, uniq = set(), []
     for p in cands:
         if p["name"] not in seen:
@@ -214,6 +215,210 @@ def optimise(D, team, coach_prices, target, trades=4, beam=80, per_pos=30):
     return {"target": target, "current_best_lineup": base, "plans": out[:10]}
 
 
+# ------------------------------------------------------------------ unlimited-window rebuild planner
+from statistics import NormalDist as _ND
+
+
+def window_round(D):
+    """First round within the next 3 whose trades are unlimited beforehand (the rebuild window), else None."""
+    cal = D.digest.get("calendar", {})
+    for r in range(D.target, D.target + 4):
+        c = cal.get(str(r)) or {}
+        if c.get("unlimited_before"):
+            return r, c.get("unlimited_window")
+    return None, None
+
+
+def round_games(sched, rd):
+    """Per-team game info for a future round from the site schedule (win % and projected score)."""
+    out = {}
+    # rounds the site hasn't priced yet: estimate from season point difference per game + home court
+    net = {r[1]: (r[4] - r[5]) / max(1, r[2] + r[3]) for r in sched.get("standings", [])}
+    for g in sched.get("games", []):
+        if g["rd"] != rd or g.get("res"):
+            continue
+        if g.get("pw") is None:
+            if g["h"] not in net or g["a"] not in net:
+                continue
+            m = (net[g["h"]] - net[g["a"]]) * 0.6 + 3.0
+            pw = min(max(_ND().cdf(m / GAME_SD), 0.01), 0.99)
+        else:
+            pw = min(max(g["pw"], 0.01), 0.99)
+            m = (g["proj"][0] - g["proj"][1]) if g.get("proj") else GAME_SD * _ND().inv_cdf(pw)
+        if g.get("mkt"):  # bookmaker spread: 70% market, 30% model
+            m = 0.7 * (-g["mkt"]["spread"]) + 0.3 * m
+            pw = min(max(_ND().cdf(m / GAME_SD), 0.01), 0.99)
+        out[g["h"]] = {"opp": g["a"], "home": True, "pwin": pw, "margin": m}
+        out[g["a"]] = {"opp": g["h"], "home": False, "pwin": 1 - pw, "margin": -m}
+    return out
+
+
+def prep_round(p, rd):
+    e = next((x for x in (p.get("nx") or []) + (p.get("nxe") or []) if x[0] == rd), None)
+    q = dict(p)
+    q["proj"] = e[3] if e else 0.0
+    q["_m"] = q["proj"]
+    q["_s"] = spread(q) if q["proj"] > 0 else 0.5
+    return q
+
+
+def rebuild(D, team, coach_prices, target, sched, rounds, n_plans=3):
+    """Best 10 + coach from scratch for an unlimited trade window, judged over several rounds:
+    objective = average P(round >= target) across `rounds` (analytic), expected points as tie-break."""
+    from render import coach_code_of
+    RG = {rd: round_games(sched, rd) for rd in rounds}
+    cur = [D.player(n) for n in team["players"]]
+    cur_coach = coach_code_of(team.get("coach", ""))
+    budget = round(sum(p.get("price") or 0 for p in cur) + coach_prices.get(cur_coach, 0) + float(team.get("bank") or 0), 1)
+    if team.get("total_budget") and team.get("bank_known", True):
+        budget = float(team["total_budget"])  # the in-app figure the user confirmed beats site prices
+
+    pool = {}
+    for q in D.pool:
+        p = D.player(q["name"])
+        if p.get("missing") or not p.get("price") or p.get("status") in ("injured", "out"):
+            continue
+        pool[p["name"]] = p
+    R = {(n, rd): prep_round(p, rd) for n, p in pool.items() for rd in rounds}
+    ceil = {n: sum(R[(n, rd)]["_m"] + 1.28 * R[(n, rd)]["_s"] for rd in rounds) / len(rounds) for n in pool}
+    mean_ = {n: sum(R[(n, rd)]["_m"] for rd in rounds) / len(rounds) for n in pool}
+    cands = {}
+    for pos in POS:
+        lst = [n for n in pool if pool[n]["pos"] == pos]
+        top = sorted(lst, key=lambda n: -ceil[n])[:26]
+        val = sorted([n for n in lst if pool[n]["price"] <= 7.5], key=lambda n: -mean_[n] / pool[n]["price"])[:10]
+        rj = [n for n in lst if pool[n].get("rj")][:6]
+        cands[pos] = list(dict.fromkeys(top + val + rj))
+    price = {n: pool[n]["price"] for n in pool}
+
+    def score(sq, c):
+        ps, ms = [], []
+        for rd in rounds:
+            bl = best_lineup([R[(n, rd)] for n in sq], RG[rd].get(c), target)
+            if not bl:
+                return -1.0, 0.0
+            ps.append(bl["p"])
+            ms.append(bl["mean"])
+        return sum(ps) / len(ps), sum(ms) / len(ms)
+
+    obj = lambda s: s[0] + 0.0015 * s[1]
+
+    def ok(sq, cap):
+        if sum(price[n] for n in sq) > cap + 1e-6:
+            return False
+        cnt = {}
+        for n in sq:
+            cnt[pool[n]["t"]] = cnt.get(pool[n]["t"], 0) + 1
+        return max(cnt.values()) <= 6
+
+    def climb(sq, c, cap):
+        sq = list(sq)
+        best = obj(score(sq, c))
+        for _ in range(40):
+            improved = None
+            # 1-swaps
+            for i, out in enumerate(sq):
+                for inn in cands[pool[out]["pos"]]:
+                    if inn in sq:
+                        continue
+                    nsq = sq[:i] + [inn] + sq[i + 1:]
+                    if not ok(nsq, cap):
+                        continue
+                    v = obj(score(nsq, c))
+                    if v > best + 1e-9 and (not improved or v > improved[0]):
+                        improved = (v, nsq)
+            if not improved:
+                # 2-swaps: one upgrade funded by one downgrade
+                for i, o1 in enumerate(sq):
+                    ups = [n for n in sorted(cands[pool[o1]["pos"]], key=lambda n: -ceil[n])[:12] if n not in sq and price[n] > price[o1]]
+                    for a in ups:
+                        for j, o2 in enumerate(sq):
+                            if j == i:
+                                continue
+                            downs = [n for n in sorted(cands[pool[o2]["pos"]], key=lambda n: price[n])[:14] if n not in sq and n != a and price[n] < price[o2]]
+                            for b in downs:
+                                nsq = list(sq)
+                                nsq[i], nsq[j] = a, b
+                                if not ok(nsq, cap):
+                                    continue
+                                v = obj(score(nsq, c))
+                                if v > best + 1e-9 and (not improved or v > improved[0]):
+                                    improved = (v, nsq)
+            if not improved:
+                break
+            best, sq = improved
+        return sq, best
+
+    def repair(sq, c, cap):
+        sq = list(sq)
+        while not ok(sq, cap):
+            opts = []
+            for i, out in enumerate(sq):
+                for inn in cands[pool[out]["pos"]]:
+                    if inn in sq or price[inn] >= price[out]:
+                        continue
+                    nsq = sq[:i] + [inn] + sq[i + 1:]
+                    saved = price[out] - price[inn]
+                    opts.append(((obj(score(sq, c)) - obj(score(nsq, c))) / saved, nsq))
+            if not opts:
+                return None
+            sq = min(opts, key=lambda x: x[0])[1]
+        return sq
+
+    def greedy():
+        sq = []
+        for pos, k in zip(POS, (4, 4, 2)):
+            sq += sorted(cands[pos], key=lambda n: -ceil[n])[:k]
+        return sq
+
+    # coaches worth trying: best average coach points over the rounds
+    def coach_mean(c):
+        return sum(coach_moments(RG[rd].get(c))[0] for rd in rounds) / len(rounds)
+    coaches = sorted(coach_prices, key=lambda c: -coach_mean(c))[:4]
+    if cur_coach and cur_coach not in coaches:
+        coaches.append(cur_coach)
+
+    results = []
+    cur_names = [p["name"] for p in cur if not p.get("missing") and p["name"] in pool]
+    for c in coaches:
+        cap = budget - coach_prices.get(c, 0)
+        starts = [greedy()]
+        if len(cur_names) == 10:
+            starts.append(cur_names)
+        for st in starts:
+            sq = repair(st, c, cap)
+            if not sq:
+                continue
+            sq, v = climb(sq, c, cap)
+            results.append((v, tuple(sorted(sq)), c))
+    uniq = {}
+    for v, sq, c in sorted(results, reverse=True):
+        uniq.setdefault((sq, c), v)
+    plans = []
+    for (sq, c), v in list(uniq.items())[:n_plans]:
+        per = []
+        for rd in rounds:
+            bl = best_lineup([R[(n, rd)] for n in sq], RG[rd].get(c), target)
+            mc = simulate(bl["starters"], bl["sixth"], bl["bench"], bl["captain"], c, RG[rd], target)
+            per.append({"rd": rd, "formation": bl["formation"], "starters": [p["name"] for p in bl["starters"]],
+                        "sixth": bl["sixth"]["name"], "bench": [p["name"] for p in bl["bench"]],
+                        "captain": bl["captain"]["name"], **mc})
+        cost = round(sum(price[n] for n in sq) + coach_prices.get(c, 0), 1)
+        plans.append({"players": list(sq), "coach": c, "cost": cost, "bank_after": round(budget - cost, 1),
+                      "sell": [n for n in cur_names if n not in sq], "buy": [n for n in sq if n not in cur_names],
+                      "coach_change": c != cur_coach,
+                      "avg_p_target": round(sum(x["p_target"] for x in per) / len(per), 3),
+                      "avg_mean": round(sum(x["mean"] for x in per) / len(per), 1), "rounds": per})
+    plans.sort(key=lambda p: (-p["avg_p_target"], -p["avg_mean"]))
+    # the current squad over the same rounds, for comparison
+    base = []
+    if len(cur_names) == 10:
+        for rd in rounds:
+            bl = best_lineup([R[(n, rd)] for n in cur_names], RG[rd].get(cur_coach), target)
+            base.append({"rd": rd, **simulate(bl["starters"], bl["sixth"], bl["bench"], bl["captain"], cur_coach, RG[rd], target)})
+    return {"budget": budget, "rounds": rounds, "current": base, "plans": plans}
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     from render import Data
@@ -230,6 +435,25 @@ def main():
     for i, r in enumerate(res["plans"], 1):
         t = "; ".join(f"{x['out']}->{x['in']}" for x in r["trades"])
         print(f"{i:2}. P {r['p_target']:.1%}  mean {r['mean']}  p90 {r['p90']}  bank {r['bank_after']}  cap {r['captain']}  | {t}")
+
+    # unlimited trade window coming up: plan the full rebuild over the window round and the two after it
+    W, win = window_round(D)
+    if "--rebuild" in sys.argv:
+        W = int(sys.argv[sys.argv.index("--rebuild") + 1])
+    if W:
+        from render import load_schedule
+        rb = rebuild(D, team, coach_prices, target, load_schedule(date), [W, W + 1, W + 2])
+        rb.update({"window_before": W, "window": win})
+        (ROOT / "data" / date / "rebuild.json").write_text(json.dumps(rb, ensure_ascii=False, indent=1), encoding="utf-8")
+        cur = rb["current"]
+        print()
+        print(f"Unlimited window before R{W} ({win}). Budget {rb['budget']}. Rounds {rb['rounds']}.")
+        if cur:
+            print("  current squad: " + " · ".join(f"R{x['rd']} P {x['p_target']:.1%} mean {x['mean']}" for x in cur))
+        for i, pl in enumerate(rb["plans"], 1):
+            print(f" {i}. avg P {pl['avg_p_target']:.1%} mean {pl['avg_mean']} cost {pl['cost']} bank {pl['bank_after']} coach {pl['coach']}")
+            print(f"    sell {pl['sell']}")
+            print(f"    buy  {pl['buy']}")
 
 
 if __name__ == "__main__":

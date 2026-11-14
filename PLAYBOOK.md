@@ -103,10 +103,13 @@ The user wants **big rounds, not safe rounds**. Rank every decision by its effec
 The coach costs a trade like any player, so change him only when the edge is clear.
 
 ## Research duties every run (use WebSearch / WebFetch, cite briefly)
-The site covers domestic games only for the ABA League. For **every player on the user's team**,
-and for every player you recommend buying, check:
+For **every player on the user's team**, and for every player you recommend buying, check:
 1. **Their last domestic-league game**: minutes, PIR or efficiency, DNP or not, any injury exit.
-   Try at least 2 targeted searches before writing "unverified". Good sources by league:
+   **Already done for you** when the digest has a "Domestic last game (auto, ACB/GBL)" line (official box
+   scores for Barcelona, Baskonia, Real Madrid, Valencia, Olympiacos, Panathinaikos) or for ABA clubs
+   (Partizan, Zvezda, Dubai: the domestic alerts section). Use those numbers and tag them
+   `[dom: ACB <date> <min>' PIR <n>, acb.com]`; only explain *why* (rest, blowout, foul trouble) if it matters.
+   For the other leagues, try at least 2 targeted searches before writing "unverified". Good sources by league:
    - ACB (Spain): acb.com box scores ("<player> acb estadísticas jornada"), gigantesdelbasket.com
    - GBL (Greece): esake.gr, sport24.gr, gazzetta.gr ("<player> Basket League βαθμολογία")
    - BSL (Turkey): tbf.org.tr, basketbolsuperligi.com, fanatik / ntvspor
@@ -137,6 +140,30 @@ the report renders. Minimum per run:
   lines (the site's official game log): use them, don't search for them.
 - `review` ends with one line: "Research: N searches, M pages read, K players unverified."
 If you can't do the research (search tool failing), say so as the first alert, with level "high".
+
+## Upside, rebuilds, day plans, scorecard and betting lines (tools in the digest)
+- **Cheap upside watch** (digest section and `role_jumps` in digest.json): players ≤ 9 credits whose role just
+  grew (minutes jump, or a same-position teammate who plays real minutes is out). The projections lag these
+  changes; last season's biggest misses were exactly this. **Every variation must consider them for the 6th-man
+  and bench slots**; say in the reasoning which one you took or why none fits.
+- **Unlimited window coming** (`data/<date>/rebuild.json`, written by sim.py when one of the next rounds has
+  unlimited trades before it): the best 10 + coach from scratch for the total budget, judged over the window
+  round and the two after it. The report page shows it. Add `window_plan` to the report JSON: 2–3 sentences
+  on which rebuild you'd make and why, the coach/injury/price judgement the model can't see, and what to buy
+  *before* the window if a price rise is coming. Until the window opens, the 4-trade variations still apply.
+- **Captain by day** (double weeks and two-day rounds): the page computes a day plan for each variation (captain
+  an early starter, switch to a later-day starter if he has a quiet night, with the PIR threshold). You can
+  override it with a `captain_plan` string per variation when you know better (minutes risk, back-to-back load).
+  Remember: the armband can only move to a starter who hasn't played yet.
+- **Scorecard** (`data/scorecard.json`, run `python3 scorecard.py <date>` after the collector): for each
+  finished round, the real score of each variation and of the user's team, the captain against the best
+  possible captain, and projection accuracy (bias by price tier, the biggest upside/downside surprises).
+  `review` must start from it ("R12: Variation A scored 171 vs 151 predicted, captain Vezenkov 24…") and say
+  what you learn. If the same miss repeats over 2+ rounds (e.g. bench bigs under-projected, captain picks
+  losing to the best option), change how you pick and write it in the review.
+- **Betting lines**: if `ODDS_API_KEY` is set, schedule games carry `mkt` (bookmaker spread and total) and
+  the page's margins and coach picks blend 70% market / 30% site model. Without it, for the coach pick and for
+  any "blowout rest" call, check one bookmaker line with a quick search and say if it disagrees with the site.
 
 ## Re-runs (on-demand runs)
 A manual run on a day that already has a report is a request for a **fresh** report, never a no-op.
@@ -205,7 +232,7 @@ Copy the shape of the latest existing `reports/*.json` exactly. Fields:
   `bank_after`, `formation` (one of 2-2-1, 1-2-2, 2-1-2, 1-3-1, 3-1-1), `starters` (5 names
   matching the formation's G-F-C counts), `sixth`, `bench` (4 names), `coach` (club name),
   `captain`, `vice`, `captain_note` (1–2 sentences), `reasoning` (4–6 short bullets, one idea each, mixing the coach lens and the fantasy lens),
-  `cancel_if` (1–3 triggers).
+  `cancel_if` (1–3 triggers), optional `captain_plan` (one sentence, overrides the computed day plan).
   Use full player names as on basketballstats.eu.
 - `alerts` [{`level`: "high" or "", `text`}]
 - `rumours` [{`kind`: confirmed/report/rumour, `team`, `text`, `impact`, `source` URL or ""}]

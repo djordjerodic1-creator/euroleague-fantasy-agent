@@ -288,6 +288,99 @@ def sync_page_team():
     print(f"Page team: applied the team saved on the page at {upd}")
 
 
+ODDS_ALIASES = {"olympiacos": "OLY", "panathinaikos": "PAN", "real madrid": "MAD", "barcelona": "BAR", "fc barcelona": "BAR",
+                "fenerbahce": "ULK", "anadolu efes": "IST", "efes": "IST", "zalgiris": "ZAL", "bayern": "MUN",
+                "maccabi": "TEL", "hapoel": "HTA", "crvena": "RED", "zvezda": "RED", "red star": "RED", "partizan": "PAR",
+                "paris": "PRS", "asvel": "ASV", "villeurbanne": "ASV", "virtus": "VIR", "bologna": "VIR", "milano": "MIL",
+                "milan": "MIL", "olimpia": "MIL", "baskonia": "BAS", "vitoria": "BAS", "valencia": "PAM", "dubai": "DUB",
+                "besiktas": "BES"}
+
+
+def _odds_code(name):
+    n = norm(name)
+    for k, c in ODDS_ALIASES.items():
+        if k in n:
+            return c
+    return None
+
+
+def add_market_lines(schedule):
+    """Bookmaker spread and total for upcoming games (The Odds API), if ODDS_API_KEY is set. Adds g['mkt']."""
+    import os
+    import statistics
+    key = os.environ.get("ODDS_API_KEY")
+    if not key:
+        return "no ODDS_API_KEY"
+    url = ("https://api.the-odds-api.com/v4/sports/basketball_euroleague/odds?regions=eu,uk&markets=spreads,totals"
+           f"&oddsFormat=decimal&apiKey={key}")
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "elf-analyst"}), timeout=25) as r:
+            events = json.loads(r.read().decode("utf-8"))
+    except Exception as e:
+        return f"odds fetch failed: {e}"
+    n = 0
+    for ev in events:
+        h, a = _odds_code(ev.get("home_team", "")), _odds_code(ev.get("away_team", ""))
+        if not (h and a):
+            continue
+        spreads, totals = [], []
+        for bk in ev.get("bookmakers", []):
+            for mk in bk.get("markets", []):
+                for o in mk.get("outcomes", []):
+                    if mk["key"] == "spreads" and _odds_code(o.get("name", "")) == h and o.get("point") is not None:
+                        spreads.append(o["point"])
+                    if mk["key"] == "totals" and o.get("name") == "Over" and o.get("point") is not None:
+                        totals.append(o["point"])
+        g = next((g for g in schedule if g["h"] == h and g["a"] == a and not g.get("res")), None)
+        if g and spreads:
+            g["mkt"] = {"spread": statistics.median(spreads), "total": statistics.median(totals) if totals else None,
+                        "books": len(spreads)}
+            n += 1
+    return f"market lines for {n} games"
+
+
+def role_jumps(pool, max_price=9.0, top=12):
+    """Cheap players whose role just grew: minutes up over the last 2 games, or a same-position teammate
+    who plays real minutes is injured/out. These are where the projections miss upside most often."""
+    out = {}
+    by_team = {}
+    for p in pool.values():
+        by_team.setdefault(p.get("t"), []).append(p)
+    for p in pool.values():
+        g = p.get("gl") or []
+        if len(g) < 3 or (p.get("price") or 99) > max_price or p.get("status") in ("injured", "out"):
+            continue
+        last2, prior = g[-2:], g[-8:-2]
+        m2 = sum(r[7] for r in last2) / 2
+        mp = sum(r[7] for r in prior) / len(prior) if prior else 0
+        pir2 = sum(r[15] for r in last2) / 2
+        tot_min = sum(r[7] for r in g) or 1
+        ppm = sum(r[15] for r in g) / tot_min
+        reasons = []
+        if m2 >= 18 and m2 >= mp + 6:
+            reasons.append(f"minutes {mp:.0f} → {m2:.0f} over the last 2 games")
+        for q in by_team.get(p.get("t"), []):
+            if q is p or q.get("pos") != p.get("pos") or q.get("status") not in ("injured", "out"):
+                continue
+            qg = q.get("gl") or []
+            qm = sum(r[7] for r in qg[-6:]) / len(qg[-6:]) if qg else 0
+            if qm >= 18:
+                reasons.append(f"{q['name']} ({q.get('status')}) was playing {qm:.0f} min at {q.get('pos', '').lower()}")
+        if not reasons:
+            continue
+        est = round(ppm * max(m2, mp), 1)
+        out[p["name"]] = {"name": p["name"], "t": p.get("t"), "pos": p.get("pos"), "price": p.get("price"),
+                          "owned": p.get("owned"), "min_last2": round(m2, 1), "min_before": round(mp, 1),
+                          "pir_last2": pir2, "pir_per_min": round(ppm, 2), "est_pir_if_role_holds": est,
+                          "reasons": reasons}
+    ranked = sorted(out.values(), key=lambda x: -x["est_pir_if_role_holds"])[:top]
+    for r in ranked:
+        for q in pool.values():
+            if q["name"] == r["name"]:
+                q["rj"] = "; ".join(r["reasons"])
+    return ranked
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     OUT.mkdir(parents=True, exist_ok=True)
@@ -420,11 +513,22 @@ def main():
                                    f"{sum(r[7] for r in g) / 60 / len(g):.1f} min")
         else:
             p["season_summary"] = "no data"
+    rj = role_jumps(pool)
+    # domestic-league last game straight from league sites (ACB, Greek league); ABA comes from the site's alerts
+    print("Fetching domestic box scores (ACB, GBL)…")
+    import domestic
+    dom, dom_err = domestic.collect(pool.values(), TODAY.year if TODAY.month >= 8 else TODAY.year - 1)
+    for p in pool.values():
+        if p["name"] in dom:
+            p["dom"] = dom[p["name"]]
+    for e in dom_err:
+        print("! domestic:", e)
 
     # ----- next-round game previews (matchup / coach view)
     print(f"Fetching Round {target} game previews…")
     sched_page = get("/en/schedule/")
     schedule = parse_schedule(sched_page)
+    print("Betting lines:", add_market_lines(schedule))
     (OUT / "schedule.json").write_text(json.dumps({"games": schedule, "standings": standings}, ensure_ascii=False),
                                        encoding="utf-8")
     links = set(re.findall(rf'href="(/en/game/[a-z0-9-]+-{target}/)"', sched_page + hub + get("/en/")))
@@ -475,10 +579,10 @@ def main():
                      for r in range(target - 1, target + 4) if r in rounds},
         "team": {"players": [p["name"] for p in mine], "unmatched": missing, "coach": coach_code,
                  "captain": team_cfg.get("captain"), "cost": round(cost, 1), "bank": bank, "club_count": club_count},
-        "swaps": swaps, "previews": previews,
+        "swaps": swaps, "previews": previews, "role_jumps": rj,
     }
     keep = ("name", "slug", "s", "c", "t", "pos", "price", "status", "owned", "l3", "l5", "l10", "m3", "m10",
-            "nx", "nxe", "sig", "p10", "p90", "pwin", "proj_price_change", "price_d3", "season_summary", "g5", "gl", "bio", "since_start", "pirpm", "start", "grade")
+            "nx", "nxe", "sig", "p10", "p90", "pwin", "proj_price_change", "price_d3", "season_summary", "g5", "gl", "bio", "since_start", "pirpm", "start", "grade", "rj", "dom")
     slim = [{k: p.get(k) for k in keep if p.get(k) is not None} for p in pool.values()]
     (OUT / "pool.json").write_text(json.dumps(slim, ensure_ascii=False), encoding="utf-8")
     (OUT / "digest.json").write_text(json.dumps({**digest, "roster": mine}, ensure_ascii=False, default=str, indent=1),
@@ -514,6 +618,11 @@ def write_markdown(dg, mine, shortlists, coaches, news_by, inj_txt, pool, news):
               f"- Status: **{p.get('status', '?')}** · site signal {p.get('sig')} ({', '.join(p.get('why') or [])}) · grade {p.get('grade')} · data fresh today: {p.get('fresh')}",
               f"- Form PIR L3/L5/L10: {p.get('l3')}/{p.get('l5')}/{p.get('l10')} · minutes L3 {p.get('m3')} vs L10 {p.get('m10')} · PIR/min {p.get('pirpm')} · starts {int((p.get('start') or 0)*100)}%",
               f"- Season: {p.get('season_summary')}",
+              (f"- Domestic last game (auto, {p['dom']['league']}): {p['dom']['date']} {p['dom']['opp']}: {p['dom']['min']}' "
+               f"{p['dom']['pts']} pts {p['dom']['reb']} reb {p['dom']['ast']} ast, league PIR {p['dom']['pir']}"
+               f"{'' if p['dom'].get('start', True) else ' (bench)'} · {p['dom']['url']}" if p.get("dom") else
+               ("- Domestic last game: ABA League, see the domestic alerts section" if p.get("t") in ("PAR", "RED", "DUB")
+                else "- Domestic last game: not auto-covered (research it)")),
               "- Last 5 games: " + (" · ".join(
                   f"R{x['rd']} {'vs' if x['home'] else '@'} {x['opp']} {x['res']}: {x['pir']} PIR, {x['min']} min, "
                   f"{x['pts']}p {x['reb']}r {x['ast']}a{' (start)' if x['start'] else ' (bench)'}"
@@ -554,6 +663,11 @@ def write_markdown(dg, mine, shortlists, coaches, news_by, inj_txt, pool, news):
     for it in news.get("items", []):
         if str(it.get("kind", "")).startswith("dom_"):
             L.append(f"- {it['n']} ({it['t']}) {it['kind']} {json.dumps(it.get('detail'), ensure_ascii=False)}")
+    L += ["", "## Cheap upside watch: role just grew (price ≤ 9)",
+          "Projections lag role changes; these are the likeliest upside misses. Consider them for the 6th-man and bench slots."]
+    for r in dg.get("role_jumps", []):
+        L.append(f"- {r['name']} ({r['t']}, {r['pos']}, {r['price']} cr, owned {r['owned']}%): {'; '.join(r['reasons'])} · "
+                 f"PIR last 2: {r['pir_last2']} · {r['pir_per_min']} PIR/min → ~{r['est_pir_if_role_holds']} if the role holds")
     L += ["", "## Minutes / role changes flagged by site model"]
     for it in news.get("items", []):
         if it.get("kind") in ("minutes_up", "minutes_drop", "return", "transfer", "projection_change"):

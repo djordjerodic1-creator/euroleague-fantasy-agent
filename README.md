@@ -33,3 +33,11 @@ Run manually: `python collect.py`, write `reports/<date>.json`, then `python ren
 - `firebase-web.json` holds the public web config and `owner_uid`. The collector copies the owner's saved team
   into `my_team.json` at the start of each run, so saving on the page is all it takes to update the analyst.
 - The AI advice (variations, trades, captain) is still written for the owner's team only.
+
+## Analysis tools
+| File | Role |
+|---|---|
+| `domestic.py` | Last domestic game from official box scores: Liga ACB (BAR, BAS, MAD, PAM) and Greek league (OLY, PAN). ABA comes from the site. |
+| `sim.py` | 4-trade optimiser for the next round, and the **rebuild planner** for unlimited trade windows (`data/<date>/rebuild.json`). |
+| `scorecard.py` | After each round: real score of each variation and your team, captain call, projection accuracy (`data/scorecard.json`). |
+| collector extras | Cheap upside watch (role jumps), optional bookmaker lines (`ODDS_API_KEY`, The Odds API free tier). |
