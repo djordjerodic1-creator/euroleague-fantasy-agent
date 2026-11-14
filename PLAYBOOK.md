@@ -198,10 +198,14 @@ says what changed since the earlier run, or "No change since HH:MM" with what yo
      so Variation A is not applied on top.
   3. Reset `inbox/team.md` to its template (keep everything above the `---`), and commit both
      files with the report. Say in the alerts what you applied.
-- **Trades already made for a round:** when the user says their trades for round R are done (or you apply
-  Variation A after R's deadline), set `trades_done_for_round: R` in `my_team.json`. The collector then targets
-  R+1 automatically (digest shows "planning R+1"), so the optimiser, previews and the report all move on together.
-  Don't write custom scripts to plan the next round; fix this field instead.
+- **Trades made before the deadline aren't final:** the user can undo and redo them in the app until the
+  round's first tip-off. When the user reports trades for round R, keep `round_start` in `my_team.json`: the
+  squad, coach and bank *before* R's first trade (set it once per round, never overwrite it with a later
+  squad). Until R starts, R stays the target and the optimiser plans all 4 trades from `round_start`. Write each
+  variation's `trades` relative to `round_start` as well: the page marks trades already made "✓ made" and
+  lists the made trades the plan drops as "↩ Undo your trade". If the user's trades are already the best
+  plan, say so plainly in the bottom line. After R starts, the calendar moves the target to R+1 by itself;
+  then drop `round_start` (or set it for R+1 when the user reports R+1 trades).
 - The bank is the number that matters most: squad value comes from current prices in the pool,
   so a price rise shows up on its own. A wrong bank makes every budget check wrong.
 - `bank_known: false` means the bank is a guess, so say so in the alerts.

@@ -56,5 +56,22 @@
     "Ousmane Diop": 4.8,
     "Coach Masiulis (ZAL)": 7.4
   },
-  "trades_done_for_round": 12
+  "round_start": {
+    "round": 12,
+    "players": [
+      "Mouhamed Faye",
+      "Dejan Davidovac",
+      "Sasha Vezenkov",
+      "Andres Feliz",
+      "Yam Madar",
+      "Stefan Joksimovic",
+      "Aliou Diarra",
+      "Kendrick Nunn",
+      "Collin Malcolm",
+      "Dario Brizuela"
+    ],
+    "coach": "Partizan",
+    "bank": 0.5,
+    "_note": "Squad before this round's trades. Trades can be changed until the deadline, so plans count all 4 trades from here."
+  }
 }

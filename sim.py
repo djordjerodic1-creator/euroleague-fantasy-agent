@@ -128,6 +128,11 @@ def prep(p):
 
 def optimise(D, team, coach_prices, target, trades=4, beam=80, per_pos=30):
     from render import coach_code_of  # local import to avoid a cycle at module load
+    team_now = team
+    rs = team.get("round_start") or {}
+    if rs.get("round") == D.target and rs.get("players"):
+        # trades already made this round can still be changed: plan all 4 trades from the pre-round squad
+        team = {**team, "players": rs["players"], "coach": rs.get("coach", team.get("coach")), "bank": rs.get("bank", team.get("bank"))}
     squad = [prep(D.player(n)) for n in team["players"]]
     coach = coach_code_of(team.get("coach", ""))
     bank = float(team.get("bank") or 0)
@@ -212,7 +217,19 @@ def optimise(D, team, coach_prices, target, trades=4, beam=80, per_pos=30):
     out.sort(key=lambda r: (-r["p_target"], -r["mean"]))
     base_bl = best_lineup(squad, games.get(coach), target)
     base = simulate(base_bl["starters"], base_bl["sixth"], base_bl["bench"], base_bl["captain"], coach, games, target)
-    return {"target": target, "current_best_lineup": base, "plans": out[:10]}
+    res = {"target": target, "current_best_lineup": base, "plans": out[:10]}
+    if rs.get("round") == D.target:
+        # the squad with the trades you've made so far, for comparison
+        now = [prep(D.player(n)) for n in team_now["players"]]
+        cc = coach_code_of(team_now.get("coach", ""))
+        bl = best_lineup(now, games.get(cc), target)
+        res["pre_round_squad"] = True
+        res["with_your_trades"] = {**simulate(bl["starters"], bl["sixth"], bl["bench"], bl["captain"], cc, games, target),
+                                   "captain": bl["captain"]["name"]}
+        mine = set(team_now["players"])
+        for pl in res["plans"]:
+            pl["kept_your_trades"] = sum(1 for t in pl["trades"] if t["in"] in mine or t["in"] == f"Coach {cc}")
+    return res
 
 
 # ------------------------------------------------------------------ unlimited-window rebuild planner
@@ -431,7 +448,11 @@ def main():
     res = optimise(D, team, coach_prices, target)
     (ROOT / "data" / date / "optimizer.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
     b = res["current_best_lineup"]
-    print(f"Target {target:.0f}. Current squad, best lineup: mean {b['mean']}, top-10% {b['p90']}, P(>=target) {b['p_target']:.1%}")
+    label = "Pre-round squad (before this round's trades)" if res.get("pre_round_squad") else "Current squad"
+    print(f"Target {target:.0f}. {label}, best lineup: mean {b['mean']}, top-10% {b['p90']}, P(>=target) {b['p_target']:.1%}")
+    if res.get("with_your_trades"):
+        w = res["with_your_trades"]
+        print(f"With the trades you've made: mean {w['mean']}, top-10% {w['p90']}, P(>=target) {w['p_target']:.1%} (captain {w['captain']})")
     for i, r in enumerate(res["plans"], 1):
         t = "; ".join(f"{x['out']}->{x['in']}" for x in r["trades"])
         print(f"{i:2}. P {r['p_target']:.1%}  mean {r['mean']}  p90 {r['p90']}  bank {r['bank_after']}  cap {r['captain']}  | {t}")

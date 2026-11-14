@@ -410,16 +410,12 @@ def main():
     rounds = parse_calendar(cal_txt)
     upcoming = [r for r, v in sorted(rounds.items()) if v["start"] and v["start"] > TODAY]
     target = upcoming[0] if upcoming else proj.get("round", 0) + 1
-    # your trades for that round are already made (you said so via /team, the inbox or the page):
-    # plan the next round instead, so the optimiser, previews and report all move on together
+    # trades can be redone until the first tip-off, so the round stays the target until it starts
+    # (then `upcoming` moves on by itself). Trades already made are judged against the pre-round squad.
     target_note = None
-    done = team_cfg.get("trades_done_for_round")
-    if done is None and team_cfg.get("trades_left_this_round") == 0 and team_cfg.get("round"):
-        done = team_cfg.get("round")
-    if done is not None and int(done) >= target and (target + 1) in rounds:
-        target_note = f"R{target} trades already made (my_team.json): planning R{target + 1}"
-        print("  " + target_note)
-        target += 1
+    rs = team_cfg.get("round_start") or {}
+    if rs.get("round") == target:
+        target_note = f"R{target} trades already made can still be changed until the deadline: planning from your pre-R{target} squad"
     in_progress = [r for r, v in rounds.items() if v["start"] and v["start"] <= TODAY <= v["end"]]
     if not prices:  # hub link missing (e.g. between rounds): use the latest published official prices page
         for r in range(target, max(target - 4, 0), -1):

@@ -10,7 +10,6 @@ Examples:
 - `sold Nunn, Diarra, Madar; bought Carlik Jones, Jekiri, Justin Robinson; coach Zalgiris; bank 0.2`
 - `captain Vezenkov, 6th man Feliz, bench Faye Davidovac Brizuela Joksimovic`
 - `did Variation A exactly, bank 0.4`
-- `R12 trades done` (the analyst then plans R13)
 
 Don't put your username, email or anything private here: the repo is public.
 

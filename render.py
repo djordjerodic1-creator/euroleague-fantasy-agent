@@ -782,6 +782,8 @@ dialog details{background:var(--card2)}
 .chipsrow{display:flex;flex-wrap:wrap;gap:2px}
 .ov tr.planrow td{background:rgba(106,167,255,.06)}
 .dayplan{border-left:3px solid var(--lime);padding-left:10px}
+.dn{color:var(--green);font-weight:700}.trade.done{border-color:rgba(61,220,132,.45)}.tl .dnrow{opacity:.8}
+.undo{color:var(--amber);font-weight:600}
 .rbp{padding:4px 0 10px}.rbp+.rbp,details .rbp{border-top:1px solid var(--line);padding-top:12px;margin-top:6px}
 .rbh{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}.rbh b{font:700 19px 'Fira Sans Extra Condensed'}
 .rbm{display:grid;gap:6px}.rbm .lbl{display:inline-block;width:42px;font:700 11px 'Fira Sans';letter-spacing:1px}
@@ -1061,6 +1063,44 @@ def deadline(D):
     return f"{g['date']} · {hh - 1:02d}:{mm:02d} CET"   # site times are Athens time (CET+1)
 
 
+def made_trades(D, team):
+    """Trades already made this round (pre-round squad vs now), or None when there's no snapshot for this round."""
+    rs = team.get("round_start") or {}
+    if rs.get("round") != D.target or not rs.get("players"):
+        return None
+    before, now = {norm(n): n for n in rs["players"]}, {norm(n): n for n in team.get("players", [])}
+    sold = [before[k] for k in before if k not in now]
+    bought = [now[k] for k in now if k not in before]
+    pairs = []
+    for b in bought:  # pair each buy with a sale at the same position
+        pos = D.player(b).get("pos")
+        o = next((x for x in sold if D.player(x).get("pos") == pos and x not in [q for q, _ in pairs]), None)
+        pairs.append((o, b))
+    c0, c1 = coach_code_of(rs.get("coach", "")), coach_code_of(team.get("coach", ""))
+    return {"players": now, "coach": c1, "pairs": pairs, "coach_pair": (c0, c1) if c0 != c1 else None}
+
+
+def trade_done(t, mt):
+    if not mt:
+        return False
+    on, inn = split_name(t["out"])[0], split_name(t["in"])[0]
+    if t["in"].strip().startswith("Coach"):
+        return coach_code_of(inn) == mt["coach"] and coach_code_of(on) != mt["coach"]
+    return norm(inn) in mt["players"] and norm(on) not in mt["players"]
+
+
+def undo_list(rv, mt):
+    """Trades you made that the plan doesn't keep: undo them in the app."""
+    if not mt:
+        return []
+    ins = {norm(split_name(t["in"])[0]) for t in rv.get("trades", [])}
+    cins = {coach_code_of(split_name(t["in"])[0]) for t in rv.get("trades", []) if t["in"].strip().startswith("Coach")}
+    out = [f"{o or '?'} → {b}" for o, b in mt["pairs"] if norm(b) not in ins]
+    if mt["coach_pair"] and mt["coach_pair"][1] not in cins:
+        out.append(f"Coach {coach_label(mt['coach_pair'][0])} → {coach_label(mt['coach_pair'][1])}")
+    return out
+
+
 def render(date):
     R = json.loads((ROOT / "reports" / f"{date}.json").read_text(encoding="utf-8"))
     D = Data(date)
@@ -1070,6 +1110,10 @@ def render(date):
         target = 200.0
     target = float(R.get("target", target))
     rnd = R.get("round", D.target)
+    try:
+        MT = made_trades(D, json.loads((ROOT / "my_team.json").read_text(encoding="utf-8")))
+    except Exception:
+        MT = None
     tabs, panes, built = [], [], []
     for i, v in enumerate(R["variations"]):
         vid = f"v{v['key']}"
@@ -1090,7 +1134,8 @@ def render(date):
             inn, ip = split_name(t["in"])
             oc = D.player(on).get("t") if not t["out"].startswith("Coach") else coach_code_of(on)
             ic = D.player(inn).get("t") if not t["in"].startswith("Coach") else coach_code_of(inn)
-            tcards.append(f"""<div class="trade"><span class="num">#{k} · {esc(t.get('credits', ''))}</span>
+            done = trade_done(t, MT)
+            tcards.append(f"""<div class="trade{' done' if done else ''}"><span class="num">{'<b class=dn>✓ made</b> ' if done else ''}#{k} · {esc(t.get('credits', ''))}</span>
 <div class="pair">{mini(on, oc, op, 'out', *slug_or_team(t["out"], on, oc, D))}<span class="arrow">→</span>{mini(inn, ic, ip, 'in', *slug_or_team(t["in"], inn, ic, D))}</div>
 <p class="why">{esc(t.get('why', ''))}</p></div>""")
         g_c = cg or {}
@@ -1129,12 +1174,17 @@ def render(date):
         write_predictions(date, D, built, json.loads((ROOT / "my_team.json").read_text(encoding="utf-8")), now)
     except Exception as e:
         print("! predictions not saved:", e)
-    tl = "".join(f'<div><span class="o">▼ {esc(split_name(t["out"])[0])}</span> → <span class="n">▲ {esc(split_name(t["in"])[0])}</span>'
+    tl = "".join(f'<div{" class=dnrow" if trade_done(t, MT) else ""}>{"<b class=dn>✓</b> " if trade_done(t, MT) else ""}<span class="o">▼ {esc(split_name(t["out"])[0])}</span> → <span class="n">▲ {esc(split_name(t["in"])[0])}</span>'
                  f'<span class="cr">{esc(t.get("credits", ""))}</span></div>' for t in rv.get("trades", []))
+    undo = undo_list(rv, MT)
+    if undo:
+        tl = "".join(f'<div class="undo">↩ Undo your trade: {esc(u)}</div>' for u in undo) + tl
+    n_done = sum(trade_done(t, MT) for t in rv.get("trades", []))
+    trades_head = f"Make {len(rv.get('trades', []))} trades" + (f" ({n_done} already made ✓)" if n_done else "")
     plan = f"""<section><div class="card plan"><div class="kick">Your plan in 60 seconds · Variation {esc(rv['key'])}</div>
 <p class="lead">{esc(R['bottom_line'])}</p>
 <ol class="steps">
-<li><div><h4>Make {len(rv.get('trades', []))} trades</h4><div class="tl">{tl}</div></div></li>
+<li><div><h4>{esc(trades_head)}</h4><div class="tl">{tl}</div></div></li>
 <li><div><h4>Set the lineup ({esc(rv.get('formation', ''))})</h4><div class="lineup"><b>Start:</b> {esc(', '.join(surname(p['name']) for p in rst))}
 · <b>6th:</b> {esc(surname(rsix['name']) if rsix else '–')} · <b>Bench:</b> {esc(', '.join(surname(p['name']) for p in rbench))}
 · <b>Coach:</b> {esc(coach_label(rcc, rv['coach']))}</div></div></li>
