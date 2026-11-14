@@ -2,7 +2,7 @@
  "date": "2026-11-14",
  "round": 12,
  "budget": {
-  "total": 103.8,
+  "total": 105.5,
   "bank": 0.5
  },
  "window": "R12+R13 double week (4 trades each) · unlimited trades before R14 (21–24 Nov)",
@@ -71,7 +71,7 @@
    ],
    "cancel_if": [
     "Madar is cleared without a mask on Monday: still sell him (Baldwin's arrival, 3-8 team), the plan stands.",
-    "Robinson's price rises by more than 0.6 after R11: use Madar → Cameron Payne (IST, 10.2) instead and keep the rest.",
+    "In-app check: if the bank after these 4 trades is below 0.0 (Robinson's price rose after his R11 game-winner at Panathinaikos), use Madar → Cameron Payne (IST) instead and keep the other three trades.",
     "Diop listed out on Monday's report: keep Faye and switch to Variation B's guard moves (Madar → Cameron Payne, Brizuela → Cory Joseph) so the money still works."
    ]
   },
@@ -206,6 +206,14 @@
  "alerts": [
   {
    "level": "high",
+   "text": "Re-run after your update: squad unchanged, total budget 105.5. Your bank stays 0.5 (no trades since the screenshot), so your squad's in-game value rose 1.7 after R11 (official 103.3 → 105.0). The site still hasn't published R12 prices, so every price in this report is the pre-R11-change price. Before you trade, check two in-app numbers: Justin Robinson's price, and the bank after A's four trades. If it's 0.0 or more, go ahead. If it's negative, use A's second cancel trigger (Madar → Cameron Payne)."
+  },
+  {
+   "level": "",
+   "text": "What changed since 09:30: no new injury news (the latest headline is 08:50 UTC). Two new rumours have no effect on R12–R13 (see Rumours). Variation A is unchanged."
+  },
+  {
+   "level": "high",
    "text": "The collector got estimated prices this morning: the site removed the R12 prices link and its own price feed is a PIR-based estimate (squad showed as 138.9). Fixed collect.py to fall back to the latest official prices page (R11) and official coach prices; your budget checks out again at 103.3 + 0.5 bank = 103.8. Prices after R11 aren't published yet, so A keeps 0.6 in the bank as a buffer."
   },
   {
@@ -226,6 +234,20 @@
   }
  ],
  "rumours": [
+  {
+   "kind": "report",
+   "team": "Olimpia Milano",
+   "text": "Milan are reportedly close to signing a big man, Onyema from Scafati, and are also looking at guard Lester Quiñones. Not official yet.",
+   "impact": "No risk to Diop in R12–R13: a new signing won't be integrated by Tuesday. A new center would threaten Diop's starts from R14, so plan to sell Diop in the unlimited window anyway.",
+   "source": "https://sportando.basketball/olimpia-milano-il-mercato-si-muove-spunta-lester-quinones-onyema-e-vicino/"
+  },
+  {
+   "kind": "rumour",
+   "team": "Olympiacos / Crvena Zvezda",
+   "text": "NovaSports (Avgoulis) floated a three-way deal: Dorsey to Milan, Guduric to Zvezda, Jared Butler to Olympiacos. There's no agreement and no timeline.",
+   "impact": "Nothing for this double week. If it happens, Butler takes guard usage at Olympiacos (bad for Cory Joseph in B) and Guduric crowds Zvezda's wings further (another reason to sell Davidovac).",
+   "source": "https://sportando.basketball/clamoroso-novasports-tripla-operazione-di-mercato-guduric-e-dorsey-coinvolti-lindiscrezione/"
+  },
   {
    "kind": "report",
    "team": "Maccabi Tel Aviv",
@@ -357,7 +379,7 @@
    "why": "28 minutes and 17.7 PIR per game over his last 3. A cheap center option for R13 if Diop disappoints."
   }
  ],
- "review": "R11 with the screenshot lineup came to about 168 by our count (unofficial): Vezenkov (C) 26 → 57 with the win bonus, Faye 19, Feliz 19, and Partizan's 80-66 win over Baskonia gave the coach +20. The misses were Madar (11, broken nose), Joksimović (2) and Davidovac (8), plus Malcolm (22) and Nunn (19) scoring on the bench at half value. Calls: yesterday's Jekiri read held up (17 pts back from injury), and selling Madar was right for a reason we didn't know yet. Owned miss: this run started from wrong (estimated) prices because the site changed its prices link. It's fixed in collect.py, and the plan was rebuilt on official prices, which is why Diarra and Nunn now stay. Research: 35 searches, 6 pages read, 5 players unverified.",
+ "review": "R11 with the screenshot lineup came to about 168 by our count (unofficial): Vezenkov (C) 26 → 57 with the win bonus, Faye 19, Feliz 19, and Partizan's 80-66 win over Baskonia gave the coach +20. The misses were Madar (11, broken nose), Joksimović (2) and Davidovac (8), plus Malcolm (22) and Nunn (19) scoring on the bench at half value. Calls: yesterday's Jekiri read held up (17 pts back from injury), and selling Madar was right for a reason we didn't know yet. Owned miss: this run started from wrong (estimated) prices because the site changed its prices link. It's fixed in collect.py, and the plan was rebuilt on official prices, which is why Diarra and Nunn now stay. Research: 35 searches, 6 pages read, 5 players unverified. Re-run 14 Nov (afternoon): you confirmed the squad is unchanged and the total budget is 105.5; nothing new on injuries, plan unchanged. Re-run research: 7 searches, 3 pages read, 0 new players unverified (Madar's status was not updated after 2 searches; still doubtful per the 13 Nov report).",
  "target": 200,
- "generated": "2026-11-14T09:30Z"
+ "generated": "2026-11-14T09:54Z"
 }
