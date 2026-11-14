@@ -1,0 +1,363 @@
+{
+ "date": "2026-11-14",
+ "round": 12,
+ "budget": {
+  "total": 103.8,
+  "bank": 0.5
+ },
+ "window": "R12+R13 double week (4 trades each) · unlimited trades before R14 (21–24 Nov)",
+ "bottom_line": "Sell Madar (broken nose, doubtful for Tuesday) for Justin Robinson, who runs Barcelona while Punter is out. Fund it by swapping Faye for Diop and Davidovac for Procida, and take Zalgiris as coach. Variation A gives about a 9% chance (1 in 11) of 200+, against about 2% for your current squad even with its best lineup.",
+ "current_fix": "With no trades: start Nunn, Diarra and Malcolm with Vezenkov (captain) and Feliz as 6th man; bench Madar (doubtful), Davidovac and Joksimović.",
+ "variations": [
+  {
+   "key": "A",
+   "name": "Best shot at 200",
+   "recommended": true,
+   "risk": "Medium",
+   "coach": "Zalgiris",
+   "tagline": "Sell the injured Madar for Barcelona's lead guard, fund it with two cheap swaps, and take the coach most likely to win big.",
+   "trades": [
+    {
+     "out": "Yam Madar (10.5)",
+     "in": "Justin Robinson (12.8)",
+     "credits": "−2.3",
+     "why": "Madar broke his nose in the derby and is doubtful for Olympiacos. Robinson runs Barcelona with Punter out 3–6 weeks: home to fast, leaky Paris, then Zvezda at home. [dom: ACB 8 Nov vs Breogán, 13 pts, Barça won 99-91, fcbarcelona.com]"
+    },
+    {
+     "out": "Mouhamed Faye (7.8)",
+     "in": "Ousmane Diop (4.5)",
+     "credits": "+3.3",
+     "why": "Frees 3.3 credits for Robinson. Diop starts at home vs Zvezda and closed out Trento in the league; Faye is a 17-minute backup who sat out Paris' last league game. [dom: LBA 8 Nov vs Trento, 8–9 pts 9 reb (5 off.), realolimpiamilano.com / pianetabasket.com]"
+    },
+    {
+     "out": "Dejan Davidovac (4.7)",
+     "in": "Gabriele Procida (4.5)",
+     "credits": "+0.2",
+     "why": "Davidovac plays 13 minutes behind a deep Zvezda wing group. Procida has 13 PIR per game over his last 3, with Deck, Jantunen, Campazzo and Maledon all out at Madrid. [dom: unverified after 2 searches]"
+    },
+    {
+     "out": "Coach Penarroya (PAR) (6.2)",
+     "in": "Coach Masiulis (ZAL) (7.3)",
+     "credits": "−1.1",
+     "why": "Zalgiris are on a five-game winning streak and 79–80% favourites at home to 3-8 Bayern, with a +11 projected margin: the best shot at the +20 bracket. Partizan are underdogs to Valencia."
+    }
+   ],
+   "bank_after": 0.6,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Kendrick Nunn",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Dario Brizuela",
+    "Gabriele Procida",
+    "Stefan Joksimovic",
+    "Ousmane Diop"
+   ],
+   "captain": "Sasha Vezenkov",
+   "vice": "Justin Robinson",
+   "captain_note": "Vezenkov averages 25 PIR over his last 3 and faces Maccabi (19th-ranked defense, Madar and Brissett hurt). A 200 round needs a 30+ captain, and he has the biggest ceiling on the team.",
+   "reasoning": [
+    "Madar is the one real hole: a broken nose, a mask at best, and Kamar Baldwin just signed to take guard minutes.",
+    "Coach lens: with Punter out, Robinson closes games for Barcelona and gets the ball against a Paris team that plays at 77 possessions.",
+    "Faye → Diop is the chain that pays for Robinson. Diop starts a winnable home game; Faye was a bench center in a likely Paris loss at the Palau.",
+    "Nunn and Diarra play each other (PAN at VIR). That correlation costs a little, but both are top-3 scorers in your squad and benching either costs more.",
+    "Feliz is 6th man and plays Wednesday, so he's full points and your late swap option if Tuesday news breaks.",
+    "Bank 0.6 is a buffer: prices after R11 aren't published yet, and Robinson and Procida are both rising."
+   ],
+   "cancel_if": [
+    "Madar is cleared without a mask on Monday: still sell him (Baldwin's arrival, 3-8 team), the plan stands.",
+    "Robinson's price rises by more than 0.6 after R11: use Madar → Cameron Payne (IST, 10.2) instead and keep the rest.",
+    "Diop listed out on Monday's report: keep Faye and switch to Variation B's guard moves (Madar → Cameron Payne, Brizuela → Cory Joseph) so the money still works."
+   ]
+  },
+  {
+   "key": "B",
+   "name": "Safer for rank",
+   "recommended": false,
+   "risk": "Low",
+   "coach": "Zalgiris",
+   "tagline": "Keep both your centers and every template player; replace Madar with a cheaper guard and tidy the bench.",
+   "trades": [
+    {
+     "out": "Yam Madar (10.5)",
+     "in": "Cameron Payne (10.2)",
+     "credits": "+0.3",
+     "why": "Same money, healthy, and Efes' main creator since Mike James' Achilles tear (33 points vs Paris in R10). Two easier opponents than Madar: at Dubai, then ASVEL at home. [dom: unverified, not searched (B only)]"
+    },
+    {
+     "out": "Dejan Davidovac (4.7)",
+     "in": "Gabriele Procida (4.5)",
+     "credits": "+0.2",
+     "why": "More minutes and form (13 PIR over his last 3) for the same price, with Madrid's forward line depleted. [dom: unverified after 2 searches]"
+    },
+    {
+     "out": "Dario Brizuela (6.3)",
+     "in": "Cory Joseph (5.5)",
+     "credits": "+0.8",
+     "why": "Brizuela's EuroLeague minutes swing (0 PIR in R11); Joseph gets steady backup point-guard minutes at Olympiacos with Montero out. Frees 0.8 for the coach. [dom: unverified, not searched (B only)]"
+    },
+    {
+     "out": "Coach Penarroya (PAR) (6.2)",
+     "in": "Coach Masiulis (ZAL) (7.3)",
+     "credits": "−1.1",
+     "why": "Best favourite of the round (about 80% at home to Bayern, projected +11)."
+    }
+   ],
+   "bank_after": 0.7,
+   "formation": "2-2-1",
+   "starters": [
+    "Kendrick Nunn",
+    "Cameron Payne",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Mouhamed Faye",
+    "Cory Joseph",
+    "Gabriele Procida",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Sasha Vezenkov",
+   "vice": "Kendrick Nunn",
+   "captain_note": "Vezenkov is the safe captain and 46% owned: captaining him protects your rank whatever happens.",
+   "reasoning": [
+    "Keeps Vezenkov, Feliz and Diarra (the three template players), so a bad night for them hurts you no more than the field.",
+    "Payne and Malcolm are both Efes: if Efes keep it close in Dubai, both have good nights together.",
+    "Coach lens: Joseph is a veteran backup who won't be rested, but his ceiling is low. This is a floor move.",
+    "Lower ceiling than A: no Robinson, so the chance of 200 drops while the chance of a bad round drops too."
+   ],
+   "cancel_if": [
+    "Payne is listed questionable: switch to Variation A (Robinson only fits with Faye → Diop as well).",
+    "Zalgiris lose a key player before Tuesday: Jasikevičius (ULK, 8.6) doesn't fit the budget, so use Sekulić (BAR, 8.0) instead (bank 0.0)."
+   ]
+  },
+  {
+   "key": "C",
+   "name": "Moonshot",
+   "recommended": false,
+   "risk": "High",
+   "coach": "Zalgiris",
+   "tagline": "Differential captain Robinson (3% owned) and Jekiri for 38%-owned Diarra: built to climb the rank fast if it hits.",
+   "trades": [
+    {
+     "out": "Yam Madar (10.5)",
+     "in": "Justin Robinson (12.8)",
+     "credits": "−2.3",
+     "why": "Only 3% owned, with lead-guard usage while Punter is out. As captain, a 30-point night alone is worth 60. [dom: ACB 8 Nov vs Breogán, 13 pts, fcbarcelona.com]"
+    },
+    {
+     "out": "Mouhamed Faye (7.8)",
+     "in": "Ousmane Diop (4.5)",
+     "credits": "+3.3",
+     "why": "Cheap starting center who funds the upgrades. [dom: LBA 8 Nov vs Trento, 8–9 pts 9 reb, realolimpiamilano.com]"
+    },
+    {
+     "out": "Aliou Diarra (10.8)",
+     "in": "Tonye Jekiri (9.0)",
+     "credits": "+1.8",
+     "why": "Selling a 38%-owned center for a 1%-owned one: Jekiri had 17 pts and 6 reb back from his groin strain vs Baskonia in R11, and Valencia lack Reuvers and Mirotić up front. [dom: ABA 8 Nov vs SC Derby DNP (groin, before his R11 return), aba-liga.com]"
+    },
+    {
+     "out": "Coach Penarroya (PAR) (6.2)",
+     "in": "Coach Masiulis (ZAL) (7.3)",
+     "credits": "−1.1",
+     "why": "The round's biggest favourite (about 80%, projected +11). The moonshot gets its variance from the players, not a coin-flip coach."
+    }
+   ],
+   "bank_after": 2.2,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Kendrick Nunn",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Tonye Jekiri"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Dario Brizuela",
+    "Ousmane Diop",
+    "Dejan Davidovac",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Justin Robinson",
+   "vice": "Sasha Vezenkov",
+   "captain_note": "Differential captain: Robinson is 3% owned, so a big night moves you up the rank much faster than Vezenkov (46%) would. Highest variance.",
+   "reasoning": [
+    "Captaining a 3%-owned player is how you jump thousands of places in one round. It's also why the chance of 200 drops to about 4%.",
+    "Selling Diarra (38% owned) for Jekiri (1%) goes against the crowd, and it means you no longer hold both sides of PAN at VIR.",
+    "Coach lens: Valencia are thin up front without Reuvers and Mirotić, and Jekiri had 17 pts in his first game back.",
+    "Bank 2.2 isn't wasted: it funds an R13 upgrade (for example Diop → a 6–7 credit big) without selling a starter.",
+    "Risk: Jekiri's groin has only just healed, and Robinson's best nights come with Punter out, which may not last past R13."
+   ],
+   "cancel_if": [
+    "Jekiri listed doubtful: keep Diarra and use that trade on Davidovac → Procida instead.",
+    "Robinson has a quiet Tuesday warm-up report (minutes limit): move the captaincy to Feliz (Wednesday) if he's still unplayed, or keep Vezenkov from the start."
+   ]
+  }
+ ],
+ "alerts": [
+  {
+   "level": "high",
+   "text": "The collector got estimated prices this morning: the site removed the R12 prices link and its own price feed is a PIR-based estimate (squad showed as 138.9). Fixed collect.py to fall back to the latest official prices page (R11) and official coach prices; your budget checks out again at 103.3 + 0.5 bank = 103.8. Prices after R11 aren't published yet, so A keeps 0.6 in the bank as a buffer."
+  },
+  {
+   "level": "high",
+   "text": "Madar broke his nose in Maccabi's derby win over Hapoel Tel Aviv. He misses Saturday's league game and is doubtful for Olympiacos on Tuesday (mask the likely best case). Brissett is also doubtful. All three variations sell Madar."
+  },
+  {
+   "level": "",
+   "text": "What's new since yesterday's report: Madar's injury (above); Faried is out indefinitely (hamstring tear), leaving Baskonia with almost no healthy bigs; Dorsey is back in Olympiacos training after his suspension. Variation A changes from yesterday's plan: it keeps Diarra and Nunn (the corrected prices and the optimiser favour them) and adds Diop and Procida as cheap enablers."
+  },
+  {
+   "level": "",
+   "text": "Double week: R12 (Tue/Wed) and R13 (Thu/Fri) each have 4 trades, then unlimited trades from 21 Nov before R14. Don't pay for anything beyond R13."
+  },
+  {
+   "level": "",
+   "text": "Check Monday's injury report for Diop, Robinson and Jekiri before the Tuesday 18:00 (Athens) lock."
+  }
+ ],
+ "rumours": [
+  {
+   "kind": "report",
+   "team": "Maccabi Tel Aviv",
+   "text": "Madar broke his nose and Brissett was hurt in a fall in the derby win over Hapoel Tel Aviv. Both are doubtful for Olympiacos on Tuesday.",
+   "impact": "Sell Madar. Without Brissett (their top rebounder), Olympiacos' bigs and Vezenkov get more rebounds: supports captaining Vezenkov.",
+   "source": "https://www.eurohoops.net/el/euroleague-el-2/2034434/makampi-mantar-briset-amfivoli-me-olimpiako/"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Maccabi Tel Aviv",
+   "text": "Signed guard Kamar Baldwin (ex-Bayern, Baskonia) until the end of the year. Kattash says he can play both guard spots.",
+   "impact": "Takes guard minutes from Madar even after he's healthy.",
+   "source": "https://www.eurohoops.net/en/euroleague/2033105/maccabi-tel-aviv-lands-kamar-baldwin/"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Baskonia",
+   "text": "Faried is out indefinitely with a muscle-tendon tear in his left hamstring. Howard, Santos and Sedekerskis are also out.",
+   "impact": "Hapoel's bigs (Oturu) and Bryant face almost no frontcourt resistance. Joksimović should keep 17+ minutes but remains low-PIR. Avoid Perasović (BAS) as coach.",
+   "source": "https://www.eurohoops.net/en/euroleague/2034509/kenneth-faried-injury-update-baskonia-euroleague/"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Olympiacos",
+   "text": "Dorsey's one-month club suspension is over and he's back in training (Aris away in the GBL on Sunday).",
+   "impact": "Takes some guard shots at Olympiacos, but Montero is out, so Vezenkov's usage holds. Slight hit to Cory Joseph (Variation B).",
+   "source": "https://sportando.basketball/olympiacos-tyler-dorsey-torna-ad-allenarsi-dopo-la-sospensione/"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Olimpia Milano",
+   "text": "Poeta was fired on 6 Nov after a 1-9 start, and Luca Banchi took over (debut vs Zalgiris in R11).",
+   "impact": "A new coach often settles the rotation: Diop started and closed the Trento win. Milan are still weak, so avoid Banchi (MIL) as coach.",
+   "source": "https://www.eurohoops.net/en/euroleague/2031461/olimpia-milano-relieves-giuseppe-poeta-luca-banchi-is-taking-over/"
+  },
+  {
+   "kind": "report",
+   "team": "Panathinaikos",
+   "text": "Nunn missed the 8 Nov AEK league game to finalise a Qatari passport in Doha, then returned for the EuroLeague (19 PIR vs Barcelona in R11).",
+   "impact": "No injury. His role is safe; the trip explains the domestic DNP.",
+   "source": "https://www.eurohoops.net/en/fibawc/2031989/kendrick-nunn-travels-to-qatar-to-resolve-passport-issue/"
+  },
+  {
+   "kind": "rumour",
+   "team": "Virtus Bologna",
+   "text": "Virtus reportedly rejected a Panathinaikos offer of about €450k for Diarra (single outlet, no Italian or Greek confirmation).",
+   "impact": "None for R12–R13. Watch for a move in the unlimited window.",
+   "source": "https://www.newtimes.co.rw/article/40212/sports/basketball/virtus-bologna-reject-450000-bid-for-former-apr-star-diarra"
+  },
+  {
+   "kind": "report",
+   "team": "Dubai",
+   "text": "Marcelinho Huertas (43) is reportedly signing with Dubai, reuniting with Pascual.",
+   "impact": "Small threat to Okobo and Wright minutes later on. Nothing for this round.",
+   "source": "https://www.eurohoops.net/en/euroleague/2032637/marcelinho-huertas-is-reportedly-signing-with-dubai/"
+  }
+ ],
+ "players": [
+  {
+   "name": "Sasha Vezenkov",
+   "verdict": "KEEP/CAPTAIN",
+   "read": "25 PIR per game over his last 3 (26 in only 21 minutes in the R11 blowout of Dubai), and now Olympiacos' all-time EuroLeague top scorer. At Maccabi, who have the 19th-ranked defense and Brissett hurt. Dorsey's return takes a few shots, not his role. I agree with the site's 22.5 projection and see a 30+ ceiling. [dom: GBL 1 Nov vs Peristeri, 21 pts 7 reb, sportime.gr]"
+  },
+  {
+   "name": "Andres Feliz",
+   "verdict": "KEEP",
+   "read": "Madrid's guard line is down to him and Llull (Campazzo, Maledon out), so he's at 25.6 minutes over his last 3 vs 21 over 10. Plays Wednesday at Beşiktaş: ideal 6th man and late swap option. Then at Olympiacos on a B2B in R13. [dom: unverified after 2 searches]"
+  },
+  {
+   "name": "Kendrick Nunn",
+   "verdict": "KEEP",
+   "read": "19 PIR vs Barcelona after missing the AEK league game for a Qatari passport trip (not injured). Up to 31 PIR on good nights. At Virtus (32% to win) is a decent spot; R13 at Žalgiris is harder. [dom: GBL 8 Nov vs AEK DNP (passport trip to Qatar), eurohoops.net]"
+  },
+  {
+   "name": "Aliou Diarra",
+   "verdict": "KEEP",
+   "read": "About 1 PIR per minute off the bench (18.5 per game). Faces Lessort's Panathinaikos: hard, but Virtus will need him for 20+ minutes. A poor league game at the weekend (rated 5.5) is noise. Sold only in the moonshot. [dom: LBA 8 Nov vs Verona, rated 5.5/10 (no box score found), backdoorpodcast.com]"
+  },
+  {
+   "name": "Collin Malcolm",
+   "verdict": "KEEP",
+   "read": "Three straight games of 21+ PIR, 30 minutes a night since James' Achilles tear (20 pts vs Virtus in R11). The site's 12.9 is too low for his current role; I expect 15–20. At Dubai, then home to ASVEL. [dom: unverified after 2 searches]"
+  },
+  {
+   "name": "Yam Madar",
+   "verdict": "SELL",
+   "read": "Broke his nose in R11 (only 11.6 minutes), misses Saturday's league game, doubtful Tuesday, and Maccabi just signed Kamar Baldwin. Price falling (−1.3 over 3 rounds). [dom: Winner League 14 Nov vs Hapoel Jerusalem ruled out (broken nose), eurohoops.net]"
+  },
+  {
+   "name": "Mouhamed Faye",
+   "verdict": "SELL",
+   "read": "19 PIR vs Fenerbahçe in R11, but he's a 17-minute center with a 3.4–18 range, playing at the Palau where Paris are 31%. Sold to fund Robinson (A, C). [dom: LNB 8 Nov vs Bourg DNP (absent, no reason given), basketeurope.com]"
+  },
+  {
+   "name": "Dejan Davidovac",
+   "verdict": "SELL",
+   "read": "13 minutes and 6.4 PIR per game in a deep Zvezda wing group. Swap for Procida at the same price. [dom: ABA 9 Nov vs Slovan Bratislava 10' 2 pts 3 reb, PIR 6, aba-liga.com]"
+  },
+  {
+   "name": "Stefan Joksimovic",
+   "verdict": "KEEP",
+   "read": "Only 1.7 PIR per game over his last 3, but Baskonia have almost no healthy bigs (Faried, Santos, Sedekerskis out), so his 17+ minutes are safe. A bench filler: sell him in the R14 window. [dom: ACB 1 Nov vs Manresa, 15 pts 6 reb, val. 20, gasteizhoy.com]"
+  },
+  {
+   "name": "Dario Brizuela",
+   "verdict": "KEEP",
+   "read": "Hit the shots that won the Breogán game (16 pts), but 0 PIR vs Panathinaikos: very swingy. Paris at home is a good matchup for a bench guard. Sold only in B. [dom: ACB 8 Nov vs Breogán, 16 pts, infobae.com / fcbarcelona.com]"
+  }
+ ],
+ "watchlist": [
+  {
+   "name": "Jonas Valančiūnas (ZAL, 16.9)",
+   "why": "28 PIR per game over his last 3. The top R14 unlimited-window target if he handles the Panathinaikos B2B in R13."
+  },
+  {
+   "name": "Elijah Bryant (HTA, 17.7)",
+   "why": "22.5 PIR per game over 10 and an easy trip to Baskonia. Buy in the R14 window, or in R13 if Nunn struggles at Virtus."
+  },
+  {
+   "name": "Tonye Jekiri (PAR, 9.0)",
+   "why": "17 pts back from the groin strain. If Monday's report clears him, he's the cheapest route to a 25-PIR center (Variation C)."
+  },
+  {
+   "name": "Cameron Payne (IST, 10.2)",
+   "why": "Fallback for Robinson if Robinson's price jumps after R11 (A's first cancel trigger)."
+  },
+  {
+   "name": "Nikola Tanaskovic (PAR, 8.4)",
+   "why": "28 minutes and 17.7 PIR per game over his last 3. A cheap center option for R13 if Diop disappoints."
+  }
+ ],
+ "review": "R11 with the screenshot lineup came to about 168 by our count (unofficial): Vezenkov (C) 26 → 57 with the win bonus, Faye 19, Feliz 19, and Partizan's 80-66 win over Baskonia gave the coach +20. The misses were Madar (11, broken nose), Joksimović (2) and Davidovac (8), plus Malcolm (22) and Nunn (19) scoring on the bench at half value. Calls: yesterday's Jekiri read held up (17 pts back from injury), and selling Madar was right for a reason we didn't know yet. Owned miss: this run started from wrong (estimated) prices because the site changed its prices link. It's fixed in collect.py, and the plan was rebuilt on official prices, which is why Diarra and Nunn now stay. Research: 35 searches, 6 pages read, 5 players unverified.",
+ "target": 200,
+ "generated": "2026-11-14T09:30Z"
+}

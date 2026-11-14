@@ -109,8 +109,23 @@ def parse_prices(page: str):
             "slug": m.group(1), "name": html.unescape(m.group(2)), "team_name": team,
             "t": NAME2CODE.get(team.lower()), "pos": {"G": "Guard", "F": "Forward", "C": "Center"}.get(pos, pos),
             "price": num(cells[1]), "since_start": num(cells[2]), "owned": num(cells[3]),
-            "pir_ge_price": cells[4], "proj_price_change": num(cells[5]),
+            "pir_ge_price": cells[4] if len(cells) > 4 else None,
+            "proj_price_change": num(cells[5]) if len(cells) > 5 else None,
         }
+    return out
+
+
+def parse_coach_prices(page: str):
+    """'Coaches' table on the prices page: official coach prices by club code."""
+    i = page.find("<h2>Coaches")
+    out = {}
+    if i < 0:
+        return out
+    seg = page[i:page.find("</table>", i)]
+    for row in re.findall(r"<tr>(.*?)</tr>", seg, flags=re.S):
+        cells = [text_of(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", row, flags=re.S)]
+        if len(cells) >= 2 and NAME2CODE.get(cells[0].lower()) and num(cells[1]) is not None:
+            out[NAME2CODE[cells[0].lower()]] = num(cells[1])
     return out
 
 
@@ -232,7 +247,9 @@ def main():
     inj_txt = text_of(get("/en/injury-report/"))
     hub = get("/en/fantasy/")
     pr_link = re.search(r'href="(/en/fantasy/round-\d+/player-prices/)"', hub)
-    prices = parse_prices(get(pr_link.group(1))) if pr_link else {}
+    pr_page = get(pr_link.group(1)) if pr_link else ""
+    prices = parse_prices(pr_page)
+    prices_round = int(re.search(r"round-(\d+)", pr_link.group(1)).group(1)) if pr_link and prices else None
     tm = {m.group(1): m.groupdict() for m in re.finditer(
         r'data-c="(?P<c>\d+)"[^>]*?data-d3="(?P<d3>[^"]*)" data-d5="(?P<d5>[^"]*)" data-d10="(?P<d10>[^"]*)"',
         get("/en/fantasy/transfer-market/"))}
@@ -243,6 +260,23 @@ def main():
     upcoming = [r for r, v in sorted(rounds.items()) if v["start"] and v["start"] > TODAY]
     target = upcoming[0] if upcoming else proj.get("round", 0) + 1
     in_progress = [r for r, v in rounds.items() if v["start"] and v["start"] <= TODAY <= v["end"]]
+    if not prices:  # hub link missing (e.g. between rounds): use the latest published official prices page
+        for r in range(target, max(target - 4, 0), -1):
+            pr_page = get(f"/en/fantasy/round-{r}/player-prices/")
+            prices = parse_prices(pr_page)
+            if prices:
+                prices_round = r
+                break
+    if not prices:
+        print("  ! no official prices page found: prices are the site's PIR-based estimates", file=sys.stderr)
+    else:
+        print(f"  official prices from round-{prices_round} page")
+    coach_official = parse_coach_prices(pr_page)
+    if coach_official:  # the projections feed carries the site's own coach price estimates
+        for c in proj.get("coaches", []):
+            if c.get("t") in coach_official:
+                c["price"] = coach_official[c["t"]]
+        (OUT / "projections.json").write_text(json.dumps(proj, ensure_ascii=False), encoding="utf-8")
     # horizon: target round up to the round right before the next unlimited-trade window
     horizon = [target]
     for r in range(target + 1, target + 4):
