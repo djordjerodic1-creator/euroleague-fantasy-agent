@@ -310,7 +310,9 @@ def load_schedule(date):
 def leg_rounds(D):
     cal = D.digest.get("calendar", {})
     tr = D.target
-    leg = [tr] + ([tr + 1] if (cal.get(str(tr)) or {}).get("double_week") and str(tr + 1) in cal else [])
+    dw = lambda r: (cal.get(str(r)) or {}).get("double_week")
+    # a double week is a pair of rounds: only pair the target with the next round if it's the first of the two
+    leg = [tr] + ([tr + 1] if dw(tr) and dw(tr + 1) and not dw(tr - 1) else [])
     return leg, [leg[-1] + 1, leg[-1] + 2]
 
 

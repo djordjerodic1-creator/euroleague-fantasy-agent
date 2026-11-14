@@ -198,6 +198,10 @@ says what changed since the earlier run, or "No change since HH:MM" with what yo
      so Variation A is not applied on top.
   3. Reset `inbox/team.md` to its template (keep everything above the `---`), and commit both
      files with the report. Say in the alerts what you applied.
+- **Trades already made for a round:** when the user says their trades for round R are done (or you apply
+  Variation A after R's deadline), set `trades_done_for_round: R` in `my_team.json`. The collector then targets
+  R+1 automatically (digest shows "planning R+1"), so the optimiser, previews and the report all move on together.
+  Don't write custom scripts to plan the next round; fix this field instead.
 - The bank is the number that matters most: squad value comes from current prices in the pool,
   so a price rise shows up on its own. A wrong bank makes every budget check wrong.
 - `bank_known: false` means the bank is a guess, so say so in the alerts.

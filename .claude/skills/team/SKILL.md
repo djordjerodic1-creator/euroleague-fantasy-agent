@@ -19,6 +19,7 @@ bank 1.3". Their words and screenshot beat anything assumed in `my_team.json`.
    `bank_known: true` when a bank was given, and recompute `total_budget` = squad value at current
    prices + bank. If the update reflects trades for a round whose deadline has passed, set
    `tracking.last_applied_report` to that round's report date so Variation A isn't applied on top.
+   If they say their trades for round R are made, set `trades_done_for_round: R` (the analyst then plans R+1).
    If a round score is given, store it as `round_scores["<round>"] = <points>` (the scorecard compares it).
 5. Show the user a 3-line diff (players in/out, bank, captain/coach) before committing.
 6. Commit only `my_team.json` with "Team update <date> (user)" and push to main. Never commit the

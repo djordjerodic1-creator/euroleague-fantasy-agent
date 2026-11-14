@@ -410,6 +410,16 @@ def main():
     rounds = parse_calendar(cal_txt)
     upcoming = [r for r, v in sorted(rounds.items()) if v["start"] and v["start"] > TODAY]
     target = upcoming[0] if upcoming else proj.get("round", 0) + 1
+    # your trades for that round are already made (you said so via /team, the inbox or the page):
+    # plan the next round instead, so the optimiser, previews and report all move on together
+    target_note = None
+    done = team_cfg.get("trades_done_for_round")
+    if done is None and team_cfg.get("trades_left_this_round") == 0 and team_cfg.get("round"):
+        done = team_cfg.get("round")
+    if done is not None and int(done) >= target and (target + 1) in rounds:
+        target_note = f"R{target} trades already made (my_team.json): planning R{target + 1}"
+        print("  " + target_note)
+        target += 1
     in_progress = [r for r, v in rounds.items() if v["start"] and v["start"] <= TODAY <= v["end"]]
     if not prices:  # hub link missing (e.g. between rounds): use the latest published official prices page
         for r in range(target, max(target - 4, 0), -1):
@@ -574,7 +584,7 @@ def main():
     digest = {
         "generated": dt.datetime.now().isoformat(timespec="minutes"),
         "today": TODAY.isoformat(), "source_round": proj.get("round"), "rounds_in_progress": in_progress,
-        "target_round": target, "horizon": horizon,
+        "target_round": target, "target_note": target_note, "horizon": horizon,
         "calendar": {r: {k: (str(v) if isinstance(v, dt.date) else v) for k, v in rounds[r].items()}
                      for r in range(target - 1, target + 4) if r in rounds},
         "team": {"players": [p["name"] for p in mine], "unmatched": missing, "coach": coach_code,
@@ -601,7 +611,7 @@ def fmt_p(p, rounds):
 def write_markdown(dg, mine, shortlists, coaches, news_by, inj_txt, pool, news):
     H = dg["horizon"]
     L = [f"# Evidence digest — {dg['today']}",
-         f"Target round: **R{dg['target_round']}** · decision horizon: {', '.join('R'+str(r) for r in H)} "
+         f"Target round: **R{dg['target_round']}**{' (' + dg['target_note'] + ')' if dg.get('target_note') else ''} · decision horizon: {', '.join('R'+str(r) for r in H)} "
          f"· rounds in progress today: {dg['rounds_in_progress'] or 'none'} · projections file is for R{dg['source_round']}",
          "", "## Calendar"]
     for r, v in dg["calendar"].items():
