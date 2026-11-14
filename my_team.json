@@ -33,13 +33,13 @@
   "coach": "Zalgiris",
   "bank": 0.6,
   "bank_known": true,
-  "total_budget": 105.6,
+  "total_budget": 105.5,
   "trades_left_this_round": 4,
   "tracking": {
     "source": "user",
     "updated": "2026-11-14",
     "last_applied_report": "2026-11-14"
   },
-  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. R12 trades done 14 Nov (user): Madar->Robinson, Faye->Diop, Brizuela->Cory Joseph, coach Partizan->Zalgiris; bank 0.6 in app. Total budget estimated at about 105.6 from the earlier 105.5.",
+  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. R12 trades done 14 Nov (user): Madar->Robinson, Faye->Diop, Brizuela->Cory Joseph, coach Partizan->Zalgiris; bank 0.6 in app. Total budget unchanged at 105.5 (trades swap value, they do not add it).",
   "target_points": 200
 }
