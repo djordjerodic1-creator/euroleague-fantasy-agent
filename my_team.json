@@ -31,8 +31,8 @@
   },
   "captain": "Sasha Vezenkov",
   "coach": "Zalgiris",
-  "bank": 0.2,
-  "bank_known": false,
+  "bank": 0.1,
+  "bank_known": true,
   "total_budget": 105.5,
   "trades_left_this_round": 4,
   "tracking": {
@@ -40,6 +40,6 @@
     "updated": "2026-11-14",
     "last_applied_report": "2026-11-14"
   },
-  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. R12 trades done 14 Nov (user): Madar->Robinson, Faye->Diop, Brizuela->Sebastian Herrera, coach Partizan->Zalgiris; bank about 0.2 in app (estimate after Joseph->Herrera, unconfirmed). Total budget unchanged at 105.5 (trades swap value, they do not add it).",
+  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. R12 trades done 14 Nov (user): Madar->Robinson, Faye->Diop, Brizuela->Sebastian Herrera, coach Partizan->Zalgiris; bank 0.1 in app (confirmed by user). Total budget unchanged at 105.5 (trades swap value, they do not add it).",
   "target_points": 200
 }

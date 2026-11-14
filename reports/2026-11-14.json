@@ -206,7 +206,7 @@
  "alerts": [
   {
    "level": "high",
-   "text": "Update: the app showed −0.1 for the original Variation A. Trade 3 is now Brizuela → Cory Joseph instead of Davidovac → Procida. That frees 0.6 more (about +0.5 bank in the app) and cuts the chance of 200+ only from 8.7% to 8.2%. Final: you took Herrera (PRS) instead of Joseph, leaving about 0.2 in the app's bank."
+   "text": "Update: the app showed −0.1 for the original Variation A. Trade 3 is now Brizuela → Cory Joseph instead of Davidovac → Procida. That frees 0.6 more (about +0.5 bank in the app) and cuts the chance of 200+ only from 8.7% to 8.2%. Final: you took Herrera (PRS) instead of Joseph, leaving 0.1 in the app's bank (confirmed)."
   },
   {
    "level": "high",
