@@ -6,7 +6,7 @@
   "bank": 0.1
  },
  "window": "R12 trades used (done 14 Nov) · R13: 4 trades, open from the end of Wednesday's R12 games until Thursday's first tip-off · unlimited before R14 (21–24 Nov)",
- "bottom_line": "Your R12 trades are done. For R12, just fix the lineup: captain Vezenkov, start Feliz and make Malcolm the 6th man. For R13 (Thu/Fri), sell Nunn (at Zalgiris, against your own coach) for Payne, switch coach Masiulis (ZAL) to Albert (PAM), and swap Davidovac for Tyson Ward and Feliz for Loyd. That lifts R13's chance of 200 from about 2% to about 5% (1 in 19).",
+ "bottom_line": "Your R12 trades are done. For R12, just fix the lineup: captain Vezenkov, start Feliz and make Malcolm the 6th man. For R13 (Thu/Fri), sell Nunn (at Zalgiris, against your own coach) for Payne, switch coach Masiulis (ZAL) to Albert (VBC), and swap Davidovac for Tyson Ward and Feliz for Loyd. That lifts R13's chance of 200 from about 2% to about 5% (1 in 19).",
  "current_fix": "R12 (no trades left): in the app, take Herrera out of the 6th-man slot. Start Robinson, Nunn and Feliz (3-1-1) with Vezenkov (captain) and Diarra, and make Malcolm the 6th man. Bench Herrera, Davidovac, Joksimović and Diop. If Vezenkov scores under about 16 on Tuesday, move the armband to Feliz (he plays Wednesday).",
  "variations": [
   {
@@ -25,7 +25,7 @@
     },
     {
      "out": "Coach Masiulis (ZAL) (7.3)",
-     "in": "Coach Albert (PAM) (8.0)",
+     "in": "Coach Albert (VBC) (8.0)",
      "credits": "−0.7",
      "why": "Valencia (1st, 8-3) host Virtus, who have lost five straight: 86% favourites with a +12 projected margin, the best +20 bet of R13. Zalgiris–PAN is closer (59%)."
     },
@@ -64,7 +64,7 @@
    "reasoning": [
     "Coach lens: Nunn at Zalgiris is a road back-to-back for a guard who already plays limited minutes. Selling him also removes the clash with your own coach pick.",
     "Efes stack: Payne, Loyd and Malcolm all play ASVEL at home (75% win). With Fernando out, the guards take more shots.",
-    "Albert (PAM) is the coach most likely to reach the +20 bracket. The one cost is that Diarra plays against him, which is why Diarra stays the only Thursday starter.",
+    "Albert (VBC) is the coach most likely to reach the +20 bracket. The one cost is that Diarra plays against him, which is why Diarra stays the only Thursday starter.",
     "Cheap upside watch: Ward is the role-jump pick (minutes up with Olympiacos' bigs hurt). Procida (MAD) was the alternative, but he plays at Olympiacos, against your captain.",
     "Price check: prices change after R12, so re-check the bank in the app before trading. If it's short, trade 4 becomes Joksimović → Procida instead of Feliz → Loyd."
    ],
@@ -89,7 +89,7 @@
     },
     {
      "out": "Coach Masiulis (ZAL) (7.3)",
-     "in": "Coach Albert (PAM) (8.0)",
+     "in": "Coach Albert (VBC) (8.0)",
      "credits": "−0.7",
      "why": "Valencia (1st, 8-3) host Virtus, who have lost five straight: 86% favourites with a +12 projected margin, the best +20 bet of R13. Zalgiris–PAN is closer (59%)."
     },
@@ -151,7 +151,7 @@
     },
     {
      "out": "Coach Masiulis (ZAL) (7.3)",
-     "in": "Coach Albert (PAM) (8.0)",
+     "in": "Coach Albert (VBC) (8.0)",
      "credits": "−0.7",
      "why": "Valencia (1st, 8-3) host Virtus, who have lost five straight: 86% favourites with a +12 projected margin, the best +20 bet of R13. Zalgiris–PAN is closer (59%)."
     },
@@ -341,5 +341,5 @@
  "review": "Scorecard: no finished round to grade yet. R12 starts Tuesday, but this report now targets R13, so its saved predictions grade R13. Last round, R11 (unofficial, our count), came to about 168 with your screenshot lineup: Vezenkov (C) 57, Faye 21, Feliz 19, and coach Penarroya (PAR) +20, while Madar 11, Joksimović 2 and Davidovac 8 held it back. Calls: selling Madar was right (broken nose, still doubtful), and Masiulis (ZAL) looks a sound R12 coach (Valančiūnas was R11 MVP, and Zalgiris are about 80% vs Bayern). Owned miss: until tonight my_team.json still showed 4 R12 trades left after you'd made them, so the 19:06 report was still planning R12. Fixed with trades_done_for_round: 12, and this run plans R13. Research: 27 searches, 5 pages read, 1 player unverified (Diop's domestic game).",
  "target": 200,
  "generated": "2026-11-14T20:45Z",
- "window_plan": "I'd make rebuild 1 with one change. Sell Nunn, Herrera, Davidovac, Joksimović and Diarra; buy Payne, Frisch, Procida, Valančiūnas and Llull, with coach Martinez (MAD). Valančiūnas is the clear upgrade at center, and Procida and Frisch are minutes-backed cheap enablers. I'd check Llull against Madrid's guard returns (Campazzo, Maledon) before the window, and keep Diop only until Onyema is registered. The R13 trades above already move Nunn → Payne, so the window needs fewer moves. Prices will shift after R12–R13, so I'll redo this on 21 Nov."
+ "window_plan": "I'd make rebuild 1 with one change. Sell Nunn, Herrera, Davidovac, Joksimović and Diarra; buy Payne, Frisch, Procida, Valančiūnas and Llull, with coach Martinez (RMB). Valančiūnas is the clear upgrade at center, and Procida and Frisch are minutes-backed cheap enablers. I'd check Llull against Madrid's guard returns (Campazzo, Maledon) before the window, and keep Diop only until Onyema is registered. The R13 trades above already move Nunn → Payne, so the window needs fewer moves. Prices will shift after R12–R13, so I'll redo this on 21 Nov."
 }
