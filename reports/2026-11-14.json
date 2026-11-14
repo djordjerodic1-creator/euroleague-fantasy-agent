@@ -6,7 +6,7 @@
   "bank": 0.5
  },
  "window": "R12+R13 double week (4 trades each) · unlimited trades before R14 (21–24 Nov)",
- "bottom_line": "Sell Madar (broken nose, doubtful for Tuesday) for Justin Robinson, who runs Barcelona while Punter is out. Fund it by swapping Faye for Diop and Brizuela for Cory Joseph, and take Zalgiris as coach. Variation A gives about an 8% chance (1 in 12) of 200+, against about 2% for your current squad even with its best lineup.",
+ "bottom_line": "Sell Madar (broken nose, doubtful for Tuesday) for Justin Robinson, who runs Barcelona while Punter is out. Fund it by swapping Faye for Diop and Brizuela for Herrera, and take Zalgiris as coach. Variation A gives about an 8% chance (1 in 12) of 200+, against about 2% for your current squad even with its best lineup.",
  "current_fix": "With no trades: start Nunn, Diarra and Malcolm with Vezenkov (captain) and Feliz as 6th man; bench Madar (doubtful), Davidovac and Joksimović.",
  "variations": [
   {
@@ -31,9 +31,9 @@
     },
     {
      "out": "Dario Brizuela (6.3)",
-     "in": "Cory Joseph (5.5)",
-     "credits": "+0.8",
-     "why": "Changed after you found the app 0.1 short: this frees 0.6 more than Davidovac → Procida did. Brizuela had 0 PIR in R11; Joseph gets steady backup point-guard minutes at Olympiacos with Montero out (he loses some to Dorsey). [dom: unverified after 2 searches]"
+     "in": "Sebastian Herrera (5.9)",
+     "credits": "+0.4",
+     "why": "Final pick (you made it in the app): better form than Cory Joseph (11.0 PIR over his last 5 vs 7.4) and about 20 minutes a night. He plays against your Robinson, which costs a little correlation, but he scores more across R12 and R13. [dom: unverified after 2 searches]"
     },
     {
      "out": "Coach Penarroya (PAR) (6.2)",
@@ -42,7 +42,7 @@
      "why": "Zalgiris are on a five-game winning streak and 79–80% favourites at home to 3-8 Bayern, with a +11 projected margin: the best shot at the +20 bracket. Partizan are underdogs to Valencia."
     }
    ],
-   "bank_after": 1.2,
+   "bank_after": 0.8,
    "formation": "2-2-1",
    "starters": [
     "Justin Robinson",
@@ -53,7 +53,7 @@
    ],
    "sixth": "Andres Feliz",
    "bench": [
-    "Cory Joseph",
+    "Sebastian Herrera",
     "Dejan Davidovac",
     "Stefan Joksimovic",
     "Ousmane Diop"
@@ -206,7 +206,7 @@
  "alerts": [
   {
    "level": "high",
-   "text": "Update: the app showed −0.1 for the original Variation A. Trade 3 is now Brizuela → Cory Joseph instead of Davidovac → Procida. That frees 0.6 more (about +0.5 bank in the app) and cuts the chance of 200+ only from 8.7% to 8.2%."
+   "text": "Update: the app showed −0.1 for the original Variation A. Trade 3 is now Brizuela → Cory Joseph instead of Davidovac → Procida. That frees 0.6 more (about +0.5 bank in the app) and cuts the chance of 200+ only from 8.7% to 8.2%. Final: you took Herrera (PRS) instead of Joseph, leaving about 0.2 in the app's bank."
   },
   {
    "level": "high",
