@@ -34,13 +34,13 @@
   "bank": 0.1,
   "bank_known": true,
   "total_budget": 105.5,
-  "trades_left_this_round": 4,
+  "trades_left_this_round": 0,
   "tracking": {
     "source": "user",
     "updated": "2026-11-14",
     "last_applied_report": "2026-11-14"
   },
-  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. R12 trades done 14 Nov (user): Madar->Robinson, Faye->Diop, Brizuela->Sebastian Herrera, coach Partizan->Zalgiris; bank 0.1 in app (confirmed by user). Total budget unchanged at 105.5 (trades swap value, they do not add it). Screenshot 14 Nov confirms squad, captain Vezenkov, coach Masiulis, 0.1/105.5. App had Herrera as 6th man; advised swapping Feliz to 6th.",
+  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. R12 trades done 14 Nov (user): Madar->Robinson, Faye->Diop, Brizuela->Sebastian Herrera, coach Partizan->Zalgiris; bank 0.1 in app (confirmed by user). Total budget unchanged at 105.5 (trades swap value, they do not add it). Screenshot 14 Nov confirms squad, captain Vezenkov, coach Masiulis, 0.1/105.5. App had Herrera as 6th man; advised swapping Feliz to 6th. 14 Nov evening: R12 trades used (0 left); R13 gets 4 new trades.",
   "target_points": 200,
   "app_prices": {
     "_note": "In-app prices from the user's screenshot, 14 Nov (after R11 price changes; the site hadn't published them yet).",
