@@ -1,117 +1,178 @@
 {
  "date": "2026-11-14",
- "round": 12,
+ "round": 13,
  "budget": {
   "total": 105.5,
   "bank": 0.1
  },
- "window": "R12 trades are used (done 14 Nov) · R13 gets 4 new trades (Wed night to Thu tip-off) · unlimited before R14 (21–24 Nov)",
- "bottom_line": "Your four R12 trades are done, so only the lineup is left. Captain Vezenkov: Milutinov is out for the Maccabi game, so Olympiacos runs even more through him. Start Feliz (he plays Wednesday) with Malcolm as 6th man, so you can still move the armband after Tuesday. Then use R13's four trades on Nunn → Payne, coach Masiulis (ZAL) → Albert (PAM), Davidovac → Tyson Ward and Feliz → Loyd. That doubles R13's chance of 200 from about 2% to about 5%.",
- "current_fix": "In the app, move Herrera out of the 6th-man slot. Start Robinson, Nunn and Feliz at guard (3-1-1) with Vezenkov (captain) and Diarra, and make Malcolm the 6th man. Bench Herrera, Davidovac, Joksimović and Diop.",
+ "window": "R12 trades used (done 14 Nov) · R13: 4 trades, open from the end of Wednesday's R12 games until Thursday's first tip-off · unlimited before R14 (21–24 Nov)",
+ "bottom_line": "Your R12 trades are done. For R12, just fix the lineup: captain Vezenkov, start Feliz and make Malcolm the 6th man. For R13 (Thu/Fri), sell Nunn (at Zalgiris, against your own coach) for Payne, switch coach Masiulis (ZAL) to Albert (PAM), and swap Davidovac for Tyson Ward and Feliz for Loyd. That lifts R13's chance of 200 from about 2% to about 5% (1 in 19).",
+ "current_fix": "R12 (no trades left): in the app, take Herrera out of the 6th-man slot. Start Robinson, Nunn and Feliz (3-1-1) with Vezenkov (captain) and Diarra, and make Malcolm the 6th man. Bench Herrera, Davidovac, Joksimović and Diop. If Vezenkov scores under about 16 on Tuesday, move the armband to Feliz (he plays Wednesday).",
  "variations": [
   {
    "key": "A",
    "name": "Best shot at 200",
    "recommended": true,
    "risk": "Medium",
-   "coach": "Zalgiris",
-   "tagline": "Trades are locked. Start three guards so Feliz (Wednesday) keeps the armband switch open, and captain Vezenkov.",
+   "coach": "Valencia Basket",
+   "tagline": "Get off the Zalgiris–Panathinaikos clash, take the biggest R13 favourite as coach, and stack Efes at home to ASVEL.",
    "trades": [
     {
-     "out": "Yam Madar (10.5)",
-     "in": "Justin Robinson (12.8)",
-     "credits": "−2.3",
-     "why": "Done 14 Nov. Robinson runs Barcelona with Punter (3–6 weeks) and Evbuomwan out: 20 PIR per game over his last 3, home to Paris. [dom: ACB 8 Nov vs Breogán 21' PIR 7, acb.com]"
+     "out": "Kendrick Nunn (14.8)",
+     "in": "Cameron Payne (10.2)",
+     "credits": "+4.6",
+     "why": "Nunn plays at Zalgiris on a back-to-back, against your coach's team. Payne runs Efes with Mike James out for the season: 17.7 PIR per game over his last 3, home to ASVEL. [dom: BSL 8 Nov vs Tofaş, 2 pts in an 87-93 loss, beinsports.com.tr]"
     },
     {
-     "out": "Mouhamed Faye (7.8)",
-     "in": "Ousmane Diop (4.5)",
-     "credits": "+3.3",
-     "why": "Done 14 Nov. Booker is out about 3 months (rectus femoris rupture), so Diop has the big-man minutes until Onyema arrives. [dom: unverified after 2 searches]"
+     "out": "Coach Masiulis (ZAL) (7.3)",
+     "in": "Coach Albert (PAM) (8.0)",
+     "credits": "−0.7",
+     "why": "Valencia (1st, 8-3) host Virtus, who have lost five straight: 86% favourites with a +12 projected margin, the best +20 bet of R13. Zalgiris–PAN is closer (59%)."
     },
     {
-     "out": "Dario Brizuela (6.3)",
-     "in": "Sebastian Herrera (5.9)",
-     "credits": "+0.4",
-     "why": "Done 14 Nov. 20 minutes a night and 11 PIR per game over his last 5. [dom: LNB 8 Nov vs Bourg, 14 pts in a 107-77 win, eurohoops.net]"
+     "out": "Dejan Davidovac (4.7)",
+     "in": "Tyson Ward (OLY) (8.1)",
+     "credits": "−3.4",
+     "why": "Davidovac is a 13-minute bench wing. Ward is at 26.5 minutes over his last 3 with Milutinov and Montero out, home to Madrid. [dom: GBL 8 Nov vs Marousi 35' PIR 15, esake.gr]"
     },
     {
-     "out": "Coach Penarroya (PAR) (6.2)",
-     "in": "Coach Masiulis (ZAL) (7.3)",
-     "credits": "−1.1",
-     "why": "Done 14 Nov. Zalgiris are 79% favourites at home to Bayern, the best coach bet of the round (site expectation +11.9)."
+     "out": "Andres Feliz (9.3)",
+     "in": "Jordan Loyd (9.4)",
+     "credits": "−0.1",
+     "why": "Feliz plays at Olympiacos two days after Beşiktaş. Loyd (0.8% owned) is home to ASVEL with Payne and Malcolm, so all three boom together if Efes win big. [dom: BSL 8 Nov vs Tofaş, 10 pts, beinsports.com.tr]"
     }
    ],
-   "bank_after": 0.1,
-   "formation": "3-1-1",
+   "bank_after": 0.5,
+   "formation": "2-2-1",
    "starters": [
     "Justin Robinson",
-    "Kendrick Nunn",
-    "Andres Feliz",
+    "Cameron Payne",
     "Sasha Vezenkov",
+    "Collin Malcolm",
     "Aliou Diarra"
    ],
-   "sixth": "Collin Malcolm",
+   "sixth": "Jordan Loyd",
    "bench": [
+    "Tyson Ward",
     "Sebastian Herrera",
-    "Dejan Davidovac",
-    "Stefan Joksimovic",
-    "Ousmane Diop"
+    "Ousmane Diop",
+    "Stefan Joksimovic"
    ],
    "captain": "Sasha Vezenkov",
-   "vice": "Andres Feliz",
-   "captain_note": "Vezenkov is 25 PIR per game over his last 3, at Maccabi in Cyprus, and Milutinov (finger fracture) is out. Fewer touches go to the post, and Vezenkov likely plays more minutes at the 4/5. He is the only 30+ ceiling on the team.",
-   "captain_plan": "Captain Vezenkov on Tuesday. If he finishes under about 16 PIR, move the armband to Feliz (at Beşiktaş on Wednesday). Otherwise leave it.",
+   "vice": "Justin Robinson",
+   "captain_note": "Vezenkov is home to Madrid on Friday, and Milutinov is probably still out. Madrid's frontcourt is thin (Deck, Jantunen out), and he's the only 30+ ceiling in the squad.",
    "reasoning": [
-    "The R12 trades are done, so the only levers are formation, 6th man and captain.",
-    "3-1-1 instead of 2-2-1 costs nothing in expected points (151 either way) and adds a little chance of 200 (5.7% vs 5.3%), because Malcolm at full value as 6th man is worth about the same as Feliz there.",
-    "Coach lens: Feliz is the only player you have on Wednesday. A starter on a later day is the one way to rescue a quiet captain night.",
-    "Cheap upside watch: none of the role-jump players is in the squad, and there are no trades to bring one in. Diop is the closest thing to one: with Booker out he's at 15 minutes and rising.",
-    "Nunn and Diarra play each other (PAN at VIR). That's a known correlation cost, and benching either is worse."
+    "Coach lens: Nunn at Zalgiris is a road back-to-back for a guard who already plays limited minutes. Selling him also removes the clash with your own coach pick.",
+    "Efes stack: Payne, Loyd and Malcolm all play ASVEL at home (75% win). With Fernando out, the guards take more shots.",
+    "Albert (PAM) is the coach most likely to reach the +20 bracket. The one cost is that Diarra plays against him, which is why Diarra stays the only Thursday starter.",
+    "Cheap upside watch: Ward is the role-jump pick (minutes up with Olympiacos' bigs hurt). Procida (MAD) was the alternative, but he plays at Olympiacos, against your captain.",
+    "Price check: prices change after R12, so re-check the bank in the app before trading. If it's short, trade 4 becomes Joksimović → Procida instead of Feliz → Loyd."
    ],
    "cancel_if": [
-    "Vezenkov is ruled out on Monday's report: captain Robinson (home to Paris) and start Malcolm.",
-    "Feliz is downgraded before Wednesday: switch to 2-2-1 with Malcolm starting and Herrera as 6th man."
+    "Nunn scores 25+ in R12 and PAN say he's fine: keep him and play Variation B's last trade (Joksimović → Procida) instead of Nunn → Payne.",
+    "Loyd or Payne listed out on Wednesday: keep Feliz (Variation B).",
+    "Milutinov cleared for Friday: Ward drops to bench value, so use Davidovac → Procida instead."
    ]
   },
   {
    "key": "B",
-   "name": "Template lineup",
+   "name": "Keep the template",
    "recommended": false,
    "risk": "Low",
-   "coach": "Zalgiris",
-   "tagline": "The lineup most managers will run: 2-2-1 with Feliz as 6th man. Same chance, less late flexibility.",
+   "tagline": "Same core moves, but keep Feliz (36% owned) and use the last trade on a cheap enabler.",
    "trades": [
     {
-     "out": "Yam Madar (10.5)",
-     "in": "Justin Robinson (12.8)",
-     "credits": "−2.3",
-     "why": "Done 14 Nov. Robinson runs Barcelona with Punter (3–6 weeks) and Evbuomwan out: 20 PIR per game over his last 3, home to Paris. [dom: ACB 8 Nov vs Breogán 21' PIR 7, acb.com]"
+     "out": "Kendrick Nunn (14.8)",
+     "in": "Cameron Payne (10.2)",
+     "credits": "+4.6",
+     "why": "Nunn plays at Zalgiris on a back-to-back, against your coach's team. Payne runs Efes with Mike James out for the season: 17.7 PIR per game over his last 3, home to ASVEL. [dom: BSL 8 Nov vs Tofaş, 2 pts in an 87-93 loss, beinsports.com.tr]"
     },
     {
-     "out": "Mouhamed Faye (7.8)",
-     "in": "Ousmane Diop (4.5)",
-     "credits": "+3.3",
-     "why": "Done 14 Nov. Booker is out about 3 months (rectus femoris rupture), so Diop has the big-man minutes until Onyema arrives. [dom: unverified after 2 searches]"
+     "out": "Coach Masiulis (ZAL) (7.3)",
+     "in": "Coach Albert (PAM) (8.0)",
+     "credits": "−0.7",
+     "why": "Valencia (1st, 8-3) host Virtus, who have lost five straight: 86% favourites with a +12 projected margin, the best +20 bet of R13. Zalgiris–PAN is closer (59%)."
     },
     {
-     "out": "Dario Brizuela (6.3)",
-     "in": "Sebastian Herrera (5.9)",
-     "credits": "+0.4",
-     "why": "Done 14 Nov. 20 minutes a night and 11 PIR per game over his last 5. [dom: LNB 8 Nov vs Bourg, 14 pts in a 107-77 win, eurohoops.net]"
+     "out": "Dejan Davidovac (4.7)",
+     "in": "Tyson Ward (OLY) (8.1)",
+     "credits": "−3.4",
+     "why": "Davidovac is a 13-minute bench wing. Ward is at 26.5 minutes over his last 3 with Milutinov and Montero out, home to Madrid. [dom: GBL 8 Nov vs Marousi 35' PIR 15, esake.gr]"
     },
     {
-     "out": "Coach Penarroya (PAR) (6.2)",
-     "in": "Coach Masiulis (ZAL) (7.3)",
-     "credits": "−1.1",
-     "why": "Done 14 Nov. Zalgiris are 79% favourites at home to Bayern, the best coach bet of the round (site expectation +11.9)."
+     "out": "Stefan Joksimovic (4.2)",
+     "in": "Gabriele Procida (4.5)",
+     "credits": "−0.3",
+     "why": "Joksimović is at 1.7 PIR per game over his last 3. Procida's minutes went 10 → 23 over the last 2 games (cheap upside watch), and he's a rebuild enabler for R14. [dom: ACB 8 Nov vs Murcia 22' PIR 4, acb.com]"
     }
    ],
-   "bank_after": 0.1,
+   "bank_after": 0.3,
    "formation": "2-2-1",
    "starters": [
     "Justin Robinson",
-    "Kendrick Nunn",
+    "Cameron Payne",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Tyson Ward",
+    "Sebastian Herrera",
+    "Ousmane Diop",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "vice": "Justin Robinson",
+   "captain_note": "Vezenkov, the template captain, at home to Madrid.",
+   "reasoning": [
+    "Keeps Feliz, the most-owned guard in the game, so you don't lose rank if Madrid's guards go off at Olympiacos.",
+    "The highest floor of the three (10th percentile 113 vs 109 for A), but a slightly lower chance of 200 (4.3% vs 5.3%).",
+    "Procida and Feliz both play against your captain on Friday, a small anti-correlation.",
+    "Simulated: mean about 150."
+   ],
+   "cancel_if": [
+    "Feliz is limited in R12: switch to A's Feliz → Loyd."
+   ],
+   "coach": "Valencia Basket"
+  },
+  {
+   "key": "C",
+   "name": "Moonshot: Valencia stack",
+   "recommended": false,
+   "risk": "High",
+   "tagline": "Captain TJ Shorts with the Valencia coach: one blowout against Virtus makes the round.",
+   "trades": [
+    {
+     "out": "Kendrick Nunn (14.8)",
+     "in": "Cameron Payne (10.2)",
+     "credits": "+4.6",
+     "why": "Nunn plays at Zalgiris on a back-to-back, against your coach's team. Payne runs Efes with Mike James out for the season: 17.7 PIR per game over his last 3, home to ASVEL. [dom: BSL 8 Nov vs Tofaş, 2 pts in an 87-93 loss, beinsports.com.tr]"
+    },
+    {
+     "out": "Coach Masiulis (ZAL) (7.3)",
+     "in": "Coach Albert (PAM) (8.0)",
+     "credits": "−0.7",
+     "why": "Valencia (1st, 8-3) host Virtus, who have lost five straight: 86% favourites with a +12 projected margin, the best +20 bet of R13. Zalgiris–PAN is closer (59%)."
+    },
+    {
+     "out": "Justin Robinson (12.8)",
+     "in": "Tj Shorts (16.8)",
+     "credits": "−4.0",
+     "why": "Shorts (24% owned, but almost nobody's captain) is 20.7 PIR per game over his last 10, home to a Virtus team on a five-game losing streak, with your coach on the same side. [dom: ACB 8 Nov at Burgos 23' PIR 22, acb.com]"
+    },
+    {
+     "out": "Dejan Davidovac (4.7)",
+     "in": "Vanja Marinkovic (4.1)",
+     "credits": "+0.6",
+     "why": "Funds Shorts. Marinkovic is a cheap Partizan wing at home to Beşiktaş. [dom: unverified after 2 searches]"
+    }
+   ],
+   "bank_after": 0.6,
+   "formation": "2-2-1",
+   "starters": [
+    "Tj Shorts",
+    "Cameron Payne",
     "Sasha Vezenkov",
     "Collin Malcolm",
     "Aliou Diarra"
@@ -119,112 +180,51 @@
    "sixth": "Andres Feliz",
    "bench": [
     "Sebastian Herrera",
-    "Dejan Davidovac",
-    "Stefan Joksimovic",
-    "Ousmane Diop"
+    "Vanja Marinkovic",
+    "Ousmane Diop",
+    "Stefan Joksimovic"
    ],
-   "captain": "Sasha Vezenkov",
-   "vice": "Justin Robinson",
-   "captain_note": "Vezenkov captain, like 46% of the field. If you're protecting rank, this is the lineup that matches the field.",
-   "captain_plan": "Vezenkov all round. In this shape, nobody who plays Wednesday is a starter, so the armband can't move.",
-   "reasoning": [
-    "Same squad and captain as A. Malcolm starts and Feliz is the full-value 6th man.",
-    "Malcolm at Dubai is a tough draw (Efes are 35% to win), but he's at 30 minutes and 21 PIR per game over his last 3, and Fernando's calf injury (3–4 weeks) moves more frontcourt touches his way.",
-    "It gives up the Wednesday captain switch. That's why it ranks behind A.",
-    "Simulated: mean 151, 5.3% chance of 200."
-   ],
-   "cancel_if": [
-    "Vezenkov is ruled out: captain Robinson."
-   ]
-  },
-  {
-   "key": "C",
-   "name": "Differential captain",
-   "recommended": false,
-   "risk": "High",
-   "coach": "Zalgiris",
-   "tagline": "Captain Robinson (3% owned) at home to Paris. A rank climb if he booms and Vezenkov doesn't.",
-   "trades": [
-    {
-     "out": "Yam Madar (10.5)",
-     "in": "Justin Robinson (12.8)",
-     "credits": "−2.3",
-     "why": "Done 14 Nov. Robinson runs Barcelona with Punter (3–6 weeks) and Evbuomwan out: 20 PIR per game over his last 3, home to Paris. [dom: ACB 8 Nov vs Breogán 21' PIR 7, acb.com]"
-    },
-    {
-     "out": "Mouhamed Faye (7.8)",
-     "in": "Ousmane Diop (4.5)",
-     "credits": "+3.3",
-     "why": "Done 14 Nov. Booker is out about 3 months (rectus femoris rupture), so Diop has the big-man minutes until Onyema arrives. [dom: unverified after 2 searches]"
-    },
-    {
-     "out": "Dario Brizuela (6.3)",
-     "in": "Sebastian Herrera (5.9)",
-     "credits": "+0.4",
-     "why": "Done 14 Nov. 20 minutes a night and 11 PIR per game over his last 5. [dom: LNB 8 Nov vs Bourg, 14 pts in a 107-77 win, eurohoops.net]"
-    },
-    {
-     "out": "Coach Penarroya (PAR) (6.2)",
-     "in": "Coach Masiulis (ZAL) (7.3)",
-     "credits": "−1.1",
-     "why": "Done 14 Nov. Zalgiris are 79% favourites at home to Bayern, the best coach bet of the round (site expectation +11.9)."
-    }
-   ],
-   "bank_after": 0.1,
-   "formation": "3-1-1",
-   "starters": [
-    "Justin Robinson",
-    "Kendrick Nunn",
-    "Andres Feliz",
-    "Sasha Vezenkov",
-    "Aliou Diarra"
-   ],
-   "sixth": "Collin Malcolm",
-   "bench": [
-    "Sebastian Herrera",
-    "Dejan Davidovac",
-    "Stefan Joksimovic",
-    "Ousmane Diop"
-   ],
-   "captain": "Justin Robinson",
+   "captain": "Tj Shorts",
    "vice": "Sasha Vezenkov",
-   "captain_note": "Robinson has scored 18–24 points in three straight with Punter out, and Paris play fast with leaky perimeter defense. The ceiling is real, but it's lower than Vezenkov's.",
-   "captain_plan": "Captain Robinson on Tuesday. If he's under about 15, move the armband to Feliz on Wednesday.",
+   "captain_note": "Shorts plays Thursday. If Valencia win big he can reach 35+ doubled, plus the coach's +20.",
+   "captain_plan": "Captain Shorts on Thursday. If he's under about 18, move the armband to Vezenkov on Friday.",
    "reasoning": [
-    "Pure rank play: about 1 in 2 managers captain Vezenkov, and almost nobody captains Robinson.",
-    "It costs about 4 points in expectation and cuts the chance of 200 to about 3.6% (from 5.7%).",
-    "Coach lens: Barcelona are 70% favourites at the Palau, and Robinson is their only healthy lead guard.",
-    "Only for a night when you want variance over expected points. Not recommended against a 200 target."
+    "Max variance: captain and coach on the same likely blowout.",
+    "A blowout risk too: Valencia's starters may sit in the 4th quarter if it's +20, which caps Shorts' minutes.",
+    "Diarra plays the other side of that game. Keep him, since he's 18.5 PIR per game, but it trims the upside.",
+    "The Thursday captain keeps the Friday fallback to Vezenkov open.",
+    "Simulated chance of 200: about 3.7%. Only if you want a differential round."
    ],
    "cancel_if": [
-    "Robinson is listed on Monday's injury report: go back to A."
-   ]
+    "Mirotic returns and Valencia rest Shorts: go back to A."
+   ],
+   "coach": "Valencia Basket"
   }
  ],
  "alerts": [
   {
    "level": "high",
-   "text": "Changes since the 19:06 update: you made all four R12 trades (Robinson, Diop, Herrera, coach Masiulis (ZAL)). There are none left this round, so this report is about the lineup now and the R13 trades next. New news: Milutinov is out for Olympiacos at Maccabi with a finger fracture (back around 24 Nov). Bruno Fernando (Efes) is out 3–4 weeks with a calf injury. Booker (Milan) is confirmed out about 3 months, and Milan are signing Onyema."
+   "text": "Changes since the 19:06 update: you made all four R12 trades, so this report now plans R13 (trades_done_for_round: 12 in my_team.json). R12 is lineup only: see 'With no trades'. New news: Milutinov is out for Olympiacos at Maccabi with a finger fracture (back around 24 Nov). Bruno Fernando (Efes) is out 3–4 weeks with a calf injury. Booker (Milan) is out about 3 months, and Milan are signing Onyema."
   },
   {
    "level": "high",
-   "text": "Fix the app lineup: Herrera is still your 6th man. Use 3-1-1: Robinson, Nunn, Feliz / Vezenkov (C) / Diarra, with Malcolm as 6th man."
+   "text": "R12 lineup fix in the app: Herrera is still your 6th man. Use 3-1-1: Robinson, Nunn, Feliz / Vezenkov (C) / Diarra, with Malcolm as 6th man. That gives a 5.7% chance of 200 and a mean of 151, against 3.7% with Herrera as 6th man."
   },
   {
    "level": "",
-   "text": "R13 plan (4 new trades, after Wednesday's games and before Thursday's tip-off): Nunn → Cameron Payne (IST), coach Masiulis (ZAL) → Albert (PAM), Davidovac → Tyson Ward (OLY), Feliz → Jordan Loyd (IST). R13 chance of 200: about 5.3% (vs 1.8% with no trades), with 0.5 left in the bank on site prices. Why: Nunn plays at Zalgiris on a back-to-back, against your own coach. Valencia host a weak Virtus (86% favourites). Efes host ASVEL (75%), so three Efes players boom together. Re-check after R12: prices change and the app's numbers are about 0.1–0.4 higher on each of your sells."
+   "text": "R13 trades open after Wednesday's R12 games and lock at Thursday's first tip-off (Diarra's and Nunn's games are Thursday). Prices change after R12, so re-check the bank in the app before trading. Your sells are already about 0.1–0.4 higher in the app than on the site."
   },
   {
    "level": "",
-   "text": "Your bank is 0.1 (you confirmed it in the app). The site still shows pre-R11 prices, so the squad value here (103.0 + coach) is below the app's 105.4. The total budget of 105.5 is from your screenshot."
+   "text": "Bank 0.1, as you confirmed in the app. The site still shows pre-R11 prices (squad value 103.0 + coach) against the app's 105.4. The total budget of 105.5 is from your screenshot."
   },
   {
    "level": "",
-   "text": "No bookmaker key. Zalgiris–Bayern odds for Tuesday aren't posted yet; the March meeting in Kaunas was −400 (about 80%), which matches the site's 79%. The coach pick stands."
+   "text": "No bookmaker key, and R13 lines aren't posted yet. Valencia–Virtus: the site has 86% for Valencia, which fits Virtus' five-game losing streak and missing guards (Hackett doubtful, Baldasso out). Recheck on Wednesday."
   },
   {
    "level": "",
-   "text": "Unlimited trades from 21 Nov before R14. See the rebuild plan below, and don't pay for anything beyond R13 now."
+   "text": "Unlimited trades from 21 Nov before R14. The rebuild plan is below. Nothing in the R13 plan pays for the long term."
   }
  ],
  "rumours": [
@@ -277,18 +277,18 @@
   },
   {
    "name": "Kendrick Nunn",
-   "verdict": "KEEP (R12) / SELL in R13",
+   "verdict": "SELL (R13)",
    "read": "18.8 PIR per game over his last 5, mostly off the bench, at Virtus (Virtus have Hackett doubtful and Baldasso out). R13 is at Zalgiris on a back-to-back, against your own coach: sell him for Payne then. [dom: GBL 8 Nov DNP (passport trip to Qatar), eurohoops.net]"
   },
   {
    "name": "Andres Feliz",
-   "verdict": "KEEP (start, Wed)",
-   "read": "With Campazzo, Maledon and Deck out, Madrid lean on him: 25.6 minutes over his last 3. At Beşiktaş on Wednesday, the only late starter you have. A candidate to sell in R13 (B2B at Olympiacos). [dom: ACB 8 Nov 21' PIR 15, acb.com]"
+   "verdict": "SELL (R13, A) / KEEP (B)",
+   "read": "With Campazzo, Maledon and Deck out, Madrid lean on him: 25.6 minutes over his last 3. At Beşiktaş on Wednesday, the only late starter you have. R13 is at Olympiacos, two days after Beşiktaş: A swaps him for Loyd, and B keeps him. [dom: ACB 8 Nov 21' PIR 15, acb.com]"
   },
   {
    "name": "Collin Malcolm",
    "verdict": "KEEP (6th)",
-   "read": "21.3 PIR per game over his last 3 in 30 minutes, and Fernando's absence adds frontcourt usage. Efes are 35% to win at Dubai, but his minutes hold up in a loss. ASVEL at home in R13. [dom: BSL 8 Nov vs Tofaş, 7 pts in an 87-93 loss, beinsports.com.tr]"
+   "read": "21.3 PIR per game over his last 3 in 30 minutes, and Fernando's absence adds frontcourt usage. Efes are 35% to win at Dubai, but his minutes hold up in a loss. ASVEL at home in R13 (75% win), the base of A's Efes stack. [dom: BSL 8 Nov vs Tofaş, 7 pts in an 87-93 loss, beinsports.com.tr]"
   },
   {
    "name": "Aliou Diarra",
@@ -307,7 +307,7 @@
   },
   {
    "name": "Dejan Davidovac",
-   "verdict": "SELL in R13",
+   "verdict": "SELL (R13)",
    "read": "13 minutes off the bench and 6.4 PIR per game this season. The first R13 sell (for Tyson Ward). [dom: ABA 9 Nov vs Slovan 10' 2 pts 3 reb, val 6, aba-liga.com]"
   },
   {
@@ -318,32 +318,28 @@
  ],
  "watchlist": [
   {
-   "name": "Cameron Payne (IST, 10.2)",
-   "why": "17.7 PIR per game over his last 3 as Efes' starting point guard (Mike James is out for the season). R13 buy for Nunn if R12 goes normally."
-  },
-  {
-   "name": "Jordan Loyd (IST, 9.4)",
-   "why": "0.8% owned. Plays ASVEL at home in R13, stacked with Payne and Malcolm. R13 buy for Feliz if Feliz's back-to-back looks heavy."
-  },
-  {
-   "name": "Tyson Ward (OLY, 8.1)",
-   "why": "Minutes up with Milutinov and Montero out. R13 buy for Davidovac (home to Madrid)."
-  },
-  {
-   "name": "Coach Albert (PAM, 8.0)",
-   "why": "Valencia are 86% favourites with a +12 projected margin at home to Virtus in R13. Swap Masiulis (ZAL) for him, because Zalgiris face your Nunn."
-  },
-  {
    "name": "Jonas Valančiūnas (ZAL, 16.9)",
-   "why": "R11 MVP. The top big-man target for the R14 unlimited window."
+   "why": "R11 MVP (28 PIR per game over his last 3). The top big-man target for the R14 unlimited window."
   },
   {
    "name": "Gabriele Procida (MAD, 4.5)",
-   "why": "Cheap upside watch: minutes 10 → 23 over the last 2 games. A rebuild enabler for R14."
+   "why": "Cheap upside watch: minutes 10 → 23 over the last 2 games. Variation B's R13 buy and a rebuild enabler."
+  },
+  {
+   "name": "Wade Baldwin Iv (ULK, 13.5)",
+   "why": "2% owned. R13 at Milan, who have lost ten straight. The alternative to Payne if Efes add a guard, or if Nunn's money buys more."
+  },
+  {
+   "name": "Elijah Bryant (HTA, 17.7)",
+   "why": "22.5 PIR per game over 10. A window buy for R14 if his form (15.3 over his last 3) recovers."
+  },
+  {
+   "name": "Nikola Tanaskovic (PAR, 8.4)",
+   "why": "Cheap upside watch: minutes 19 → 28 with Partizan's bigs hurt (Hayes doubtful). A bench center option in the window."
   }
  ],
- "review": "Scorecard: no newly finished round to grade yet. R12 starts Tuesday, and the predictions saved with this report grade it then. R11 (unofficial, our count) was about 168 with your screenshot lineup: Vezenkov (C) 57, Faye 21, Feliz 19, and coach Penarroya (PAR) +20, while Madar 11, Joksimović 2 and Davidovac 8 held it back. Calls: selling Madar was right (broken nose, still doubtful), and the coach switch to Masiulis (ZAL) still looks right: Valančiūnas was R11 MVP and Zalgiris are about 80% to beat Bayern. Owned miss: earlier today the report didn't flag that R12's trades were already used, and my_team.json still showed 4 trades left. That's fixed (set to 0), and this run plans R13's trades instead. Research: 23 searches, 4 pages read, 1 player unverified (Diop domestic).",
+ "review": "Scorecard: no finished round to grade yet. R12 starts Tuesday, but this report now targets R13, so its saved predictions grade R13. Last round, R11 (unofficial, our count), came to about 168 with your screenshot lineup: Vezenkov (C) 57, Faye 21, Feliz 19, and coach Penarroya (PAR) +20, while Madar 11, Joksimović 2 and Davidovac 8 held it back. Calls: selling Madar was right (broken nose, still doubtful), and Masiulis (ZAL) looks a sound R12 coach (Valančiūnas was R11 MVP, and Zalgiris are about 80% vs Bayern). Owned miss: until tonight my_team.json still showed 4 R12 trades left after you'd made them, so the 19:06 report was still planning R12. Fixed with trades_done_for_round: 12, and this run plans R13. Research: 27 searches, 5 pages read, 1 player unverified (Diop's domestic game).",
  "target": 200,
- "generated": "2026-11-14T20:25Z",
+ "generated": "2026-11-14T20:45Z",
  "window_plan": "I'd make rebuild 1 with one change. Sell Nunn, Herrera, Davidovac, Joksimović and Diarra; buy Payne, Frisch, Procida, Valančiūnas and Llull, with coach Martinez (MAD). Valančiūnas is the clear upgrade at center, and Procida and Frisch are minutes-backed cheap enablers. I'd check Llull against Madrid's guard returns (Campazzo, Maledon) before the window, and keep Diop only until Onyema is registered. The R13 trades above already move Nunn → Payne, so the window needs fewer moves. Prices will shift after R12–R13, so I'll redo this on 21 Nov."
 }

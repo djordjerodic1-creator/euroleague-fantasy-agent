@@ -1,12 +1,12 @@
 # Evidence digest — 2026-11-14
-Target round: **R12** · decision horizon: R12, R13 · rounds in progress today: none · projections file is for R12
+Target round: **R13** (R12 trades already made (my_team.json): planning R13) · decision horizon: R13 · rounds in progress today: none · projections file is for R12
 
 ## Calendar
-- R11: 2026-11-11 → 2026-11-13 · 4 trades
 - R12: 2026-11-17 → 2026-11-18 · DOUBLE WEEK · 4 trades
 - R13: 2026-11-19 → 2026-11-20 · DOUBLE WEEK · 4 trades
 - R14: 2026-11-24 → 2026-11-25 · UNLIMITED trades before it (21 Nov – 24 Nov)
 - R15: 2026-12-03 → 2026-12-04 · 4 trades
+- R16: 2026-12-10 → 2026-12-11 · 4 trades
 
 ## My team
 Cost 103.0 · bank 0.1 · coach ZAL · captain Sasha Vezenkov · clubs {'BAR': 1, 'PAN': 1, 'MAD': 1, 'PRS': 1, 'OLY': 1, 'IST': 1, 'RED': 1, 'BAS': 1, 'VIR': 1, 'MIL': 1}
@@ -18,8 +18,8 @@ Cost 103.0 · bank 0.1 · coach ZAL · captain Sasha Vezenkov · clubs {'BAR': 1
 - Domestic last game (auto, ACB): 2026-11-08 vs Rio Breogan: 20.6' 13 pts 0 reb 3 ast, league PIR 7 · https://live.acb.com/partidos/barca-vs-rio-breogan-105432/estadisticas
 - Last 5 games: R7 @ MIL W 89-81: 12 PIR, 24.6 min, 10p 5r 8a (start) · R8 @ MUN W 88-84: 8 PIR, 19.9 min, 11p 1r 5a (start) · R9 vs PAM W 98-94: 23 PIR, 20.8 min, 22p 0r 1a (start) · R10 @ HTA W 93-90: 18 PIR, 21.4 min, 20p 4r 6a (start) · R11 @ PAN W 76-74: 20 PIR, 25.7 min, 24p 1r 1a (start)
 - Price Δ last 3/5/10 rounds: 2.4/1.9/None · since start 0.6 · projected change after round None · PIR≥price 5/10
-- Schedule: R12 vsPRS 17 (diff 1/5) | R13 vsRED 15.3 (diff 3/5)
-- Window score (site proj, weighted): 27.71 · P10–P90 this round 6.6–28.5 · win prob 0.697
+- Schedule: R13 vsRED 15.3 (diff 3/5)
+- Window score (site proj, weighted): 15.3 · P10–P90 this round 6.6–28.5 · win prob 0.697
 - When Tosan Evbuomwan, Kevin Punter out (1 games): minutes +1.7, PIR +1.2 (avg min then 25.7)
 - Domestic league: Liga ACB (Spain)
 
@@ -30,8 +30,8 @@ Cost 103.0 · bank 0.1 · coach ZAL · captain Sasha Vezenkov · clubs {'BAR': 1
 - Domestic last game: not auto-covered (research it)
 - Last 5 games: R7 vs BAS W 85-79: 8 PIR, 19.6 min, 11p 1r 5a (bench) · R8 vs MIL W 80-75: 26 PIR, 22.8 min, 20p 2r 6a (bench) · R9 @ IST L 68-83: 10 PIR, 26.2 min, 17p 3r 1a (start) · R10 @ MAD W 115-112: 31 PIR, 23.7 min, 33p 1r 1a (bench) · R11 vs BAR L 74-76: 19 PIR, 26.1 min, 19p 6r 3a (bench)
 - Price Δ last 3/5/10 rounds: None/None/None · since start 0.2 · projected change after round None · PIR≥price 3/5
-- Schedule: R12 @VIR 15.2 (diff 3/5) | R13 @ZAL 13.9 (diff 2/5, B2B)
-- Window score (site proj, weighted): 24.93 · P10–P90 this round 5.1–27 · win prob 0.618
+- Schedule: R13 @ZAL 13.9 (diff 2/5, B2B)
+- Window score (site proj, weighted): 13.9 · P10–P90 this round 5.1–27 · win prob 0.618
 - Domestic league: GBL (Greece)
 
 ### Andres Feliz — Real Madrid · Guard · 9.3 cr · owned 36.0%
@@ -41,8 +41,8 @@ Cost 103.0 · bank 0.1 · coach ZAL · captain Sasha Vezenkov · clubs {'BAR': 1
 - Domestic last game (auto, ACB): 2026-11-08 vs Ucam Murcia: 20.7' 11 pts 5 reb 5 ast, league PIR 15 · https://live.acb.com/partidos/real-madrid-vs-ucam-murcia-105437/estadisticas
 - Last 5 games: R7 @ TEL W 113-99: 17 PIR, 21.2 min, 18p 2r 4a (start) · R8 @ BAS W 104-86: 9 PIR, 21.9 min, 12p 1r 3a (start) · R9 vs ULK W 95-76: 6 PIR, 22.1 min, 8p 2r 1a (start) · R10 vs PAN L 112-115: 28 PIR, 33.9 min, 27p 2r 6a (start) · R11 vs RED W 105-84: 19 PIR, 21.0 min, 11p 4r 7a (start)
 - Price Δ last 3/5/10 rounds: 0.3/0.1/None · since start 3.1 · projected change after round None · PIR≥price 7/10
-- Schedule: R12 @BES 14.5 (diff 3/5) | R13 @OLY 12 (diff 3/5, B2B)
-- Window score (site proj, weighted): 22.9 · P10–P90 this round 4.6–26 · win prob 0.587
+- Schedule: R13 @OLY 12 (diff 3/5, B2B)
+- Window score (site proj, weighted): 12.0 · P10–P90 this round 4.6–26 · win prob 0.587
 - When Gabriel Deck, Mikael Jantunen, Facundo Campazzo, Theo Maledon out (2 games): minutes +2.7, PIR +1.6 (avg min then 27.4)
 - Domestic league: Liga ACB (Spain)
 
@@ -53,8 +53,8 @@ Cost 103.0 · bank 0.1 · coach ZAL · captain Sasha Vezenkov · clubs {'BAR': 1
 - Domestic last game: not auto-covered (research it)
 - Last 5 games: R7 vs PAM L 93-104: 10 PIR, 25.0 min, 11p 4r 3a (start) · R8 @ DUB W 99-93: 14 PIR, 20.7 min, 12p 2r 3a (bench) · R9 @ TEL W 99-94: 12 PIR, 20.3 min, 12p 2r 3a (start) · R10 @ IST W 95-90: 4 PIR, 21.0 min, 5p 1r 0a (start) · R11 vs ULK W 111-109: 15 PIR, 21.3 min, 12p 3r 6a (start)
 - Price Δ last 3/5/10 rounds: 0.5/1.7/None · since start 0.9 · projected change after round None · PIR≥price 6/10
-- Schedule: R12 @BAR 7.5 (diff 2/5) | R13 vsHTA 8.3 (diff 4/5, B2B)
-- Window score (site proj, weighted): 13.31 · P10–P90 this round -0.3–16.8 · win prob 0.303
+- Schedule: R13 vsHTA 8.3 (diff 4/5, B2B)
+- Window score (site proj, weighted): 8.3 · P10–P90 this round -0.3–16.8 · win prob 0.303
 - Domestic league: LNB Élite (France)
 
 ### Sasha Vezenkov — Olympiacos · Forward · 18.9 cr · owned 46.0%
@@ -64,8 +64,8 @@ Cost 103.0 · bank 0.1 · coach ZAL · captain Sasha Vezenkov · clubs {'BAR': 1
 - Domestic last game (auto, GBL): 2026-11-08 : 33.7' 18 pts 3 reb 0 ast, league PIR 19 · https://www.esake.gr/el/action/EsakegameView?idgame=84DE99E9&mode=3
 - Last 5 games: R7 vs ULK L 61-64: 20 PIR, 33.9 min, 17p 10r 2a (start) · R8 @ BES W 81-73: 19 PIR, 24.0 min, 16p 5r 2a (start) · R9 vs MIL W 84-78: 22 PIR, 31.9 min, 23p 4r 1a (start) · R10 vs RED L 57-62: 28 PIR, 33.8 min, 27p 6r 1a (start) · R11 vs DUB W 101-72: 26 PIR, 20.9 min, 20p 4r 1a (start)
 - Price Δ last 3/5/10 rounds: -0.3/-1.0/None · since start 1.9 · projected change after round None · PIR≥price 8/10
-- Schedule: R12 @TEL 20.6 (diff 5/5) | R13 vsMAD 21.5 (diff 2/5)
-- Window score (site proj, weighted): 35.65 · P10–P90 this round 11.3–32.2 · win prob 0.668
+- Schedule: R13 vsMAD 21.5 (diff 2/5)
+- Window score (site proj, weighted): 21.5 · P10–P90 this round 11.3–32.2 · win prob 0.668
 - When Nikola Milutinov, Jean Montero out (1 games): minutes -1.2, PIR -1 (avg min then 24)
 - Domestic league: GBL (Greece)
 
@@ -76,8 +76,8 @@ Cost 103.0 · bank 0.1 · coach ZAL · captain Sasha Vezenkov · clubs {'BAR': 1
 - Domestic last game: not auto-covered (research it)
 - Last 5 games: R7 vs BES W 89-80: 11 PIR, 30.9 min, 15p 5r 2a (start) · R8 @ HTA L 88-118: 13 PIR, 25.9 min, 9p 6r 4a (start) · R9 vs PAN W 83-68: 21 PIR, 31.4 min, 15p 6r 1a (start) · R10 vs PRS L 90-95: 21 PIR, 31.9 min, 20p 6r 2a (start) · R11 vs VIR W 103-91: 22 PIR, 27.4 min, 20p 5r 1a (start)
 - Price Δ last 3/5/10 rounds: 1.9/2.1/None · since start 1.7 · projected change after round None · PIR≥price 8/10
-- Schedule: R12 @DUB 12.6 (diff 5/5) | R13 vsASV 13.6 (diff 3/5)
-- Window score (site proj, weighted): 22.12 · P10–P90 this round 3.2–22.7 · win prob 0.351
+- Schedule: R13 vsASV 13.6 (diff 3/5)
+- Window score (site proj, weighted): 13.6 · P10–P90 this round 3.2–22.7 · win prob 0.351
 - Domestic league: BSL (Turkey)
 
 ### Dejan Davidovac — Crvena Zvezda · Forward · 4.7 cr · owned 11.0%
@@ -87,8 +87,8 @@ Cost 103.0 · bank 0.1 · coach ZAL · captain Sasha Vezenkov · clubs {'BAR': 1
 - Domestic last game: ABA League, see the domestic alerts section
 - Last 5 games: R7 @ PAR L 82-85: -1 PIR, 10.4 min, 1p 0r 0a (start) · R8 vs TEL W 100-78: 4 PIR, 12.9 min, 2p 1r 0a (bench) · R9 vs MUN W 103-73: 12 PIR, 12.1 min, 5p 3r 4a (bench) · R10 @ OLY W 62-57: 5 PIR, 11.6 min, 5p 2r 0a (bench) · R11 @ MAD L 84-105: 8 PIR, 15.3 min, 5p 2r 1a (bench)
 - Price Δ last 3/5/10 rounds: 0.6/-1.3/None · since start 0.3 · projected change after round None · PIR≥price 6/8
-- Schedule: R12 @MIL 5.7 (diff 3/5) | R13 @BAR 5.6 (diff 4/5)
-- Window score (site proj, weighted): 9.62 · P10–P90 this round -1.3–14.4 · win prob 0.634
+- Schedule: R13 @BAR 5.6 (diff 4/5)
+- Window score (site proj, weighted): 5.6 · P10–P90 this round -1.3–14.4 · win prob 0.634
 - Domestic league: ABA League
 
 ### Stefan Joksimovic — Baskonia · Forward · 4.2 cr · owned 15.0%
@@ -98,8 +98,8 @@ Cost 103.0 · bank 0.1 · coach ZAL · captain Sasha Vezenkov · clubs {'BAR': 1
 - Domestic last game (auto, ACB): 2026-11-07 @ Ilerna Lleida: 26.4' 15 pts 2 reb 1 ast, league PIR 11 · https://live.acb.com/partidos/ilerna-lleida-vs-kosner-baskonia-105431/estadisticas
 - Last 5 games: R7 @ PAN L 79-85: 12 PIR, 19.3 min, 13p 0r 3a (bench) · R8 vs MAD L 86-104: 10 PIR, 24.6 min, 12p 4r 3a (start) · R9 @ ASV L 79-94: 1 PIR, 19.2 min, 9p 1r 1a (start) · R10 @ ULK L 65-84: 2 PIR, 21.9 min, 7p 4r 1a (start) · R11 @ PAR L 66-80: 2 PIR, 10.7 min, 2p 1r 2a (start)
 - Price Δ last 3/5/10 rounds: 0.6/2.7/None · since start 0.2 · projected change after round None · PIR≥price 3/10
-- Schedule: R12 vsHTA 6.3 (diff 4/5) | R13 @MUN 5.9 (diff 5/5, B2B)
-- Window score (site proj, weighted): 10.43 · P10–P90 this round -0.9–17.3 · win prob 0.338
+- Schedule: R13 @MUN 5.9 (diff 5/5, B2B)
+- Window score (site proj, weighted): 5.9 · P10–P90 this round -0.9–17.3 · win prob 0.338
 - When Kenneth Faried out (None games): minutes +0.6, PIR +0.2 (avg min then None)
 - Domestic league: Liga ACB (Spain)
   - news [minutes_up] 2026-11-04:  {"m3": 21, "m10": 12.5}
@@ -111,8 +111,8 @@ Cost 103.0 · bank 0.1 · coach ZAL · captain Sasha Vezenkov · clubs {'BAR': 1
 - Domestic last game: not auto-covered (research it)
 - Last 5 games: R7 @ HTA L 81-90: 22 PIR, 18.9 min, 12p 7r 0a (bench) · R8 vs ZAL L 74-91: 16 PIR, 16.9 min, 13p 6r 0a (bench) · R9 vs BES L 101-103: 12 PIR, 17.2 min, 8p 7r 1a (bench) · R10 vs DUB L 75-93: 29 PIR, 19.1 min, 19p 7r 3a (bench) · R11 @ IST L 91-103: 11 PIR, 22.2 min, 10p 6r 1a (bench)
 - Price Δ last 3/5/10 rounds: -1.5/-1.4/None · since start 4.3 · projected change after round None · PIR≥price 10/10
-- Schedule: R12 vsPAN 14.5 (diff 2/5) | R13 @PAM 13.7 (diff 4/5, B2B)
-- Window score (site proj, weighted): 24.09 · P10–P90 this round 4.4–26.1 · win prob 0.382
+- Schedule: R13 @PAM 13.7 (diff 4/5, B2B)
+- Window score (site proj, weighted): 13.7 · P10–P90 this round 4.4–26.1 · win prob 0.382
 - Domestic league: LBA (Italy)
 
 ### Ousmane Diop — Olimpia Milano · Center · 4.5 cr · owned 19.0%
@@ -122,166 +122,166 @@ Cost 103.0 · bank 0.1 · coach ZAL · captain Sasha Vezenkov · clubs {'BAR': 1
 - Domestic last game: not auto-covered (research it)
 - Last 5 games: R6 vs DUB L 97-101: 1 PIR, 4.1 min, 1p 1r 0a (bench) · R8 @ PAN L 75-80: 10 PIR, 13.5 min, 4p 6r 2a (bench) · R9 @ OLY L 78-84: -1 PIR, 11.1 min, 0p 0r 0a (bench) · R10 vs PAM L 73-84: 18 PIR, 20.0 min, 11p 4r 3a (bench) · R11 vs ZAL L 83-86: 12 PIR, 14.7 min, 6p 2r 1a (bench)
 - Price Δ last 3/5/10 rounds: None/None/None · since start 0.5 · projected change after round None · PIR≥price 3/5
-- Schedule: R12 vsRED 9.1 (diff 2/5) | R13 vsULK 7.9 (diff 1/5, B2B)
-- Window score (site proj, weighted): 14.63 · P10–P90 this round 1.6–19.1 · win prob 0.366
+- Schedule: R13 vsULK 7.9 (diff 1/5, B2B)
+- Window score (site proj, weighted): 7.9 · P10–P90 this round 1.6–19.1 · win prob 0.366
 - When Devin Booker out (2 games): minutes +2.2, PIR +1.3 (avg min then 17.3)
 - Domestic league: LBA (Italy)
 
 ## Mechanical swap baseline (same position, budget & 6-per-club feasible — NOT advice)
-- OUT Justin Robinson (score 27.71): Talen Horton Tucker (ULK, 12.3cr, score 22.54, gain -5.2, own 6.0%); Cameron Payne (IST, 10.2cr, score 21.7, gain -6.0, own 12.0%); Yam Madar (TEL, 10.5cr, score 20.05, gain -7.7, own 9.0%); Elie Okobo (DUB, 12.7cr, score 19.89, gain -7.8, own 2.0%)
-- OUT Kendrick Nunn (score 24.93): Wade Baldwin Iv (ULK, 13.5cr, score 24.44, gain -0.5, own 2.0%); Sylvain Francisco (PAN, 14.1cr, score 23.23, gain -1.7, own 8.0%); Talen Horton Tucker (ULK, 12.3cr, score 22.54, gain -2.4, own 6.0%); Carlik Jones (PAR, 13.7cr, score 22.14, gain -2.8, own 24.0%)
-- OUT Andres Feliz (score 22.9): Jordan Loyd (IST, 9.4cr, score 19.46, gain -3.4, own 0.8%); Rj Cole (MIL, 8.9cr, score 19.38, gain -3.5, own 0.7%); Scottie Wilbekin (BES, 8.6cr, score 16.65, gain -6.2, own 6.0%); Leandro Bolmaro (MIL, 8.2cr, score 16.36, gain -6.5, own 0.6%)
-- OUT Sebastian Herrera (score 13.31): Cory Joseph (OLY, 5.5cr, score 10.81, gain -2.5, own 3.0%); Matteo Spagnolo (BAS, 5.2cr, score 9.45, gain -3.9, own 2.0%); Josep Puerto (PAM, 5.0cr, score 8.93, gain -4.4, own 4.0%); Sergio Llull (MAD, 4.2cr, score 8.5, gain -4.8, own 6.0%)
-- OUT Sasha Vezenkov (score 35.65): Dwayne Bacon (DUB, 14.6cr, score 26.88, gain -8.8, own 13.0%); Jordan Nwora (RED, 13.9cr, score 25.36, gain -10.3, own 12.0%); Azuolas Tubelis (ZAL, 12.6cr, score 22.5, gain -13.1, own 18.0%); Shavon Shields (ULK, 12.9cr, score 21.38, gain -14.3, own 5.0%)
-- OUT Collin Malcolm (score 22.12): Tyson Ward (OLY, 8.1cr, score 17.75, gain -4.4, own 5.0%); Tyrese Martin (BAR, 8.6cr, score 17.73, gain -4.4, own 1.0%); Vladimir Lucic (MUN, 9.6cr, score 16.88, gain -5.2, own 2.0%); Mbaye Ndiaye (OLY, 8.3cr, score 15.55, gain -6.6, own 5.0%)
-- OUT Dejan Davidovac (score 9.62): Gabriele Procida (MAD, 4.5cr, score 15.05, gain +5.4, own 11.0%); Vanja Marinkovic (PAR, 4.1cr, score 11.56, gain +1.9, own 4.0%); Ognjen Dobric (RED, 4.7cr, score 7.75, gain -1.9, own 7.0%); Giampaolo Ricci (MIL, 4.1cr, score 6.17, gain -3.4, own 4.0%)
-- OUT Stefan Joksimovic (score 10.43): Vanja Marinkovic (PAR, 4.1cr, score 11.56, gain +1.1, own 4.0%); Giampaolo Ricci (MIL, 4.1cr, score 6.17, gain -4.3, own 4.0%); Leopold Cavaliere (PRS, 4.2cr, score 5.92, gain -4.5, own 2.0%); Kostas Papanikolaou (OLY, 4.2cr, score 5.35, gain -5.1, own 17.0%)
-- OUT Aliou Diarra (score 24.09): Nikola Tanaskovic (PAR, 8.4cr, score 18.43, gain -5.7, own 8.0%); Eugene Omoruyi (BES, 9.8cr, score 18.29, gain -5.8, own 0.9%); Allan Dokossi (PRS, 8.5cr, score 16.36, gain -7.7, own 1.0%); Austin Wiley (MUN, 10.5cr, score 16.34, gain -7.8, own 0.4%)
-- OUT Ousmane Diop (score 14.63): Metecan Birsen (BES, 4.6cr, score 3.55, gain -11.1, own 1.0%); Bryant Dunston (OLY, 4.6cr, score 1.6, gain -13.0, own 2.0%); Sertac Sanli (ULK, 4.0cr, score 0.99, gain -13.6, own 18.0%)
+- OUT Justin Robinson (score 15.3): Talen Horton Tucker (ULK, 12.3cr, score 13.2, gain -2.1, own 6.0%); Cameron Payne (IST, 10.2cr, score 13.0, gain -2.3, own 12.0%); Jordan Loyd (IST, 9.4cr, score 11.8, gain -3.5, own 0.8%); Patty Mills (ASV, 12.7cr, score 11.7, gain -3.6, own 3.0%)
+- OUT Kendrick Nunn (score 13.9): Wade Baldwin Iv (ULK, 13.5cr, score 14.2, gain +0.3, own 2.0%); Carlik Jones (PAR, 13.7cr, score 13.2, gain -0.7, own 24.0%); Talen Horton Tucker (ULK, 12.3cr, score 13.2, gain -0.7, own 6.0%); Cameron Payne (IST, 10.2cr, score 13.0, gain -0.9, own 12.0%)
+- OUT Andres Feliz (score 12.0): Jordan Loyd (IST, 9.4cr, score 11.8, gain -0.2, own 0.8%); Rj Cole (MIL, 8.9cr, score 11.4, gain -0.6, own 0.7%); Rokas Jokubaitis (MUN, 8.6cr, score 10.2, gain -1.8, own 1.0%); Leandro Bolmaro (MIL, 8.2cr, score 9.8, gain -2.2, own 0.6%)
+- OUT Sebastian Herrera (score 8.3): Cory Joseph (OLY, 5.5cr, score 6.3, gain -2.0, own 3.0%); Josep Puerto (PAM, 5.0cr, score 5.9, gain -2.4, own 4.0%); Matteo Spagnolo (BAS, 5.2cr, score 5.5, gain -2.8, own 2.0%); Alvaro Cardenas (PAM, 4.3cr, score 5.3, gain -3.0, own 5.0%)
+- OUT Sasha Vezenkov (score 21.5): Dwayne Bacon (DUB, 14.6cr, score 15.4, gain -6.1, own 13.0%); Jordan Nwora (RED, 13.9cr, score 14.8, gain -6.7, own 12.0%); Azuolas Tubelis (ZAL, 12.6cr, score 13.0, gain -8.5, own 18.0%); Dario Saric (IST, 14.4cr, score 12.8, gain -8.7, own 4.0%)
+- OUT Collin Malcolm (score 13.6): Tyson Ward (OLY, 8.1cr, score 10.5, gain -3.1, own 5.0%); Vladimir Lucic (MUN, 9.6cr, score 10.4, gain -3.2, own 2.0%); Tyrese Martin (BAR, 8.6cr, score 9.9, gain -3.7, own 1.0%); Both Gach (ASV, 8.9cr, score 8.8, gain -4.8, own 0.9%)
+- OUT Dejan Davidovac (score 5.6): Gabriele Procida (MAD, 4.5cr, score 7.5, gain +1.9, own 11.0%); Vanja Marinkovic (PAR, 4.1cr, score 6.8, gain +1.2, own 4.0%); Ognjen Dobric (RED, 4.7cr, score 4.5, gain -1.1, own 7.0%); Leopold Cavaliere (PRS, 4.2cr, score 3.6, gain -2.0, own 2.0%)
+- OUT Stefan Joksimovic (score 5.9): Vanja Marinkovic (PAR, 4.1cr, score 6.8, gain +0.9, own 4.0%); Leopold Cavaliere (PRS, 4.2cr, score 3.6, gain -2.3, own 2.0%); Giampaolo Ricci (MIL, 4.1cr, score 3.1, gain -2.8, own 4.0%); Kostas Papanikolaou (OLY, 4.2cr, score 2.5, gain -3.4, own 17.0%)
+- OUT Aliou Diarra (score 13.7): Nikola Tanaskovic (PAR, 8.4cr, score 10.9, gain -2.8, own 8.0%); Austin Wiley (MUN, 10.5cr, score 10.2, gain -3.5, own 0.4%); Johannes Thiemann (MUN, 10.6cr, score 9.9, gain -3.8, own 1.0%); Allan Dokossi (PRS, 8.5cr, score 9.8, gain -3.9, own 1.0%)
+- OUT Ousmane Diop (score 7.9): Metecan Birsen (BES, 4.6cr, score 2.5, gain -5.4, own 1.0%); Bryant Dunston (OLY, 4.6cr, score 1.0, gain -6.9, own 2.0%); Sertac Sanli (ULK, 4.0cr, score 0.85, gain -7.1, own 18.0%)
 
 ## Guards — market
 **Top window score:**
-- Elijah Bryant (HTA) 17.7cr own 16.0% · playing · Δ3 -2.4 · L3/L10 15.3/22.5 · min 27.2/28.8 · R12 @BAS 19.1 (diff 3/5) | R13 @PRS 19.1 (diff 1/5, B2B) · Δprice None · sig buy
-- Justin Robinson (BAR) 12.8cr own 3.0% · playing · Δ3 2.4 · L3/L10 20.3/14.7 · min 22.6/20.9 · R12 vsPRS 17 (diff 1/5) | R13 vsRED 15.3 (diff 3/5) · Δprice None · sig hold
-- Nadir Hifi (PRS) 16.2cr own 9.0% · playing · Δ3 1.6 · L3/L10 24.3/18.5 · min 25.9/25.1 · R12 @BAR 15.6 (diff 2/5) | R13 vsHTA 15.5 (diff 4/5, B2B) · Δprice None · sig buy
-- Tj Shorts (PAM) 16.8cr own 24.0% · playing · Δ3 -2.4 · L3/L10 19.3/20.7 · min 23.1/23.2 · R12 @PAR 14.9 (diff 4/5) | R13 vsVIR 16.4 (diff 3/5, B2B) · Δprice None · sig buy
-- Kendrick Nunn (PAN) 14.8cr own 15.0% · playing · Δ3 None · L3/L10 20/18.8 · min 25.4/23.7 · R12 @VIR 15.2 (diff 3/5) | R13 @ZAL 13.9 (diff 2/5, B2B) · Δprice None · sig buy
-- Wade Baldwin Iv (ULK) 13.5cr own 2.0% · playing · Δ3 -0.4 · L3/L10 11.7/13.9 · min 24.7/23.9 · R12 vsASV 14.5 (diff 5/5) | R13 @MIL 14.2 (diff 5/5, B2B) · Δprice None · sig buy
-- Sylvain Francisco (PAN) 14.1cr own 8.0% · playing · Δ3 -0.6 · L3/L10 11.7/13.3 · min 23.7/23.5 · R12 @VIR 14.2 (diff 3/5) | R13 @ZAL 12.9 (diff 2/5, B2B) · Δprice None · sig buy
-- Andres Feliz (MAD) 9.3cr own 36.0% · playing · Δ3 0.3 · L3/L10 17.7/15.5 · min 25.6/21.4 · R12 @BES 14.5 (diff 3/5) | R13 @OLY 12 (diff 3/5, B2B) · Δprice None · sig buy
-- Talen Horton Tucker (ULK) 12.3cr own 6.0% · playing · Δ3 2.0 · L3/L10 22.7/14 · min 24.1/20.5 · R12 vsASV 13.3 (diff 5/5) | R13 @MIL 13.2 (diff 5/5, B2B) · Δprice None · sig hold
-- Carlik Jones (PAR) 13.7cr own 24.0% · playing · Δ3 -2.9 · L3/L10 10/13.4 · min 27/27.4 · R12 vsPAM 12.9 (diff 1/5) | R13 vsBES 13.2 (diff 3/5) · Δprice None · sig buy
-- Cameron Payne (IST) 10.2cr own 12.0% · playing · Δ3 1.9 · L3/L10 17.7/13.1 · min 25.1/21.5 · R12 @DUB 12.6 (diff 5/5) | R13 vsASV 13 (diff 5/5) · Δprice None · sig hold
-- Yam Madar (TEL) 10.5cr own 9.0% · playing · Δ3 -1.3 · L3/L10 13.7/13.9 · min 20.1/20.8 · R12 vsOLY 12 (diff 2/5) | R13 vsDUB 11.5 (diff 5/5, B2B) · Δprice None · sig hold
+- Elijah Bryant (HTA) 17.7cr own 16.0% · playing · Δ3 -2.4 · L3/L10 15.3/22.5 · min 27.2/28.8 · R13 @PRS 19.1 (diff 1/5, B2B) · Δprice None · sig buy
+- Tj Shorts (PAM) 16.8cr own 24.0% · playing · Δ3 -2.4 · L3/L10 19.3/20.7 · min 23.1/23.2 · R13 vsVIR 16.4 (diff 3/5, B2B) · Δprice None · sig buy
+- Nadir Hifi (PRS) 16.2cr own 9.0% · playing · Δ3 1.6 · L3/L10 24.3/18.5 · min 25.9/25.1 · R13 vsHTA 15.5 (diff 4/5, B2B) · Δprice None · sig buy
+- Justin Robinson (BAR) 12.8cr own 3.0% · playing · Δ3 2.4 · L3/L10 20.3/14.7 · min 22.6/20.9 · R13 vsRED 15.3 (diff 3/5) · Δprice None · sig hold
+- Wade Baldwin Iv (ULK) 13.5cr own 2.0% · playing · Δ3 -0.4 · L3/L10 11.7/13.9 · min 24.7/23.9 · R13 @MIL 14.2 (diff 5/5, B2B) · Δprice None · sig buy
+- Kendrick Nunn (PAN) 14.8cr own 15.0% · playing · Δ3 None · L3/L10 20/18.8 · min 25.4/23.7 · R13 @ZAL 13.9 (diff 2/5, B2B) · Δprice None · sig buy
+- Carlik Jones (PAR) 13.7cr own 24.0% · playing · Δ3 -2.9 · L3/L10 10/13.4 · min 27/27.4 · R13 vsBES 13.2 (diff 3/5) · Δprice None · sig buy
+- Talen Horton Tucker (ULK) 12.3cr own 6.0% · playing · Δ3 2.0 · L3/L10 22.7/14 · min 24.1/20.5 · R13 @MIL 13.2 (diff 5/5, B2B) · Δprice None · sig hold
+- Cameron Payne (IST) 10.2cr own 12.0% · playing · Δ3 1.9 · L3/L10 17.7/13.1 · min 25.1/21.5 · R13 vsASV 13 (diff 5/5) · Δprice None · sig hold
+- Sylvain Francisco (PAN) 14.1cr own 8.0% · playing · Δ3 -0.6 · L3/L10 11.7/13.3 · min 23.7/23.5 · R13 @ZAL 12.9 (diff 2/5, B2B) · Δprice None · sig buy
+- Andres Feliz (MAD) 9.3cr own 36.0% · playing · Δ3 0.3 · L3/L10 17.7/15.5 · min 25.6/21.4 · R13 @OLY 12 (diff 3/5, B2B) · Δprice None · sig buy
+- Jordan Loyd (IST) 9.4cr own 0.8% · playing · Δ3 1.0 · L3/L10 10/11.6 · min 22.6/24.8 · R13 vsASV 11.8 (diff 5/5) · Δprice None · sig hold
 **Cheap value (≤9 cr):**
-- Sebastian Herrera (PRS) 5.9cr own 10.0% · playing · Δ3 0.5 · L3/L10 10.3/8.2 · min 20.9/20.6 · R12 @BAR 7.5 (diff 2/5) | R13 vsHTA 8.3 (diff 4/5, B2B) · Δprice None · sig hold
-- Rj Cole (MIL) 8.9cr own 0.7% · playing · Δ3 2.3 · L3/L10 13.3/11.1 · min 24/20.6 · R12 vsRED 11.4 (diff 3/5) | R13 vsULK 11.4 (diff 2/5, B2B) · Δprice None · sig hold
-- Tyson Carter (RED) 7.4cr own 5.0% · playing · Δ3 0.9 · L3/L10 10.3/9.4 · min 23.1/18.8 · R12 @MIL 9.4 (diff 5/5) | R13 @BAR 9.5 (diff 2/5) · Δprice None · sig hold
-- Marius Grigonis (ZAL) 7.1cr own 5.0% · playing · Δ3 0.1 · L3/L10 8/9.5 · min 18.5/18.1 · R12 vsMUN 9.1 (diff 4/5) | R13 vsPAN 8.4 (diff 4/5, B2B) · Δprice None · sig hold
-- Sergio Llull (MAD) 4.2cr own 6.0% · playing · Δ3 None · L3/L10 6.5/6.5 · min 18.4/18.4 · R12 @BES 5 (diff 3/5) | R13 @OLY 5 (diff 3/5, B2B) · Δprice None · sig hold
-- Leandro Bolmaro (MIL) 8.2cr own 0.6% · playing · Δ3 1.5 · L3/L10 10/8.8 · min 21.9/23.4 · R12 vsRED 9.5 (diff 3/5) | R13 vsULK 9.8 (diff 2/5, B2B) · Δprice None · sig hold
-- Cory Joseph (OLY) 5.5cr own 3.0% · playing · Δ3 2.4 · L3/L10 8.3/3.7 · min 20.7/17.1 · R12 @TEL 6.4 (diff 4/5) | R13 vsMAD 6.3 (diff 2/5) · Δprice None · sig hold
-- Alvaro Cardenas (PAM) 4.3cr own 5.0% · playing · Δ3 0.9 · L3/L10 6.3/4.3 · min 13.8/12 · R12 @PAR 4.7 (diff 4/5) | R13 vsVIR 5.3 (diff 3/5, B2B) · Δprice None · sig hold
+- Sebastian Herrera (PRS) 5.9cr own 10.0% · playing · Δ3 0.5 · L3/L10 10.3/8.2 · min 20.9/20.6 · R13 vsHTA 8.3 (diff 4/5, B2B) · Δprice None · sig hold
+- Tyson Carter (RED) 7.4cr own 5.0% · playing · Δ3 0.9 · L3/L10 10.3/9.4 · min 23.1/18.8 · R13 @BAR 9.5 (diff 2/5) · Δprice None · sig hold
+- Rj Cole (MIL) 8.9cr own 0.7% · playing · Δ3 2.3 · L3/L10 13.3/11.1 · min 24/20.6 · R13 vsULK 11.4 (diff 2/5, B2B) · Δprice None · sig hold
+- Alvaro Cardenas (PAM) 4.3cr own 5.0% · playing · Δ3 0.9 · L3/L10 6.3/4.3 · min 13.8/12 · R13 vsVIR 5.3 (diff 3/5, B2B) · Δprice None · sig hold
+- John Dibartolomeo (TEL) 4.0cr own 2.0% · playing · Δ3 None · L3/L10 3.7/2.6 · min 16.6/14 · R13 vsDUB 4.8 (diff 5/5, B2B) · Δprice None · sig hold
+- Leandro Bolmaro (MIL) 8.2cr own 0.6% · playing · Δ3 1.5 · L3/L10 10/8.8 · min 21.9/23.4 · R13 vsULK 9.8 (diff 2/5, B2B) · Δprice None · sig hold
+- Sergio Llull (MAD) 4.2cr own 6.0% · playing · Δ3 None · L3/L10 6.5/6.5 · min 18.4/18.4 · R13 @OLY 5 (diff 3/5, B2B) · Δprice None · sig hold
+- Rokas Jokubaitis (MUN) 8.6cr own 1.0% · playing · Δ3 0.2 · L3/L10 10.3/9.3 · min 21.2/18.5 · R13 vsBAS 10.2 (diff 3/5, B2B) · Δprice None · sig buy
 **Differentials (<5% owned):**
-- Justin Robinson (BAR) 12.8cr own 3.0% · playing · Δ3 2.4 · L3/L10 20.3/14.7 · min 22.6/20.9 · R12 vsPRS 17 (diff 1/5) | R13 vsRED 15.3 (diff 3/5) · Δprice None · sig hold
-- Wade Baldwin Iv (ULK) 13.5cr own 2.0% · playing · Δ3 -0.4 · L3/L10 11.7/13.9 · min 24.7/23.9 · R12 vsASV 14.5 (diff 5/5) | R13 @MIL 14.2 (diff 5/5, B2B) · Δprice None · sig buy
-- Elie Okobo (DUB) 12.7cr own 2.0% · playing · Δ3 -0.5 · L3/L10 12.3/12.9 · min 25.1/26.3 · R12 vsIST 11.7 (diff 1/5) | R13 @TEL 11.7 (diff 4/5, B2B) · Δprice None · sig buy
-- Mckinley Wright Iv (DUB) 13.0cr own 2.0% · playing · Δ3 0.5 · L3/L10 11.3/11 · min 25.6/25.1 · R12 vsIST 11.8 (diff 1/5) | R13 @TEL 11.5 (diff 4/5, B2B) · Δprice None · sig buy
-- Jordan Loyd (IST) 9.4cr own 0.8% · playing · Δ3 1.0 · L3/L10 10/11.6 · min 22.6/24.8 · R12 @DUB 11.2 (diff 5/5) | R13 vsASV 11.8 (diff 5/5) · Δprice None · sig hold
-- Rj Cole (MIL) 8.9cr own 0.7% · playing · Δ3 2.3 · L3/L10 13.3/11.1 · min 24/20.6 · R12 vsRED 11.4 (diff 3/5) | R13 vsULK 11.4 (diff 2/5, B2B) · Δprice None · sig hold
+- Justin Robinson (BAR) 12.8cr own 3.0% · playing · Δ3 2.4 · L3/L10 20.3/14.7 · min 22.6/20.9 · R13 vsRED 15.3 (diff 3/5) · Δprice None · sig hold
+- Wade Baldwin Iv (ULK) 13.5cr own 2.0% · playing · Δ3 -0.4 · L3/L10 11.7/13.9 · min 24.7/23.9 · R13 @MIL 14.2 (diff 5/5, B2B) · Δprice None · sig buy
+- Jordan Loyd (IST) 9.4cr own 0.8% · playing · Δ3 1.0 · L3/L10 10/11.6 · min 22.6/24.8 · R13 vsASV 11.8 (diff 5/5) · Δprice None · sig hold
+- Patty Mills (ASV) 12.7cr own 3.0% · playing · Δ3 -0.9 · L3/L10 13.3/13.4 · min 23.1/21.5 · R13 @IST 11.7 (diff 1/5) · Δprice None · sig buy
+- Elie Okobo (DUB) 12.7cr own 2.0% · playing · Δ3 -0.5 · L3/L10 12.3/12.9 · min 25.1/26.3 · R13 @TEL 11.7 (diff 4/5, B2B) · Δprice None · sig buy
+- Mckinley Wright Iv (DUB) 13.0cr own 2.0% · playing · Δ3 0.5 · L3/L10 11.3/11 · min 25.6/25.1 · R13 @TEL 11.5 (diff 4/5, B2B) · Δprice None · sig buy
 
 ## Forwards — market
 **Top window score:**
-- Sasha Vezenkov (OLY) 18.9cr own 46.0% · playing · Δ3 -0.3 · L3/L10 25.3/22.5 · min 28.9/27.5 · R12 @TEL 20.6 (diff 5/5) | R13 vsMAD 21.5 (diff 2/5) · Δprice None · sig buy
-- Dwayne Bacon (DUB) 14.6cr own 13.0% · playing · Δ3 -2.0 · L3/L10 17.3/17.3 · min 29.9/27.3 · R12 vsIST 16.1 (diff 5/5) | R13 @TEL 15.4 (diff 4/5, B2B) · Δprice None · sig buy
-- Jordan Nwora (RED) 13.9cr own 12.0% · playing · Δ3 1.1 · L3/L10 18.7/16.1 · min 21.9/22.8 · R12 @MIL 15 (diff 3/5) | R13 @BAR 14.8 (diff 4/5) · Δprice None · sig buy
-- Azuolas Tubelis (ZAL) 12.6cr own 18.0% · playing · Δ3 -0.9 · L3/L10 17.3/15.4 · min 20/22.3 · R12 vsMUN 13.4 (diff 5/5) | R13 vsPAN 13 (diff 1/5, B2B) · Δprice None · sig buy
-- Collin Malcolm (IST) 9.8cr own 19.0% · playing · Δ3 1.9 · L3/L10 21.3/14.3 · min 30.2/26.8 · R12 @DUB 12.6 (diff 5/5) | R13 vsASV 13.6 (diff 3/5) · Δprice None · sig buy
-- Shavon Shields (ULK) 12.9cr own 5.0% · playing · Δ3 -1.5 · L3/L10 8.3/13.1 · min 24/23.7 · R12 vsASV 12.7 (diff 3/5) | R13 @MIL 12.4 (diff 3/5, B2B) · Δprice None · sig buy
-- Dario Saric (IST) 14.4cr own 4.0% · playing · Δ3 -1.2 · L3/L10 16/13.8 · min 27.6/25.3 · R12 @DUB 12.2 (diff 5/5) | R13 vsASV 12.8 (diff 3/5) · Δprice None · sig buy
-- Bonzie Colson (TEL) 11.2cr own 1.0% · playing · Δ3 0.0 · L3/L10 10.3/12.8 · min 21.3/21.5 · R12 vsOLY 12 (diff 3/5) | R13 vsDUB 12.1 (diff 5/5, B2B) · Δprice None · sig buy
-- Chima Moneke (RED) 14.5cr own 3.0% · playing · Δ3 -0.1 · L3/L10 12.3/12.8 · min 19.5/19.8 · R12 @MIL 12.1 (diff 3/5) | R13 @BAR 11.9 (diff 4/5) · Δprice None · sig buy
-- Zach Leday (HTA) 13.2cr own 4.0% · playing · Δ3 -2.9 · L3/L10 3.7/12.4 · min 18.5/21.5 · R12 @BAS 11.5 (diff 5/5) | R13 @PRS 11.6 (diff 2/5, B2B) · Δprice None · sig buy
-- Will Clyburn (ULK) 11.4cr own 2.0% · playing · Δ3 1.0 · L3/L10 12/10.1 · min 23.5/22.1 · R12 vsASV 11.1 (diff 3/5) | R13 @MIL 10.9 (diff 3/5, B2B) · Δprice None · sig buy
-- Nigel Hayes-Davis (PAN) 12.1cr own 3.0% · playing · Δ3 -0.4 · L3/L10 9.3/10.6 · min 28.3/27.2 · R12 @VIR 11.1 (diff 2/5) | R13 @ZAL 9.7 (diff 1/5, B2B) · Δprice None · sig buy
+- Sasha Vezenkov (OLY) 18.9cr own 46.0% · playing · Δ3 -0.3 · L3/L10 25.3/22.5 · min 28.9/27.5 · R13 vsMAD 21.5 (diff 2/5) · Δprice None · sig buy
+- Dwayne Bacon (DUB) 14.6cr own 13.0% · playing · Δ3 -2.0 · L3/L10 17.3/17.3 · min 29.9/27.3 · R13 @TEL 15.4 (diff 4/5, B2B) · Δprice None · sig buy
+- Jordan Nwora (RED) 13.9cr own 12.0% · playing · Δ3 1.1 · L3/L10 18.7/16.1 · min 21.9/22.8 · R13 @BAR 14.8 (diff 4/5) · Δprice None · sig buy
+- Collin Malcolm (IST) 9.8cr own 19.0% · playing · Δ3 1.9 · L3/L10 21.3/14.3 · min 30.2/26.8 · R13 vsASV 13.6 (diff 3/5) · Δprice None · sig buy
+- Azuolas Tubelis (ZAL) 12.6cr own 18.0% · playing · Δ3 -0.9 · L3/L10 17.3/15.4 · min 20/22.3 · R13 vsPAN 13 (diff 1/5, B2B) · Δprice None · sig buy
+- Dario Saric (IST) 14.4cr own 4.0% · playing · Δ3 -1.2 · L3/L10 16/13.8 · min 27.6/25.3 · R13 vsASV 12.8 (diff 3/5) · Δprice None · sig buy
+- Shavon Shields (ULK) 12.9cr own 5.0% · playing · Δ3 -1.5 · L3/L10 8.3/13.1 · min 24/23.7 · R13 @MIL 12.4 (diff 3/5, B2B) · Δprice None · sig buy
+- Bonzie Colson (TEL) 11.2cr own 1.0% · playing · Δ3 0.0 · L3/L10 10.3/12.8 · min 21.3/21.5 · R13 vsDUB 12.1 (diff 5/5, B2B) · Δprice None · sig buy
+- Chima Moneke (RED) 14.5cr own 3.0% · playing · Δ3 -0.1 · L3/L10 12.3/12.8 · min 19.5/19.8 · R13 @BAR 11.9 (diff 4/5) · Δprice None · sig buy
+- Zach Leday (HTA) 13.2cr own 4.0% · playing · Δ3 -2.9 · L3/L10 3.7/12.4 · min 18.5/21.5 · R13 @PRS 11.6 (diff 2/5, B2B) · Δprice None · sig buy
+- Will Clyburn (ULK) 11.4cr own 2.0% · playing · Δ3 1.0 · L3/L10 12/10.1 · min 23.5/22.1 · R13 @MIL 10.9 (diff 3/5, B2B) · Δprice None · sig buy
+- Tyson Ward (OLY) 8.1cr own 5.0% · playing · Δ3 -0.1 · L3/L10 8.3/8.8 · min 26.5/23.9 · R13 vsMAD 10.5 (diff 2/5) · Δprice None · sig buy
 **Cheap value (≤9 cr):**
-- Gabriele Procida (MAD) 4.5cr own 11.0% · playing · Δ3 3.3 · L3/L10 13/7.6 · min 20.2/13.9 · R12 @BES 9.8 (diff 1/5) | R13 @OLY 7.5 (diff 3/5, B2B) · Δprice None · sig hold
-- Vanja Marinkovic (PAR) 4.1cr own 4.0% · playing · Δ3 None · L3/L10 5/5 · min 17.7/17.7 · R12 vsPAM 6.8 (diff 1/5) | R13 vsBES 6.8 (diff 1/5) · Δprice None · sig hold
-- Clement Frisch (BAS) 5.3cr own 3.0% · playing · Δ3 1.9 · L3/L10 10/7.1 · min 26.2/16.2 · R12 vsHTA 9 (diff 4/5) | R13 @MUN 8.2 (diff 5/5, B2B) · Δprice None · sig hold
-- Stefan Joksimovic (BAS) 4.2cr own 15.0% · playing · Δ3 0.6 · L3/L10 1.7/3.2 · min 17.3/13.2 · R12 vsHTA 6.3 (diff 4/5) | R13 @MUN 5.9 (diff 5/5, B2B) · Δprice None · sig hold
-- Tyson Ward (OLY) 8.1cr own 5.0% · playing · Δ3 -0.1 · L3/L10 8.3/8.8 · min 26.5/23.9 · R12 @TEL 10.4 (diff 5/5) | R13 vsMAD 10.5 (diff 2/5) · Δprice None · sig buy
-- Alberto Abalde (MAD) 6.1cr own 21.0% · playing · Δ3 1.0 · L3/L10 11.7/9.1 · min 21.6/18.6 · R12 @BES 7.8 (diff 1/5) | R13 @OLY 6.9 (diff 3/5, B2B) · Δprice None · sig hold
-- Tyrese Martin (BAR) 8.6cr own 1.0% · playing · Δ3 0.5 · L3/L10 6.7/9.6 · min 23.6/24.1 · R12 vsPRS 10.8 (diff 2/5) | R13 vsRED 9.9 (diff 1/5) · Δprice None · sig buy
-- Dejan Davidovac (RED) 4.7cr own 11.0% · playing · Δ3 0.6 · L3/L10 8.3/6.4 · min 13/13 · R12 @MIL 5.7 (diff 3/5) | R13 @BAR 5.6 (diff 4/5) · Δprice None · sig hold
+- Gabriele Procida (MAD) 4.5cr own 11.0% · playing · Δ3 3.3 · L3/L10 13/7.6 · min 20.2/13.9 · R13 @OLY 7.5 (diff 3/5, B2B) · Δprice None · sig hold
+- Vanja Marinkovic (PAR) 4.1cr own 4.0% · playing · Δ3 None · L3/L10 5/5 · min 17.7/17.7 · R13 vsBES 6.8 (diff 1/5) · Δprice None · sig hold
+- Clement Frisch (BAS) 5.3cr own 3.0% · playing · Δ3 1.9 · L3/L10 10/7.1 · min 26.2/16.2 · R13 @MUN 8.2 (diff 5/5, B2B) · Δprice None · sig hold
+- Stefan Joksimovic (BAS) 4.2cr own 15.0% · playing · Δ3 0.6 · L3/L10 1.7/3.2 · min 17.3/13.2 · R13 @MUN 5.9 (diff 5/5, B2B) · Δprice None · sig hold
+- Tyson Ward (OLY) 8.1cr own 5.0% · playing · Δ3 -0.1 · L3/L10 8.3/8.8 · min 26.5/23.9 · R13 vsMAD 10.5 (diff 2/5) · Δprice None · sig buy
+- Dejan Davidovac (RED) 4.7cr own 11.0% · playing · Δ3 0.6 · L3/L10 8.3/6.4 · min 13/13 · R13 @BAR 5.6 (diff 4/5) · Δprice None · sig hold
+- Arnas Butkevicius (ZAL) 6.9cr own 1.0% · playing · Δ3 1.0 · L3/L10 7/6.2 · min 24.1/19.3 · R13 vsPAN 8.2 (diff 1/5, B2B) · Δprice None · sig buy
+- Tyrese Martin (BAR) 8.6cr own 1.0% · playing · Δ3 0.5 · L3/L10 6.7/9.6 · min 23.6/24.1 · R13 vsRED 9.9 (diff 1/5) · Δprice None · sig buy
 **Differentials (<5% owned):**
-- Dario Saric (IST) 14.4cr own 4.0% · playing · Δ3 -1.2 · L3/L10 16/13.8 · min 27.6/25.3 · R12 @DUB 12.2 (diff 5/5) | R13 vsASV 12.8 (diff 3/5) · Δprice None · sig buy
-- Bonzie Colson (TEL) 11.2cr own 1.0% · playing · Δ3 0.0 · L3/L10 10.3/12.8 · min 21.3/21.5 · R12 vsOLY 12 (diff 3/5) | R13 vsDUB 12.1 (diff 5/5, B2B) · Δprice None · sig buy
-- Chima Moneke (RED) 14.5cr own 3.0% · playing · Δ3 -0.1 · L3/L10 12.3/12.8 · min 19.5/19.8 · R12 @MIL 12.1 (diff 3/5) | R13 @BAR 11.9 (diff 4/5) · Δprice None · sig buy
-- Zach Leday (HTA) 13.2cr own 4.0% · playing · Δ3 -2.9 · L3/L10 3.7/12.4 · min 18.5/21.5 · R12 @BAS 11.5 (diff 5/5) | R13 @PRS 11.6 (diff 2/5, B2B) · Δprice None · sig buy
-- Will Clyburn (ULK) 11.4cr own 2.0% · playing · Δ3 1.0 · L3/L10 12/10.1 · min 23.5/22.1 · R12 vsASV 11.1 (diff 3/5) | R13 @MIL 10.9 (diff 3/5, B2B) · Δprice None · sig buy
-- Nigel Hayes-Davis (PAN) 12.1cr own 3.0% · playing · Δ3 -0.4 · L3/L10 9.3/10.6 · min 28.3/27.2 · R12 @VIR 11.1 (diff 2/5) | R13 @ZAL 9.7 (diff 1/5, B2B) · Δprice None · sig buy
+- Dario Saric (IST) 14.4cr own 4.0% · playing · Δ3 -1.2 · L3/L10 16/13.8 · min 27.6/25.3 · R13 vsASV 12.8 (diff 3/5) · Δprice None · sig buy
+- Bonzie Colson (TEL) 11.2cr own 1.0% · playing · Δ3 0.0 · L3/L10 10.3/12.8 · min 21.3/21.5 · R13 vsDUB 12.1 (diff 5/5, B2B) · Δprice None · sig buy
+- Chima Moneke (RED) 14.5cr own 3.0% · playing · Δ3 -0.1 · L3/L10 12.3/12.8 · min 19.5/19.8 · R13 @BAR 11.9 (diff 4/5) · Δprice None · sig buy
+- Zach Leday (HTA) 13.2cr own 4.0% · playing · Δ3 -2.9 · L3/L10 3.7/12.4 · min 18.5/21.5 · R13 @PRS 11.6 (diff 2/5, B2B) · Δprice None · sig buy
+- Will Clyburn (ULK) 11.4cr own 2.0% · playing · Δ3 1.0 · L3/L10 12/10.1 · min 23.5/22.1 · R13 @MIL 10.9 (diff 3/5, B2B) · Δprice None · sig buy
+- Vladimir Lucic (MUN) 9.6cr own 2.0% · playing · Δ3 1.9 · L3/L10 16/10.8 · min 24.6/19.3 · R13 vsBAS 10.4 (diff 5/5, B2B) · Δprice None · sig buy
 
 ## Centers — market
 **Top window score:**
-- Jonas Valanciunas (ZAL) 16.9cr own 16.0% · playing · Δ3 0.9 · L3/L10 28/20.9 · min 24.5/21.6 · R12 vsMUN 18.9 (diff 3/5) | R13 vsPAN 18.9 (diff 2/5, B2B) · Δprice None · sig hold
-- Mathias Lessort (PAN) 16.7cr own 15.0% · playing · Δ3 -2.2 · L3/L10 16/18.7 · min 27.4/23.9 · R12 @VIR 18 (diff 4/5) | R13 @ZAL 16.8 (diff 5/5, B2B) · Δprice None · sig buy
-- Mfiondu Kabengele (DUB) 15.7cr own 7.0% · playing · Δ3 -0.8 · L3/L10 15/18.6 · min 21.1/23.2 · R12 vsIST 17.5 (diff 4/5) | R13 @TEL 17.1 (diff 5/5, B2B) · Δprice None · sig buy
-- Josh Nebo (BAR) 12.7cr own 2.0% · playing · Δ3 0.0 · L3/L10 12/13 · min 26.1/23.3 · R12 vsPRS 14.9 (diff 5/5) | R13 vsRED 14 (diff 2/5) · Δprice None · sig buy
-- Aliou Diarra (VIR) 10.8cr own 38.0% · playing · Δ3 -1.5 · L3/L10 17.3/19.3 · min 19.5/19.2 · R12 vsPAN 14.5 (diff 2/5) | R13 @PAM 13.7 (diff 4/5, B2B) · Δprice None · sig buy
-- Walter Tavares (MAD) 15.2cr own 4.0% · playing · Δ3 -0.6 · L3/L10 13.7/16.3 · min 19.3/20.6 · R12 @BES 13.7 (diff 5/5) | R13 @OLY 13.3 (diff 4/5, B2B) · Δprice None · sig hold
-- Dan Oturu (HTA) 14.0cr own 6.0% · playing · Δ3 0.2 · L3/L10 19.3/13.1 · min 23.6/20.6 · R12 @BAS 13.6 (diff 1/5) | R13 @PRS 13.4 (diff 5/5, B2B) · Δprice None · sig hold
-- Moses Wright (MIL) 13.7cr own 4.0% · playing · Δ3 -1.7 · L3/L10 6/13.5 · min 19.7/21.4 · R12 vsRED 12.8 (diff 2/5) | R13 vsULK 13.5 (diff 1/5, B2B) · Δprice None · sig buy
-- Nikola Tanaskovic (PAR) 8.4cr own 8.0% · playing · Δ3 2.6 · L3/L10 17.7/9.8 · min 28.3/19.9 · R12 vsPAM 10.8 (diff 4/5) | R13 vsBES 10.9 (diff 5/5) · Δprice None · sig hold
-- Eugene Omoruyi (BES) 9.8cr own 0.9% · playing · Δ3 1.8 · L3/L10 15.7/9.4 · min 21/18.3 · R12 vsMAD 11.5 (diff 5/5) | R13 @PAR 9.7 (diff 2/5, B2B) · Δprice None · sig hold
-- Daniel Theis (TEL) 11.3cr own 0.6% · playing · Δ3 -0.5 · L3/L10 10.3/11.1 · min 17.5/18.9 · R12 vsOLY 9.2 (diff 4/5) | R13 vsDUB 10.7 (diff 1/5, B2B) · Δprice None · sig hold
-- Allan Dokossi (PRS) 8.5cr own 1.0% · playing · Δ3 -0.3 · L3/L10 11.7/10.6 · min 17.3/18.7 · R12 @BAR 9.5 (diff 4/5) | R13 vsHTA 9.8 (diff 1/5, B2B) · Δprice None · sig hold
+- Jonas Valanciunas (ZAL) 16.9cr own 16.0% · playing · Δ3 0.9 · L3/L10 28/20.9 · min 24.5/21.6 · R13 vsPAN 18.9 (diff 2/5, B2B) · Δprice None · sig hold
+- Mfiondu Kabengele (DUB) 15.7cr own 7.0% · playing · Δ3 -0.8 · L3/L10 15/18.6 · min 21.1/23.2 · R13 @TEL 17.1 (diff 5/5, B2B) · Δprice None · sig buy
+- Mathias Lessort (PAN) 16.7cr own 15.0% · playing · Δ3 -2.2 · L3/L10 16/18.7 · min 27.4/23.9 · R13 @ZAL 16.8 (diff 5/5, B2B) · Δprice None · sig buy
+- Josh Nebo (BAR) 12.7cr own 2.0% · playing · Δ3 0.0 · L3/L10 12/13 · min 26.1/23.3 · R13 vsRED 14 (diff 2/5) · Δprice None · sig buy
+- Aliou Diarra (VIR) 10.8cr own 38.0% · playing · Δ3 -1.5 · L3/L10 17.3/19.3 · min 19.5/19.2 · R13 @PAM 13.7 (diff 4/5, B2B) · Δprice None · sig buy
+- Moses Wright (MIL) 13.7cr own 4.0% · playing · Δ3 -1.7 · L3/L10 6/13.5 · min 19.7/21.4 · R13 vsULK 13.5 (diff 1/5, B2B) · Δprice None · sig buy
+- Dan Oturu (HTA) 14.0cr own 6.0% · playing · Δ3 0.2 · L3/L10 19.3/13.1 · min 23.6/20.6 · R13 @PRS 13.4 (diff 5/5, B2B) · Δprice None · sig hold
+- Walter Tavares (MAD) 15.2cr own 4.0% · playing · Δ3 -0.6 · L3/L10 13.7/16.3 · min 19.3/20.6 · R13 @OLY 13.3 (diff 4/5, B2B) · Δprice None · sig hold
+- Nikola Tanaskovic (PAR) 8.4cr own 8.0% · playing · Δ3 2.6 · L3/L10 17.7/9.8 · min 28.3/19.9 · R13 vsBES 10.9 (diff 5/5) · Δprice None · sig hold
+- Daniel Theis (TEL) 11.3cr own 0.6% · playing · Δ3 -0.5 · L3/L10 10.3/11.1 · min 17.5/18.9 · R13 vsDUB 10.7 (diff 1/5, B2B) · Δprice None · sig hold
+- Austin Wiley (MUN) 10.5cr own 0.4% · playing · Δ3 1.2 · L3/L10 15.7/11.2 · min 17.4/16.3 · R13 vsBAS 10.2 (diff 1/5, B2B) · Δprice None · sig hold
+- Johannes Thiemann (MUN) 10.6cr own 1.0% · playing · Δ3 -1.3 · L3/L10 12/10.9 · min 21.5/20 · R13 vsBAS 9.9 (diff 1/5, B2B) · Δprice None · sig hold
 **Cheap value (≤9 cr):**
-- Ousmane Diop (MIL) 4.5cr own 19.0% · playing · Δ3 None · L3/L10 9.7/8 · min 15.2/12.6 · R12 vsRED 9.1 (diff 2/5) | R13 vsULK 7.9 (diff 1/5, B2B) · Δprice None · sig hold
-- Nikola Tanaskovic (PAR) 8.4cr own 8.0% · playing · Δ3 2.6 · L3/L10 17.7/9.8 · min 28.3/19.9 · R12 vsPAM 10.8 (diff 4/5) | R13 vsBES 10.9 (diff 5/5) · Δprice None · sig hold
-- Mouhamed Faye (PRS) 7.8cr own 3.0% · playing · Δ3 0.2 · L3/L10 10.3/11.3 · min 18/17.3 · R12 @BAR 9.2 (diff 4/5) | R13 vsHTA 9.6 (diff 1/5, B2B) · Δprice None · sig hold
-- Allan Dokossi (PRS) 8.5cr own 1.0% · playing · Δ3 -0.3 · L3/L10 11.7/10.6 · min 17.3/18.7 · R12 @BAR 9.5 (diff 4/5) | R13 vsHTA 9.8 (diff 1/5, B2B) · Δprice None · sig hold
-- Tonye Jekiri (PAR) 9.0cr own 1.0% · playing · Δ3 -2.6 · L3/L10 14/15.3 · min 15.4/17.9 · R12 vsPAM 9.6 (diff 4/5) | R13 vsBES 9.6 (diff 5/5) · Δprice None · sig hold
-- Chuma Okeke (MAD) 8.8cr own 1.0% · playing · Δ3 -0.2 · L3/L10 8.7/9.2 · min 22.9/18.3 · R12 @BES 9.9 (diff 5/5) | R13 @OLY 8.6 (diff 4/5, B2B) · Δprice None · sig buy
-- Wenyen Gabriel (BES) 7.5cr own 1.0% · playing · Δ3 3.2 · L3/L10 16.7/6.9 · min 24.1/16.4 · R12 vsMAD 8.6 (diff 5/5) | R13 @PAR 6.9 (diff 2/5, B2B) · Δprice None · sig hold
-- Olivier Sarr (MAD) 7.9cr own 0.1% · playing · Δ3 None · L3/L10 6.3/6.3 · min 10/10 · R12 @BES 7.7 (diff 5/5) | R13 @OLY 7.9 (diff 4/5, B2B) · Δprice None · sig hold
+- Ousmane Diop (MIL) 4.5cr own 19.0% · playing · Δ3 None · L3/L10 9.7/8 · min 15.2/12.6 · R13 vsULK 7.9 (diff 1/5, B2B) · Δprice None · sig hold
+- Nikola Tanaskovic (PAR) 8.4cr own 8.0% · playing · Δ3 2.6 · L3/L10 17.7/9.8 · min 28.3/19.9 · R13 vsBES 10.9 (diff 5/5) · Δprice None · sig hold
+- Mouhamed Faye (PRS) 7.8cr own 3.0% · playing · Δ3 0.2 · L3/L10 10.3/11.3 · min 18/17.3 · R13 vsHTA 9.6 (diff 1/5, B2B) · Δprice None · sig hold
+- Allan Dokossi (PRS) 8.5cr own 1.0% · playing · Δ3 -0.3 · L3/L10 11.7/10.6 · min 17.3/18.7 · R13 vsHTA 9.8 (diff 1/5, B2B) · Δprice None · sig hold
+- Tonye Jekiri (PAR) 9.0cr own 1.0% · playing · Δ3 -2.6 · L3/L10 14/15.3 · min 15.4/17.9 · R13 vsBES 9.6 (diff 5/5) · Δprice None · sig hold
+- Olivier Sarr (MAD) 7.9cr own 0.1% · playing · Δ3 None · L3/L10 6.3/6.3 · min 10/10 · R13 @OLY 7.9 (diff 4/5, B2B) · Δprice None · sig hold
+- Chuma Okeke (MAD) 8.8cr own 1.0% · playing · Δ3 -0.2 · L3/L10 8.7/9.2 · min 22.9/18.3 · R13 @OLY 8.6 (diff 4/5, B2B) · Δprice None · sig buy
+- Wenyen Gabriel (BES) 7.5cr own 1.0% · playing · Δ3 3.2 · L3/L10 16.7/6.9 · min 24.1/16.4 · R13 @PAR 6.9 (diff 2/5, B2B) · Δprice None · sig hold
 **Differentials (<5% owned):**
-- Josh Nebo (BAR) 12.7cr own 2.0% · playing · Δ3 0.0 · L3/L10 12/13 · min 26.1/23.3 · R12 vsPRS 14.9 (diff 5/5) | R13 vsRED 14 (diff 2/5) · Δprice None · sig buy
-- Walter Tavares (MAD) 15.2cr own 4.0% · playing · Δ3 -0.6 · L3/L10 13.7/16.3 · min 19.3/20.6 · R12 @BES 13.7 (diff 5/5) | R13 @OLY 13.3 (diff 4/5, B2B) · Δprice None · sig hold
-- Moses Wright (MIL) 13.7cr own 4.0% · playing · Δ3 -1.7 · L3/L10 6/13.5 · min 19.7/21.4 · R12 vsRED 12.8 (diff 2/5) | R13 vsULK 13.5 (diff 1/5, B2B) · Δprice None · sig buy
-- Eugene Omoruyi (BES) 9.8cr own 0.9% · playing · Δ3 1.8 · L3/L10 15.7/9.4 · min 21/18.3 · R12 vsMAD 11.5 (diff 5/5) | R13 @PAR 9.7 (diff 2/5, B2B) · Δprice None · sig hold
-- Daniel Theis (TEL) 11.3cr own 0.6% · playing · Δ3 -0.5 · L3/L10 10.3/11.1 · min 17.5/18.9 · R12 vsOLY 9.2 (diff 4/5) | R13 vsDUB 10.7 (diff 1/5, B2B) · Δprice None · sig hold
-- Allan Dokossi (PRS) 8.5cr own 1.0% · playing · Δ3 -0.3 · L3/L10 11.7/10.6 · min 17.3/18.7 · R12 @BAR 9.5 (diff 4/5) | R13 vsHTA 9.8 (diff 1/5, B2B) · Δprice None · sig hold
+- Josh Nebo (BAR) 12.7cr own 2.0% · playing · Δ3 0.0 · L3/L10 12/13 · min 26.1/23.3 · R13 vsRED 14 (diff 2/5) · Δprice None · sig buy
+- Moses Wright (MIL) 13.7cr own 4.0% · playing · Δ3 -1.7 · L3/L10 6/13.5 · min 19.7/21.4 · R13 vsULK 13.5 (diff 1/5, B2B) · Δprice None · sig buy
+- Walter Tavares (MAD) 15.2cr own 4.0% · playing · Δ3 -0.6 · L3/L10 13.7/16.3 · min 19.3/20.6 · R13 @OLY 13.3 (diff 4/5, B2B) · Δprice None · sig hold
+- Daniel Theis (TEL) 11.3cr own 0.6% · playing · Δ3 -0.5 · L3/L10 10.3/11.1 · min 17.5/18.9 · R13 vsDUB 10.7 (diff 1/5, B2B) · Δprice None · sig hold
+- Austin Wiley (MUN) 10.5cr own 0.4% · playing · Δ3 1.2 · L3/L10 15.7/11.2 · min 17.4/16.3 · R13 vsBAS 10.2 (diff 1/5, B2B) · Δprice None · sig hold
+- Johannes Thiemann (MUN) 10.6cr own 1.0% · playing · Δ3 -1.3 · L3/L10 12/10.9 · min 21.5/20 · R13 vsBAS 9.9 (diff 1/5, B2B) · Δprice None · sig hold
 
-## Round 12 game previews (site model)
-### barcelona-paris-12
-Preview Barcelona vs Paris Basketball: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 21:30 (Athens time) at Palau Blaugrana. Barcelona: 4th place, 8-3, form WWWWW. Paris Basketball: 14th place, 5-6, form LWWWW. Our model projects 94-88. Favourite: Barcelona, with a 71% chance to win. Players to watch: Justin Robinson (14.6 points, 14.3 PIR) and Nadir Hifi (20.8 points, 18.5 PIR). Absences: Barcelona: Tosan Evbuomwan and Kevin Punter · Paris Basketball: Daulton Hommes. Matchup Center BAR Barcelona 71% 29% Paris Basketball PRS Projected score 94-88 Margin +6.0 Projected total 182.4 Pace 77.2 Model confidence High Barcelona 71% win probability | Projected score: 94-88 | Projected total: 182 | Pace: 77.2 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
-Key matchups Guard: Kevin Punter (14.8 PIR) – Nadir Hifi (18.5 PIR) Forward: Tyrese Martin (8.5 PIR) – Tj Warren (11.9 PIR) Center: Josh Nebo (13.0 PIR) – Allan Dokossi (10.7 PIR) Top scorer vs defense: Kevin Punter (15.9 pts) vs a defense with DRtg 120.1 (15) · Nadir Hifi (20.8 pts) vs a defense with DRtg 116.2 (11) Rebounding battle: Barcelona OREB% 34.1% vs DREB% 61.4% Paris Basketball · Paris Basketball OREB% 35.3% vs DREB% 67.4% Barcelona Pace battle: Barcelona 74.3 – Paris Basketball 77.5 · projected 77.2 Bench (PIR from reserves per game): Barcelona 43.9 – Paris Basketball 63.2 Coaches: Aleksander Sekulic – Maxime Lefevre Players to watch Barcelona Paris Basketball Projected PIR Justin Robinson 17.0 PIR Josh Nebo 14.9 PIR Tyrese Martin 10.8 PIR Olivier Nkamhoua 8.2 PIR Stanley Umude 7.3 PIR Nadir Hifi 15.6 PIR Jared Rhoden 10.1 PIR Allan Dokossi 9.5 PIR Tj Warren 9.3 PIR Mouhamed 
-https://basketballstats.eu/en/game/barcelona-paris-12/
+## Round 13 game previews (site model)
+### anadolu-efes-asvel-13
+Preview Anadolu Efes vs ASVEL: the EuroLeague 2026-27 Round 13 game tips off Friday 20 November at 19:30 (Athens time) at Turkcell Basketball Development Center. Anadolu Efes: 12th place, 5-6, form WLWLW. ASVEL: 15th place, 4-7, form LWWLL. Our model projects 90-83. Favourite: Anadolu Efes, with a 75% chance to win. Players to watch: Dario Saric (11.5 points, 14.9 PIR) and Patty Mills (15.6 points, 13.4 PIR). Absences: Anadolu Efes: Mike James and Bruno Fernando · ASVEL: Myles Cale. Matchup Center IST Anadolu Efes 75% 25% ASVEL ASV Projected score 90-83 Margin +7.0 Projected total 173.6 Pace 75.6 Model confidence High Anadolu Efes 75% win probability | Projected score: 90-83 | Projected total: 174 | Pace: 75.6 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
+Key matchups Guard: Mike James (14.0 PIR) – Patty Mills (13.4 PIR) Forward: Dario Saric (14.9 PIR) – Jae Crowder (10.2 PIR) Center: Bruno Fernando (11.5 PIR) – Joel Bolomboy (8.8 PIR) Top scorer vs defense: Cameron Payne (16.5 pts) vs a defense with DRtg 121.5 (18) · Patty Mills (15.6 pts) vs a defense with DRtg 114.4 (8) Rebounding battle: Anadolu Efes OREB% 28.9% vs DREB% 59.6% ASVEL · ASVEL OREB% 28.7% vs DREB% 69.1% Anadolu Efes Pace battle: Anadolu Efes 76.4 – ASVEL 76.7 · projected 75.6 Bench (PIR from reserves per game): Anadolu Efes 43.3 – ASVEL 58.3 Coaches: Pablo Laso – Tony Parker Players to watch Anadolu Efes ASVEL Projected PIR Cameron Payne 12.6 PIR Collin Malcolm 12.6 PIR Dario Saric 12.2 PIR Jordan Loyd 11.2 PIR Matthew Strazel 10.5 PIR Patty Mills 11.1 PIR Hugo Besson 9.4 PIR Tyty Washington Jr 9.3 PIR Tremont Waters 8.7 PIR Both Gach 8.5 PIR Scorers Cameron Payne 16.5 p
+https://basketballstats.eu/en/game/anadolu-efes-asvel-13/
 
-### baskonia-hapoel-tel-aviv-12
-Preview Baskonia vs Hapoel Tel Aviv: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 21:30 (Athens time) at Buesa Arena. Baskonia: 20th place, 1-10, form LLLLL. Hapoel Tel Aviv: 10th place, 6-5, form WWLLL. Our model projects 85-94. Favourite: Hapoel Tel Aviv, with a 74% chance to win. Players to watch: Chris Duarte (9.9 points, 10.6 PIR) and Elijah Bryant (14.5 points, 21.6 PIR). Absences: Baskonia: Markus Howard, Marcio Santos, Tadas Sedekerskis and Kenneth Faried · Hapoel Tel Aviv: none known. Matchup Center BAS Baskonia 26% 74% Hapoel Tel Aviv HTA Projected score 85-94 Margin -9.4 Projected total 178.9 Pace 76.9 Model confidence High Hapoel Tel Aviv 74% win probability | Projected score: 85-94 | Projected total: 179 | Pace: 76.9 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
-Key matchups Guard: Damion Baugh (7.6 PIR) – Elijah Bryant (21.6 PIR) Forward: Tadas Sedekerskis (13.0 PIR) – Zach Leday (12.5 PIR) Center: Kenneth Faried (13.8 PIR) – Dan Oturu (14.8 PIR) Top scorer vs defense: A.J. Lawson (11.5 pts) vs a defense with DRtg 114.9 (9) · Elijah Bryant (14.5 pts) vs a defense with DRtg 120.1 (16) Rebounding battle: Baskonia OREB% 32.4% vs DREB% 68.2% Hapoel Tel Aviv · Hapoel Tel Aviv OREB% 28.2% vs DREB% 66.8% Baskonia Pace battle: Baskonia 76.5 – Hapoel Tel Aviv 75.9 · projected 76.9 Bench (PIR from reserves per game): Baskonia 40.7 – Hapoel Tel Aviv 34.2 Coaches: Velimir Perasovic – Dimitris Itoudis Players to watch Baskonia Hapoel Tel Aviv Projected PIR Dj Stewart 9.1 PIR Clement Frisch 9.0 PIR A.J. Lawson 8.9 PIR Chris Duarte 8.7 PIR Kobi Simmons 8.0 PIR Elijah Bryant 19.1 PIR Dan Oturu 13.6 PIR Zach Leday 11.5 PIR Vasilije Micic 9.7 PIR Amir Coffey 8.2
-https://basketballstats.eu/en/game/baskonia-hapoel-tel-aviv-12/
+### barcelona-crvena-zvezda-13
+Preview Barcelona vs Crvena Zvezda: the EuroLeague 2026-27 Round 13 game tips off Friday 20 November at 21:30 (Athens time) at Palau Blaugrana. Barcelona: 4th place, 8-3, form WWWWW. Crvena Zvezda: 6th place, 7-4, form LWWWL. Our model projects 85-84. Favourite: Barcelona, with a 57% chance to win. Players to watch: Justin Robinson (14.6 points, 14.3 PIR) and Jordan Nwora (14.7 points, 15.4 PIR). Absences: Barcelona: Tosan Evbuomwan and Kevin Punter · Crvena Zvezda: Johnathan Motley and Stefan Miljenovic. Matchup Center BAR Barcelona 57% 43% Crvena Zvezda RED Projected score 85-84 Margin +0.9 Projected total 169.8 Pace 73.0 Model confidence Low Barcelona 57% win probability | Projected score: 85-84 | Projected total: 170 | Pace: 73.0 | Model confidence: Low Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
+Key matchups Guard: Kevin Punter (14.8 PIR) – Chris Jones (13.3 PIR) Forward: Tyrese Martin (8.5 PIR) – Jordan Nwora (15.4 PIR) Center: Josh Nebo (13.0 PIR) – Christian Koloko (10.8 PIR) Top scorer vs defense: Kevin Punter (15.9 pts) vs a defense with DRtg 104.6 (1) · Jordan Nwora (14.7 pts) vs a defense with DRtg 116.2 (11) Rebounding battle: Barcelona OREB% 34.1% vs DREB% 65.3% Crvena Zvezda · Crvena Zvezda OREB% 33.9% vs DREB% 67.4% Barcelona Pace battle: Barcelona 74.3 – Crvena Zvezda 73.5 · projected 73.0 Bench (PIR from reserves per game): Barcelona 43.9 – Crvena Zvezda 33.3 Coaches: Aleksander Sekulic – Ibon Navarro Players to watch Barcelona Crvena Zvezda Projected PIR Justin Robinson 17.0 PIR Josh Nebo 14.9 PIR Tyrese Martin 10.8 PIR Olivier Nkamhoua 8.2 PIR Stanley Umude 7.3 PIR Jordan Nwora 15.0 PIR Chima Moneke 12.1 PIR Chris Jones 11.5 PIR Christian Koloko 9.5 PIR Tyson Cart
+https://basketballstats.eu/en/game/barcelona-crvena-zvezda-13/
 
-### besiktas-real-madrid-12
-Preview Besiktas vs Real Madrid: the EuroLeague 2026-27 Round 12 game tips off Wednesday 18 November at 19:00 (Athens time) at Turkcell Basketball Development Center. Besiktas: 13th place, 5-6, form LLWLW. Real Madrid: 5th place, 7-4, form WWWLW. Our model projects 89-93. Favourite: Real Madrid, with a 68% chance to win. Players to watch: Lonnie Walker Iv (13.8 points, 12.5 PIR) and Walter Tavares (9.9 points, 15.3 PIR). Absences: Besiktas: Berk Ugurlu and Jaylen Nowell · Real Madrid: Gabriel Deck, Mikael Jantunen, Facundo Campazzo and Theo Maledon. Matchup Center BES Besiktas 32% 68% Real Madrid MAD Projected score 89-93 Margin -4.4 Projected total 181.9 Pace 77.1 Model confidence Medium Real Madrid 68% win probability | Projected score: 89-93 | Projected total: 182 | Pace: 77.1 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
-Key matchups Guard: Lonnie Walker Iv (12.5 PIR) – Theo Maledon (20.4 PIR) Forward: Anthony Brown (8.1 PIR) – Alberto Abalde (8.2 PIR) Center: Ante Zizic (10.9 PIR) – Walter Tavares (15.3 PIR) Top scorer vs defense: Lonnie Walker Iv (13.8 pts) vs a defense with DRtg 115.4 (10) · Theo Maledon (16.3 pts) vs a defense with DRtg 119.2 (13) Rebounding battle: Besiktas OREB% 29.3% vs DREB% 68.4% Real Madrid · Real Madrid OREB% 34.3% vs DREB% 67.3% Besiktas Pace battle: Besiktas 76.3 – Real Madrid 77.2 · projected 77.1 Bench (PIR from reserves per game): Besiktas 54.3 – Real Madrid 61.3 Coaches: Dusan Alimpijevic – Pedro Martinez Players to watch Besiktas Real Madrid Projected PIR Eugene Omoruyi 11.5 PIR Scottie Wilbekin 10.7 PIR Lonnie Walker Iv 10.5 PIR David Dejulius 9.0 PIR Wenyen Gabriel 8.6 PIR Andres Feliz 14.5 PIR Walter Tavares 13.7 PIR Chuma Okeke 9.9 PIR Gabriele Procida 9.8 PIR Alber
-https://basketballstats.eu/en/game/besiktas-real-madrid-12/
+### bayern-munich-baskonia-13
+Preview Bayern Munich vs Baskonia: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 21:00 (Athens time) at Sap Garden. Bayern Munich: 18th place, 3-8, form LLLWL. Baskonia: 20th place, 1-10, form LLLLL. Our model projects 92-88. Favourite: Bayern Munich, with a 68% chance to win. Players to watch: Johannes Thiemann (8.9 points, 11.7 PIR) and Chris Duarte (9.9 points, 10.6 PIR). Absences: Bayern Munich: Tobias Jensen · Baskonia: Markus Howard, Marcio Santos, Tadas Sedekerskis and Kenneth Faried. Matchup Center MUN Bayern Munich 68% 32% Baskonia BAS Projected score 92-88 Margin +3.6 Projected total 179.6 Pace 77.6 Model confidence Medium Bayern Munich 68% win probability | Projected score: 92-88 | Projected total: 180 | Pace: 77.6 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
+Key matchups Guard: Duane Washington (9.9 PIR) – Damion Baugh (7.6 PIR) Forward: Vladimir Lucic (9.9 PIR) – Tadas Sedekerskis (13.0 PIR) Center: Johannes Thiemann (11.7 PIR) – Kenneth Faried (13.8 PIR) Top scorer vs defense: Duane Washington (15.0 pts) vs a defense with DRtg 120.1 (16) · A.J. Lawson (11.5 pts) vs a defense with DRtg 125.6 (20) Rebounding battle: Bayern Munich OREB% 32.1% vs DREB% 66.8% Baskonia · Baskonia OREB% 32.4% vs DREB% 66.5% Bayern Munich Pace battle: Bayern Munich 75.8 – Baskonia 76.5 · projected 77.6 Bench (PIR from reserves per game): Bayern Munich 56.1 – Baskonia 40.7 Coaches: Anton Gavel – Velimir Perasovic Players to watch Bayern Munich Baskonia Projected PIR Vladimir Lucic 9.6 PIR Austin Wiley 9.2 PIR Rokas Jokubaitis 8.9 PIR Johannes Thiemann 8.8 PIR Duane Washington 7.9 PIR Dj Stewart 9.1 PIR Clement Frisch 9.0 PIR A.J. Lawson 8.9 PIR Chris Duarte 8.7 PIR
+https://basketballstats.eu/en/game/bayern-munich-baskonia-13/
 
-### dubai-anadolu-efes-12
-Preview Dubai Basketball vs Anadolu Efes: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 18:00 (Athens time) at Coca-Cola Arena. Dubai Basketball: 9th place, 7-4, form WLWWL. Anadolu Efes: 12th place, 5-6, form WLWLW. Our model projects 90-83. Favourite: Dubai Basketball, with a 70% chance to win. Players to watch: Dwayne Bacon (16.6 points, 18.5 PIR) and Dario Saric (11.5 points, 14.9 PIR). Absences: Dubai Basketball: Thomas Walkup and Davis Bertans · Anadolu Efes: Mike James and Bruno Fernando. Matchup Center DUB Dubai Basketball 70% 30% Anadolu Efes IST Projected score 90-83 Margin +6.7 Projected total 172.7 Pace 73.4 Model confidence High Dubai Basketball 70% win probability | Projected score: 90-83 | Projected total: 173 | Pace: 73.4 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
-Key matchups Guard: Elie Okobo (12.7 PIR) – Mike James (14.0 PIR) Forward: Dwayne Bacon (18.5 PIR) – Dario Saric (14.9 PIR) Center: Mfiondu Kabengele (18.0 PIR) – Bruno Fernando (11.5 PIR) Top scorer vs defense: Dwayne Bacon (16.6 pts) vs a defense with DRtg 114.4 (8) · Cameron Payne (16.5 pts) vs a defense with DRtg 118.0 (12) Rebounding battle: Dubai Basketball OREB% 34.6% vs DREB% 69.1% Anadolu Efes · Anadolu Efes OREB% 28.9% vs DREB% 68.0% Dubai Basketball Pace battle: Dubai Basketball 72.6 – Anadolu Efes 76.4 · projected 73.4 Bench (PIR from reserves per game): Dubai Basketball 43.8 – Anadolu Efes 43.3 Coaches: Xavi Pascual – Pablo Laso Players to watch Dubai Basketball Anadolu Efes Projected PIR Mfiondu Kabengele 17.5 PIR Dwayne Bacon 16.1 PIR Mckinley Wright Iv 11.8 PIR Elie Okobo 11.7 PIR Filip Petrusev 9.2 PIR Cameron Payne 12.6 PIR Collin Malcolm 12.6 PIR Dario Saric 12.2 PIR J
-https://basketballstats.eu/en/game/dubai-anadolu-efes-12/
+### maccabi-tel-aviv-dubai-13
+Preview Maccabi Tel Aviv vs Dubai Basketball: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 19:15 (Athens time) at Spyros Kyprianou Athletic Center. Maccabi Tel Aviv: 17th place, 3-8, form LLLLW. Dubai Basketball: 9th place, 7-4, form WLWWL. Our model projects 88-90. Favourite: Dubai Basketball, with a 61% chance to win. Players to watch: Yam Madar (11.5 points, 14.1 PIR) and Dwayne Bacon (16.6 points, 18.5 PIR). Absences: Maccabi Tel Aviv: Iffe Lundberg · Dubai Basketball: Thomas Walkup and Davis Bertans. Matchup Center TEL Maccabi Tel Aviv 39% 61% Dubai Basketball DUB Projected score 88-90 Margin -1.9 Projected total 177.6 Pace 75.5 Model confidence Medium Dubai Basketball 61% win probability | Projected score: 88-90 | Projected total: 178 | Pace: 75.5 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
+Key matchups Guard: Yam Madar (14.1 PIR) – Elie Okobo (12.7 PIR) Forward: Bonzie Colson (11.7 PIR) – Dwayne Bacon (18.5 PIR) Center: Daniel Theis (11.1 PIR) – Mfiondu Kabengele (18.0 PIR) Top scorer vs defense: Jimmy Clark Iii (13.5 pts) vs a defense with DRtg 118.0 (12) · Dwayne Bacon (16.6 pts) vs a defense with DRtg 122.6 (19) Rebounding battle: Maccabi Tel Aviv OREB% 31.3% vs DREB% 68.0% Dubai Basketball · Dubai Basketball OREB% 34.6% vs DREB% 67.9% Maccabi Tel Aviv Pace battle: Maccabi Tel Aviv 75.1 – Dubai Basketball 72.6 · projected 75.5 Bench (PIR from reserves per game): Maccabi Tel Aviv 46.4 – Dubai Basketball 43.8 Coaches: Oded Kattash – Xavi Pascual Players to watch Maccabi Tel Aviv Dubai Basketball Projected PIR Bonzie Colson 12.0 PIR Yam Madar 12.0 PIR Jimmy Clark Iii 10.4 PIR Jaylen Hoard 9.9 PIR O'Shae J Brissett 9.7 PIR Mfiondu Kabengele 17.5 PIR Dwayne Bacon 16.1 PIR Mc
+https://basketballstats.eu/en/game/maccabi-tel-aviv-dubai-13/
 
-### fenerbahce-asvel-12
-Preview Fenerbahce vs ASVEL: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 20:00 (Athens time) at Ulker Sports And Event Hall. Fenerbahce: 7th place, 7-4, form WLLWL. ASVEL: 15th place, 4-7, form LWWLL. Our model projects 87-75. Favourite: Fenerbahce, with a 85% chance to win. Players to watch: Talen Horton Tucker (13.3 points, 14.1 PIR) and Patty Mills (15.6 points, 13.4 PIR). Absences: Fenerbahce: Sertac Sanli · ASVEL: Myles Cale. Matchup Center ULK Fenerbahce 85% 15% ASVEL ASV Projected score 87-75 Margin +11.5 Projected total 161.5 Pace 74.1 Model confidence High Fenerbahce 85% win probability | Projected score: 87-75 | Projected total: 162 | Pace: 74.1 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
-Key matchups Guard: Talen Horton Tucker (14.1 PIR) – Patty Mills (13.4 PIR) Forward: Shavon Shields (13.2 PIR) – Jae Crowder (10.2 PIR) Center: Marcus Bingham (8.7 PIR) – Joel Bolomboy (8.8 PIR) Top scorer vs defense: Talen Horton Tucker (13.3 pts) vs a defense with DRtg 121.5 (18) · Patty Mills (15.6 pts) vs a defense with DRtg 106.5 (3) Rebounding battle: Fenerbahce OREB% 34.7% vs DREB% 59.6% ASVEL · ASVEL OREB% 28.7% vs DREB% 67.2% Fenerbahce Pace battle: Fenerbahce 73.0 – ASVEL 76.7 · projected 74.1 Bench (PIR from reserves per game): Fenerbahce 59.6 – ASVEL 58.3 Coaches: Saras Jasikevicius – Tony Parker Players to watch Fenerbahce ASVEL Projected PIR Wade Baldwin Iv 14.5 PIR Talen Horton Tucker 13.3 PIR Shavon Shields 12.7 PIR Will Clyburn 11.1 PIR Marcus Bingham 8.7 PIR Patty Mills 11.1 PIR Hugo Besson 9.4 PIR Tyty Washington Jr 9.3 PIR Tremont Waters 8.7 PIR Both Gach 8.5 PIR Scor
-https://basketballstats.eu/en/game/fenerbahce-asvel-12/
+### olimpia-milano-fenerbahce-13
+Preview Olimpia Milano vs Fenerbahce: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 21:30 (Athens time) at Unipol Forum. Olimpia Milano: 19th place, 1-10, form LLLLL. Fenerbahce: 7th place, 7-4, form WLLWL. Our model projects 80-85. Favourite: Fenerbahce, with a 72% chance to win. Players to watch: Moses Wright (11.5 points, 13.1 PIR) and Talen Horton Tucker (13.3 points, 14.1 PIR). Absences: Olimpia Milano: Devin Booker · Fenerbahce: Sertac Sanli. Matchup Center MIL Olimpia Milano 28% 72% Fenerbahce ULK Projected score 80-85 Margin -4.4 Projected total 164.9 Pace 73.3 Model confidence High Fenerbahce 72% win probability | Projected score: 80-85 | Projected total: 165 | Pace: 73.3 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
+Key matchups Guard: Devon Hall (10.5 PIR) – Talen Horton Tucker (14.1 PIR) Forward: Alec Peters (9.3 PIR) – Shavon Shields (13.2 PIR) Center: Moses Wright (13.1 PIR) – Marcus Bingham (8.7 PIR) Top scorer vs defense: Moses Wright (11.5 pts) vs a defense with DRtg 106.5 (3) · Talen Horton Tucker (13.3 pts) vs a defense with DRtg 120.6 (17) Rebounding battle: Olimpia Milano OREB% 32.6% vs DREB% 67.2% Fenerbahce · Fenerbahce OREB% 34.7% vs DREB% 64.9% Olimpia Milano Pace battle: Olimpia Milano 74.0 – Fenerbahce 73.0 · projected 73.3 Bench (PIR from reserves per game): Olimpia Milano 47.0 – Fenerbahce 59.6 Coaches: Luca Banchi – Saras Jasikevicius Players to watch Olimpia Milano Fenerbahce Projected PIR Moses Wright 12.8 PIR Rj Cole 11.4 PIR Leandro Bolmaro 9.5 PIR Devon Hall 9.3 PIR Ousmane Diop 9.1 PIR Wade Baldwin Iv 14.5 PIR Talen Horton Tucker 13.3 PIR Shavon Shields 12.7 PIR Will Clybur
+https://basketballstats.eu/en/game/olimpia-milano-fenerbahce-13/
 
-### maccabi-tel-aviv-olympiacos-12
-Preview Maccabi Tel Aviv vs Olympiacos: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 19:00 (Athens time) at Spyros Kyprianou Athletic Center. Maccabi Tel Aviv: 17th place, 3-8, form LLLLW. Olympiacos: 3rd place, 8-3, form LWWLW. Our model projects 86-93. Favourite: Olympiacos, with a 78% chance to win. Players to watch: Yam Madar (11.5 points, 14.1 PIR) and Sasha Vezenkov (19.2 points, 23.2 PIR). Absences: Maccabi Tel Aviv: Iffe Lundberg · Olympiacos: Tyler Dorsey, Nikola Milutinov and Jean Montero. Matchup Center TEL Maccabi Tel Aviv 22% 78% Olympiacos OLY Projected score 86-93 Margin -7.2 Projected total 178.6 Pace 74.7 Model confidence High Olympiacos 78% win probability | Projected score: 86-93 | Projected total: 179 | Pace: 74.7 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
-Key matchups Guard: Yam Madar (14.1 PIR) – Jean Montero (20.3 PIR) Forward: Bonzie Colson (11.7 PIR) – Sasha Vezenkov (23.2 PIR) Center: Daniel Theis (11.1 PIR) – Nikola Milutinov (9.1 PIR) Top scorer vs defense: Jimmy Clark Iii (13.5 pts) vs a defense with DRtg 107.9 (5) · Sasha Vezenkov (19.2 pts) vs a defense with DRtg 122.6 (19) Rebounding battle: Maccabi Tel Aviv OREB% 31.3% vs DREB% 65.8% Olympiacos · Olympiacos OREB% 37.3% vs DREB% 67.9% Maccabi Tel Aviv Pace battle: Maccabi Tel Aviv 75.1 – Olympiacos 73.2 · projected 74.7 Bench (PIR from reserves per game): Maccabi Tel Aviv 46.4 – Olympiacos 55.8 Coaches: Oded Kattash – Georgios Bartzokas Players to watch Maccabi Tel Aviv Olympiacos Projected PIR Bonzie Colson 12.0 PIR Yam Madar 12.0 PIR Jimmy Clark Iii 10.4 PIR Jaylen Hoard 9.9 PIR O'Shae J Brissett 9.7 PIR Sasha Vezenkov 20.6 PIR Codi Miller-Mcintyre 10.6 PIR Tyson Ward 10.4 PI
-https://basketballstats.eu/en/game/maccabi-tel-aviv-olympiacos-12/
+### olympiacos-real-madrid-13
+Preview Olympiacos vs Real Madrid: the EuroLeague 2026-27 Round 13 game tips off Friday 20 November at 21:15 (Athens time) at Sunel Arena. Olympiacos: 3rd place, 8-3, form LWWLW. Real Madrid: 5th place, 7-4, form WWWLW. Our model projects 91-87. Favourite: Olympiacos, with a 65% chance to win. Players to watch: Sasha Vezenkov (19.2 points, 23.2 PIR) and Walter Tavares (9.9 points, 15.3 PIR). Absences: Olympiacos: Tyler Dorsey, Nikola Milutinov and Jean Montero · Real Madrid: Gabriel Deck, Mikael Jantunen, Facundo Campazzo and Theo Maledon. Matchup Center OLY Olympiacos 65% 35% Real Madrid MAD Projected score 91-87 Margin +3.8 Projected total 177.3 Pace 74.9 Model confidence Medium Olympiacos 65% win probability | Projected score: 91-87 | Projected total: 177 | Pace: 74.9 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
+Key matchups Guard: Jean Montero (20.3 PIR) – Theo Maledon (20.4 PIR) Forward: Sasha Vezenkov (23.2 PIR) – Alberto Abalde (8.2 PIR) Center: Nikola Milutinov (9.1 PIR) – Walter Tavares (15.3 PIR) Top scorer vs defense: Sasha Vezenkov (19.2 pts) vs a defense with DRtg 115.4 (10) · Theo Maledon (16.3 pts) vs a defense with DRtg 107.9 (5) Rebounding battle: Olympiacos OREB% 37.3% vs DREB% 68.4% Real Madrid · Real Madrid OREB% 34.3% vs DREB% 65.8% Olympiacos Pace battle: Olympiacos 73.2 – Real Madrid 77.2 · projected 74.9 Bench (PIR from reserves per game): Olympiacos 55.8 – Real Madrid 61.3 Coaches: Georgios Bartzokas – Pedro Martinez Players to watch Olympiacos Real Madrid Projected PIR Sasha Vezenkov 20.6 PIR Codi Miller-Mcintyre 10.6 PIR Tyson Ward 10.4 PIR Mbaye Ndiaye 9.6 PIR Donta Hall 9.4 PIR Andres Feliz 14.5 PIR Walter Tavares 13.7 PIR Chuma Okeke 9.9 PIR Gabriele Procida 9.8 PIR Al
+https://basketballstats.eu/en/game/olympiacos-real-madrid-13/
 
-### olimpia-milano-crvena-zvezda-12
-Preview Olimpia Milano vs Crvena Zvezda: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 21:30 (Athens time) at Unipol Forum. Olimpia Milano: 19th place, 1-10, form LLLLL. Crvena Zvezda: 6th place, 7-4, form LWWWL. Our model projects 81-86. Favourite: Crvena Zvezda, with a 72% chance to win. Players to watch: Moses Wright (11.5 points, 13.1 PIR) and Jordan Nwora (14.7 points, 15.4 PIR). Absences: Olimpia Milano: Devin Booker · Crvena Zvezda: Johnathan Motley and Stefan Miljenovic. Matchup Center MIL Olimpia Milano 28% 72% Crvena Zvezda RED Projected score 81-86 Margin -5.3 Projected total 166.8 Pace 73.5 Model confidence High Crvena Zvezda 72% win probability | Projected score: 81-86 | Projected total: 167 | Pace: 73.5 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
-Key matchups Guard: Devon Hall (10.5 PIR) – Chris Jones (13.3 PIR) Forward: Alec Peters (9.3 PIR) – Jordan Nwora (15.4 PIR) Center: Moses Wright (13.1 PIR) – Christian Koloko (10.8 PIR) Top scorer vs defense: Moses Wright (11.5 pts) vs a defense with DRtg 104.6 (1) · Jordan Nwora (14.7 pts) vs a defense with DRtg 120.6 (17) Rebounding battle: Olimpia Milano OREB% 32.6% vs DREB% 65.3% Crvena Zvezda · Crvena Zvezda OREB% 33.9% vs DREB% 64.9% Olimpia Milano Pace battle: Olimpia Milano 74.0 – Crvena Zvezda 73.5 · projected 73.5 Bench (PIR from reserves per game): Olimpia Milano 47.0 – Crvena Zvezda 33.3 Coaches: Luca Banchi – Ibon Navarro Players to watch Olimpia Milano Crvena Zvezda Projected PIR Moses Wright 12.8 PIR Rj Cole 11.4 PIR Leandro Bolmaro 9.5 PIR Devon Hall 9.3 PIR Ousmane Diop 9.1 PIR Jordan Nwora 15.0 PIR Chima Moneke 12.1 PIR Chris Jones 11.5 PIR Christian Koloko 9.5 PIR Tyso
-https://basketballstats.eu/en/game/olimpia-milano-crvena-zvezda-12/
+### paris-hapoel-tel-aviv-13
+Preview Paris Basketball vs Hapoel Tel Aviv: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 21:45 (Athens time) at Adidas Arena. Paris Basketball: 14th place, 5-6, form LWWWW. Hapoel Tel Aviv: 10th place, 6-5, form WWLLL. Our model projects 91-93. Favourite: Paris Basketball, with a 51% chance to win. Players to watch: Nadir Hifi (20.8 points, 18.5 PIR) and Elijah Bryant (14.5 points, 21.6 PIR). Absences: Paris Basketball: Daulton Hommes · Hapoel Tel Aviv: none known. Matchup Center PRS Paris Basketball 51% 49% Hapoel Tel Aviv HTA Projected score 91-93 Margin -1.6 Projected total 184.1 Pace 78.2 Model confidence Low Paris Basketball 51% win probability | Projected score: 91-93 | Projected total: 184 | Pace: 78.2 | Model confidence: Low Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
+Key matchups Guard: Nadir Hifi (18.5 PIR) – Elijah Bryant (21.6 PIR) Forward: Tj Warren (11.9 PIR) – Zach Leday (12.5 PIR) Center: Allan Dokossi (10.7 PIR) – Dan Oturu (14.8 PIR) Top scorer vs defense: Nadir Hifi (20.8 pts) vs a defense with DRtg 114.9 (9) · Elijah Bryant (14.5 pts) vs a defense with DRtg 120.1 (15) Rebounding battle: Paris Basketball OREB% 35.3% vs DREB% 68.2% Hapoel Tel Aviv · Hapoel Tel Aviv OREB% 28.2% vs DREB% 61.4% Paris Basketball Pace battle: Paris Basketball 77.5 – Hapoel Tel Aviv 75.9 · projected 78.2 Bench (PIR from reserves per game): Paris Basketball 63.2 – Hapoel Tel Aviv 34.2 Coaches: Maxime Lefevre – Dimitris Itoudis Players to watch Paris Basketball Hapoel Tel Aviv Projected PIR Nadir Hifi 15.6 PIR Jared Rhoden 10.1 PIR Allan Dokossi 9.5 PIR Tj Warren 9.3 PIR Mouhamed Faye 9.2 PIR Elijah Bryant 19.1 PIR Dan Oturu 13.6 PIR Zach Leday 11.5 PIR Vasilije Mic
+https://basketballstats.eu/en/game/paris-hapoel-tel-aviv-13/
 
-### partizan-valencia-12
-Preview Partizan vs Valencia Basket: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 21:45 (Athens time) at Belgrade Arena. Partizan: 11th place, 6-5, form WLLWW. Valencia Basket: 1st place, 8-3, form WWLWW. Our model projects 84-87. Favourite: Valencia Basket, with a 60% chance to win. Players to watch: Tonye Jekiri (11.1 points, 15.3 PIR) and Tj Shorts (16.6 points, 20.6 PIR). Absences: Partizan: Derek Willis, Kyle Allman, Ethan Thompson and Kevarrius Hayes · Valencia Basket: Nathan Reuvers and Nikola Mirotic. Matchup Center PAR Partizan 40% 60% Valencia Basket PAM Projected score 84-87 Margin -2.8 Projected total 170.3 Pace 74.1 Model confidence Medium Valencia Basket 60% win probability | Projected score: 84-87 | Projected total: 170 | Pace: 74.1 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
-Key matchups Guard: Carlik Jones (15.2 PIR) – Tj Shorts (20.6 PIR) Forward: Lamar Stevens (12.1 PIR) – Nikola Mirotic (15.0 PIR) Center: Tonye Jekiri (15.3 PIR) – Neal Sako (10.3 PIR) Top scorer vs defense: Carlik Jones (13.8 pts) vs a defense with DRtg 114.2 (7) · Tj Shorts (16.6 pts) vs a defense with DRtg 106.7 (4) Rebounding battle: Partizan OREB% 28.7% vs DREB% 70.6% Valencia Basket · Valencia Basket OREB% 35.4% vs DREB% 69.6% Partizan Pace battle: Partizan 72.0 – Valencia Basket 77.0 · projected 74.1 Bench (PIR from reserves per game): Partizan 34.7 – Valencia Basket 65.6 Coaches: Joan Penarroya – Xavier Albert Players to watch Partizan Valencia Basket Projected PIR Carlik Jones 12.9 PIR Nikola Tanaskovic 10.8 PIR Tonye Jekiri 9.6 PIR Luca Vildoza 8.7 PIR Robert Franks 8.2 PIR Tj Shorts 14.9 PIR Armoni Brooks 10.3 PIR Kameron Taylor 9.3 PIR Neal Sako 8.6 PIR Jasiel Rivero 8.3 PIR S
-https://basketballstats.eu/en/game/partizan-valencia-12/
+### partizan-besiktas-13
+Preview Partizan vs Besiktas: the EuroLeague 2026-27 Round 13 game tips off Friday 20 November at 21:45 (Athens time) at Aleksandar Nikolic Hall. Partizan: 11th place, 6-5, form WLLWW. Besiktas: 13th place, 5-6, form LLWLW. Our model projects 86-80. Favourite: Partizan, with a 65% chance to win. Players to watch: Tonye Jekiri (11.1 points, 15.3 PIR) and Lonnie Walker Iv (13.8 points, 12.5 PIR). Absences: Partizan: Derek Willis, Kyle Allman, Ethan Thompson and Kevarrius Hayes · Besiktas: Berk Ugurlu and Jaylen Nowell. Matchup Center PAR Partizan 65% 35% Besiktas BES Projected score 86-80 Margin +5.5 Projected total 165.7 Pace 73.6 Model confidence Medium Partizan 65% win probability | Projected score: 86-80 | Projected total: 166 | Pace: 73.6 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
+Key matchups Guard: Carlik Jones (15.2 PIR) – Lonnie Walker Iv (12.5 PIR) Forward: Lamar Stevens (12.1 PIR) – Anthony Brown (8.1 PIR) Center: Tonye Jekiri (15.3 PIR) – Ante Zizic (10.9 PIR) Top scorer vs defense: Carlik Jones (13.8 pts) vs a defense with DRtg 119.2 (13) · Lonnie Walker Iv (13.8 pts) vs a defense with DRtg 106.7 (4) Rebounding battle: Partizan OREB% 28.7% vs DREB% 67.3% Besiktas · Besiktas OREB% 29.3% vs DREB% 69.6% Partizan Pace battle: Partizan 72.0 – Besiktas 76.3 · projected 73.6 Bench (PIR from reserves per game): Partizan 34.7 – Besiktas 54.3 Coaches: Joan Penarroya – Dusan Alimpijevic Players to watch Partizan Besiktas Projected PIR Carlik Jones 12.9 PIR Nikola Tanaskovic 10.8 PIR Tonye Jekiri 9.6 PIR Luca Vildoza 8.7 PIR Robert Franks 8.2 PIR Eugene Omoruyi 11.5 PIR Scottie Wilbekin 10.7 PIR Lonnie Walker Iv 10.5 PIR David Dejulius 9.0 PIR Wenyen Gabriel 8.6 PIR S
+https://basketballstats.eu/en/game/partizan-besiktas-13/
 
-### virtus-bologna-panathinaikos-12
-Preview Virtus Bologna vs Panathinaikos: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 22:00 (Athens time) at Paladozza. Virtus Bologna: 16th place, 4-7, form LLLLL. Panathinaikos: 2nd place, 8-3, form WWLWL. Our model projects 84-88. Favourite: Panathinaikos, with a 68% chance to win. Players to watch: Aliou Diarra (12.1 points, 18.5 PIR) and Mathias Lessort (11.9 points, 19.5 PIR). Absences: Virtus Bologna: Tommaso Baldasso and Daniel Hackett · Panathinaikos: Panagiotis Kalaitzakis, Nikolaos Rogkavopoulos and Eleftherios Mantzoukas. Matchup Center VIR Virtus Bologna 32% 68% Panathinaikos PAN Projected score 84-88 Margin -3.9 Projected total 171.4 Pace 74.3 Model confidence Medium Panathinaikos 68% win probability | Projected score: 84-88 | Projected total: 171 | Pace: 74.3 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
-Key matchups Guard: Wendell Moore (11.0 PIR) – Kendrick Nunn (18.8 PIR) Forward: Derrick Alston Jr. (9.5 PIR) – Nigel Hayes-Davis (10.6 PIR) Center: Aliou Diarra (18.5 PIR) – Mathias Lessort (19.5 PIR) Top scorer vs defense: Derrick Alston Jr. (13.0 pts) vs a defense with DRtg 105.6 (2) · Kendrick Nunn (20.0 pts) vs a defense with DRtg 119.3 (14) Rebounding battle: Virtus Bologna OREB% 35.5% vs DREB% 68.2% Panathinaikos · Panathinaikos OREB% 35.7% vs DREB% 64.4% Virtus Bologna Pace battle: Virtus Bologna 76.1 – Panathinaikos 73.5 · projected 74.3 Bench (PIR from reserves per game): Virtus Bologna 50.4 – Panathinaikos 97.6 Coaches: Alex Mumbru – Zeljko Obradovic Players to watch Virtus Bologna Panathinaikos Projected PIR Aliou Diarra 14.5 PIR Wendell Moore 10.2 PIR Marcus Carr 10.1 PIR Trent Frazier 9.4 PIR Derrick Alston Jr. 9.4 PIR Mathias Lessort 18.0 PIR Kendrick Nunn 15.2 PIR Sylvain
-https://basketballstats.eu/en/game/virtus-bologna-panathinaikos-12/
+### valencia-virtus-bologna-13
+Preview Valencia Basket vs Virtus Bologna: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 22:00 (Athens time) at Roig Arena. Valencia Basket: 1st place, 8-3, form WWLWW. Virtus Bologna: 16th place, 4-7, form LLLLL. Our model projects 97-85. Favourite: Valencia Basket, with a 86% chance to win. Players to watch: Tj Shorts (16.6 points, 20.6 PIR) and Aliou Diarra (12.1 points, 18.5 PIR). Absences: Valencia Basket: Nathan Reuvers and Nikola Mirotic · Virtus Bologna: Tommaso Baldasso and Daniel Hackett. Matchup Center PAM Valencia Basket 86% 14% Virtus Bologna VIR Projected score 97-85 Margin +11.7 Projected total 182.4 Pace 77.5 Model confidence High Valencia Basket 86% win probability | Projected score: 97-85 | Projected total: 182 | Pace: 77.5 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
+Key matchups Guard: Tj Shorts (20.6 PIR) – Wendell Moore (11.0 PIR) Forward: Nikola Mirotic (15.0 PIR) – Derrick Alston Jr. (9.5 PIR) Center: Neal Sako (10.3 PIR) – Aliou Diarra (18.5 PIR) Top scorer vs defense: Tj Shorts (16.6 pts) vs a defense with DRtg 119.3 (14) · Derrick Alston Jr. (13.0 pts) vs a defense with DRtg 114.2 (7) Rebounding battle: Valencia Basket OREB% 35.4% vs DREB% 64.4% Virtus Bologna · Virtus Bologna OREB% 35.5% vs DREB% 70.6% Valencia Basket Pace battle: Valencia Basket 77.0 – Virtus Bologna 76.1 · projected 77.5 Bench (PIR from reserves per game): Valencia Basket 65.6 – Virtus Bologna 50.4 Coaches: Xavier Albert – Alex Mumbru Players to watch Valencia Basket Virtus Bologna Projected PIR Tj Shorts 14.9 PIR Armoni Brooks 10.3 PIR Kameron Taylor 9.3 PIR Neal Sako 8.6 PIR Jasiel Rivero 8.3 PIR Aliou Diarra 14.5 PIR Wendell Moore 10.2 PIR Marcus Carr 10.1 PIR Trent Fra
+https://basketballstats.eu/en/game/valencia-virtus-bologna-13/
 
-### zalgiris-bayern-munich-12
-Preview Zalgiris vs Bayern Munich: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 20:00 (Athens time) at Zalgirio Arena. Zalgiris: 8th place, 7-4, form WWWWW. Bayern Munich: 18th place, 3-8, form LLLWL. Our model projects 92-81. Favourite: Zalgiris, with a 81% chance to win. Players to watch: Jonas Valanciunas (12.5 points, 21.2 PIR) and Johannes Thiemann (8.9 points, 11.7 PIR). Absences: Zalgiris: Nigel Williams-Goss and Maodo Lo · Bayern Munich: Tobias Jensen. Matchup Center ZAL Zalgiris 81% 19% Bayern Munich MUN Projected score 92-81 Margin +11.3 Projected total 172.5 Pace 75.3 Model confidence High Zalgiris 81% win probability | Projected score: 92-81 | Projected total: 173 | Pace: 75.3 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
-Key matchups Guard: Carsen Edwards (11.3 PIR) – Duane Washington (9.9 PIR) Forward: Azuolas Tubelis (16.1 PIR) – Vladimir Lucic (9.9 PIR) Center: Jonas Valanciunas (21.2 PIR) – Johannes Thiemann (11.7 PIR) Top scorer vs defense: Carsen Edwards (15.2 pts) vs a defense with DRtg 125.6 (20) · Duane Washington (15.0 pts) vs a defense with DRtg 109.4 (6) Rebounding battle: Zalgiris OREB% 36.1% vs DREB% 66.5% Bayern Munich · Bayern Munich OREB% 32.1% vs DREB% 73.3% Zalgiris Pace battle: Zalgiris 75.3 – Bayern Munich 75.8 · projected 75.3 Bench (PIR from reserves per game): Zalgiris 39.9 – Bayern Munich 56.1 Coaches: Tomas Masiulis – Anton Gavel Players to watch Zalgiris Bayern Munich Projected PIR Jonas Valanciunas 18.9 PIR Azuolas Tubelis 13.4 PIR Carsen Edwards 10.4 PIR Marius Grigonis 9.1 PIR Sterling Brown 9.0 PIR Vladimir Lucic 9.6 PIR Austin Wiley 9.2 PIR Rokas Jokubaitis 8.9 PIR Johanne
-https://basketballstats.eu/en/game/zalgiris-bayern-munich-12/
+### zalgiris-panathinaikos-13
+Preview Zalgiris vs Panathinaikos: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 20:00 (Athens time) at Zalgirio Arena. Zalgiris: 8th place, 7-4, form WWWWW. Panathinaikos: 2nd place, 8-3, form WWLWL. Our model projects 84-80. Favourite: Zalgiris, with a 59% chance to win. Players to watch: Jonas Valanciunas (12.5 points, 21.2 PIR) and Mathias Lessort (11.9 points, 19.5 PIR). Absences: Zalgiris: Nigel Williams-Goss and Maodo Lo · Panathinaikos: Panagiotis Kalaitzakis, Nikolaos Rogkavopoulos and Eleftherios Mantzoukas. Matchup Center ZAL Zalgiris 59% 41% Panathinaikos PAN Projected score 84-80 Margin +3.4 Projected total 163.9 Pace 73.4 Model confidence Medium Zalgiris 59% win probability | Projected score: 84-80 | Projected total: 164 | Pace: 73.4 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is 
+Key matchups Guard: Carsen Edwards (11.3 PIR) – Kendrick Nunn (18.8 PIR) Forward: Azuolas Tubelis (16.1 PIR) – Nigel Hayes-Davis (10.6 PIR) Center: Jonas Valanciunas (21.2 PIR) – Mathias Lessort (19.5 PIR) Top scorer vs defense: Carsen Edwards (15.2 pts) vs a defense with DRtg 105.6 (2) · Kendrick Nunn (20.0 pts) vs a defense with DRtg 109.4 (6) Rebounding battle: Zalgiris OREB% 36.1% vs DREB% 68.2% Panathinaikos · Panathinaikos OREB% 35.7% vs DREB% 73.3% Zalgiris Pace battle: Zalgiris 75.3 – Panathinaikos 73.5 · projected 73.4 Bench (PIR from reserves per game): Zalgiris 39.9 – Panathinaikos 97.6 Coaches: Tomas Masiulis – Zeljko Obradovic Players to watch Zalgiris Panathinaikos Projected PIR Jonas Valanciunas 18.9 PIR Azuolas Tubelis 13.4 PIR Carsen Edwards 10.4 PIR Marius Grigonis 9.1 PIR Sterling Brown 9.0 PIR Mathias Lessort 18.0 PIR Kendrick Nunn 15.2 PIR Sylvain Francisco 14.2 PIR 
+https://basketballstats.eu/en/game/zalgiris-panathinaikos-13/
 
 
 ## Coaches (current-round projections)

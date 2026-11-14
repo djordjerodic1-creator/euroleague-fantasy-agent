@@ -1,21 +1,14 @@
 {
- "generated": "2026-11-14T20:18",
+ "generated": "2026-11-14T20:24",
  "today": "2026-11-14",
  "source_round": 12,
  "rounds_in_progress": [],
- "target_round": 12,
+ "target_round": 13,
+ "target_note": "R12 trades already made (my_team.json): planning R13",
  "horizon": [
-  12,
   13
  ],
  "calendar": {
-  "11": {
-   "start": "2026-11-11",
-   "end": "2026-11-13",
-   "double_week": false,
-   "unlimited_before": false,
-   "unlimited_window": null
-  },
   "12": {
    "start": "2026-11-17",
    "end": "2026-11-18",
@@ -40,6 +33,13 @@
   "15": {
    "start": "2026-12-03",
    "end": "2026-12-04",
+   "double_week": false,
+   "unlimited_before": false,
+   "unlimited_window": null
+  },
+  "16": {
+   "start": "2026-12-10",
+   "end": "2026-12-11",
    "double_week": false,
    "unlimited_before": false,
    "unlimited_window": null
@@ -79,598 +79,470 @@
  "swaps": [
   {
    "out": "Justin Robinson",
-   "out_score": 27.71,
+   "out_score": 15.3,
    "options": [
     {
      "name": "Talen Horton Tucker",
      "team": "ULK",
      "price": 12.3,
-     "score": 22.54,
-     "gain": -5.2,
+     "score": 13.2,
+     "gain": -2.1,
      "owned": 6.0
     },
     {
      "name": "Cameron Payne",
      "team": "IST",
      "price": 10.2,
-     "score": 21.7,
-     "gain": -6.0,
+     "score": 13.0,
+     "gain": -2.3,
      "owned": 12.0
     },
     {
-     "name": "Yam Madar",
-     "team": "TEL",
-     "price": 10.5,
-     "score": 20.05,
-     "gain": -7.7,
-     "owned": 9.0
+     "name": "Jordan Loyd",
+     "team": "IST",
+     "price": 9.4,
+     "score": 11.8,
+     "gain": -3.5,
+     "owned": 0.8
+    },
+    {
+     "name": "Patty Mills",
+     "team": "ASV",
+     "price": 12.7,
+     "score": 11.7,
+     "gain": -3.6,
+     "owned": 3.0
     },
     {
      "name": "Elie Okobo",
      "team": "DUB",
      "price": 12.7,
-     "score": 19.89,
-     "gain": -7.8,
+     "score": 11.7,
+     "gain": -3.6,
      "owned": 2.0
-    },
-    {
-     "name": "Chris Jones",
-     "team": "RED",
-     "price": 12.5,
-     "score": 19.62,
-     "gain": -8.1,
-     "owned": 5.0
     }
    ]
   },
   {
    "out": "Kendrick Nunn",
-   "out_score": 24.93,
+   "out_score": 13.9,
    "options": [
     {
      "name": "Wade Baldwin Iv",
      "team": "ULK",
      "price": 13.5,
-     "score": 24.44,
-     "gain": -0.5,
+     "score": 14.2,
+     "gain": 0.3,
      "owned": 2.0
-    },
-    {
-     "name": "Sylvain Francisco",
-     "team": "PAN",
-     "price": 14.1,
-     "score": 23.23,
-     "gain": -1.7,
-     "owned": 8.0
-    },
-    {
-     "name": "Talen Horton Tucker",
-     "team": "ULK",
-     "price": 12.3,
-     "score": 22.54,
-     "gain": -2.4,
-     "owned": 6.0
     },
     {
      "name": "Carlik Jones",
      "team": "PAR",
      "price": 13.7,
-     "score": 22.14,
-     "gain": -2.8,
+     "score": 13.2,
+     "gain": -0.7,
      "owned": 24.0
+    },
+    {
+     "name": "Talen Horton Tucker",
+     "team": "ULK",
+     "price": 12.3,
+     "score": 13.2,
+     "gain": -0.7,
+     "owned": 6.0
     },
     {
      "name": "Cameron Payne",
      "team": "IST",
      "price": 10.2,
-     "score": 21.7,
-     "gain": -3.2,
+     "score": 13.0,
+     "gain": -0.9,
      "owned": 12.0
+    },
+    {
+     "name": "Sylvain Francisco",
+     "team": "PAN",
+     "price": 14.1,
+     "score": 12.9,
+     "gain": -1.0,
+     "owned": 8.0
     }
    ]
   },
   {
    "out": "Andres Feliz",
-   "out_score": 22.9,
+   "out_score": 12.0,
    "options": [
     {
      "name": "Jordan Loyd",
      "team": "IST",
      "price": 9.4,
-     "score": 19.46,
-     "gain": -3.4,
+     "score": 11.8,
+     "gain": -0.2,
      "owned": 0.8
     },
     {
      "name": "Rj Cole",
      "team": "MIL",
      "price": 8.9,
-     "score": 19.38,
-     "gain": -3.5,
+     "score": 11.4,
+     "gain": -0.6,
      "owned": 0.7
     },
     {
-     "name": "Scottie Wilbekin",
-     "team": "BES",
+     "name": "Rokas Jokubaitis",
+     "team": "MUN",
      "price": 8.6,
-     "score": 16.65,
-     "gain": -6.2,
-     "owned": 6.0
+     "score": 10.2,
+     "gain": -1.8,
+     "owned": 1.0
     },
     {
      "name": "Leandro Bolmaro",
      "team": "MIL",
      "price": 8.2,
-     "score": 16.36,
-     "gain": -6.5,
+     "score": 9.8,
+     "gain": -2.2,
      "owned": 0.6
     },
     {
      "name": "Tyson Carter",
      "team": "RED",
      "price": 7.4,
-     "score": 16.05,
-     "gain": -6.8,
+     "score": 9.5,
+     "gain": -2.5,
      "owned": 5.0
     }
    ]
   },
   {
    "out": "Sebastian Herrera",
-   "out_score": 13.31,
+   "out_score": 8.3,
    "options": [
     {
      "name": "Cory Joseph",
      "team": "OLY",
      "price": 5.5,
-     "score": 10.81,
-     "gain": -2.5,
+     "score": 6.3,
+     "gain": -2.0,
      "owned": 3.0
-    },
-    {
-     "name": "Matteo Spagnolo",
-     "team": "BAS",
-     "price": 5.2,
-     "score": 9.45,
-     "gain": -3.9,
-     "owned": 2.0
     },
     {
      "name": "Josep Puerto",
      "team": "PAM",
      "price": 5.0,
-     "score": 8.93,
-     "gain": -4.4,
+     "score": 5.9,
+     "gain": -2.4,
      "owned": 4.0
     },
     {
-     "name": "Sergio Llull",
-     "team": "MAD",
-     "price": 4.2,
-     "score": 8.5,
-     "gain": -4.8,
-     "owned": 6.0
+     "name": "Matteo Spagnolo",
+     "team": "BAS",
+     "price": 5.2,
+     "score": 5.5,
+     "gain": -2.8,
+     "owned": 2.0
     },
     {
      "name": "Alvaro Cardenas",
      "team": "PAM",
      "price": 4.3,
-     "score": 8.41,
-     "gain": -4.9,
+     "score": 5.3,
+     "gain": -3.0,
      "owned": 5.0
+    },
+    {
+     "name": "Sergio Llull",
+     "team": "MAD",
+     "price": 4.2,
+     "score": 5.0,
+     "gain": -3.3,
+     "owned": 6.0
     }
    ]
   },
   {
    "out": "Sasha Vezenkov",
-   "out_score": 35.65,
+   "out_score": 21.5,
    "options": [
     {
      "name": "Dwayne Bacon",
      "team": "DUB",
      "price": 14.6,
-     "score": 26.88,
-     "gain": -8.8,
+     "score": 15.4,
+     "gain": -6.1,
      "owned": 13.0
     },
     {
      "name": "Jordan Nwora",
      "team": "RED",
      "price": 13.9,
-     "score": 25.36,
-     "gain": -10.3,
+     "score": 14.8,
+     "gain": -6.7,
      "owned": 12.0
     },
     {
      "name": "Azuolas Tubelis",
      "team": "ZAL",
      "price": 12.6,
-     "score": 22.5,
-     "gain": -13.1,
+     "score": 13.0,
+     "gain": -8.5,
      "owned": 18.0
-    },
-    {
-     "name": "Shavon Shields",
-     "team": "ULK",
-     "price": 12.9,
-     "score": 21.38,
-     "gain": -14.3,
-     "owned": 5.0
     },
     {
      "name": "Dario Saric",
      "team": "IST",
      "price": 14.4,
-     "score": 21.16,
-     "gain": -14.5,
+     "score": 12.8,
+     "gain": -8.7,
      "owned": 4.0
+    },
+    {
+     "name": "Shavon Shields",
+     "team": "ULK",
+     "price": 12.9,
+     "score": 12.4,
+     "gain": -9.1,
+     "owned": 5.0
     }
    ]
   },
   {
    "out": "Collin Malcolm",
-   "out_score": 22.12,
+   "out_score": 13.6,
    "options": [
     {
      "name": "Tyson Ward",
      "team": "OLY",
      "price": 8.1,
-     "score": 17.75,
-     "gain": -4.4,
+     "score": 10.5,
+     "gain": -3.1,
      "owned": 5.0
-    },
-    {
-     "name": "Tyrese Martin",
-     "team": "BAR",
-     "price": 8.6,
-     "score": 17.73,
-     "gain": -4.4,
-     "owned": 1.0
     },
     {
      "name": "Vladimir Lucic",
      "team": "MUN",
      "price": 9.6,
-     "score": 16.88,
-     "gain": -5.2,
+     "score": 10.4,
+     "gain": -3.2,
      "owned": 2.0
     },
     {
-     "name": "Mbaye Ndiaye",
-     "team": "OLY",
-     "price": 8.3,
-     "score": 15.55,
-     "gain": -6.6,
-     "owned": 5.0
+     "name": "Tyrese Martin",
+     "team": "BAR",
+     "price": 8.6,
+     "score": 9.9,
+     "gain": -3.7,
+     "owned": 1.0
+    },
+    {
+     "name": "Both Gach",
+     "team": "ASV",
+     "price": 8.9,
+     "score": 8.8,
+     "gain": -4.8,
+     "owned": 0.9
     },
     {
      "name": "Derrick Alston Jr.",
      "team": "VIR",
      "price": 8.5,
-     "score": 15.49,
-     "gain": -6.6,
+     "score": 8.7,
+     "gain": -4.9,
      "owned": 1.0
     }
    ]
   },
   {
    "out": "Dejan Davidovac",
-   "out_score": 9.62,
+   "out_score": 5.6,
    "options": [
     {
      "name": "Gabriele Procida",
      "team": "MAD",
      "price": 4.5,
-     "score": 15.05,
-     "gain": 5.4,
+     "score": 7.5,
+     "gain": 1.9,
      "owned": 11.0
     },
     {
      "name": "Vanja Marinkovic",
      "team": "PAR",
      "price": 4.1,
-     "score": 11.56,
-     "gain": 1.9,
+     "score": 6.8,
+     "gain": 1.2,
      "owned": 4.0
     },
     {
      "name": "Ognjen Dobric",
      "team": "RED",
      "price": 4.7,
-     "score": 7.75,
-     "gain": -1.9,
+     "score": 4.5,
+     "gain": -1.1,
      "owned": 7.0
     },
     {
-     "name": "Giampaolo Ricci",
-     "team": "MIL",
-     "price": 4.1,
-     "score": 6.17,
-     "gain": -3.4,
-     "owned": 4.0
+     "name": "Leopold Cavaliere",
+     "team": "PRS",
+     "price": 4.2,
+     "score": 3.6,
+     "gain": -2.0,
+     "owned": 2.0
     },
     {
      "name": "David Lighty",
      "team": "ASV",
      "price": 4.5,
-     "score": 5.95,
-     "gain": -3.7,
+     "score": 3.5,
+     "gain": -2.1,
      "owned": 3.0
     }
    ]
   },
   {
    "out": "Stefan Joksimovic",
-   "out_score": 10.43,
+   "out_score": 5.9,
    "options": [
     {
      "name": "Vanja Marinkovic",
      "team": "PAR",
      "price": 4.1,
-     "score": 11.56,
-     "gain": 1.1,
-     "owned": 4.0
-    },
-    {
-     "name": "Giampaolo Ricci",
-     "team": "MIL",
-     "price": 4.1,
-     "score": 6.17,
-     "gain": -4.3,
+     "score": 6.8,
+     "gain": 0.9,
      "owned": 4.0
     },
     {
      "name": "Leopold Cavaliere",
      "team": "PRS",
      "price": 4.2,
-     "score": 5.92,
-     "gain": -4.5,
+     "score": 3.6,
+     "gain": -2.3,
      "owned": 2.0
+    },
+    {
+     "name": "Giampaolo Ricci",
+     "team": "MIL",
+     "price": 4.1,
+     "score": 3.1,
+     "gain": -2.8,
+     "owned": 4.0
     },
     {
      "name": "Kostas Papanikolaou",
      "team": "OLY",
      "price": 4.2,
-     "score": 5.35,
-     "gain": -5.1,
+     "score": 2.5,
+     "gain": -3.4,
      "owned": 17.0
     },
     {
      "name": "Arijan Lakic",
      "team": "PAR",
      "price": 4.0,
-     "score": 3.98,
-     "gain": -6.4,
+     "score": 2.4,
+     "gain": -3.5,
      "owned": 23.0
     }
    ]
   },
   {
    "out": "Aliou Diarra",
-   "out_score": 24.09,
+   "out_score": 13.7,
    "options": [
     {
      "name": "Nikola Tanaskovic",
      "team": "PAR",
      "price": 8.4,
-     "score": 18.43,
-     "gain": -5.7,
+     "score": 10.9,
+     "gain": -2.8,
      "owned": 8.0
-    },
-    {
-     "name": "Eugene Omoruyi",
-     "team": "BES",
-     "price": 9.8,
-     "score": 18.29,
-     "gain": -5.8,
-     "owned": 0.9
-    },
-    {
-     "name": "Allan Dokossi",
-     "team": "PRS",
-     "price": 8.5,
-     "score": 16.36,
-     "gain": -7.7,
-     "owned": 1.0
     },
     {
      "name": "Austin Wiley",
      "team": "MUN",
      "price": 10.5,
-     "score": 16.34,
-     "gain": -7.8,
+     "score": 10.2,
+     "gain": -3.5,
      "owned": 0.4
     },
     {
-     "name": "Tonye Jekiri",
-     "team": "PAR",
-     "price": 9.0,
-     "score": 16.32,
-     "gain": -7.8,
+     "name": "Johannes Thiemann",
+     "team": "MUN",
+     "price": 10.6,
+     "score": 9.9,
+     "gain": -3.8,
      "owned": 1.0
+    },
+    {
+     "name": "Allan Dokossi",
+     "team": "PRS",
+     "price": 8.5,
+     "score": 9.8,
+     "gain": -3.9,
+     "owned": 1.0
+    },
+    {
+     "name": "Eugene Omoruyi",
+     "team": "BES",
+     "price": 9.8,
+     "score": 9.7,
+     "gain": -4.0,
+     "owned": 0.9
     }
    ]
   },
   {
    "out": "Ousmane Diop",
-   "out_score": 14.63,
+   "out_score": 7.9,
    "options": [
     {
      "name": "Metecan Birsen",
      "team": "BES",
      "price": 4.6,
-     "score": 3.55,
-     "gain": -11.1,
+     "score": 2.5,
+     "gain": -5.4,
      "owned": 1.0
     },
     {
      "name": "Bryant Dunston",
      "team": "OLY",
      "price": 4.6,
-     "score": 1.6,
-     "gain": -13.0,
+     "score": 1.0,
+     "gain": -6.9,
      "owned": 2.0
     },
     {
      "name": "Sertac Sanli",
      "team": "ULK",
      "price": 4.0,
-     "score": 0.99,
-     "gain": -13.6,
+     "score": 0.85,
+     "gain": -7.1,
      "owned": 18.0
     }
    ]
   }
  ],
  "previews": {
-  "barcelona-paris-12": {
-   "summary": "Preview Barcelona vs Paris Basketball: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 21:30 (Athens time) at Palau Blaugrana. Barcelona: 4th place, 8-3, form WWWWW. Paris Basketball: 14th place, 5-6, form LWWWW. Our model projects 94-88. Favourite: Barcelona, with a 71% chance to win. Players to watch: Justin Robinson (14.6 points, 14.3 PIR) and Nadir Hifi (20.8 points, 18.5 PIR). Absences: Barcelona: Tosan Evbuomwan and Kevin Punter · Paris Basketball: Daulton Hommes. Matchup Center BAR Barcelona 71% 29% Paris Basketball PRS Projected score 94-88 Margin +6.0 Projected total 182.4 Pace 77.2 Model confidence High Barcelona 71% win probability | Projected score: 94-88 | Projected total: 182 | Pace: 77.2 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
-   "key_matchups": "Key matchups Guard: Kevin Punter (14.8 PIR) – Nadir Hifi (18.5 PIR) Forward: Tyrese Martin (8.5 PIR) – Tj Warren (11.9 PIR) Center: Josh Nebo (13.0 PIR) – Allan Dokossi (10.7 PIR) Top scorer vs defense: Kevin Punter (15.9 pts) vs a defense with DRtg 120.1 (15) · Nadir Hifi (20.8 pts) vs a defense with DRtg 116.2 (11) Rebounding battle: Barcelona OREB% 34.1% vs DREB% 61.4% Paris Basketball · Paris Basketball OREB% 35.3% vs DREB% 67.4% Barcelona Pace battle: Barcelona 74.3 – Paris Basketball 77.5 · projected 77.2 Bench (PIR from reserves per game): Barcelona 43.9 – Paris Basketball 63.2 Coaches: Aleksander Sekulic – Maxime Lefevre Players to watch Barcelona Paris Basketball Projected PIR Justin Robinson 17.0 PIR Josh Nebo 14.9 PIR Tyrese Martin 10.8 PIR Olivier Nkamhoua 8.2 PIR Stanley Umude 7.3 PIR Nadir Hifi 15.6 PIR Jared Rhoden 10.1 PIR Allan Dokossi 9.5 PIR Tj Warren 9.3 PIR Mouhamed ",
-   "favourite": "Barcelona",
-   "fav_pct": 71,
-   "home": "BAR",
-   "away": "PRS",
-   "fav_code": "BAR",
-   "date": "17 Nov",
-   "time": "21:30",
-   "score": [
-    94,
-    88
-   ],
-   "player_proj": {
-    "Justin Robinson": 17.0,
-    "Josh Nebo": 14.9,
-    "Tyrese Martin": 10.8,
-    "Olivier Nkamhoua": 8.2,
-    "Stanley Umude": 7.3,
-    "Nadir Hifi": 15.6,
-    "Jared Rhoden": 10.1,
-    "Allan Dokossi": 9.5,
-    "Tj Warren": 9.3,
-    "Mouhamed Faye": 9.2
-   },
-   "coaches": [
-    "Aleksander Sekulic",
-    "Maxime Lefevre"
-   ],
-   "url": "https://basketballstats.eu/en/game/barcelona-paris-12/"
-  },
-  "baskonia-hapoel-tel-aviv-12": {
-   "summary": "Preview Baskonia vs Hapoel Tel Aviv: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 21:30 (Athens time) at Buesa Arena. Baskonia: 20th place, 1-10, form LLLLL. Hapoel Tel Aviv: 10th place, 6-5, form WWLLL. Our model projects 85-94. Favourite: Hapoel Tel Aviv, with a 74% chance to win. Players to watch: Chris Duarte (9.9 points, 10.6 PIR) and Elijah Bryant (14.5 points, 21.6 PIR). Absences: Baskonia: Markus Howard, Marcio Santos, Tadas Sedekerskis and Kenneth Faried · Hapoel Tel Aviv: none known. Matchup Center BAS Baskonia 26% 74% Hapoel Tel Aviv HTA Projected score 85-94 Margin -9.4 Projected total 178.9 Pace 76.9 Model confidence High Hapoel Tel Aviv 74% win probability | Projected score: 85-94 | Projected total: 179 | Pace: 76.9 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
-   "key_matchups": "Key matchups Guard: Damion Baugh (7.6 PIR) – Elijah Bryant (21.6 PIR) Forward: Tadas Sedekerskis (13.0 PIR) – Zach Leday (12.5 PIR) Center: Kenneth Faried (13.8 PIR) – Dan Oturu (14.8 PIR) Top scorer vs defense: A.J. Lawson (11.5 pts) vs a defense with DRtg 114.9 (9) · Elijah Bryant (14.5 pts) vs a defense with DRtg 120.1 (16) Rebounding battle: Baskonia OREB% 32.4% vs DREB% 68.2% Hapoel Tel Aviv · Hapoel Tel Aviv OREB% 28.2% vs DREB% 66.8% Baskonia Pace battle: Baskonia 76.5 – Hapoel Tel Aviv 75.9 · projected 76.9 Bench (PIR from reserves per game): Baskonia 40.7 – Hapoel Tel Aviv 34.2 Coaches: Velimir Perasovic – Dimitris Itoudis Players to watch Baskonia Hapoel Tel Aviv Projected PIR Dj Stewart 9.1 PIR Clement Frisch 9.0 PIR A.J. Lawson 8.9 PIR Chris Duarte 8.7 PIR Kobi Simmons 8.0 PIR Elijah Bryant 19.1 PIR Dan Oturu 13.6 PIR Zach Leday 11.5 PIR Vasilije Micic 9.7 PIR Amir Coffey 8.2",
-   "favourite": "Hapoel Tel Aviv",
-   "fav_pct": 74,
-   "home": "BAS",
-   "away": "HTA",
-   "fav_code": "HTA",
-   "date": "17 Nov",
-   "time": "21:30",
-   "score": [
-    85,
-    94
-   ],
-   "player_proj": {
-    "Dj Stewart": 9.1,
-    "Clement Frisch": 9.0,
-    "A.J. Lawson": 8.9,
-    "Chris Duarte": 8.7,
-    "Kobi Simmons": 8.0,
-    "Elijah Bryant": 19.1,
-    "Dan Oturu": 13.6,
-    "Zach Leday": 11.5,
-    "Vasilije Micic": 9.7,
-    "Amir Coffey": 8.2
-   },
-   "coaches": [
-    "Velimir Perasovic",
-    "Dimitris Itoudis"
-   ],
-   "url": "https://basketballstats.eu/en/game/baskonia-hapoel-tel-aviv-12/"
-  },
-  "besiktas-real-madrid-12": {
-   "summary": "Preview Besiktas vs Real Madrid: the EuroLeague 2026-27 Round 12 game tips off Wednesday 18 November at 19:00 (Athens time) at Turkcell Basketball Development Center. Besiktas: 13th place, 5-6, form LLWLW. Real Madrid: 5th place, 7-4, form WWWLW. Our model projects 89-93. Favourite: Real Madrid, with a 68% chance to win. Players to watch: Lonnie Walker Iv (13.8 points, 12.5 PIR) and Walter Tavares (9.9 points, 15.3 PIR). Absences: Besiktas: Berk Ugurlu and Jaylen Nowell · Real Madrid: Gabriel Deck, Mikael Jantunen, Facundo Campazzo and Theo Maledon. Matchup Center BES Besiktas 32% 68% Real Madrid MAD Projected score 89-93 Margin -4.4 Projected total 181.9 Pace 77.1 Model confidence Medium Real Madrid 68% win probability | Projected score: 89-93 | Projected total: 182 | Pace: 77.1 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
-   "key_matchups": "Key matchups Guard: Lonnie Walker Iv (12.5 PIR) – Theo Maledon (20.4 PIR) Forward: Anthony Brown (8.1 PIR) – Alberto Abalde (8.2 PIR) Center: Ante Zizic (10.9 PIR) – Walter Tavares (15.3 PIR) Top scorer vs defense: Lonnie Walker Iv (13.8 pts) vs a defense with DRtg 115.4 (10) · Theo Maledon (16.3 pts) vs a defense with DRtg 119.2 (13) Rebounding battle: Besiktas OREB% 29.3% vs DREB% 68.4% Real Madrid · Real Madrid OREB% 34.3% vs DREB% 67.3% Besiktas Pace battle: Besiktas 76.3 – Real Madrid 77.2 · projected 77.1 Bench (PIR from reserves per game): Besiktas 54.3 – Real Madrid 61.3 Coaches: Dusan Alimpijevic – Pedro Martinez Players to watch Besiktas Real Madrid Projected PIR Eugene Omoruyi 11.5 PIR Scottie Wilbekin 10.7 PIR Lonnie Walker Iv 10.5 PIR David Dejulius 9.0 PIR Wenyen Gabriel 8.6 PIR Andres Feliz 14.5 PIR Walter Tavares 13.7 PIR Chuma Okeke 9.9 PIR Gabriele Procida 9.8 PIR Alber",
-   "favourite": "Real Madrid",
-   "fav_pct": 68,
-   "home": "BES",
-   "away": "MAD",
-   "fav_code": "MAD",
-   "date": "18 Nov",
-   "time": "19:00",
-   "score": [
-    89,
-    93
-   ],
-   "player_proj": {
-    "Eugene Omoruyi": 11.5,
-    "Scottie Wilbekin": 10.7,
-    "Lonnie Walker Iv": 10.5,
-    "David Dejulius": 9.0,
-    "Wenyen Gabriel": 8.6,
-    "Andres Feliz": 14.5,
-    "Walter Tavares": 13.7,
-    "Chuma Okeke": 9.9,
-    "Gabriele Procida": 9.8,
-    "Alberto Abalde": 7.8
-   },
-   "coaches": [
-    "Dusan Alimpijevic",
-    "Pedro Martinez"
-   ],
-   "url": "https://basketballstats.eu/en/game/besiktas-real-madrid-12/"
-  },
-  "dubai-anadolu-efes-12": {
-   "summary": "Preview Dubai Basketball vs Anadolu Efes: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 18:00 (Athens time) at Coca-Cola Arena. Dubai Basketball: 9th place, 7-4, form WLWWL. Anadolu Efes: 12th place, 5-6, form WLWLW. Our model projects 90-83. Favourite: Dubai Basketball, with a 70% chance to win. Players to watch: Dwayne Bacon (16.6 points, 18.5 PIR) and Dario Saric (11.5 points, 14.9 PIR). Absences: Dubai Basketball: Thomas Walkup and Davis Bertans · Anadolu Efes: Mike James and Bruno Fernando. Matchup Center DUB Dubai Basketball 70% 30% Anadolu Efes IST Projected score 90-83 Margin +6.7 Projected total 172.7 Pace 73.4 Model confidence High Dubai Basketball 70% win probability | Projected score: 90-83 | Projected total: 173 | Pace: 73.4 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
-   "key_matchups": "Key matchups Guard: Elie Okobo (12.7 PIR) – Mike James (14.0 PIR) Forward: Dwayne Bacon (18.5 PIR) – Dario Saric (14.9 PIR) Center: Mfiondu Kabengele (18.0 PIR) – Bruno Fernando (11.5 PIR) Top scorer vs defense: Dwayne Bacon (16.6 pts) vs a defense with DRtg 114.4 (8) · Cameron Payne (16.5 pts) vs a defense with DRtg 118.0 (12) Rebounding battle: Dubai Basketball OREB% 34.6% vs DREB% 69.1% Anadolu Efes · Anadolu Efes OREB% 28.9% vs DREB% 68.0% Dubai Basketball Pace battle: Dubai Basketball 72.6 – Anadolu Efes 76.4 · projected 73.4 Bench (PIR from reserves per game): Dubai Basketball 43.8 – Anadolu Efes 43.3 Coaches: Xavi Pascual – Pablo Laso Players to watch Dubai Basketball Anadolu Efes Projected PIR Mfiondu Kabengele 17.5 PIR Dwayne Bacon 16.1 PIR Mckinley Wright Iv 11.8 PIR Elie Okobo 11.7 PIR Filip Petrusev 9.2 PIR Cameron Payne 12.6 PIR Collin Malcolm 12.6 PIR Dario Saric 12.2 PIR J",
-   "favourite": "Dubai Basketball",
-   "fav_pct": 70,
-   "home": "DUB",
-   "away": "IST",
-   "fav_code": "DUB",
-   "date": "17 Nov",
-   "time": "18:00",
+  "anadolu-efes-asvel-13": {
+   "summary": "Preview Anadolu Efes vs ASVEL: the EuroLeague 2026-27 Round 13 game tips off Friday 20 November at 19:30 (Athens time) at Turkcell Basketball Development Center. Anadolu Efes: 12th place, 5-6, form WLWLW. ASVEL: 15th place, 4-7, form LWWLL. Our model projects 90-83. Favourite: Anadolu Efes, with a 75% chance to win. Players to watch: Dario Saric (11.5 points, 14.9 PIR) and Patty Mills (15.6 points, 13.4 PIR). Absences: Anadolu Efes: Mike James and Bruno Fernando · ASVEL: Myles Cale. Matchup Center IST Anadolu Efes 75% 25% ASVEL ASV Projected score 90-83 Margin +7.0 Projected total 173.6 Pace 75.6 Model confidence High Anadolu Efes 75% win probability | Projected score: 90-83 | Projected total: 174 | Pace: 75.6 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Mike James (14.0 PIR) – Patty Mills (13.4 PIR) Forward: Dario Saric (14.9 PIR) – Jae Crowder (10.2 PIR) Center: Bruno Fernando (11.5 PIR) – Joel Bolomboy (8.8 PIR) Top scorer vs defense: Cameron Payne (16.5 pts) vs a defense with DRtg 121.5 (18) · Patty Mills (15.6 pts) vs a defense with DRtg 114.4 (8) Rebounding battle: Anadolu Efes OREB% 28.9% vs DREB% 59.6% ASVEL · ASVEL OREB% 28.7% vs DREB% 69.1% Anadolu Efes Pace battle: Anadolu Efes 76.4 – ASVEL 76.7 · projected 75.6 Bench (PIR from reserves per game): Anadolu Efes 43.3 – ASVEL 58.3 Coaches: Pablo Laso – Tony Parker Players to watch Anadolu Efes ASVEL Projected PIR Cameron Payne 12.6 PIR Collin Malcolm 12.6 PIR Dario Saric 12.2 PIR Jordan Loyd 11.2 PIR Matthew Strazel 10.5 PIR Patty Mills 11.1 PIR Hugo Besson 9.4 PIR Tyty Washington Jr 9.3 PIR Tremont Waters 8.7 PIR Both Gach 8.5 PIR Scorers Cameron Payne 16.5 p",
+   "favourite": "Anadolu Efes",
+   "fav_pct": 75,
+   "home": "IST",
+   "away": "ASV",
+   "fav_code": "IST",
+   "date": "20 Nov",
+   "time": "19:30",
    "score": [
     90,
     83
    ],
    "player_proj": {
-    "Mfiondu Kabengele": 17.5,
-    "Dwayne Bacon": 16.1,
-    "Mckinley Wright Iv": 11.8,
-    "Elie Okobo": 11.7,
-    "Filip Petrusev": 9.2,
     "Cameron Payne": 12.6,
     "Collin Malcolm": 12.6,
     "Dario Saric": 12.2,
     "Jordan Loyd": 11.2,
-    "Matthew Strazel": 10.5
-   },
-   "coaches": [
-    "Xavi Pascual",
-    "Pablo Laso"
-   ],
-   "url": "https://basketballstats.eu/en/game/dubai-anadolu-efes-12/"
-  },
-  "fenerbahce-asvel-12": {
-   "summary": "Preview Fenerbahce vs ASVEL: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 20:00 (Athens time) at Ulker Sports And Event Hall. Fenerbahce: 7th place, 7-4, form WLLWL. ASVEL: 15th place, 4-7, form LWWLL. Our model projects 87-75. Favourite: Fenerbahce, with a 85% chance to win. Players to watch: Talen Horton Tucker (13.3 points, 14.1 PIR) and Patty Mills (15.6 points, 13.4 PIR). Absences: Fenerbahce: Sertac Sanli · ASVEL: Myles Cale. Matchup Center ULK Fenerbahce 85% 15% ASVEL ASV Projected score 87-75 Margin +11.5 Projected total 161.5 Pace 74.1 Model confidence High Fenerbahce 85% win probability | Projected score: 87-75 | Projected total: 162 | Pace: 74.1 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
-   "key_matchups": "Key matchups Guard: Talen Horton Tucker (14.1 PIR) – Patty Mills (13.4 PIR) Forward: Shavon Shields (13.2 PIR) – Jae Crowder (10.2 PIR) Center: Marcus Bingham (8.7 PIR) – Joel Bolomboy (8.8 PIR) Top scorer vs defense: Talen Horton Tucker (13.3 pts) vs a defense with DRtg 121.5 (18) · Patty Mills (15.6 pts) vs a defense with DRtg 106.5 (3) Rebounding battle: Fenerbahce OREB% 34.7% vs DREB% 59.6% ASVEL · ASVEL OREB% 28.7% vs DREB% 67.2% Fenerbahce Pace battle: Fenerbahce 73.0 – ASVEL 76.7 · projected 74.1 Bench (PIR from reserves per game): Fenerbahce 59.6 – ASVEL 58.3 Coaches: Saras Jasikevicius – Tony Parker Players to watch Fenerbahce ASVEL Projected PIR Wade Baldwin Iv 14.5 PIR Talen Horton Tucker 13.3 PIR Shavon Shields 12.7 PIR Will Clyburn 11.1 PIR Marcus Bingham 8.7 PIR Patty Mills 11.1 PIR Hugo Besson 9.4 PIR Tyty Washington Jr 9.3 PIR Tremont Waters 8.7 PIR Both Gach 8.5 PIR Scor",
-   "favourite": "Fenerbahce",
-   "fav_pct": 85,
-   "home": "ULK",
-   "away": "ASV",
-   "fav_code": "ULK",
-   "date": "17 Nov",
-   "time": "20:00",
-   "score": [
-    87,
-    75
-   ],
-   "player_proj": {
-    "Wade Baldwin Iv": 14.5,
-    "Talen Horton Tucker": 13.3,
-    "Shavon Shields": 12.7,
-    "Will Clyburn": 11.1,
-    "Marcus Bingham": 8.7,
+    "Matthew Strazel": 10.5,
     "Patty Mills": 11.1,
     "Hugo Besson": 9.4,
     "Tyty Washington Jr": 9.3,
@@ -678,63 +550,31 @@
     "Both Gach": 8.5
    },
    "coaches": [
-    "Saras Jasikevicius",
+    "Pablo Laso",
     "Tony Parker"
    ],
-   "url": "https://basketballstats.eu/en/game/fenerbahce-asvel-12/"
+   "url": "https://basketballstats.eu/en/game/anadolu-efes-asvel-13/"
   },
-  "maccabi-tel-aviv-olympiacos-12": {
-   "summary": "Preview Maccabi Tel Aviv vs Olympiacos: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 19:00 (Athens time) at Spyros Kyprianou Athletic Center. Maccabi Tel Aviv: 17th place, 3-8, form LLLLW. Olympiacos: 3rd place, 8-3, form LWWLW. Our model projects 86-93. Favourite: Olympiacos, with a 78% chance to win. Players to watch: Yam Madar (11.5 points, 14.1 PIR) and Sasha Vezenkov (19.2 points, 23.2 PIR). Absences: Maccabi Tel Aviv: Iffe Lundberg · Olympiacos: Tyler Dorsey, Nikola Milutinov and Jean Montero. Matchup Center TEL Maccabi Tel Aviv 22% 78% Olympiacos OLY Projected score 86-93 Margin -7.2 Projected total 178.6 Pace 74.7 Model confidence High Olympiacos 78% win probability | Projected score: 86-93 | Projected total: 179 | Pace: 74.7 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
-   "key_matchups": "Key matchups Guard: Yam Madar (14.1 PIR) – Jean Montero (20.3 PIR) Forward: Bonzie Colson (11.7 PIR) – Sasha Vezenkov (23.2 PIR) Center: Daniel Theis (11.1 PIR) – Nikola Milutinov (9.1 PIR) Top scorer vs defense: Jimmy Clark Iii (13.5 pts) vs a defense with DRtg 107.9 (5) · Sasha Vezenkov (19.2 pts) vs a defense with DRtg 122.6 (19) Rebounding battle: Maccabi Tel Aviv OREB% 31.3% vs DREB% 65.8% Olympiacos · Olympiacos OREB% 37.3% vs DREB% 67.9% Maccabi Tel Aviv Pace battle: Maccabi Tel Aviv 75.1 – Olympiacos 73.2 · projected 74.7 Bench (PIR from reserves per game): Maccabi Tel Aviv 46.4 – Olympiacos 55.8 Coaches: Oded Kattash – Georgios Bartzokas Players to watch Maccabi Tel Aviv Olympiacos Projected PIR Bonzie Colson 12.0 PIR Yam Madar 12.0 PIR Jimmy Clark Iii 10.4 PIR Jaylen Hoard 9.9 PIR O'Shae J Brissett 9.7 PIR Sasha Vezenkov 20.6 PIR Codi Miller-Mcintyre 10.6 PIR Tyson Ward 10.4 PI",
-   "favourite": "Olympiacos",
-   "fav_pct": 78,
-   "home": "TEL",
-   "away": "OLY",
-   "fav_code": "OLY",
-   "date": "17 Nov",
-   "time": "19:00",
-   "score": [
-    86,
-    93
-   ],
-   "player_proj": {
-    "Bonzie Colson": 12.0,
-    "Yam Madar": 12.0,
-    "Jimmy Clark Iii": 10.4,
-    "Jaylen Hoard": 9.9,
-    "O'Shae J Brissett": 9.7,
-    "Sasha Vezenkov": 20.6,
-    "Codi Miller-Mcintyre": 10.6,
-    "Tyson Ward": 10.4,
-    "Mbaye Ndiaye": 9.6,
-    "Donta Hall": 9.4
-   },
-   "coaches": [
-    "Oded Kattash",
-    "Georgios Bartzokas"
-   ],
-   "url": "https://basketballstats.eu/en/game/maccabi-tel-aviv-olympiacos-12/"
-  },
-  "olimpia-milano-crvena-zvezda-12": {
-   "summary": "Preview Olimpia Milano vs Crvena Zvezda: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 21:30 (Athens time) at Unipol Forum. Olimpia Milano: 19th place, 1-10, form LLLLL. Crvena Zvezda: 6th place, 7-4, form LWWWL. Our model projects 81-86. Favourite: Crvena Zvezda, with a 72% chance to win. Players to watch: Moses Wright (11.5 points, 13.1 PIR) and Jordan Nwora (14.7 points, 15.4 PIR). Absences: Olimpia Milano: Devin Booker · Crvena Zvezda: Johnathan Motley and Stefan Miljenovic. Matchup Center MIL Olimpia Milano 28% 72% Crvena Zvezda RED Projected score 81-86 Margin -5.3 Projected total 166.8 Pace 73.5 Model confidence High Crvena Zvezda 72% win probability | Projected score: 81-86 | Projected total: 167 | Pace: 73.5 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
-   "key_matchups": "Key matchups Guard: Devon Hall (10.5 PIR) – Chris Jones (13.3 PIR) Forward: Alec Peters (9.3 PIR) – Jordan Nwora (15.4 PIR) Center: Moses Wright (13.1 PIR) – Christian Koloko (10.8 PIR) Top scorer vs defense: Moses Wright (11.5 pts) vs a defense with DRtg 104.6 (1) · Jordan Nwora (14.7 pts) vs a defense with DRtg 120.6 (17) Rebounding battle: Olimpia Milano OREB% 32.6% vs DREB% 65.3% Crvena Zvezda · Crvena Zvezda OREB% 33.9% vs DREB% 64.9% Olimpia Milano Pace battle: Olimpia Milano 74.0 – Crvena Zvezda 73.5 · projected 73.5 Bench (PIR from reserves per game): Olimpia Milano 47.0 – Crvena Zvezda 33.3 Coaches: Luca Banchi – Ibon Navarro Players to watch Olimpia Milano Crvena Zvezda Projected PIR Moses Wright 12.8 PIR Rj Cole 11.4 PIR Leandro Bolmaro 9.5 PIR Devon Hall 9.3 PIR Ousmane Diop 9.1 PIR Jordan Nwora 15.0 PIR Chima Moneke 12.1 PIR Chris Jones 11.5 PIR Christian Koloko 9.5 PIR Tyso",
-   "favourite": "Crvena Zvezda",
-   "fav_pct": 72,
-   "home": "MIL",
+  "barcelona-crvena-zvezda-13": {
+   "summary": "Preview Barcelona vs Crvena Zvezda: the EuroLeague 2026-27 Round 13 game tips off Friday 20 November at 21:30 (Athens time) at Palau Blaugrana. Barcelona: 4th place, 8-3, form WWWWW. Crvena Zvezda: 6th place, 7-4, form LWWWL. Our model projects 85-84. Favourite: Barcelona, with a 57% chance to win. Players to watch: Justin Robinson (14.6 points, 14.3 PIR) and Jordan Nwora (14.7 points, 15.4 PIR). Absences: Barcelona: Tosan Evbuomwan and Kevin Punter · Crvena Zvezda: Johnathan Motley and Stefan Miljenovic. Matchup Center BAR Barcelona 57% 43% Crvena Zvezda RED Projected score 85-84 Margin +0.9 Projected total 169.8 Pace 73.0 Model confidence Low Barcelona 57% win probability | Projected score: 85-84 | Projected total: 170 | Pace: 73.0 | Model confidence: Low Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Kevin Punter (14.8 PIR) – Chris Jones (13.3 PIR) Forward: Tyrese Martin (8.5 PIR) – Jordan Nwora (15.4 PIR) Center: Josh Nebo (13.0 PIR) – Christian Koloko (10.8 PIR) Top scorer vs defense: Kevin Punter (15.9 pts) vs a defense with DRtg 104.6 (1) · Jordan Nwora (14.7 pts) vs a defense with DRtg 116.2 (11) Rebounding battle: Barcelona OREB% 34.1% vs DREB% 65.3% Crvena Zvezda · Crvena Zvezda OREB% 33.9% vs DREB% 67.4% Barcelona Pace battle: Barcelona 74.3 – Crvena Zvezda 73.5 · projected 73.0 Bench (PIR from reserves per game): Barcelona 43.9 – Crvena Zvezda 33.3 Coaches: Aleksander Sekulic – Ibon Navarro Players to watch Barcelona Crvena Zvezda Projected PIR Justin Robinson 17.0 PIR Josh Nebo 14.9 PIR Tyrese Martin 10.8 PIR Olivier Nkamhoua 8.2 PIR Stanley Umude 7.3 PIR Jordan Nwora 15.0 PIR Chima Moneke 12.1 PIR Chris Jones 11.5 PIR Christian Koloko 9.5 PIR Tyson Cart",
+   "favourite": "Barcelona",
+   "fav_pct": 57,
+   "home": "BAR",
    "away": "RED",
-   "fav_code": "RED",
-   "date": "17 Nov",
+   "fav_code": "BAR",
+   "date": "20 Nov",
    "time": "21:30",
    "score": [
-    81,
-    86
+    85,
+    84
    ],
    "player_proj": {
-    "Moses Wright": 12.8,
-    "Rj Cole": 11.4,
-    "Leandro Bolmaro": 9.5,
-    "Devon Hall": 9.3,
-    "Ousmane Diop": 9.1,
+    "Justin Robinson": 17.0,
+    "Josh Nebo": 14.9,
+    "Tyrese Martin": 10.8,
+    "Olivier Nkamhoua": 8.2,
+    "Stanley Umude": 7.3,
     "Jordan Nwora": 15.0,
     "Chima Moneke": 12.1,
     "Chris Jones": 11.5,
@@ -742,24 +582,184 @@
     "Tyson Carter": 9.4
    },
    "coaches": [
-    "Luca Banchi",
+    "Aleksander Sekulic",
     "Ibon Navarro"
    ],
-   "url": "https://basketballstats.eu/en/game/olimpia-milano-crvena-zvezda-12/"
+   "url": "https://basketballstats.eu/en/game/barcelona-crvena-zvezda-13/"
   },
-  "partizan-valencia-12": {
-   "summary": "Preview Partizan vs Valencia Basket: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 21:45 (Athens time) at Belgrade Arena. Partizan: 11th place, 6-5, form WLLWW. Valencia Basket: 1st place, 8-3, form WWLWW. Our model projects 84-87. Favourite: Valencia Basket, with a 60% chance to win. Players to watch: Tonye Jekiri (11.1 points, 15.3 PIR) and Tj Shorts (16.6 points, 20.6 PIR). Absences: Partizan: Derek Willis, Kyle Allman, Ethan Thompson and Kevarrius Hayes · Valencia Basket: Nathan Reuvers and Nikola Mirotic. Matchup Center PAR Partizan 40% 60% Valencia Basket PAM Projected score 84-87 Margin -2.8 Projected total 170.3 Pace 74.1 Model confidence Medium Valencia Basket 60% win probability | Projected score: 84-87 | Projected total: 170 | Pace: 74.1 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
-   "key_matchups": "Key matchups Guard: Carlik Jones (15.2 PIR) – Tj Shorts (20.6 PIR) Forward: Lamar Stevens (12.1 PIR) – Nikola Mirotic (15.0 PIR) Center: Tonye Jekiri (15.3 PIR) – Neal Sako (10.3 PIR) Top scorer vs defense: Carlik Jones (13.8 pts) vs a defense with DRtg 114.2 (7) · Tj Shorts (16.6 pts) vs a defense with DRtg 106.7 (4) Rebounding battle: Partizan OREB% 28.7% vs DREB% 70.6% Valencia Basket · Valencia Basket OREB% 35.4% vs DREB% 69.6% Partizan Pace battle: Partizan 72.0 – Valencia Basket 77.0 · projected 74.1 Bench (PIR from reserves per game): Partizan 34.7 – Valencia Basket 65.6 Coaches: Joan Penarroya – Xavier Albert Players to watch Partizan Valencia Basket Projected PIR Carlik Jones 12.9 PIR Nikola Tanaskovic 10.8 PIR Tonye Jekiri 9.6 PIR Luca Vildoza 8.7 PIR Robert Franks 8.2 PIR Tj Shorts 14.9 PIR Armoni Brooks 10.3 PIR Kameron Taylor 9.3 PIR Neal Sako 8.6 PIR Jasiel Rivero 8.3 PIR S",
-   "favourite": "Valencia Basket",
-   "fav_pct": 60,
-   "home": "PAR",
-   "away": "PAM",
-   "fav_code": "PAM",
-   "date": "17 Nov",
+  "bayern-munich-baskonia-13": {
+   "summary": "Preview Bayern Munich vs Baskonia: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 21:00 (Athens time) at Sap Garden. Bayern Munich: 18th place, 3-8, form LLLWL. Baskonia: 20th place, 1-10, form LLLLL. Our model projects 92-88. Favourite: Bayern Munich, with a 68% chance to win. Players to watch: Johannes Thiemann (8.9 points, 11.7 PIR) and Chris Duarte (9.9 points, 10.6 PIR). Absences: Bayern Munich: Tobias Jensen · Baskonia: Markus Howard, Marcio Santos, Tadas Sedekerskis and Kenneth Faried. Matchup Center MUN Bayern Munich 68% 32% Baskonia BAS Projected score 92-88 Margin +3.6 Projected total 179.6 Pace 77.6 Model confidence Medium Bayern Munich 68% win probability | Projected score: 92-88 | Projected total: 180 | Pace: 77.6 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Duane Washington (9.9 PIR) – Damion Baugh (7.6 PIR) Forward: Vladimir Lucic (9.9 PIR) – Tadas Sedekerskis (13.0 PIR) Center: Johannes Thiemann (11.7 PIR) – Kenneth Faried (13.8 PIR) Top scorer vs defense: Duane Washington (15.0 pts) vs a defense with DRtg 120.1 (16) · A.J. Lawson (11.5 pts) vs a defense with DRtg 125.6 (20) Rebounding battle: Bayern Munich OREB% 32.1% vs DREB% 66.8% Baskonia · Baskonia OREB% 32.4% vs DREB% 66.5% Bayern Munich Pace battle: Bayern Munich 75.8 – Baskonia 76.5 · projected 77.6 Bench (PIR from reserves per game): Bayern Munich 56.1 – Baskonia 40.7 Coaches: Anton Gavel – Velimir Perasovic Players to watch Bayern Munich Baskonia Projected PIR Vladimir Lucic 9.6 PIR Austin Wiley 9.2 PIR Rokas Jokubaitis 8.9 PIR Johannes Thiemann 8.8 PIR Duane Washington 7.9 PIR Dj Stewart 9.1 PIR Clement Frisch 9.0 PIR A.J. Lawson 8.9 PIR Chris Duarte 8.7 PIR",
+   "favourite": "Bayern Munich",
+   "fav_pct": 68,
+   "home": "MUN",
+   "away": "BAS",
+   "fav_code": "MUN",
+   "date": "19 Nov",
+   "time": "21:00",
+   "score": [
+    92,
+    88
+   ],
+   "player_proj": {
+    "Vladimir Lucic": 9.6,
+    "Austin Wiley": 9.2,
+    "Rokas Jokubaitis": 8.9,
+    "Johannes Thiemann": 8.8,
+    "Duane Washington": 7.9,
+    "Dj Stewart": 9.1,
+    "Clement Frisch": 9.0,
+    "A.J. Lawson": 8.9,
+    "Chris Duarte": 8.7,
+    "Kobi Simmons": 8.0
+   },
+   "coaches": [
+    "Anton Gavel",
+    "Velimir Perasovic"
+   ],
+   "url": "https://basketballstats.eu/en/game/bayern-munich-baskonia-13/"
+  },
+  "maccabi-tel-aviv-dubai-13": {
+   "summary": "Preview Maccabi Tel Aviv vs Dubai Basketball: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 19:15 (Athens time) at Spyros Kyprianou Athletic Center. Maccabi Tel Aviv: 17th place, 3-8, form LLLLW. Dubai Basketball: 9th place, 7-4, form WLWWL. Our model projects 88-90. Favourite: Dubai Basketball, with a 61% chance to win. Players to watch: Yam Madar (11.5 points, 14.1 PIR) and Dwayne Bacon (16.6 points, 18.5 PIR). Absences: Maccabi Tel Aviv: Iffe Lundberg · Dubai Basketball: Thomas Walkup and Davis Bertans. Matchup Center TEL Maccabi Tel Aviv 39% 61% Dubai Basketball DUB Projected score 88-90 Margin -1.9 Projected total 177.6 Pace 75.5 Model confidence Medium Dubai Basketball 61% win probability | Projected score: 88-90 | Projected total: 178 | Pace: 75.5 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Yam Madar (14.1 PIR) – Elie Okobo (12.7 PIR) Forward: Bonzie Colson (11.7 PIR) – Dwayne Bacon (18.5 PIR) Center: Daniel Theis (11.1 PIR) – Mfiondu Kabengele (18.0 PIR) Top scorer vs defense: Jimmy Clark Iii (13.5 pts) vs a defense with DRtg 118.0 (12) · Dwayne Bacon (16.6 pts) vs a defense with DRtg 122.6 (19) Rebounding battle: Maccabi Tel Aviv OREB% 31.3% vs DREB% 68.0% Dubai Basketball · Dubai Basketball OREB% 34.6% vs DREB% 67.9% Maccabi Tel Aviv Pace battle: Maccabi Tel Aviv 75.1 – Dubai Basketball 72.6 · projected 75.5 Bench (PIR from reserves per game): Maccabi Tel Aviv 46.4 – Dubai Basketball 43.8 Coaches: Oded Kattash – Xavi Pascual Players to watch Maccabi Tel Aviv Dubai Basketball Projected PIR Bonzie Colson 12.0 PIR Yam Madar 12.0 PIR Jimmy Clark Iii 10.4 PIR Jaylen Hoard 9.9 PIR O'Shae J Brissett 9.7 PIR Mfiondu Kabengele 17.5 PIR Dwayne Bacon 16.1 PIR Mc",
+   "favourite": "Dubai Basketball",
+   "fav_pct": 61,
+   "home": "TEL",
+   "away": "DUB",
+   "fav_code": "DUB",
+   "date": "19 Nov",
+   "time": "19:15",
+   "score": [
+    88,
+    90
+   ],
+   "player_proj": {
+    "Bonzie Colson": 12.0,
+    "Yam Madar": 12.0,
+    "Jimmy Clark Iii": 10.4,
+    "Jaylen Hoard": 9.9,
+    "O'Shae J Brissett": 9.7,
+    "Mfiondu Kabengele": 17.5,
+    "Dwayne Bacon": 16.1,
+    "Mckinley Wright Iv": 11.8,
+    "Elie Okobo": 11.7,
+    "Filip Petrusev": 9.2
+   },
+   "coaches": [
+    "Oded Kattash",
+    "Xavi Pascual"
+   ],
+   "url": "https://basketballstats.eu/en/game/maccabi-tel-aviv-dubai-13/"
+  },
+  "olimpia-milano-fenerbahce-13": {
+   "summary": "Preview Olimpia Milano vs Fenerbahce: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 21:30 (Athens time) at Unipol Forum. Olimpia Milano: 19th place, 1-10, form LLLLL. Fenerbahce: 7th place, 7-4, form WLLWL. Our model projects 80-85. Favourite: Fenerbahce, with a 72% chance to win. Players to watch: Moses Wright (11.5 points, 13.1 PIR) and Talen Horton Tucker (13.3 points, 14.1 PIR). Absences: Olimpia Milano: Devin Booker · Fenerbahce: Sertac Sanli. Matchup Center MIL Olimpia Milano 28% 72% Fenerbahce ULK Projected score 80-85 Margin -4.4 Projected total 164.9 Pace 73.3 Model confidence High Fenerbahce 72% win probability | Projected score: 80-85 | Projected total: 165 | Pace: 73.3 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Devon Hall (10.5 PIR) – Talen Horton Tucker (14.1 PIR) Forward: Alec Peters (9.3 PIR) – Shavon Shields (13.2 PIR) Center: Moses Wright (13.1 PIR) – Marcus Bingham (8.7 PIR) Top scorer vs defense: Moses Wright (11.5 pts) vs a defense with DRtg 106.5 (3) · Talen Horton Tucker (13.3 pts) vs a defense with DRtg 120.6 (17) Rebounding battle: Olimpia Milano OREB% 32.6% vs DREB% 67.2% Fenerbahce · Fenerbahce OREB% 34.7% vs DREB% 64.9% Olimpia Milano Pace battle: Olimpia Milano 74.0 – Fenerbahce 73.0 · projected 73.3 Bench (PIR from reserves per game): Olimpia Milano 47.0 – Fenerbahce 59.6 Coaches: Luca Banchi – Saras Jasikevicius Players to watch Olimpia Milano Fenerbahce Projected PIR Moses Wright 12.8 PIR Rj Cole 11.4 PIR Leandro Bolmaro 9.5 PIR Devon Hall 9.3 PIR Ousmane Diop 9.1 PIR Wade Baldwin Iv 14.5 PIR Talen Horton Tucker 13.3 PIR Shavon Shields 12.7 PIR Will Clybur",
+   "favourite": "Fenerbahce",
+   "fav_pct": 72,
+   "home": "MIL",
+   "away": "ULK",
+   "fav_code": "ULK",
+   "date": "19 Nov",
+   "time": "21:30",
+   "score": [
+    80,
+    85
+   ],
+   "player_proj": {
+    "Moses Wright": 12.8,
+    "Rj Cole": 11.4,
+    "Leandro Bolmaro": 9.5,
+    "Devon Hall": 9.3,
+    "Ousmane Diop": 9.1,
+    "Wade Baldwin Iv": 14.5,
+    "Talen Horton Tucker": 13.3,
+    "Shavon Shields": 12.7,
+    "Will Clyburn": 11.1,
+    "Marcus Bingham": 8.7
+   },
+   "coaches": [
+    "Luca Banchi",
+    "Saras Jasikevicius"
+   ],
+   "url": "https://basketballstats.eu/en/game/olimpia-milano-fenerbahce-13/"
+  },
+  "olympiacos-real-madrid-13": {
+   "summary": "Preview Olympiacos vs Real Madrid: the EuroLeague 2026-27 Round 13 game tips off Friday 20 November at 21:15 (Athens time) at Sunel Arena. Olympiacos: 3rd place, 8-3, form LWWLW. Real Madrid: 5th place, 7-4, form WWWLW. Our model projects 91-87. Favourite: Olympiacos, with a 65% chance to win. Players to watch: Sasha Vezenkov (19.2 points, 23.2 PIR) and Walter Tavares (9.9 points, 15.3 PIR). Absences: Olympiacos: Tyler Dorsey, Nikola Milutinov and Jean Montero · Real Madrid: Gabriel Deck, Mikael Jantunen, Facundo Campazzo and Theo Maledon. Matchup Center OLY Olympiacos 65% 35% Real Madrid MAD Projected score 91-87 Margin +3.8 Projected total 177.3 Pace 74.9 Model confidence Medium Olympiacos 65% win probability | Projected score: 91-87 | Projected total: 177 | Pace: 74.9 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Jean Montero (20.3 PIR) – Theo Maledon (20.4 PIR) Forward: Sasha Vezenkov (23.2 PIR) – Alberto Abalde (8.2 PIR) Center: Nikola Milutinov (9.1 PIR) – Walter Tavares (15.3 PIR) Top scorer vs defense: Sasha Vezenkov (19.2 pts) vs a defense with DRtg 115.4 (10) · Theo Maledon (16.3 pts) vs a defense with DRtg 107.9 (5) Rebounding battle: Olympiacos OREB% 37.3% vs DREB% 68.4% Real Madrid · Real Madrid OREB% 34.3% vs DREB% 65.8% Olympiacos Pace battle: Olympiacos 73.2 – Real Madrid 77.2 · projected 74.9 Bench (PIR from reserves per game): Olympiacos 55.8 – Real Madrid 61.3 Coaches: Georgios Bartzokas – Pedro Martinez Players to watch Olympiacos Real Madrid Projected PIR Sasha Vezenkov 20.6 PIR Codi Miller-Mcintyre 10.6 PIR Tyson Ward 10.4 PIR Mbaye Ndiaye 9.6 PIR Donta Hall 9.4 PIR Andres Feliz 14.5 PIR Walter Tavares 13.7 PIR Chuma Okeke 9.9 PIR Gabriele Procida 9.8 PIR Al",
+   "favourite": "Olympiacos",
+   "fav_pct": 65,
+   "home": "OLY",
+   "away": "MAD",
+   "fav_code": "OLY",
+   "date": "20 Nov",
+   "time": "21:15",
+   "score": [
+    91,
+    87
+   ],
+   "player_proj": {
+    "Sasha Vezenkov": 20.6,
+    "Codi Miller-Mcintyre": 10.6,
+    "Tyson Ward": 10.4,
+    "Mbaye Ndiaye": 9.6,
+    "Donta Hall": 9.4,
+    "Andres Feliz": 14.5,
+    "Walter Tavares": 13.7,
+    "Chuma Okeke": 9.9,
+    "Gabriele Procida": 9.8,
+    "Alberto Abalde": 7.8
+   },
+   "coaches": [
+    "Georgios Bartzokas",
+    "Pedro Martinez"
+   ],
+   "url": "https://basketballstats.eu/en/game/olympiacos-real-madrid-13/"
+  },
+  "paris-hapoel-tel-aviv-13": {
+   "summary": "Preview Paris Basketball vs Hapoel Tel Aviv: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 21:45 (Athens time) at Adidas Arena. Paris Basketball: 14th place, 5-6, form LWWWW. Hapoel Tel Aviv: 10th place, 6-5, form WWLLL. Our model projects 91-93. Favourite: Paris Basketball, with a 51% chance to win. Players to watch: Nadir Hifi (20.8 points, 18.5 PIR) and Elijah Bryant (14.5 points, 21.6 PIR). Absences: Paris Basketball: Daulton Hommes · Hapoel Tel Aviv: none known. Matchup Center PRS Paris Basketball 51% 49% Hapoel Tel Aviv HTA Projected score 91-93 Margin -1.6 Projected total 184.1 Pace 78.2 Model confidence Low Paris Basketball 51% win probability | Projected score: 91-93 | Projected total: 184 | Pace: 78.2 | Model confidence: Low Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Nadir Hifi (18.5 PIR) – Elijah Bryant (21.6 PIR) Forward: Tj Warren (11.9 PIR) – Zach Leday (12.5 PIR) Center: Allan Dokossi (10.7 PIR) – Dan Oturu (14.8 PIR) Top scorer vs defense: Nadir Hifi (20.8 pts) vs a defense with DRtg 114.9 (9) · Elijah Bryant (14.5 pts) vs a defense with DRtg 120.1 (15) Rebounding battle: Paris Basketball OREB% 35.3% vs DREB% 68.2% Hapoel Tel Aviv · Hapoel Tel Aviv OREB% 28.2% vs DREB% 61.4% Paris Basketball Pace battle: Paris Basketball 77.5 – Hapoel Tel Aviv 75.9 · projected 78.2 Bench (PIR from reserves per game): Paris Basketball 63.2 – Hapoel Tel Aviv 34.2 Coaches: Maxime Lefevre – Dimitris Itoudis Players to watch Paris Basketball Hapoel Tel Aviv Projected PIR Nadir Hifi 15.6 PIR Jared Rhoden 10.1 PIR Allan Dokossi 9.5 PIR Tj Warren 9.3 PIR Mouhamed Faye 9.2 PIR Elijah Bryant 19.1 PIR Dan Oturu 13.6 PIR Zach Leday 11.5 PIR Vasilije Mic",
+   "favourite": "Paris Basketball",
+   "fav_pct": 51,
+   "home": "PRS",
+   "away": "HTA",
+   "fav_code": "PRS",
+   "date": "19 Nov",
    "time": "21:45",
    "score": [
-    84,
-    87
+    91,
+    93
+   ],
+   "player_proj": {
+    "Nadir Hifi": 15.6,
+    "Jared Rhoden": 10.1,
+    "Allan Dokossi": 9.5,
+    "Tj Warren": 9.3,
+    "Mouhamed Faye": 9.2,
+    "Elijah Bryant": 19.1,
+    "Dan Oturu": 13.6,
+    "Zach Leday": 11.5,
+    "Vasilije Micic": 9.7,
+    "Amir Coffey": 8.2
+   },
+   "coaches": [
+    "Maxime Lefevre",
+    "Dimitris Itoudis"
+   ],
+   "url": "https://basketballstats.eu/en/game/paris-hapoel-tel-aviv-13/"
+  },
+  "partizan-besiktas-13": {
+   "summary": "Preview Partizan vs Besiktas: the EuroLeague 2026-27 Round 13 game tips off Friday 20 November at 21:45 (Athens time) at Aleksandar Nikolic Hall. Partizan: 11th place, 6-5, form WLLWW. Besiktas: 13th place, 5-6, form LLWLW. Our model projects 86-80. Favourite: Partizan, with a 65% chance to win. Players to watch: Tonye Jekiri (11.1 points, 15.3 PIR) and Lonnie Walker Iv (13.8 points, 12.5 PIR). Absences: Partizan: Derek Willis, Kyle Allman, Ethan Thompson and Kevarrius Hayes · Besiktas: Berk Ugurlu and Jaylen Nowell. Matchup Center PAR Partizan 65% 35% Besiktas BES Projected score 86-80 Margin +5.5 Projected total 165.7 Pace 73.6 Model confidence Medium Partizan 65% win probability | Projected score: 86-80 | Projected total: 166 | Pace: 73.6 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Carlik Jones (15.2 PIR) – Lonnie Walker Iv (12.5 PIR) Forward: Lamar Stevens (12.1 PIR) – Anthony Brown (8.1 PIR) Center: Tonye Jekiri (15.3 PIR) – Ante Zizic (10.9 PIR) Top scorer vs defense: Carlik Jones (13.8 pts) vs a defense with DRtg 119.2 (13) · Lonnie Walker Iv (13.8 pts) vs a defense with DRtg 106.7 (4) Rebounding battle: Partizan OREB% 28.7% vs DREB% 67.3% Besiktas · Besiktas OREB% 29.3% vs DREB% 69.6% Partizan Pace battle: Partizan 72.0 – Besiktas 76.3 · projected 73.6 Bench (PIR from reserves per game): Partizan 34.7 – Besiktas 54.3 Coaches: Joan Penarroya – Dusan Alimpijevic Players to watch Partizan Besiktas Projected PIR Carlik Jones 12.9 PIR Nikola Tanaskovic 10.8 PIR Tonye Jekiri 9.6 PIR Luca Vildoza 8.7 PIR Robert Franks 8.2 PIR Eugene Omoruyi 11.5 PIR Scottie Wilbekin 10.7 PIR Lonnie Walker Iv 10.5 PIR David Dejulius 9.0 PIR Wenyen Gabriel 8.6 PIR S",
+   "favourite": "Partizan",
+   "fav_pct": 65,
+   "home": "PAR",
+   "away": "BES",
+   "fav_code": "PAR",
+   "date": "20 Nov",
+   "time": "21:45",
+   "score": [
+    86,
+    80
    ],
    "player_proj": {
     "Carlik Jones": 12.9,
@@ -767,63 +767,63 @@
     "Tonye Jekiri": 9.6,
     "Luca Vildoza": 8.7,
     "Robert Franks": 8.2,
+    "Eugene Omoruyi": 11.5,
+    "Scottie Wilbekin": 10.7,
+    "Lonnie Walker Iv": 10.5,
+    "David Dejulius": 9.0,
+    "Wenyen Gabriel": 8.6
+   },
+   "coaches": [
+    "Joan Penarroya",
+    "Dusan Alimpijevic"
+   ],
+   "url": "https://basketballstats.eu/en/game/partizan-besiktas-13/"
+  },
+  "valencia-virtus-bologna-13": {
+   "summary": "Preview Valencia Basket vs Virtus Bologna: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 22:00 (Athens time) at Roig Arena. Valencia Basket: 1st place, 8-3, form WWLWW. Virtus Bologna: 16th place, 4-7, form LLLLL. Our model projects 97-85. Favourite: Valencia Basket, with a 86% chance to win. Players to watch: Tj Shorts (16.6 points, 20.6 PIR) and Aliou Diarra (12.1 points, 18.5 PIR). Absences: Valencia Basket: Nathan Reuvers and Nikola Mirotic · Virtus Bologna: Tommaso Baldasso and Daniel Hackett. Matchup Center PAM Valencia Basket 86% 14% Virtus Bologna VIR Projected score 97-85 Margin +11.7 Projected total 182.4 Pace 77.5 Model confidence High Valencia Basket 86% win probability | Projected score: 97-85 | Projected total: 182 | Pace: 77.5 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Tj Shorts (20.6 PIR) – Wendell Moore (11.0 PIR) Forward: Nikola Mirotic (15.0 PIR) – Derrick Alston Jr. (9.5 PIR) Center: Neal Sako (10.3 PIR) – Aliou Diarra (18.5 PIR) Top scorer vs defense: Tj Shorts (16.6 pts) vs a defense with DRtg 119.3 (14) · Derrick Alston Jr. (13.0 pts) vs a defense with DRtg 114.2 (7) Rebounding battle: Valencia Basket OREB% 35.4% vs DREB% 64.4% Virtus Bologna · Virtus Bologna OREB% 35.5% vs DREB% 70.6% Valencia Basket Pace battle: Valencia Basket 77.0 – Virtus Bologna 76.1 · projected 77.5 Bench (PIR from reserves per game): Valencia Basket 65.6 – Virtus Bologna 50.4 Coaches: Xavier Albert – Alex Mumbru Players to watch Valencia Basket Virtus Bologna Projected PIR Tj Shorts 14.9 PIR Armoni Brooks 10.3 PIR Kameron Taylor 9.3 PIR Neal Sako 8.6 PIR Jasiel Rivero 8.3 PIR Aliou Diarra 14.5 PIR Wendell Moore 10.2 PIR Marcus Carr 10.1 PIR Trent Fra",
+   "favourite": "Valencia Basket",
+   "fav_pct": 86,
+   "home": "PAM",
+   "away": "VIR",
+   "fav_code": "PAM",
+   "date": "19 Nov",
+   "time": "22:00",
+   "score": [
+    97,
+    85
+   ],
+   "player_proj": {
     "Tj Shorts": 14.9,
     "Armoni Brooks": 10.3,
     "Kameron Taylor": 9.3,
     "Neal Sako": 8.6,
-    "Jasiel Rivero": 8.3
-   },
-   "coaches": [
-    "Joan Penarroya",
-    "Xavier Albert"
-   ],
-   "url": "https://basketballstats.eu/en/game/partizan-valencia-12/"
-  },
-  "virtus-bologna-panathinaikos-12": {
-   "summary": "Preview Virtus Bologna vs Panathinaikos: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 22:00 (Athens time) at Paladozza. Virtus Bologna: 16th place, 4-7, form LLLLL. Panathinaikos: 2nd place, 8-3, form WWLWL. Our model projects 84-88. Favourite: Panathinaikos, with a 68% chance to win. Players to watch: Aliou Diarra (12.1 points, 18.5 PIR) and Mathias Lessort (11.9 points, 19.5 PIR). Absences: Virtus Bologna: Tommaso Baldasso and Daniel Hackett · Panathinaikos: Panagiotis Kalaitzakis, Nikolaos Rogkavopoulos and Eleftherios Mantzoukas. Matchup Center VIR Virtus Bologna 32% 68% Panathinaikos PAN Projected score 84-88 Margin -3.9 Projected total 171.4 Pace 74.3 Model confidence Medium Panathinaikos 68% win probability | Projected score: 84-88 | Projected total: 171 | Pace: 74.3 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
-   "key_matchups": "Key matchups Guard: Wendell Moore (11.0 PIR) – Kendrick Nunn (18.8 PIR) Forward: Derrick Alston Jr. (9.5 PIR) – Nigel Hayes-Davis (10.6 PIR) Center: Aliou Diarra (18.5 PIR) – Mathias Lessort (19.5 PIR) Top scorer vs defense: Derrick Alston Jr. (13.0 pts) vs a defense with DRtg 105.6 (2) · Kendrick Nunn (20.0 pts) vs a defense with DRtg 119.3 (14) Rebounding battle: Virtus Bologna OREB% 35.5% vs DREB% 68.2% Panathinaikos · Panathinaikos OREB% 35.7% vs DREB% 64.4% Virtus Bologna Pace battle: Virtus Bologna 76.1 – Panathinaikos 73.5 · projected 74.3 Bench (PIR from reserves per game): Virtus Bologna 50.4 – Panathinaikos 97.6 Coaches: Alex Mumbru – Zeljko Obradovic Players to watch Virtus Bologna Panathinaikos Projected PIR Aliou Diarra 14.5 PIR Wendell Moore 10.2 PIR Marcus Carr 10.1 PIR Trent Frazier 9.4 PIR Derrick Alston Jr. 9.4 PIR Mathias Lessort 18.0 PIR Kendrick Nunn 15.2 PIR Sylvain",
-   "favourite": "Panathinaikos",
-   "fav_pct": 68,
-   "home": "VIR",
-   "away": "PAN",
-   "fav_code": "PAN",
-   "date": "17 Nov",
-   "time": "22:00",
-   "score": [
-    84,
-    88
-   ],
-   "player_proj": {
+    "Jasiel Rivero": 8.3,
     "Aliou Diarra": 14.5,
     "Wendell Moore": 10.2,
     "Marcus Carr": 10.1,
     "Trent Frazier": 9.4,
-    "Derrick Alston Jr.": 9.4,
-    "Mathias Lessort": 18.0,
-    "Kendrick Nunn": 15.2,
-    "Sylvain Francisco": 14.2,
-    "Nigel Hayes-Davis": 11.1,
-    "Guerschon Yabusele": 9.5
+    "Derrick Alston Jr.": 9.4
    },
    "coaches": [
-    "Alex Mumbru",
-    "Zeljko Obradovic"
+    "Xavier Albert",
+    "Alex Mumbru"
    ],
-   "url": "https://basketballstats.eu/en/game/virtus-bologna-panathinaikos-12/"
+   "url": "https://basketballstats.eu/en/game/valencia-virtus-bologna-13/"
   },
-  "zalgiris-bayern-munich-12": {
-   "summary": "Preview Zalgiris vs Bayern Munich: the EuroLeague 2026-27 Round 12 game tips off Tuesday 17 November at 20:00 (Athens time) at Zalgirio Arena. Zalgiris: 8th place, 7-4, form WWWWW. Bayern Munich: 18th place, 3-8, form LLLWL. Our model projects 92-81. Favourite: Zalgiris, with a 81% chance to win. Players to watch: Jonas Valanciunas (12.5 points, 21.2 PIR) and Johannes Thiemann (8.9 points, 11.7 PIR). Absences: Zalgiris: Nigel Williams-Goss and Maodo Lo · Bayern Munich: Tobias Jensen. Matchup Center ZAL Zalgiris 81% 19% Bayern Munich MUN Projected score 92-81 Margin +11.3 Projected total 172.5 Pace 75.3 Model confidence High Zalgiris 81% win probability | Projected score: 92-81 | Projected total: 173 | Pace: 75.3 | Model confidence: High Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
-   "key_matchups": "Key matchups Guard: Carsen Edwards (11.3 PIR) – Duane Washington (9.9 PIR) Forward: Azuolas Tubelis (16.1 PIR) – Vladimir Lucic (9.9 PIR) Center: Jonas Valanciunas (21.2 PIR) – Johannes Thiemann (11.7 PIR) Top scorer vs defense: Carsen Edwards (15.2 pts) vs a defense with DRtg 125.6 (20) · Duane Washington (15.0 pts) vs a defense with DRtg 109.4 (6) Rebounding battle: Zalgiris OREB% 36.1% vs DREB% 66.5% Bayern Munich · Bayern Munich OREB% 32.1% vs DREB% 73.3% Zalgiris Pace battle: Zalgiris 75.3 – Bayern Munich 75.8 · projected 75.3 Bench (PIR from reserves per game): Zalgiris 39.9 – Bayern Munich 56.1 Coaches: Tomas Masiulis – Anton Gavel Players to watch Zalgiris Bayern Munich Projected PIR Jonas Valanciunas 18.9 PIR Azuolas Tubelis 13.4 PIR Carsen Edwards 10.4 PIR Marius Grigonis 9.1 PIR Sterling Brown 9.0 PIR Vladimir Lucic 9.6 PIR Austin Wiley 9.2 PIR Rokas Jokubaitis 8.9 PIR Johanne",
+  "zalgiris-panathinaikos-13": {
+   "summary": "Preview Zalgiris vs Panathinaikos: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 20:00 (Athens time) at Zalgirio Arena. Zalgiris: 8th place, 7-4, form WWWWW. Panathinaikos: 2nd place, 8-3, form WWLWL. Our model projects 84-80. Favourite: Zalgiris, with a 59% chance to win. Players to watch: Jonas Valanciunas (12.5 points, 21.2 PIR) and Mathias Lessort (11.9 points, 19.5 PIR). Absences: Zalgiris: Nigel Williams-Goss and Maodo Lo · Panathinaikos: Panagiotis Kalaitzakis, Nikolaos Rogkavopoulos and Eleftherios Mantzoukas. Matchup Center ZAL Zalgiris 59% 41% Panathinaikos PAN Projected score 84-80 Margin +3.4 Projected total 163.9 Pace 73.4 Model confidence Medium Zalgiris 59% win probability | Projected score: 84-80 | Projected total: 164 | Pace: 73.4 | Model confidence: Medium Model mp-1.0 (lightgbm) · last updated 14 Nov, 16:08 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Carsen Edwards (11.3 PIR) – Kendrick Nunn (18.8 PIR) Forward: Azuolas Tubelis (16.1 PIR) – Nigel Hayes-Davis (10.6 PIR) Center: Jonas Valanciunas (21.2 PIR) – Mathias Lessort (19.5 PIR) Top scorer vs defense: Carsen Edwards (15.2 pts) vs a defense with DRtg 105.6 (2) · Kendrick Nunn (20.0 pts) vs a defense with DRtg 109.4 (6) Rebounding battle: Zalgiris OREB% 36.1% vs DREB% 68.2% Panathinaikos · Panathinaikos OREB% 35.7% vs DREB% 73.3% Zalgiris Pace battle: Zalgiris 75.3 – Panathinaikos 73.5 · projected 73.4 Bench (PIR from reserves per game): Zalgiris 39.9 – Panathinaikos 97.6 Coaches: Tomas Masiulis – Zeljko Obradovic Players to watch Zalgiris Panathinaikos Projected PIR Jonas Valanciunas 18.9 PIR Azuolas Tubelis 13.4 PIR Carsen Edwards 10.4 PIR Marius Grigonis 9.1 PIR Sterling Brown 9.0 PIR Mathias Lessort 18.0 PIR Kendrick Nunn 15.2 PIR Sylvain Francisco 14.2 PIR ",
    "favourite": "Zalgiris",
-   "fav_pct": 81,
+   "fav_pct": 59,
    "home": "ZAL",
-   "away": "MUN",
+   "away": "PAN",
    "fav_code": "ZAL",
-   "date": "17 Nov",
+   "date": "19 Nov",
    "time": "20:00",
    "score": [
-    92,
-    81
+    84,
+    80
    ],
    "player_proj": {
     "Jonas Valanciunas": 18.9,
@@ -831,17 +831,17 @@
     "Carsen Edwards": 10.4,
     "Marius Grigonis": 9.1,
     "Sterling Brown": 9.0,
-    "Vladimir Lucic": 9.6,
-    "Austin Wiley": 9.2,
-    "Rokas Jokubaitis": 8.9,
-    "Johannes Thiemann": 8.8,
-    "Duane Washington": 7.9
+    "Mathias Lessort": 18.0,
+    "Kendrick Nunn": 15.2,
+    "Sylvain Francisco": 14.2,
+    "Nigel Hayes-Davis": 11.1,
+    "Guerschon Yabusele": 9.5
    },
    "coaches": [
     "Tomas Masiulis",
-    "Anton Gavel"
+    "Zeljko Obradovic"
    ],
-   "url": "https://basketballstats.eu/en/game/zalgiris-bayern-munich-12/"
+   "url": "https://basketballstats.eu/en/game/zalgiris-panathinaikos-13/"
   }
  },
  "role_jumps": [
@@ -1229,7 +1229,7 @@
    "price_d5": 1.9,
    "price_d10": null,
    "price_official": 12.8,
-   "score": 27.71,
+   "score": 15.3,
    "fresh": true,
    "g5": [
     [
@@ -1894,7 +1894,7 @@
    "price_d5": null,
    "price_d10": null,
    "price_official": 14.8,
-   "score": 24.93,
+   "score": 13.9,
    "fresh": true,
    "g5": [
     [
@@ -2344,7 +2344,7 @@
    "price_d5": 0.1,
    "price_d10": null,
    "price_official": 9.3,
-   "score": 22.9,
+   "score": 12.0,
    "fresh": true,
    "g5": [
     [
@@ -3033,7 +3033,7 @@
    "price_d5": 1.7,
    "price_d10": null,
    "price_official": 5.9,
-   "score": 13.31,
+   "score": 8.3,
    "fresh": true,
    "g5": [
     [
@@ -3725,7 +3725,7 @@
    "price_d5": -1.0,
    "price_d10": null,
    "price_official": 18.9,
-   "score": 35.65,
+   "score": 21.5,
    "fresh": true,
    "g5": [
     [
@@ -4413,7 +4413,7 @@
    "price_d5": 2.1,
    "price_d10": null,
    "price_official": 9.8,
-   "score": 22.12,
+   "score": 13.6,
    "fresh": true,
    "g5": [
     [
@@ -5073,7 +5073,7 @@
    "price_d5": -1.3,
    "price_d10": null,
    "price_official": 4.7,
-   "score": 9.62,
+   "score": 5.6,
    "fresh": true,
    "g5": [
     [
@@ -5634,7 +5634,7 @@
    "price_d5": 2.7,
    "price_d10": null,
    "price_official": 4.2,
-   "score": 10.43,
+   "score": 5.9,
    "fresh": true,
    "g5": [
     [
@@ -6282,7 +6282,7 @@
    "price_d5": -1.4,
    "price_d10": null,
    "price_official": 10.8,
-   "score": 24.09,
+   "score": 13.7,
    "fresh": true,
    "g5": [
     [
@@ -6948,7 +6948,7 @@
    "price_d5": null,
    "price_d10": null,
    "price_official": 4.5,
-   "score": 14.63,
+   "score": 7.9,
    "fresh": true,
    "g5": [
     [

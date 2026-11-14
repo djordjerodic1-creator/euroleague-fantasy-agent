@@ -1,419 +1,75 @@
 {
  "target": 200.0,
  "current_best_lineup": {
-  "mean": 151.0,
-  "p90": 190.3,
-  "p10": 112.8,
-  "p_target": 0.054
+  "mean": 140.1,
+  "p90": 176.8,
+  "p10": 103.5,
+  "p_target": 0.018
  },
  "plans": [
   {
    "trades": [
     {
-     "out": "Collin Malcolm",
-     "out_price": 9.8,
-     "in": "Gabriele Procida",
-     "in_price": 4.5
-    },
-    {
      "out": "Kendrick Nunn",
      "out_price": 14.8,
-     "in": "Elijah Bryant",
-     "in_price": 17.7
-    },
-    {
-     "out": "Dejan Davidovac",
-     "out_price": 4.7,
-     "in": "Vanja Marinkovic",
-     "in_price": 4.1
-    },
-    {
-     "out": "Sebastian Herrera",
-     "out_price": 5.9,
-     "in": "Rj Cole",
-     "in_price": 8.9
-    }
-   ],
-   "coach": "ZAL",
-   "bank_after": 0.1,
-   "formation": "3-1-1",
-   "starters": [
-    "Elijah Bryant",
-    "Justin Robinson",
-    "Andres Feliz",
-    "Sasha Vezenkov",
-    "Aliou Diarra"
-   ],
-   "sixth": "Rj Cole",
-   "bench": [
-    "Gabriele Procida",
-    "Ousmane Diop",
-    "Vanja Marinkovic",
-    "Stefan Joksimovic"
-   ],
-   "captain": "Sasha Vezenkov",
-   "mean": 156.2,
-   "p90": 196.7,
-   "p10": 115.0,
-   "p_target": 0.083
-  },
-  {
-   "trades": [
-    {
-     "out": "Collin Malcolm",
-     "out_price": 9.8,
-     "in": "Gabriele Procida",
-     "in_price": 4.5
-    },
-    {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Elijah Bryant",
-     "in_price": 17.7
-    },
-    {
-     "out": "Stefan Joksimovic",
-     "out_price": 4.2,
-     "in": "Clement Frisch",
-     "in_price": 5.3
-    },
-    {
-     "out": "Sebastian Herrera",
-     "out_price": 5.9,
-     "in": "Marius Grigonis",
-     "in_price": 7.1
-    }
-   ],
-   "coach": "ZAL",
-   "bank_after": 0.2,
-   "formation": "2-2-1",
-   "starters": [
-    "Elijah Bryant",
-    "Justin Robinson",
-    "Sasha Vezenkov",
-    "Gabriele Procida",
-    "Aliou Diarra"
-   ],
-   "sixth": "Andres Feliz",
-   "bench": [
-    "Marius Grigonis",
-    "Ousmane Diop",
-    "Clement Frisch",
-    "Dejan Davidovac"
-   ],
-   "captain": "Sasha Vezenkov",
-   "mean": 155.1,
-   "p90": 195.8,
-   "p10": 114.7,
-   "p_target": 0.079
-  },
-  {
-   "trades": [
-    {
-     "out": "Collin Malcolm",
-     "out_price": 9.8,
-     "in": "Gabriele Procida",
-     "in_price": 4.5
-    },
-    {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Elijah Bryant",
-     "in_price": 17.7
-    },
-    {
-     "out": "Dejan Davidovac",
-     "out_price": 4.7,
-     "in": "Clement Frisch",
-     "in_price": 5.3
-    },
-    {
-     "out": "Sebastian Herrera",
-     "out_price": 5.9,
-     "in": "Tyson Carter",
-     "in_price": 7.4
-    }
-   ],
-   "coach": "ZAL",
-   "bank_after": 0.4,
-   "formation": "2-2-1",
-   "starters": [
-    "Elijah Bryant",
-    "Justin Robinson",
-    "Sasha Vezenkov",
-    "Gabriele Procida",
-    "Aliou Diarra"
-   ],
-   "sixth": "Andres Feliz",
-   "bench": [
-    "Tyson Carter",
-    "Ousmane Diop",
-    "Clement Frisch",
-    "Stefan Joksimovic"
-   ],
-   "captain": "Sasha Vezenkov",
-   "mean": 155.5,
-   "p90": 195.5,
-   "p10": 116.0,
-   "p_target": 0.077
-  },
-  {
-   "trades": [
-    {
-     "out": "Collin Malcolm",
-     "out_price": 9.8,
-     "in": "Gabriele Procida",
-     "in_price": 4.5
-    },
-    {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Elijah Bryant",
-     "in_price": 17.7
-    },
-    {
-     "out": "Dejan Davidovac",
-     "out_price": 4.7,
-     "in": "Clement Frisch",
-     "in_price": 5.3
-    },
-    {
-     "out": "Sebastian Herrera",
-     "out_price": 5.9,
-     "in": "Marius Grigonis",
-     "in_price": 7.1
-    }
-   ],
-   "coach": "ZAL",
-   "bank_after": 0.7,
-   "formation": "2-2-1",
-   "starters": [
-    "Elijah Bryant",
-    "Justin Robinson",
-    "Sasha Vezenkov",
-    "Gabriele Procida",
-    "Aliou Diarra"
-   ],
-   "sixth": "Andres Feliz",
-   "bench": [
-    "Marius Grigonis",
-    "Ousmane Diop",
-    "Clement Frisch",
-    "Stefan Joksimovic"
-   ],
-   "captain": "Sasha Vezenkov",
-   "mean": 155.3,
-   "p90": 196.4,
-   "p10": 115.0,
-   "p_target": 0.077
-  },
-  {
-   "trades": [
-    {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Scottie Wilbekin",
-     "in_price": 8.6
-    },
-    {
-     "out": "Aliou Diarra",
-     "out_price": 10.8,
-     "in": "Jonas Valanciunas",
-     "in_price": 16.9
-    },
-    {
-     "out": "Dejan Davidovac",
-     "out_price": 4.7,
-     "in": "Gabriele Procida",
-     "in_price": 4.5
-    },
-    {
-     "out": "Scottie Wilbekin",
-     "out_price": 8.6,
-     "in": "Rj Cole",
-     "in_price": 8.9
-    }
-   ],
-   "coach": "ZAL",
-   "bank_after": 0.1,
-   "formation": "2-2-1",
-   "starters": [
-    "Justin Robinson",
-    "Andres Feliz",
-    "Sasha Vezenkov",
-    "Collin Malcolm",
-    "Jonas Valanciunas"
-   ],
-   "sixth": "Rj Cole",
-   "bench": [
-    "Gabriele Procida",
-    "Ousmane Diop",
-    "Sebastian Herrera",
-    "Stefan Joksimovic"
-   ],
-   "captain": "Sasha Vezenkov",
-   "mean": 153.9,
-   "p90": 195.6,
-   "p10": 112.6,
-   "p_target": 0.077
-  },
-  {
-   "trades": [
-    {
-     "out": "Collin Malcolm",
-     "out_price": 9.8,
-     "in": "Gabriele Procida",
-     "in_price": 4.5
-    },
-    {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Elijah Bryant",
-     "in_price": 17.7
-    },
-    {
-     "out": "Dejan Davidovac",
-     "out_price": 4.7,
-     "in": "Clement Frisch",
-     "in_price": 5.3
-    },
-    {
-     "out": "Stefan Joksimovic",
-     "out_price": 4.2,
-     "in": "Alberto Abalde",
-     "in_price": 6.1
-    }
-   ],
-   "coach": "ZAL",
-   "bank_after": 0.0,
-   "formation": "2-2-1",
-   "starters": [
-    "Elijah Bryant",
-    "Justin Robinson",
-    "Sasha Vezenkov",
-    "Gabriele Procida",
-    "Aliou Diarra"
-   ],
-   "sixth": "Andres Feliz",
-   "bench": [
-    "Ousmane Diop",
-    "Clement Frisch",
-    "Alberto Abalde",
-    "Sebastian Herrera"
-   ],
-   "captain": "Sasha Vezenkov",
-   "mean": 155.2,
-   "p90": 195.9,
-   "p10": 115.1,
-   "p_target": 0.076
-  },
-  {
-   "trades": [
-    {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Rj Cole",
-     "in_price": 8.9
-    },
-    {
-     "out": "Collin Malcolm",
-     "out_price": 9.8,
-     "in": "Dwayne Bacon",
-     "in_price": 14.6
-    },
-    {
-     "out": "Dejan Davidovac",
-     "out_price": 4.7,
-     "in": "Gabriele Procida",
-     "in_price": 4.5
-    },
-    {
-     "out": "Sebastian Herrera",
-     "out_price": 5.9,
-     "in": "Marius Grigonis",
-     "in_price": 7.1
-    }
-   ],
-   "coach": "ZAL",
-   "bank_after": 0.2,
-   "formation": "2-2-1",
-   "starters": [
-    "Justin Robinson",
-    "Andres Feliz",
-    "Sasha Vezenkov",
-    "Dwayne Bacon",
-    "Aliou Diarra"
-   ],
-   "sixth": "Rj Cole",
-   "bench": [
-    "Gabriele Procida",
-    "Marius Grigonis",
-    "Ousmane Diop",
-    "Stefan Joksimovic"
-   ],
-   "captain": "Sasha Vezenkov",
-   "mean": 153.9,
-   "p90": 194.2,
-   "p10": 112.9,
-   "p_target": 0.075
-  },
-  {
-   "trades": [
-    {
-     "out": "Collin Malcolm",
-     "out_price": 9.8,
-     "in": "Gabriele Procida",
-     "in_price": 4.5
-    },
-    {
-     "out": "Sebastian Herrera",
-     "out_price": 5.9,
      "in": "Cameron Payne",
      "in_price": 10.2
     },
     {
-     "out": "Dejan Davidovac",
-     "out_price": 4.7,
-     "in": "Clement Frisch",
-     "in_price": 5.3
+     "out": "Coach ZAL",
+     "out_price": 7.3,
+     "in": "Coach PAM",
+     "in_price": 8.0
     },
     {
-     "out": "Stefan Joksimovic",
-     "out_price": 4.2,
-     "in": "Vanja Marinkovic",
-     "in_price": 4.1
+     "out": "Dejan Davidovac",
+     "out_price": 4.7,
+     "in": "Tyson Ward",
+     "in_price": 8.1
+    },
+    {
+     "out": "Andres Feliz",
+     "out_price": 9.3,
+     "in": "Jordan Loyd",
+     "in_price": 9.4
     }
    ],
-   "coach": "ZAL",
-   "bank_after": 0.6,
-   "formation": "3-1-1",
+   "coach": "PAM",
+   "bank_after": 0.5,
+   "formation": "2-2-1",
    "starters": [
     "Justin Robinson",
-    "Kendrick Nunn",
-    "Andres Feliz",
+    "Cameron Payne",
     "Sasha Vezenkov",
+    "Collin Malcolm",
     "Aliou Diarra"
    ],
-   "sixth": "Cameron Payne",
+   "sixth": "Jordan Loyd",
    "bench": [
-    "Gabriele Procida",
+    "Tyson Ward",
+    "Sebastian Herrera",
     "Ousmane Diop",
-    "Clement Frisch",
-    "Vanja Marinkovic"
+    "Stefan Joksimovic"
    ],
    "captain": "Sasha Vezenkov",
-   "mean": 154.4,
-   "p90": 194.7,
-   "p10": 114.2,
-   "p_target": 0.074
+   "mean": 149.4,
+   "p90": 189.4,
+   "p10": 109.3,
+   "p_target": 0.053
   },
   {
    "trades": [
     {
      "out": "Dejan Davidovac",
      "out_price": 4.7,
-     "in": "Gabriele Procida",
-     "in_price": 4.5
+     "in": "Vanja Marinkovic",
+     "in_price": 4.1
+    },
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.3,
+     "in": "Coach PAM",
+     "in_price": 8.0
     },
     {
      "out": "Kendrick Nunn",
@@ -422,20 +78,14 @@
      "in_price": 13.5
     },
     {
-     "out": "Sebastian Herrera",
-     "out_price": 5.9,
-     "in": "Tyson Carter",
-     "in_price": 7.4
-    },
-    {
-     "out": "Stefan Joksimovic",
-     "out_price": 4.2,
-     "in": "Vanja Marinkovic",
-     "in_price": 4.1
+     "out": "Andres Feliz",
+     "out_price": 9.3,
+     "in": "Cameron Payne",
+     "in_price": 10.2
     }
    ],
-   "coach": "ZAL",
-   "bank_after": 0.2,
+   "coach": "PAM",
+   "bank_after": 0.4,
    "formation": "2-2-1",
    "starters": [
     "Justin Robinson",
@@ -444,27 +94,21 @@
     "Collin Malcolm",
     "Aliou Diarra"
    ],
-   "sixth": "Andres Feliz",
+   "sixth": "Cameron Payne",
    "bench": [
-    "Gabriele Procida",
-    "Tyson Carter",
+    "Sebastian Herrera",
     "Ousmane Diop",
-    "Vanja Marinkovic"
+    "Vanja Marinkovic",
+    "Stefan Joksimovic"
    ],
    "captain": "Sasha Vezenkov",
-   "mean": 154.2,
-   "p90": 195.0,
-   "p10": 114.3,
-   "p_target": 0.073
+   "mean": 149.8,
+   "p90": 188.5,
+   "p10": 111.0,
+   "p_target": 0.051
   },
   {
    "trades": [
-    {
-     "out": "Dejan Davidovac",
-     "out_price": 4.7,
-     "in": "Gabriele Procida",
-     "in_price": 4.5
-    },
     {
      "out": "Kendrick Nunn",
      "out_price": 14.8,
@@ -472,40 +116,396 @@
      "in_price": 12.3
     },
     {
-     "out": "Stefan Joksimovic",
-     "out_price": 4.2,
-     "in": "Clement Frisch",
-     "in_price": 5.3
+     "out": "Coach ZAL",
+     "out_price": 7.3,
+     "in": "Coach PAM",
+     "in_price": 8.0
     },
     {
-     "out": "Sebastian Herrera",
-     "out_price": 5.9,
-     "in": "Tyson Carter",
-     "in_price": 7.4
+     "out": "Andres Feliz",
+     "out_price": 9.3,
+     "in": "Cameron Payne",
+     "in_price": 10.2
+    },
+    {
+     "out": "Dejan Davidovac",
+     "out_price": 4.7,
+     "in": "Clement Frisch",
+     "in_price": 5.3
     }
    ],
-   "coach": "ZAL",
-   "bank_after": 0.2,
+   "coach": "PAM",
+   "bank_after": 0.4,
    "formation": "2-2-1",
    "starters": [
     "Justin Robinson",
-    "Andres Feliz",
+    "Talen Horton Tucker",
     "Sasha Vezenkov",
     "Collin Malcolm",
     "Aliou Diarra"
    ],
-   "sixth": "Talen Horton Tucker",
+   "sixth": "Cameron Payne",
    "bench": [
-    "Gabriele Procida",
-    "Tyson Carter",
+    "Sebastian Herrera",
+    "Clement Frisch",
     "Ousmane Diop",
-    "Clement Frisch"
+    "Stefan Joksimovic"
    ],
    "captain": "Sasha Vezenkov",
-   "mean": 153.9,
-   "p90": 194.7,
-   "p10": 114.0,
-   "p_target": 0.073
+   "mean": 149.4,
+   "p90": 188.2,
+   "p10": 110.5,
+   "p_target": 0.048
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Wade Baldwin Iv",
+     "in_price": 13.5
+    },
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.3,
+     "in": "Coach PAM",
+     "in_price": 8.0
+    },
+    {
+     "out": "Dejan Davidovac",
+     "out_price": 4.7,
+     "in": "Gabriele Procida",
+     "in_price": 4.5
+    },
+    {
+     "out": "Andres Feliz",
+     "out_price": 9.3,
+     "in": "Cameron Payne",
+     "in_price": 10.2
+    }
+   ],
+   "coach": "PAM",
+   "bank_after": 0.0,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Wade Baldwin Iv",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Cameron Payne",
+   "bench": [
+    "Sebastian Herrera",
+    "Ousmane Diop",
+    "Gabriele Procida",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 150.1,
+   "p90": 188.2,
+   "p10": 112.0,
+   "p_target": 0.047
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Cameron Payne",
+     "in_price": 10.2
+    },
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.3,
+     "in": "Coach PAM",
+     "in_price": 8.0
+    },
+    {
+     "out": "Justin Robinson",
+     "out_price": 12.8,
+     "in": "Tj Shorts",
+     "in_price": 16.8
+    },
+    {
+     "out": "Dejan Davidovac",
+     "out_price": 4.7,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.1
+    }
+   ],
+   "coach": "PAM",
+   "bank_after": 0.6,
+   "formation": "2-2-1",
+   "starters": [
+    "Tj Shorts",
+    "Cameron Payne",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Sebastian Herrera",
+    "Ousmane Diop",
+    "Vanja Marinkovic",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 149.0,
+   "p90": 187.8,
+   "p10": 108.8,
+   "p_target": 0.047
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Cameron Payne",
+     "in_price": 10.2
+    },
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.3,
+     "in": "Coach PAM",
+     "in_price": 8.0
+    },
+    {
+     "out": "Justin Robinson",
+     "out_price": 12.8,
+     "in": "Tj Shorts",
+     "in_price": 16.8
+    },
+    {
+     "out": "Stefan Joksimovic",
+     "out_price": 4.2,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.1
+    }
+   ],
+   "coach": "PAM",
+   "bank_after": 0.1,
+   "formation": "2-2-1",
+   "starters": [
+    "Tj Shorts",
+    "Cameron Payne",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Sebastian Herrera",
+    "Ousmane Diop",
+    "Vanja Marinkovic",
+    "Dejan Davidovac"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 148.9,
+   "p90": 187.5,
+   "p10": 108.6,
+   "p_target": 0.047
+  },
+  {
+   "trades": [
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.3,
+     "in": "Coach MUN",
+     "in_price": 4.2
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Elijah Bryant",
+     "in_price": 17.7
+    },
+    {
+     "out": "Dejan Davidovac",
+     "out_price": 4.7,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.1
+    },
+    {
+     "out": "Andres Feliz",
+     "out_price": 9.3,
+     "in": "Cameron Payne",
+     "in_price": 10.2
+    }
+   ],
+   "coach": "MUN",
+   "bank_after": 0.0,
+   "formation": "2-2-1",
+   "starters": [
+    "Elijah Bryant",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Cameron Payne",
+   "bench": [
+    "Sebastian Herrera",
+    "Ousmane Diop",
+    "Vanja Marinkovic",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 148.0,
+   "p90": 188.1,
+   "p10": 108.1,
+   "p_target": 0.047
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Cameron Payne",
+     "in_price": 10.2
+    },
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.3,
+     "in": "Coach PAM",
+     "in_price": 8.0
+    },
+    {
+     "out": "Justin Robinson",
+     "out_price": 12.8,
+     "in": "Tj Shorts",
+     "in_price": 16.8
+    },
+    {
+     "out": "Dejan Davidovac",
+     "out_price": 4.7,
+     "in": "Gabriele Procida",
+     "in_price": 4.5
+    }
+   ],
+   "coach": "PAM",
+   "bank_after": 0.2,
+   "formation": "2-2-1",
+   "starters": [
+    "Tj Shorts",
+    "Cameron Payne",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Sebastian Herrera",
+    "Ousmane Diop",
+    "Gabriele Procida",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 149.3,
+   "p90": 187.7,
+   "p10": 109.6,
+   "p_target": 0.046
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Cameron Payne",
+     "in_price": 10.2
+    },
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.3,
+     "in": "Coach PAM",
+     "in_price": 8.0
+    },
+    {
+     "out": "Dejan Davidovac",
+     "out_price": 4.7,
+     "in": "Tyson Ward",
+     "in_price": 8.1
+    },
+    {
+     "out": "Stefan Joksimovic",
+     "out_price": 4.2,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.1
+    }
+   ],
+   "coach": "PAM",
+   "bank_after": 0.7,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Cameron Payne",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Tyson Ward",
+    "Sebastian Herrera",
+    "Ousmane Diop",
+    "Vanja Marinkovic"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 149.8,
+   "p90": 187.1,
+   "p10": 111.8,
+   "p_target": 0.044
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Cameron Payne",
+     "in_price": 10.2
+    },
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.3,
+     "in": "Coach PAM",
+     "in_price": 8.0
+    },
+    {
+     "out": "Dejan Davidovac",
+     "out_price": 4.7,
+     "in": "Tyson Ward",
+     "in_price": 8.1
+    },
+    {
+     "out": "Stefan Joksimovic",
+     "out_price": 4.2,
+     "in": "Gabriele Procida",
+     "in_price": 4.5
+    }
+   ],
+   "coach": "PAM",
+   "bank_after": 0.3,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Cameron Payne",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Tyson Ward",
+    "Sebastian Herrera",
+    "Ousmane Diop",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 150.1,
+   "p90": 187.1,
+   "p10": 112.6,
+   "p_target": 0.043
   }
  ]
 }
