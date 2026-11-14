@@ -6,7 +6,7 @@
   "bank": 0.5
  },
  "window": "R12+R13 double week (4 trades each) · unlimited trades before R14 (21–24 Nov)",
- "bottom_line": "Sell Madar (broken nose, doubtful for Tuesday) for Justin Robinson, who runs Barcelona while Punter is out. Fund it by swapping Faye for Diop and Davidovac for Procida, and take Zalgiris as coach. Variation A gives about a 9% chance (1 in 11) of 200+, against about 2% for your current squad even with its best lineup.",
+ "bottom_line": "Sell Madar (broken nose, doubtful for Tuesday) for Justin Robinson, who runs Barcelona while Punter is out. Fund it by swapping Faye for Diop and Brizuela for Cory Joseph, and take Zalgiris as coach. Variation A gives about an 8% chance (1 in 12) of 200+, against about 2% for your current squad even with its best lineup.",
  "current_fix": "With no trades: start Nunn, Diarra and Malcolm with Vezenkov (captain) and Feliz as 6th man; bench Madar (doubtful), Davidovac and Joksimović.",
  "variations": [
   {
@@ -30,10 +30,10 @@
      "why": "Frees 3.3 credits for Robinson. Diop starts at home vs Zvezda and closed out Trento in the league; Faye is a 17-minute backup who sat out Paris' last league game. [dom: LBA 8 Nov vs Trento, 8–9 pts 9 reb (5 off.), realolimpiamilano.com / pianetabasket.com]"
     },
     {
-     "out": "Dejan Davidovac (4.7)",
-     "in": "Gabriele Procida (4.5)",
-     "credits": "+0.2",
-     "why": "Davidovac plays 13 minutes behind a deep Zvezda wing group. Procida has 13 PIR per game over his last 3, with Deck, Jantunen, Campazzo and Maledon all out at Madrid. [dom: unverified after 2 searches]"
+     "out": "Dario Brizuela (6.3)",
+     "in": "Cory Joseph (5.5)",
+     "credits": "+0.8",
+     "why": "Changed after you found the app 0.1 short: this frees 0.6 more than Davidovac → Procida did. Brizuela had 0 PIR in R11; Joseph gets steady backup point-guard minutes at Olympiacos with Montero out (he loses some to Dorsey). [dom: unverified after 2 searches]"
     },
     {
      "out": "Coach Penarroya (PAR) (6.2)",
@@ -42,7 +42,7 @@
      "why": "Zalgiris are on a five-game winning streak and 79–80% favourites at home to 3-8 Bayern, with a +11 projected margin: the best shot at the +20 bracket. Partizan are underdogs to Valencia."
     }
    ],
-   "bank_after": 0.6,
+   "bank_after": 1.2,
    "formation": "2-2-1",
    "starters": [
     "Justin Robinson",
@@ -53,8 +53,8 @@
    ],
    "sixth": "Andres Feliz",
    "bench": [
-    "Dario Brizuela",
-    "Gabriele Procida",
+    "Cory Joseph",
+    "Dejan Davidovac",
     "Stefan Joksimovic",
     "Ousmane Diop"
    ],
@@ -67,11 +67,11 @@
     "Faye → Diop is the chain that pays for Robinson. Diop starts a winnable home game; Faye was a bench center in a likely Paris loss at the Palau.",
     "Nunn and Diarra play each other (PAN at VIR). That correlation costs a little, but both are top-3 scorers in your squad and benching either costs more.",
     "Feliz is 6th man and plays Wednesday, so he's full points and your late swap option if Tuesday news breaks.",
-    "Bank 0.6 is a buffer: prices after R11 aren't published yet, and Robinson and Procida are both rising."
+    "Bank: 1.2 on the old price list, about 0.5 in the app (the app's new prices are about 0.7 higher for these trades). The earlier Davidovac → Procida version left the app 0.1 short."
    ],
    "cancel_if": [
     "Madar is cleared without a mask on Monday: still sell him (Baldwin's arrival, 3-8 team), the plan stands.",
-    "In-app check: if the bank after these 4 trades is below 0.0 (Robinson's price rose after his R11 game-winner at Panathinaikos), use Madar → Cameron Payne (IST) instead and keep the other three trades.",
+    "If the app still shows a negative bank: use Davidovac → Vanja Marinkovic (PAR, 4.1) as well (another +0.6), or as a last resort Madar → Cameron Payne (IST) instead of Robinson.",
     "Diop listed out on Monday's report: keep Faye and switch to Variation B's guard moves (Madar → Cameron Payne, Brizuela → Cory Joseph) so the money still works."
    ]
   },
@@ -204,6 +204,10 @@
   }
  ],
  "alerts": [
+  {
+   "level": "high",
+   "text": "Update: the app showed −0.1 for the original Variation A. Trade 3 is now Brizuela → Cory Joseph instead of Davidovac → Procida. That frees 0.6 more (about +0.5 bank in the app) and cuts the chance of 200+ only from 8.7% to 8.2%."
+  },
   {
    "level": "high",
    "text": "Re-run after your update: squad unchanged, total budget 105.5. Your bank stays 0.5 (no trades since the screenshot), so your squad's in-game value rose 1.7 after R11 (official 103.3 → 105.0). The site still hasn't published R12 prices, so every price in this report is the pre-R11-change price. Before you trade, check two in-app numbers: Justin Robinson's price, and the bank after A's four trades. If it's 0.0 or more, go ahead. If it's negative, use A's second cancel trigger (Madar → Cameron Payne)."
