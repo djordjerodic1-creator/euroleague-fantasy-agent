@@ -24,8 +24,8 @@
     "sixth": "Andres Feliz",
     "bench": [
       "Sebastian Herrera",
-      "Dejan Davidovac",
       "Stefan Joksimovic",
+      "Dejan Davidovac",
       "Ousmane Diop"
     ]
   },
@@ -40,6 +40,20 @@
     "updated": "2026-11-14",
     "last_applied_report": "2026-11-14"
   },
-  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. R12 trades done 14 Nov (user): Madar->Robinson, Faye->Diop, Brizuela->Sebastian Herrera, coach Partizan->Zalgiris; bank 0.1 in app (confirmed by user). Total budget unchanged at 105.5 (trades swap value, they do not add it).",
-  "target_points": 200
+  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. R12 trades done 14 Nov (user): Madar->Robinson, Faye->Diop, Brizuela->Sebastian Herrera, coach Partizan->Zalgiris; bank 0.1 in app (confirmed by user). Total budget unchanged at 105.5 (trades swap value, they do not add it). Screenshot 14 Nov confirms squad, captain Vezenkov, coach Masiulis, 0.1/105.5. App had Herrera as 6th man; advised swapping Feliz to 6th.",
+  "target_points": 200,
+  "app_prices": {
+    "_note": "In-app prices from the user's screenshot, 14 Nov (after R11 price changes; the site hadn't published them yet).",
+    "Aliou Diarra": 10.8,
+    "Collin Malcolm": 10.3,
+    "Sasha Vezenkov": 19.2,
+    "Justin Robinson": 13.1,
+    "Kendrick Nunn": 14.9,
+    "Sebastian Herrera": 6.3,
+    "Stefan Joksimovic": 4.1,
+    "Andres Feliz": 9.7,
+    "Dejan Davidovac": 4.8,
+    "Ousmane Diop": 4.8,
+    "Coach Masiulis (ZAL)": 7.4
+  }
 }
