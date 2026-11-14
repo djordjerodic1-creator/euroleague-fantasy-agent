@@ -33,13 +33,13 @@
   "coach": "Partizan",
   "bank": 0.5,
   "bank_known": true,
-  "total_budget": 103.8,
+  "total_budget": 105.5,
   "trades_left_this_round": 4,
   "tracking": {
-    "source": "user screenshot",
-    "updated": "2026-11-12",
+    "source": "user",
+    "updated": "2026-11-14",
     "last_applied_report": null
   },
-  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. Bank confirmed: total budget 103.8.",
+  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. User confirmed 14 Nov: squad unchanged, total budget 105.5 (bank 0.5, squad value 105.0).",
   "target_points": 200
 }
