@@ -24,3 +24,12 @@ Run manually: `python collect.py`, write `reports/<date>.json`, then `python ren
 - **With a screenshot** (desktop app): type `/team` and paste a screenshot of your Fantasy team, or write changes in plain words. It updates `my_team.json`, pushes, and offers a fresh run. The screenshot is never committed.
 - **From your phone**: edit `inbox/team.md` on github.com (e.g. `sold Nunn, bought Carlik Jones, bank 1.3`) and commit. The next run applies it before analysing, then clears the inbox.
 - The **bank** is the number that matters: team value is recomputed from current prices automatically.
+
+## My team on the page (Firebase)
+- Anyone can tap **👤 My team** on the report page, sign in with Google and save their squad. The Schedule tab and
+  player cards then mark *their* players, on any device. Visitors who aren't signed in see the report team.
+- Teams live in Firestore (`teams/<user id>`). `firestore.rules` lets each person write only their own team;
+  nobody can list everyone's teams.
+- `firebase-web.json` holds the public web config and `owner_uid`. The collector copies the owner's saved team
+  into `my_team.json` at the start of each run, so saving on the page is all it takes to update the analyst.
+- The AI advice (variations, trades, captain) is still written for the owner's team only.

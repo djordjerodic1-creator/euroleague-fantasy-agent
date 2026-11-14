@@ -1,0 +1,5 @@
+{
+  "_note": "Firebase web config: public by design (security comes from firestore.rules). owner_uid = the user id whose saved team the analyst uses.",
+  "config": {},
+  "owner_uid": ""
+}

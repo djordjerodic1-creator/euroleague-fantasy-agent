@@ -297,17 +297,31 @@ def load_schedule(date):
     return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {"games": [], "standings": []}
 
 
-def page_data(D, sched, team, names, a_in):
-    """JSON blobs the page's popups read: players shown on the page, all teams, the user's squad."""
+def leg_rounds(D):
+    cal = D.digest.get("calendar", {})
+    tr = D.target
+    leg = [tr] + ([tr + 1] if (cal.get(str(tr)) or {}).get("double_week") and str(tr + 1) in cal else [])
+    return leg, [leg[-1] + 1, leg[-1] + 2]
+
+
+def load_firebase():
+    f = ROOT / "firebase-web.json"
+    try:
+        c = json.loads(f.read_text(encoding="utf-8"))
+        return {"config": c.get("config") or {}, "owner": c.get("owner_uid") or ""}
+    except Exception:
+        return {"config": {}, "owner": ""}
+
+
+def page_data(D, sched, team, names, rv):
+    """JSON blobs the page reads: players shown on the page (full stats), every player (light list for chips and the
+    team editor), all teams with their schedule, the report's squad and plan, and the Firebase web config."""
     P = {}
     for n in names:
         p = D.player(n)
-        if p.get("missing") or not slug_of(p):
-            continue
-        keys = ("name", "t", "pos", "price", "owned", "status", "l3", "l5", "l10", "m3", "m10", "p10", "p90",
-                "since_start", "proj_price_change", "price_d3", "sig", "nx", "nxe", "bio", "pirpm", "start", "proj")
-        P[slug_of(p)] = {k: p.get(k) for k in keys if p.get(k) is not None}
-        P[slug_of(p)]["gl"] = p.get("gl") or []
+        if not p.get("missing") and slug_of(p):
+            P[slug_of(p)] = player_blob(D, p)
+    PL = {slug_of(p): [p["name"], p.get("t"), p.get("pos"), p.get("price")] for p in D.pool if slug_of(p) and p.get("t")}
     stand = {r[1]: r for r in sched.get("standings", [])}
     T = {}
     for code, (short, full, c1, c2) in TEAM.items():
@@ -322,64 +336,58 @@ def page_data(D, sched, team, names, a_in):
                        (g["pw"] if home else round(1 - g["pw"], 2)) if g.get("pw") is not None else None,
                        (g["proj"] if home else g["proj"][::-1]) if g.get("proj") else None])
         T[code] = {"n": full, "s": short, "c1": c1, "coach": COACHES.get(code), "st": stand.get(code), "g": gs}
-    my = [slug_of(D.player(n)) for n in team.get("players", []) if not D.player(n).get("missing")]
-    M = {"players": my, "coach": coach_code_of(team.get("coach", "")),
-         "cap": slug_of(D.player(team.get("captain", ""))) if team.get("captain") else None,
-         "a_in": [slug_of(p) for p in a_in if not p.get("missing")], "target": D.target}
+    sl = lambda n: slug_of(D.player(n)) if n and not D.player(n).get("missing") else None
+    lu = team.get("lineup") or {}
+    leg, later = leg_rounds(D)
+    trades = rv.get("trades", [])
+    M = {"name": "Report team", "players": [s for s in (sl(n) for n in team.get("players", [])) if s],
+         "starters": [s for s in (sl(n) for n in lu.get("starters", [])) if s], "sixth": sl(lu.get("sixth")),
+         "bench": [s for s in (sl(n) for n in lu.get("bench", [])) if s],
+         "cap": sl(team.get("captain")), "coach": coach_code_of(team.get("coach", "")) if team.get("coach") else None,
+         "bank": team.get("bank"), "target_pts": team.get("target_points", 200),
+         "a_in": [s for s in (sl(split_name(t["in"])[0]) for t in trades if not t["in"].strip().startswith("Coach")) if s],
+         "a_out": [s for s in (sl(split_name(t["out"])[0]) for t in trades if not t["out"].strip().startswith("Coach")) if s],
+         "a_coach": coach_code_of(rv.get("coach", "")) if rv.get("coach") else None,
+         "target": D.target, "leg": leg, "later": later}
+    FB = load_firebase()
 
     def dump(o):
         return json.dumps(o, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-    return (f'<script type="application/json" id="dP">{dump(P)}</script>'
-            f'<script type="application/json" id="dT">{dump(T)}</script>'
-            f'<script type="application/json" id="dM">{dump(M)}</script>')
+    return "".join(f'<script type="application/json" id="{k}">{dump(v)}</script>'
+                   for k, v in (("dP", P), ("dPL", PL), ("dT", T), ("dM", M), ("dFB", FB)))
 
 
-def sched_tab(D, sched, team, rv):
+def player_blob(D, p):
+    keys = ("name", "t", "pos", "price", "owned", "status", "l3", "l5", "l10", "m3", "m10", "p10", "p90",
+            "since_start", "proj_price_change", "price_d3", "sig", "nx", "nxe", "bio", "pirpm", "start", "proj")
+    out = {k: p.get(k) for k in keys if p.get(k) is not None}
+    out["gl"] = p.get("gl") or []
+    return out
+
+
+def write_players_file(D):
+    """Full stats for every player, loaded by the page only when someone opens a player it doesn't embed."""
+    allp = {}
+    for p in D.pool:
+        if slug_of(p) and p.get("t"):
+            allp[slug_of(p)] = player_blob(D, D.player(p["name"]))
+    out = ROOT / "site" / "players.json"
+    out.parent.mkdir(exist_ok=True)
+    out.write_text(json.dumps(allp, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+
+def sched_tab(D, sched):
+    """Static schedule; the page's script marks the active team's players on it."""
     cal = D.digest.get("calendar", {})
-    tr = D.target
-    leg = [tr] + ([tr + 1] if (cal.get(str(tr)) or {}).get("double_week") and str(tr + 1) in cal else [])
-    later = [leg[-1] + 1, leg[-1] + 2]
-    squad = [D.player(n) for n in team.get("players", [])]
-    mine = {}
-    for p in squad:
-        mine.setdefault(p.get("t"), []).append(p)
-    coach = coach_code_of(team.get("coach", "")) if team.get("coach") else None
-    cap = norm(team.get("captain", ""))
-    a_in = [D.player(split_name(t["in"])[0]) for t in rv.get("trades", []) if not t["in"].strip().startswith("Coach")]
-    a_out = {norm(split_name(t["out"])[0]) for t in rv.get("trades", []) if not t["out"].strip().startswith("Coach")}
-    a_coach = coach_code_of(rv.get("coach", "")) if rv.get("coach") else None
-    plan_in = {}
-    for p in a_in:
-        plan_in.setdefault(p.get("t"), []).append(p)
+    leg, later = leg_rounds(D)
     games = sorted(sched.get("games", []), key=lambda g: (g["rd"], day_key(g["day"]), g["time"]))
-
-    def chip(p, kind=""):
-        if p.get("missing"):
-            return ""
-        cls = kind
-        if not kind:
-            cls += " pcap" if norm(p["name"]) == cap else ""
-            cls += " out" if norm(p["name"]) in a_out else ""
-        pre = "A+ " if kind == "plan" else ""
-        return (f'<button class="pchip {cls.strip()}" data-p="{esc(slug_of(p))}" title="{esc(p["name"])}">'
-                f'<i>{POSL.get(p.get("pos"), "?")}</i>{pre}{esc(surname(p["name"]))}</button>')
-
-    def side(code):
-        out = "".join(chip(p) for p in mine.get(code, [])) + "".join(chip(p, "plan") for p in plan_in.get(code, []))
-        if code == coach:
-            out += (f'<span class="pchip hc{" out" if a_coach and a_coach != coach else ""}" data-t="{esc(code)}" '
-                    f'role="button" tabindex="0"><i>HC</i>{esc(coach_label(code))}</span>')
-        elif code == a_coach:
-            out += (f'<span class="pchip hc plan" data-t="{esc(code)}" role="button" tabindex="0">'
-                    f'<i>HC</i>A+ {esc(coach_label(code))}</span>')
-        return out
+    if not games:
+        return "<section><h2>📅 Schedule</h2><p class='sub'>No schedule data for this report.</p></section>"
 
     def tbtn(code):
-        n = len(mine.get(code, [])) + (1 if code == coach else 0)
         short, full, c1, _ = TEAM.get(code, (code, code, "#777777", "#ffffff"))
-        cnt = f'<b class="cnt">{n}</b>' if n else ""
-        return (f'<button class="tm{" has" if n else ""}" data-t="{esc(code)}"><span class="dot" style="background:{c1}"></span>'
-                f'<span class="tn">{esc(full)}</span><span class="ts">{esc(short)}</span>{cnt}</button>')
+        return (f'<button class="tm" data-t="{esc(code)}"><span class="dot" style="background:{c1}"></span>'
+                f'<span class="tn">{esc(full)}</span><span class="ts">{esc(short)}</span><b class="cnt" hidden></b></button>')
 
     def game_row(g):
         pw = g.get("pw")
@@ -391,11 +399,9 @@ def sched_tab(D, sched, team, rv):
             mid = f'<b class="fin">{g["res"][0]}-{g["res"][1]}</b>'
         else:
             mid = "<small>–</small>"
-        hs, as_ = side(g["h"]), side(g["a"])
         tv = f" · {esc(g['tv'])}" if g.get("tv") else ""
-        chips = f'<div class="sgc"><div>{hs}</div><div>{as_}</div></div>' if (hs or as_) else ""
-        return (f'<div class="sg{" mine" if (hs or as_) else ""}"><div class="sgt">{esc(g["time"])}{tv}</div>'
-                f'<div class="sgm">{tbtn(g["h"])}<div class="mid">{mid}</div>{tbtn(g["a"])}</div>{chips}</div>')
+        return (f'<div class="sg" data-h="{esc(g["h"])}" data-a="{esc(g["a"])}"><div class="sgt">{esc(g["time"])}{tv}</div>'
+                f'<div class="sgm">{tbtn(g["h"])}<div class="mid">{mid}</div>{tbtn(g["a"])}</div><div class="sgc" hidden></div></div>')
 
     def round_block(rd, open_=True):
         gs = [g for g in games if g["rd"] == rd]
@@ -408,65 +414,22 @@ def sched_tab(D, sched, team, rv):
         days = []
         for day in sorted({g["day"] for g in gs}, key=day_key):
             dg = [g for g in gs if g["day"] == day]
-            n_mine = sum(len(mine.get(g["h"], [])) + len(mine.get(g["a"], [])) for g in dg)
-            days.append(f'<div class="sday"><h4>{esc(day)}<small>{len(dg)} games · {n_mine} of your players</small></h4>'
-                        + "".join(game_row(g) for g in dg) + "</div>")
+            days.append(f'<div class="sday"><h4>{esc(day)}<small>{len(dg)} games · <span class="dc" data-r="{rd}" '
+                        f'data-day="{esc(day)}"></span></small></h4>' + "".join(game_row(g) for g in dg) + "</div>")
         head = f'<span class="rh">Round {rd}</span>{tags}'
         if open_:
             return f'<div class="sround"><h3>{head}</h3>{"".join(days)}</div>'
         return f'<details class="sround"><summary>{head}</summary>{"".join(days)}</details>'
 
-    def fixture(code, rd):
-        g = next((g for g in games if g["rd"] == rd and code in (g["h"], g["a"])), None)
-        if not g:
-            return "<td>–</td>"
-        home = g["h"] == code
-        opp = g["a"] if home else g["h"]
-        pw = g.get("pw")
-        pw = (pw if home else 1 - pw) if pw is not None else None
-        cls = "good" if pw is not None and pw >= 0.65 else ("bad" if pw is not None and pw <= 0.35 else "")
-        pct = f" · {int(round(pw * 100))}%" if pw is not None else ""
-        return (f'<td><span class="fx {cls}" data-t="{esc(opp)}" role="button" tabindex="0">{esc(g["day"].split()[0])} '
-                f'{"vs" if home else "@"} {esc(TEAM.get(opp, (opp,))[0])}{pct}</span></td>')
-
-    rows = []
-    order = {"Guard": 0, "Forward": 1, "Center": 2}
-    for p in sorted(squad, key=lambda p: (order.get(p.get("pos"), 9), p["name"])):
-        if p.get("missing"):
-            continue
-        rows.append(f'<tr><td>{chip(p)}</td><td><span class="tsm" data-t="{esc(p.get("t"))}" role="button" tabindex="0">'
-                    f'{esc(TEAM.get(p.get("t"), (p.get("t"),))[0])}</span></td>'
-                    + "".join(fixture(p.get("t"), r) for r in leg) + "</tr>")
-    for p in a_in:
-        if p.get("missing"):
-            continue
-        rows.append(f'<tr class="planrow"><td>{chip(p, "plan")}</td><td><span class="tsm" data-t="{esc(p.get("t"))}" role="button" tabindex="0">'
-                    f'{esc(TEAM.get(p.get("t"), (p.get("t"),))[0])}</span></td>'
-                    + "".join(fixture(p.get("t"), r) for r in leg) + "</tr>")
-    if a_coach and a_coach != coach:
-        rows.append(f'<tr class="planrow"><td><span class="pchip hc plan" data-t="{esc(a_coach)}" role="button" tabindex="0"><i>HC</i>'
-                    f'A+ {esc(coach_label(a_coach))}</span></td><td></td>' + "".join(fixture(a_coach, r) for r in leg) + "</tr>")
-    if coach:
-        rows.append(f'<tr><td><span class="pchip hc{" out" if a_coach and a_coach != coach else ""}" data-t="{esc(coach)}" role="button" tabindex="0"><i>HC</i>'
-                    f'{esc(coach_label(coach))}</span></td><td></td>' + "".join(fixture(coach, r) for r in leg) + "</tr>")
-    per_day = {}
-    for r in leg:
-        for g in games:
-            if g["rd"] == r:
-                k = (r, g["day"])
-                per_day[k] = per_day.get(k, 0) + len(mine.get(g["h"], [])) + len(mine.get(g["a"], []))
-    turns = " · ".join(f"R{r} {d.split()[0]} <b>{n}</b>"
-                       for (r, d), n in sorted(per_day.items(), key=lambda x: (x[0][0], day_key(x[0][1]))))
     leg_name = f"Round {leg[0]}" + (f"–{leg[-1]} double week" if len(leg) > 1 else "")
     head = "".join(f"<th>R{r}</th>" for r in leg)
-    if not games:
-        return "<section><h2>📅 Schedule</h2><p class='sub'>No schedule data for this report.</p></section>"
     return f"""<section><h2>📅 Next leg: {esc(leg_name)}</h2>
-<p class="sub">Your squad is marked on every game: <span class="pchip demo"><i>F</i>your player</span>
-<span class="pchip pcap demo"><i>F</i>captain</span> <span class="pchip out demo"><i>G</i>sold in Variation A</span>
-<span class="pchip plan demo"><i>C</i>A+ bought in Variation A</span>. Tap any team or player for details. Times are Athens time (CET+1).</p>
-<div class="card"><h4 class="ovh">Your squad's games</h4><div class="turns">Your players per day: {turns or '–'}</div>
-<div class="tblw"><table class="ov"><thead><tr><th>Player</th><th>Team</th>{head}</tr></thead><tbody>{''.join(rows)}</tbody></table></div>
+<div class="showing">Showing <b id="showName">Report team</b> <button class="lnk2" data-edit>Use my team</button></div>
+<p class="sub">Marked on every game: <span class="pchip demo"><i>F</i>player</span>
+<span class="pchip pcap demo"><i>F</i>captain</span> <span class="pchip out demo planmark"><i>G</i>sold in Variation A</span>
+<span class="pchip plan demo planmark"><i>C</i>A+ bought in Variation A</span>. Tap any team or player for details. Times are Athens time (CET+1).</p>
+<div class="card"><h4 class="ovh">Squad games</h4><div class="turns" id="turns"></div>
+<div class="tblw"><table class="ov"><thead><tr><th>Player</th><th>Team</th>{head}</tr></thead><tbody id="ovb"></tbody></table></div>
 <p class="sub" style="margin:8px 0 0">Win chance in green when 65%+, red when 35% or less.</p></div>
 {''.join(round_block(r) for r in leg)}
 {''.join(round_block(r, open_=False) for r in later)}
@@ -659,6 +622,22 @@ dialog details{background:var(--card2)}
 .wpm span{display:block;height:100%;background:var(--orange)}
 .chipsrow{display:flex;flex-wrap:wrap;gap:2px}
 .ov tr.planrow td{background:rgba(106,167,255,.06)}
+.ptab.mybtn{margin-left:auto;color:#fff}
+.showing{font-size:15px;color:var(--muted);margin:-6px 0 6px}.showing b{color:var(--lime)}
+.lnk2{background:none;border:0;color:var(--blue);font:inherit;cursor:pointer;padding:0 2px;text-decoration:underline}
+.btn{background:var(--orange);color:#140b02;border:0;border-radius:999px;padding:9px 18px;font:700 16px 'Fira Sans Extra Condensed';cursor:pointer}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.edgrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin-top:10px}.edgrid .wide{grid-column:1/-1}
+.edgrid label{font-size:12px;color:var(--faint);text-transform:uppercase;letter-spacing:.5px;display:grid;gap:4px}
+input,select{font:15px 'Fira Sans';color:var(--ink);background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:7px 9px;min-width:0}
+input[type=radio]{accent-color:var(--lime);width:18px;height:18px}
+@media(max-width:560px){.edgrid{grid-template-columns:1fr 1fr}.edgrid label:first-child{grid-column:1/-1}}
+.ed td{white-space:normal}.ed td small{color:var(--faint)}.ed .pchip{cursor:default}
+.srch{width:100%;margin-top:10px}.eres{display:grid;gap:4px;margin-top:6px}
+.eadd{display:flex;align-items:center;gap:8px;text-align:left;background:var(--card2);border:1px solid var(--line);border-radius:8px;color:var(--ink);padding:6px 10px;font:15px 'Fira Sans';cursor:pointer}
+.eadd i{font-style:normal;background:var(--lime);color:#14152a;border-radius:999px;font:800 10.5px/18px 'Fira Sans';min-width:18px;text-align:center}
+.eadd small{color:var(--faint)}
+.ederr{margin:10px 0;color:var(--amber);font-size:14px}.edbtns{display:flex;gap:12px;align-items:center}
 """
 
 JS = """
@@ -683,8 +662,8 @@ function showP(s){
   const p=P[s];if(!p)return;const g=p.gl||[],n=g.length,b=p.bio||{};
   const av=i=>n?g.reduce((a,r)=>a+(r[i]||0),0)/n:null;
   const sh=(m,a)=>{const x=g.reduce((t,r)=>t+r[m],0),y=g.reduce((t,r)=>t+r[a],0);return y?Math.round(100*x/y)+'%':'–'};
-  const tags=(M.players.includes(s)?'<span class="pill rec">Your player</span>':'')+(M.cap===s?'<span class="pill">Captain</span>':'')
-    +(M.a_in.includes(s)?'<span class="pill">Variation A buy</span>':'');
+  const tags=(A.players.includes(s)?`<span class="pill rec">${A.owner&&!A.doc?'In the report team':'Your player'}</span>`:'')+(A.cap===s?'<span class="pill">Captain</span>':'')
+    +(A.owner&&M.a_in.includes(s)?'<span class="pill">Variation A buy</span>':'');
   const st=p.status&&p.status!=='playing'?`<span class="stat ${E(p.status)}">${E(p.status).toUpperCase()}</span>`:'';
   const mx=Math.max(10,...g.map(r=>r[15])),bw=100/Math.max(n,1);
   const bars=g.map((r,i)=>{const h=Math.max(.6,Math.max(0,r[15])/mx*36);
@@ -707,10 +686,9 @@ ${fx?`<h4>Next games</h4><ul class="fxl">${fx}</ul>`:''}
 ${n?`<h4>Game log</h4><div class="tblw"><table class="gl"><thead><tr><th>Rd</th><th class="l">Opp</th><th>Result</th><th>Min</th><th>Pts</th><th>Reb</th><th>Ast</th><th>+/−</th><th>PIR</th></tr></thead><tbody>${rows}</tbody></table></div><p class="sub">b = came off the bench.</p>`:'<p class="sub">No game log for this player yet.</p>'}`)}
 function showT(c){
   const t=T[c];if(!t)return;const st=t.st;
-  const mine=M.players.filter(s=>P[s]&&P[s].t===c);
-  const chips=mine.map(s=>`<button class="pchip${M.cap===s?' pcap':''}" data-p="${s}"><i>${POS[P[s].pos]||'?'}</i>${E(sur(P[s].name))}</button>`).join('')
-    +M.a_in.filter(s=>P[s]&&P[s].t===c).map(s=>`<button class="pchip plan" data-p="${s}"><i>${POS[P[s].pos]||'?'}</i>A+ ${E(sur(P[s].name))}</button>`).join('')
-    +(M.coach===c?'<span class="pchip hc"><i>HC</i>your coach pick</span>':'');
+  const chips=A.players.filter(s=>PL[s]&&PL[s][1]===c).map(s=>chipHTML(s)).join('')
+    +(A.owner?M.a_in.filter(s=>PL[s]&&PL[s][1]===c).map(s=>chipHTML(s,'plan')).join(''):'')
+    +(A.coach===c?'<span class="pchip hc"><i>HC</i>coach pick</span>':'');
   const row=g=>{const r=g[5];
     const res=r?`<span class="res ${r[0]>r[1]?'w':'l'}">${r[0]>r[1]?'W':'L'}</span> ${r[0]}-${r[1]}`
       :(g[6]!=null?`<span class="wpm"><span style="width:${Math.round(g[6]*100)}%"></span></span>${Math.round(g[6]*100)}%${g[7]?' <small>'+g[7][0]+'-'+g[7][1]+'</small>':''}`:'–');
@@ -719,7 +697,7 @@ function showT(c){
   show(`<div class="mh"><div class="kick">${st?'#'+st[0]+' in the standings · '+st[2]+'-'+st[3]+' · form '+E(st[8]):''}</div>
 <h3><span class="dot big" style="background:${t.c1}"></span>${E(t.n)}</h3>
 <div class="sub" style="margin:0">${t.coach?'Head coach <b>'+E(t.coach)+'</b>':''}${st?' · home '+E(st[6])+' · away '+E(st[7])+' · points '+st[4]+'–'+st[5]:''}</div></div>
-${chips?`<h4>Your players here</h4><div class="chipsrow">${chips}</div>`:''}
+${chips?`<h4>${A.owner&&!A.doc?'Report team':'Your'} players here</h4><div class="chipsrow">${chips}</div>`:''}
 <h4>Upcoming games</h4><div class="tblw"><table class="sch"><tbody>${up.slice(0,8).map(row).join('')||'<tr><td>None</td></tr>'}</tbody></table></div>
 ${up.length>8?`<details><summary>Rest of the season (${up.length-8})</summary><div class="tblw"><table class="sch"><tbody>${up.slice(8).map(row).join('')}</tbody></table></div></details>`:''}
 ${done.length?`<details><summary>Results so far (${done.length})</summary><div class="tblw"><table class="sch"><tbody>${done.slice().reverse().map(row).join('')}</tbody></table></div></details>`:''}`)}
@@ -729,11 +707,147 @@ document.addEventListener('click',e=>{
   if(e.target===dlg)dlg.close()});
 document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches('[role=button]')){e.preventDefault();e.target.click()}});
 $('#dlg .x').addEventListener('click',()=>dlg.close());
-function pg(id){document.querySelectorAll('.ptab').forEach(b=>b.setAttribute('aria-selected',b.dataset.pg===id));
+function pg(id){document.querySelectorAll('.ptab[data-pg]').forEach(b=>b.setAttribute('aria-selected',b.dataset.pg===id));
   document.querySelectorAll('.pg').forEach(x=>x.classList.toggle('on',x.id===id))}
-document.querySelectorAll('.ptab').forEach(b=>b.addEventListener('click',()=>{pg(b.dataset.pg);
+document.querySelectorAll('.ptab[data-pg]').forEach(b=>b.addEventListener('click',()=>{pg(b.dataset.pg);
   try{history.replaceState(null,'',b.dataset.pg==='pg-sched'?'#schedule':location.pathname+location.search)}catch(e){}scrollTo({top:0})}));
 if(location.hash==='#schedule')pg('pg-sched');
+
+/* ---------- active team: the report's squad, or the visitor's own saved team ---------- */
+const PL=JSON.parse($('#dPL').textContent),FBC=JSON.parse($('#dFB').textContent);
+const N2S={};Object.entries(PL).forEach(([s,v])=>{N2S[v[0].toLowerCase()]=s});
+const FORMS=[[2,2,1],[1,2,2],[2,1,2],[1,3,1],[3,1,1]];
+const ownerTeam=()=>({name:'Report team',players:M.players,starters:M.starters,sixth:M.sixth,bench:M.bench,cap:M.cap,coach:M.coach,owner:true});
+let A=ownerTeam();
+function fromDoc(d,owner){const s=n=>N2S[String(n||'').toLowerCase()];
+  return {name:d.name||'My team',players:(d.players||[]).map(s).filter(Boolean),starters:(d.starters||[]).map(s).filter(Boolean),
+    sixth:s(d.sixth),bench:(d.bench||[]).map(s).filter(Boolean),cap:s(d.captain),coach:d.coach,bank:d.bank,target:d.target,owner:!!owner,doc:d}}
+function setTeam(t){A=t;renderSched();const b=$('#myBtn');if(b)b.textContent=t.owner&&!t.doc?'👤 My team':'👤 '+t.name}
+const CL=c=>T[c]?(T[c].coach?T[c].coach.split(' ').slice(-1)[0]+' ('+T[c].s+')':T[c].n):c;
+function chipHTML(s,kind){const p=PL[s];if(!p)return'';let c=kind||'';
+  if(!kind){if(A.cap===s)c+=' pcap';if(A.owner&&M.a_out.includes(s))c+=' out'}
+  return `<button class="pchip ${c.trim()}" data-p="${s}" title="${E(p[0])}"><i>${POS[p[2]]||'?'}</i>${kind==='plan'?'A+ ':''}${E(sur(p[0]))}</button>`}
+const coachChip=(c,k)=>`<span class="pchip hc ${k||''}" data-t="${c}" role="button" tabindex="0"><i>HC</i>${k==='plan'?'A+ ':''}${E(CL(c))}</span>`;
+function renderSched(){
+  const by={};A.players.forEach(s=>{const t=PL[s]&&PL[s][1];if(t)(by[t]=by[t]||[]).push(s)});
+  const plan={};if(A.owner)M.a_in.forEach(s=>{const t=PL[s]&&PL[s][1];if(t)(plan[t]=plan[t]||[]).push(s)});
+  const aC=A.owner&&M.a_coach&&M.a_coach!==A.coach?M.a_coach:null;
+  const side=c=>(by[c]||[]).map(s=>chipHTML(s)).join('')+(plan[c]||[]).map(s=>chipHTML(s,'plan')).join('')
+    +(c===A.coach?coachChip(c,aC?'out':''):'')+(c===aC?coachChip(c,'plan'):'');
+  document.querySelectorAll('#pg-sched .sg').forEach(g=>{const hs=side(g.dataset.h),as=side(g.dataset.a),el=g.querySelector('.sgc');
+    el.innerHTML=`<div>${hs}</div><div>${as}</div>`;el.hidden=!(hs||as);g.classList.toggle('mine',!!(hs||as))});
+  document.querySelectorAll('#pg-sched .tm[data-t]').forEach(b=>{const n=(by[b.dataset.t]||[]).length+(b.dataset.t===A.coach?1:0);
+    b.classList.toggle('has',n>0);const c=b.querySelector('.cnt');if(c){c.textContent=n;c.hidden=!n}});
+  const turns=[];
+  document.querySelectorAll('#pg-sched .dc').forEach(el=>{const r=+el.dataset.r,day=el.dataset.day;let n=0;
+    Object.entries(by).forEach(([t,l])=>{const g=T[t]&&T[t].g.find(x=>x[0]===r);if(g&&g[1]===day)n+=l.length});
+    el.textContent=n+' of '+(A.owner&&!A.doc?'the':'your')+' players';if(M.leg.includes(r))turns.push(`R${r} ${E(day.split(' ')[0])} <b>${n}</b>`)});
+  const tu=$('#turns');if(tu)tu.innerHTML='Players per day: '+(turns.join(' · ')||'–');
+  const fx=(t,r)=>{const g=T[t]&&T[t].g.find(x=>x[0]===r);if(!g)return'<td>–</td>';const pw=g[6];
+    const cls=pw==null?'':pw>=.65?'good':pw<=.35?'bad':'';
+    return `<td><span class="fx ${cls}" data-t="${g[3]}" role="button" tabindex="0">${E(g[1].split(' ')[0])} ${g[4]?'vs':'@'} ${E(T[g[3]]?T[g[3]].s:g[3])}${pw!=null?' · '+Math.round(pw*100)+'%':''}</span></td>`};
+  const ord={Guard:0,Forward:1,Center:2};
+  const row=(chip,t)=>`<tr${chip.includes('plan')?' class="planrow"':''}><td>${chip}</td><td>${t?`<span class="tsm" data-t="${t}" role="button" tabindex="0">${E(T[t]?T[t].s:t)}</span>`:''}</td>${M.leg.map(r=>fx(t,r)).join('')}</tr>`;
+  const sorted=A.players.slice().sort((a,b)=>(ord[PL[a][2]]-ord[PL[b][2]])||PL[a][0].localeCompare(PL[b][0]));
+  let rows=sorted.map(s=>row(chipHTML(s),PL[s][1])).join('');
+  if(A.owner)rows+=M.a_in.map(s=>row(chipHTML(s,'plan'),PL[s]&&PL[s][1])).join('')+(aC?row(coachChip(aC,'plan'),aC):'');
+  if(A.coach)rows+=row(coachChip(A.coach,aC?'out':''),A.coach);
+  const ov=$('#ovb');if(ov)ov.innerHTML=rows;
+  const sn=$('#showName');if(sn)sn.textContent=A.name;
+  document.querySelectorAll('.planmark').forEach(x=>x.hidden=!A.owner);
+  document.querySelectorAll('[data-edit]').forEach(x=>x.textContent=A.owner&&!A.doc?'Use my team':'Edit my team');
+}
+/* ---------- players outside this page: load full stats on demand ---------- */
+let ALLP=null;
+async function loadAll(){if(ALLP)return ALLP;try{const base=location.pathname.includes('/reports/')?'../':'';
+  ALLP=await (await fetch(base+'site/players.json',{cache:'no-cache'})).json()}catch(e){ALLP={}}return ALLP}
+document.addEventListener('click',async e=>{const el=e.target.closest('[data-p]');if(!el||P[el.dataset.p])return;
+  const all=await loadAll();if(all[el.dataset.p]){P[el.dataset.p]=all[el.dataset.p];showP(el.dataset.p)}});
+/* ---------- team editor (Firebase + Google sign-in) ---------- */
+const AUTH={user:null,ready:false,enabled:!!(FBC.config&&FBC.config.apiKey)};
+let ED=null;
+function edFrom(t){const nm=s=>PL[s]?PL[s][0]:null;const role=s=>t.starters.includes(s)?'S':(t.sixth===s?'6':'B');
+  return {name:t.name&&t.name!=='Report team'?t.name:((AUTH.user&&AUTH.user.displayName)||'My team').slice(0,40),
+    rows:t.players.map(s=>({s,r:role(s)})),cap:t.cap,coach:t.coach||'',bank:t.bank!=null?t.bank:'',target:t.target||M.target_pts||200}}
+function edCheck(){const e=[],rows=ED.rows,cnt={Guard:0,Forward:0,Center:0},club={};
+  rows.forEach(x=>{const p=PL[x.s];cnt[p[2]]=(cnt[p[2]]||0)+1;club[p[1]]=(club[p[1]]||0)+1});
+  if(rows.length!==10)e.push(`Pick 10 players (${rows.length} now).`);
+  if(cnt.Guard!==4||cnt.Forward!==4||cnt.Center!==2)e.push(`Need 4 G / 4 F / 2 C (now ${cnt.Guard}/${cnt.Forward}/${cnt.Center}).`);
+  Object.entries(club).forEach(([c,n])=>{if(n>6)e.push(`Max 6 from ${T[c]?T[c].n:c}.`)});
+  const st=rows.filter(x=>x.r==='S'),six=rows.filter(x=>x.r==='6'),be=rows.filter(x=>x.r==='B');
+  const f=[0,1,2].map(i=>st.filter(x=>PL[x.s][2]===['Guard','Forward','Center'][i]).length);
+  if(st.length!==5)e.push(`Starting five: ${st.length} picked.`);else if(!FORMS.some(F=>F.join()===f.join()))e.push(`Starters ${f.join('-')} (G-F-C) isn't a valid formation.`);
+  if(six.length!==1)e.push('Pick exactly one 6th man.');if(be.length!==4&&rows.length===10)e.push('Bench needs 4 players.');
+  if(!st.some(x=>x.s===ED.cap))e.push('Captain must be a starter.');
+  if(!ED.coach)e.push('Pick a coach.');
+  const b=parseFloat(ED.bank);if(isNaN(b)||b<0||b>60)e.push('Bank must be a number (0–60).');
+  return e}
+function edRender(){
+  if(!AUTH.enabled){show(`<div class="mh"><h3>My team</h3></div><p class="sub">Team saving isn't switched on for this page yet.</p>`);return}
+  if(!AUTH.user){show(`<div class="mh"><h3>My team</h3></div><p class="sub">Sign in with Google to save your team. The schedule and player cards then mark <b>your</b> players on any device. Each person can only see and change their own team.</p>
+<button class="btn" id="si">Sign in with Google</button><p class="sub" id="aerr"></p>`);
+    $('#si').onclick=()=>window.ELF_FB.signIn().catch(err=>{$('#aerr').textContent='Sign-in failed: '+err.message});return}
+  const rows=ED.rows.slice().sort((a,b)=>({Guard:0,Forward:1,Center:2}[PL[a.s][2]]-{Guard:0,Forward:1,Center:2}[PL[b.s][2]]));
+  const errs=edCheck();
+  const coachOpts=Object.keys(T).sort((a,b)=>T[a].n.localeCompare(T[b].n)).map(c=>`<option value="${c}"${c===ED.coach?' selected':''}>${E(CL(c))} · ${E(T[c].n)}</option>`).join('');
+  show(`<div class="mh"><div class="kick">Signed in as ${E(AUTH.user.displayName||AUTH.user.email||'')} · <button class="lnk2" id="so">Sign out</button></div><h3>My team</h3></div>
+<div class="edgrid"><label>Team name<input id="ename" maxlength="40" value="${E(ED.name)}"></label>
+<label>Bank<input id="ebank" inputmode="decimal" value="${E(ED.bank)}" placeholder="e.g. 1.3"></label>
+<label>Target<input id="etgt" inputmode="numeric" value="${E(ED.target)}"></label>
+<label class="wide">Coach<select id="ecoach"><option value="">Pick a coach…</option>${coachOpts}</select></label></div>
+<h4>Players · ${ED.rows.length}/10</h4>
+<div class="tblw"><table class="ed"><thead><tr><th class="l">Player</th><th>Role</th><th>Capt.</th><th></th></tr></thead><tbody>${rows.map(x=>{const p=PL[x.s];
+  return `<tr><td class="l"><span class="pchip"><i>${POS[p[2]]}</i>${E(p[0])}</span> <small>${E(T[p[1]]?T[p[1]].s:p[1])} · ${f1(p[3])}</small></td>
+<td><select data-role="${x.s}"><option value="S"${x.r==='S'?' selected':''}>Starter</option><option value="6"${x.r==='6'?' selected':''}>6th man</option><option value="B"${x.r==='B'?' selected':''}>Bench</option></select></td>
+<td><input type="radio" name="ecap" value="${x.s}"${ED.cap===x.s?' checked':''} aria-label="Captain"></td><td><button class="lnk2" data-rm="${x.s}" aria-label="Remove">✕</button></td></tr>`}).join('')}</tbody></table></div>
+${ED.rows.length<10?`<input id="esearch" class="srch" placeholder="Add a player: type a name…" autocomplete="off"><div id="eres" class="eres"></div>`:''}
+<div class="ederr">${errs.map(x=>'<div>'+E(x)+'</div>').join('')}</div>
+<div class="edbtns"><button class="btn" id="esave"${errs.length?' disabled':''}>Save my team</button><span class="sub" id="emsg"></span></div>`);
+  $('#so').onclick=()=>window.ELF_FB.signOut();
+  $('#ename').oninput=e=>ED.name=e.target.value;$('#ebank').oninput=e=>{ED.bank=e.target.value;edSoft()};$('#etgt').oninput=e=>ED.target=e.target.value;
+  $('#ecoach').onchange=e=>{ED.coach=e.target.value;edSoft()};
+  document.querySelectorAll('[data-role]').forEach(s=>s.onchange=()=>{ED.rows.find(x=>x.s===s.dataset.role).r=s.value;edRender()});
+  document.querySelectorAll('input[name=ecap]').forEach(r=>r.onchange=()=>{ED.cap=r.value;edSoft()});
+  document.querySelectorAll('[data-rm]').forEach(b=>b.onclick=()=>{ED.rows=ED.rows.filter(x=>x.s!==b.dataset.rm);if(ED.cap===b.dataset.rm)ED.cap=null;edRender()});
+  const si=$('#esearch');if(si){si.oninput=()=>{const q=si.value.trim().toLowerCase();const have=new Set(ED.rows.map(x=>x.s));
+    const hits=q.length<2?[]:Object.entries(PL).filter(([s,v])=>!have.has(s)&&v[0].toLowerCase().includes(q)).slice(0,8);
+    $('#eres').innerHTML=hits.map(([s,v])=>`<button class="eadd" data-add="${s}"><i>${POS[v[2]]}</i>${E(v[0])} <small>${E(T[v[1]]?T[v[1]].s:v[1])} · ${f1(v[3])}</small></button>`).join('');
+    document.querySelectorAll('[data-add]').forEach(b=>b.onclick=()=>{const s=b.dataset.add;const st=ED.rows.filter(x=>x.r==='S').length;
+      ED.rows.push({s,r:st<5?'S':(ED.rows.some(x=>x.r==='6')?'B':'6')});edRender();const n=$('#esearch');if(n)n.focus()})};
+    if(document.activeElement!==si&&ED.rows.length)si.focus()}
+  $('#esave').onclick=async()=>{const m=$('#emsg');m.textContent='Saving…';const nm=s=>PL[s][0];
+    const d={name:(ED.name||'My team').slice(0,40),players:ED.rows.map(x=>nm(x.s)),starters:ED.rows.filter(x=>x.r==='S').map(x=>nm(x.s)),
+      sixth:nm(ED.rows.find(x=>x.r==='6').s),bench:ED.rows.filter(x=>x.r==='B').map(x=>nm(x.s)),captain:nm(ED.cap),coach:ED.coach,
+      bank:Math.round(parseFloat(ED.bank)*10)/10,target:Math.max(50,Math.min(500,parseInt(ED.target)||200))};
+    try{await window.ELF_FB.save(d);m.textContent='Saved ✓';try{localStorage.setItem('elf-team',JSON.stringify({uid:AUTH.user.uid,d}))}catch(e){}
+      setTeam(fromDoc(d,AUTH.user.uid===FBC.owner))}catch(err){m.textContent='Could not save: '+err.message}}}
+function edSoft(){const errs=edCheck();const box=document.querySelector('.ederr');if(box)box.innerHTML=errs.map(x=>'<div>'+E(x)+'</div>').join('');
+  const b=$('#esave');if(b)b.disabled=!!errs.length}
+function openEditor(){ED=ED||edFrom(A.doc?A:{players:[],starters:[],bench:[],name:''});edRender()}
+document.addEventListener('click',e=>{if(e.target.closest('[data-edit],#myBtn')){e.preventDefault();openEditor()}});
+window.ELF={onAuth(user,doc){AUTH.user=user;AUTH.ready=true;
+    if(user&&doc){setTeam(fromDoc(doc,user.uid===FBC.owner));ED=edFrom(A);try{localStorage.setItem('elf-team',JSON.stringify({uid:user.uid,d:doc}))}catch(e){}}
+    else if(!user){try{localStorage.removeItem('elf-team')}catch(e){}ED=null;setTeam(ownerTeam())}
+    else ED=null;
+    if(dlg.open&&$('#dlgb .edgrid, #si'))openEditor()}};
+try{const c=JSON.parse(localStorage.getItem('elf-team')||'null');if(c&&c.d)setTeam(fromDoc(c.d,c.uid===FBC.owner));else renderSched()}catch(e){renderSched()}
+"""
+FB_JS = r"""
+const FBC=JSON.parse(document.getElementById('dFB').textContent);
+if(FBC.config&&FBC.config.apiKey){
+  const V='10.12.2',B='https://www.gstatic.com/firebasejs/'+V+'/';
+  const [{initializeApp},{getAuth,GoogleAuthProvider,signInWithPopup,signInWithRedirect,onAuthStateChanged,signOut},
+    {getFirestore,doc,getDoc,setDoc,serverTimestamp}]=await Promise.all([import(B+'firebase-app.js'),import(B+'firebase-auth.js'),import(B+'firebase-firestore.js')]);
+  const app=initializeApp(FBC.config),auth=getAuth(app),db=getFirestore(app);
+  window.ELF_FB={
+    signIn:async()=>{const p=new GoogleAuthProvider();try{await signInWithPopup(auth,p)}catch(e){
+      if(e.code==='auth/popup-blocked'||e.code==='auth/operation-not-supported-in-this-environment')await signInWithRedirect(auth,p);else throw e}},
+    signOut:()=>signOut(auth),
+    save:d=>setDoc(doc(db,'teams',auth.currentUser.uid),{...d,updated:serverTimestamp()})};
+  onAuthStateChanged(auth,async u=>{let d=null;
+    if(u){try{const s=await getDoc(doc(db,'teams',u.uid));d=s.exists()?s.data():null}catch(e){console.warn('team load failed',e)}}
+    window.ELF&&window.ELF.onAuth(u,d)});
+}
 """
 
 
@@ -890,9 +1004,9 @@ def render(date):
         names |= set(v["starters"]) | set(v["bench"]) | ({v["sixth"]} if v.get("sixth") else set())
         for t in v.get("trades", []):
             names |= {split_name(x)[0] for x in (t["out"], t["in"]) if not x.strip().startswith("Coach")}
-    a_in = [D.player(split_name(t["in"])[0]) for t in rv.get("trades", []) if not t["in"].strip().startswith("Coach")]
-    blobs = page_data(D, sched, team, names, a_in)
-    schedule_html = sched_tab(D, sched, team, rv)
+    blobs = page_data(D, sched, team, names, rv)
+    schedule_html = sched_tab(D, sched)
+    write_players_file(D)
     dl = deadline(D)
     b = R.get("budget", {})
 
@@ -906,7 +1020,8 @@ def render(date):
 <span class="chip">Budget <b>{esc(b.get('total', '–'))}</b></span><span class="chip">Bank <b>{esc(b.get('bank', '–'))}</b></span>
 {f'<span class="chip">{esc(R["window"])}</span>' if R.get('window') else ''}</div>
 <nav class="ptabs" role="tablist"><button class="ptab" role="tab" data-pg="pg-report" aria-selected="true">📋 Report</button>
-<button class="ptab" role="tab" data-pg="pg-sched" aria-selected="false">📅 Schedule</button></nav></header>
+<button class="ptab" role="tab" data-pg="pg-sched" aria-selected="false">📅 Schedule</button>
+<button class="ptab mybtn" id="myBtn">👤 My team</button></nav></header>
 <div class="pg on" id="pg-report">
 {plan}
 <section><h2>Three ways to play it</h2><div class="tabs" role="tablist">{''.join(tabs)}</div>{''.join(panes)}</section>
@@ -920,7 +1035,7 @@ def render(date):
 <footer>Chance / expected / top-10% come from 6,000 simulated rounds: each player's range from the site's P10–P90 band, players in the same game rise and fall together, win bonus and coach score follow the simulated result.<br>
 Data: basketballstats.eu model plus the analyst's own research. Recommendations only: make your changes in the official game.</footer>
 </div><dialog id="dlg" aria-label="Details"><button class="x" aria-label="Close">×</button><div class="dlgin" id="dlgb"></div></dialog>
-{blobs}<script>{JS}</script></body></html>"""
+{blobs}<script>{JS}</script><script type="module">{FB_JS}</script></body></html>"""
     out = ROOT / "reports" / f"{date}.html"
     out.write_text(page, encoding="utf-8")
     (ROOT / "reports" / "latest.html").write_text(page, encoding="utf-8")

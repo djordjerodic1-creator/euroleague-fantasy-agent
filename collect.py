@@ -16,6 +16,7 @@ import re
 import sys
 import time
 import unicodedata
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -231,9 +232,66 @@ def window_score(p, rounds):
 
 
 # ---------------------------------------------------------------- main
+def _fs_value(v):
+    """Decode one Firestore REST value."""
+    if "stringValue" in v:
+        return v["stringValue"]
+    if "integerValue" in v:
+        return int(v["integerValue"])
+    if "doubleValue" in v:
+        return float(v["doubleValue"])
+    if "timestampValue" in v:
+        return v["timestampValue"]
+    if "arrayValue" in v:
+        return [_fs_value(x) for x in v["arrayValue"].get("values", [])]
+    if "nullValue" in v:
+        return None
+    return None
+
+
+def sync_page_team():
+    """If the owner saved a team on the report page (Firebase), copy it into my_team.json.
+    Only when it changed since the last sync, so Variation A auto-apply still works when the user didn't touch it."""
+    cfg_f = ROOT / "firebase-web.json"
+    if not cfg_f.exists():
+        return
+    cfg = json.loads(cfg_f.read_text(encoding="utf-8"))
+    pid, uid = (cfg.get("config") or {}).get("projectId"), cfg.get("owner_uid")
+    if not (pid and uid):
+        return
+    url = f"https://firestore.googleapis.com/v1/projects/{pid}/databases/(default)/documents/teams/{uid}"
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "elf-analyst"}), timeout=20) as r:
+            docj = json.loads(r.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        print(f"Page team: none saved yet (HTTP {e.code})" if e.code == 404 else f"! page team fetch failed: HTTP {e.code}")
+        return
+    except Exception as e:
+        print(f"! page team fetch failed ({e}); is firestore.googleapis.com allowed in this environment?")
+        return
+    d = {k: _fs_value(v) for k, v in (docj.get("fields") or {}).items()}
+    upd = d.get("updated") or docj.get("updateTime")
+    tf = ROOT / "my_team.json"
+    team = json.loads(tf.read_text(encoding="utf-8"))
+    tr = team.setdefault("tracking", {})
+    if tr.get("page_updated") == upd:
+        print("Page team: unchanged since last sync")
+        return
+    team.update({
+        "players": d["players"], "captain": d["captain"],
+        "lineup": {"starters": d["starters"], "sixth": d["sixth"], "bench": d["bench"]},
+        "coach": TEAMS.get(d["coach"], (d["coach"],))[0], "bank": d["bank"], "bank_known": True,
+        "target_points": d.get("target", team.get("target_points", 200)),
+    })
+    tr.update({"source": "page (user)", "updated": str(upd)[:10], "page_updated": upd})
+    tf.write_text(json.dumps(team, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Page team: applied the team saved on the page at {upd}")
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     OUT.mkdir(parents=True, exist_ok=True)
+    sync_page_team()
     team_cfg = json.loads((ROOT / "my_team.json").read_text(encoding="utf-8"))
 
     print("Fetching projections, news, calendar, injuries, prices…")

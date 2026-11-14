@@ -1,0 +1,31 @@
+rules_version = '2';
+// Paste this into Firebase console -> Firestore Database -> Rules, then Publish.
+// Each signed-in person can create/edit/delete only their own team (document id = their user id).
+// Anyone can read a single team if they know its id (the analyst reads the owner's team this way);
+// nobody can list all teams.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function validTeam(d) {
+      return d.keys().hasOnly(['name', 'players', 'starters', 'sixth', 'bench', 'captain', 'coach', 'bank', 'target', 'updated'])
+        && d.keys().hasAll(['players', 'starters', 'sixth', 'bench', 'captain', 'coach', 'bank', 'target', 'updated'])
+        && (!('name' in d) || (d.name is string && d.name.size() <= 40))
+        && d.players is list && d.players.size() == 10
+        && d.starters is list && d.starters.size() == 5
+        && d.bench is list && d.bench.size() == 4
+        && d.sixth is string && d.sixth.size() <= 60
+        && d.captain is string && d.captain.size() <= 60
+        && d.coach is string && d.coach.size() == 3
+        && d.bank is number && d.bank >= 0 && d.bank <= 60
+        && d.target is number && d.target >= 50 && d.target <= 500
+        && d.updated == request.time;
+    }
+
+    match /teams/{uid} {
+      allow get: if true;
+      allow list: if false;
+      allow create, update: if request.auth != null && request.auth.uid == uid && validTeam(request.resource.data);
+      allow delete: if request.auth != null && request.auth.uid == uid;
+    }
+  }
+}
