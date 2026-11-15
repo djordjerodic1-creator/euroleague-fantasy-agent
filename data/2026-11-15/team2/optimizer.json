@@ -36,8 +36,8 @@
     "Vanja Marinkovic"
    ],
    "coach_change": true,
-   "avg_p_target": 0.054,
-   "avg_mean": 149.5,
+   "avg_p_target": 0.056,
+   "avg_mean": 150.1,
    "rounds": [
     {
      "rd": 12,
@@ -57,10 +57,10 @@
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 155.8,
-     "p90": 195.8,
-     "p10": 115.0,
-     "p_target": 0.082
+     "mean": 156.4,
+     "p90": 196.3,
+     "p10": 115.5,
+     "p_target": 0.084
     },
     {
      "rd": 13,
@@ -80,10 +80,10 @@
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 143.2,
-     "p90": 180.9,
-     "p10": 105.7,
-     "p_target": 0.027
+     "mean": 143.7,
+     "p90": 181.4,
+     "p10": 106.2,
+     "p_target": 0.028
     }
    ]
   },
@@ -117,8 +117,8 @@
     "Vanja Marinkovic"
    ],
    "coach_change": true,
-   "avg_p_target": 0.054,
-   "avg_mean": 146.7,
+   "avg_p_target": 0.056,
+   "avg_mean": 147.2,
    "rounds": [
     {
      "rd": 12,
@@ -133,15 +133,15 @@
      "sixth": "Cameron Payne",
      "bench": [
       "Gabriele Procida",
-      "Ousmane Diop",
       "Nikolaos Rogkavopoulos",
+      "Ousmane Diop",
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 151.3,
-     "p90": 194.0,
-     "p10": 107.1,
-     "p_target": 0.073
+     "mean": 151.8,
+     "p90": 195.0,
+     "p10": 107.5,
+     "p_target": 0.075
     },
     {
      "rd": 13,
@@ -155,16 +155,16 @@
      ],
      "sixth": "Andres Feliz",
      "bench": [
-      "Ousmane Diop",
       "Nikolaos Rogkavopoulos",
+      "Ousmane Diop",
       "Gabriele Procida",
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 142.1,
-     "p90": 182.3,
-     "p10": 101.3,
-     "p_target": 0.036
+     "mean": 142.6,
+     "p90": 183.3,
+     "p10": 101.6,
+     "p_target": 0.037
     }
    ]
   },
@@ -172,80 +172,80 @@
    "players": [
     "Aliou Diarra",
     "Andres Feliz",
-    "Cameron Payne",
-    "Clement Frisch",
+    "Elijah Bryant",
     "Gabriele Procida",
     "Justin Robinson",
     "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
     "Sasha Vezenkov",
-    "Theo Maledon",
+    "Sebastian Herrera",
     "Vanja Marinkovic"
    ],
    "coach": "ZAL",
-   "cost": 103.1,
-   "bank_after": 0.2,
+   "cost": 102.9,
+   "bank_after": 0.4,
    "sell": [],
    "buy": [
     "Aliou Diarra",
     "Andres Feliz",
-    "Cameron Payne",
-    "Clement Frisch",
+    "Elijah Bryant",
     "Gabriele Procida",
     "Justin Robinson",
     "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
     "Sasha Vezenkov",
-    "Theo Maledon",
+    "Sebastian Herrera",
     "Vanja Marinkovic"
    ],
    "coach_change": true,
-   "avg_p_target": 0.053,
-   "avg_mean": 148.5,
+   "avg_p_target": 0.051,
+   "avg_mean": 149.3,
    "rounds": [
     {
      "rd": 12,
-     "formation": "3-1-1",
+     "formation": "2-2-1",
      "starters": [
+      "Elijah Bryant",
       "Justin Robinson",
-      "Theo Maledon",
-      "Andres Feliz",
       "Sasha Vezenkov",
-      "Aliou Diarra"
-     ],
-     "sixth": "Cameron Payne",
-     "bench": [
-      "Kenan Kamenjas",
       "Gabriele Procida",
-      "Clement Frisch",
-      "Vanja Marinkovic"
-     ],
-     "captain": "Sasha Vezenkov",
-     "mean": 154.4,
-     "p90": 196.1,
-     "p10": 112.8,
-     "p_target": 0.08
-    },
-    {
-     "rd": 13,
-     "formation": "3-1-1",
-     "starters": [
-      "Justin Robinson",
-      "Theo Maledon",
-      "Cameron Payne",
-      "Sasha Vezenkov",
       "Aliou Diarra"
      ],
      "sixth": "Andres Feliz",
      "bench": [
       "Kenan Kamenjas",
-      "Clement Frisch",
+      "Nikolaos Rogkavopoulos",
+      "Sebastian Herrera",
+      "Vanja Marinkovic"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 155.7,
+     "p90": 195.4,
+     "p10": 116.4,
+     "p_target": 0.076
+    },
+    {
+     "rd": 13,
+     "formation": "2-1-2",
+     "starters": [
+      "Elijah Bryant",
+      "Justin Robinson",
+      "Sasha Vezenkov",
+      "Aliou Diarra",
+      "Kenan Kamenjas"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Nikolaos Rogkavopoulos",
+      "Sebastian Herrera",
       "Gabriele Procida",
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 142.6,
-     "p90": 180.8,
-     "p10": 105.0,
-     "p_target": 0.026
+     "mean": 143.0,
+     "p90": 179.6,
+     "p10": 106.2,
+     "p_target": 0.025
     }
    ]
   },
@@ -279,8 +279,8 @@
     "Vanja Marinkovic"
    ],
    "coach_change": true,
-   "avg_p_target": 0.04,
-   "avg_mean": 148.2,
+   "avg_p_target": 0.042,
+   "avg_mean": 148.8,
    "rounds": [
     {
      "rd": 12,
@@ -295,15 +295,15 @@
      "sixth": "Cameron Payne",
      "bench": [
       "Kenan Kamenjas",
-      "Clement Frisch",
       "Nikolaos Rogkavopoulos",
+      "Clement Frisch",
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 146.9,
-     "p90": 187.8,
-     "p10": 105.5,
-     "p_target": 0.045
+     "mean": 147.5,
+     "p90": 188.5,
+     "p10": 106.1,
+     "p_target": 0.049
     },
     {
      "rd": 13,
@@ -318,15 +318,15 @@
      "sixth": "Andres Feliz",
      "bench": [
       "Kenan Kamenjas",
-      "Clement Frisch",
       "Nikolaos Rogkavopoulos",
+      "Clement Frisch",
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 149.6,
-     "p90": 185.2,
-     "p10": 112.9,
-     "p_target": 0.034
+     "mean": 150.1,
+     "p90": 185.7,
+     "p10": 112.8,
+     "p_target": 0.035
     }
    ]
   }

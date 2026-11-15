@@ -62,8 +62,8 @@
     "Theo Maledon"
    ],
    "coach_change": true,
-   "avg_p_target": 0.061,
-   "avg_mean": 147.3,
+   "avg_p_target": 0.063,
+   "avg_mean": 147.8,
    "rounds": [
     {
      "rd": 14,
@@ -79,14 +79,14 @@
      "bench": [
       "Kenan Kamenjas",
       "Clement Frisch",
-      "Gabriele Procida",
-      "Nikolaos Rogkavopoulos"
+      "Nikolaos Rogkavopoulos",
+      "Gabriele Procida"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 150.6,
-     "p90": 195.6,
-     "p10": 105.0,
-     "p_target": 0.079
+     "mean": 151.1,
+     "p90": 196.0,
+     "p10": 105.7,
+     "p_target": 0.082
     },
     {
      "rd": 15,
@@ -102,14 +102,14 @@
      "bench": [
       "Kenan Kamenjas",
       "Clement Frisch",
-      "Gabriele Procida",
-      "Nikolaos Rogkavopoulos"
+      "Nikolaos Rogkavopoulos",
+      "Gabriele Procida"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 152.0,
-     "p90": 194.7,
-     "p10": 109.8,
-     "p_target": 0.076
+     "mean": 152.6,
+     "p90": 195.2,
+     "p10": 110.3,
+     "p_target": 0.078
     },
     {
      "rd": 16,
@@ -123,16 +123,16 @@
      ],
      "sixth": "Cameron Payne",
      "bench": [
+      "Nikolaos Rogkavopoulos",
       "Kenan Kamenjas",
       "Gabriele Procida",
-      "Nikolaos Rogkavopoulos",
       "Clement Frisch"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 139.2,
-     "p90": 182.7,
-     "p10": 95.9,
-     "p_target": 0.029
+     "mean": 139.7,
+     "p90": 183.2,
+     "p10": 96.5,
+     "p_target": 0.03
     }
    ]
   },
@@ -169,8 +169,8 @@
     "Vanja Marinkovic"
    ],
    "coach_change": true,
-   "avg_p_target": 0.053,
-   "avg_mean": 146.8,
+   "avg_p_target": 0.055,
+   "avg_mean": 147.3,
    "rounds": [
     {
      "rd": 14,
@@ -190,10 +190,10 @@
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 146.7,
-     "p90": 188.4,
-     "p10": 103.9,
-     "p_target": 0.053
+     "mean": 147.2,
+     "p90": 189.0,
+     "p10": 104.5,
+     "p_target": 0.056
     },
     {
      "rd": 15,
@@ -213,33 +213,33 @@
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 152.2,
-     "p90": 195.9,
-     "p10": 108.3,
-     "p_target": 0.077
+     "mean": 152.8,
+     "p90": 196.4,
+     "p10": 109.0,
+     "p_target": 0.079
     },
     {
      "rd": 16,
-     "formation": "3-1-1",
+     "formation": "2-2-1",
      "starters": [
       "Elijah Bryant",
       "Theo Maledon",
-      "Andres Feliz",
       "Sasha Vezenkov",
+      "Nikolaos Rogkavopoulos",
       "Aliou Diarra"
      ],
-     "sixth": "Kenan Kamenjas",
+     "sixth": "Andres Feliz",
      "bench": [
+      "Kenan Kamenjas",
       "Sebastian Herrera",
-      "Nikolaos Rogkavopoulos",
       "Clement Frisch",
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 141.5,
-     "p90": 183.0,
-     "p10": 100.2,
-     "p_target": 0.029
+     "mean": 142.0,
+     "p90": 181.6,
+     "p10": 101.1,
+     "p_target": 0.031
     }
    ]
   },
@@ -278,8 +278,8 @@
     "Vanja Marinkovic"
    ],
    "coach_change": false,
-   "avg_p_target": 0.045,
-   "avg_mean": 147.4,
+   "avg_p_target": 0.046,
+   "avg_mean": 148.0,
    "rounds": [
     {
      "rd": 14,
@@ -299,9 +299,9 @@
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 137.9,
-     "p90": 174.3,
-     "p10": 101.4,
+     "mean": 138.5,
+     "p90": 175.1,
+     "p10": 101.9,
      "p_target": 0.013
     },
     {
@@ -322,10 +322,10 @@
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 151.8,
-     "p90": 193.1,
-     "p10": 111.3,
-     "p_target": 0.066
+     "mean": 152.4,
+     "p90": 193.8,
+     "p10": 111.8,
+     "p_target": 0.068
     },
     {
      "rd": 16,
@@ -339,16 +339,16 @@
      ],
      "sixth": "Rj Cole",
      "bench": [
-      "Kenan Kamenjas",
       "Nikolaos Rogkavopoulos",
+      "Kenan Kamenjas",
       "Clement Frisch",
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 152.4,
-     "p90": 190.5,
-     "p10": 114.3,
-     "p_target": 0.057
+     "mean": 153.0,
+     "p90": 191.1,
+     "p10": 114.9,
+     "p_target": 0.058
     }
    ]
   }

@@ -59,7 +59,7 @@ Cost 0 · bank 103.3 · coach None · captain None · clubs {}
 - Will Clyburn (ULK) 11.3cr own 2.0% · playing · Δ3 1.0 · L3/L10 12/10.1 · min 23.5/22.1 · R12 vsASV 11.1 (diff 3/5) | R13 @MIL 10.9 (diff 3/5, B2B) · Δprice None · sig buy
 - Nigel Hayes-Davis (PAN) 12.1cr own 3.0% · playing · Δ3 -0.4 · L3/L10 9.3/10.6 · min 28.3/27.2 · R12 @VIR 11.1 (diff 2/5) | R13 @ZAL 9.7 (diff 1/5, B2B) · Δprice None · sig buy
 **Cheap value (≤9 cr):**
-- Nikolaos Rogkavopoulos (PAN) 4.5cr own 2.0% · None · Δ3 None · L3/L10 10.3/10.3 · min 12.7/12.7 · R12 @VIR 8.3 (diff 4/5) | R13 @ZAL 7.8 (diff 5/5, B2B) · Δprice None · sig avoid
+- Nikolaos Rogkavopoulos (PAN) 4.5cr own 2.0% · None · Δ3 None · L3/L10 10.3/10.3 · min 12.7/12.7 · R12 @VIR 9.4 (diff 4/5) | R13 @ZAL 8.7 (diff 5/5, B2B) · Δprice None · sig avoid
 - Gabriele Procida (MAD) 5.3cr own 11.0% · playing · Δ3 3.3 · L3/L10 13/7.6 · min 20.2/13.9 · R12 @BES 9.8 (diff 1/5) | R13 @OLY 7.5 (diff 3/5, B2B) · Δprice None · sig hold
 - Vanja Marinkovic (PAR) 4.2cr own 4.0% · playing · Δ3 None · L3/L10 5/5 · min 17.7/17.7 · R12 vsPAM 6.8 (diff 1/5) | R13 vsBES 6.8 (diff 1/5) · Δprice None · sig hold
 - Clement Frisch (BAS) 5.5cr own 3.0% · playing · Δ3 1.9 · L3/L10 10/7.1 · min 26.2/16.2 · R12 vsHTA 9 (diff 4/5) | R13 @MUN 8.2 (diff 5/5, B2B) · Δprice None · sig hold
