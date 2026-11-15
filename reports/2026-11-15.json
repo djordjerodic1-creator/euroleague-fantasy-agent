@@ -247,7 +247,7 @@
   },
   {
    "level": "",
-   "text": "R13 (4 new trades after Wednesday's games): with A, Nunn and the coach are already sorted, so R13 trades can go to Joksimović → Tyson Ward, Feliz → Loyd and one more upgrade. I'll redo this after R12."
+   "text": "R13 plan, redone 16 Nov from your Variation B squad with the weekend news (4 trades after Wednesday's games): Nunn → Nadir Hifi (PRS, 15.7; 24 PIR per game over his last 3, 22 pts ~19 PIR at Limoges on Saturday, home to Hapoel), Feliz → Cameron Payne (IST, 10.2; home to ASVEL; only ~3 PIR in Sunday's derby, so check his EuroLeague minutes on Tuesday first), Brizuela → Álvaro Cárdenas (PAM, 4.4; 18' and PIR 10 on Sunday), and coach Masiulis → Albert (PAM; Valencia host Virtus). About 5.6% for 200 in R13, against 1.8% if you change nothing; it ends with about 0.1 in the bank at today's prices. Tyson Ward and Loyd are out of the plan: Ward had about −3 PIR in 18' at Aris, and Loyd no longer makes the top plans. Prices move after R12, so this gets re-checked on Wednesday night before you trade."
   },
   {
    "level": "",
@@ -375,5 +375,5 @@
   }
  ],
  "review": "Scorecard: no finished round to grade yet (R12 starts Tuesday 17 Nov). R11 (unofficial, our count) came to about 168, led by Vezenkov (C) 57 and coach Penarroya (PAR) +20. Own the miss: this morning's A relied on the site's old prices, and with the official game's prices it doesn't fit (0.1 short). From now on, every plan is checked against app_prices.json, and round_start's bank is set so the plans match the app (0.3, not 0.5). Calls holding up: selling Madar (now at Maccabi, doubtful) and Faye → Diop (Booker out about 3 months). Today's domestic games came through clean for Vezenkov, Nunn and Robinson. Research: 34 searches, 12 pages read, 2 players unverified (Diop and Baldwin's domestic games, both still in play tonight).",
- "window_plan": "I'd make rebuild 1: sell Nunn, Herrera, Davidovac, Joksimović and Diarra; buy Payne, Frisch, Procida, Valančiūnas and Llull, with coach Martinez (RMB). Valančiūnas is the clear upgrade at center, and Procida and Frisch are minutes-backed cheap enablers. Diop goes too if Onyema is registered and takes his minutes in R12; check Llull against Campazzo's and Maledon's returns. Prices shift after R12–R13, so I'll redo this on 21 Nov."
+ "window_plan": "R13 plan, redone 16 Nov from your Variation B squad with the weekend news (4 trades after Wednesday's games): Nunn → Nadir Hifi (PRS, 15.7; 24 PIR per game over his last 3, 22 pts ~19 PIR at Limoges on Saturday, home to Hapoel), Feliz → Cameron Payne (IST, 10.2; home to ASVEL; only ~3 PIR in Sunday's derby, so check his EuroLeague minutes on Tuesday first), Brizuela → Álvaro Cárdenas (PAM, 4.4; 18' and PIR 10 on Sunday), and coach Masiulis → Albert (PAM; Valencia host Virtus). About 5.6% for 200 in R13, against 1.8% if you change nothing; it ends with about 0.1 in the bank at today's prices. Tyson Ward and Loyd are out of the plan: Ward had about −3 PIR in 18' at Aris, and Loyd no longer makes the top plans. Prices move after R12, so this gets re-checked on Wednesday night before you trade."
 }
