@@ -41,3 +41,7 @@ Run manually: `python collect.py`, write `reports/<date>.json`, then `python ren
 | `sim.py` | 4-trade optimiser for the next round, and the **rebuild planner** for unlimited trade windows (`data/<date>/rebuild.json`). |
 | `scorecard.py` | After each round: real score of each variation and your team, captain call, projection accuracy (`data/scorecard.json`). |
 | collector extras | Cheap upside watch (role jumps), optional bookmaker lines (`ODDS_API_KEY`, The Odds API free tier). |
+
+## More teams
+Each extra team has its own folder `teams/<id>/` and page (`…/teams/<id>/`), with a switcher at the top of
+every page. Run any script for it with `ELF_TEAM=<id>`. Team 2 started from scratch on 15 Nov 2026 with 103.3 credits.

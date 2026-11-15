@@ -24,7 +24,8 @@ ROOT = Path(__file__).resolve().parent
 BASE = "https://basketballstats.eu"
 UA = "Mozilla/5.0 (fantasy-research-script)"
 TODAY = dt.date.today()
-OUT = ROOT / "data" / TODAY.isoformat()
+from paths import TEAM, data_dir, load_team, team_file
+OUT = data_dir(TODAY.isoformat())
 CACHE = ROOT / "data" / "players_cache.json"
 
 TEAMS = {
@@ -253,7 +254,7 @@ def sync_page_team():
     """If the owner saved a team on the report page (Firebase), copy it into my_team.json.
     Only when it changed since the last sync, so Variation A auto-apply still works when the user didn't touch it."""
     cfg_f = ROOT / "firebase-web.json"
-    if not cfg_f.exists():
+    if TEAM or not cfg_f.exists():  # the page sync is for the main team only
         return
     cfg = json.loads(cfg_f.read_text(encoding="utf-8"))
     pid, uid = (cfg.get("config") or {}).get("projectId"), cfg.get("owner_uid")
@@ -271,7 +272,7 @@ def sync_page_team():
         return
     d = {k: _fs_value(v) for k, v in (docj.get("fields") or {}).items()}
     upd = d.get("updated") or docj.get("updateTime")
-    tf = ROOT / "my_team.json"
+    tf = team_file()
     team = json.loads(tf.read_text(encoding="utf-8"))
     tr = team.setdefault("tracking", {})
     if tr.get("page_updated") == upd:
@@ -385,7 +386,7 @@ def main():
     sys.stdout.reconfigure(encoding="utf-8")
     OUT.mkdir(parents=True, exist_ok=True)
     sync_page_team()
-    team_cfg = json.loads((ROOT / "my_team.json").read_text(encoding="utf-8"))
+    team_cfg = load_team()
 
     print("Fetching projections, news, calendar, injuries, prices…")
     proj = json.loads(get("/api/fantasy/projections/latest.json") or "{}")

@@ -9,6 +9,8 @@ The user gives a screenshot of their Fantasy team, or words like "sold Nunn, bou
 bank 1.3". Their words and screenshot beat anything assumed in `my_team.json`.
 
 1. `git pull --ff-only` in the repo root.
+   Which team? The main team is `my_team.json`; other teams are `teams/<id>/team.json` (e.g. "team 2" →
+   `teams/team2/team.json`). Ask if it's unclear.
 2. Read `my_team.json`, the latest `reports/*.json` and `data/players_cache.json` (or the latest
    `data/<date>/pool.json`) for exact player spellings and prices.
 3. Read the screenshot or text. Pull out whatever it shows: the 10 players, starters / 6th man /

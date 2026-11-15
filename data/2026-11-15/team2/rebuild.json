@@ -1,0 +1,325 @@
+{
+ "budget": 103.3,
+ "rounds": [
+  14,
+  15,
+  16
+ ],
+ "current": [],
+ "plans": [
+  {
+   "players": [
+    "Aliou Diarra",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Elijah Bryant",
+    "Gabriele Procida",
+    "Justin Robinson",
+    "Ousmane Diop",
+    "Sasha Vezenkov",
+    "Sebastian Herrera",
+    "Vanja Marinkovic"
+   ],
+   "coach": "OLY",
+   "cost": 103.3,
+   "bank_after": 0.0,
+   "sell": [],
+   "buy": [
+    "Aliou Diarra",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Elijah Bryant",
+    "Gabriele Procida",
+    "Justin Robinson",
+    "Ousmane Diop",
+    "Sasha Vezenkov",
+    "Sebastian Herrera",
+    "Vanja Marinkovic"
+   ],
+   "coach_change": true,
+   "avg_p_target": 0.044,
+   "avg_mean": 143.8,
+   "rounds": [
+    {
+     "rd": 14,
+     "formation": "2-2-1",
+     "starters": [
+      "Elijah Bryant",
+      "Justin Robinson",
+      "Sasha Vezenkov",
+      "Clement Frisch",
+      "Aliou Diarra"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Gabriele Procida",
+      "Ousmane Diop",
+      "Sebastian Herrera",
+      "Vanja Marinkovic"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 146.4,
+     "p90": 186.8,
+     "p10": 105.3,
+     "p_target": 0.044
+    },
+    {
+     "rd": 15,
+     "formation": "2-2-1",
+     "starters": [
+      "Elijah Bryant",
+      "Justin Robinson",
+      "Sasha Vezenkov",
+      "Clement Frisch",
+      "Aliou Diarra"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Gabriele Procida",
+      "Ousmane Diop",
+      "Sebastian Herrera",
+      "Vanja Marinkovic"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 151.6,
+     "p90": 192.9,
+     "p10": 109.7,
+     "p_target": 0.064
+    },
+    {
+     "rd": 16,
+     "formation": "3-1-1",
+     "starters": [
+      "Elijah Bryant",
+      "Justin Robinson",
+      "Andres Feliz",
+      "Sasha Vezenkov",
+      "Aliou Diarra"
+     ],
+     "sixth": "Sebastian Herrera",
+     "bench": [
+      "Gabriele Procida",
+      "Ousmane Diop",
+      "Clement Frisch",
+      "Vanja Marinkovic"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 133.3,
+     "p90": 175.9,
+     "p10": 91.1,
+     "p_target": 0.025
+    }
+   ]
+  },
+  {
+   "players": [
+    "Aliou Diarra",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Gabriele Procida",
+    "Jonas Valanciunas",
+    "Justin Robinson",
+    "Rj Cole",
+    "Sasha Vezenkov",
+    "Sergio Llull",
+    "Vanja Marinkovic"
+   ],
+   "coach": "ZAL",
+   "cost": 103.0,
+   "bank_after": 0.3,
+   "sell": [],
+   "buy": [
+    "Aliou Diarra",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Gabriele Procida",
+    "Jonas Valanciunas",
+    "Justin Robinson",
+    "Rj Cole",
+    "Sasha Vezenkov",
+    "Sergio Llull",
+    "Vanja Marinkovic"
+   ],
+   "coach_change": true,
+   "avg_p_target": 0.038,
+   "avg_mean": 144.0,
+   "rounds": [
+    {
+     "rd": 14,
+     "formation": "2-1-2",
+     "starters": [
+      "Justin Robinson",
+      "Andres Feliz",
+      "Sasha Vezenkov",
+      "Jonas Valanciunas",
+      "Aliou Diarra"
+     ],
+     "sixth": "Rj Cole",
+     "bench": [
+      "Clement Frisch",
+      "Gabriele Procida",
+      "Vanja Marinkovic",
+      "Sergio Llull"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 135.5,
+     "p90": 174.9,
+     "p10": 97.1,
+     "p_target": 0.016
+    },
+    {
+     "rd": 15,
+     "formation": "2-1-2",
+     "starters": [
+      "Justin Robinson",
+      "Andres Feliz",
+      "Sasha Vezenkov",
+      "Jonas Valanciunas",
+      "Aliou Diarra"
+     ],
+     "sixth": "Rj Cole",
+     "bench": [
+      "Clement Frisch",
+      "Gabriele Procida",
+      "Vanja Marinkovic",
+      "Sergio Llull"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 147.3,
+     "p90": 189.4,
+     "p10": 106.6,
+     "p_target": 0.053
+    },
+    {
+     "rd": 16,
+     "formation": "2-1-2",
+     "starters": [
+      "Justin Robinson",
+      "Andres Feliz",
+      "Sasha Vezenkov",
+      "Jonas Valanciunas",
+      "Aliou Diarra"
+     ],
+     "sixth": "Rj Cole",
+     "bench": [
+      "Gabriele Procida",
+      "Clement Frisch",
+      "Vanja Marinkovic",
+      "Sergio Llull"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 149.3,
+     "p90": 187.9,
+     "p10": 109.9,
+     "p_target": 0.045
+    }
+   ]
+  },
+  {
+   "players": [
+    "Aliou Diarra",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Gabriele Procida",
+    "Jonas Valanciunas",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Sergio Llull",
+    "Tyson Carter",
+    "Vanja Marinkovic"
+   ],
+   "coach": "MAD",
+   "cost": 103.3,
+   "bank_after": 0.0,
+   "sell": [],
+   "buy": [
+    "Aliou Diarra",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Gabriele Procida",
+    "Jonas Valanciunas",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Sergio Llull",
+    "Tyson Carter",
+    "Vanja Marinkovic"
+   ],
+   "coach_change": true,
+   "avg_p_target": 0.037,
+   "avg_mean": 144.1,
+   "rounds": [
+    {
+     "rd": 14,
+     "formation": "2-1-2",
+     "starters": [
+      "Justin Robinson",
+      "Andres Feliz",
+      "Sasha Vezenkov",
+      "Jonas Valanciunas",
+      "Aliou Diarra"
+     ],
+     "sixth": "Tyson Carter",
+     "bench": [
+      "Clement Frisch",
+      "Gabriele Procida",
+      "Vanja Marinkovic",
+      "Sergio Llull"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 146.0,
+     "p90": 186.3,
+     "p10": 105.4,
+     "p_target": 0.044
+    },
+    {
+     "rd": 15,
+     "formation": "2-2-1",
+     "starters": [
+      "Justin Robinson",
+      "Andres Feliz",
+      "Sasha Vezenkov",
+      "Clement Frisch",
+      "Jonas Valanciunas"
+     ],
+     "sixth": "Aliou Diarra",
+     "bench": [
+      "Gabriele Procida",
+      "Tyson Carter",
+      "Vanja Marinkovic",
+      "Sergio Llull"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 147.7,
+     "p90": 187.6,
+     "p10": 107.0,
+     "p_target": 0.045
+    },
+    {
+     "rd": 16,
+     "formation": "2-1-2",
+     "starters": [
+      "Justin Robinson",
+      "Andres Feliz",
+      "Sasha Vezenkov",
+      "Jonas Valanciunas",
+      "Aliou Diarra"
+     ],
+     "sixth": "Tyson Carter",
+     "bench": [
+      "Gabriele Procida",
+      "Clement Frisch",
+      "Vanja Marinkovic",
+      "Sergio Llull"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 138.6,
+     "p90": 179.0,
+     "p10": 96.9,
+     "p_target": 0.023
+    }
+   ]
+  }
+ ],
+ "window_before": 14,
+ "window": "21 Nov – 24 Nov"
+}

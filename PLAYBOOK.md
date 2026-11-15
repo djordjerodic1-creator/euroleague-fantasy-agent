@@ -212,6 +212,18 @@ says what changed since the earlier run, or "No change since HH:MM" with what yo
 - Prices change every round: recompute the squad value from the pool and keep `total_budget`
   = squad value + bank.
 
+## More than one team (teams/<id>/)
+Extra teams live in `teams/<id>/`: `team.json` (same format as `my_team.json`), `inbox.md`, `reports/`,
+`scorecard.json` and the team's page `index.html`. Run the whole pipeline for each one with the env var set:
+`ELF_TEAM=<id> python3 collect.py`, then `sim.py`, `scorecard.py` and `render.py` the same way (data goes to
+`data/<date>/<id>/`). Apply the team-tracking rules to that team's own `team.json` and `inbox.md`.
+- Do the research **once** and reuse it across teams (same news, same players); only research players that
+  are new to that team. Each team still gets its own variations, reads and alerts.
+- **New team (no players yet):** `sim.py` picks the best squads from scratch for the budget over the rounds
+  before the next unlimited window (optimizer.json has `draft: true`). Write `mode: "draft"`, empty `trades`
+  and the squad in each variation; the page shows "Pick this squad". Once the round starts and the user hasn't
+  said otherwise, apply Variation A's squad to `team.json` like any Variation A.
+
 ## Continuity
 Read the previous report in `reports/` (if any). Track your past calls: did the trades pay off,
 did the injury reads hold up? Own your misses in one line, and adjust if the same mistake keeps

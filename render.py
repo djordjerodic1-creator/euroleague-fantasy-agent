@@ -20,6 +20,7 @@ import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
+from paths import TEAM as TEAM_ID, all_teams, data_dir, index_file, load_team, reports_dir, scorecard_file  # noqa: E402
 
 TEAM = {  # code: (short label, full name, primary, secondary)
     "ASV": ("ASV", "ASVEL", "#0f5132", "#ffffff"), "BAR": ("BAR", "Barcelona", "#a50044", "#004d98"),
@@ -55,7 +56,7 @@ def esc(s):
 # ------------------------------------------------------------------ data
 class Data:
     def __init__(self, date):
-        d = ROOT / "data" / date
+        d = data_dir(date)
         self.digest = json.loads((d / "digest.json").read_text(encoding="utf-8"))
         self.pool = json.loads((d / "pool.json").read_text(encoding="utf-8"))
         self.target = self.digest["target_round"]
@@ -303,7 +304,7 @@ def day_key(day):
 
 
 def load_schedule(date):
-    f = ROOT / "data" / date / "schedule.json"
+    f = data_dir(date) / "schedule.json"
     return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {"games": [], "standings": []}
 
 
@@ -360,7 +361,7 @@ def page_data(D, sched, team, names, rv):
          "a_in": [s for s in (sl(split_name(t["in"])[0]) for t in trades if not t["in"].strip().startswith("Coach")) if s],
          "a_out": [s for s in (sl(split_name(t["out"])[0]) for t in trades if not t["out"].strip().startswith("Coach")) if s],
          "a_coach": coach_code_of(rv.get("coach", "")) if rv.get("coach") else None,
-         "target": D.target, "leg": leg, "later": later}
+         "target": D.target, "leg": leg, "later": later, "depth": 2 if TEAM_ID else 0, "team_id": TEAM_ID}
     FB = load_firebase()
 
     def dump(o):
@@ -468,7 +469,7 @@ def write_predictions(date, D, built, team, now):
     out = {"date": date, "round": D.target, "team_round": inprog[0] if inprog else None, "band_round": band_round,
            "proj": proj if band_round == D.target else {k: v[:2] + [None, None] + v[4:] for k, v in proj.items()},
            "variations": vs, "team": snap, "team_sim": now}
-    (ROOT / "data" / date / "predictions.json").write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
+    (data_dir(date) / "predictions.json").write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
 
 
 def day_plan(v, D):
@@ -512,7 +513,7 @@ def day_plan(v, D):
 
 
 def scorecard_html():
-    sc = load_json(ROOT / "data" / "scorecard.json", {}).get("rounds", {})
+    sc = load_json(scorecard_file(), {}).get("rounds", {})
     if not sc:
         return ""
     rds = sorted(sc, key=int)
@@ -553,7 +554,7 @@ def load_json(f, default):
 
 
 def rebuild_html(date, D, R):
-    rb = load_json(ROOT / "data" / date / "rebuild.json", None)
+    rb = load_json(data_dir(date) / "rebuild.json", None)
     if not rb or not rb.get("plans"):
         return ""
     W, cur = rb["window_before"], {x["rd"]: x for x in rb.get("current", [])}
@@ -784,6 +785,9 @@ dialog details{background:var(--card2)}
 .dayplan{border-left:3px solid var(--lime);padding-left:10px}
 .dn{color:var(--green);font-weight:700}.trade.done{border-color:rgba(61,220,132,.45)}.tl .dnrow{opacity:.8}
 .undo{color:var(--amber);font-weight:600}
+.teamsw{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.tsw{font:600 14px 'Fira Sans';color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 12px;background:var(--card)}
+.tsw.on{color:#14152a;background:var(--lime);border-color:var(--lime)}
 .rbp{padding:4px 0 10px}.rbp+.rbp,details .rbp{border-top:1px solid var(--line);padding-top:12px;margin-top:6px}
 .rbh{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}.rbh b{font:700 19px 'Fira Sans Extra Condensed'}
 .rbm{display:grid;gap:6px}.rbm .lbl{display:inline-block;width:42px;font:700 11px 'Fira Sans';letter-spacing:1px}
@@ -878,6 +882,7 @@ function pg(id){document.querySelectorAll('.ptab[data-pg]').forEach(b=>b.setAttr
 document.querySelectorAll('.ptab[data-pg]').forEach(b=>b.addEventListener('click',()=>{pg(b.dataset.pg);
   try{history.replaceState(null,'',b.dataset.pg==='pg-sched'?'#schedule':location.pathname+location.search)}catch(e){}scrollTo({top:0})}));
 if(location.hash==='#schedule')pg('pg-sched');
+document.querySelectorAll('[data-root-href]').forEach(a=>{a.href='../'.repeat((M.depth||0)+(location.pathname.includes('/reports/')?1:0))+a.dataset.rootHref||'./'});
 
 /* ---------- active team: the report's squad, or the visitor's own saved team ---------- */
 const PL=JSON.parse($('#dPL').textContent),FBC=JSON.parse($('#dFB').textContent);
@@ -925,7 +930,7 @@ function renderSched(){
 }
 /* ---------- players outside this page: load full stats on demand ---------- */
 let ALLP=null;
-async function loadAll(){if(ALLP)return ALLP;try{const base=location.pathname.includes('/reports/')?'../':'';
+async function loadAll(){if(ALLP)return ALLP;try{const base='../'.repeat((M.depth||0)+(location.pathname.includes('/reports/')?1:0));
   ALLP=await (await fetch(base+'site/players.json',{cache:'no-cache'})).json()}catch(e){ALLP={}}return ALLP}
 document.addEventListener('click',async e=>{const el=e.target.closest('[data-p]');if(!el||P[el.dataset.p])return;
   const all=await loadAll();if(all[el.dataset.p]){P[el.dataset.p]=all[el.dataset.p];showP(el.dataset.p)}});
@@ -1021,7 +1026,7 @@ if(FBC.config&&FBC.config.apiKey){
 def current_points(D):
     """Projected points of the squad exactly as it is set now (my_team.json lineup)."""
     try:
-        t = json.loads((ROOT / "my_team.json").read_text(encoding="utf-8"))
+        t = load_team()
         lu = t.get("lineup") or {}
         st = [D.player(n) for n in lu.get("starters", [])]
         if len(st) != 5:
@@ -1043,7 +1048,7 @@ def sim_of(st, sixth, bench, captain, cc, D, target, n=6000):
 
 def current_sim(D, target):
     try:
-        t = json.loads((ROOT / "my_team.json").read_text(encoding="utf-8"))
+        t = load_team()
         lu = t.get("lineup") or {}
         st = [D.player(n) for n in lu.get("starters", [])]
         if len(st) != 5:
@@ -1102,16 +1107,22 @@ def undo_list(rv, mt):
 
 
 def render(date):
-    R = json.loads((ROOT / "reports" / f"{date}.json").read_text(encoding="utf-8"))
+    R = json.loads((reports_dir() / f"{date}.json").read_text(encoding="utf-8"))
     D = Data(date)
     try:
-        target = float(json.loads((ROOT / "my_team.json").read_text(encoding="utf-8")).get("target_points", 200))
+        target = float(load_team().get("target_points", 200))
     except Exception:
         target = 200.0
     target = float(R.get("target", target))
     rnd = R.get("round", D.target)
+    TEAMCFG = load_team()
+    DRAFT = not TEAMCFG.get("players")  # brand-new team: the variations are squads picked from scratch
     try:
-        MT = made_trades(D, json.loads((ROOT / "my_team.json").read_text(encoding="utf-8")))
+        CPR = {c["t"]: c["price"] for c in json.loads((data_dir(date) / "projections.json").read_text(encoding="utf-8")).get("coaches", [])}
+    except Exception:
+        CPR = {}
+    try:
+        MT = made_trades(D, load_team())
     except Exception:
         MT = None
     tabs, panes, built = [], [], []
@@ -1125,7 +1136,12 @@ def render(date):
         total, cpts = squad_points(st, sixth, bench, v["captain"], cg)
         mc = sim_of(st, sixth, bench, v["captain"], cc, D, target)
         trades = v.get("trades", [])
-        issues = validate(st + ([sixth] if sixth else []) + bench, v.get("bank_after"), len(trades))
+        issues = validate(st + ([sixth] if sixth else []) + bench, v.get("bank_after"), 4 if DRAFT else len(trades))
+        if DRAFT:
+            cost = round(sum((p.get("price") or 0) for p in st + ([sixth] if sixth else []) + bench) + CPR.get(cc, 0), 1)
+            budget = float((R.get("budget") or {}).get("total") or TEAMCFG.get("total_budget") or 100)
+            if cost > budget + 0.05:
+                issues.append(f"squad + coach cost {cost} > budget {budget}")
         built.append((v, st, sixth, bench, cc, total, mc))
 
         tcards = []
@@ -1160,7 +1176,7 @@ def render(date):
 <div class="box"><h4>6th man (100%) &amp; coach</h4><div class="row">{card(sixth, small=True) if sixth else ''}{coach_card}</div></div>
 <div class="box"><h4>Bench (50%)</h4><div class="row">{''.join(card(p, small=True) for p in bench)}</div></div>
 </div><div class="side">
-<h4>Trades</h4>{''.join(tcards) or '<p>No trades.</p>'}
+{(f"<h4>Picks</h4><p class='why'>New team picked from scratch: {cost} of {budget} credits, bank {round(budget - cost, 1)}.</p>" if DRAFT else "<h4>Trades</h4>" + (''.join(tcards) or '<p>No trades.</p>'))}
 <p class="capline">🧢 <b>{esc(surname(v['captain']))}</b> captain{(' · vice ' + esc(surname(v['vice']))) if v.get('vice') else ''}. {esc(v.get('captain_note', ''))}</p>
 {(lambda dp: f'<p class="capline dayplan">🔁 <b>Day plan:</b> {esc(dp)}</p>' if dp else '')(v.get('captain_plan') or day_plan(v, D))}
 <details{' open' if v.get('recommended') else ''}><summary>Why this squad</summary><ul>{''.join(f'<li>{esc(x)}</li>' for x in v.get('reasoning', []))}</ul></details>
@@ -1171,7 +1187,7 @@ def render(date):
     rv, rst, rsix, rbench, rcc, rtotal, rmc = next((b for b in built if b[0].get("recommended")), built[0])
     now = current_sim(D, target)
     try:
-        write_predictions(date, D, built, json.loads((ROOT / "my_team.json").read_text(encoding="utf-8")), now)
+        write_predictions(date, D, built, load_team(), now)
     except Exception as e:
         print("! predictions not saved:", e)
     tl = "".join(f'<div{" class=dnrow" if trade_done(t, MT) else ""}>{"<b class=dn>✓</b> " if trade_done(t, MT) else ""}<span class="o">▼ {esc(split_name(t["out"])[0])}</span> → <span class="n">▲ {esc(split_name(t["in"])[0])}</span>'
@@ -1181,6 +1197,15 @@ def render(date):
         tl = "".join(f'<div class="undo">↩ Undo your trade: {esc(u)}</div>' for u in undo) + tl
     n_done = sum(trade_done(t, MT) for t in rv.get("trades", []))
     trades_head = f"Make {len(rv.get('trades', []))} trades" + (f" ({n_done} already made ✓)" if n_done else "")
+    if DRAFT:
+        allp = rst + ([rsix] if rsix else []) + rbench
+        cost = round(sum(p.get("price") or 0 for p in allp) + CPR.get(rcc, 0), 1)
+        trades_head = f"Pick this squad ({cost} credits incl. coach)"
+        tl = "<div>" + "".join(f'<button class="pchip" data-p="{esc(slug_of(p))}"><i>{POSL.get(p.get("pos"), "?")}</i>{esc(surname(p["name"]))} <small>{p.get("price")}</small></button>'
+                               for p in sorted(allp, key=lambda p: ("Guard", "Forward", "Center").index(p.get("pos")) if p.get("pos") in ("Guard", "Forward", "Center") else 3))              + f'<span class="pchip hc" data-t="{esc(rcc)}" role="button" tabindex="0"><i>HC</i>{esc(coach_label(rcc))} <small>{CPR.get(rcc, "")}</small></span></div>'
+    teams = all_teams()
+    switch = ("" if len(teams) < 2 else '<nav class="teamsw">' + "".join(
+        f'<a class="tsw{" on" if t["id"] == TEAM_ID else ""}" data-root-href="{esc(t["href"])}" href="#">{esc(t["name"])}</a>' for t in teams) + "</nav>")
     plan = f"""<section><div class="card plan"><div class="kick">Your plan in 60 seconds · Variation {esc(rv['key'])}</div>
 <p class="lead">{esc(R['bottom_line'])}</p>
 <ol class="steps">
@@ -1216,7 +1241,7 @@ def render(date):
     # ---- data for the popups + schedule tab
     sched = load_schedule(date)
     try:
-        team = json.loads((ROOT / "my_team.json").read_text(encoding="utf-8"))
+        team = load_team()
     except Exception:
         team = {}
     names = set(team.get("players", [])) | {p["name"] for p in R.get("players", [])} | {wname(w) for w in R.get("watchlist", [])}
@@ -1235,7 +1260,7 @@ def render(date):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@500;600;700;800&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>{CSS}</style></head><body><div class="wrap">
-<header><div class="kick">EuroLeague Fantasy · analyst report · {esc(date)}</div><h1>Round {rnd} plan</h1>
+<header>{switch}<div class="kick">EuroLeague Fantasy · analyst report · {esc(date)}</div><h1>Round {rnd} plan</h1>
 <div class="chips">{f'<span class="chip hot">Deadline <b>{esc(dl)}</b></span>' if dl else ''}
 <span class="chip">Budget <b>{esc(b.get('total', '–'))}</b></span><span class="chip">Bank <b>{esc(b.get('bank', '–'))}</b></span>
 {f'<span class="chip">{esc(R["window"])}</span>' if R.get('window') else ''}</div>
@@ -1257,10 +1282,10 @@ def render(date):
 Data: basketballstats.eu model plus the analyst's own research. Recommendations only: make your changes in the official game.</footer>
 </div><dialog id="dlg" aria-label="Details"><button class="x" aria-label="Close">×</button><div class="dlgin" id="dlgb"></div></dialog>
 {blobs}<script>{JS}</script><script type="module">{FB_JS}</script></body></html>"""
-    out = ROOT / "reports" / f"{date}.html"
+    out = reports_dir() / f"{date}.html"
     out.write_text(page, encoding="utf-8")
-    (ROOT / "reports" / "latest.html").write_text(page, encoding="utf-8")
-    (ROOT / "index.html").write_text(page, encoding="utf-8")
+    (reports_dir() / "latest.html").write_text(page, encoding="utf-8")
+    index_file().write_text(page, encoding="utf-8")
     print(f"Rendered: {out}")
 
 

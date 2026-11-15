@@ -441,12 +441,32 @@ def main():
     from render import Data
     date = sys.argv[1] if len(sys.argv) > 1 else dt.date.today().isoformat()
     D = Data(date)
-    team = json.loads((ROOT / "my_team.json").read_text(encoding="utf-8"))
+    from paths import load_team, data_dir
+    team = load_team()
     target = float(team.get("target_points", 200))
-    proj = json.loads((ROOT / "data" / date / "projections.json").read_text(encoding="utf-8"))
+    proj = json.loads((data_dir(date) / "projections.json").read_text(encoding="utf-8"))
     coach_prices = {c["t"]: c["price"] for c in proj.get("coaches", [])}
-    res = optimise(D, team, coach_prices, target)
-    (ROOT / "data" / date / "optimizer.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
+    if not team.get("players"):
+        # brand-new team: pick the best 10 + coach from scratch for the rounds before the next unlimited window
+        from render import load_schedule
+        rounds = D.digest.get("horizon") or [D.target]
+        res = rebuild(D, team, coach_prices, target, load_schedule(date), rounds, n_plans=5)
+        res.update({"draft": True, "target": target})
+        (data_dir(date) / "optimizer.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"New team: best squads from scratch for budget {res['budget']}, judged over rounds {rounds}")
+        for i, pl in enumerate(res["plans"], 1):
+            r0 = pl["rounds"][0]
+            print(f" {i}. avg P {pl['avg_p_target']:.1%} mean {pl['avg_mean']} cost {pl['cost']} bank {pl['bank_after']} "
+                  f"coach {pl['coach']} cap {r0['captain']}")
+            print(f"    {pl['players']}")
+    else:
+        res = optimise(D, team, coach_prices, target)
+        (data_dir(date) / "optimizer.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
+        print_plans(res, target)
+    window_plan(D, team, coach_prices, target, date)
+
+
+def print_plans(res, target):
     b = res["current_best_lineup"]
     label = "Pre-round squad (before this round's trades)" if res.get("pre_round_squad") else "Current squad"
     print(f"Target {target:.0f}. {label}, best lineup: mean {b['mean']}, top-10% {b['p90']}, P(>=target) {b['p_target']:.1%}")
@@ -457,7 +477,10 @@ def main():
         t = "; ".join(f"{x['out']}->{x['in']}" for x in r["trades"])
         print(f"{i:2}. P {r['p_target']:.1%}  mean {r['mean']}  p90 {r['p90']}  bank {r['bank_after']}  cap {r['captain']}  | {t}")
 
-    # unlimited trade window coming up: plan the full rebuild over the window round and the two after it
+
+def window_plan(D, team, coach_prices, target, date):
+    """Unlimited trade window coming up: plan the full rebuild over the window round and the two after it."""
+    from paths import data_dir
     W, win = window_round(D)
     if "--rebuild" in sys.argv:
         W = int(sys.argv[sys.argv.index("--rebuild") + 1])
@@ -465,7 +488,7 @@ def main():
         from render import load_schedule
         rb = rebuild(D, team, coach_prices, target, load_schedule(date), [W, W + 1, W + 2])
         rb.update({"window_before": W, "window": win})
-        (ROOT / "data" / date / "rebuild.json").write_text(json.dumps(rb, ensure_ascii=False, indent=1), encoding="utf-8")
+        (data_dir(date) / "rebuild.json").write_text(json.dumps(rb, ensure_ascii=False, indent=1), encoding="utf-8")
         cur = rb["current"]
         print()
         print(f"Unlimited window before R{W} ({win}). Budget {rb['budget']}. Rounds {rb['rounds']}.")

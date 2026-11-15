@@ -2,3 +2,6 @@ __pycache__/
 data/*/projections.json
 data/*/news.json
 data/*/pool.json
+data/*/*/projections.json
+data/*/*/news.json
+data/*/*/pool.json

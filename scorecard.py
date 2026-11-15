@@ -119,14 +119,15 @@ def round_done(rd, sched):
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     date = sys.argv[1] if len(sys.argv) > 1 else dt.date.today().isoformat()
-    d = ROOT / "data" / date
+    from paths import TEAM, data_dir, load_team, scorecard_file
+    d = data_dir(date)
     pool, sched = load(d / "pool.json", []), load(d / "schedule.json", {})
     if not pool or not sched:
         print("scorecard: need today's pool.json and schedule.json (run collect.py first)")
         return
-    sc_path = ROOT / "data" / "scorecard.json"
+    sc_path = scorecard_file()
     sc = load(sc_path, {"rounds": {}})
-    preds = sorted((load(f) for f in (ROOT / "data").glob("*/predictions.json")), key=lambda p: p["date"])
+    preds = sorted((load(f) for f in (ROOT / "data").glob(f"*/{TEAM}/predictions.json" if TEAM else "*/predictions.json")), key=lambda p: p["date"])
     by_round = {}
     for p in preds:
         by_round.setdefault(p["round"], []).append(p)
@@ -142,7 +143,7 @@ def main():
         during = [p for p in preds if p["round"] == rd + 1 and p.get("team_round") == rd]
         snap = (during[0] if during else last).get("team")
         sc["rounds"][str(rd)] = score_round(rd, last, snap, pool, sched)
-        rep_score = (load(ROOT / "my_team.json", {}).get("round_scores") or {}).get(str(rd))
+        rep_score = (load_team().get("round_scores") or {}).get(str(rd))
         if rep_score is not None and sc["rounds"][str(rd)].get("team"):
             sc["rounds"][str(rd)]["team"]["reported"] = rep_score
         new.append(rd)
