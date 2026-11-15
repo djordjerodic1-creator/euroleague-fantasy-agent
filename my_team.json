@@ -5,7 +5,7 @@
     "Kendrick Nunn",
     "Dario Brizuela",
     "Andres Feliz",
-    "Theo Maledon",
+    "Justin Robinson",
     "Sasha Vezenkov",
     "Collin Malcolm",
     "Stefan Joksimovic",
@@ -15,24 +15,24 @@
   ],
   "lineup": {
     "starters": [
-      "Dario Brizuela",
+      "Justin Robinson",
       "Kendrick Nunn",
       "Sasha Vezenkov",
       "Collin Malcolm",
       "Aliou Diarra"
     ],
-    "sixth": "Kenan Kamenjas",
+    "sixth": "Andres Feliz",
     "bench": [
-      "Stefan Joksimovic",
-      "Andres Feliz",
+      "Kenan Kamenjas",
       "Nikolaos Rogkavopoulos",
-      "Theo Maledon"
+      "Stefan Joksimovic",
+      "Dario Brizuela"
     ]
   },
   "captain": "Sasha Vezenkov",
-  "coach": "Fenerbahce",
-  "bank": 0.0,
-  "bank_known": true,
+  "coach": "Zalgiris",
+  "bank": 0.7,
+  "bank_known": false,
   "total_budget": 105.5,
   "trades_left_this_round": 0,
   "tracking": {
@@ -40,7 +40,7 @@
     "updated": "2026-11-15",
     "last_applied_report": "2026-11-15"
   },
-  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. R12 trades redone 15 Nov evening (user screenshot): Faye->Kamenjas, Davidovac->Rogkavopoulos, Madar->Maledon, coach Partizan->Jasikevicius (ULK); Robinson, Herrera, Diop and coach Masiulis undone. App shows 0.0/105.5, trades 4/4. The app still lists Kamenjas at Dubai (vs EFS) and shows injury crosses on Rogkavopoulos and Maledon. Lineup in the app: Brizuela, Nunn, Vezenkov (C), Malcolm, Diarra; 6th Kamenjas; bench Joksimovic, Feliz, Rogkavopoulos, Maledon.",
+  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. R12 trades redone 15 Nov evening (user screenshot): Faye->Kamenjas, Davidovac->Rogkavopoulos, Madar->Maledon, coach Partizan->Jasikevicius (ULK); Robinson, Herrera, Diop and coach Masiulis undone. App shows 0.0/105.5, trades 4/4. The app still lists Kamenjas at Dubai (vs EFS) and shows injury crosses on Rogkavopoulos and Maledon. Lineup in the app: Brizuela, Nunn, Vezenkov (C), Malcolm, Diarra; 6th Kamenjas; bench Joksimovic, Feliz, Rogkavopoulos, Maledon. 15 Nov late: user chose Variation B: Madar->Robinson instead of Maledon, coach Masiulis (ZAL) instead of Jasikevicius. Bank 0.7 expected, not yet confirmed from the app.",
   "target_points": 200,
   "app_prices": {
     "_note": "In-app prices from the user's screenshot, 15 Nov.",
@@ -53,8 +53,8 @@
     "Stefan Joksimovic": 4.1,
     "Andres Feliz": 9.7,
     "Nikolaos Rogkavopoulos": 4.5,
-    "Theo Maledon": 12.9,
-    "Coach Jasikevicius (ULK)": 8.3
+    "Justin Robinson": 13.1,
+    "Coach Masiulis (ZAL)": 7.4
   },
   "round_start": {
     "round": 12,

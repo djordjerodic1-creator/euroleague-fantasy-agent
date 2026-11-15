@@ -56,7 +56,7 @@
    "p90": 192.1,
    "p10": 114.1,
    "p_target": 0.063,
-   "kept_your_trades": 2
+   "kept_your_trades": 4
   },
   {
    "trades": [
@@ -107,7 +107,7 @@
    "p90": 191.9,
    "p10": 114.2,
    "p_target": 0.063,
-   "kept_your_trades": 2
+   "kept_your_trades": 4
   },
   {
    "trades": [
@@ -158,7 +158,7 @@
    "p90": 191.2,
    "p10": 112.1,
    "p_target": 0.06,
-   "kept_your_trades": 1
+   "kept_your_trades": 3
   },
   {
    "trades": [
@@ -209,7 +209,7 @@
    "p90": 191.0,
    "p10": 112.1,
    "p_target": 0.06,
-   "kept_your_trades": 1
+   "kept_your_trades": 3
   },
   {
    "trades": [
@@ -260,7 +260,7 @@
    "p90": 191.3,
    "p10": 113.3,
    "p_target": 0.059,
-   "kept_your_trades": 1
+   "kept_your_trades": 3
   },
   {
    "trades": [
@@ -311,7 +311,7 @@
    "p90": 190.7,
    "p10": 112.6,
    "p_target": 0.059,
-   "kept_your_trades": 1
+   "kept_your_trades": 3
   },
   {
    "trades": [
@@ -362,7 +362,7 @@
    "p90": 191.4,
    "p10": 113.3,
    "p_target": 0.058,
-   "kept_your_trades": 1
+   "kept_your_trades": 3
   },
   {
    "trades": [
@@ -413,7 +413,7 @@
    "p90": 191.4,
    "p10": 113.2,
    "p_target": 0.058,
-   "kept_your_trades": 1
+   "kept_your_trades": 3
   },
   {
    "trades": [
@@ -464,7 +464,7 @@
    "p90": 190.9,
    "p10": 112.6,
    "p_target": 0.058,
-   "kept_your_trades": 1
+   "kept_your_trades": 3
   },
   {
    "trades": [
@@ -515,15 +515,15 @@
    "p90": 190.4,
    "p10": 111.6,
    "p_target": 0.057,
-   "kept_your_trades": 0
+   "kept_your_trades": 2
   }
  ],
  "pre_round_squad": true,
  "with_your_trades": {
-  "mean": 151.5,
-  "p90": 190.5,
-  "p10": 112.9,
-  "p_target": 0.052,
+  "mean": 152.4,
+  "p90": 192.1,
+  "p10": 114.1,
+  "p_target": 0.063,
   "captain": "Sasha Vezenkov"
  }
 }

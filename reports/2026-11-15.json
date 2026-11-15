@@ -207,7 +207,7 @@
  "alerts": [
   {
    "level": "high",
-   "text": "Your squad as made (screenshot, 15 Nov evening): Faye → Kamenjas, Davidovac → Rogkavopoulos, Madar → Maledon, coach → Jasikevičius (ULK), bank 0.0. Fix the lineup: start Maledon instead of Brizuela, make Feliz the 6th man and put Kamenjas on the bench (Nunn, Maledon / Vezenkov (C), Malcolm / Diarra; 6th Feliz). That's about 5.2% for 200. The app still lists Kamenjas at Dubai, so keep him at 50% until it moves him. Optional: redo two trades to match Variation B (Madar → Robinson instead of Maledon, coach Masiulis instead of Jasikevičius): about 6.3%, with 0.7 left in the bank."
+   "text": "You chose Variation B (15 Nov evening): in the app, undo Madar → Maledon and do Madar → Robinson, then undo coach → Jasikevičius and take Masiulis (ZAL). Expect about 0.7 in the bank. Lineup: Robinson, Nunn / Vezenkov (C), Malcolm / Diarra; 6th Feliz; bench Kamenjas, Rogkavopoulos, Joksimović, Brizuela. Tell me the bank the app shows once it's done."
   },
   {
    "level": "high",
