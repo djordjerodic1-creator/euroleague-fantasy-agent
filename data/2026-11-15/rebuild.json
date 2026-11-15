@@ -8,24 +8,24 @@
  "current": [
   {
    "rd": 14,
-   "mean": 132.2,
-   "p90": 171.1,
-   "p10": 94.3,
-   "p_target": 0.009
+   "mean": 138.6,
+   "p90": 178.3,
+   "p10": 99.6,
+   "p_target": 0.024
   },
   {
    "rd": 15,
-   "mean": 144.5,
-   "p90": 185.3,
-   "p10": 105.6,
-   "p_target": 0.039
+   "mean": 146.2,
+   "p90": 187.1,
+   "p10": 105.3,
+   "p_target": 0.049
   },
   {
    "rd": 16,
-   "mean": 143.5,
-   "p90": 178.1,
-   "p10": 107.9,
-   "p_target": 0.021
+   "mean": 140.2,
+   "p90": 176.0,
+   "p10": 104.5,
+   "p_target": 0.017
   }
  ],
  "plans": [
@@ -47,19 +47,15 @@
    "bank_after": 0.0,
    "sell": [
     "Kendrick Nunn",
-    "Sebastian Herrera",
+    "Dario Brizuela",
     "Collin Malcolm",
-    "Dejan Davidovac",
-    "Stefan Joksimovic",
-    "Ousmane Diop"
+    "Stefan Joksimovic"
    ],
    "buy": [
     "Cameron Payne",
     "Clement Frisch",
     "Gabriele Procida",
-    "Kenan Kamenjas",
-    "Nikolaos Rogkavopoulos",
-    "Theo Maledon"
+    "Justin Robinson"
    ],
    "coach_change": true,
    "avg_p_target": 0.063,
@@ -153,19 +149,15 @@
    "cost": 105.0,
    "bank_after": 0.5,
    "sell": [
-    "Justin Robinson",
     "Kendrick Nunn",
+    "Dario Brizuela",
     "Collin Malcolm",
-    "Dejan Davidovac",
-    "Stefan Joksimovic",
-    "Ousmane Diop"
+    "Stefan Joksimovic"
    ],
    "buy": [
     "Clement Frisch",
     "Elijah Bryant",
-    "Kenan Kamenjas",
-    "Nikolaos Rogkavopoulos",
-    "Theo Maledon",
+    "Sebastian Herrera",
     "Vanja Marinkovic"
    ],
    "coach_change": true,
@@ -260,24 +252,18 @@
    "cost": 105.5,
    "bank_after": 0.0,
    "sell": [
-    "Justin Robinson",
     "Kendrick Nunn",
-    "Sebastian Herrera",
+    "Dario Brizuela",
     "Collin Malcolm",
-    "Dejan Davidovac",
-    "Stefan Joksimovic",
-    "Ousmane Diop"
+    "Stefan Joksimovic"
    ],
    "buy": [
     "Clement Frisch",
     "Elijah Bryant",
-    "Kenan Kamenjas",
-    "Nikolaos Rogkavopoulos",
     "Rj Cole",
-    "Theo Maledon",
     "Vanja Marinkovic"
    ],
-   "coach_change": false,
+   "coach_change": true,
    "avg_p_target": 0.046,
    "avg_mean": 148.0,
    "rounds": [

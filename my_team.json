@@ -2,59 +2,59 @@
   "_note": "Real squad from the user's screenshot (Round 11, 12 Nov 2026). Maintained by the agent: after each trade deadline it applies Variation A of the latest report unless the user reports otherwise (see PLAYBOOK.md, Team tracking).",
   "round": 12,
   "players": [
-    "Justin Robinson",
     "Kendrick Nunn",
+    "Dario Brizuela",
     "Andres Feliz",
-    "Sebastian Herrera",
+    "Theo Maledon",
     "Sasha Vezenkov",
     "Collin Malcolm",
-    "Dejan Davidovac",
     "Stefan Joksimovic",
+    "Nikolaos Rogkavopoulos",
     "Aliou Diarra",
-    "Ousmane Diop"
+    "Kenan Kamenjas"
   ],
   "lineup": {
     "starters": [
-      "Justin Robinson",
+      "Dario Brizuela",
       "Kendrick Nunn",
       "Sasha Vezenkov",
       "Collin Malcolm",
       "Aliou Diarra"
     ],
-    "sixth": "Andres Feliz",
+    "sixth": "Kenan Kamenjas",
     "bench": [
-      "Sebastian Herrera",
       "Stefan Joksimovic",
-      "Dejan Davidovac",
-      "Ousmane Diop"
+      "Andres Feliz",
+      "Nikolaos Rogkavopoulos",
+      "Theo Maledon"
     ]
   },
   "captain": "Sasha Vezenkov",
-  "coach": "Zalgiris",
-  "bank": 0.1,
+  "coach": "Fenerbahce",
+  "bank": 0.0,
   "bank_known": true,
   "total_budget": 105.5,
   "trades_left_this_round": 0,
   "tracking": {
-    "source": "user",
-    "updated": "2026-11-14",
-    "last_applied_report": "2026-11-14"
+    "source": "user (screenshot)",
+    "updated": "2026-11-15",
+    "last_applied_report": "2026-11-15"
   },
-  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. R12 trades done 14 Nov (user): Madar->Robinson, Faye->Diop, Brizuela->Sebastian Herrera, coach Partizan->Zalgiris; bank 0.1 in app (confirmed by user). Total budget unchanged at 105.5 (trades swap value, they do not add it). Screenshot 14 Nov confirms squad, captain Vezenkov, coach Masiulis, 0.1/105.5. App had Herrera as 6th man; advised swapping Feliz to 6th. 14 Nov evening: R12 trades used (0 left); R13 gets 4 new trades.",
+  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. R12 trades redone 15 Nov evening (user screenshot): Faye->Kamenjas, Davidovac->Rogkavopoulos, Madar->Maledon, coach Partizan->Jasikevicius (ULK); Robinson, Herrera, Diop and coach Masiulis undone. App shows 0.0/105.5, trades 4/4. The app still lists Kamenjas at Dubai (vs EFS) and shows injury crosses on Rogkavopoulos and Maledon. Lineup in the app: Brizuela, Nunn, Vezenkov (C), Malcolm, Diarra; 6th Kamenjas; bench Joksimovic, Feliz, Rogkavopoulos, Maledon.",
   "target_points": 200,
   "app_prices": {
-    "_note": "In-app prices from the user's screenshot, 14 Nov (after R11 price changes; the site hadn't published them yet).",
+    "_note": "In-app prices from the user's screenshot, 15 Nov.",
     "Aliou Diarra": 10.8,
     "Collin Malcolm": 10.3,
     "Sasha Vezenkov": 19.2,
-    "Justin Robinson": 13.1,
+    "Dario Brizuela": 6.0,
     "Kendrick Nunn": 14.9,
-    "Sebastian Herrera": 6.3,
+    "Kenan Kamenjas": 4.8,
     "Stefan Joksimovic": 4.1,
     "Andres Feliz": 9.7,
-    "Dejan Davidovac": 4.8,
-    "Ousmane Diop": 4.8,
-    "Coach Masiulis (ZAL)": 7.4
+    "Nikolaos Rogkavopoulos": 4.5,
+    "Theo Maledon": 12.9,
+    "Coach Jasikevicius (ULK)": 8.3
   },
   "round_start": {
     "round": 12,
