@@ -1,0 +1,529 @@
+{
+ "target": 200.0,
+ "current_best_lineup": {
+  "mean": 131.9,
+  "p90": 170.3,
+  "p10": 94.5,
+  "p_target": 0.009
+ },
+ "plans": [
+  {
+   "trades": [
+    {
+     "out": "Mouhamed Faye",
+     "out_price": 7.8,
+     "in": "Ousmane Diop",
+     "in_price": 4.5
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Yam Madar",
+     "out_price": 10.5,
+     "in": "Justin Robinson",
+     "in_price": 12.8
+    },
+    {
+     "out": "Dejan Davidovac",
+     "out_price": 4.7,
+     "in": "Gabriele Procida",
+     "in_price": 4.5
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 0.6,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Kendrick Nunn",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Gabriele Procida",
+    "Ousmane Diop",
+    "Stefan Joksimovic",
+    "Dario Brizuela"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 152.0,
+   "p90": 191.9,
+   "p10": 113.1,
+   "p_target": 0.063,
+   "kept_your_trades": 3
+  },
+  {
+   "trades": [
+    {
+     "out": "Mouhamed Faye",
+     "out_price": 7.8,
+     "in": "Ousmane Diop",
+     "in_price": 4.5
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Yam Madar",
+     "out_price": 10.5,
+     "in": "Justin Robinson",
+     "in_price": 12.8
+    },
+    {
+     "out": "Stefan Joksimovic",
+     "out_price": 4.2,
+     "in": "Gabriele Procida",
+     "in_price": 4.5
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 0.1,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Kendrick Nunn",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Gabriele Procida",
+    "Ousmane Diop",
+    "Dejan Davidovac",
+    "Dario Brizuela"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 151.8,
+   "p90": 191.6,
+   "p10": 113.1,
+   "p_target": 0.061,
+   "kept_your_trades": 3
+  },
+  {
+   "trades": [
+    {
+     "out": "Mouhamed Faye",
+     "out_price": 7.8,
+     "in": "Ousmane Diop",
+     "in_price": 4.5
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Yam Madar",
+     "out_price": 10.5,
+     "in": "Justin Robinson",
+     "in_price": 12.8
+    },
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.3,
+     "in": "Cory Joseph",
+     "in_price": 5.5
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 1.2,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Kendrick Nunn",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Ousmane Diop",
+    "Cory Joseph",
+    "Stefan Joksimovic",
+    "Dejan Davidovac"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 150.6,
+   "p90": 190.4,
+   "p10": 111.6,
+   "p_target": 0.057,
+   "kept_your_trades": 3
+  },
+  {
+   "trades": [
+    {
+     "out": "Mouhamed Faye",
+     "out_price": 7.8,
+     "in": "Ousmane Diop",
+     "in_price": 4.5
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Yam Madar",
+     "out_price": 10.5,
+     "in": "Justin Robinson",
+     "in_price": 12.8
+    },
+    {
+     "out": "Dejan Davidovac",
+     "out_price": 4.7,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.1
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 1.0,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Kendrick Nunn",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Ousmane Diop",
+    "Vanja Marinkovic",
+    "Stefan Joksimovic",
+    "Dario Brizuela"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 150.4,
+   "p90": 190.0,
+   "p10": 111.9,
+   "p_target": 0.056,
+   "kept_your_trades": 3
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 12.8
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Mouhamed Faye",
+     "out_price": 7.8,
+     "in": "Ousmane Diop",
+     "in_price": 4.5
+    },
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.3,
+     "in": "Cameron Payne",
+     "in_price": 10.2
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 0.8,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Andres Feliz",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Cameron Payne",
+   "bench": [
+    "Yam Madar",
+    "Ousmane Diop",
+    "Stefan Joksimovic",
+    "Dejan Davidovac"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 150.1,
+   "p90": 190.4,
+   "p10": 111.7,
+   "p_target": 0.056,
+   "kept_your_trades": 3
+  },
+  {
+   "trades": [
+    {
+     "out": "Mouhamed Faye",
+     "out_price": 7.8,
+     "in": "Ousmane Diop",
+     "in_price": 4.5
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Yam Madar",
+     "out_price": 10.5,
+     "in": "Justin Robinson",
+     "in_price": 12.8
+    },
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.3,
+     "in": "Sebastian Herrera",
+     "in_price": 5.9
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 0.8,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Kendrick Nunn",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Ousmane Diop",
+    "Sebastian Herrera",
+    "Stefan Joksimovic",
+    "Dejan Davidovac"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 151.0,
+   "p90": 190.3,
+   "p10": 112.8,
+   "p_target": 0.054,
+   "kept_your_trades": 4
+  },
+  {
+   "trades": [
+    {
+     "out": "Mouhamed Faye",
+     "out_price": 7.8,
+     "in": "Ousmane Diop",
+     "in_price": 4.5
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Yam Madar",
+     "out_price": 10.5,
+     "in": "Justin Robinson",
+     "in_price": 12.8
+    },
+    {
+     "out": "Stefan Joksimovic",
+     "out_price": 4.2,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.1
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 0.5,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Kendrick Nunn",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Ousmane Diop",
+    "Vanja Marinkovic",
+    "Dejan Davidovac",
+    "Dario Brizuela"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 150.3,
+   "p90": 190.0,
+   "p10": 111.9,
+   "p_target": 0.054,
+   "kept_your_trades": 3
+  },
+  {
+   "trades": [
+    {
+     "out": "Collin Malcolm",
+     "out_price": 9.8,
+     "in": "Gabriele Procida",
+     "in_price": 4.5
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Yam Madar",
+     "out_price": 10.5,
+     "in": "Justin Robinson",
+     "in_price": 12.8
+    },
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.3,
+     "in": "Scottie Wilbekin",
+     "in_price": 8.6
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 0.1,
+   "formation": "3-1-1",
+   "starters": [
+    "Justin Robinson",
+    "Kendrick Nunn",
+    "Andres Feliz",
+    "Sasha Vezenkov",
+    "Aliou Diarra"
+   ],
+   "sixth": "Scottie Wilbekin",
+   "bench": [
+    "Gabriele Procida",
+    "Mouhamed Faye",
+    "Stefan Joksimovic",
+    "Dejan Davidovac"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 150.9,
+   "p90": 189.8,
+   "p10": 111.3,
+   "p_target": 0.052,
+   "kept_your_trades": 2
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 12.8
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Dejan Davidovac",
+     "out_price": 4.7,
+     "in": "Gabriele Procida",
+     "in_price": 4.5
+    },
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.3,
+     "in": "Marius Grigonis",
+     "in_price": 7.1
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 0.8,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Andres Feliz",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Yam Madar",
+   "bench": [
+    "Gabriele Procida",
+    "Mouhamed Faye",
+    "Marius Grigonis",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 150.3,
+   "p90": 190.2,
+   "p10": 111.4,
+   "p_target": 0.052,
+   "kept_your_trades": 2
+  },
+  {
+   "trades": [
+    {
+     "out": "Mouhamed Faye",
+     "out_price": 7.8,
+     "in": "Ousmane Diop",
+     "in_price": 4.5
+    },
+    {
+     "out": "Coach PAR",
+     "out_price": 6.2,
+     "in": "Coach ZAL",
+     "in_price": 7.3
+    },
+    {
+     "out": "Yam Madar",
+     "out_price": 10.5,
+     "in": "Justin Robinson",
+     "in_price": 12.8
+    },
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.3,
+     "in": "Matteo Spagnolo",
+     "in_price": 5.2
+    }
+   ],
+   "coach": "ZAL",
+   "bank_after": 1.5,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Kendrick Nunn",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Ousmane Diop",
+    "Stefan Joksimovic",
+    "Dejan Davidovac",
+    "Matteo Spagnolo"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 149.9,
+   "p90": 189.5,
+   "p10": 111.6,
+   "p_target": 0.051,
+   "kept_your_trades": 3
+  }
+ ],
+ "pre_round_squad": true,
+ "with_your_trades": {
+  "mean": 151.0,
+  "p90": 190.3,
+  "p10": 112.8,
+  "p_target": 0.054,
+  "captain": "Sasha Vezenkov"
+ }
+}
