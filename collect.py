@@ -382,6 +382,46 @@ def role_jumps(pool, max_price=9.0, top=12):
     return ranked
 
 
+def apply_overrides(pool, target, app):
+    """overrides.json: the user's / analyst's fixes for news the sources haven't caught up with
+    (a return from injury, a transfer to another club). With `pir`, the player's round projections are
+    rebuilt on his (new) club's schedule, using the club's most-used player as the opponent/home template."""
+    f = ROOT / "overrides.json"
+    ov = (json.loads(f.read_text(encoding="utf-8")).get("players") or {}) if f.exists() else {}
+    by_name = {norm(p["name"]): p for p in pool.values()}
+    n = 0
+    for nm, o in ov.items():
+        if o.get("until_round") and o["until_round"] < target:
+            continue
+        p = by_name.get(norm(nm))
+        if not p:
+            slug = re.sub(r"[^a-z0-9]+", "-", norm(nm)).strip("-")
+            inf = (app.get("info") or {}).get(nm) or {}
+            p = pool[slug] = {"name": nm, "s": slug, "slug": slug, "owned": inf.get("owned")}
+        if o.get("club"):
+            p["t"] = o["club"]
+        if o.get("pos"):
+            p["pos"] = o["pos"]
+        if o.get("price"):
+            p["price"], p["price_src"] = float(o["price"]), p.get("price_src") or "app"
+        if o.get("status"):
+            p["status"] = None if o["status"] == "ok" else o["status"]
+        if o.get("pir"):
+            mates = [q for q in pool.values() if q.get("t") == p.get("t") and q is not p and q.get("nx")]
+            tpl = max(mates, key=lambda q: sum(e[3] for e in q["nx"]), default=None)
+            if tpl:
+                base = sum(e[3] for e in tpl["nx"] + (tpl.get("nxe") or [])) / max(1, len(tpl["nx"]) + len(tpl.get("nxe") or []))
+                k = o["pir"] / base if base else 1
+                p["nx"] = [[e[0], e[1], e[2], round(e[3] * k, 1)] + list(e[4:]) for e in tpl["nx"]]
+                p["nxe"] = [[e[0], e[1], e[2], round(e[3] * k, 1)] + list(e[4:]) for e in (tpl.get("nxe") or [])]
+                p["p10"], p["p90"] = round(o["pir"] * 0.35, 1), round(o["pir"] * 1.75, 1)
+        p["override"] = o.get("why", "manual override")
+        n += 1
+    if n:
+        print(f"  overrides.json: {n} players adjusted ({', '.join(k for k, o in ov.items() if not o.get('until_round') or o['until_round'] >= target)})")
+    return n
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     OUT.mkdir(parents=True, exist_ok=True)
@@ -505,6 +545,7 @@ def main():
                 if c.get("t") in app["coaches"]:
                     c["price"] = app["coaches"][c["t"]]
             (OUT / "projections.json").write_text(json.dumps(proj, ensure_ascii=False), encoding="utf-8")
+    ov_n = apply_overrides(pool, target, app)
     for p in pool.values():
         p["score"] = window_score(p, horizon) if p.get("nx") else None
         p["fresh"] = p.get("_seen") == TODAY.isoformat()
@@ -636,7 +677,7 @@ def main():
         "swaps": swaps, "previews": previews, "role_jumps": rj,
     }
     keep = ("name", "slug", "s", "c", "t", "pos", "price", "status", "owned", "l3", "l5", "l10", "m3", "m10",
-            "nx", "nxe", "sig", "p10", "p90", "pwin", "proj_price_change", "price_d3", "season_summary", "g5", "gl", "bio", "since_start", "pirpm", "start", "grade", "rj", "dom", "price_official", "price_src")
+            "nx", "nxe", "sig", "p10", "p90", "pwin", "proj_price_change", "price_d3", "season_summary", "g5", "gl", "bio", "since_start", "pirpm", "start", "grade", "rj", "dom", "price_official", "price_src", "override")
     slim = [{k: p.get(k) for k in keep if p.get(k) is not None} for p in pool.values()]
     (OUT / "pool.json").write_text(json.dumps(slim, ensure_ascii=False), encoding="utf-8")
     (OUT / "digest.json").write_text(json.dumps({**digest, "roster": mine}, ensure_ascii=False, default=str, indent=1),

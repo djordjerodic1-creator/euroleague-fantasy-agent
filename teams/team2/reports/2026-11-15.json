@@ -7,7 +7,7 @@
   "bank": 103.3
  },
  "window": "New team: free picks now for the R12+R13 double week · unlimited trades again before R14 (21–24 Nov)",
- "bottom_line": "Pick a squad built for just two rounds: unlimited trades open again before R14, so there's no reason to pay for the long term now. With the game's real prices, Valančiūnas (17.7) doesn't fit a winning squad, so Variation A goes Robinson, Feliz, Vezenkov (C), Malcolm and Diarra, with Payne as 6th man and coach Bartzokas (OLY), for 103.0 of 103.3 and about a 7% chance of 200+ in R12.",
+ "bottom_line": "Pick a squad built for just two rounds: unlimited trades open again before R14, so there's no reason to pay for the long term now. With the game's real prices, Valančiūnas (17.7) doesn't fit a winning squad, so Variation A goes Robinson, Feliz, Vezenkov (C), Malcolm and Diarra, with Payne as 6th man, Kamenjas instead of Diop on the bench and coach Bartzokas (OLY), for 103.0 of 103.3 and about a 7% chance of 200+ in R12.",
  "current_fix": null,
  "variations": [
   {
@@ -29,7 +29,7 @@
    "sixth": "Cameron Payne",
    "bench": [
     "Gabriele Procida",
-    "Ousmane Diop",
+    "Kenan Kamenjas",
     "Clement Frisch",
     "Sergio Llull"
    ],
@@ -44,11 +44,12 @@
     "Robinson runs Barcelona while Punter is out (20 PIR over his last 3), at home to Paris in the fastest game of the round.",
     "Malcolm (21 PIR over his last 3, 30 minutes) and Payne (17.7, 25 minutes) are Efes' two most-used players at Dubai, and Bruno Fernando's absence opens the paint.",
     "Diarra (10.8, 35% owned) is the affordable center now that Valančiūnas costs 17.7.",
-    "The bench is cheap minutes: Procida (10 → 23 minutes with Madrid's injuries), Frisch (26 minutes with Sedekerskis out), Diop (Booker out 3 months), Llull (4.2)."
+    "The bench is cheap minutes: Procida (10 → 23 minutes with Madrid's injuries), Frisch (26 minutes with Sedekerskis out), Kamenjas (new at Baskonia, PIR 22 on debut), Llull (4.2)."
    ],
    "cancel_if": [
-    "Diarra listed doubtful on Monday: Diop moves into the starting five and Llull becomes 6th man.",
-    "Malcolm or Payne ruled out: swap him for Herrera (5.9) and keep the change."
+    "Diarra listed doubtful on Monday: Kamenjas moves into the starting five and Llull becomes 6th man.",
+    "Malcolm or Payne ruled out: swap him for Herrera (5.9) and keep the change.",
+    "If the game still shows Kamenjas at Dubai on Monday evening (or he isn't on Baskonia's EuroLeague list), keep Diop instead: same price, nothing else changes."
    ]
   },
   {
@@ -126,6 +127,10 @@
   }
  ],
  "alerts": [
+  {
+   "level": "high",
+   "text": "Evening news (your tip, confirmed by today's ACB box score): Kamenjas moved from Dubai to Baskonia and had PIR 22 in 24' on his debut vs Real Madrid; he costs 4.8, the same as Diop, so Variation A takes him instead of Diop. Maledon is back too (PIR 29 in 16' in the same game): at 12.9 he's in the model's best squad (with Marinković and coach Masiulis, about 5.3% vs 5.0%) and plays Wednesday, but just back from a long injury, so he's the alternative, not the pick."
+  },
   {
    "level": "",
    "text": "Re-run 15 Nov evening: no change to the squad. I re-ran the optimiser with the official prices and the same 10 + Bartzokas (OLY) still come out best (4.6% averaged over R12–R13). Today's domestic games: Vezenkov (19 pts, 7 reb at Aris) and Robinson (rested in a 25-point Barça win) are fine. Feliz, Malcolm, Diarra and Diop were still playing at report time."
@@ -216,14 +221,14 @@
    "read": "26 minutes with Sedekerskis out; 5.5. [dom: ACB 7 Nov 27' PIR 13, acb.com]"
   },
   {
-   "name": "Ousmane Diop",
-   "verdict": "BUY",
-   "read": "More minutes while Booker is out; 4.8. Sell in the R14 window once Onyema arrives. [dom: unverified]"
-  },
-  {
    "name": "Sergio Llull",
    "verdict": "BUY",
    "read": "The cheapest guard who plays (4.2), about 18 minutes; a pure enabler. [dom: ACB 8 Nov 22' PIR 6, acb.com]"
+  },
+  {
+   "name": "Kenan Kamenjas",
+   "verdict": "BUY",
+   "read": "Moved from Dubai to Baskonia this week; debut vs Real Madrid today: 15 pts, 8 reb, PIR 22 in 24' off the bench [dom: ACB 15 Nov, live.acb.com]. Baskonia are short of bigs, home to Hapoel on Tuesday. 4.8. The game still lists him at Dubai."
   }
  ],
  "watchlist": [
@@ -242,5 +247,5 @@
  ],
  "window_plan": "This squad is built for R12–R13 only. Before R14 you get unlimited trades again; the plan is redone on 21 Nov with the new prices (import them again then).",
  "review": "First report for this team: no rounds played yet; the scorecard starts after R12. Squad redone on 15 Nov evening with the official game's prices (the first version used the site's R11 prices and was too expensive). Research: reused the main team's research (34 searches, 12 pages read); 2 players unverified (Payne's and Diop's domestic games, both playing tonight).",
- "generated": "2026-11-15T18:50Z"
+ "generated": "2026-11-15T21:00Z"
 }

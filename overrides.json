@@ -1,0 +1,20 @@
+{
+ "_how": "Manual fixes for news the data sources haven't caught up with. Each entry applies up to and including until_round, then is ignored. Fields: club (our code), pos, price, status (ok/doubtful/injured/out), pir (expected PIR per game, replaces the projection), why. The analyst adds entries from the user's news and removes expired ones.",
+ "players": {
+  "Theo Maledon": {
+   "status": "ok",
+   "pir": 15,
+   "until_round": 13,
+   "why": "Back from injury: 18 pts, 6 ast, PIR 29 in 16' at Baskonia (ACB, 15 Nov). Minutes still limited, so 15 rather than his pre-injury 20."
+  },
+  "Kenan Kamenjas": {
+   "club": "BAS",
+   "pos": "Center",
+   "price": 4.8,
+   "status": "ok",
+   "pir": 10,
+   "until_round": 13,
+   "why": "Moved from Dubai to Baskonia (Gasteizhoy); the game still lists him at Dubai. Debut vs Real Madrid (ACB, 15 Nov): 15 pts, 8 reb, PIR 22 in 24' off the bench. Baskonia are short of bigs."
+  }
+ }
+}

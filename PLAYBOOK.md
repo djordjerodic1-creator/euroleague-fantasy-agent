@@ -186,6 +186,7 @@ says what changed since the earlier run, or "No change since HH:MM" with what yo
   (`tracking.source` = "page (user)", `tracking.page_updated` = save time). It is the user's own word, so it beats
   any assumed Variation A. If `page_updated` is after the previous report's trade deadline, it already includes
   that round's trades: set `tracking.last_applied_report` to that report and don't apply Variation A on top.
+- **Overrides (`overrides.json`):** news the data sources haven't caught up with (a return from injury, a move to another club that the game still shows under the old club). Each entry sets `club`, `pos`, `price`, `status`, `pir` (expected PIR per game; the collector rebuilds the player's projections on his club's schedule) and `until_round`. Check every entry against the latest box scores, update `pir` when there's new evidence, and delete expired ones. When the user reports news like this, add an entry rather than only mentioning it in the text.
 - **Inbox (check first, every run):** if `inbox/team.md` has anything below its `---` line, the
   user wrote it (often from their phone). It beats both the old file and any assumed Variation A.
   1. Apply it to `my_team.json`. It can be a full squad or a change list ("sold Nunn, bought

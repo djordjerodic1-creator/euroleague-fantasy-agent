@@ -6,8 +6,8 @@
   "bank": 0.3
  },
  "window": "R12: 4 trades, changeable in the app until Tuesday's first tip-off (17 Nov) · R13: 4 trades after Wednesday's games · unlimited before R14 (21–24 Nov)",
- "generated": "2026-11-15T18:45Z",
- "bottom_line": "New since this morning: with the game's real prices, Procida no longer fits (you'd be 0.1 short), so this morning's plan is off. Best now: sell Nunn instead of Madar for Robinson, put Madar's money into Wade Baldwin and switch the coach to Jasikevicius (ULK). That's about a 6.1% chance of 200 (1 in 16), against 5.4% for the trades you've made, and it already does the Nunn sale planned for R13. Captain Vezenkov, Feliz is your late option on Wednesday.",
+ "generated": "2026-11-15T21:00Z",
+ "bottom_line": "New since this morning: with the game's real prices, Procida no longer fits (you'd be 0.1 short), so this morning's plan is off. Best now: sell Nunn instead of Madar for Robinson, put Madar's money into Wade Baldwin and switch the coach to Jasikevicius (ULK). Tonight's news adds one change: take Kamenjas (Baskonia, 4.8) instead of Diop. That's about a 6.1% chance of 200 (1 in 16), against 5.4% for the trades you've made, and it already does the Nunn sale planned for R13. Captain Vezenkov, Feliz is your late option on Wednesday.",
  "current_fix": "With no changes to your trades: Herrera is still your 6th man in the app. Use 3-1-1: Robinson, Nunn, Feliz / Vezenkov (C) / Diarra, with Malcolm as 6th man and Herrera on the bench.",
  "variations": [
   {
@@ -25,9 +25,9 @@
     },
     {
      "out": "Mouhamed Faye (8.3)",
-     "in": "Ousmane Diop (4.8)",
+     "in": "Kenan Kamenjas (4.8)",
      "credits": "+3.5",
-     "why": "Already made: keep it. Booker is out about 3 months, so Diop has the big-man minutes until Onyema is registered (expected early this week). [dom: unverified after 2 searches]"
+     "why": "Undo Faye → Diop and take Kamenjas instead. Moved from Dubai to Baskonia this week; debut vs Real Madrid today: 15 pts, 8 reb, PIR 22 in 24' off the bench [dom: ACB 15 Nov, live.acb.com]. Baskonia are short of bigs, home to Hapoel on Tuesday. Same 4.8 as Diop, and no Onyema threat. The game still lists him at Dubai."
     },
     {
      "out": "Yam Madar (10.5)",
@@ -53,7 +53,7 @@
    ],
    "sixth": "Wade Baldwin Iv",
    "bench": [
-    "Ousmane Diop",
+    "Kenan Kamenjas",
     "Dario Brizuela",
     "Stefan Joksimovic",
     "Dejan Davidovac"
@@ -72,8 +72,9 @@
    ],
    "cancel_if": [
     "If Baldwin or another key Fenerbahçe player comes out of tonight's Efes derby hurt, keep your trades as made (Variation B).",
+    "Prefer Maledon (12.9) to Baldwin (13.5)? Same chance in the model, 0.6 cheaper and a second Wednesday option, but he's just back from injury.",
     "If the app's bank doesn't come out near 0.9 once all the trades are in, a price has moved: buy Horton-Tucker (12.3) instead of Baldwin, or keep Variation B.",
-    "If Onyema is registered for Tuesday, Diop drops to a bench-only role. Keep him anyway: he's the 50% slot."
+    "If the game still shows Kamenjas at Dubai on Monday evening (or he isn't on Baskonia's EuroLeague list), keep Diop instead: same price, nothing else changes."
    ]
   },
   {
@@ -206,6 +207,10 @@
   }
  ],
  "alerts": [
+  {
+   "level": "high",
+   "text": "Evening news (your tip, confirmed by today's ACB box score): Kamenjas moved from Dubai to Baskonia and had PIR 22 in 24' on his debut vs Real Madrid; he costs 4.8, the same as Diop, so Variation A now takes him instead. Maledon is back too (PIR 29 in 16' in the same game): at 12.9 he's level with Baldwin in the model and plays Wednesday, but just back from a long injury, so he's the alternative, not the pick."
+  },
   {
    "level": "high",
    "text": "What changed since the 09:40 report: the official game prices are now in (app_prices.json, 15 Nov), and this morning's Variation A (undo Brizuela → Herrera, then Davidovac → Procida) is 0.1 short. Undoing gives 0.4, but Procida costs 0.5 more than Davidovac. The new A sells Nunn instead of Madar and buys Baldwin with coach Jasikevicius (ULK). Today's domestic games (Vezenkov, Nunn, Robinson, Brizuela) brought no injuries."
