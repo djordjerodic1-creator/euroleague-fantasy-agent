@@ -7,13 +7,13 @@
  },
  "window": "R12: 4 trades, changeable in the app until Tuesday's first tip-off (17 Nov) · R13: 4 trades after Wednesday's games · unlimited before R14 (21–24 Nov)",
  "generated": "2026-11-15T21:00Z",
- "bottom_line": "New since this morning: with the game's real prices, Procida no longer fits (you'd be 0.1 short), so this morning's plan is off. Best now: sell Nunn instead of Madar for Robinson, put Madar's money into Wade Baldwin and switch the coach to Jasikevicius (ULK). Tonight's news adds one change: take Kamenjas (Baskonia, 4.8) instead of Diop. That's about a 6.1% chance of 200 (1 in 16), against 5.4% for the trades you've made, and it already does the Nunn sale planned for R13. Captain Vezenkov, Feliz is your late option on Wednesday.",
+ "bottom_line": "Tonight's news changes the pick to Variation B: keep Madar → Robinson and coach Masiulis (ZAL) as you made them, change Faye → Diop to Faye → Kamenjas (PIR 22 on his Baskonia debut, same 4.8), and undo Brizuela → Herrera for Davidovac → Rogkavopoulos (back today, about 12 PIR in 23'). About 6.3% chance of 200 against 5.4% for the trades as made, bank 0.7. Captain Vezenkov; Feliz is your late option on Wednesday. Variation A (sell Nunn now, Baldwin, coach Jasikevičius) is close behind at about 6.0%.",
  "current_fix": "With no changes to your trades: Herrera is still your 6th man in the app. Use 3-1-1: Robinson, Nunn, Feliz / Vezenkov (C) / Diarra, with Malcolm as 6th man and Herrera on the bench.",
  "variations": [
   {
    "key": "A",
    "name": "Best shot at 200",
-   "recommended": true,
+   "recommended": false,
    "risk": "Medium",
    "tagline": "Sell Nunn (not Madar) for Robinson, put Madar into Baldwin, and switch the coach to Jasikevicius (ULK). Keep Faye → Diop.",
    "trades": [
@@ -80,9 +80,9 @@
   {
    "key": "B",
    "name": "Fewest changes",
-   "recommended": false,
+   "recommended": true,
    "risk": "Low",
-   "tagline": "Keeps two of the trades you've made (Robinson and coach Masiulis), swaps Diop for Kamenjas and Herrera for Rogkavopoulos. Same chance as A.",
+   "tagline": "Keeps two of the trades you've made (Robinson and coach Masiulis), swaps Diop for Kamenjas and Herrera for Rogkavopoulos. The best plan after tonight's news.",
    "trades": [
     {
      "out": "Yam Madar (10.5)",
@@ -130,7 +130,7 @@
    "vice": "Andres Feliz",
    "captain_note": "Same captain: Vezenkov at Maccabi, 78% to win, with Milutinov out. Feliz on Wednesday is the late switch if Vezenkov has a quiet night.",
    "reasoning": [
-    "About 6.0% chance of 200, the same as A, with only two undos instead of three.",
+    "About 6.3% chance of 200, the best plan now (A is about 6.0%), with only two undos instead of three.",
     "Two cheap returns on the bench (Kamenjas, Rogkavopoulos) instead of Diop and Herrera.",
     "Downside vs A: Nunn stays, so his sale (at Zalgiris on a back-to-back) still costs an R13 trade."
    ],
@@ -210,8 +210,8 @@
    "text": "Evening news (your tip, confirmed by today's ACB box score): Kamenjas moved from Dubai to Baskonia and had PIR 22 in 24' on his debut vs Real Madrid; he costs 4.8, the same as Diop, so Variation A now takes him instead. Maledon is back too (PIR 29 in 16' in the same game): at 12.9 he's level with Baldwin in the model and plays Wednesday, but just back from a long injury, so he's the alternative, not the pick."
   },
   {
-   "level": "",
-   "text": "Rogkavopoulos (PAN, 4.5) is back too and played today (14 pts, about 12 PIR in 23'). He's in Variation B now: keep Robinson and coach Masiulis as made, Faye → Kamenjas, and Davidovac → Rogkavopoulos instead of Brizuela → Herrera. Same chance as A with one undo fewer."
+   "level": "high",
+   "text": "Rogkavopoulos (PAN, 4.5) is back too and played today (14 pts, about 12 PIR in 23'). He's in Variation B now: keep Robinson and coach Masiulis as made, Faye → Kamenjas, and Davidovac → Rogkavopoulos instead of Brizuela → Herrera. That's now the best plan (about 6.3% vs 6.0% for A), with one undo fewer."
   },
   {
    "level": "high",
