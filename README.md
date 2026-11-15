@@ -45,3 +45,10 @@ Run manually: `python collect.py`, write `reports/<date>.json`, then `python ren
 ## More teams
 Each extra team has its own folder `teams/<id>/` and page (`…/teams/<id>/`), with a switcher at the top of
 every page. Run any script for it with `ELF_TEAM=<id>`. Team 2 started from scratch on 15 Nov 2026 with 103.3 credits.
+
+## Exact prices from the official game (once per round)
+basketballstats.eu only publishes a round's prices late, so import them yourself after each round's games:
+1. Log in at euroleaguefantasy.euroleaguebasketball.net in Chrome/Edge, press F12 → Network, filter `fantaking`.
+2. Open the transfer market / player list in the game, then right-click a request → **Save all as HAR with content**.
+3. `python import_prices.py "<file>.har"` → writes `app_prices.json` (names and prices only), then commit it.
+Every team and the daily run use it for that round. Never commit the .har file (it holds your login session; `*.har` is git-ignored).

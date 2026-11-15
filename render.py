@@ -1112,6 +1112,12 @@ def price_chip(D):
     if not pr.get("round"):
         return ""
     app = f" · {pr['app_prices']} from your app ({esc(pr.get('app_updated') or '')})" if pr.get("app_prices") else ""
+    if (pr.get("app_prices") or 0) >= 200:
+        return (f'<span class="chip" title="Prices for {pr["app_prices"]} players come straight from the official game '
+                f'(imported {esc(pr.get("app_updated") or "")}).">Prices: official game, {esc(pr.get("app_updated") or "")}</span>')
+    if pr.get("stale") and pr.get("estimated"):
+        return (f'<span class="chip warnchip" title="The site has not published R{D.target} prices yet: official R{pr["round"]} prices plus each '
+                f'player&#39;s projected R{pr["round"]} change ({pr["estimated"]} players), usually within 0.1.">Prices: estimated for R{D.target}{app}</span>')
     if pr.get("stale"):
         return (f'<span class="chip warnchip" title="The site has not published R{D.target} prices yet; these are the official prices '
                 f'from before R{pr["round"]} was played, so post-R{pr["round"]} price changes are missing.">Prices: R{pr["round"]} '

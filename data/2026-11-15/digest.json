@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T09:15",
+ "generated": "2026-11-15T19:12",
  "today": "2026-11-15",
  "source_round": 12,
  "rounds_in_progress": [],
@@ -9,6 +9,13 @@
   12,
   13
  ],
+ "prices": {
+  "round": 11,
+  "stale": true,
+  "app_prices": 287,
+  "estimated": 232,
+  "app_updated": "2026-11-15"
+ },
  "calendar": {
   "11": {
    "start": "2026-11-11",
@@ -62,7 +69,7 @@
   "unmatched": [],
   "coach": "ZAL",
   "captain": "Sasha Vezenkov",
-  "cost": 103.0,
+  "cost": 105.4,
   "bank": 0.1,
   "club_count": {
    "BAR": 1,
@@ -109,18 +116,18 @@
     {
      "name": "Elie Okobo",
      "team": "DUB",
-     "price": 12.7,
+     "price": 12.3,
      "score": 19.89,
      "gain": -7.8,
      "owned": 2.0
     },
     {
-     "name": "Chris Jones",
-     "team": "RED",
-     "price": 12.5,
-     "score": 19.62,
-     "gain": -8.1,
-     "owned": 5.0
+     "name": "Mckinley Wright Iv",
+     "team": "DUB",
+     "price": 13.0,
+     "score": 19.85,
+     "gain": -7.9,
+     "owned": 2.0
     }
    ]
   },
@@ -139,7 +146,7 @@
     {
      "name": "Sylvain Francisco",
      "team": "PAN",
-     "price": 14.1,
+     "price": 14.0,
      "score": 23.23,
      "gain": -1.7,
      "owned": 8.0
@@ -155,7 +162,7 @@
     {
      "name": "Carlik Jones",
      "team": "PAR",
-     "price": 13.7,
+     "price": 13.9,
      "score": 22.14,
      "gain": -2.8,
      "owned": 24.0
@@ -175,14 +182,6 @@
    "out_score": 22.9,
    "options": [
     {
-     "name": "Jordan Loyd",
-     "team": "IST",
-     "price": 9.4,
-     "score": 19.46,
-     "gain": -3.4,
-     "owned": 0.8
-    },
-    {
      "name": "Rj Cole",
      "team": "MIL",
      "price": 8.9,
@@ -191,28 +190,36 @@
      "owned": 0.7
     },
     {
+     "name": "Jimmy Clark Iii",
+     "team": "TEL",
+     "price": 9.3,
+     "score": 17.61,
+     "gain": -5.3,
+     "owned": 0.8
+    },
+    {
      "name": "Scottie Wilbekin",
      "team": "BES",
-     "price": 8.6,
+     "price": 8.8,
      "score": 16.65,
      "gain": -6.2,
      "owned": 6.0
     },
     {
-     "name": "Leandro Bolmaro",
-     "team": "MIL",
-     "price": 8.2,
-     "score": 16.36,
-     "gain": -6.5,
-     "owned": 0.6
+     "name": "Wendell Moore",
+     "team": "VIR",
+     "price": 9.4,
+     "score": 16.5,
+     "gain": -6.4,
+     "owned": 0.7
     },
     {
-     "name": "Tyson Carter",
-     "team": "RED",
-     "price": 7.4,
-     "score": 16.05,
-     "gain": -6.8,
-     "owned": 5.0
+     "name": "Hugo Besson",
+     "team": "ASV",
+     "price": 9.7,
+     "score": 16.4,
+     "gain": -6.5,
+     "owned": 0.6
     }
    ]
   },
@@ -223,18 +230,34 @@
     {
      "name": "Cory Joseph",
      "team": "OLY",
-     "price": 5.5,
+     "price": 5.8,
      "score": 10.81,
      "gain": -2.5,
      "owned": 3.0
     },
     {
+     "name": "Terry Tarpey",
+     "team": "PRS",
+     "price": 6.1,
+     "score": 10.34,
+     "gain": -3.0,
+     "owned": 0.4
+    },
+    {
      "name": "Matteo Spagnolo",
      "team": "BAS",
-     "price": 5.2,
+     "price": 5.1,
      "score": 9.45,
      "gain": -3.9,
      "owned": 2.0
+    },
+    {
+     "name": "Dario Brizuela",
+     "team": "BAR",
+     "price": 6.0,
+     "score": 9.01,
+     "gain": -4.3,
+     "owned": 6.0
     },
     {
      "name": "Josep Puerto",
@@ -243,22 +266,6 @@
      "score": 8.93,
      "gain": -4.4,
      "owned": 4.0
-    },
-    {
-     "name": "Sergio Llull",
-     "team": "MAD",
-     "price": 4.2,
-     "score": 8.5,
-     "gain": -4.8,
-     "owned": 6.0
-    },
-    {
-     "name": "Alvaro Cardenas",
-     "team": "PAM",
-     "price": 4.3,
-     "score": 8.41,
-     "gain": -4.9,
-     "owned": 5.0
     }
    ]
   },
@@ -269,7 +276,7 @@
     {
      "name": "Dwayne Bacon",
      "team": "DUB",
-     "price": 14.6,
+     "price": 14.7,
      "score": 26.88,
      "gain": -8.8,
      "owned": 13.0
@@ -277,7 +284,7 @@
     {
      "name": "Jordan Nwora",
      "team": "RED",
-     "price": 13.9,
+     "price": 14.0,
      "score": 25.36,
      "gain": -10.3,
      "owned": 12.0
@@ -285,7 +292,7 @@
     {
      "name": "Azuolas Tubelis",
      "team": "ZAL",
-     "price": 12.6,
+     "price": 12.8,
      "score": 22.5,
      "gain": -13.1,
      "owned": 18.0
@@ -293,7 +300,7 @@
     {
      "name": "Shavon Shields",
      "team": "ULK",
-     "price": 12.9,
+     "price": 12.7,
      "score": 21.38,
      "gain": -14.3,
      "owned": 5.0
@@ -315,7 +322,7 @@
     {
      "name": "Tyson Ward",
      "team": "OLY",
-     "price": 8.1,
+     "price": 8.2,
      "score": 17.75,
      "gain": -4.4,
      "owned": 5.0
@@ -323,7 +330,7 @@
     {
      "name": "Tyrese Martin",
      "team": "BAR",
-     "price": 8.6,
+     "price": 8.9,
      "score": 17.73,
      "gain": -4.4,
      "owned": 1.0
@@ -331,26 +338,26 @@
     {
      "name": "Vladimir Lucic",
      "team": "MUN",
-     "price": 9.6,
+     "price": 9.5,
      "score": 16.88,
      "gain": -5.2,
      "owned": 2.0
     },
     {
+     "name": "O'Shae J Brissett",
+     "team": "TEL",
+     "price": 10.4,
+     "score": 16.49,
+     "gain": -5.6,
+     "owned": 0.7
+    },
+    {
      "name": "Mbaye Ndiaye",
      "team": "OLY",
-     "price": 8.3,
+     "price": 8.6,
      "score": 15.55,
      "gain": -6.6,
      "owned": 5.0
-    },
-    {
-     "name": "Derrick Alston Jr.",
-     "team": "VIR",
-     "price": 8.5,
-     "score": 15.49,
-     "gain": -6.6,
-     "owned": 1.0
     }
    ]
   },
@@ -359,17 +366,9 @@
    "out_score": 9.62,
    "options": [
     {
-     "name": "Gabriele Procida",
-     "team": "MAD",
-     "price": 4.5,
-     "score": 15.05,
-     "gain": 5.4,
-     "owned": 11.0
-    },
-    {
      "name": "Vanja Marinkovic",
      "team": "PAR",
-     "price": 4.1,
+     "price": 4.2,
      "score": 11.56,
      "gain": 1.9,
      "owned": 4.0
@@ -377,7 +376,7 @@
     {
      "name": "Ognjen Dobric",
      "team": "RED",
-     "price": 4.7,
+     "price": 4.8,
      "score": 7.75,
      "gain": -1.9,
      "owned": 7.0
@@ -385,7 +384,7 @@
     {
      "name": "Giampaolo Ricci",
      "team": "MIL",
-     "price": 4.1,
+     "price": 4.0,
      "score": 6.17,
      "gain": -3.4,
      "owned": 4.0
@@ -397,6 +396,14 @@
      "score": 5.95,
      "gain": -3.7,
      "owned": 3.0
+    },
+    {
+     "name": "Leopold Cavaliere",
+     "team": "PRS",
+     "price": 4.0,
+     "score": 5.92,
+     "gain": -3.7,
+     "owned": 2.0
     }
    ]
   },
@@ -405,17 +412,9 @@
    "out_score": 10.43,
    "options": [
     {
-     "name": "Vanja Marinkovic",
-     "team": "PAR",
-     "price": 4.1,
-     "score": 11.56,
-     "gain": 1.1,
-     "owned": 4.0
-    },
-    {
      "name": "Giampaolo Ricci",
      "team": "MIL",
-     "price": 4.1,
+     "price": 4.0,
      "score": 6.17,
      "gain": -4.3,
      "owned": 4.0
@@ -423,7 +422,7 @@
     {
      "name": "Leopold Cavaliere",
      "team": "PRS",
-     "price": 4.2,
+     "price": 4.0,
      "score": 5.92,
      "gain": -4.5,
      "owned": 2.0
@@ -431,10 +430,18 @@
     {
      "name": "Kostas Papanikolaou",
      "team": "OLY",
-     "price": 4.2,
+     "price": 4.1,
      "score": 5.35,
      "gain": -5.1,
      "owned": 17.0
+    },
+    {
+     "name": "Tomer Ginat",
+     "team": "HTA",
+     "price": 4.0,
+     "score": 5.1,
+     "gain": -5.3,
+     "owned": null
     },
     {
      "name": "Arijan Lakic",
@@ -453,7 +460,7 @@
     {
      "name": "Nikola Tanaskovic",
      "team": "PAR",
-     "price": 8.4,
+     "price": 8.7,
      "score": 18.43,
      "gain": -5.7,
      "owned": 8.0
@@ -461,7 +468,7 @@
     {
      "name": "Eugene Omoruyi",
      "team": "BES",
-     "price": 9.8,
+     "price": 10.4,
      "score": 18.29,
      "gain": -5.8,
      "owned": 0.9
@@ -469,7 +476,7 @@
     {
      "name": "Allan Dokossi",
      "team": "PRS",
-     "price": 8.5,
+     "price": 8.9,
      "score": 16.36,
      "gain": -7.7,
      "owned": 1.0
@@ -477,7 +484,7 @@
     {
      "name": "Austin Wiley",
      "team": "MUN",
-     "price": 10.5,
+     "price": 10.8,
      "score": 16.34,
      "gain": -7.8,
      "owned": 0.4
@@ -485,7 +492,7 @@
     {
      "name": "Tonye Jekiri",
      "team": "PAR",
-     "price": 9.0,
+     "price": 9.7,
      "score": 16.32,
      "gain": -7.8,
      "owned": 1.0
@@ -499,7 +506,7 @@
     {
      "name": "Metecan Birsen",
      "team": "BES",
-     "price": 4.6,
+     "price": 4.5,
      "score": 3.55,
      "gain": -11.1,
      "owned": 1.0
@@ -507,7 +514,7 @@
     {
      "name": "Bryant Dunston",
      "team": "OLY",
-     "price": 4.6,
+     "price": 4.5,
      "score": 1.6,
      "gain": -13.0,
      "owned": 2.0
@@ -850,7 +857,7 @@
    "name": "Nikola Tanaskovic",
    "t": "PAR",
    "pos": "Center",
-   "price": 8.4,
+   "price": 8.7,
    "owned": 8.0,
    "min_last2": 27.8,
    "min_before": 18.6,
@@ -865,7 +872,7 @@
    "name": "Gabriele Procida",
    "t": "MAD",
    "pos": "Forward",
-   "price": 4.5,
+   "price": 5.3,
    "owned": 11.0,
    "min_last2": 23.4,
    "min_before": 10.2,
@@ -880,7 +887,7 @@
    "name": "Rokas Jokubaitis",
    "t": "MUN",
    "pos": "Guard",
-   "price": 8.6,
+   "price": 8.7,
    "owned": 1.0,
    "min_last2": 24.1,
    "min_before": 16.5,
@@ -895,10 +902,10 @@
    "name": "Scottie Wilbekin",
    "t": "BES",
    "pos": "Guard",
-   "price": 8.6,
+   "price": 8.8,
    "owned": 6.0,
    "min_last2": 17.4,
-   "min_before": 23.1,
+   "min_before": 23.2,
    "pir_last2": 3.5,
    "pir_per_min": 0.49,
    "est_pir_if_role_holds": 11.4,
@@ -910,7 +917,7 @@
    "name": "Tyson Carter",
    "t": "RED",
    "pos": "Guard",
-   "price": 7.4,
+   "price": 7.6,
    "owned": 5.0,
    "min_last2": 23.8,
    "min_before": 16.9,
@@ -925,7 +932,7 @@
    "name": "Clement Frisch",
    "t": "BAS",
    "pos": "Forward",
-   "price": 5.3,
+   "price": 5.5,
    "owned": 3.0,
    "min_last2": 25.4,
    "min_before": 13.2,
@@ -941,7 +948,7 @@
    "name": "Jasiel Rivero",
    "t": "PAM",
    "pos": "Forward",
-   "price": 7.3,
+   "price": 7.9,
    "owned": 1.0,
    "min_last2": 21.2,
    "min_before": 14.8,
@@ -959,7 +966,7 @@
    "price": 7.1,
    "owned": 5.0,
    "min_last2": 20.6,
-   "min_before": 17.1,
+   "min_before": 17.2,
    "pir_last2": 11.0,
    "pir_per_min": 0.49,
    "est_pir_if_role_holds": 10.1,
@@ -971,7 +978,7 @@
    "name": "Wenyen Gabriel",
    "t": "BES",
    "pos": "Center",
-   "price": 7.5,
+   "price": 8.0,
    "owned": 1.0,
    "min_last2": 23.1,
    "min_before": 16.6,
@@ -986,7 +993,7 @@
    "name": "A.J. Lawson",
    "t": "BAS",
    "pos": "Forward",
-   "price": 8.9,
+   "price": 8.6,
    "owned": 0.7,
    "min_last2": 23.0,
    "min_before": 23.2,
@@ -1001,10 +1008,10 @@
    "name": "Rodions Kurucs",
    "t": "BAS",
    "pos": "Forward",
-   "price": 5.9,
+   "price": 6.2,
    "owned": 0.3,
    "min_last2": 25.3,
-   "min_before": 18.5,
+   "min_before": 18.4,
    "pir_last2": 8.0,
    "pir_per_min": 0.35,
    "est_pir_if_role_holds": 8.9,
@@ -1017,7 +1024,7 @@
    "name": "Dj Stewart",
    "t": "BAS",
    "pos": "Forward",
-   "price": 8.4,
+   "price": 8.2,
    "owned": 0.3,
    "min_last2": 25.9,
    "min_before": 23.3,
@@ -1036,14 +1043,14 @@
    "team_name": "Barcelona",
    "t": "BAR",
    "pos": "Guard",
-   "price": 12.8,
+   "price": 13.1,
    "since_start": 0.6,
    "owned": 3.0,
    "pir_ge_price": "5/10",
    "proj_price_change": null,
    "c": "014008",
    "n": "ROBINSON, JUSTIN",
-   "price_src": "estimate",
+   "price_src": "app",
    "status": "playing",
    "status_src": "none",
    "l5": 16.2,
@@ -1723,15 +1730,15 @@
    "season_summary": "11 games, 14.3 PIR per game, 21.0 min",
    "dom": {
     "league": "ACB",
-    "date": "2026-11-08",
-    "opp": "vs Rio Breogan",
-    "min": 20.6,
-    "start": true,
-    "pts": 13,
-    "reb": 0,
-    "ast": 3,
-    "pir": 7,
-    "url": "https://live.acb.com/partidos/barca-vs-rio-breogan-105432/estadisticas"
+    "date": "2026-11-15",
+    "opp": "vs Monbus Obradoiro",
+    "min": 15.1,
+    "start": false,
+    "pts": 7,
+    "reb": 2,
+    "ast": 6,
+    "pir": 9,
+    "url": "https://live.acb.com/partidos/barca-vs-monbus-obradoiro-105444/estadisticas"
    }
   },
   {
@@ -1740,14 +1747,14 @@
    "team_name": "Panathinaikos",
    "t": "PAN",
    "pos": "Guard",
-   "price": 14.8,
+   "price": 14.9,
    "since_start": 0.2,
    "owned": 15.0,
    "pir_ge_price": "3/5",
    "proj_price_change": null,
    "c": "012774",
    "n": "NUNN, KENDRICK",
-   "price_src": "estimate",
+   "price_src": "app",
    "status": "playing",
    "status_src": "none",
    "l5": 18.8,
@@ -2147,14 +2154,14 @@
    "team_name": "Real Madrid",
    "t": "MAD",
    "pos": "Guard",
-   "price": 9.3,
+   "price": 9.7,
    "since_start": 3.1,
    "owned": 36.0,
    "pir_ge_price": "7/10",
    "proj_price_change": null,
    "c": "011247",
    "n": "FELIZ, ANDRES",
-   "price_src": "estimate",
+   "price_src": "app",
    "status": "playing",
    "status_src": "none",
    "l5": 15.8,
@@ -2855,14 +2862,14 @@
    "team_name": "Paris Basketball",
    "t": "PRS",
    "pos": "Guard",
-   "price": 5.9,
+   "price": 6.3,
    "since_start": 0.9,
    "owned": 10.0,
    "pir_ge_price": "6/10",
    "proj_price_change": null,
    "c": "012611",
    "n": "HERRERA, SEBASTIAN",
-   "price_src": "estimate",
+   "price_src": "app",
    "status": "playing",
    "status_src": "none",
    "l5": 11,
@@ -3532,14 +3539,14 @@
    "team_name": "Olympiacos",
    "t": "OLY",
    "pos": "Forward",
-   "price": 18.9,
+   "price": 19.2,
    "since_start": 1.9,
    "owned": 46.0,
    "pir_ge_price": "8/10",
    "proj_price_change": null,
    "c": "003469",
    "n": "VEZENKOV, SASHA",
-   "price_src": "estimate",
+   "price_src": "app",
    "status": "playing",
    "status_src": "none",
    "l5": 23,
@@ -4235,14 +4242,14 @@
    "team_name": "Anadolu Efes",
    "t": "IST",
    "pos": "Forward",
-   "price": 9.8,
+   "price": 10.3,
    "since_start": 1.7,
    "owned": 19.0,
    "pir_ge_price": "8/10",
    "proj_price_change": null,
    "c": "012609",
    "n": "MALCOLM, COLLIN",
-   "price_src": "estimate",
+   "price_src": "app",
    "status": "playing",
    "status_src": "none",
    "l5": 17.6,
@@ -4912,14 +4919,14 @@
    "team_name": "Crvena Zvezda",
    "t": "RED",
    "pos": "Forward",
-   "price": 4.7,
+   "price": 4.8,
    "since_start": 0.3,
    "owned": 11.0,
    "pir_ge_price": "6/8",
    "proj_price_change": null,
    "c": "007960",
    "n": "DAVIDOVAC, DEJAN",
-   "price_src": "estimate",
+   "price_src": "app",
    "status": "playing",
    "status_src": "none",
    "l5": 5.6,
@@ -5449,14 +5456,14 @@
    "team_name": "Baskonia",
    "t": "BAS",
    "pos": "Forward",
-   "price": 4.2,
+   "price": 4.1,
    "since_start": 0.2,
    "owned": 15.0,
    "pir_ge_price": "3/10",
    "proj_price_change": null,
    "c": "014107",
    "n": "JOKSIMOVIC, STEFAN",
-   "price_src": "estimate",
+   "price_src": "app",
    "status": "playing",
    "status_src": "none",
    "l5": 5.4,
@@ -6111,7 +6118,7 @@
    "proj_price_change": null,
    "c": "014108",
    "n": "DIARRA, ALIOU",
-   "price_src": "estimate",
+   "price_src": "app",
    "status": "playing",
    "status_src": "none",
    "l5": 18,
@@ -6781,14 +6788,14 @@
    "team_name": "Olimpia Milano",
    "t": "MIL",
    "pos": "Center",
-   "price": 4.5,
+   "price": 4.8,
    "since_start": 0.5,
    "owned": 19.0,
    "pir_ge_price": "3/5",
    "proj_price_change": null,
    "c": "013385",
    "n": "DIOP, OUSMANE",
-   "price_src": "estimate",
+   "price_src": "app",
    "status": "playing",
    "status_src": "none",
    "l5": 8,

@@ -2,9 +2,12 @@
   "date": "2026-11-15",
   "round": 12,
   "mode": "draft",
-  "budget": {"total": 103.3, "bank": 103.3},
+  "budget": {
+    "total": 103.3,
+    "bank": 103.3
+  },
   "window": "New team: free picks now for the R12+R13 double week · unlimited trades again before R14 (21–24 Nov)",
-  "bottom_line": "Pick a squad built for just two rounds: unlimited trades open again before R14, so there's no reason to pay for the long term now. Variation A gives about a 9% chance of 200+ in R12 (1 in 11): Robinson, Feliz and Payne in the backcourt, Vezenkov as captain, Valančiūnas at center and Masiulis (ZAL) as coach, with cheap minutes-backed players (Procida, Frisch, Diop) on the bench to make the money work.",
+  "bottom_line": "Pick a squad built for just two rounds: unlimited trades open again before R14, so there's no reason to pay for the long term now. With the game's real prices, Valančiūnas (17.7) doesn't fit a winning squad, so Variation A goes Robinson, Feliz, Vezenkov (C), Malcolm and Diarra, with Payne as 6th man and coach Bartzokas (OLY), for 103.0 of 103.3 and about a 7% chance of 200+ in R12.",
   "current_fix": null,
   "variations": [
     {
@@ -12,109 +15,227 @@
       "name": "Best shot at 200",
       "recommended": true,
       "risk": "Medium",
-      "tagline": "Three high-usage guards, the best captain on the board and Valančiūnas, paid for by four cheap players whose minutes just went up.",
+      "tagline": "Captain Vezenkov plus the Olympiacos coach (one big night pays twice), two high-usage guards, and cheap minutes on the bench.",
       "trades": [],
-      "bank_after": 0.6,
-      "formation": "3-1-1",
-      "starters": ["Justin Robinson", "Andres Feliz", "Cameron Payne", "Sasha Vezenkov", "Jonas Valanciunas"],
-      "sixth": "Rj Cole",
-      "bench": ["Gabriele Procida", "Ousmane Diop", "Clement Frisch", "Vanja Marinkovic"],
-      "coach": "Zalgiris",
+      "bank_after": 0.3,
+      "formation": "2-2-1",
+      "starters": [
+        "Justin Robinson",
+        "Andres Feliz",
+        "Sasha Vezenkov",
+        "Collin Malcolm",
+        "Aliou Diarra"
+      ],
+      "sixth": "Cameron Payne",
+      "bench": [
+        "Gabriele Procida",
+        "Ousmane Diop",
+        "Clement Frisch",
+        "Sergio Llull"
+      ],
+      "coach": "Olympiacos",
       "captain": "Sasha Vezenkov",
-      "vice": "Jonas Valanciunas",
-      "captain_note": "Vezenkov: 25 PIR over his last 3, and Milutinov (broken finger) misses Tuesday's game at Maccabi, so Olympiacos run even more through him. Valančiūnas is the vice: 28 over his last 3, at home to Bayern.",
+      "vice": "Collin Malcolm",
+      "captain_note": "Vezenkov: 25 PIR over his last 3, and Milutinov (broken finger) misses Tuesday's game at Maccabi, so Olympiacos run even more through him.",
       "captain_plan": "Captain Vezenkov on Tuesday. If he scores under about 15 PIR, move the armband to Feliz (Wednesday at Beşiktaş), your only starter who plays later.",
       "reasoning": [
-        "Two-round squad: unlimited trades come back before R14, so every credit goes on R12–R13 points, not on long-term value.",
-        "Robinson runs Barcelona while Punter is out (20 PIR over his last 3) and plays at home to Paris, the fastest game of the round.",
-        "Valančiūnas (28 over his last 3) faces Bayern (3-8) and then Panathinaikos, both at home: the best center ceiling under 17 credits.",
-        "The bench is all cheap minutes: Procida (10 → 23 minutes with Madrid's injuries), Frisch (26 minutes with Sedekerskis out), Diop (more minutes while Booker is out for three months).",
-        "Coach Masiulis (ZAL): Zalgiris are 80% at home to Bayern with a projected +10, the best shot at the +20 coach bracket.",
-        "Feliz is the only starter playing Wednesday, which keeps a captain switch open after Tuesday."
+        "Two-round squad: unlimited trades come back before R14, so every credit goes on R12–R13 points, not long-term value.",
+        "Coach Bartzokas (OLY) rides the same game as captain Vezenkov: Olympiacos are 78% at Maccabi, so one big night pays twice.",
+        "Robinson runs Barcelona while Punter is out (20 PIR over his last 3), at home to Paris in the fastest game of the round.",
+        "Malcolm (21 PIR over his last 3, 30 minutes) and Payne (17.7, 25 minutes) are Efes' two most-used players at Dubai, and Bruno Fernando's absence opens the paint.",
+        "Diarra (10.8, 35% owned) is the affordable center now that Valančiūnas costs 17.7.",
+        "The bench is cheap minutes: Procida (10 → 23 minutes with Madrid's injuries), Frisch (26 minutes with Sedekerskis out), Diop (Booker out 3 months), Llull (4.2)."
       ],
       "cancel_if": [
-        "Valančiūnas listed doubtful on Monday's injury report: take Diarra (10.8) instead and upgrade Payne to Bryant with the savings.",
-        "The app's prices come in more than 0.6 above the site's: swap Cole (8.9) for Herrera (5.9)."
+        "Diarra listed doubtful on Monday: Diop moves into the starting five and Llull becomes 6th man.",
+        "Malcolm or Payne ruled out: swap him for Herrera (5.9) and keep the change."
       ]
     },
     {
       "key": "B",
-      "name": "Template-safe",
+      "name": "Bryant + Fenerbahçe coach",
       "recommended": false,
-      "risk": "Low",
-      "tagline": "Keeps the players most managers own (Vezenkov, Diarra, Feliz) and adds Bryant, so a bad night costs you less rank.",
+      "risk": "Medium",
+      "tagline": "The best R12 squad on paper (Bryant at Baskonia, Fenerbahçe 83% vs ASVEL), but weaker in R13.",
       "trades": [],
-      "bank_after": 0.0,
+      "bank_after": 0.6,
       "formation": "2-2-1",
-      "starters": ["Elijah Bryant", "Justin Robinson", "Sasha Vezenkov", "Gabriele Procida", "Aliou Diarra"],
+      "starters": [
+        "Elijah Bryant",
+        "Justin Robinson",
+        "Sasha Vezenkov",
+        "Gabriele Procida",
+        "Aliou Diarra"
+      ],
       "sixth": "Andres Feliz",
-      "bench": ["Ousmane Diop", "Clement Frisch", "Sebastian Herrera", "Vanja Marinkovic"],
-      "coach": "Olympiacos",
+      "bench": [
+        "Ousmane Diop",
+        "Clement Frisch",
+        "Vanja Marinkovic",
+        "Sergio Llull"
+      ],
+      "coach": "Fenerbahce",
       "captain": "Sasha Vezenkov",
       "vice": "Elijah Bryant",
-      "captain_note": "Vezenkov again. Bryant (22.5 over his last 10) at Baskonia (1-10) is the vice.",
+      "captain_note": "Vezenkov. Bryant (22.5 over his last 10) at Baskonia is the vice.",
       "reasoning": [
-        "Bryant is the most reliable guard in the league (22.5 over his last 10) and plays winless-on-the-road Baskonia, then Paris.",
-        "Diarra (38% owned) is the template center: steady, but capped at about 20 minutes off the bench.",
-        "Coach Bartzokas (OLY): Olympiacos are 78% at Maccabi, which correlates with captaining Vezenkov.",
-        "About a 7.6% chance of 200 in R12: a little lower than A, with less downside if a cheap bench player gets no minutes."
+        "Highest R12 chance of 200 (about 7%), but only about 2% in R13, where A is clearly better.",
+        "Bryant (17.6) is the most reliable guard in the league; he costs as much as Malcolm and Payne together.",
+        "Coach Jasikevicius (FBB): Fenerbahçe are 83% at home to ASVEL with a projected +11.",
+        "Pick this to go all-in on R12 and reshape for R13 with your 4 trades."
       ],
-      "cancel_if": ["Bryant listed with any knock on Monday: use Payne (10.2) and keep the 7.5 credits in the bank for R13."]
+      "cancel_if": [
+        "Bryant listed with any knock on Monday: use A."
+      ]
     },
     {
       "key": "C",
-      "name": "Moonshot: Barcelona captain",
+      "name": "Moonshot: Robinson captain",
       "recommended": false,
       "risk": "High",
-      "tagline": "Captain Robinson (3% owned) in the fastest game of the round, with Bacon as the extra ceiling forward.",
+      "tagline": "Captain Robinson (7% owned) in the fastest game of the round, with Bryant and coach Albert (VBC).",
       "trades": [],
-      "bank_after": 0.1,
+      "bank_after": 0.4,
       "formation": "2-2-1",
-      "starters": ["Justin Robinson", "Andres Feliz", "Sasha Vezenkov", "Dwayne Bacon", "Aliou Diarra"],
-      "sixth": "Cameron Payne",
-      "bench": ["Gabriele Procida", "Ousmane Diop", "Clement Frisch", "Alvaro Cardenas"],
+      "starters": [
+        "Elijah Bryant",
+        "Justin Robinson",
+        "Sasha Vezenkov",
+        "Gabriele Procida",
+        "Aliou Diarra"
+      ],
+      "sixth": "Andres Feliz",
+      "bench": [
+        "Ousmane Diop",
+        "Clement Frisch",
+        "Vanja Marinkovic",
+        "Alvaro Cardenas"
+      ],
       "coach": "Valencia",
       "captain": "Justin Robinson",
       "vice": "Sasha Vezenkov",
-      "captain_note": "Robinson as captain: if Barcelona–Paris goes up-tempo and he gets 30, almost nobody has him. If he fouls out again (he did twice last week), it's a lost round.",
+      "captain_note": "Robinson as captain: if Barcelona–Paris goes up-tempo and he gets 30, almost nobody has him. He fouled out twice last week, so it can go badly.",
       "reasoning": [
-        "Differential captain: Robinson is 3% owned, Vezenkov 46%. To climb the table you need the 30+ night others don't have.",
-        "Bacon (17 PIR over his last 10, 30 minutes) is Dubai's go-to scorer at home to Efes, who are missing Bruno Fernando.",
+        "Differential captain: Robinson is 7% owned, Vezenkov 47%. To climb the table you need the 30+ night others don't have.",
         "Coach Albert (VBC): Valencia go to Belgrade in R12, then host Virtus in R13, the better coach game of the double week.",
-        "Lower expected score than A: take this only if you're chasing rank, not a safe start."
+        "Lower expected score than A: take it only if you're chasing rank."
       ],
-      "cancel_if": ["Robinson's foul trouble shows up again in Barcelona's Sunday league game: captain Vezenkov instead."]
+      "cancel_if": [
+        "Robinson in foul trouble again in Barcelona's Sunday league game: captain Vezenkov instead."
+      ]
     }
   ],
   "alerts": [
-    {"level": "high", "text": "New team, no trade limit yet: pick the full squad before Tuesday's first tip-off (17 Nov). From R13 on it's 4 trades per round, and unlimited again before R14."},
-    {"level": "high", "text": "Prices: the site still shows prices that can be 0.1–0.4 below the app's. Variation A leaves 0.6 in the bank; if the app says it doesn't fit, swap Cole (8.9) for Herrera (5.9)."},
-    {"level": "", "text": "Only Real Madrid play on Wednesday (at Beşiktaş). Feliz (starter) and Procida (bench) are your only late options for a captain switch."},
-    {"level": "", "text": "Injuries that shaped these picks: Punter (Barcelona) out 3–6 weeks, Milutinov (Olympiacos) misses Tuesday, Booker (Milano) out about 3 months, Bruno Fernando (Efes) out 3–4 weeks, Mirotic (Valencia) out about 2 weeks."},
-    {"level": "", "text": "This first report reuses today's research for the main team (same news, same players). From tomorrow the daily routine researches this team on its own."}
+    {
+      "level": "high",
+      "text": "New team, no trade limit yet: pick the full squad before Tuesday's first tip-off (17 Nov). From R13 on it's 4 trades per round, and unlimited again before R14."
+    },
+    {
+      "level": "",
+      "text": "Prices are the official game's (imported from your browser on 15 Nov), so the costs here should match the app. Variation A costs 103.0 of 103.3."
+    },
+    {
+      "level": "",
+      "text": "Only Real Madrid play on Wednesday (at Beşiktaş). Feliz (starter) and Procida (bench) are your only late options for a captain switch."
+    },
+    {
+      "level": "",
+      "text": "Injuries that shaped these picks: Punter (Barcelona) out 3–6 weeks, Milutinov (Olympiacos) misses Tuesday, Booker (Milano) out about 3 months, Bruno Fernando (Efes) out 3–4 weeks, Mirotic (Valencia) out about 2 weeks."
+    },
+    {
+      "level": "",
+      "text": "This first report reuses today's research for the main team. From tomorrow the daily routine researches this team on its own."
+    }
   ],
   "rumours": [
-    {"kind": "report", "team": "Olimpia Milano", "text": "Milano are signing center Ze'Rik Onyema from Scafati; the announcement is expected early next week.", "impact": "Diop's minutes shrink once Onyema is registered: fine for R12–R13, sell him in the R14 window.", "source": ""},
-    {"kind": "confirmed", "team": "Olympiacos", "text": "Milutinov fractured the tip of his right index finger and misses Aris and Maccabi; return expected around 24 Nov.", "impact": "More shots and rebounds for Vezenkov in R12. Supports him as captain.", "source": ""},
-    {"kind": "confirmed", "team": "Anadolu Efes", "text": "Bruno Fernando is out 3–4 weeks with a calf injury (MRI); Papagiannis is back to cover.", "impact": "Weaker Efes frontcourt: good for Bacon and Dubai's bigs in R12.", "source": ""}
+    {
+      "kind": "report",
+      "team": "Olimpia Milano",
+      "text": "Milano are signing center Ze'Rik Onyema from Scafati; the announcement is expected early next week.",
+      "impact": "Diop's minutes shrink once Onyema is registered: fine for R12–R13, sell him in the R14 window.",
+      "source": ""
+    },
+    {
+      "kind": "confirmed",
+      "team": "Olympiacos",
+      "text": "Milutinov fractured the tip of his right index finger and misses Aris and Maccabi; return expected around 24 Nov.",
+      "impact": "More shots and rebounds for Vezenkov in R12. Supports him as captain.",
+      "source": ""
+    },
+    {
+      "kind": "confirmed",
+      "team": "Anadolu Efes",
+      "text": "Bruno Fernando is out 3–4 weeks with a calf injury (MRI); Papagiannis is back to cover.",
+      "impact": "Weaker Efes frontcourt: good for Bacon and Dubai's bigs in R12.",
+      "source": ""
+    }
   ],
   "players": [
-    {"name": "Sasha Vezenkov", "verdict": "BUY", "read": "Captain. 25 PIR over his last 3 and Milutinov is out on Tuesday. Price 18.9 is the biggest single cost, but a 200 round almost always needs a 30+ captain. [dom: GBL 8 Nov 34' PIR 19, esake.gr]"},
-    {"name": "Jonas Valanciunas", "verdict": "BUY", "read": "28 PIR over his last 3 and two home games (Bayern, Panathinaikos). The ceiling center. [dom: unverified, LKL not auto-covered]"},
-    {"name": "Justin Robinson", "verdict": "BUY", "read": "Runs Barcelona while Punter is out; 20 over his last 3. Fouled out twice last week, so not the safest captain. [dom: ACB 8 Nov 21' PIR 7, acb.com]"},
-    {"name": "Andres Feliz", "verdict": "BUY", "read": "Madrid's injuries keep him at 25+ minutes; the only Wednesday starter, which keeps the captain switch open. [dom: ACB 8 Nov 21' PIR 15, acb.com]"},
-    {"name": "Cameron Payne", "verdict": "BUY", "read": "Up to 25 minutes, 17.7 over his last 3. At Dubai in R12, home to ASVEL in R13. [dom: unverified, BSL not auto-covered]"},
-    {"name": "Rj Cole", "verdict": "BUY", "read": "24 minutes for Milano and 0.7% owned: the differential 6th man. Home games against Zvezda and Fenerbahçe. [dom: unverified, LBA not auto-covered]"},
-    {"name": "Gabriele Procida", "verdict": "BUY", "read": "Minutes 10 → 23 with Madrid's injuries, 4.5 credits. Plays Wednesday. [dom: ACB 8 Nov 22' PIR 4, acb.com]"},
-    {"name": "Clement Frisch", "verdict": "BUY", "read": "26 minutes with Sedekerskis out; 5.3 credits. [dom: ACB 7 Nov 27' PIR 13, acb.com]"},
-    {"name": "Ousmane Diop", "verdict": "BUY", "read": "More minutes while Booker is out; 4.5 credits. Sell in the R14 window once Onyema arrives. [dom: unverified]"},
-    {"name": "Vanja Marinkovic", "verdict": "BUY", "read": "The cheapest playable forward (4.1), about 18 minutes for Partizan. Pure enabler. [dom: ABA, see the domestic alerts]"}
+    {
+      "name": "Sasha Vezenkov",
+      "verdict": "BUY",
+      "read": "Captain. 25 PIR over his last 3 and Milutinov is out on Tuesday. 19.2, the biggest single cost, but a 200 round almost always needs a 30+ captain. [dom: GBL 8 Nov 34' PIR 19, esake.gr]"
+    },
+    {
+      "name": "Justin Robinson",
+      "verdict": "BUY",
+      "read": "Runs Barcelona while Punter is out; 20 over his last 3. Fouled out twice last week. [dom: ACB 8 Nov 21' PIR 7, acb.com]"
+    },
+    {
+      "name": "Andres Feliz",
+      "verdict": "BUY",
+      "read": "Madrid's injuries keep him at 25+ minutes; the only Wednesday starter, which keeps the captain switch open. [dom: ACB 8 Nov 21' PIR 15, acb.com]"
+    },
+    {
+      "name": "Collin Malcolm",
+      "verdict": "BUY",
+      "read": "21 PIR over his last 3 in 30 minutes; at Dubai, then home to ASVEL. [dom: BSL 8 Nov vs Tofaş, 7 pts in an 87-93 loss, beinsports.com.tr]"
+    },
+    {
+      "name": "Cameron Payne",
+      "verdict": "BUY",
+      "read": "Up to 25 minutes, 17.7 over his last 3. The 6th man. [dom: unverified, BSL not auto-covered]"
+    },
+    {
+      "name": "Aliou Diarra",
+      "verdict": "BUY",
+      "read": "Efficient (1 PIR per minute) but capped at about 20 minutes; Virtus are underdogs vs Panathinaikos. The affordable center. [dom: LBA 9 Nov vs Verona, 8 pts in a 95-81 win, oasport.it]"
+    },
+    {
+      "name": "Gabriele Procida",
+      "verdict": "BUY",
+      "read": "Minutes 10 → 23 with Madrid's injuries; 5.3. Plays Wednesday. [dom: ACB 8 Nov 22' PIR 4, acb.com]"
+    },
+    {
+      "name": "Clement Frisch",
+      "verdict": "BUY",
+      "read": "26 minutes with Sedekerskis out; 5.5. [dom: ACB 7 Nov 27' PIR 13, acb.com]"
+    },
+    {
+      "name": "Ousmane Diop",
+      "verdict": "BUY",
+      "read": "More minutes while Booker is out; 4.8. Sell in the R14 window once Onyema arrives. [dom: unverified]"
+    },
+    {
+      "name": "Sergio Llull",
+      "verdict": "BUY",
+      "read": "The cheapest guard who plays (4.2), about 18 minutes; a pure enabler. [dom: ACB 8 Nov 22' PIR 6, acb.com]"
+    }
   ],
   "watchlist": [
-    {"name": "Elijah Bryant (HTA, 17.7)", "why": "The premium guard for the R14 rebuild; in Variation B now."},
-    {"name": "Aliou Diarra (VIR, 10.8)", "why": "Template center; the replacement if Valančiūnas is doubtful."},
-    {"name": "Nadir Hifi (PRS, 16.2)", "why": "Fastest game of R12 at Barcelona; a captain alternative if you go without Vezenkov."}
+    {
+      "name": "Jonas Valanciunas (ZAL, 17.7)",
+      "why": "The best center ceiling, but 17.7 doesn't fit a squad this round; a target for the R14 rebuild."
+    },
+    {
+      "name": "Elijah Bryant (HTA, 17.6)",
+      "why": "In Variation B; the premium guard for R14."
+    },
+    {
+      "name": "Rj Cole (MIL, 9.0)",
+      "why": "24 minutes and under 1% owned: a differential 6th man."
+    }
   ],
-  "window_plan": "This squad is built for R12–R13 only. Before R14 you get unlimited trades again: the planner's current best R14–R16 squad keeps Robinson, Feliz, Vezenkov, Procida, Frisch, Diop and Marinković, and adds Bryant, Diarra and Herrera with coach Bartzokas (OLY). It will be redone on 21 Nov with the new prices.",
-  "review": "First report for this team: no rounds played yet. The scorecard starts after R12. Research: reused today's main-team research (about 30 searches); domestic games for Valančiūnas, Payne, Cole and Diop not verified."
+  "window_plan": "This squad is built for R12–R13 only. Before R14 you get unlimited trades again; the plan is redone on 21 Nov with the new prices (import them again then).",
+  "review": "First report for this team: no rounds played yet; the scorecard starts after R12. Squad redone on 15 Nov evening with the official game's prices (the first version used the site's R11 prices and was too expensive). Research: reused today's main-team research (about 30 searches); Payne's and Diop's last domestic games not verified."
 }

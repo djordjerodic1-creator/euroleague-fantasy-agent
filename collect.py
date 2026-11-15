@@ -462,17 +462,49 @@ def main():
         pool.setdefault(slug, {**p, "name": p.get("dn", slug)})
     for p in pool.values():
         p["price"] = p.get("price_official") or p.get("price")
+    # remember each round's projected price changes while the site still shows them (they vanish once the
+    # round ends), so prices can be estimated when the site hasn't published the next round's page yet
+    pc_path = ROOT / "data" / "price_changes.json"
+    pcs = json.loads(pc_path.read_text(encoding="utf-8")) if pc_path.exists() else {}
+    if prices_round:
+        seen = {p["name"]: p["proj_price_change"] for p in pool.values() if p.get("proj_price_change") is not None}
+        if seen:
+            pcs.setdefault(str(prices_round), {}).update(seen)
+            pc_path.write_text(json.dumps(pcs, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
+    est_n = 0
+    if prices_round and prices_round < target:
+        ch = pcs.get(str(prices_round), {})
+        for p in pool.values():
+            if p["name"] in ch and p.get("price_official"):
+                p["price"], p["price_src"] = round(p["price_official"] + ch[p["name"]], 1), "est"
+                est_n += 1
     # prices typed in from the official app (app_prices.json, shared by all teams) beat the site's page,
     # which only shows the prices from before the last round until the site publishes the new round's page
     app = json.loads((ROOT / "app_prices.json").read_text(encoding="utf-8")) if (ROOT / "app_prices.json").exists() else {}
     app_n = 0
     if app.get("round") == target:
         by_name = {norm(p["name"]): p for p in pool.values()}
+        by_last = {}
+        for p in pool.values():  # fallback: same club + same surname (spellings differ, e.g. Olek/Aleksander)
+            by_last.setdefault((p.get("t"), norm(p["name"]).split()[-1] if p["name"].split() else ""), []).append(p)
+        missed = []
         for nm, val in (app.get("prices") or {}).items():
             q = by_name.get(norm(nm))
+            inf =(app.get("info") or {}).get(nm) or {}
+            if not q and inf.get("t") and inf.get("last"):
+                cand = by_last.get((inf["t"], norm(inf["last"]).split()[-1] if norm(inf["last"]) else ""), [])
+                q = cand[0] if len(cand) == 1 else None
             if q and val:
                 q["price"], q["price_src"] = float(val), "app"
                 app_n += 1
+            else:
+                missed.append(nm)
+        print(f"  app prices: {app_n} players matched" + (f", {len(missed)} not in the site's pool (e.g. {missed[:3]})" if missed else ""))
+        if app.get("coaches"):
+            for c in proj.get("coaches", []):
+                if c.get("t") in app["coaches"]:
+                    c["price"] = app["coaches"][c["t"]]
+            (OUT / "projections.json").write_text(json.dumps(proj, ensure_ascii=False), encoding="utf-8")
     for p in pool.values():
         p["score"] = window_score(p, horizon) if p.get("nx") else None
         p["fresh"] = p.get("_seen") == TODAY.isoformat()
@@ -595,6 +627,7 @@ def main():
         "today": TODAY.isoformat(), "source_round": proj.get("round"), "rounds_in_progress": in_progress,
         "target_round": target, "target_note": target_note, "horizon": horizon,
         "prices": {"round": prices_round, "stale": bool(prices_round and prices_round < target), "app_prices": app_n,
+                   "estimated": est_n,
                    "app_updated": app.get("updated") if app_n else None},
         "calendar": {r: {k: (str(v) if isinstance(v, dt.date) else v) for k, v in rounds[r].items()}
                      for r in range(target - 1, target + 4) if r in rounds},
@@ -603,7 +636,7 @@ def main():
         "swaps": swaps, "previews": previews, "role_jumps": rj,
     }
     keep = ("name", "slug", "s", "c", "t", "pos", "price", "status", "owned", "l3", "l5", "l10", "m3", "m10",
-            "nx", "nxe", "sig", "p10", "p90", "pwin", "proj_price_change", "price_d3", "season_summary", "g5", "gl", "bio", "since_start", "pirpm", "start", "grade", "rj", "dom")
+            "nx", "nxe", "sig", "p10", "p90", "pwin", "proj_price_change", "price_d3", "season_summary", "g5", "gl", "bio", "since_start", "pirpm", "start", "grade", "rj", "dom", "price_official", "price_src")
     slim = [{k: p.get(k) for k in keep if p.get(k) is not None} for p in pool.values()]
     (OUT / "pool.json").write_text(json.dumps(slim, ensure_ascii=False), encoding="utf-8")
     (OUT / "digest.json").write_text(json.dumps({**digest, "roster": mine}, ensure_ascii=False, default=str, indent=1),

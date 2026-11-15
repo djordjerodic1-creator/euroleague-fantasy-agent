@@ -22,7 +22,15 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 FORMS = {"2-2-1": (2, 2, 1), "1-2-2": (1, 2, 2), "2-1-2": (2, 1, 2), "1-3-1": (1, 3, 1), "3-1-1": (3, 1, 1)}
 POS = ("Guard", "Forward", "Center")
-GAME_SD = 12.0      # sd of the final margin around the projected margin
+GAME_SD = 12.0
+
+
+def price_buffer(D):
+    """Credits to keep spare while prices are a round old: estimated prices can still be ~0.1 off per player."""
+    pr = D.digest.get("prices") or {}
+    if not pr.get("stale") or (pr.get("app_prices") or 0) >= 200:  # exact prices from the official game
+        return 0.0
+    return 0.3 if pr.get("estimated") or pr.get("app_prices") else 0.6      # sd of the final margin around the projected margin
 TEAM_LOAD = 0.35    # how much a player's night moves with his team's night
 COACH_BANDS = [(-1e9, -20.5, -20), (-20.5, -10.5, -10), (-10.5, 0, -5), (0, 10.5, 10), (10.5, 20.5, 20), (20.5, 1e9, 25)]
 
@@ -129,6 +137,7 @@ def prep(p):
 def optimise(D, team, coach_prices, target, trades=4, beam=80, per_pos=30):
     from render import coach_code_of  # local import to avoid a cycle at module load
     team_now = team
+    buf = price_buffer(D)
     rs = team.get("round_start") or {}
     if rs.get("round") == D.target and rs.get("players"):
         # trades already made this round can still be changed: plan all 4 trades from the pre-round squad
@@ -181,7 +190,7 @@ def optimise(D, team, coach_prices, target, trades=4, beam=80, per_pos=30):
                     if inn["pos"] != out["pos"] or inn["name"] in names or inn["name"] in ever:
                         continue
                     nb = round(b + out["price"] - inn["price"], 1)
-                    if nb < -0.001:
+                    if nb < buf - 0.001:
                         continue
                     nsq = sq[:i] + [inn] + sq[i + 1:]
                     if not clubs_ok(nsq):
@@ -194,7 +203,7 @@ def optimise(D, team, coach_prices, target, trades=4, beam=80, per_pos=30):
                 if nc == c:
                     continue
                 nb = round(b + coach_prices.get(c, 0) - price, 1)
-                if nb < -0.001:
+                if nb < buf - 0.001:
                     continue
                 k = (key[0], nc)
                 if k in nxt or k in states:
@@ -289,6 +298,7 @@ def rebuild(D, team, coach_prices, target, sched, rounds, n_plans=3):
     budget = round(sum(p.get("price") or 0 for p in cur) + coach_prices.get(cur_coach, 0) + float(team.get("bank") or 0), 1)
     if team.get("total_budget") and team.get("bank_known", True):
         budget = float(team["total_budget"])  # the in-app figure the user confirmed beats site prices
+    budget = round(budget - price_buffer(D), 1)
 
     pool = {}
     for q in D.pool:

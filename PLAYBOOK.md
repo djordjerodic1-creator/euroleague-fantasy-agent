@@ -210,6 +210,9 @@ says what changed since the earlier run, or "No change since HH:MM" with what yo
   until it publishes the new round's page (digest.json `prices.stale`). Then budgets can be off by 0.1–0.5 per
   player: say so in the alerts, keep a bank buffer in tight variations, and use `app_prices.json` (prices the
   user sent from the app) whenever it covers a player.
+  When `app_prices.json` covers the target round (imported from the official game with import_prices.py),
+  prices are exact: the page says "Prices: official game" and no buffer is needed. When it's for an older round,
+  remind the user in the alerts to re-import (README: "Exact prices from the official game").
 - The bank is the number that matters most: squad value comes from current prices in the pool,
   so a price rise shows up on its own. A wrong bank makes every budget check wrong.
 - `bank_known: false` means the bank is a guess, so say so in the alerts.

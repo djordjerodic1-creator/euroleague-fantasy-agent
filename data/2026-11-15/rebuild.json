@@ -31,106 +31,106 @@
  "plans": [
   {
    "players": [
+    "Aliou Diarra",
     "Andres Feliz",
     "Cameron Payne",
     "Clement Frisch",
-    "Collin Malcolm",
-    "Gabriele Procida",
-    "Jonas Valanciunas",
-    "Justin Robinson",
+    "Elijah Bryant",
     "Ousmane Diop",
+    "Rj Cole",
     "Sasha Vezenkov",
-    "Sergio Llull"
+    "Stefan Joksimovic",
+    "Vanja Marinkovic"
    ],
    "coach": "MAD",
-   "cost": 105.5,
-   "bank_after": 0.0,
+   "cost": 104.5,
+   "bank_after": 1.0,
    "sell": [
+    "Justin Robinson",
     "Kendrick Nunn",
     "Sebastian Herrera",
-    "Dejan Davidovac",
-    "Stefan Joksimovic",
-    "Aliou Diarra"
+    "Collin Malcolm",
+    "Dejan Davidovac"
    ],
    "buy": [
     "Cameron Payne",
     "Clement Frisch",
-    "Gabriele Procida",
-    "Jonas Valanciunas",
-    "Sergio Llull"
+    "Elijah Bryant",
+    "Rj Cole",
+    "Vanja Marinkovic"
    ],
    "coach_change": true,
-   "avg_p_target": 0.048,
-   "avg_mean": 146.3,
+   "avg_p_target": 0.041,
+   "avg_mean": 144.2,
    "rounds": [
     {
      "rd": 14,
-     "formation": "2-2-1",
+     "formation": "3-1-1",
      "starters": [
-      "Justin Robinson",
+      "Elijah Bryant",
       "Andres Feliz",
+      "Cameron Payne",
       "Sasha Vezenkov",
-      "Collin Malcolm",
-      "Jonas Valanciunas"
+      "Aliou Diarra"
      ],
-     "sixth": "Cameron Payne",
+     "sixth": "Rj Cole",
      "bench": [
       "Clement Frisch",
-      "Gabriele Procida",
       "Ousmane Diop",
-      "Sergio Llull"
+      "Vanja Marinkovic",
+      "Stefan Joksimovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 149.3,
-     "p90": 190.2,
-     "p10": 108.8,
-     "p_target": 0.055
+     "mean": 144.8,
+     "p90": 185.5,
+     "p10": 103.9,
+     "p_target": 0.039
     },
     {
      "rd": 15,
      "formation": "3-1-1",
      "starters": [
-      "Justin Robinson",
+      "Elijah Bryant",
       "Andres Feliz",
       "Cameron Payne",
       "Sasha Vezenkov",
-      "Jonas Valanciunas"
+      "Aliou Diarra"
      ],
-     "sixth": "Collin Malcolm",
+     "sixth": "Rj Cole",
      "bench": [
       "Clement Frisch",
-      "Gabriele Procida",
       "Ousmane Diop",
-      "Sergio Llull"
+      "Vanja Marinkovic",
+      "Stefan Joksimovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 151.6,
-     "p90": 193.7,
-     "p10": 109.8,
-     "p_target": 0.068
+     "mean": 148.2,
+     "p90": 190.5,
+     "p10": 106.8,
+     "p_target": 0.053
     },
     {
      "rd": 16,
-     "formation": "2-2-1",
+     "formation": "3-1-1",
      "starters": [
-      "Justin Robinson",
+      "Elijah Bryant",
       "Andres Feliz",
+      "Rj Cole",
       "Sasha Vezenkov",
-      "Collin Malcolm",
-      "Jonas Valanciunas"
+      "Aliou Diarra"
      ],
      "sixth": "Cameron Payne",
      "bench": [
-      "Gabriele Procida",
       "Ousmane Diop",
       "Clement Frisch",
-      "Sergio Llull"
+      "Vanja Marinkovic",
+      "Stefan Joksimovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 138.1,
-     "p90": 178.2,
-     "p10": 97.8,
-     "p_target": 0.021
+     "mean": 139.5,
+     "p90": 180.0,
+     "p10": 98.0,
+     "p_target": 0.03
     }
    ]
   },
@@ -138,19 +138,20 @@
    "players": [
     "Aliou Diarra",
     "Andres Feliz",
+    "Cameron Payne",
     "Clement Frisch",
     "Gabriele Procida",
     "Jonas Valanciunas",
-    "Justin Robinson",
     "Rj Cole",
     "Sasha Vezenkov",
     "Sergio Llull",
     "Vanja Marinkovic"
    ],
    "coach": "MAD",
-   "cost": 104.8,
-   "bank_after": 0.7,
+   "cost": 105.2,
+   "bank_after": 0.3,
    "sell": [
+    "Justin Robinson",
     "Kendrick Nunn",
     "Sebastian Herrera",
     "Collin Malcolm",
@@ -159,6 +160,7 @@
     "Ousmane Diop"
    ],
    "buy": [
+    "Cameron Payne",
     "Clement Frisch",
     "Gabriele Procida",
     "Jonas Valanciunas",
@@ -167,15 +169,15 @@
     "Vanja Marinkovic"
    ],
    "coach_change": true,
-   "avg_p_target": 0.047,
-   "avg_mean": 146.3,
+   "avg_p_target": 0.041,
+   "avg_mean": 144.0,
    "rounds": [
     {
      "rd": 14,
      "formation": "2-1-2",
      "starters": [
-      "Justin Robinson",
       "Andres Feliz",
+      "Cameron Payne",
       "Sasha Vezenkov",
       "Jonas Valanciunas",
       "Aliou Diarra"
@@ -188,22 +190,22 @@
       "Sergio Llull"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 147.3,
-     "p90": 188.1,
-     "p10": 106.1,
-     "p_target": 0.048
+     "mean": 145.0,
+     "p90": 185.1,
+     "p10": 104.2,
+     "p_target": 0.039
     },
     {
      "rd": 15,
-     "formation": "3-1-1",
+     "formation": "2-1-2",
      "starters": [
-      "Justin Robinson",
       "Andres Feliz",
-      "Rj Cole",
+      "Cameron Payne",
       "Sasha Vezenkov",
-      "Jonas Valanciunas"
+      "Jonas Valanciunas",
+      "Aliou Diarra"
      ],
-     "sixth": "Aliou Diarra",
+     "sixth": "Rj Cole",
      "bench": [
       "Clement Frisch",
       "Gabriele Procida",
@@ -211,22 +213,22 @@
       "Sergio Llull"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 149.6,
-     "p90": 191.5,
-     "p10": 109.2,
-     "p_target": 0.06
+     "mean": 147.9,
+     "p90": 190.4,
+     "p10": 104.7,
+     "p_target": 0.055
     },
     {
      "rd": 16,
      "formation": "2-1-2",
      "starters": [
-      "Justin Robinson",
       "Andres Feliz",
+      "Rj Cole",
       "Sasha Vezenkov",
       "Jonas Valanciunas",
       "Aliou Diarra"
      ],
-     "sixth": "Rj Cole",
+     "sixth": "Cameron Payne",
      "bench": [
       "Gabriele Procida",
       "Clement Frisch",
@@ -234,30 +236,31 @@
       "Sergio Llull"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 142.1,
-     "p90": 182.5,
-     "p10": 100.5,
-     "p_target": 0.033
+     "mean": 139.2,
+     "p90": 179.7,
+     "p10": 98.2,
+     "p_target": 0.028
     }
    ]
   },
   {
    "players": [
+    "Alberto Abalde",
     "Aliou Diarra",
     "Andres Feliz",
     "Cameron Payne",
     "Clement Frisch",
     "Elijah Bryant",
     "Gabriele Procida",
-    "Justin Robinson",
     "Ousmane Diop",
-    "Sasha Vezenkov",
-    "Vanja Marinkovic"
+    "Rj Cole",
+    "Sasha Vezenkov"
    ],
    "coach": "ZAL",
-   "cost": 105.4,
-   "bank_after": 0.1,
+   "cost": 105.5,
+   "bank_after": 0.0,
    "sell": [
+    "Justin Robinson",
     "Kendrick Nunn",
     "Sebastian Herrera",
     "Collin Malcolm",
@@ -265,69 +268,70 @@
     "Stefan Joksimovic"
    ],
    "buy": [
+    "Alberto Abalde",
     "Cameron Payne",
     "Clement Frisch",
     "Elijah Bryant",
     "Gabriele Procida",
-    "Vanja Marinkovic"
+    "Rj Cole"
    ],
    "coach_change": false,
-   "avg_p_target": 0.04,
-   "avg_mean": 146.7,
+   "avg_p_target": 0.035,
+   "avg_mean": 144.1,
    "rounds": [
     {
      "rd": 14,
      "formation": "3-1-1",
      "starters": [
       "Elijah Bryant",
-      "Justin Robinson",
       "Andres Feliz",
+      "Cameron Payne",
       "Sasha Vezenkov",
       "Aliou Diarra"
      ],
-     "sixth": "Cameron Payne",
+     "sixth": "Rj Cole",
      "bench": [
       "Clement Frisch",
       "Gabriele Procida",
-      "Ousmane Diop",
-      "Vanja Marinkovic"
+      "Alberto Abalde",
+      "Ousmane Diop"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 138.3,
-     "p90": 175.2,
-     "p10": 101.1,
-     "p_target": 0.016
+     "mean": 135.3,
+     "p90": 171.6,
+     "p10": 98.0,
+     "p_target": 0.01
     },
     {
      "rd": 15,
      "formation": "3-1-1",
      "starters": [
       "Elijah Bryant",
-      "Justin Robinson",
       "Andres Feliz",
+      "Cameron Payne",
       "Sasha Vezenkov",
       "Aliou Diarra"
      ],
-     "sixth": "Cameron Payne",
+     "sixth": "Rj Cole",
      "bench": [
       "Clement Frisch",
       "Gabriele Procida",
-      "Ousmane Diop",
-      "Vanja Marinkovic"
+      "Alberto Abalde",
+      "Ousmane Diop"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 151.5,
-     "p90": 191.8,
-     "p10": 111.1,
-     "p_target": 0.059
+     "mean": 148.5,
+     "p90": 189.4,
+     "p10": 107.2,
+     "p_target": 0.051
     },
     {
      "rd": 16,
      "formation": "3-1-1",
      "starters": [
       "Elijah Bryant",
-      "Justin Robinson",
       "Andres Feliz",
+      "Rj Cole",
       "Sasha Vezenkov",
       "Aliou Diarra"
      ],
@@ -336,13 +340,13 @@
       "Gabriele Procida",
       "Ousmane Diop",
       "Clement Frisch",
-      "Vanja Marinkovic"
+      "Alberto Abalde"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 150.3,
-     "p90": 187.8,
-     "p10": 112.3,
-     "p_target": 0.044
+     "mean": 148.5,
+     "p90": 186.8,
+     "p10": 109.9,
+     "p_target": 0.043
     }
    ]
   }
