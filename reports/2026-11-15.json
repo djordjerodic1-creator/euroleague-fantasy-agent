@@ -79,66 +79,64 @@
   },
   {
    "key": "B",
-   "name": "Keep your trades",
+   "name": "Fewest changes",
    "recommended": false,
    "risk": "Low",
-   "tagline": "Your four R12 trades exactly as made. Nothing to undo; only fix the 6th man.",
+   "tagline": "Keeps two of the trades you've made (Robinson and coach Masiulis), swaps Diop for Kamenjas and Herrera for Rogkavopoulos. Same chance as A.",
    "trades": [
     {
      "out": "Yam Madar (10.5)",
      "in": "Justin Robinson (13.1)",
      "credits": "−2.6",
-     "why": "Already made. Robinson runs Barça with Punter and Evbuomwan out (20.3 PIR per game over his last 3), home to Paris. [dom: ACB 15 Nov vs Obradoiro 15' PIR 9 (25-point win), acb.com]"
+     "why": "Already made: keep it. Robinson runs Barça with Punter out (20.3 PIR per game over his last 3), home to Paris."
     },
     {
      "out": "Mouhamed Faye (8.3)",
-     "in": "Ousmane Diop (4.8)",
+     "in": "Kenan Kamenjas (4.8)",
      "credits": "+3.5",
-     "why": "Already made. Booker is out about 3 months, so Diop has the big-man minutes until Onyema arrives. [dom: unverified after 2 searches]"
+     "why": "Undo Faye → Diop and take Kamenjas: PIR 22 in 24' on his Baskonia debut today, same price."
     },
     {
-     "out": "Dario Brizuela (6.0)",
-     "in": "Sebastian Herrera (6.3)",
-     "credits": "−0.3",
-     "why": "Already made. About 21 minutes and 11 PIR per game over his last 5, but he plays at Barça, against your Robinson. [dom: LNB 14 Nov at Limoges, a 97-82 win, line not reported, eurohoops.net]"
+     "out": "Dejan Davidovac (4.8)",
+     "in": "Nikolaos Rogkavopoulos (4.5)",
+     "credits": "+0.3",
+     "why": "Undo Brizuela → Herrera and use the trade here. Back from injury and played today (your report; I couldn't find his line yet). 10.3 PIR in 13' before the injury; counted at 8 while he works back in. Panathinaikos are at Virtus on Tuesday."
     },
     {
      "out": "Coach Penarroya (PAR) (6.6)",
      "in": "Coach Masiulis (ZAL) (7.4)",
      "credits": "−0.8",
-     "why": "Already made. Zalgiris (five straight wins) are 81% at home to Bayern with a +11 projected margin."
+     "why": "Already made: keep it. Zalgiris (five straight wins) are 81% at home to Bayern."
     }
    ],
-   "bank_after": 0.1,
-   "formation": "3-1-1",
+   "bank_after": 0.7,
+   "formation": "2-2-1",
    "starters": [
     "Justin Robinson",
     "Kendrick Nunn",
-    "Andres Feliz",
     "Sasha Vezenkov",
+    "Collin Malcolm",
     "Aliou Diarra"
    ],
-   "sixth": "Collin Malcolm",
+   "sixth": "Andres Feliz",
    "bench": [
-    "Sebastian Herrera",
-    "Ousmane Diop",
-    "Dejan Davidovac",
-    "Stefan Joksimovic"
+    "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
+    "Stefan Joksimovic",
+    "Dario Brizuela"
    ],
    "coach": "Zalgiris",
    "captain": "Sasha Vezenkov",
    "vice": "Andres Feliz",
    "captain_note": "Same captain: Vezenkov at Maccabi, 78% to win, with Milutinov out. Feliz on Wednesday is the late switch if Vezenkov has a quiet night.",
    "reasoning": [
-    "Safer for rank: you keep Nunn (15% owned) and Masiulis (ZAL), the coach most managers will have. Slightly lower chance of 200, but no undo work.",
-    "Coach lens: Nunn played 25 minutes today (11 pts, 5 reb, 5 ast in a 78-73 win over Kolossos), so no rest flag before the trip to Virtus.",
-    "Weak spot: Herrera on the bench plays against Robinson, and Davidovac is a 13-minute wing.",
-    "Cheap upside watch: none affordable. Procida needs 0.5 and the bank is 0.1.",
-    "R13 then needs Nunn → Payne/Baldwin and Masiulis (ZAL) → Albert (VBC), two of your four R13 trades."
+    "About 6.0% chance of 200, the same as A, with only two undos instead of three.",
+    "Two cheap returns on the bench (Kamenjas, Rogkavopoulos) instead of Diop and Herrera.",
+    "Downside vs A: Nunn stays, so his sale (at Zalgiris on a back-to-back) still costs an R13 trade."
    ],
    "cancel_if": [
-    "If Nunn misses Monday's practice, switch to Variation A: it sells him.",
-    "If Zalgiris list Valančiūnas as doubtful, Variation A's Jasikevicius (ULK) is the better coach. You can't afford him in B without undoing trades."
+    "If the game still lists Kamenjas at Dubai on Monday evening, keep Diop instead.",
+    "If Rogkavopoulos isn't in Panathinaikos's Tuesday squad, keep Brizuela → Herrera as made."
    ]
   },
   {
@@ -210,6 +208,10 @@
   {
    "level": "high",
    "text": "Evening news (your tip, confirmed by today's ACB box score): Kamenjas moved from Dubai to Baskonia and had PIR 22 in 24' on his debut vs Real Madrid; he costs 4.8, the same as Diop, so Variation A now takes him instead. Maledon is back too (PIR 29 in 16' in the same game): at 12.9 he's level with Baldwin in the model and plays Wednesday, but just back from a long injury, so he's the alternative, not the pick."
+  },
+  {
+   "level": "",
+   "text": "Rogkavopoulos (PAN, 4.5) is back too and played today (your report). He's in Variation B now: keep Robinson and coach Masiulis as made, Faye → Kamenjas, and Davidovac → Rogkavopoulos instead of Brizuela → Herrera. Same chance as A with one undo fewer."
   },
   {
    "level": "high",
@@ -331,6 +333,11 @@
    "name": "Stefan Joksimovic",
    "verdict": "WATCH",
    "read": "Baskonia's frontcourt is thin (Faried, Sedekerskis, Santos out), but he gives little: 1.7 PIR per game over his last 3. Bench only, and the R13 sell for Tyson Ward. [dom: ACB 7 Nov 26' PIR 11, acb.com; vs Real Madrid tonight]"
+  },
+  {
+   "name": "Nikolaos Rogkavopoulos",
+   "verdict": "BUY",
+   "read": "Back from injury and played today (your report; I couldn't find his line yet). 10.3 PIR in 13' before the injury; counted at 8 while he works back in. Panathinaikos are at Virtus on Tuesday."
   }
  ],
  "watchlist": [

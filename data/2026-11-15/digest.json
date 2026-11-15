@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T21:22",
+ "generated": "2026-11-15T21:29",
  "today": "2026-11-15",
  "source_round": 12,
  "rounds_in_progress": [],
@@ -366,6 +366,14 @@
    "out_score": 9.62,
    "options": [
     {
+     "name": "Nikolaos Rogkavopoulos",
+     "team": "PAN",
+     "price": 4.5,
+     "score": 13.76,
+     "gain": 4.1,
+     "owned": 2.0
+    },
+    {
      "name": "Vanja Marinkovic",
      "team": "PAR",
      "price": 4.2,
@@ -396,14 +404,6 @@
      "score": 5.95,
      "gain": -3.7,
      "owned": 3.0
-    },
-    {
-     "name": "Leopold Cavaliere",
-     "team": "PRS",
-     "price": 4.0,
-     "score": 5.92,
-     "gain": -3.7,
-     "owned": 2.0
     }
    ]
   },

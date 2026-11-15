@@ -118,15 +118,15 @@
     "Clement Frisch",
     "Elijah Bryant",
     "Gabriele Procida",
-    "Josep Puerto",
     "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
     "Sasha Vezenkov",
-    "Theo Maledon",
-    "Vanja Marinkovic"
+    "Sergio Llull",
+    "Theo Maledon"
    ],
    "coach": "PAM",
-   "cost": 103.3,
-   "bank_after": 0.0,
+   "cost": 102.8,
+   "bank_after": 0.5,
    "sell": [],
    "buy": [
     "Aliou Diarra",
@@ -134,15 +134,15 @@
     "Clement Frisch",
     "Elijah Bryant",
     "Gabriele Procida",
-    "Josep Puerto",
     "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
     "Sasha Vezenkov",
-    "Theo Maledon",
-    "Vanja Marinkovic"
+    "Sergio Llull",
+    "Theo Maledon"
    ],
    "coach_change": true,
-   "avg_p_target": 0.039,
-   "avg_mean": 144.3,
+   "avg_p_target": 0.038,
+   "avg_mean": 144.8,
    "rounds": [
     {
      "rd": 14,
@@ -158,13 +158,13 @@
      "bench": [
       "Clement Frisch",
       "Gabriele Procida",
-      "Vanja Marinkovic",
-      "Josep Puerto"
+      "Nikolaos Rogkavopoulos",
+      "Sergio Llull"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 145.1,
-     "p90": 183.7,
-     "p10": 105.0,
+     "mean": 145.7,
+     "p90": 184.0,
+     "p10": 106.7,
      "p_target": 0.038
     },
     {
@@ -181,37 +181,37 @@
      "bench": [
       "Clement Frisch",
       "Gabriele Procida",
-      "Vanja Marinkovic",
-      "Josep Puerto"
+      "Nikolaos Rogkavopoulos",
+      "Sergio Llull"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 147.3,
-     "p90": 188.4,
-     "p10": 105.8,
-     "p_target": 0.05
+     "mean": 148.1,
+     "p90": 189.2,
+     "p10": 106.3,
+     "p_target": 0.051
     },
     {
      "rd": 16,
-     "formation": "3-1-1",
+     "formation": "2-1-2",
      "starters": [
       "Elijah Bryant",
       "Theo Maledon",
-      "Andres Feliz",
       "Sasha Vezenkov",
-      "Aliou Diarra"
+      "Aliou Diarra",
+      "Kenan Kamenjas"
      ],
-     "sixth": "Kenan Kamenjas",
+     "sixth": "Andres Feliz",
      "bench": [
       "Gabriele Procida",
+      "Nikolaos Rogkavopoulos",
       "Clement Frisch",
-      "Vanja Marinkovic",
-      "Josep Puerto"
+      "Sergio Llull"
      ],
      "captain": "Sasha Vezenkov",
      "mean": 140.5,
-     "p90": 179.8,
-     "p10": 100.7,
-     "p_target": 0.028
+     "p90": 179.0,
+     "p10": 102.2,
+     "p_target": 0.024
     }
    ]
   },
