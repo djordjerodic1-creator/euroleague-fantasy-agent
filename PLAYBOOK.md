@@ -206,6 +206,10 @@ says what changed since the earlier run, or "No change since HH:MM" with what yo
   lists the made trades the plan drops as "↩ Undo your trade". If the user's trades are already the best
   plan, say so plainly in the bottom line. After R starts, the calendar moves the target to R+1 by itself;
   then drop `round_start` (or set it for R+1 when the user reports R+1 trades).
+- **Prices can be a round old.** basketballstats.eu only shows the official prices from before the last round
+  until it publishes the new round's page (digest.json `prices.stale`). Then budgets can be off by 0.1–0.5 per
+  player: say so in the alerts, keep a bank buffer in tight variations, and use `app_prices.json` (prices the
+  user sent from the app) whenever it covers a player.
 - The bank is the number that matters most: squad value comes from current prices in the pool,
   so a price rise shows up on its own. A wrong bank makes every budget check wrong.
 - `bank_known: false` means the bank is a guess, so say so in the alerts.

@@ -785,6 +785,7 @@ dialog details{background:var(--card2)}
 .dayplan{border-left:3px solid var(--lime);padding-left:10px}
 .dn{color:var(--green);font-weight:700}.trade.done{border-color:rgba(61,220,132,.45)}.tl .dnrow{opacity:.8}
 .undo{color:var(--amber);font-weight:600}
+.warnchip{border-color:rgba(255,176,46,.6);color:#ffd99a}
 .teamsw{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
 .tsw{font:600 14px 'Fira Sans';color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 12px;background:var(--card)}
 .tsw.on{color:#14152a;background:var(--lime);border-color:var(--lime)}
@@ -1106,6 +1107,18 @@ def undo_list(rv, mt):
     return out
 
 
+def price_chip(D):
+    pr = D.digest.get("prices") or {}
+    if not pr.get("round"):
+        return ""
+    app = f" · {pr['app_prices']} from your app ({esc(pr.get('app_updated') or '')})" if pr.get("app_prices") else ""
+    if pr.get("stale"):
+        return (f'<span class="chip warnchip" title="The site has not published R{D.target} prices yet; these are the official prices '
+                f'from before R{pr["round"]} was played, so post-R{pr["round"]} price changes are missing.">Prices: R{pr["round"]} '
+                f'(before R{pr["round"]} games){app}</span>')
+    return f'<span class="chip">Prices: R{pr["round"]} official{app}</span>'
+
+
 def render(date):
     R = json.loads((reports_dir() / f"{date}.json").read_text(encoding="utf-8"))
     D = Data(date)
@@ -1262,7 +1275,7 @@ def render(date):
 <style>{CSS}</style></head><body><div class="wrap">
 <header>{switch}<div class="kick">EuroLeague Fantasy · analyst report · {esc(date)}</div><h1>Round {rnd} plan</h1>
 <div class="chips">{f'<span class="chip hot">Deadline <b>{esc(dl)}</b></span>' if dl else ''}
-<span class="chip">Budget <b>{esc(b.get('total', '–'))}</b></span><span class="chip">Bank <b>{esc(b.get('bank', '–'))}</b></span>
+{price_chip(D)}<span class="chip">Budget <b>{esc(b.get('total', '–'))}</b></span><span class="chip">Bank <b>{esc(b.get('bank', '–'))}</b></span>
 {f'<span class="chip">{esc(R["window"])}</span>' if R.get('window') else ''}</div>
 <nav class="ptabs" role="tablist"><button class="ptab" role="tab" data-pg="pg-report" aria-selected="true">📋 Report</button>
 <button class="ptab" role="tab" data-pg="pg-sched" aria-selected="false">📅 Schedule</button>

@@ -25,6 +25,10 @@ bank 1.3". Their words and screenshot beat anything assumed in `my_team.json`.
    `round_start` = {round: R, players, coach, bank} from the squad *before* these trades (trades can be redone
    until the deadline, and plans are judged from that squad).
    If a round score is given, store it as `round_scores["<round>"] = <points>` (the scorecard compares it).
+   **Prices from the app:** any player prices visible in the screenshot (squad, transfer market) go into
+   `app_prices.json` at the repo root: {"round": <upcoming round>, "updated": "<date>", "prices": {"<name>": <price>}}.
+   Merge with what's there for the same round; start fresh for a new round. All teams use it, and it beats the
+   site's prices (which lag a round until the site publishes the new round's page).
 5. Show the user a 3-line diff (players in/out, bank, captain/coach) before committing.
 6. Commit only `my_team.json` with "Team update <date> (user)" and push to main. Never commit the
    screenshot: the repo is public.
