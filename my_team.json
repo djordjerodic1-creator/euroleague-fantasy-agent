@@ -71,7 +71,7 @@
       "Dario Brizuela"
     ],
     "coach": "Partizan",
-    "bank": 0.5,
-    "_note": "Squad before this round's trades. Trades can be changed until the deadline, so plans count all 4 trades from here."
+    "bank": 0.3,
+    "_note": "Squad before this round's trades. Trades can be changed until the deadline, so plans count all 4 trades from here. Bank set to 0.3 on 15 Nov (was 0.5): with the official prices (app_prices.json) your 4 trades give 0.3, but the app shows 0.1, so 0.2 was lost to price changes between trades; 0.3 makes every plan's bank match the app."
   }
 }
