@@ -1,0 +1,266 @@
+{
+ "date": "2026-11-16",
+ "round": 12,
+ "mode": "draft",
+ "budget": {
+  "total": 103.3,
+  "bank": 103.3
+ },
+ "window": "New team: free picks until Tuesday's first tip-off (17 Nov, 18:00 Athens) for the R12+R13 double week · 4 trades after Wednesday · unlimited again before R14 (21–24 Nov)",
+ "generated": "2026-11-16T09:35Z",
+ "bottom_line": "Pick Variation A before Tuesday's first tip-off: Bryant, Robinson, Feliz / Vezenkov (C) / Kamenjas, Payne as 6th man, a cheap bench (Procida, Rogkavopoulos, Diop, Marinković) and coach Bartzokas (OLY), for all 103.3. About 8% chance of 200 in R12, a little better than last night's pick (7%), because Bryant's ceiling beats Malcolm and Diarra as underdogs. Check that the game lists Kamenjas at Baskonia first.",
+ "current_fix": null,
+ "variations": [
+  {
+   "key": "A",
+   "name": "Best shot at 200",
+   "recommended": true,
+   "risk": "Medium",
+   "tagline": "Bryant and Robinson as the guard engine, captain Vezenkov plus the Olympiacos coach, and five cheap role-jump players to pay for it.",
+   "trades": [],
+   "bank_after": 0.0,
+   "formation": "3-1-1",
+   "starters": [
+    "Elijah Bryant",
+    "Justin Robinson",
+    "Andres Feliz",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Cameron Payne",
+   "bench": [
+    "Gabriele Procida",
+    "Nikolaos Rogkavopoulos",
+    "Ousmane Diop",
+    "Vanja Marinkovic"
+   ],
+   "coach": "Olympiacos",
+   "captain": "Sasha Vezenkov",
+   "vice": "Andres Feliz",
+   "captain_note": "Vezenkov at Maccabi (78%) with Milutinov out, and Bartzokas (OLY) on the same game: one big Olympiacos night pays twice.",
+   "captain_plan": "Captain Vezenkov on Tuesday. If he's under about 18 PIR, move the armband to Feliz (Wednesday at Beşiktaş), who starts for exactly this reason.",
+   "reasoning": [
+    "The model's best squad over R12 and R13 (about 6% a round), spending all 103.3: no reason to keep credits with unlimited trades back before R14.",
+    "Bryant (17.6) is the round's biggest guard ceiling: 22.5 PIR per game over 10, at Baskonia (Hapoel 72%) then at Paris. His last 3 (15.3) are a dip, not a role change.",
+    "Coach lens: Baskonia's frontcourt is gutted, so Kamenjas (PIR 22 on debut) starts at center and Hapoel's guards get to the rim against them.",
+    "Cheap upside watch drives the bench: Procida (10 → 23 minutes, Madrid's forwards hurt), Rogkavopoulos (back, 23' on Sunday), Diop (15 minutes with Booker out), Marinković (4.2).",
+    "Malcolm and Diarra are left out: Efes (35%) and Virtus (33%) are underdogs, and their prices are falling into the window."
+   ],
+   "cancel_if": [
+    "If the game still lists Kamenjas at Dubai on Monday night, take Frisch (BAS, 5.5) instead and drop Marinković for Llull (4.2) to pay for it.",
+    "If Rogkavopoulos isn't in Panathinaikos's Tuesday squad, take Marinković's slot for Herrera (PRS) only if the money fits; otherwise Joksimović (BAS, 4.1).",
+    "If Bryant is listed doubtful, switch to Variation B."
+   ]
+  },
+  {
+   "key": "B",
+   "name": "Yesterday's pick: Malcolm and Diarra",
+   "recommended": false,
+   "risk": "Low",
+   "tagline": "Last night's Variation A: template Feliz, Vezenkov and Diarra, Efes's two main players, coach Bartzokas (OLY).",
+   "trades": [],
+   "bank_after": 0.3,
+   "formation": "3-1-1",
+   "starters": [
+    "Justin Robinson",
+    "Andres Feliz",
+    "Cameron Payne",
+    "Sasha Vezenkov",
+    "Aliou Diarra"
+   ],
+   "sixth": "Collin Malcolm",
+   "bench": [
+    "Gabriele Procida",
+    "Kenan Kamenjas",
+    "Clement Frisch",
+    "Sergio Llull"
+   ],
+   "coach": "Olympiacos",
+   "captain": "Sasha Vezenkov",
+   "vice": "Andres Feliz",
+   "captain_note": "Vezenkov: 25 PIR over his last 3, and Milutinov (broken finger) misses Tuesday's game at Maccabi, so Olympiacos run even more through him.",
+   "captain_plan": "Captain Vezenkov on Tuesday; Feliz (Wednesday) starts so you can switch the armband if Vezenkov is quiet.",
+   "reasoning": [
+    "Safer for rank: Diarra (38% owned) and Feliz (36%) are template, and Malcolm (21.3 PIR per game over his last 3) is steady at 30 minutes.",
+    "About the same chance as A in R12, but the model rates it lower over both rounds (Efes and Virtus are underdogs twice).",
+    "Coach Bartzokas (OLY) rides the same game as captain Vezenkov.",
+    "Cheap upside watch: Procida, Frisch and Kamenjas on the bench.",
+    "Malcolm is the 6th man so Feliz can start for the late captain switch; both count in full."
+   ],
+   "cancel_if": [
+    "Diarra listed doubtful on Monday: Kamenjas moves into the starting five and Llull becomes 6th man.",
+    "Malcolm or Payne ruled out: swap him for Herrera (5.9) and keep the change.",
+    "If the game still shows Kamenjas at Dubai on Monday evening (or he isn't on Baskonia's EuroLeague list), keep Diop instead: same price, nothing else changes."
+   ]
+  },
+  {
+   "key": "C",
+   "name": "Moonshot: Robinson captain, Fenerbahçe coach",
+   "recommended": false,
+   "risk": "High",
+   "tagline": "Maledon back from injury, Diarra at center, coach Jasikevičius (ULK), and a 3%-owned captain.",
+   "trades": [],
+   "bank_after": 0.3,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Gabriele Procida",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Kenan Kamenjas",
+    "Cameron Payne",
+    "Nikolaos Rogkavopoulos",
+    "Vanja Marinkovic"
+   ],
+   "coach": "Fenerbahce",
+   "captain": "Justin Robinson",
+   "vice": "Sasha Vezenkov",
+   "captain_note": "Robinson (3% owned) at home to Paris in the round's fastest game: a 30+ night lifts you past every Vezenkov captain.",
+   "reasoning": [
+    "The model's second squad (about 5.6%) with a differential captain for variance.",
+    "Maledon had PIR 29 in 16' at Baskonia on his return; if Madrid loosen his minutes he's a 20+ guard at 12.9. If not, he's a 10.",
+    "Coach Jasikevičius (ULK): 86% vs ASVEL, the biggest projected margin (+13), though Melli and Key are now out.",
+    "Cheap upside watch: Procida starts; Kamenjas and Rogkavopoulos on the bench."
+   ],
+   "cancel_if": [
+    "If Maledon isn't in Madrid's squad for Wednesday, switch to A.",
+    "If Robinson is listed doubtful, captain Vezenkov."
+   ]
+  }
+ ],
+ "alerts": [
+  {
+   "level": "",
+   "text": "What changed since last night's draft: the model now prefers Bryant (HTA) over Malcolm and Diarra for the two-round double week, and Rogkavopoulos (back from injury) replaces Frisch/Llull on the bench. Last night's squad is Variation B and is still fine (about 7%)."
+  },
+  {
+   "level": "high",
+   "text": "Kamenjas: on Sunday the game still listed him at Dubai. If it still does tonight, use the cancel_if swap (Frisch in, Llull for Marinković). His EuroLeague registration with Baskonia is unconfirmed after 2 searches."
+  },
+  {
+   "level": "",
+   "text": "Rogkavopoulos still shows as absent on basketballstats.eu; Panathinaikos announce their Tuesday squad on Monday evening."
+  },
+  {
+   "level": "",
+   "text": "Prices are the official game's (imported 15 Nov for R12). A spends the full 103.3, so build it in the app in one go."
+  },
+  {
+   "level": "",
+   "text": "Once R12 starts I'll treat Variation A as your squad unless you write otherwise in teams/team2/inbox.md or save the team on the page."
+  }
+ ],
+ "rumours": [
+  {
+   "kind": "confirmed",
+   "team": "Fenerbahce",
+   "text": "Melli has a meniscus problem and may need surgery; he'll be out 'for a while' (Onan). Key dislocated a finger with 'a serious tear' and left Sunday's derby in the third quarter.",
+   "impact": "Fewer forwards for Jasikevičius (ULK): more minutes for Clyburn, Shields and Powell; a slightly smaller blowout chance against ASVEL, so the coach pick is a bit less safe than the model says.",
+   "source": "https://www.eurohoops.net/en/euroleague/2035850/braxton-key-nicolo-melli-injury-updates-fenerbahce-euroleague/"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Real Madrid",
+   "text": "Madrid recalled Eli Ndiaye from Joventut's loan because Jantunen, Deck and Garuba are out and Okeke has had physical problems.",
+   "impact": "Procida (5.3) and Okeke keep big forward minutes at Beşiktaş and at Olympiacos; Feliz's usage stays up with Campazzo out.",
+   "source": "https://sportando.basketball/real-madrid-richiama-eli-ndiaye-emergenza-infortuni-nel-frontcourt/"
+  },
+  {
+   "kind": "report",
+   "team": "Dubai",
+   "text": "Marcelinho Huertas is returning to the EuroLeague with Dubai.",
+   "impact": "Takes playmaking minutes from Okobo and Wright once registered; no squad impact for you. Watch Dubai guards' prices in the window.",
+   "source": ""
+  },
+  {
+   "kind": "report",
+   "team": "Olympiacos",
+   "text": "Konchar is considering leaving after a slow start; Milutinov (broken finger) misses Maccabi; Dorsey is back from suspension but not expected to play.",
+   "impact": "Vezenkov and Hall get more frontcourt touches in Cyprus; good for your captain.",
+   "source": "https://www.eurohoops.net/en/euroleague/2035090/nikola-milutinov-injury-update-olympiacos-euroleague/"
+  },
+  {
+   "kind": "report",
+   "team": "Partizan",
+   "text": "Hayes (shoulder) out; Vildoza doubtful (hand); Thompson day to day (back). Jones and Jekiri sat out the ABA game at Zadar.",
+   "impact": "Penarroya (PAR) is a coin flip against Valencia (40%), so don't go back to him.",
+   "source": "https://euroleague.fantasheet.com/injuries"
+  }
+ ],
+ "players": [
+  {
+   "name": "Elijah Bryant",
+   "verdict": "BUY",
+   "read": "Two-time EuroLeague MVP and Hapoel's engine: 22.5 PIR per game over 10, 15.3 over his last 3. At Baskonia (72%, gutted frontcourt) then at Paris. I'm above the site's 19.1 for R12. [dom: unverified after 2 searches]"
+  },
+  {
+   "name": "Justin Robinson",
+   "verdict": "BUY",
+   "read": "Barça's lead guard while Punter and Evbuomwan are out: 20.3 PIR per game over his last 3, home to Paris (71%) in a fast game. Sunday's 15 minutes came in a 25-point rout: rest, not a role change. Agree with the site's 17. [dom: ACB 15 Nov vs Obradoiro 15' PIR 9, acb.com]"
+  },
+  {
+   "name": "Andres Feliz",
+   "verdict": "BUY",
+   "read": "25.6 minutes over his last 3 with Campazzo, Deck and Jantunen out; PIR 27 at Baskonia on Sunday. Your only Wednesday player, so start him for a late captain switch. I'd put him above the site's 14.5. [dom: ACB 15 Nov at Baskonia 24' PIR 27, acb.com]"
+  },
+  {
+   "name": "Sasha Vezenkov",
+   "verdict": "BUY/CAPTAIN",
+   "read": "25.3 PIR per game over his last 3 and 57 as your R11 captain. At Maccabi (78%) with Milutinov out, so more boards and post touches. I agree with the site's 20.6 and see a 30+ ceiling; Olympiacos's domestic loss at Aris doesn't change his role. [dom: GBL 15 Nov at Aris 35' PIR 21, esake.gr]"
+  },
+  {
+   "name": "Kenan Kamenjas",
+   "verdict": "BUY (check club)",
+   "read": "PIR 22 in 24' on his Baskonia debut; Baskonia have no fit big (Faried, Santos out), home to Hapoel. Counted at 10 (override). The risk is administrative: the game showed him at Dubai on Sunday. [dom: ACB 15 Nov vs Real Madrid 24' PIR 22, acb.com]"
+  },
+  {
+   "name": "Cameron Payne",
+   "verdict": "BUY",
+   "read": "Efes's lead guard with Mike James out for the season: 33 pts vs Paris on 5 Nov. At Dubai (Efes 30%), then home to ASVEL in R13. The site's 12.6 looks right for R12, more in R13. [dom: BSL 15 Nov at Fenerbahçe, quiet night (~3 PIR per last night's research), ajansspor.com]"
+  },
+  {
+   "name": "Gabriele Procida",
+   "verdict": "BUY",
+   "read": "Cheap upside watch: minutes 10 → 23 over his last 2 with 16.5 PIR; Madrid recalled Ndiaye because their forwards are hurt, so the role holds. [dom: unverified after 2 searches]"
+  },
+  {
+   "name": "Nikolaos Rogkavopoulos",
+   "verdict": "BUY",
+   "read": "Back from injury: 14 pts (8/8 FT) in 23' vs Kolossos. 10.3 PIR in 13' before he got hurt; counted at 9 at Virtus. The site still lists him as absent, so check Panathinaikos's squad on Monday evening. [dom: GBL 15 Nov vs Kolossos 23' ~12 PIR, rezultati.com]"
+  },
+  {
+   "name": "Ousmane Diop",
+   "verdict": "BUY",
+   "read": "About 15 minutes and 9.7 PIR per game over his last 3 with Booker out for months. Milan won at Udine on Sunday. Second center on the bench. [dom: unverified after 2 searches]"
+  },
+  {
+   "name": "Vanja Marinkovic",
+   "verdict": "BUY",
+   "read": "4.2 bench enabler with minutes at Partizan while Thompson and Vildoza are banged up. Not expected to score much. [dom: ABA 14 Nov at Zadar, line not found, aba-liga.com]"
+  }
+ ],
+ "watchlist": [
+  {
+   "name": "Gabriele Procida (MAD, 5.3)",
+   "why": "Cheap upside watch: minutes 10 → 23 over the last 2 games, and Madrid just recalled Ndiaye because their forwards are hurt. Window buy; R13 buy if he starts at Beşiktaş."
+  },
+  {
+   "name": "Clement Frisch (BAS, 5.5)",
+   "why": "Cheap upside watch: minutes 13 → 25 with Sedekerskis out until late November. Top of the rebuild plan; buy in the window."
+  },
+  {
+   "name": "Cameron Payne (IST, 10.2)",
+   "why": "R13 swap for Feliz (Efes host ASVEL). Only buy if he gets 25+ minutes at Dubai on Tuesday."
+  },
+  {
+   "name": "Aliou Diarra (VIR, 10.8)",
+   "why": "In Variation B. Window option if his price drops further after two tough games (PAN, at Valencia). [dom: LBA 15 Nov at Trento, 13 pts, bolognabasket.org]"
+  }
+ ],
+ "window_plan": "Unlimited trades before R14 (21–24 Nov). The rebuild's best squad for R14–R16 keeps Feliz, Payne, Kamenjas, Rogkavopoulos and Vezenkov and adds Diarra, Malcolm, Frisch, Puerto and Maledon with coach Bartzokas (OLY), about 6% a round. If you pick A now, that's 5–6 changes in the window, which is free. I'd hold Maledon until his minutes are back above 20, and decide on Bryant after R13 (his price may drop from 17.6 after the dip).",
+ "review": "First report since the draft: nothing played yet, so nothing to score. Last night's squad (now Variation B) is still close, about 7%; A is preferred on R12+R13 combined, not because B was wrong. Research shared with the main team: 26 searches, 6 pages read, 3 players unverified (Bryant's and Procida's domestic lines, Kamenjas's EuroLeague registration)."
+}
