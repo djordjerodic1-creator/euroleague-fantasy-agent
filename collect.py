@@ -101,18 +101,27 @@ def parse_prices(page: str):
     if i < 0:
         return out
     seg = page[i:page.find("</table>", i)]
+    # columns by header name (the site dropped "Owned" in Nov 2026, which shifted every index)
+    heads = [text_of(h).strip().lower() for h in re.findall(r"<th(?:\s[^>]*)?>(.*?)(?=<th|</tr>)", seg, flags=re.S)]
+    idx = {h: j for j, h in enumerate(heads)}
+    if "price" not in idx:
+        idx = {"player": 0, "price": 1, "since start": 2, "owned": 3, "pir ≥ price": 4, "proj. change": 5}
     for row in re.findall(r"<tr>(.*?)</tr>", seg, flags=re.S):
         m = re.search(r'href="/en/player/([^/]+)/">([^<]+)</a>\s*<small>([^<]+)</small>', row)
         if not m:
             continue
         cells = [text_of(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", row, flags=re.S)]
         team, pos = [x.strip() for x in m.group(3).split("·")]
+
+        def col(name, conv=num):
+            j = idx.get(name)
+            return conv(cells[j]) if j is not None and j < len(cells) else None
         out[m.group(1)] = {
             "slug": m.group(1), "name": html.unescape(m.group(2)), "team_name": team,
             "t": NAME2CODE.get(team.lower()), "pos": {"G": "Guard", "F": "Forward", "C": "Center"}.get(pos, pos),
-            "price": num(cells[1]), "since_start": num(cells[2]), "owned": num(cells[3]),
-            "pir_ge_price": cells[4] if len(cells) > 4 else None,
-            "proj_price_change": num(cells[5]) if len(cells) > 5 else None,
+            "price": col("price"), "since_start": col("since start"), "owned": col("owned"),
+            "pir_ge_price": col("pir ≥ price", lambda x: x),
+            "proj_price_change": col("proj. change"),
         }
     return out
 
@@ -449,7 +458,10 @@ def main():
     (OUT / "news.json").write_text(json.dumps(news, ensure_ascii=False), encoding="utf-8")
 
     rounds = parse_calendar(cal_txt)
-    upcoming = [r for r, v in sorted(rounds.items()) if v["start"] and v["start"] > TODAY]
+    # a round starting today is still the target until its first tip-off (earliest EuroLeague tip ~16:00 UTC)
+    before_tip = dt.datetime.now(dt.timezone.utc).hour < 16 and TODAY == dt.date.today()
+    upcoming = [r for r, v in sorted(rounds.items())
+                if v["start"] and (v["start"] > TODAY or (before_tip and v["start"] == TODAY))]
     target = upcoming[0] if upcoming else proj.get("round", 0) + 1
     # trades can be redone until the first tip-off, so the round stays the target until it starts
     # (then `upcoming` moves on by itself). Trades already made are judged against the pre-round squad.
