@@ -1,0 +1,325 @@
+{
+ "budget": 103.3,
+ "rounds": [
+  14,
+  15,
+  16
+ ],
+ "current": [],
+ "plans": [
+  {
+   "players": [
+    "Aliou Diarra",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Gabriele Procida",
+    "Justin Robinson",
+    "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
+    "Sasha Vezenkov",
+    "Theo Maledon",
+    "Tyson Carter"
+   ],
+   "coach": "OLY",
+   "cost": 103.3,
+   "bank_after": 0.0,
+   "sell": [],
+   "buy": [
+    "Aliou Diarra",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Gabriele Procida",
+    "Justin Robinson",
+    "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
+    "Sasha Vezenkov",
+    "Theo Maledon",
+    "Tyson Carter"
+   ],
+   "coach_change": true,
+   "avg_p_target": 0.056,
+   "avg_mean": 145.0,
+   "rounds": [
+    {
+     "rd": 14,
+     "formation": "2-1-2",
+     "starters": [
+      "Theo Maledon",
+      "Justin Robinson",
+      "Sasha Vezenkov",
+      "Aliou Diarra",
+      "Kenan Kamenjas"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Tyson Carter",
+      "Clement Frisch",
+      "Nikolaos Rogkavopoulos",
+      "Gabriele Procida"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 152.5,
+     "p90": 195.9,
+     "p10": 107.9,
+     "p_target": 0.079
+    },
+    {
+     "rd": 15,
+     "formation": "3-1-1",
+     "starters": [
+      "Theo Maledon",
+      "Justin Robinson",
+      "Andres Feliz",
+      "Sasha Vezenkov",
+      "Aliou Diarra"
+     ],
+     "sixth": "Kenan Kamenjas",
+     "bench": [
+      "Clement Frisch",
+      "Nikolaos Rogkavopoulos",
+      "Gabriele Procida",
+      "Tyson Carter"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 152.1,
+     "p90": 194.7,
+     "p10": 109.2,
+     "p_target": 0.072
+    },
+    {
+     "rd": 16,
+     "formation": "2-2-1",
+     "starters": [
+      "Theo Maledon",
+      "Justin Robinson",
+      "Sasha Vezenkov",
+      "Nikolaos Rogkavopoulos",
+      "Aliou Diarra"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Kenan Kamenjas",
+      "Tyson Carter",
+      "Gabriele Procida",
+      "Clement Frisch"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 130.3,
+     "p90": 171.6,
+     "p10": 89.8,
+     "p_target": 0.017
+    }
+   ]
+  },
+  {
+   "players": [
+    "Aliou Diarra",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Gabriele Procida",
+    "Justin Robinson",
+    "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
+    "Rj Cole",
+    "Sasha Vezenkov",
+    "Theo Maledon"
+   ],
+   "coach": "PAM",
+   "cost": 103.0,
+   "bank_after": 0.3,
+   "sell": [],
+   "buy": [
+    "Aliou Diarra",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Gabriele Procida",
+    "Justin Robinson",
+    "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
+    "Rj Cole",
+    "Sasha Vezenkov",
+    "Theo Maledon"
+   ],
+   "coach_change": true,
+   "avg_p_target": 0.039,
+   "avg_mean": 144.8,
+   "rounds": [
+    {
+     "rd": 14,
+     "formation": "3-1-1",
+     "starters": [
+      "Theo Maledon",
+      "Justin Robinson",
+      "Andres Feliz",
+      "Sasha Vezenkov",
+      "Aliou Diarra"
+     ],
+     "sixth": "Rj Cole",
+     "bench": [
+      "Kenan Kamenjas",
+      "Clement Frisch",
+      "Nikolaos Rogkavopoulos",
+      "Gabriele Procida"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 147.7,
+     "p90": 188.7,
+     "p10": 106.7,
+     "p_target": 0.047
+    },
+    {
+     "rd": 15,
+     "formation": "3-1-1",
+     "starters": [
+      "Theo Maledon",
+      "Justin Robinson",
+      "Andres Feliz",
+      "Sasha Vezenkov",
+      "Aliou Diarra"
+     ],
+     "sixth": "Rj Cole",
+     "bench": [
+      "Kenan Kamenjas",
+      "Clement Frisch",
+      "Nikolaos Rogkavopoulos",
+      "Gabriele Procida"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 145.8,
+     "p90": 186.3,
+     "p10": 105.4,
+     "p_target": 0.04
+    },
+    {
+     "rd": 16,
+     "formation": "3-1-1",
+     "starters": [
+      "Theo Maledon",
+      "Justin Robinson",
+      "Andres Feliz",
+      "Sasha Vezenkov",
+      "Aliou Diarra"
+     ],
+     "sixth": "Rj Cole",
+     "bench": [
+      "Nikolaos Rogkavopoulos",
+      "Kenan Kamenjas",
+      "Gabriele Procida",
+      "Clement Frisch"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 140.9,
+     "p90": 179.5,
+     "p10": 102.4,
+     "p_target": 0.029
+    }
+   ]
+  },
+  {
+   "players": [
+    "Aliou Diarra",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Elijah Bryant",
+    "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
+    "Sasha Vezenkov",
+    "Sebastian Herrera",
+    "Theo Maledon",
+    "Vanja Marinkovic"
+   ],
+   "coach": "ZAL",
+   "cost": 102.9,
+   "bank_after": 0.4,
+   "sell": [],
+   "buy": [
+    "Aliou Diarra",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Elijah Bryant",
+    "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
+    "Sasha Vezenkov",
+    "Sebastian Herrera",
+    "Theo Maledon",
+    "Vanja Marinkovic"
+   ],
+   "coach_change": true,
+   "avg_p_target": 0.035,
+   "avg_mean": 145.3,
+   "rounds": [
+    {
+     "rd": 14,
+     "formation": "2-1-2",
+     "starters": [
+      "Elijah Bryant",
+      "Theo Maledon",
+      "Sasha Vezenkov",
+      "Aliou Diarra",
+      "Kenan Kamenjas"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Clement Frisch",
+      "Nikolaos Rogkavopoulos",
+      "Sebastian Herrera",
+      "Vanja Marinkovic"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 135.7,
+     "p90": 170.6,
+     "p10": 100.3,
+     "p_target": 0.008
+    },
+    {
+     "rd": 15,
+     "formation": "3-1-1",
+     "starters": [
+      "Elijah Bryant",
+      "Theo Maledon",
+      "Andres Feliz",
+      "Sasha Vezenkov",
+      "Aliou Diarra"
+     ],
+     "sixth": "Kenan Kamenjas",
+     "bench": [
+      "Clement Frisch",
+      "Nikolaos Rogkavopoulos",
+      "Sebastian Herrera",
+      "Vanja Marinkovic"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 150.9,
+     "p90": 192.1,
+     "p10": 110.3,
+     "p_target": 0.061
+    },
+    {
+     "rd": 16,
+     "formation": "2-2-1",
+     "starters": [
+      "Elijah Bryant",
+      "Theo Maledon",
+      "Sasha Vezenkov",
+      "Nikolaos Rogkavopoulos",
+      "Aliou Diarra"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Kenan Kamenjas",
+      "Sebastian Herrera",
+      "Clement Frisch",
+      "Vanja Marinkovic"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 149.3,
+     "p90": 185.0,
+     "p10": 113.2,
+     "p_target": 0.035
+    }
+   ]
+  }
+ ],
+ "window_before": 14,
+ "window": "21 Nov – 24 Nov"
+}
