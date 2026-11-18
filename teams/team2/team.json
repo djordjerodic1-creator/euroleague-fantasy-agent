@@ -1,19 +1,45 @@
 {
   "_note": "Second team, started from scratch on 15 Nov 2026 (no picks yet). Same rules and playbook as the main team; maintained by the agent like my_team.json.",
   "name": "Team 2",
-  "round": 12,
-  "players": [],
-  "lineup": {},
-  "captain": null,
-  "coach": null,
-  "bank": 103.3,
-  "bank_known": true,
+  "round": 13,
+  "players": [
+    "Elijah Bryant",
+    "Justin Robinson",
+    "Andres Feliz",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Cameron Payne",
+    "Gabriele Procida",
+    "Nikolaos Rogkavopoulos",
+    "Ousmane Diop",
+    "Vanja Marinkovic"
+  ],
+  "lineup": {
+    "starters": [
+      "Elijah Bryant",
+      "Justin Robinson",
+      "Andres Feliz",
+      "Sasha Vezenkov",
+      "Kenan Kamenjas"
+    ],
+    "sixth": "Cameron Payne",
+    "bench": [
+      "Gabriele Procida",
+      "Nikolaos Rogkavopoulos",
+      "Ousmane Diop",
+      "Vanja Marinkovic"
+    ]
+  },
+  "captain": "Sasha Vezenkov",
+  "coach": "Olympiacos",
+  "bank": 0.0,
+  "bank_known": false,
   "total_budget": 103.3,
-  "trades_left_this_round": "unlimited (new team)",
+  "trades_left_this_round": 4,
   "tracking": {
-    "source": "user",
-    "updated": "2026-11-15",
-    "last_applied_report": null
+    "source": "assumed: report 2026-11-17 variation A",
+    "updated": "2026-11-18",
+    "last_applied_report": "2026-11-17"
   },
   "notes": "Brand-new team: first squad picked freely from scratch with budget 103.3. Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades once the team exists.",
   "target_points": 200

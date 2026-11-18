@@ -1,6 +1,6 @@
 {
   "_note": "Real squad from the user's screenshot (Round 11, 12 Nov 2026). Maintained by the agent: after each trade deadline it applies Variation A of the latest report unless the user reports otherwise (see PLAYBOOK.md, Team tracking).",
-  "round": 12,
+  "round": 13,
   "players": [
     "Kendrick Nunn",
     "Dario Brizuela",
@@ -17,11 +17,11 @@
     "starters": [
       "Justin Robinson",
       "Kendrick Nunn",
+      "Andres Feliz",
       "Sasha Vezenkov",
-      "Collin Malcolm",
       "Aliou Diarra"
     ],
-    "sixth": "Andres Feliz",
+    "sixth": "Collin Malcolm",
     "bench": [
       "Kenan Kamenjas",
       "Nikolaos Rogkavopoulos",
@@ -36,9 +36,9 @@
   "total_budget": 105.5,
   "trades_left_this_round": 0,
   "tracking": {
-    "source": "user (screenshot)",
-    "updated": "2026-11-15",
-    "last_applied_report": "2026-11-15"
+    "source": "assumed: report 2026-11-17 variation A",
+    "updated": "2026-11-18",
+    "last_applied_report": "2026-11-17"
   },
   "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. R12 trades redone 15 Nov evening (user screenshot): Faye->Kamenjas, Davidovac->Rogkavopoulos, Madar->Maledon, coach Partizan->Jasikevicius (ULK); Robinson, Herrera, Diop and coach Masiulis undone. App shows 0.0/105.5, trades 4/4. The app still lists Kamenjas at Dubai (vs EFS) and shows injury crosses on Rogkavopoulos and Maledon. Lineup in the app: Brizuela, Nunn, Vezenkov (C), Malcolm, Diarra; 6th Kamenjas; bench Joksimovic, Feliz, Rogkavopoulos, Maledon. 15 Nov late: user chose Variation B: Madar->Robinson instead of Maledon, coach Masiulis (ZAL) instead of Jasikevicius. Bank 0.7 expected, not yet confirmed from the app.",
   "target_points": 200,
@@ -55,23 +55,5 @@
     "Nikolaos Rogkavopoulos": 4.5,
     "Justin Robinson": 13.1,
     "Coach Masiulis (ZAL)": 7.4
-  },
-  "round_start": {
-    "round": 12,
-    "players": [
-      "Mouhamed Faye",
-      "Dejan Davidovac",
-      "Sasha Vezenkov",
-      "Andres Feliz",
-      "Yam Madar",
-      "Stefan Joksimovic",
-      "Aliou Diarra",
-      "Kendrick Nunn",
-      "Collin Malcolm",
-      "Dario Brizuela"
-    ],
-    "coach": "Partizan",
-    "bank": 0.3,
-    "_note": "Squad before this round's trades. Trades can be changed until the deadline, so plans count all 4 trades from here. Bank set to 0.3 on 15 Nov (was 0.5): with the official prices (app_prices.json) your 4 trades give 0.3, but the app shows 0.1, so 0.2 was lost to price changes between trades; 0.3 makes every plan's bank match the app."
   }
 }

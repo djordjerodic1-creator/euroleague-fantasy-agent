@@ -1,0 +1,6238 @@
+{
+ "generated": "2026-11-18T09:17",
+ "today": "2026-11-18",
+ "source_round": 12,
+ "rounds_in_progress": [
+  12
+ ],
+ "target_round": 13,
+ "target_note": null,
+ "horizon": [
+  13
+ ],
+ "prices": {
+  "round": 12,
+  "stale": true,
+  "app_prices": 0,
+  "estimated": 293,
+  "app_updated": null
+ },
+ "calendar": {
+  "12": {
+   "start": "2026-11-17",
+   "end": "2026-11-18",
+   "double_week": true,
+   "unlimited_before": false,
+   "unlimited_window": null
+  },
+  "13": {
+   "start": "2026-11-19",
+   "end": "2026-11-20",
+   "double_week": true,
+   "unlimited_before": false,
+   "unlimited_window": null
+  },
+  "14": {
+   "start": "2026-11-24",
+   "end": "2026-11-25",
+   "double_week": false,
+   "unlimited_before": true,
+   "unlimited_window": "21 Nov – 24 Nov"
+  },
+  "15": {
+   "start": "2026-12-03",
+   "end": "2026-12-04",
+   "double_week": false,
+   "unlimited_before": false,
+   "unlimited_window": null
+  },
+  "16": {
+   "start": "2026-12-10",
+   "end": "2026-12-11",
+   "double_week": false,
+   "unlimited_before": false,
+   "unlimited_window": null
+  }
+ },
+ "team": {
+  "players": [
+   "Elijah Bryant",
+   "Justin Robinson",
+   "Andres Feliz",
+   "Sasha Vezenkov",
+   "Kenan Kamenjas",
+   "Cameron Payne",
+   "Gabriele Procida",
+   "Nikolaos Rogkavopoulos",
+   "Ousmane Diop",
+   "Vanja Marinkovic"
+  ],
+  "unmatched": [],
+  "coach": "OLY",
+  "captain": "Sasha Vezenkov",
+  "cost": 104.4,
+  "bank": 0.0,
+  "club_count": {
+   "HTA": 1,
+   "BAR": 1,
+   "MAD": 2,
+   "OLY": 1,
+   "BAS": 1,
+   "IST": 1,
+   "PAN": 1,
+   "MIL": 1,
+   "PAR": 1
+  }
+ },
+ "swaps": [
+  {
+   "out": "Elijah Bryant",
+   "out_score": 19.1,
+   "options": [
+    {
+     "name": "Tj Shorts",
+     "team": "PAM",
+     "price": 17.0,
+     "score": 16.4,
+     "gain": -2.7,
+     "owned": null
+    },
+    {
+     "name": "Nadir Hifi",
+     "team": "PRS",
+     "price": 15.7,
+     "score": 15.5,
+     "gain": -3.6,
+     "owned": null
+    },
+    {
+     "name": "Theo Maledon",
+     "team": "MAD",
+     "price": 12.7,
+     "score": 14.3,
+     "gain": -4.8,
+     "owned": null
+    },
+    {
+     "name": "Wade Baldwin Iv",
+     "team": "ULK",
+     "price": 14.0,
+     "score": 14.2,
+     "gain": -4.9,
+     "owned": null
+    },
+    {
+     "name": "Kendrick Nunn",
+     "team": "PAN",
+     "price": 14.9,
+     "score": 13.9,
+     "gain": -5.2,
+     "owned": null
+    }
+   ]
+  },
+  {
+   "out": "Justin Robinson",
+   "out_score": 15.3,
+   "options": [
+    {
+     "name": "Theo Maledon",
+     "team": "MAD",
+     "price": 12.7,
+     "score": 14.3,
+     "gain": -1.0,
+     "owned": null
+    },
+    {
+     "name": "Talen Horton Tucker",
+     "team": "ULK",
+     "price": 13.1,
+     "score": 13.2,
+     "gain": -2.1,
+     "owned": null
+    },
+    {
+     "name": "Jordan Loyd",
+     "team": "IST",
+     "price": 10.3,
+     "score": 11.8,
+     "gain": -3.5,
+     "owned": null
+    },
+    {
+     "name": "Patty Mills",
+     "team": "ASV",
+     "price": 12.5,
+     "score": 11.7,
+     "gain": -3.6,
+     "owned": null
+    },
+    {
+     "name": "Elie Okobo",
+     "team": "DUB",
+     "price": 12.3,
+     "score": 11.7,
+     "gain": -3.6,
+     "owned": null
+    }
+   ]
+  },
+  {
+   "out": "Andres Feliz",
+   "out_score": 12.2,
+   "options": [
+    {
+     "name": "Rj Cole",
+     "team": "MIL",
+     "price": 9.0,
+     "score": 11.4,
+     "gain": -0.8,
+     "owned": null
+    },
+    {
+     "name": "Jared Rhoden",
+     "team": "PRS",
+     "price": 9.8,
+     "score": 10.3,
+     "gain": -1.9,
+     "owned": null
+    },
+    {
+     "name": "Jimmy Clark Iii",
+     "team": "TEL",
+     "price": 9.4,
+     "score": 10.3,
+     "gain": -1.9,
+     "owned": null
+    },
+    {
+     "name": "Rokas Jokubaitis",
+     "team": "MUN",
+     "price": 8.7,
+     "score": 10.2,
+     "gain": -2.0,
+     "owned": null
+    },
+    {
+     "name": "Hugo Besson",
+     "team": "ASV",
+     "price": 9.7,
+     "score": 10.0,
+     "gain": -2.2,
+     "owned": null
+    }
+   ]
+  },
+  {
+   "out": "Sasha Vezenkov",
+   "out_score": 21.5,
+   "options": [
+    {
+     "name": "Dwayne Bacon",
+     "team": "DUB",
+     "price": 14.8,
+     "score": 15.4,
+     "gain": -6.1,
+     "owned": null
+    },
+    {
+     "name": "Jordan Nwora",
+     "team": "RED",
+     "price": 14.1,
+     "score": 14.8,
+     "gain": -6.7,
+     "owned": null
+    },
+    {
+     "name": "Collin Malcolm",
+     "team": "IST",
+     "price": 10.4,
+     "score": 13.6,
+     "gain": -7.9,
+     "owned": null
+    },
+    {
+     "name": "Azuolas Tubelis",
+     "team": "ZAL",
+     "price": 12.9,
+     "score": 13.0,
+     "gain": -8.5,
+     "owned": null
+    },
+    {
+     "name": "Dario Saric",
+     "team": "IST",
+     "price": 14.3,
+     "score": 12.8,
+     "gain": -8.7,
+     "owned": null
+    }
+   ]
+  },
+  {
+   "out": "Kenan Kamenjas",
+   "out_score": 9.7,
+   "options": [
+    {
+     "name": "Metecan Birsen",
+     "team": "BES",
+     "price": 4.4,
+     "score": 2.5,
+     "gain": -7.2,
+     "owned": null
+    },
+    {
+     "name": "Bryant Dunston",
+     "team": "OLY",
+     "price": 4.4,
+     "score": 1.0,
+     "gain": -8.7,
+     "owned": null
+    },
+    {
+     "name": "Sertac Sanli",
+     "team": "ULK",
+     "price": 4.0,
+     "score": 0.85,
+     "gain": -8.8,
+     "owned": null
+    }
+   ]
+  },
+  {
+   "out": "Cameron Payne",
+   "out_score": 13.0,
+   "options": [
+    {
+     "name": "Jordan Loyd",
+     "team": "IST",
+     "price": 10.3,
+     "score": 11.8,
+     "gain": -1.2,
+     "owned": null
+    },
+    {
+     "name": "Rj Cole",
+     "team": "MIL",
+     "price": 9.0,
+     "score": 11.4,
+     "gain": -1.6,
+     "owned": null
+    },
+    {
+     "name": "Codi Miller-Mcintyre",
+     "team": "OLY",
+     "price": 10.3,
+     "score": 11.0,
+     "gain": -2.0,
+     "owned": null
+    },
+    {
+     "name": "Jared Rhoden",
+     "team": "PRS",
+     "price": 9.8,
+     "score": 10.3,
+     "gain": -2.7,
+     "owned": null
+    },
+    {
+     "name": "Jimmy Clark Iii",
+     "team": "TEL",
+     "price": 9.4,
+     "score": 10.3,
+     "gain": -2.7,
+     "owned": null
+    }
+   ]
+  },
+  {
+   "out": "Gabriele Procida",
+   "out_score": 7.2,
+   "options": [
+    {
+     "name": "Stefan Joksimovic",
+     "team": "BAS",
+     "price": 4.2,
+     "score": 5.9,
+     "gain": -1.3,
+     "owned": null
+    },
+    {
+     "name": "Dejan Davidovac",
+     "team": "RED",
+     "price": 4.8,
+     "score": 5.6,
+     "gain": -1.6,
+     "owned": null
+    },
+    {
+     "name": "Ognjen Dobric",
+     "team": "RED",
+     "price": 4.8,
+     "score": 4.5,
+     "gain": -2.7,
+     "owned": null
+    },
+    {
+     "name": "Bodian Massa",
+     "team": "ASV",
+     "price": 5.3,
+     "score": 3.9,
+     "gain": -3.3,
+     "owned": null
+    },
+    {
+     "name": "Ish Wainright",
+     "team": "HTA",
+     "price": 5.5,
+     "score": 3.8,
+     "gain": -3.4,
+     "owned": null
+    }
+   ]
+  },
+  {
+   "out": "Nikolaos Rogkavopoulos",
+   "out_score": 8.7,
+   "options": [
+    {
+     "name": "Stefan Joksimovic",
+     "team": "BAS",
+     "price": 4.2,
+     "score": 5.9,
+     "gain": -2.8,
+     "owned": null
+    },
+    {
+     "name": "Leopold Cavaliere",
+     "team": "PRS",
+     "price": 4.0,
+     "score": 3.6,
+     "gain": -5.1,
+     "owned": null
+    },
+    {
+     "name": "Jeremy Morgan",
+     "team": "PRS",
+     "price": 4.3,
+     "score": 3.3,
+     "gain": -5.4,
+     "owned": null
+    },
+    {
+     "name": "Giampaolo Ricci",
+     "team": "MIL",
+     "price": 4.0,
+     "score": 3.1,
+     "gain": -5.6,
+     "owned": null
+    },
+    {
+     "name": "Tomer Ginat",
+     "team": "HTA",
+     "price": 4.0,
+     "score": 3.0,
+     "gain": -5.7,
+     "owned": null
+    }
+   ]
+  },
+  {
+   "out": "Ousmane Diop",
+   "out_score": 7.9,
+   "options": [
+    {
+     "name": "Metecan Birsen",
+     "team": "BES",
+     "price": 4.4,
+     "score": 2.5,
+     "gain": -5.4,
+     "owned": null
+    },
+    {
+     "name": "Bryant Dunston",
+     "team": "OLY",
+     "price": 4.4,
+     "score": 1.0,
+     "gain": -6.9,
+     "owned": null
+    },
+    {
+     "name": "Sertac Sanli",
+     "team": "ULK",
+     "price": 4.0,
+     "score": 0.85,
+     "gain": -7.1,
+     "owned": null
+    }
+   ]
+  },
+  {
+   "out": "Vanja Marinkovic",
+   "out_score": 6.8,
+   "options": [
+    {
+     "name": "Stefan Joksimovic",
+     "team": "BAS",
+     "price": 4.2,
+     "score": 5.9,
+     "gain": -0.9,
+     "owned": null
+    },
+    {
+     "name": "Leopold Cavaliere",
+     "team": "PRS",
+     "price": 4.0,
+     "score": 3.6,
+     "gain": -3.2,
+     "owned": null
+    },
+    {
+     "name": "Jeremy Morgan",
+     "team": "PRS",
+     "price": 4.3,
+     "score": 3.3,
+     "gain": -3.5,
+     "owned": null
+    },
+    {
+     "name": "Giampaolo Ricci",
+     "team": "MIL",
+     "price": 4.0,
+     "score": 3.1,
+     "gain": -3.7,
+     "owned": null
+    },
+    {
+     "name": "Tomer Ginat",
+     "team": "HTA",
+     "price": 4.0,
+     "score": 3.0,
+     "gain": -3.8,
+     "owned": null
+    }
+   ]
+  }
+ ],
+ "previews": {
+  "anadolu-efes-asvel-13": {
+   "summary": "Preview Anadolu Efes vs ASVEL: the EuroLeague 2026-27 Round 13 game tips off Friday 20 November at 19:30 (Athens time) at Turkcell Basketball Development Center. Anadolu Efes: 14th place, 5-7, form LWLWL. ASVEL: 16th place, 4-8, form WWLLL. Our model projects 91-84. Favourite: Anadolu Efes, with a 75% chance to win. Players to watch: Dario Saric (11.8 points, 14.9 PIR) and Mathis Dossou-Yovo (12.0 points, 14.5 PIR). Absences: Anadolu Efes: Mike James and Bruno Fernando · ASVEL: Myles Cale and Yves Pons. Matchup Center IST Anadolu Efes 75% 25% ASVEL ASV Projected score 91-84 Margin +6.8 Projected total 175.6 Pace 75.8 Model confidence High Anadolu Efes 75% win probability | Projected score: 91-84 | Projected total: 176 | Pace: 75.8 | Model confidence: High Model mp-1.4 (lightgbm) · last updated 18 Nov, 09:26 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Mike James (14.0 PIR) – Patty Mills (13.4 PIR) Forward: Dario Saric (14.9 PIR) – Edwin Jackson (12.3 PIR) Center: Bruno Fernando (11.5 PIR) – Mathis Dossou-Yovo (14.5 PIR) Top scorer vs defense: Cameron Payne (15.2 pts) vs a defense with DRtg 123.7 (19) · Patty Mills (15.6 pts) vs a defense with DRtg 114.1 (8) Rebounding battle: Anadolu Efes OREB% 28.3% vs DREB% 60.1% ASVEL · ASVEL OREB% 28.8% vs DREB% 68.0% Anadolu Efes Pace battle: Anadolu Efes 76.1 – ASVEL 76.8 · projected 75.8 Bench (PIR from reserves per game): Anadolu Efes 42.2 – ASVEL 62.6 Coaches: Pablo Laso – Tony Parker Players to watch Anadolu Efes ASVEL Projected PIR Dario Saric 14.9 PIR Collin Malcolm 13.2 PIR Matthew Strazel 12.7 PIR Cameron Payne 12.2 PIR Jordan Loyd 10.0 PIR Mathis Dossou-Yovo 14.5 PIR Patty Mills 13.4 PIR Edwin Jackson 12.3 PIR Tyty Washington Jr 11.3 PIR Hugo Besson 10.7 PIR Scorers ",
+   "favourite": "Anadolu Efes",
+   "fav_pct": 75,
+   "home": "IST",
+   "away": "ASV",
+   "fav_code": "IST",
+   "date": "20 Nov",
+   "time": "19:30",
+   "score": [
+    91,
+    84
+   ],
+   "player_proj": {
+    "Dario Saric": 14.9,
+    "Collin Malcolm": 13.2,
+    "Matthew Strazel": 12.7,
+    "Cameron Payne": 12.2,
+    "Jordan Loyd": 10.0,
+    "Mathis Dossou-Yovo": 14.5,
+    "Patty Mills": 13.4,
+    "Edwin Jackson": 12.3,
+    "Tyty Washington Jr": 11.3,
+    "Hugo Besson": 10.7
+   },
+   "coaches": [
+    "Pablo Laso",
+    "Tony Parker"
+   ],
+   "url": "https://basketballstats.eu/en/game/anadolu-efes-asvel-13/"
+  },
+  "barcelona-crvena-zvezda-13": {
+   "summary": "Preview Barcelona vs Crvena Zvezda: the EuroLeague 2026-27 Round 13 game tips off Friday 20 November at 21:30 (Athens time) at Palau Blaugrana. Barcelona: 6th place, 8-4, form WWWWL. Crvena Zvezda: 9th place, 7-5, form WWWLL. Our model projects 87-83. Favourite: Barcelona, with a 64% chance to win. Players to watch: Justin Robinson (14.7 points, 14.4 PIR) and Jordan Nwora (14.3 points, 15.1 PIR). Absences: Barcelona: Tosan Evbuomwan, Umoja Gibson and Kevin Punter · Crvena Zvezda: Johnathan Motley, Stefan Miljenovic and Chima Moneke. Matchup Center BAR Barcelona 64% 36% Crvena Zvezda RED Projected score 87-83 Margin +4.4 Projected total 169.8 Pace 74.0 Model confidence Medium Barcelona 64% win probability | Projected score: 87-83 | Projected total: 170 | Pace: 74.0 | Model confidence: Medium Model mp-1.4 (lightgbm) · last updated 18 Nov, 09:26 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Kevin Punter (14.8 PIR) – Chris Jones (13.2 PIR) Forward: Tyrese Martin (7.8 PIR) – Jordan Nwora (15.1 PIR) Center: Josh Nebo (12.4 PIR) – Christian Koloko (12.0 PIR) Top scorer vs defense: Kevin Punter (15.9 pts) vs a defense with DRtg 106.4 (3) · Jordan Nwora (14.3 pts) vs a defense with DRtg 115.4 (11) Rebounding battle: Barcelona OREB% 35.0% vs DREB% 64.3% Crvena Zvezda · Crvena Zvezda OREB% 33.7% vs DREB% 67.0% Barcelona Pace battle: Barcelona 75.0 – Crvena Zvezda 73.3 · projected 74.0 Bench (PIR from reserves per game): Barcelona 44.3 – Crvena Zvezda 31.8 Coaches: Aleksander Sekulic – Ibon Navarro Players to watch Barcelona Crvena Zvezda Projected PIR Justin Robinson 14.4 PIR Josh Nebo 12.4 PIR Olek Balcerowski 8.7 PIR Tyrese Martin 7.8 PIR Joel Parra 7.4 PIR Jordan Nwora 15.1 PIR Chris Jones 13.2 PIR Christian Koloko 12.0 PIR Tyson Carter 9.4 PIR Semi Ojeleye 9",
+   "favourite": "Barcelona",
+   "fav_pct": 64,
+   "home": "BAR",
+   "away": "RED",
+   "fav_code": "BAR",
+   "date": "20 Nov",
+   "time": "21:30",
+   "score": [
+    87,
+    83
+   ],
+   "player_proj": {
+    "Justin Robinson": 14.4,
+    "Josh Nebo": 12.4,
+    "Olek Balcerowski": 8.7,
+    "Tyrese Martin": 7.8,
+    "Joel Parra": 7.4,
+    "Jordan Nwora": 15.1,
+    "Chris Jones": 13.2,
+    "Christian Koloko": 12.0,
+    "Tyson Carter": 9.4,
+    "Semi Ojeleye": 9.1
+   },
+   "coaches": [
+    "Aleksander Sekulic",
+    "Ibon Navarro"
+   ],
+   "url": "https://basketballstats.eu/en/game/barcelona-crvena-zvezda-13/"
+  },
+  "bayern-munich-baskonia-13": {
+   "summary": "Preview Bayern Munich vs Baskonia: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 21:00 (Athens time) at Sap Garden. Bayern Munich: 18th place, 3-9, form LLWLL. Baskonia: 20th place, 1-11, form LLLLL. Our model projects 93-89. Favourite: Bayern Munich, with a 68% chance to win. Players to watch: Johannes Thiemann (10.9 points, 13.6 PIR) and Chris Duarte (10.2 points, 11.1 PIR). Absences: Bayern Munich: none known · Baskonia: Markus Howard, Marcio Santos, Tadas Sedekerskis and Kenneth Faried. Matchup Center MUN Bayern Munich 68% 32% Baskonia BAS Projected score 93-89 Margin +3.4 Projected total 182.2 Pace 76.8 Model confidence Medium Bayern Munich 68% win probability | Projected score: 93-89 | Projected total: 182 | Pace: 76.8 | Model confidence: Medium Model mp-1.4 (lightgbm) · last updated 18 Nov, 09:26 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Duane Washington (11.4 PIR) – Damion Baugh (7.4 PIR) Forward: Oscar Da Silva (10.7 PIR) – Tadas Sedekerskis (13.0 PIR) Center: Johannes Thiemann (13.6 PIR) – Kenneth Faried (13.8 PIR) Top scorer vs defense: Duane Washington (16.2 pts) vs a defense with DRtg 120.4 (17) · A.J. Lawson (11.3 pts) vs a defense with DRtg 126.7 (20) Rebounding battle: Bayern Munich OREB% 31.8% vs DREB% 67.0% Baskonia · Baskonia OREB% 32.3% vs DREB% 65.4% Bayern Munich Pace battle: Bayern Munich 75.8 – Baskonia 75.9 · projected 76.8 Bench (PIR from reserves per game): Bayern Munich 57.0 – Baskonia 51.2 Coaches: Anton Gavel – Velimir Perasovic Players to watch Bayern Munich Baskonia Projected PIR Johannes Thiemann 13.6 PIR Duane Washington 11.4 PIR Oscar Da Silva 10.7 PIR Austin Wiley 10.5 PIR Vladimir Lucic 9.9 PIR Chris Duarte 11.1 PIR A.J. Lawson 9.3 PIR Dj Stewart 8.8 PIR Damion Baugh 7.4 ",
+   "favourite": "Bayern Munich",
+   "fav_pct": 68,
+   "home": "MUN",
+   "away": "BAS",
+   "fav_code": "MUN",
+   "date": "19 Nov",
+   "time": "21:00",
+   "score": [
+    93,
+    89
+   ],
+   "player_proj": {
+    "Johannes Thiemann": 13.6,
+    "Duane Washington": 11.4,
+    "Oscar Da Silva": 10.7,
+    "Austin Wiley": 10.5,
+    "Vladimir Lucic": 9.9,
+    "Chris Duarte": 11.1,
+    "A.J. Lawson": 9.3,
+    "Dj Stewart": 8.8,
+    "Damion Baugh": 7.4,
+    "Clement Frisch": 7.1
+   },
+   "coaches": [
+    "Anton Gavel",
+    "Velimir Perasovic"
+   ],
+   "url": "https://basketballstats.eu/en/game/bayern-munich-baskonia-13/"
+  },
+  "maccabi-tel-aviv-dubai-13": {
+   "summary": "Preview Maccabi Tel Aviv vs Dubai Basketball: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 19:15 (Athens time) at Spyros Kyprianou Athletic Center. Maccabi Tel Aviv: 17th place, 3-9, form LLLWL. Dubai Basketball: 7th place, 8-4, form LWWLW. Our model projects 90-91. Favourite: Dubai Basketball, with a 62% chance to win. Players to watch: Yam Madar (11.6 points, 14.2 PIR) and Mfiondu Kabengele (14.7 points, 18.6 PIR). Absences: Maccabi Tel Aviv: Iffe Lundberg · Dubai Basketball: Davis Bertans. Matchup Center TEL Maccabi Tel Aviv 38% 62% Dubai Basketball DUB Projected score 90-91 Margin -1.6 Projected total 180.6 Pace 75.1 Model confidence Medium Dubai Basketball 62% win probability | Projected score: 90-91 | Projected total: 181 | Pace: 75.1 | Model confidence: Medium Model mp-1.4 (lightgbm) · last updated 18 Nov, 09:26 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Yam Madar (14.2 PIR) – Elie Okobo (11.5 PIR) Forward: Bonzie Colson (11.5 PIR) – Dwayne Bacon (17.9 PIR) Center: Daniel Theis (10.8 PIR) – Mfiondu Kabengele (18.6 PIR) Top scorer vs defense: Jimmy Clark Iii (13.6 pts) vs a defense with DRtg 116.7 (12) · Dwayne Bacon (16.3 pts) vs a defense with DRtg 122.3 (18) Rebounding battle: Maccabi Tel Aviv OREB% 32.9% vs DREB% 68.9% Dubai Basketball · Dubai Basketball OREB% 35.5% vs DREB% 68.0% Maccabi Tel Aviv Pace battle: Maccabi Tel Aviv 74.8 – Dubai Basketball 72.6 · projected 75.1 Bench (PIR from reserves per game): Maccabi Tel Aviv 46.7 – Dubai Basketball 43.4 Coaches: Oded Kattash – Xavi Pascual Players to watch Maccabi Tel Aviv Dubai Basketball Projected PIR Yam Madar 14.2 PIR Bonzie Colson 11.5 PIR Daniel Theis 10.8 PIR O'Shae J Brissett 10.8 PIR Jaylen Hoard 10.2 PIR Mfiondu Kabengele 18.6 PIR Dwayne Bacon 17.9 PIR Eli",
+   "favourite": "Dubai Basketball",
+   "fav_pct": 62,
+   "home": "TEL",
+   "away": "DUB",
+   "fav_code": "DUB",
+   "date": "19 Nov",
+   "time": "19:15",
+   "score": [
+    90,
+    91
+   ],
+   "player_proj": {
+    "Yam Madar": 14.2,
+    "Bonzie Colson": 11.5,
+    "Daniel Theis": 10.8,
+    "O'Shae J Brissett": 10.8,
+    "Jaylen Hoard": 10.2,
+    "Mfiondu Kabengele": 18.6,
+    "Dwayne Bacon": 17.9,
+    "Elie Okobo": 11.5,
+    "Dzanan Musa": 11.4,
+    "Filip Petrusev": 10.5
+   },
+   "coaches": [
+    "Oded Kattash",
+    "Xavi Pascual"
+   ],
+   "url": "https://basketballstats.eu/en/game/maccabi-tel-aviv-dubai-13/"
+  },
+  "olimpia-milano-fenerbahce-13": {
+   "summary": "Preview Olimpia Milano vs Fenerbahce: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 21:30 (Athens time) at Unipol Forum. Olimpia Milano: 19th place, 2-10, form LLLLW. Fenerbahce: 3rd place, 8-4, form LLWLW. Our model projects 83-84. Favourite: Fenerbahce, with a 64% chance to win. Players to watch: Moses Wright (11.3 points, 13.4 PIR) and Talen Horton Tucker (13.1 points, 14.0 PIR). Absences: Olimpia Milano: Devin Booker · Fenerbahce: Nicolo Melli and Braxton Key. Matchup Center MIL Olimpia Milano 36% 64% Fenerbahce ULK Projected score 83-84 Margin -1.3 Projected total 167.4 Pace 73.0 Model confidence Medium Fenerbahce 64% win probability | Projected score: 83-84 | Projected total: 167 | Pace: 73.0 | Model confidence: Medium Model mp-1.4 (lightgbm) · last updated 18 Nov, 09:26 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Devon Hall (10.5 PIR) – Talen Horton Tucker (14.0 PIR) Forward: Alec Peters (9.4 PIR) – Shavon Shields (13.0 PIR) Center: Moses Wright (13.4 PIR) – Dwight Powell (8.7 PIR) Top scorer vs defense: Moses Wright (11.3 pts) vs a defense with DRtg 106.3 (2) · Talen Horton Tucker (13.1 pts) vs a defense with DRtg 119.5 (16) Rebounding battle: Olimpia Milano OREB% 33.9% vs DREB% 67.5% Fenerbahce · Fenerbahce OREB% 34.6% vs DREB% 65.2% Olimpia Milano Pace battle: Olimpia Milano 73.9 – Fenerbahce 73.4 · projected 73.0 Bench (PIR from reserves per game): Olimpia Milano 41.9 – Fenerbahce 59.4 Coaches: Luca Banchi – Saras Jasikevicius Players to watch Olimpia Milano Fenerbahce Projected PIR Moses Wright 13.4 PIR Devon Hall 10.5 PIR Alec Peters 9.4 PIR Rj Cole 9.1 PIR Leandro Bolmaro 7.9 PIR Talen Horton Tucker 14.0 PIR Wade Baldwin Iv 13.8 PIR Shavon Shields 13.0 PIR Will Clyburn ",
+   "favourite": "Fenerbahce",
+   "fav_pct": 64,
+   "home": "MIL",
+   "away": "ULK",
+   "fav_code": "ULK",
+   "date": "19 Nov",
+   "time": "21:30",
+   "score": [
+    83,
+    84
+   ],
+   "player_proj": {
+    "Moses Wright": 13.4,
+    "Devon Hall": 10.5,
+    "Alec Peters": 9.4,
+    "Rj Cole": 9.1,
+    "Leandro Bolmaro": 7.9,
+    "Talen Horton Tucker": 14.0,
+    "Wade Baldwin Iv": 13.8,
+    "Shavon Shields": 13.0,
+    "Will Clyburn": 10.1,
+    "Shane Larkin": 8.9
+   },
+   "coaches": [
+    "Luca Banchi",
+    "Saras Jasikevicius"
+   ],
+   "url": "https://basketballstats.eu/en/game/olimpia-milano-fenerbahce-13/"
+  },
+  "olympiacos-real-madrid-13": {
+   "summary": "Preview Olympiacos vs Real Madrid: the EuroLeague 2026-27 Round 13 game tips off Friday 20 November at 21:15 (Athens time) at Sunel Arena. Olympiacos: 2nd place, 9-3, form WWLWW. Real Madrid: 8th place, 7-4, form WWWLW. Our model projects 93-88. Favourite: Olympiacos, with a 68% chance to win. Players to watch: Sasha Vezenkov (20.7 points, 24.7 PIR) and Theo Maledon (16.3 points, 20.4 PIR). Absences: Olympiacos: John Konchar, Tyler Dorsey, Nikola Milutinov and Jean Montero · Real Madrid: Gabriel Deck, Mikael Jantunen and Facundo Campazzo. Matchup Center OLY Olympiacos 68% 32% Real Madrid MAD Projected score 93-88 Margin +5.3 Projected total 181.1 Pace 75.2 Model confidence Medium Olympiacos 68% win probability | Projected score: 93-88 | Projected total: 181 | Pace: 75.2 | Model confidence: Medium Model mp-1.4 (lightgbm) · last updated 18 Nov, 09:26 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Jean Montero (20.3 PIR) – Theo Maledon (20.4 PIR) Forward: Sasha Vezenkov (24.7 PIR) – Alberto Abalde (8.2 PIR) Center: Nikola Milutinov (9.1 PIR) – Walter Tavares (15.3 PIR) Top scorer vs defense: Sasha Vezenkov (20.7 pts) vs a defense with DRtg 115.4 (10) · Theo Maledon (16.3 pts) vs a defense with DRtg 108.7 (5) Rebounding battle: Olympiacos OREB% 36.8% vs DREB% 68.4% Real Madrid · Real Madrid OREB% 34.3% vs DREB% 64.6% Olympiacos Pace battle: Olympiacos 73.1 – Real Madrid 77.2 · projected 75.2 Bench (PIR from reserves per game): Olympiacos 56.3 – Real Madrid 61.3 Coaches: Georgios Bartzokas – Pedro Martinez Players to watch Olympiacos Real Madrid Projected PIR Sasha Vezenkov 24.7 PIR Mbaye Ndiaye 10.3 PIR Evan Fournier 9.2 PIR Tyson Ward 9.2 PIR Codi Miller-Mcintyre 8.9 PIR Andres Feliz 14.8 PIR Walter Tavares 13.4 PIR Chuma Okeke 9.9 PIR Gabriele Procida 9.4 PIR ",
+   "favourite": "Olympiacos",
+   "fav_pct": 68,
+   "home": "OLY",
+   "away": "MAD",
+   "fav_code": "OLY",
+   "date": "20 Nov",
+   "time": "21:15",
+   "score": [
+    93,
+    88
+   ],
+   "player_proj": {
+    "Sasha Vezenkov": 24.7,
+    "Mbaye Ndiaye": 10.3,
+    "Evan Fournier": 9.2,
+    "Tyson Ward": 9.2,
+    "Codi Miller-Mcintyre": 8.9,
+    "Andres Feliz": 14.8,
+    "Walter Tavares": 13.4,
+    "Chuma Okeke": 9.9,
+    "Gabriele Procida": 9.4,
+    "Timothe Luwawu-Cabarrot": 8.5
+   },
+   "coaches": [
+    "Georgios Bartzokas",
+    "Pedro Martinez"
+   ],
+   "url": "https://basketballstats.eu/en/game/olympiacos-real-madrid-13/"
+  },
+  "paris-hapoel-tel-aviv-13": {
+   "summary": "Preview Paris Basketball vs Hapoel Tel Aviv: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 21:45 (Athens time) at Adidas Arena. Paris Basketball: 12th place, 6-6, form WWWWW. Hapoel Tel Aviv: 10th place, 7-5, form WLLLW. Our model projects 93-93. Favourite: Paris Basketball, with a 52% chance to win. Players to watch: Nadir Hifi (21.2 points, 19.7 PIR) and Elijah Bryant (14.6 points, 21.3 PIR). Absences: Paris Basketball: Daulton Hommes and Joel Ayayi · Hapoel Tel Aviv: Bruno Caboclo. Matchup Center PRS Paris Basketball 52% 48% Hapoel Tel Aviv HTA Projected score 93-93 Margin +0.1 Projected total 186.4 Pace 78.2 Model confidence Low Paris Basketball 52% win probability | Projected score: 93-93 | Projected total: 186 | Pace: 78.2 | Model confidence: Low Model mp-1.4 (lightgbm) · last updated 18 Nov, 09:26 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Nadir Hifi (19.7 PIR) – Elijah Bryant (21.3 PIR) Forward: Tj Warren (11.4 PIR) – Zach Leday (12.8 PIR) Center: Allan Dokossi (10.8 PIR) – Dan Oturu (14.8 PIR) Top scorer vs defense: Nadir Hifi (21.2 pts) vs a defense with DRtg 115.2 (9) · Elijah Bryant (14.6 pts) vs a defense with DRtg 118.7 (14) Rebounding battle: Paris Basketball OREB% 35.4% vs DREB% 68.2% Hapoel Tel Aviv · Hapoel Tel Aviv OREB% 28.4% vs DREB% 60.9% Paris Basketball Pace battle: Paris Basketball 77.9 – Hapoel Tel Aviv 75.3 · projected 78.2 Bench (PIR from reserves per game): Paris Basketball 58.2 – Hapoel Tel Aviv 35.0 Coaches: Maxime Lefevre – Dimitris Itoudis Players to watch Paris Basketball Hapoel Tel Aviv Projected PIR Nadir Hifi 19.7 PIR Tj Warren 11.4 PIR Allan Dokossi 10.8 PIR Mouhamed Faye 10.3 PIR Jared Rhoden 10.2 PIR Elijah Bryant 21.3 PIR Dan Oturu 14.8 PIR Zach Leday 12.8 PIR Vasilije ",
+   "favourite": "Paris Basketball",
+   "fav_pct": 52,
+   "home": "PRS",
+   "away": "HTA",
+   "fav_code": "PRS",
+   "date": "19 Nov",
+   "time": "21:45",
+   "score": [
+    93,
+    93
+   ],
+   "player_proj": {
+    "Nadir Hifi": 19.7,
+    "Tj Warren": 11.4,
+    "Allan Dokossi": 10.8,
+    "Mouhamed Faye": 10.3,
+    "Jared Rhoden": 10.2,
+    "Elijah Bryant": 21.3,
+    "Dan Oturu": 14.8,
+    "Zach Leday": 12.8,
+    "Vasilije Micic": 12.3,
+    "Antonio Blakeney": 8.9
+   },
+   "coaches": [
+    "Maxime Lefevre",
+    "Dimitris Itoudis"
+   ],
+   "url": "https://basketballstats.eu/en/game/paris-hapoel-tel-aviv-13/"
+  },
+  "partizan-besiktas-13": {
+   "summary": "Preview Partizan vs Besiktas: the EuroLeague 2026-27 Round 13 game tips off Friday 20 November at 21:45 (Athens time) at Aleksandar Nikolic Hall. Partizan: 11th place, 6-6, form LLWWL. Besiktas: 13th place, 5-6, form LLWLW. Our model projects 87-81. Favourite: Partizan, with a 64% chance to win. Players to watch: Carlik Jones (14.4 points, 16.2 PIR) and Lonnie Walker Iv (13.8 points, 12.5 PIR). Absences: Partizan: Joffrey Lauvergne, Derek Willis, Kyle Allman, Ethan Thompson and Kevarrius Hayes · Besiktas: Berk Ugurlu and Jaylen Nowell. Matchup Center PAR Partizan 64% 36% Besiktas BES Projected score 87-81 Margin +5.9 Projected total 167.3 Pace 73.5 Model confidence Medium Partizan 64% win probability | Projected score: 87-81 | Projected total: 167 | Pace: 73.5 | Model confidence: Medium Model mp-1.4 (lightgbm) · last updated 18 Nov, 09:26 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Carlik Jones (16.2 PIR) – Lonnie Walker Iv (12.5 PIR) Forward: Lamar Stevens (11.3 PIR) – Anthony Brown (8.1 PIR) Center: Tonye Jekiri (15.4 PIR) – Ante Zizic (10.9 PIR) Top scorer vs defense: Carlik Jones (14.4 pts) vs a defense with DRtg 119.2 (15) · Lonnie Walker Iv (13.8 pts) vs a defense with DRtg 106.8 (4) Rebounding battle: Partizan OREB% 28.9% vs DREB% 67.3% Besiktas · Besiktas OREB% 29.3% vs DREB% 68.0% Partizan Pace battle: Partizan 71.9 – Besiktas 76.3 · projected 73.5 Bench (PIR from reserves per game): Partizan 43.7 – Besiktas 54.3 Coaches: Joan Penarroya – Dusan Alimpijevic Players to watch Partizan Besiktas Projected PIR Carlik Jones 16.2 PIR Tonye Jekiri 15.4 PIR Lamar Stevens 11.3 PIR Robert Franks 10.4 PIR Nikola Tanaskovic 9.1 PIR Eugene Omoruyi 11.4 PIR Scottie Wilbekin 11.1 PIR Lonnie Walker Iv 10.3 PIR Wenyen Gabriel 8.8 PIR Devon Dotson 8.8 PIR ",
+   "favourite": "Partizan",
+   "fav_pct": 64,
+   "home": "PAR",
+   "away": "BES",
+   "fav_code": "PAR",
+   "date": "20 Nov",
+   "time": "21:45",
+   "score": [
+    87,
+    81
+   ],
+   "player_proj": {
+    "Carlik Jones": 16.2,
+    "Tonye Jekiri": 15.4,
+    "Lamar Stevens": 11.3,
+    "Robert Franks": 10.4,
+    "Nikola Tanaskovic": 9.1,
+    "Eugene Omoruyi": 11.4,
+    "Scottie Wilbekin": 11.1,
+    "Lonnie Walker Iv": 10.3,
+    "Wenyen Gabriel": 8.8,
+    "Devon Dotson": 8.8
+   },
+   "coaches": [
+    "Joan Penarroya",
+    "Dusan Alimpijevic"
+   ],
+   "url": "https://basketballstats.eu/en/game/partizan-besiktas-13/"
+  },
+  "valencia-virtus-bologna-13": {
+   "summary": "Preview Valencia Basket vs Virtus Bologna: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 22:00 (Athens time) at Roig Arena. Valencia Basket: 1st place, 9-3, form WLWWW. Virtus Bologna: 15th place, 5-7, form LLLLW. Our model projects 97-87. Favourite: Valencia Basket, with a 85% chance to win. Players to watch: Tj Shorts (16.3 points, 19.8 PIR) and Aliou Diarra (12.3 points, 18.8 PIR). Absences: Valencia Basket: Nathan Reuvers and Nikola Mirotic · Virtus Bologna: Davide Casarin. Matchup Center PAM Valencia Basket 85% 15% Virtus Bologna VIR Projected score 97-87 Margin +10.2 Projected total 183.7 Pace 76.9 Model confidence High Valencia Basket 85% win probability | Projected score: 97-87 | Projected total: 184 | Pace: 76.9 | Model confidence: High Model mp-1.4 (lightgbm) · last updated 18 Nov, 09:26 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Tj Shorts (19.8 PIR) – Wendell Moore (11.2 PIR) Forward: Nikola Mirotic (15.0 PIR) – Derrick Alston Jr. (8.3 PIR) Center: Neal Sako (10.4 PIR) – Aliou Diarra (18.8 PIR) Top scorer vs defense: Tj Shorts (16.3 pts) vs a defense with DRtg 117.5 (13) · Aliou Diarra (12.3 pts) vs a defense with DRtg 112.4 (7) Rebounding battle: Valencia Basket OREB% 36.3% vs DREB% 65.3% Virtus Bologna · Virtus Bologna OREB% 35.8% vs DREB% 70.4% Valencia Basket Pace battle: Valencia Basket 76.5 – Virtus Bologna 76.4 · projected 76.9 Bench (PIR from reserves per game): Valencia Basket 63.7 – Virtus Bologna 50.2 Coaches: Xavier Albert – Alex Mumbru Players to watch Valencia Basket Virtus Bologna Projected PIR Tj Shorts 19.8 PIR Armoni Brooks 12.8 PIR Kameron Taylor 11.8 PIR Neal Sako 10.4 PIR Jasiel Rivero 8.4 PIR Aliou Diarra 18.8 PIR Wendell Moore 11.2 PIR Marcus Carr 10.5 PIR Derrick Alsto",
+   "favourite": "Valencia Basket",
+   "fav_pct": 85,
+   "home": "PAM",
+   "away": "VIR",
+   "fav_code": "PAM",
+   "date": "19 Nov",
+   "time": "22:00",
+   "score": [
+    97,
+    87
+   ],
+   "player_proj": {
+    "Tj Shorts": 19.8,
+    "Armoni Brooks": 12.8,
+    "Kameron Taylor": 11.8,
+    "Neal Sako": 10.4,
+    "Jasiel Rivero": 8.4,
+    "Aliou Diarra": 18.8,
+    "Wendell Moore": 11.2,
+    "Marcus Carr": 10.5,
+    "Derrick Alston Jr.": 8.3,
+    "Trent Frazier": 7.7
+   },
+   "coaches": [
+    "Xavier Albert",
+    "Alex Mumbru"
+   ],
+   "url": "https://basketballstats.eu/en/game/valencia-virtus-bologna-13/"
+  },
+  "zalgiris-panathinaikos-13": {
+   "summary": "Preview Zalgiris vs Panathinaikos: the EuroLeague 2026-27 Round 13 game tips off Thursday 19 November at 20:00 (Athens time) at Zalgirio Arena. Zalgiris: 5th place, 8-4, form WWWWW. Panathinaikos: 4th place, 8-4, form WLWLL. Our model projects 87-85. Favourite: Zalgiris, with a 59% chance to win. Players to watch: Jonas Valanciunas (12.8 points, 20.9 PIR) and Mathias Lessort (11.7 points, 19.2 PIR). Absences: Zalgiris: Nigel Williams-Goss and Maodo Lo · Panathinaikos: Eleftherios Mantzoukas. Matchup Center ZAL Zalgiris 59% 41% Panathinaikos PAN Projected score 87-85 Margin +1.7 Projected total 171.5 Pace 73.8 Model confidence Medium Zalgiris 59% win probability | Projected score: 87-85 | Projected total: 172 | Pace: 73.8 | Model confidence: Medium Model mp-1.4 (lightgbm) · last updated 18 Nov, 09:26 · how accurate it is ",
+   "key_matchups": "Key matchups Guard: Carsen Edwards (12.1 PIR) – Kendrick Nunn (18.2 PIR) Forward: Azuolas Tubelis (16.3 PIR) – Nigel Hayes-Davis (11.0 PIR) Center: Jonas Valanciunas (20.9 PIR) – Mathias Lessort (19.2 PIR) Top scorer vs defense: Carsen Edwards (16.6 pts) vs a defense with DRtg 105.6 (1) · Kendrick Nunn (19.7 pts) vs a defense with DRtg 111.6 (6) Rebounding battle: Zalgiris OREB% 36.7% vs DREB% 67.5% Panathinaikos · Panathinaikos OREB% 34.7% vs DREB% 73.2% Zalgiris Pace battle: Zalgiris 75.4 – Panathinaikos 74.0 · projected 73.8 Bench (PIR from reserves per game): Zalgiris 40.9 – Panathinaikos 94.3 Coaches: Tomas Masiulis – Zeljko Obradovic Players to watch Zalgiris Panathinaikos Projected PIR Jonas Valanciunas 20.9 PIR Azuolas Tubelis 16.3 PIR Carsen Edwards 12.1 PIR Sterling Brown 10.7 PIR Marius Grigonis 9.3 PIR Mathias Lessort 19.2 PIR Kendrick Nunn 18.2 PIR Sylvain Francisco 13.3 PIR",
+   "favourite": "Zalgiris",
+   "fav_pct": 59,
+   "home": "ZAL",
+   "away": "PAN",
+   "fav_code": "ZAL",
+   "date": "19 Nov",
+   "time": "20:00",
+   "score": [
+    87,
+    85
+   ],
+   "player_proj": {
+    "Jonas Valanciunas": 20.9,
+    "Azuolas Tubelis": 16.3,
+    "Carsen Edwards": 12.1,
+    "Sterling Brown": 10.7,
+    "Marius Grigonis": 9.3,
+    "Mathias Lessort": 19.2,
+    "Kendrick Nunn": 18.2,
+    "Sylvain Francisco": 13.3,
+    "Nigel Hayes-Davis": 11.0,
+    "Guerschon Yabusele": 9.8
+   },
+   "coaches": [
+    "Tomas Masiulis",
+    "Zeljko Obradovic"
+   ],
+   "url": "https://basketballstats.eu/en/game/zalgiris-panathinaikos-13/"
+  }
+ },
+ "role_jumps": [
+  {
+   "name": "Oscar Da Silva",
+   "t": "MUN",
+   "pos": "Forward",
+   "price": 7.7,
+   "owned": null,
+   "min_last2": 27.0,
+   "min_before": 18.2,
+   "pir_last2": 16.5,
+   "pir_per_min": 0.57,
+   "est_pir_if_role_holds": 15.3,
+   "reasons": [
+    "minutes 18 → 27 over the last 2 games"
+   ]
+  },
+  {
+   "name": "Gabriele Procida",
+   "t": "MAD",
+   "pos": "Forward",
+   "price": 5.5,
+   "owned": null,
+   "min_last2": 21.4,
+   "min_before": 10.2,
+   "pir_last2": 16.5,
+   "pir_per_min": 0.57,
+   "est_pir_if_role_holds": 12.1,
+   "reasons": [
+    "minutes 10 → 21 over the last 2 games"
+   ]
+  },
+  {
+   "name": "Marius Grigonis",
+   "t": "ZAL",
+   "pos": "Guard",
+   "price": 7.2,
+   "owned": null,
+   "min_last2": 22.9,
+   "min_before": 16.3,
+   "pir_last2": 12.5,
+   "pir_per_min": 0.52,
+   "est_pir_if_role_holds": 11.8,
+   "reasons": [
+    "minutes 16 → 23 over the last 2 games",
+    "Nigel Williams-Goss (injured) was playing 19 min at guard"
+   ]
+  },
+  {
+   "name": "Scottie Wilbekin",
+   "t": "BES",
+   "pos": "Guard",
+   "price": 8.9,
+   "owned": null,
+   "min_last2": 18.4,
+   "min_before": 23.1,
+   "pir_last2": 3.5,
+   "pir_per_min": 0.49,
+   "est_pir_if_role_holds": 11.3,
+   "reasons": [
+    "Jaylen Nowell (injured) was playing 21 min at guard"
+   ]
+  },
+  {
+   "name": "Mouhamet Diouf",
+   "t": "VIR",
+   "pos": "Center",
+   "price": 8.0,
+   "owned": null,
+   "min_last2": 18.8,
+   "min_before": 10.5,
+   "pir_last2": 18.0,
+   "pir_per_min": 0.59,
+   "est_pir_if_role_holds": 11.1,
+   "reasons": [
+    "minutes 11 → 19 over the last 2 games"
+   ]
+  },
+  {
+   "name": "Wenyen Gabriel",
+   "t": "BES",
+   "pos": "Center",
+   "price": 8.0,
+   "owned": null,
+   "min_last2": 23.6,
+   "min_before": 16.6,
+   "pir_last2": 16.0,
+   "pir_per_min": 0.42,
+   "est_pir_if_role_holds": 10.0,
+   "reasons": [
+    "minutes 17 → 24 over the last 2 games"
+   ]
+  },
+  {
+   "name": "A.J. Lawson",
+   "t": "BAS",
+   "pos": "Forward",
+   "price": 8.6,
+   "owned": null,
+   "min_last2": 17.8,
+   "min_before": 24.5,
+   "pir_last2": 5.5,
+   "pir_per_min": 0.4,
+   "est_pir_if_role_holds": 9.8,
+   "reasons": [
+    "Tadas Sedekerskis (injured) was playing 18 min at forward"
+   ]
+  },
+  {
+   "name": "Dj Stewart",
+   "t": "BAS",
+   "pos": "Forward",
+   "price": 8.2,
+   "owned": null,
+   "min_last2": 25.8,
+   "min_before": 24.2,
+   "pir_last2": 11.0,
+   "pir_per_min": 0.37,
+   "est_pir_if_role_holds": 9.4,
+   "reasons": [
+    "Tadas Sedekerskis (injured) was playing 18 min at forward"
+   ]
+  },
+  {
+   "name": "Clement Frisch",
+   "t": "BAS",
+   "pos": "Forward",
+   "price": 5.6,
+   "owned": null,
+   "min_last2": 21.9,
+   "min_before": 17.6,
+   "pir_last2": 8.5,
+   "pir_per_min": 0.43,
+   "est_pir_if_role_holds": 9.3,
+   "reasons": [
+    "Tadas Sedekerskis (injured) was playing 18 min at forward"
+   ]
+  },
+  {
+   "name": "Olivier Nkamhoua",
+   "t": "BAR",
+   "pos": "Forward",
+   "price": 7.0,
+   "owned": null,
+   "min_last2": 18.7,
+   "min_before": 10.3,
+   "pir_last2": 11.5,
+   "pir_per_min": 0.47,
+   "est_pir_if_role_holds": 8.8,
+   "reasons": [
+    "minutes 10 → 19 over the last 2 games"
+   ]
+  },
+  {
+   "name": "Darius Thompson",
+   "t": "MIL",
+   "pos": "Guard",
+   "price": 7.4,
+   "owned": null,
+   "min_last2": 24.3,
+   "min_before": 17.2,
+   "pir_last2": 17.0,
+   "pir_per_min": 0.35,
+   "est_pir_if_role_holds": 8.6,
+   "reasons": [
+    "minutes 17 → 24 over the last 2 games"
+   ]
+  },
+  {
+   "name": "Rodions Kurucs",
+   "t": "BAS",
+   "pos": "Forward",
+   "price": 6.2,
+   "owned": null,
+   "min_last2": 25.0,
+   "min_before": 18.5,
+   "pir_last2": 10.0,
+   "pir_per_min": 0.34,
+   "est_pir_if_role_holds": 8.5,
+   "reasons": [
+    "minutes 19 → 25 over the last 2 games",
+    "Tadas Sedekerskis (injured) was playing 18 min at forward"
+   ]
+  }
+ ],
+ "roster": [
+  {
+   "slug": "elijah-bryant",
+   "name": "Elijah Bryant",
+   "team_name": "Hapoel Tel Aviv",
+   "t": "HTA",
+   "pos": "Guard",
+   "price": 17.7,
+   "since_start": 2.1,
+   "owned": null,
+   "pir_ge_price": "5/10",
+   "proj_price_change": null,
+   "c": "009846",
+   "n": "BRYANT, ELIJAH",
+   "price_src": "est",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 18.8,
+   "l10": 22.5,
+   "pirpm": 0.781,
+   "pm": 25.7,
+   "pp0": 19.1,
+   "pm0": 25.7,
+   "ppm": 0.744,
+   "pp": 19.1,
+   "p10": 8.7,
+   "p50": 19.3,
+   "p90": 30.8,
+   "conf": 75,
+   "opp": "BAS",
+   "home": 0,
+   "day": 0,
+   "pwin": 0.662,
+   "f": [
+    [
+     "role",
+     0.4
+    ],
+    [
+     "opponent",
+     0.2
+    ],
+    [
+     "form",
+     0.2
+    ],
+    [
+     "home",
+     0
+    ]
+   ],
+   "nxe": [
+    [
+     15,
+     "MIL",
+     1,
+     19.1,
+     5,
+     0
+    ],
+    [
+     16,
+     "ASV",
+     1,
+     19,
+     5,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     12,
+     "BAS",
+     0,
+     19.1,
+     3,
+     0
+    ],
+    [
+     13,
+     "PRS",
+     0,
+     19.1,
+     1,
+     1
+    ],
+    [
+     14,
+     "OLY",
+     0,
+     17.7,
+     3,
+     0
+    ]
+   ],
+   "p3": 55.9,
+   "p5": 94,
+   "start": 1,
+   "odrtg": 118.1,
+   "gpace": 77.8,
+   "mcv": 0.137,
+   "hcap": 45,
+   "hhit": 0.6,
+   "hneg": 0.1,
+   "rest": 5,
+   "b2b": 1,
+   "ph": [
+    [
+     4,
+     24
+    ],
+    [
+     5,
+     24
+    ],
+    [
+     6,
+     22.3
+    ],
+    [
+     7,
+     22
+    ],
+    [
+     8,
+     20.8
+    ],
+    [
+     9,
+     22
+    ],
+    [
+     10,
+     18.2
+    ],
+    [
+     11,
+     17.7
+    ],
+    [
+     12,
+     17.6
+    ]
+   ],
+   "l3": 15.3,
+   "m3": 27.2,
+   "m10": 28.8,
+   "gp": 11,
+   "vpc": 1.085,
+   "small": 0,
+   "sig": "buy",
+   "sigScore": 44,
+   "sigConf": "high",
+   "why": [
+    "value+",
+    "price+",
+    "schedule+"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 27
+    },
+    {
+     "k": "price",
+     "v": 15
+    },
+    {
+     "k": "schedule",
+     "v": 4
+    }
+   ],
+   "grade": "B+",
+   "posPct": 84,
+   "posRank": 21,
+   "rank": 48,
+   "vpc3": 3.176,
+   "fvpc": 1.157,
+   "fvpc3": 3.353,
+   "dn": "Elijah Bryant",
+   "s": "elijah-bryant",
+   "_seen": "2026-11-17",
+   "price_d3": -0.4,
+   "price_d5": 0.2,
+   "price_d10": 2.3,
+   "price_official": 17.6,
+   "score": 19.1,
+   "fresh": false,
+   "g5": [
+    [
+     8,
+     35,
+     29.4
+    ],
+    [
+     9,
+     -6,
+     22.4
+    ],
+    [
+     10,
+     35,
+     27.8
+    ],
+    [
+     11,
+     17,
+     31.3
+    ],
+    [
+     12,
+     17,
+     35.2
+    ]
+   ],
+   "gl": [
+    [
+     1,
+     "2026-09-24",
+     "MUN",
+     1,
+     84,
+     86,
+     1,
+     29.2,
+     10,
+     2,
+     3,
+     0,
+     2,
+     0,
+     1,
+     13,
+     4,
+     5,
+     0,
+     4,
+     2,
+     2
+    ],
+    [
+     2,
+     "2026-09-29",
+     "RED",
+     0,
+     81,
+     80,
+     1,
+     36.6,
+     18,
+     10,
+     4,
+     4,
+     2,
+     0,
+     1,
+     31,
+     3,
+     8,
+     1,
+     3,
+     9,
+     9
+    ],
+    [
+     3,
+     "2026-10-01",
+     "MAD",
+     1,
+     102,
+     98,
+     1,
+     31.6,
+     22,
+     13,
+     7,
+     1,
+     1,
+     0,
+     -3,
+     40,
+     6,
+     9,
+     1,
+     6,
+     7,
+     9
+    ],
+    [
+     4,
+     "2026-10-08",
+     "PAM",
+     0,
+     82,
+     93,
+     1,
+     31.4,
+     12,
+     9,
+     3,
+     0,
+     0,
+     0,
+     -15,
+     23,
+     3,
+     6,
+     1,
+     4,
+     3,
+     4
+    ],
+    [
+     5,
+     "2026-10-14",
+     "BES",
+     1,
+     100,
+     82,
+     1,
+     25.4,
+     16,
+     1,
+     2,
+     0,
+     3,
+     0,
+     -1,
+     15,
+     2,
+     6,
+     1,
+     1,
+     9,
+     10
+    ],
+    [
+     6,
+     "2026-10-16",
+     "PAN",
+     0,
+     91,
+     81,
+     1,
+     27.7,
+     14,
+     6,
+     3,
+     1,
+     1,
+     0,
+     10,
+     22,
+     4,
+     7,
+     1,
+     1,
+     3,
+     4
+    ],
+    [
+     7,
+     "2026-10-21",
+     "VIR",
+     1,
+     90,
+     81,
+     1,
+     24.4,
+     12,
+     5,
+     3,
+     1,
+     2,
+     1,
+     5,
+     13,
+     3,
+     10,
+     2,
+     4,
+     0,
+     0
+    ],
+    [
+     8,
+     "2026-10-28",
+     "IST",
+     1,
+     118,
+     88,
+     1,
+     29.4,
+     16,
+     3,
+     12,
+     4,
+     3,
+     0,
+     37,
+     35,
+     4,
+     5,
+     2,
+     2,
+     2,
+     2
+    ],
+    [
+     9,
+     "2026-10-30",
+     "DUB",
+     0,
+     83,
+     97,
+     1,
+     22.4,
+     3,
+     2,
+     1,
+     0,
+     2,
+     0,
+     -19,
+     -6,
+     1,
+     8,
+     0,
+     0,
+     1,
+     1
+    ],
+    [
+     10,
+     "2026-11-05",
+     "BAR",
+     1,
+     90,
+     93,
+     1,
+     27.8,
+     25,
+     3,
+     1,
+     0,
+     2,
+     0,
+     12,
+     35,
+     5,
+     7,
+     1,
+     3,
+     12,
+     12
+    ],
+    [
+     11,
+     "2026-11-12",
+     "TEL",
+     0,
+     73,
+     80,
+     1,
+     31.3,
+     12,
+     5,
+     5,
+     2,
+     3,
+     0,
+     -12,
+     17,
+     2,
+     6,
+     1,
+     4,
+     5,
+     6
+    ],
+    [
+     12,
+     "2026-11-17",
+     "BAS",
+     0,
+     85,
+     82,
+     1,
+     35.2,
+     15,
+     6,
+     2,
+     1,
+     2,
+     0,
+     8,
+     17,
+     5,
+     10,
+     0,
+     1,
+     5,
+     5
+    ]
+   ],
+   "bio": {
+    "age": 31,
+    "h": 196,
+    "no": "3",
+    "ct": "United States of America"
+   },
+   "round_log": [
+    {
+     "rd": 1,
+     "date": "2026-09-24",
+     "opp": "MUN",
+     "home": true,
+     "res": "L 84-86",
+     "start": true,
+     "min": 29.2,
+     "pts": 10,
+     "reb": 2,
+     "ast": 3,
+     "stl": 0,
+     "to": 2,
+     "blk": 0,
+     "pm": 1,
+     "pir": 13
+    },
+    {
+     "rd": 2,
+     "date": "2026-09-29",
+     "opp": "RED",
+     "home": false,
+     "res": "W 81-80",
+     "start": true,
+     "min": 36.6,
+     "pts": 18,
+     "reb": 10,
+     "ast": 4,
+     "stl": 4,
+     "to": 2,
+     "blk": 0,
+     "pm": 1,
+     "pir": 31
+    },
+    {
+     "rd": 3,
+     "date": "2026-10-01",
+     "opp": "MAD",
+     "home": true,
+     "res": "W 102-98",
+     "start": true,
+     "min": 31.6,
+     "pts": 22,
+     "reb": 13,
+     "ast": 7,
+     "stl": 1,
+     "to": 1,
+     "blk": 0,
+     "pm": -3,
+     "pir": 40
+    },
+    {
+     "rd": 4,
+     "date": "2026-10-08",
+     "opp": "PAM",
+     "home": false,
+     "res": "L 82-93",
+     "start": true,
+     "min": 31.4,
+     "pts": 12,
+     "reb": 9,
+     "ast": 3,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": -15,
+     "pir": 23
+    },
+    {
+     "rd": 5,
+     "date": "2026-10-14",
+     "opp": "BES",
+     "home": true,
+     "res": "W 100-82",
+     "start": true,
+     "min": 25.4,
+     "pts": 16,
+     "reb": 1,
+     "ast": 2,
+     "stl": 0,
+     "to": 3,
+     "blk": 0,
+     "pm": -1,
+     "pir": 15
+    },
+    {
+     "rd": 6,
+     "date": "2026-10-16",
+     "opp": "PAN",
+     "home": false,
+     "res": "W 91-81",
+     "start": true,
+     "min": 27.7,
+     "pts": 14,
+     "reb": 6,
+     "ast": 3,
+     "stl": 1,
+     "to": 1,
+     "blk": 0,
+     "pm": 10,
+     "pir": 22
+    },
+    {
+     "rd": 7,
+     "date": "2026-10-21",
+     "opp": "VIR",
+     "home": true,
+     "res": "W 90-81",
+     "start": true,
+     "min": 24.4,
+     "pts": 12,
+     "reb": 5,
+     "ast": 3,
+     "stl": 1,
+     "to": 2,
+     "blk": 1,
+     "pm": 5,
+     "pir": 13
+    },
+    {
+     "rd": 8,
+     "date": "2026-10-28",
+     "opp": "IST",
+     "home": true,
+     "res": "W 118-88",
+     "start": true,
+     "min": 29.4,
+     "pts": 16,
+     "reb": 3,
+     "ast": 12,
+     "stl": 4,
+     "to": 3,
+     "blk": 0,
+     "pm": 37,
+     "pir": 35
+    },
+    {
+     "rd": 9,
+     "date": "2026-10-30",
+     "opp": "DUB",
+     "home": false,
+     "res": "L 83-97",
+     "start": true,
+     "min": 22.4,
+     "pts": 3,
+     "reb": 2,
+     "ast": 1,
+     "stl": 0,
+     "to": 2,
+     "blk": 0,
+     "pm": -19,
+     "pir": -6
+    },
+    {
+     "rd": 10,
+     "date": "2026-11-05",
+     "opp": "BAR",
+     "home": true,
+     "res": "L 90-93",
+     "start": true,
+     "min": 27.8,
+     "pts": 25,
+     "reb": 3,
+     "ast": 1,
+     "stl": 0,
+     "to": 2,
+     "blk": 0,
+     "pm": 12,
+     "pir": 35
+    },
+    {
+     "rd": 11,
+     "date": "2026-11-12",
+     "opp": "TEL",
+     "home": false,
+     "res": "L 73-80",
+     "start": true,
+     "min": 31.3,
+     "pts": 12,
+     "reb": 5,
+     "ast": 5,
+     "stl": 2,
+     "to": 3,
+     "blk": 0,
+     "pm": -12,
+     "pir": 17
+    },
+    {
+     "rd": 12,
+     "date": "2026-11-17",
+     "opp": "BAS",
+     "home": false,
+     "res": "W 85-82",
+     "start": true,
+     "min": 35.2,
+     "pts": 15,
+     "reb": 6,
+     "ast": 2,
+     "stl": 1,
+     "to": 2,
+     "blk": 0,
+     "pm": 8,
+     "pir": 17
+    }
+   ],
+   "season_summary": "12 games, 21.2 PIR per game, 29.4 min"
+  },
+  {
+   "slug": "justin-robinson",
+   "name": "Justin Robinson",
+   "team_name": "Barcelona",
+   "t": "BAR",
+   "pos": "Guard",
+   "price": 13.3,
+   "since_start": 0.9,
+   "owned": null,
+   "pir_ge_price": "6/10",
+   "proj_price_change": null,
+   "c": "014008",
+   "n": "ROBINSON, JUSTIN",
+   "price_src": "est",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 16.2,
+   "l10": 14.7,
+   "pirpm": 0.704,
+   "pm": 22,
+   "pp0": 15.8,
+   "pm0": 21.5,
+   "ppm": 0.732,
+   "pp": 16.2,
+   "p10": 5.8,
+   "p50": 16.4,
+   "p90": 27.7,
+   "conf": 73,
+   "opp": "PRS",
+   "home": 1,
+   "day": 0,
+   "pwin": 0.697,
+   "f": [
+    [
+     "role",
+     0.7
+    ],
+    [
+     "home",
+     0.3
+    ],
+    [
+     "opponent",
+     0.1
+    ],
+    [
+     "rest",
+     0
+    ]
+   ],
+   "vx": {
+    "k": "vac",
+    "a": [
+     "009862"
+    ],
+    "dm": 0.5,
+    "dp": 0.4,
+    "absent_names": [
+     "Kevin Punter"
+    ]
+   },
+   "nxe": [
+    [
+     15,
+     "MAD",
+     0,
+     14.6,
+     2,
+     0
+    ],
+    [
+     16,
+     "PAR",
+     0,
+     14.2,
+     4,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     12,
+     "PRS",
+     1,
+     16.2,
+     1,
+     0
+    ],
+    [
+     13,
+     "RED",
+     1,
+     15.3,
+     3,
+     0
+    ],
+    [
+     14,
+     "ULK",
+     1,
+     15.3,
+     2,
+     0
+    ]
+   ],
+   "p3": 46.8,
+   "p5": 75.6,
+   "start": 1,
+   "odrtg": 117.1,
+   "gpace": 78.1,
+   "mcv": 0.17,
+   "hcap": 29.4,
+   "hhit": 0.4,
+   "hneg": 0.1,
+   "rest": 4,
+   "b2b": 0,
+   "ph": [
+    [
+     4,
+     9.5
+    ],
+    [
+     5,
+     12.1
+    ],
+    [
+     6,
+     12.1
+    ],
+    [
+     7,
+     13.5
+    ],
+    [
+     8,
+     13.4
+    ],
+    [
+     9,
+     13
+    ],
+    [
+     10,
+     14.1
+    ],
+    [
+     11,
+     12.8
+    ],
+    [
+     12,
+     13.1
+    ]
+   ],
+   "l3": 20.3,
+   "m3": 22.6,
+   "m10": 20.9,
+   "gp": 11,
+   "vpc": 1.237,
+   "small": 0,
+   "sig": "buy",
+   "sigScore": 29,
+   "sigConf": "high",
+   "why": [
+    "value+",
+    "dip-",
+    "schedule+"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 35
+    },
+    {
+     "k": "dip",
+     "v": -15
+    },
+    {
+     "k": "schedule",
+     "v": 6
+    }
+   ],
+   "grade": "A",
+   "posPct": 94,
+   "posRank": 8,
+   "rank": 19,
+   "vpc3": 3.573,
+   "fvpc": 1.323,
+   "fvpc3": 3.776,
+   "dn": "Justin Robinson",
+   "s": "justin-robinson",
+   "_seen": "2026-11-17",
+   "price_d3": 1.0,
+   "price_d5": 0.8,
+   "price_d10": 1.0,
+   "price_official": 13.1,
+   "score": 15.3,
+   "fresh": false,
+   "g5": [
+    [
+     8,
+     8,
+     19.9
+    ],
+    [
+     9,
+     23,
+     20.8
+    ],
+    [
+     10,
+     18,
+     21.4
+    ],
+    [
+     11,
+     20,
+     25.7
+    ],
+    [
+     12,
+     16,
+     26.9
+    ]
+   ],
+   "gl": [
+    [
+     1,
+     "2026-09-24",
+     "IST",
+     1,
+     89,
+     82,
+     1,
+     22.3,
+     10,
+     2,
+     2,
+     0,
+     3,
+     0,
+     1,
+     10,
+     1,
+     2,
+     2,
+     5,
+     2,
+     2
+    ],
+    [
+     2,
+     "2026-09-29",
+     "DUB",
+     0,
+     87,
+     94,
+     1,
+     14.7,
+     7,
+     1,
+     5,
+     0,
+     0,
+     0,
+     -2,
+     5,
+     0,
+     2,
+     2,
+     5,
+     1,
+     2
+    ],
+    [
+     3,
+     "2026-10-02",
+     "BES",
+     0,
+     95,
+     82,
+     1,
+     17.4,
+     9,
+     2,
+     3,
+     0,
+     4,
+     0,
+     0,
+     7,
+     2,
+     3,
+     1,
+     2,
+     2,
+     2
+    ],
+    [
+     4,
+     "2026-10-09",
+     "ZAL",
+     1,
+     81,
+     88,
+     1,
+     22.7,
+     20,
+     1,
+     2,
+     0,
+     1,
+     1,
+     -4,
+     21,
+     3,
+     5,
+     4,
+     8,
+     2,
+     2
+    ],
+    [
+     5,
+     "2026-10-13",
+     "TEL",
+     1,
+     90,
+     87,
+     1,
+     16.8,
+     11,
+     1,
+     3,
+     1,
+     1,
+     0,
+     12,
+     11,
+     3,
+     5,
+     1,
+     2,
+     2,
+     2
+    ],
+    [
+     6,
+     "2026-10-16",
+     "OLY",
+     1,
+     100,
+     105,
+     1,
+     24.9,
+     17,
+     2,
+     6,
+     0,
+     3,
+     0,
+     -14,
+     22,
+     1,
+     3,
+     4,
+     6,
+     3,
+     3
+    ],
+    [
+     7,
+     "2026-10-22",
+     "MIL",
+     0,
+     89,
+     81,
+     1,
+     24.6,
+     10,
+     5,
+     8,
+     1,
+     4,
+     0,
+     5,
+     12,
+     3,
+     5,
+     1,
+     5,
+     1,
+     2
+    ],
+    [
+     8,
+     "2026-10-27",
+     "MUN",
+     0,
+     88,
+     84,
+     1,
+     19.9,
+     11,
+     1,
+     5,
+     2,
+     0,
+     0,
+     -5,
+     8,
+     5,
+     8,
+     0,
+     4,
+     1,
+     2
+    ],
+    [
+     9,
+     "2026-10-30",
+     "PAM",
+     1,
+     98,
+     94,
+     1,
+     20.8,
+     22,
+     0,
+     1,
+     1,
+     0,
+     0,
+     -2,
+     23,
+     4,
+     5,
+     3,
+     5,
+     5,
+     6
+    ],
+    [
+     10,
+     "2026-11-05",
+     "HTA",
+     0,
+     93,
+     90,
+     1,
+     21.4,
+     20,
+     4,
+     6,
+     0,
+     2,
+     0,
+     -8,
+     18,
+     4,
+     6,
+     3,
+     6,
+     3,
+     4
+    ],
+    [
+     11,
+     "2026-11-13",
+     "PAN",
+     0,
+     76,
+     74,
+     1,
+     25.7,
+     24,
+     1,
+     1,
+     2,
+     4,
+     0,
+     7,
+     20,
+     1,
+     3,
+     5,
+     8,
+     7,
+     8
+    ],
+    [
+     12,
+     "2026-11-17",
+     "PRS",
+     1,
+     86,
+     89,
+     1,
+     26.9,
+     15,
+     3,
+     7,
+     1,
+     4,
+     0,
+     -1,
+     16,
+     2,
+     7,
+     3,
+     8,
+     2,
+     3
+    ]
+   ],
+   "bio": {
+    "age": 29,
+    "h": 185,
+    "no": "5",
+    "ct": "United States of America"
+   },
+   "round_log": [
+    {
+     "rd": 1,
+     "date": "2026-09-24",
+     "opp": "IST",
+     "home": true,
+     "res": "W 89-82",
+     "start": true,
+     "min": 22.3,
+     "pts": 10,
+     "reb": 2,
+     "ast": 2,
+     "stl": 0,
+     "to": 3,
+     "blk": 0,
+     "pm": 1,
+     "pir": 10
+    },
+    {
+     "rd": 2,
+     "date": "2026-09-29",
+     "opp": "DUB",
+     "home": false,
+     "res": "L 87-94",
+     "start": true,
+     "min": 14.7,
+     "pts": 7,
+     "reb": 1,
+     "ast": 5,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": -2,
+     "pir": 5
+    },
+    {
+     "rd": 3,
+     "date": "2026-10-02",
+     "opp": "BES",
+     "home": false,
+     "res": "W 95-82",
+     "start": true,
+     "min": 17.4,
+     "pts": 9,
+     "reb": 2,
+     "ast": 3,
+     "stl": 0,
+     "to": 4,
+     "blk": 0,
+     "pm": 0,
+     "pir": 7
+    },
+    {
+     "rd": 4,
+     "date": "2026-10-09",
+     "opp": "ZAL",
+     "home": true,
+     "res": "L 81-88",
+     "start": true,
+     "min": 22.7,
+     "pts": 20,
+     "reb": 1,
+     "ast": 2,
+     "stl": 0,
+     "to": 1,
+     "blk": 1,
+     "pm": -4,
+     "pir": 21
+    },
+    {
+     "rd": 5,
+     "date": "2026-10-13",
+     "opp": "TEL",
+     "home": true,
+     "res": "W 90-87",
+     "start": true,
+     "min": 16.8,
+     "pts": 11,
+     "reb": 1,
+     "ast": 3,
+     "stl": 1,
+     "to": 1,
+     "blk": 0,
+     "pm": 12,
+     "pir": 11
+    },
+    {
+     "rd": 6,
+     "date": "2026-10-16",
+     "opp": "OLY",
+     "home": true,
+     "res": "L 100-105",
+     "start": true,
+     "min": 24.9,
+     "pts": 17,
+     "reb": 2,
+     "ast": 6,
+     "stl": 0,
+     "to": 3,
+     "blk": 0,
+     "pm": -14,
+     "pir": 22
+    },
+    {
+     "rd": 7,
+     "date": "2026-10-22",
+     "opp": "MIL",
+     "home": false,
+     "res": "W 89-81",
+     "start": true,
+     "min": 24.6,
+     "pts": 10,
+     "reb": 5,
+     "ast": 8,
+     "stl": 1,
+     "to": 4,
+     "blk": 0,
+     "pm": 5,
+     "pir": 12
+    },
+    {
+     "rd": 8,
+     "date": "2026-10-27",
+     "opp": "MUN",
+     "home": false,
+     "res": "W 88-84",
+     "start": true,
+     "min": 19.9,
+     "pts": 11,
+     "reb": 1,
+     "ast": 5,
+     "stl": 2,
+     "to": 0,
+     "blk": 0,
+     "pm": -5,
+     "pir": 8
+    },
+    {
+     "rd": 9,
+     "date": "2026-10-30",
+     "opp": "PAM",
+     "home": true,
+     "res": "W 98-94",
+     "start": true,
+     "min": 20.8,
+     "pts": 22,
+     "reb": 0,
+     "ast": 1,
+     "stl": 1,
+     "to": 0,
+     "blk": 0,
+     "pm": -2,
+     "pir": 23
+    },
+    {
+     "rd": 10,
+     "date": "2026-11-05",
+     "opp": "HTA",
+     "home": false,
+     "res": "W 93-90",
+     "start": true,
+     "min": 21.4,
+     "pts": 20,
+     "reb": 4,
+     "ast": 6,
+     "stl": 0,
+     "to": 2,
+     "blk": 0,
+     "pm": -8,
+     "pir": 18
+    },
+    {
+     "rd": 11,
+     "date": "2026-11-13",
+     "opp": "PAN",
+     "home": false,
+     "res": "W 76-74",
+     "start": true,
+     "min": 25.7,
+     "pts": 24,
+     "reb": 1,
+     "ast": 1,
+     "stl": 2,
+     "to": 4,
+     "blk": 0,
+     "pm": 7,
+     "pir": 20
+    },
+    {
+     "rd": 12,
+     "date": "2026-11-17",
+     "opp": "PRS",
+     "home": true,
+     "res": "L 86-89",
+     "start": true,
+     "min": 26.9,
+     "pts": 15,
+     "reb": 3,
+     "ast": 7,
+     "stl": 1,
+     "to": 4,
+     "blk": 0,
+     "pm": -1,
+     "pir": 16
+    }
+   ],
+   "season_summary": "12 games, 14.4 PIR per game, 21.5 min",
+   "dom": {
+    "league": "ACB",
+    "date": "2026-11-15",
+    "opp": "vs Monbus Obradoiro",
+    "min": 15.1,
+    "start": false,
+    "pts": 7,
+    "reb": 2,
+    "ast": 6,
+    "pir": 9,
+    "url": "https://live.acb.com/partidos/barca-vs-monbus-obradoiro-105444/estadisticas"
+   }
+  },
+  {
+   "slug": "andres-feliz",
+   "name": "Andres Feliz",
+   "team_name": "Real Madrid",
+   "t": "MAD",
+   "pos": "Guard",
+   "price": 9.9,
+   "since_start": 3.5,
+   "owned": null,
+   "pir_ge_price": "7/10",
+   "proj_price_change": 0.2,
+   "c": "011247",
+   "n": "FELIZ, ANDRES",
+   "price_src": "est",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 15.8,
+   "l10": 15.5,
+   "pirpm": 0.718,
+   "pm": 25.9,
+   "pp0": 13.1,
+   "pm0": 22.9,
+   "ppm": 0.573,
+   "pp": 14.8,
+   "p10": 4.8,
+   "p50": 15,
+   "p90": 26.1,
+   "conf": 72,
+   "opp": "BES",
+   "home": 0,
+   "day": 1,
+   "pwin": 0.587,
+   "f": [
+    [
+     "opponent",
+     0.5
+    ],
+    [
+     "role",
+     0.2
+    ],
+    [
+     "home",
+     0
+    ],
+    [
+     "rest",
+     0
+    ]
+   ],
+   "vx": {
+    "k": "ww",
+    "n": 2,
+    "m": 28.4,
+    "a": [
+     "009005",
+     "012613",
+     "005928"
+    ],
+    "dm": 3,
+    "dp": 1.7,
+    "absent_names": [
+     "Gabriel Deck",
+     "Mikael Jantunen",
+     "Facundo Campazzo"
+    ]
+   },
+   "nxe": [
+    [
+     15,
+     "BAR",
+     1,
+     13.9,
+     1,
+     0
+    ],
+    [
+     16,
+     "PRS",
+     0,
+     13.5,
+     1,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     12,
+     "BES",
+     0,
+     14.8,
+     4,
+     0
+    ],
+    [
+     13,
+     "OLY",
+     0,
+     12.2,
+     2,
+     1
+    ],
+    [
+     14,
+     "ZAL",
+     1,
+     13.6,
+     1,
+     0
+    ]
+   ],
+   "p3": 40.6,
+   "p5": 68,
+   "start": 1,
+   "odrtg": 117,
+   "gpace": 78.8,
+   "mcv": 0.242,
+   "hcap": 31,
+   "hhit": 0.3,
+   "hneg": 0.1,
+   "rest": 6,
+   "b2b": 1,
+   "ph": [
+    [
+     4,
+     8.8
+    ],
+    [
+     5,
+     9.6
+    ],
+    [
+     6,
+     12.1
+    ],
+    [
+     7,
+     14.5
+    ],
+    [
+     8,
+     14.8
+    ],
+    [
+     9,
+     14.3
+    ],
+    [
+     10,
+     13
+    ],
+    [
+     11,
+     9.3
+    ],
+    [
+     12,
+     9.7
+    ]
+   ],
+   "l3": 17.7,
+   "m3": 26.3,
+   "m10": 21.6,
+   "gp": 11,
+   "vpc": 1.526,
+   "small": 0,
+   "sig": "buy",
+   "sigScore": 60,
+   "sigConf": "high",
+   "why": [
+    "value+",
+    "price+",
+    "minutes+"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 40
+    },
+    {
+     "k": "price",
+     "v": 15
+    },
+    {
+     "k": "minutes",
+     "v": 7
+    }
+   ],
+   "grade": "A+",
+   "posPct": 100,
+   "posRank": 1,
+   "rank": 2,
+   "vpc3": 4.186,
+   "fvpc": 1.615,
+   "fvpc3": 4.408,
+   "dn": "Andres Feliz",
+   "s": "andres-feliz",
+   "_seen": "2026-11-18",
+   "price_d3": 1.1,
+   "price_d5": 1.5,
+   "price_d10": 3.4,
+   "price_official": 9.7,
+   "score": 12.2,
+   "fresh": true,
+   "g5": [
+    [
+     7,
+     17,
+     21.2
+    ],
+    [
+     8,
+     9,
+     21.9
+    ],
+    [
+     9,
+     6,
+     22.1
+    ],
+    [
+     10,
+     28,
+     33.9
+    ],
+    [
+     11,
+     19,
+     23.0
+    ]
+   ],
+   "gl": [
+    [
+     1,
+     "2026-09-24",
+     "DUB",
+     0,
+     77,
+     78,
+     0,
+     23.4,
+     9,
+     5,
+     4,
+     0,
+     2,
+     1,
+     3,
+     8,
+     3,
+     9,
+     1,
+     2,
+     0,
+     0
+    ],
+    [
+     2,
+     "2026-09-29",
+     "IST",
+     0,
+     84,
+     94,
+     0,
+     18.3,
+     10,
+     3,
+     5,
+     1,
+     2,
+     1,
+     4,
+     15,
+     2,
+     4,
+     1,
+     1,
+     3,
+     4
+    ],
+    [
+     3,
+     "2026-10-01",
+     "HTA",
+     0,
+     98,
+     102,
+     0,
+     12.5,
+     2,
+     1,
+     2,
+     0,
+     2,
+     0,
+     -9,
+     -4,
+     1,
+     2,
+     0,
+     3,
+     0,
+     0
+    ],
+    [
+     4,
+     "2026-10-08",
+     "PAR",
+     1,
+     86,
+     76,
+     0,
+     18.6,
+     9,
+     5,
+     3,
+     0,
+     0,
+     0,
+     -4,
+     11,
+     3,
+     6,
+     1,
+     3,
+     0,
+     0
+    ],
+    [
+     5,
+     "2026-10-13",
+     "MIL",
+     0,
+     98,
+     89,
+     0,
+     19.4,
+     15,
+     5,
+     5,
+     1,
+     2,
+     1,
+     11,
+     24,
+     5,
+     7,
+     1,
+     2,
+     2,
+     2
+    ],
+    [
+     6,
+     "2026-10-15",
+     "ASV",
+     1,
+     111,
+     92,
+     1,
+     25.1,
+     26,
+     4,
+     5,
+     0,
+     1,
+     0,
+     16,
+     30,
+     1,
+     1,
+     8,
+     11,
+     0,
+     0
+    ],
+    [
+     7,
+     "2026-10-22",
+     "TEL",
+     0,
+     113,
+     99,
+     1,
+     21.2,
+     18,
+     2,
+     4,
+     2,
+     0,
+     0,
+     9,
+     17,
+     2,
+     4,
+     4,
+     8,
+     2,
+     2
+    ],
+    [
+     8,
+     "2026-10-27",
+     "BAS",
+     0,
+     104,
+     86,
+     1,
+     21.9,
+     12,
+     1,
+     3,
+     1,
+     1,
+     0,
+     13,
+     9,
+     2,
+     4,
+     1,
+     5,
+     5,
+     6
+    ],
+    [
+     9,
+     "2026-10-29",
+     "ULK",
+     1,
+     95,
+     76,
+     1,
+     22.1,
+     8,
+     2,
+     1,
+     0,
+     2,
+     0,
+     21,
+     6,
+     1,
+     4,
+     1,
+     4,
+     3,
+     3
+    ],
+    [
+     10,
+     "2026-11-04",
+     "PAN",
+     1,
+     112,
+     115,
+     1,
+     33.9,
+     27,
+     2,
+     6,
+     1,
+     3,
+     0,
+     -6,
+     28,
+     7,
+     12,
+     2,
+     4,
+     7,
+     7
+    ],
+    [
+     11,
+     "2026-11-12",
+     "RED",
+     1,
+     105,
+     84,
+     1,
+     23.0,
+     11,
+     4,
+     7,
+     0,
+     3,
+     0,
+     23,
+     19,
+     3,
+     4,
+     1,
+     2,
+     2,
+     3
+    ]
+   ],
+   "bio": {
+    "age": 29,
+    "h": 186,
+    "no": "24",
+    "ct": "Spain"
+   },
+   "round_log": [
+    {
+     "rd": 1,
+     "date": "2026-09-24",
+     "opp": "DUB",
+     "home": false,
+     "res": "L 77-78",
+     "start": false,
+     "min": 23.4,
+     "pts": 9,
+     "reb": 5,
+     "ast": 4,
+     "stl": 0,
+     "to": 2,
+     "blk": 1,
+     "pm": 3,
+     "pir": 8
+    },
+    {
+     "rd": 2,
+     "date": "2026-09-29",
+     "opp": "IST",
+     "home": false,
+     "res": "L 84-94",
+     "start": false,
+     "min": 18.3,
+     "pts": 10,
+     "reb": 3,
+     "ast": 5,
+     "stl": 1,
+     "to": 2,
+     "blk": 1,
+     "pm": 4,
+     "pir": 15
+    },
+    {
+     "rd": 3,
+     "date": "2026-10-01",
+     "opp": "HTA",
+     "home": false,
+     "res": "L 98-102",
+     "start": false,
+     "min": 12.5,
+     "pts": 2,
+     "reb": 1,
+     "ast": 2,
+     "stl": 0,
+     "to": 2,
+     "blk": 0,
+     "pm": -9,
+     "pir": -4
+    },
+    {
+     "rd": 4,
+     "date": "2026-10-08",
+     "opp": "PAR",
+     "home": true,
+     "res": "W 86-76",
+     "start": false,
+     "min": 18.6,
+     "pts": 9,
+     "reb": 5,
+     "ast": 3,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": -4,
+     "pir": 11
+    },
+    {
+     "rd": 5,
+     "date": "2026-10-13",
+     "opp": "MIL",
+     "home": false,
+     "res": "W 98-89",
+     "start": false,
+     "min": 19.4,
+     "pts": 15,
+     "reb": 5,
+     "ast": 5,
+     "stl": 1,
+     "to": 2,
+     "blk": 1,
+     "pm": 11,
+     "pir": 24
+    },
+    {
+     "rd": 6,
+     "date": "2026-10-15",
+     "opp": "ASV",
+     "home": true,
+     "res": "W 111-92",
+     "start": true,
+     "min": 25.1,
+     "pts": 26,
+     "reb": 4,
+     "ast": 5,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": 16,
+     "pir": 30
+    },
+    {
+     "rd": 7,
+     "date": "2026-10-22",
+     "opp": "TEL",
+     "home": false,
+     "res": "W 113-99",
+     "start": true,
+     "min": 21.2,
+     "pts": 18,
+     "reb": 2,
+     "ast": 4,
+     "stl": 2,
+     "to": 0,
+     "blk": 0,
+     "pm": 9,
+     "pir": 17
+    },
+    {
+     "rd": 8,
+     "date": "2026-10-27",
+     "opp": "BAS",
+     "home": false,
+     "res": "W 104-86",
+     "start": true,
+     "min": 21.9,
+     "pts": 12,
+     "reb": 1,
+     "ast": 3,
+     "stl": 1,
+     "to": 1,
+     "blk": 0,
+     "pm": 13,
+     "pir": 9
+    },
+    {
+     "rd": 9,
+     "date": "2026-10-29",
+     "opp": "ULK",
+     "home": true,
+     "res": "W 95-76",
+     "start": true,
+     "min": 22.1,
+     "pts": 8,
+     "reb": 2,
+     "ast": 1,
+     "stl": 0,
+     "to": 2,
+     "blk": 0,
+     "pm": 21,
+     "pir": 6
+    },
+    {
+     "rd": 10,
+     "date": "2026-11-04",
+     "opp": "PAN",
+     "home": true,
+     "res": "L 112-115",
+     "start": true,
+     "min": 33.9,
+     "pts": 27,
+     "reb": 2,
+     "ast": 6,
+     "stl": 1,
+     "to": 3,
+     "blk": 0,
+     "pm": -6,
+     "pir": 28
+    },
+    {
+     "rd": 11,
+     "date": "2026-11-12",
+     "opp": "RED",
+     "home": true,
+     "res": "W 105-84",
+     "start": true,
+     "min": 23.0,
+     "pts": 11,
+     "reb": 4,
+     "ast": 7,
+     "stl": 0,
+     "to": 3,
+     "blk": 0,
+     "pm": 23,
+     "pir": 19
+    }
+   ],
+   "season_summary": "11 games, 14.8 PIR per game, 21.8 min",
+   "dom": {
+    "league": "ACB",
+    "date": "2026-11-15",
+    "opp": "@ Kosner Baskonia",
+    "min": 24.0,
+    "start": true,
+    "pts": 18,
+    "reb": 5,
+    "ast": 3,
+    "pir": 27,
+    "url": "https://live.acb.com/partidos/kosner-baskonia-vs-real-madrid-105446/estadisticas"
+   }
+  },
+  {
+   "slug": "sasha-vezenkov",
+   "name": "Sasha Vezenkov",
+   "team_name": "Olympiacos",
+   "t": "OLY",
+   "pos": "Forward",
+   "price": 19.3,
+   "since_start": 2.2,
+   "owned": null,
+   "pir_ge_price": "7/10",
+   "proj_price_change": null,
+   "c": "003469",
+   "n": "VEZENKOV, SASHA",
+   "price_src": "est",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 23,
+   "l10": 22.5,
+   "pirpm": 0.817,
+   "pm": 25.9,
+   "pp0": 21.6,
+   "pm0": 27.1,
+   "ppm": 0.797,
+   "pp": 20.6,
+   "p10": 11.3,
+   "p50": 20.9,
+   "p90": 32.2,
+   "conf": 78,
+   "opp": "TEL",
+   "home": 0,
+   "day": 0,
+   "pwin": 0.668,
+   "f": [
+    [
+     "role",
+     0.3
+    ],
+    [
+     "opponent",
+     0.1
+    ],
+    [
+     "home",
+     0
+    ],
+    [
+     "rest",
+     0
+    ]
+   ],
+   "vx": {
+    "k": "ww",
+    "n": 1,
+    "m": 24,
+    "a": [
+     "003941",
+     "010042"
+    ],
+    "dm": -1.2,
+    "dp": -1,
+    "absent_names": [
+     "Nikola Milutinov",
+     "Jean Montero"
+    ]
+   },
+   "nxe": [
+    [
+     15,
+     "ASV",
+     1,
+     21.6,
+     3,
+     0
+    ],
+    [
+     16,
+     "PAN",
+     0,
+     20.3,
+     1,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     12,
+     "TEL",
+     0,
+     20.6,
+     5,
+     0
+    ],
+    [
+     13,
+     "MAD",
+     1,
+     21.5,
+     2,
+     0
+    ],
+    [
+     14,
+     "HTA",
+     1,
+     21.5,
+     4,
+     0
+    ]
+   ],
+   "p3": 63.6,
+   "p5": 105.5,
+   "start": 1,
+   "odrtg": 120.1,
+   "gpace": 76.3,
+   "mcv": 0.165,
+   "hcap": 45,
+   "hhit": 0.7,
+   "hneg": 0,
+   "rest": 5,
+   "b2b": 0,
+   "ph": [
+    [
+     4,
+     23.8
+    ],
+    [
+     5,
+     20.1
+    ],
+    [
+     6,
+     19.3
+    ],
+    [
+     7,
+     21.5
+    ],
+    [
+     8,
+     21.1
+    ],
+    [
+     9,
+     20.8
+    ],
+    [
+     10,
+     20.7
+    ],
+    [
+     11,
+     18.9
+    ],
+    [
+     12,
+     19.2
+    ]
+   ],
+   "l3": 25.3,
+   "m3": 28.9,
+   "m10": 27.5,
+   "gp": 11,
+   "vpc": 1.073,
+   "small": 0,
+   "sig": "buy",
+   "sigScore": 31,
+   "sigConf": "high",
+   "why": [
+    "value+",
+    "price+",
+    "dip-"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 32
+    },
+    {
+     "k": "price",
+     "v": 6
+    },
+    {
+     "k": "dip",
+     "v": -5
+    }
+   ],
+   "grade": "A",
+   "posPct": 90,
+   "posRank": 12,
+   "rank": 31,
+   "vpc3": 3.313,
+   "fvpc": 1.145,
+   "fvpc3": 3.496,
+   "dn": "Sasha Vezenkov",
+   "s": "sasha-vezenkov",
+   "_seen": "2026-11-17",
+   "price_d3": 0.8,
+   "price_d5": 0.8,
+   "price_d10": 1.6,
+   "price_official": 19.2,
+   "score": 21.5,
+   "fresh": false,
+   "g5": [
+    [
+     8,
+     19,
+     24.0
+    ],
+    [
+     9,
+     22,
+     31.9
+    ],
+    [
+     10,
+     28,
+     33.8
+    ],
+    [
+     11,
+     26,
+     20.9
+    ],
+    [
+     12,
+     41,
+     39.5
+    ]
+   ],
+   "gl": [
+    [
+     1,
+     "2026-09-24",
+     "BAS",
+     0,
+     106,
+     89,
+     1,
+     19.0,
+     22,
+     5,
+     1,
+     0,
+     1,
+     0,
+     12,
+     30,
+     8,
+     9,
+     0,
+     1,
+     6,
+     6
+    ],
+    [
+     2,
+     "2026-09-29",
+     "ZAL",
+     0,
+     93,
+     91,
+     1,
+     24.6,
+     18,
+     8,
+     1,
+     1,
+     1,
+     0,
+     1,
+     26,
+     8,
+     10,
+     0,
+     0,
+     2,
+     3
+    ],
+    [
+     3,
+     "2026-10-01",
+     "VIR",
+     0,
+     94,
+     96,
+     1,
+     26.6,
+     20,
+     6,
+     0,
+     1,
+     0,
+     0,
+     -12,
+     23,
+     6,
+     9,
+     2,
+     5,
+     2,
+     2
+    ],
+    [
+     4,
+     "2026-10-09",
+     "IST",
+     1,
+     89,
+     66,
+     1,
+     21.7,
+     9,
+     3,
+     0,
+     0,
+     1,
+     0,
+     17,
+     7,
+     2,
+     5,
+     1,
+     3,
+     2,
+     2
+    ],
+    [
+     5,
+     "2026-10-13",
+     "PAM",
+     0,
+     102,
+     97,
+     1,
+     27.2,
+     14,
+     7,
+     1,
+     1,
+     1,
+     0,
+     3,
+     16,
+     2,
+     5,
+     1,
+     5,
+     7,
+     8
+    ],
+    [
+     6,
+     "2026-10-16",
+     "BAR",
+     0,
+     105,
+     100,
+     1,
+     30.7,
+     25,
+     6,
+     1,
+     0,
+     0,
+     0,
+     2,
+     38,
+     6,
+     7,
+     1,
+     2,
+     10,
+     10
+    ],
+    [
+     7,
+     "2026-10-23",
+     "ULK",
+     1,
+     61,
+     64,
+     1,
+     33.9,
+     17,
+     10,
+     2,
+     0,
+     1,
+     0,
+     -2,
+     20,
+     3,
+     6,
+     2,
+     7,
+     5,
+     6
+    ],
+    [
+     8,
+     "2026-10-28",
+     "BES",
+     0,
+     81,
+     73,
+     1,
+     24.0,
+     16,
+     5,
+     2,
+     0,
+     1,
+     0,
+     10,
+     19,
+     4,
+     6,
+     2,
+     5,
+     2,
+     2
+    ],
+    [
+     9,
+     "2026-10-30",
+     "MIL",
+     1,
+     84,
+     78,
+     1,
+     31.9,
+     23,
+     4,
+     1,
+     0,
+     2,
+     0,
+     9,
+     22,
+     8,
+     10,
+     1,
+     4,
+     4,
+     6
+    ],
+    [
+     10,
+     "2026-11-06",
+     "RED",
+     1,
+     57,
+     62,
+     1,
+     33.8,
+     27,
+     6,
+     1,
+     3,
+     2,
+     0,
+     -5,
+     28,
+     8,
+     11,
+     3,
+     10,
+     2,
+     3
+    ],
+    [
+     11,
+     "2026-11-12",
+     "DUB",
+     1,
+     101,
+     72,
+     1,
+     20.9,
+     20,
+     4,
+     1,
+     1,
+     0,
+     1,
+     27,
+     26,
+     6,
+     6,
+     2,
+     4,
+     2,
+     2
+    ],
+    [
+     12,
+     "2026-11-17",
+     "TEL",
+     0,
+     97,
+     95,
+     1,
+     39.5,
+     37,
+     9,
+     1,
+     1,
+     1,
+     0,
+     2,
+     41,
+     6,
+     9,
+     6,
+     10,
+     7,
+     8
+    ]
+   ],
+   "bio": {
+    "age": 31,
+    "h": 206,
+    "no": "14",
+    "ct": "Greece"
+   },
+   "round_log": [
+    {
+     "rd": 1,
+     "date": "2026-09-24",
+     "opp": "BAS",
+     "home": false,
+     "res": "W 106-89",
+     "start": true,
+     "min": 19.0,
+     "pts": 22,
+     "reb": 5,
+     "ast": 1,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": 12,
+     "pir": 30
+    },
+    {
+     "rd": 2,
+     "date": "2026-09-29",
+     "opp": "ZAL",
+     "home": false,
+     "res": "W 93-91",
+     "start": true,
+     "min": 24.6,
+     "pts": 18,
+     "reb": 8,
+     "ast": 1,
+     "stl": 1,
+     "to": 1,
+     "blk": 0,
+     "pm": 1,
+     "pir": 26
+    },
+    {
+     "rd": 3,
+     "date": "2026-10-01",
+     "opp": "VIR",
+     "home": false,
+     "res": "L 94-96",
+     "start": true,
+     "min": 26.6,
+     "pts": 20,
+     "reb": 6,
+     "ast": 0,
+     "stl": 1,
+     "to": 0,
+     "blk": 0,
+     "pm": -12,
+     "pir": 23
+    },
+    {
+     "rd": 4,
+     "date": "2026-10-09",
+     "opp": "IST",
+     "home": true,
+     "res": "W 89-66",
+     "start": true,
+     "min": 21.7,
+     "pts": 9,
+     "reb": 3,
+     "ast": 0,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": 17,
+     "pir": 7
+    },
+    {
+     "rd": 5,
+     "date": "2026-10-13",
+     "opp": "PAM",
+     "home": false,
+     "res": "W 102-97",
+     "start": true,
+     "min": 27.2,
+     "pts": 14,
+     "reb": 7,
+     "ast": 1,
+     "stl": 1,
+     "to": 1,
+     "blk": 0,
+     "pm": 3,
+     "pir": 16
+    },
+    {
+     "rd": 6,
+     "date": "2026-10-16",
+     "opp": "BAR",
+     "home": false,
+     "res": "W 105-100",
+     "start": true,
+     "min": 30.7,
+     "pts": 25,
+     "reb": 6,
+     "ast": 1,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": 2,
+     "pir": 38
+    },
+    {
+     "rd": 7,
+     "date": "2026-10-23",
+     "opp": "ULK",
+     "home": true,
+     "res": "L 61-64",
+     "start": true,
+     "min": 33.9,
+     "pts": 17,
+     "reb": 10,
+     "ast": 2,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": -2,
+     "pir": 20
+    },
+    {
+     "rd": 8,
+     "date": "2026-10-28",
+     "opp": "BES",
+     "home": false,
+     "res": "W 81-73",
+     "start": true,
+     "min": 24.0,
+     "pts": 16,
+     "reb": 5,
+     "ast": 2,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": 10,
+     "pir": 19
+    },
+    {
+     "rd": 9,
+     "date": "2026-10-30",
+     "opp": "MIL",
+     "home": true,
+     "res": "W 84-78",
+     "start": true,
+     "min": 31.9,
+     "pts": 23,
+     "reb": 4,
+     "ast": 1,
+     "stl": 0,
+     "to": 2,
+     "blk": 0,
+     "pm": 9,
+     "pir": 22
+    },
+    {
+     "rd": 10,
+     "date": "2026-11-06",
+     "opp": "RED",
+     "home": true,
+     "res": "L 57-62",
+     "start": true,
+     "min": 33.8,
+     "pts": 27,
+     "reb": 6,
+     "ast": 1,
+     "stl": 3,
+     "to": 2,
+     "blk": 0,
+     "pm": -5,
+     "pir": 28
+    },
+    {
+     "rd": 11,
+     "date": "2026-11-12",
+     "opp": "DUB",
+     "home": true,
+     "res": "W 101-72",
+     "start": true,
+     "min": 20.9,
+     "pts": 20,
+     "reb": 4,
+     "ast": 1,
+     "stl": 1,
+     "to": 0,
+     "blk": 1,
+     "pm": 27,
+     "pir": 26
+    },
+    {
+     "rd": 12,
+     "date": "2026-11-17",
+     "opp": "TEL",
+     "home": false,
+     "res": "W 97-95",
+     "start": true,
+     "min": 39.5,
+     "pts": 37,
+     "reb": 9,
+     "ast": 1,
+     "stl": 1,
+     "to": 1,
+     "blk": 0,
+     "pm": 2,
+     "pir": 41
+    }
+   ],
+   "season_summary": "12 games, 24.7 PIR per game, 27.8 min",
+   "dom": {
+    "league": "GBL",
+    "date": "2026-11-15",
+    "opp": "",
+    "min": 35.0,
+    "pts": 19,
+    "reb": 7,
+    "ast": 1,
+    "pir": 21,
+    "url": "https://www.esake.gr/el/action/EsakegameView?idgame=F30A6CCD&mode=3"
+   }
+  },
+  {
+   "name": "Kenan Kamenjas",
+   "s": "kenan-kamenjas",
+   "slug": "kenan-kamenjas",
+   "owned": 1.6,
+   "t": "BAS",
+   "pos": "Center",
+   "price": 4.8,
+   "price_src": "app",
+   "status": null,
+   "nx": [
+    [
+     12,
+     "HTA",
+     1,
+     10.4,
+     4,
+     0
+    ],
+    [
+     13,
+     "MUN",
+     0,
+     9.7,
+     5,
+     1
+    ],
+    [
+     14,
+     "IST",
+     1,
+     10.4,
+     5,
+     0
+    ]
+   ],
+   "nxe": [
+    [
+     15,
+     "TEL",
+     1,
+     10.5,
+     4,
+     0
+    ],
+    [
+     16,
+     "ZAL",
+     0,
+     9.0,
+     2,
+     0
+    ]
+   ],
+   "p10": 3.5,
+   "p90": 17.5,
+   "override": "Moved from Dubai to Baskonia (Gasteizhoy); the game still lists him at Dubai. Debut vs Real Madrid (ACB, 15 Nov): 15 pts, 8 reb, PIR 22 in 24' off the bench. Baskonia are short of bigs.",
+   "score": 9.7,
+   "fresh": false,
+   "round_log": [],
+   "season_summary": "no data",
+   "dom": {
+    "league": "ACB",
+    "date": "2026-11-15",
+    "opp": "vs Real Madrid",
+    "min": 23.8,
+    "start": false,
+    "pts": 15,
+    "reb": 8,
+    "ast": 2,
+    "pir": 22,
+    "url": "https://live.acb.com/partidos/kosner-baskonia-vs-real-madrid-105446/estadisticas"
+   }
+  },
+  {
+   "slug": "cameron-payne",
+   "name": "Cameron Payne",
+   "team_name": "Anadolu Efes",
+   "t": "IST",
+   "pos": "Guard",
+   "price": 10.3,
+   "since_start": 1.2,
+   "owned": null,
+   "pir_ge_price": "4/9",
+   "proj_price_change": null,
+   "c": "014213",
+   "n": "PAYNE, CAMERON",
+   "price_src": "est",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 14.6,
+   "l10": 13.1,
+   "pirpm": 0.611,
+   "pm": 22.4,
+   "pp0": 12.6,
+   "pm0": 22.4,
+   "ppm": 0.563,
+   "pp": 12.6,
+   "p10": 3.4,
+   "p50": 12.9,
+   "p90": 24,
+   "conf": 73,
+   "opp": "DUB",
+   "home": 0,
+   "day": 0,
+   "pwin": 0.351,
+   "f": [
+    [
+     "role",
+     0.7
+    ],
+    [
+     "opponent",
+     0
+    ],
+    [
+     "home",
+     0
+    ],
+    [
+     "rest",
+     0
+    ]
+   ],
+   "nxe": [
+    [
+     15,
+     "PAM",
+     1,
+     12.8,
+     1,
+     0
+    ],
+    [
+     16,
+     "ULK",
+     0,
+     11.5,
+     3,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     12,
+     "DUB",
+     0,
+     12.6,
+     5,
+     0
+    ],
+    [
+     13,
+     "ASV",
+     1,
+     13,
+     5,
+     0
+    ],
+    [
+     14,
+     "BAS",
+     0,
+     12.8,
+     3,
+     0
+    ]
+   ],
+   "p3": 38.4,
+   "p5": 62.7,
+   "start": 1,
+   "odrtg": 116.2,
+   "gpace": 75.7,
+   "mcv": 0.205,
+   "hcap": 26.2,
+   "hhit": 0.12,
+   "hneg": 0.12,
+   "rest": 4,
+   "b2b": 0,
+   "ph": [
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     13.6
+    ],
+    [
+     9,
+     11.8
+    ],
+    [
+     10,
+     12.4
+    ],
+    [
+     11,
+     10.2
+    ],
+    [
+     12,
+     10.2
+    ]
+   ],
+   "l3": 17.7,
+   "m3": 25.1,
+   "m10": 21.5,
+   "gp": 8,
+   "vpc": 1.235,
+   "small": 0,
+   "sig": "buy",
+   "sigScore": 27,
+   "sigConf": "high",
+   "why": [
+    "value+",
+    "dip-",
+    "schedule-"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 38
+    },
+    {
+     "k": "dip",
+     "v": -14
+    },
+    {
+     "k": "schedule",
+     "v": -8
+    }
+   ],
+   "grade": "A+",
+   "posPct": 98,
+   "posRank": 4,
+   "rank": 9,
+   "vpc3": 3.765,
+   "fvpc": 1.279,
+   "fvpc3": 3.935,
+   "dn": "Cameron Payne",
+   "s": "cameron-payne",
+   "_seen": "2026-11-17",
+   "price_d3": 1.0,
+   "price_d5": 1.0,
+   "price_d10": null,
+   "price_official": 10.2,
+   "score": 13.0,
+   "fresh": false,
+   "g5": [
+    [
+     8,
+     1,
+     18.2
+    ],
+    [
+     9,
+     15,
+     24.6
+    ],
+    [
+     10,
+     29,
+     30.1
+    ],
+    [
+     11,
+     9,
+     20.6
+    ],
+    [
+     12,
+     5,
+     19.9
+    ]
+   ],
+   "gl": [
+    [
+     4,
+     "2026-10-09",
+     "OLY",
+     0,
+     66,
+     89,
+     0,
+     14.0,
+     12,
+     2,
+     3,
+     1,
+     2,
+     0,
+     -7,
+     9,
+     1,
+     2,
+     3,
+     5,
+     1,
+     2
+    ],
+    [
+     5,
+     "2026-10-14",
+     "MUN",
+     1,
+     93,
+     101,
+     1,
+     20.4,
+     18,
+     1,
+     4,
+     1,
+     5,
+     0,
+     -4,
+     10,
+     2,
+     4,
+     4,
+     7,
+     2,
+     2
+    ],
+    [
+     6,
+     "2026-10-16",
+     "ZAL",
+     0,
+     85,
+     70,
+     1,
+     20.9,
+     16,
+     1,
+     4,
+     1,
+     3,
+     0,
+     2,
+     13,
+     2,
+     3,
+     3,
+     7,
+     3,
+     5
+    ],
+    [
+     7,
+     "2026-10-22",
+     "BES",
+     1,
+     89,
+     80,
+     1,
+     23.2,
+     22,
+     0,
+     1,
+     1,
+     3,
+     0,
+     0,
+     19,
+     3,
+     4,
+     4,
+     6,
+     4,
+     4
+    ],
+    [
+     8,
+     "2026-10-28",
+     "HTA",
+     0,
+     88,
+     118,
+     1,
+     18.2,
+     8,
+     0,
+     4,
+     0,
+     5,
+     0,
+     -25,
+     1,
+     0,
+     1,
+     2,
+     6,
+     2,
+     3
+    ],
+    [
+     9,
+     "2026-10-30",
+     "PAN",
+     1,
+     83,
+     68,
+     1,
+     24.6,
+     14,
+     1,
+     8,
+     3,
+     0,
+     1,
+     27,
+     15,
+     1,
+     5,
+     4,
+     11,
+     0,
+     0
+    ],
+    [
+     10,
+     "2026-11-05",
+     "PRS",
+     1,
+     90,
+     95,
+     1,
+     30.1,
+     33,
+     2,
+     7,
+     1,
+     2,
+     0,
+     0,
+     29,
+     5,
+     10,
+     7,
+     13,
+     2,
+     3
+    ],
+    [
+     11,
+     "2026-11-13",
+     "VIR",
+     1,
+     103,
+     91,
+     1,
+     20.6,
+     9,
+     0,
+     8,
+     1,
+     0,
+     0,
+     -7,
+     9,
+     0,
+     1,
+     3,
+     7,
+     0,
+     0
+    ],
+    [
+     12,
+     "2026-11-17",
+     "DUB",
+     0,
+     75,
+     80,
+     1,
+     19.9,
+     5,
+     1,
+     6,
+     1,
+     3,
+     0,
+     -7,
+     5,
+     1,
+     4,
+     1,
+     3,
+     0,
+     0
+    ]
+   ],
+   "bio": {
+    "age": 32,
+    "h": 191,
+    "no": "22",
+    "ct": "United States of America"
+   },
+   "round_log": [
+    {
+     "rd": 4,
+     "date": "2026-10-09",
+     "opp": "OLY",
+     "home": false,
+     "res": "L 66-89",
+     "start": false,
+     "min": 14.0,
+     "pts": 12,
+     "reb": 2,
+     "ast": 3,
+     "stl": 1,
+     "to": 2,
+     "blk": 0,
+     "pm": -7,
+     "pir": 9
+    },
+    {
+     "rd": 5,
+     "date": "2026-10-14",
+     "opp": "MUN",
+     "home": true,
+     "res": "L 93-101",
+     "start": true,
+     "min": 20.4,
+     "pts": 18,
+     "reb": 1,
+     "ast": 4,
+     "stl": 1,
+     "to": 5,
+     "blk": 0,
+     "pm": -4,
+     "pir": 10
+    },
+    {
+     "rd": 6,
+     "date": "2026-10-16",
+     "opp": "ZAL",
+     "home": false,
+     "res": "W 85-70",
+     "start": true,
+     "min": 20.9,
+     "pts": 16,
+     "reb": 1,
+     "ast": 4,
+     "stl": 1,
+     "to": 3,
+     "blk": 0,
+     "pm": 2,
+     "pir": 13
+    },
+    {
+     "rd": 7,
+     "date": "2026-10-22",
+     "opp": "BES",
+     "home": true,
+     "res": "W 89-80",
+     "start": true,
+     "min": 23.2,
+     "pts": 22,
+     "reb": 0,
+     "ast": 1,
+     "stl": 1,
+     "to": 3,
+     "blk": 0,
+     "pm": 0,
+     "pir": 19
+    },
+    {
+     "rd": 8,
+     "date": "2026-10-28",
+     "opp": "HTA",
+     "home": false,
+     "res": "L 88-118",
+     "start": true,
+     "min": 18.2,
+     "pts": 8,
+     "reb": 0,
+     "ast": 4,
+     "stl": 0,
+     "to": 5,
+     "blk": 0,
+     "pm": -25,
+     "pir": 1
+    },
+    {
+     "rd": 9,
+     "date": "2026-10-30",
+     "opp": "PAN",
+     "home": true,
+     "res": "W 83-68",
+     "start": true,
+     "min": 24.6,
+     "pts": 14,
+     "reb": 1,
+     "ast": 8,
+     "stl": 3,
+     "to": 0,
+     "blk": 1,
+     "pm": 27,
+     "pir": 15
+    },
+    {
+     "rd": 10,
+     "date": "2026-11-05",
+     "opp": "PRS",
+     "home": true,
+     "res": "L 90-95",
+     "start": true,
+     "min": 30.1,
+     "pts": 33,
+     "reb": 2,
+     "ast": 7,
+     "stl": 1,
+     "to": 2,
+     "blk": 0,
+     "pm": 0,
+     "pir": 29
+    },
+    {
+     "rd": 11,
+     "date": "2026-11-13",
+     "opp": "VIR",
+     "home": true,
+     "res": "W 103-91",
+     "start": true,
+     "min": 20.6,
+     "pts": 9,
+     "reb": 0,
+     "ast": 8,
+     "stl": 1,
+     "to": 0,
+     "blk": 0,
+     "pm": -7,
+     "pir": 9
+    },
+    {
+     "rd": 12,
+     "date": "2026-11-17",
+     "opp": "DUB",
+     "home": false,
+     "res": "L 75-80",
+     "start": true,
+     "min": 19.9,
+     "pts": 5,
+     "reb": 1,
+     "ast": 6,
+     "stl": 1,
+     "to": 3,
+     "blk": 0,
+     "pm": -7,
+     "pir": 5
+    }
+   ],
+   "season_summary": "9 games, 12.2 PIR per game, 21.3 min"
+  },
+  {
+   "slug": "gabriele-procida",
+   "name": "Gabriele Procida",
+   "team_name": "Real Madrid",
+   "t": "MAD",
+   "pos": "Forward",
+   "price": 5.5,
+   "since_start": 1.2,
+   "owned": null,
+   "pir_ge_price": "4/7",
+   "proj_price_change": 0.2,
+   "c": "008384",
+   "n": "PROCIDA, GABRIELE",
+   "price_src": "est",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 10.4,
+   "l10": 7.6,
+   "pirpm": 0.567,
+   "pm": 18.8,
+   "pp0": 7.8,
+   "pm0": 15.5,
+   "ppm": 0.501,
+   "pp": 9.4,
+   "p10": 2.3,
+   "p50": 9,
+   "p90": 18.9,
+   "conf": 68,
+   "opp": "BES",
+   "home": 0,
+   "day": 1,
+   "pwin": 0.587,
+   "f": [
+    [
+     "opponent",
+     0.3
+    ],
+    [
+     "form",
+     0.3
+    ],
+    [
+     "home",
+     0
+    ],
+    [
+     "rest",
+     0
+    ]
+   ],
+   "vx": {
+    "k": "ww",
+    "n": 2,
+    "m": 21.4,
+    "a": [
+     "009005",
+     "012613",
+     "005928"
+    ],
+    "dm": 3.3,
+    "dp": 1.6,
+    "absent_names": [
+     "Gabriel Deck",
+     "Mikael Jantunen",
+     "Facundo Campazzo"
+    ]
+   },
+   "nxe": [
+    [
+     15,
+     "BAR",
+     1,
+     8,
+     4,
+     0
+    ],
+    [
+     16,
+     "PRS",
+     0,
+     7.8,
+     1,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     12,
+     "BES",
+     0,
+     9.4,
+     2,
+     0
+    ],
+    [
+     13,
+     "OLY",
+     0,
+     7.2,
+     3,
+     1
+    ],
+    [
+     14,
+     "ZAL",
+     1,
+     7.8,
+     2,
+     0
+    ]
+   ],
+   "p3": 24.4,
+   "p5": 40.2,
+   "start": 0.6,
+   "odrtg": 117,
+   "gpace": 78.8,
+   "mcv": 0.473,
+   "hcap": 15.1,
+   "hhit": 0.14,
+   "hneg": 0.43,
+   "rest": 6,
+   "b2b": 1,
+   "ph": [
+    [
+     8,
+     6.2
+    ],
+    [
+     9,
+     6.6
+    ],
+    [
+     10,
+     7.2
+    ],
+    [
+     11,
+     4.5
+    ],
+    [
+     12,
+     5.3
+    ]
+   ],
+   "l3": 13,
+   "m3": 18.9,
+   "m10": 13.4,
+   "gp": 7,
+   "vpc": 1.774,
+   "small": 0,
+   "sig": "buy",
+   "sigScore": 37,
+   "sigConf": "high",
+   "why": [
+    "value+",
+    "dip-",
+    "minutes+"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 40
+    },
+    {
+     "k": "dip",
+     "v": -20
+    },
+    {
+     "k": "minutes",
+     "v": 8
+    }
+   ],
+   "grade": "A+",
+   "posPct": 100,
+   "posRank": 1,
+   "rank": 1,
+   "vpc3": 4.604,
+   "fvpc": 1.878,
+   "fvpc3": 4.849,
+   "dn": "Gabriele Procida",
+   "s": "gabriele-procida",
+   "_seen": "2026-11-18",
+   "price_d3": 1.2,
+   "price_d5": 1.1,
+   "price_d10": 1.3,
+   "price_official": 5.3,
+   "score": 7.2,
+   "fresh": true,
+   "g5": [
+    [
+     6,
+     8,
+     15.4
+    ],
+    [
+     8,
+     5,
+     11.1
+    ],
+    [
+     9,
+     6,
+     13.9
+    ],
+    [
+     10,
+     11,
+     22.4
+    ],
+    [
+     11,
+     22,
+     20.4
+    ]
+   ],
+   "gl": [
+    [
+     1,
+     "2026-09-24",
+     "DUB",
+     0,
+     77,
+     78,
+     0,
+     3.8,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     5,
+     "2026-10-13",
+     "MIL",
+     0,
+     98,
+     89,
+     1,
+     6.6,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0,
+     -8,
+     0,
+     0,
+     1,
+     0,
+     1,
+     1,
+     2
+    ],
+    [
+     6,
+     "2026-10-15",
+     "ASV",
+     1,
+     111,
+     92,
+     1,
+     15.4,
+     8,
+     2,
+     0,
+     1,
+     0,
+     0,
+     11,
+     8,
+     1,
+     2,
+     2,
+     5,
+     0,
+     0
+    ],
+    [
+     8,
+     "2026-10-27",
+     "BAS",
+     0,
+     104,
+     86,
+     1,
+     11.1,
+     5,
+     1,
+     0,
+     0,
+     0,
+     0,
+     12,
+     5,
+     0,
+     0,
+     1,
+     1,
+     2,
+     2
+    ],
+    [
+     9,
+     "2026-10-29",
+     "ULK",
+     1,
+     95,
+     76,
+     1,
+     13.9,
+     5,
+     1,
+     1,
+     0,
+     0,
+     0,
+     9,
+     6,
+     1,
+     3,
+     1,
+     3,
+     0,
+     0
+    ],
+    [
+     10,
+     "2026-11-04",
+     "PAN",
+     1,
+     112,
+     115,
+     0,
+     22.4,
+     8,
+     3,
+     1,
+     2,
+     0,
+     0,
+     9,
+     11,
+     1,
+     1,
+     1,
+     6,
+     3,
+     4
+    ],
+    [
+     11,
+     "2026-11-12",
+     "RED",
+     1,
+     105,
+     84,
+     1,
+     20.4,
+     19,
+     4,
+     0,
+     1,
+     0,
+     0,
+     19,
+     22,
+     2,
+     3,
+     4,
+     5,
+     3,
+     3
+    ]
+   ],
+   "bio": {
+    "age": 24,
+    "h": 201,
+    "no": "9",
+    "ct": "Italy"
+   },
+   "round_log": [
+    {
+     "rd": 1,
+     "date": "2026-09-24",
+     "opp": "DUB",
+     "home": false,
+     "res": "L 77-78",
+     "start": false,
+     "min": 3.8,
+     "pts": 0,
+     "reb": 1,
+     "ast": 0,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": 0,
+     "pir": 1
+    },
+    {
+     "rd": 5,
+     "date": "2026-10-13",
+     "opp": "MIL",
+     "home": false,
+     "res": "W 98-89",
+     "start": true,
+     "min": 6.6,
+     "pts": 1,
+     "reb": 1,
+     "ast": 0,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": -8,
+     "pir": 0
+    },
+    {
+     "rd": 6,
+     "date": "2026-10-15",
+     "opp": "ASV",
+     "home": true,
+     "res": "W 111-92",
+     "start": true,
+     "min": 15.4,
+     "pts": 8,
+     "reb": 2,
+     "ast": 0,
+     "stl": 1,
+     "to": 0,
+     "blk": 0,
+     "pm": 11,
+     "pir": 8
+    },
+    {
+     "rd": 8,
+     "date": "2026-10-27",
+     "opp": "BAS",
+     "home": false,
+     "res": "W 104-86",
+     "start": true,
+     "min": 11.1,
+     "pts": 5,
+     "reb": 1,
+     "ast": 0,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": 12,
+     "pir": 5
+    },
+    {
+     "rd": 9,
+     "date": "2026-10-29",
+     "opp": "ULK",
+     "home": true,
+     "res": "W 95-76",
+     "start": true,
+     "min": 13.9,
+     "pts": 5,
+     "reb": 1,
+     "ast": 1,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": 9,
+     "pir": 6
+    },
+    {
+     "rd": 10,
+     "date": "2026-11-04",
+     "opp": "PAN",
+     "home": true,
+     "res": "L 112-115",
+     "start": false,
+     "min": 22.4,
+     "pts": 8,
+     "reb": 3,
+     "ast": 1,
+     "stl": 2,
+     "to": 0,
+     "blk": 0,
+     "pm": 9,
+     "pir": 11
+    },
+    {
+     "rd": 11,
+     "date": "2026-11-12",
+     "opp": "RED",
+     "home": true,
+     "res": "W 105-84",
+     "start": true,
+     "min": 20.4,
+     "pts": 19,
+     "reb": 4,
+     "ast": 0,
+     "stl": 1,
+     "to": 0,
+     "blk": 0,
+     "pm": 19,
+     "pir": 22
+    }
+   ],
+   "season_summary": "7 games, 7.6 PIR per game, 13.4 min",
+   "rj": "minutes 10 → 21 over the last 2 games",
+   "dom": {
+    "league": "ACB",
+    "date": "2026-11-15",
+    "opp": "@ Kosner Baskonia",
+    "min": 18.2,
+    "start": true,
+    "pts": 8,
+    "reb": 0,
+    "ast": 0,
+    "pir": 0,
+    "url": "https://live.acb.com/partidos/kosner-baskonia-vs-real-madrid-105446/estadisticas"
+   }
+  },
+  {
+   "slug": "nikolaos-rogkavopoulos",
+   "name": "Nikolaos Rogkavopoulos",
+   "team_name": "Panathinaikos",
+   "t": "PAN",
+   "pos": "Forward",
+   "price": 4.4,
+   "since_start": 0.0,
+   "owned": null,
+   "pir_ge_price": "2/4",
+   "proj_price_change": null,
+   "c": "011085",
+   "n": "ROGKAVOPOULOS, NIKOLAOS",
+   "price_src": "est",
+   "status": null,
+   "status_src": "none",
+   "l5": 10.3,
+   "l10": 10.3,
+   "pirpm": 0.816,
+   "pm": 2.5,
+   "pp0": 1.1,
+   "pm0": 2.5,
+   "ppm": 0.444,
+   "pp": 1.1,
+   "p10": 3.1,
+   "p50": 3.4,
+   "p90": 15.8,
+   "conf": 42,
+   "opp": "VIR",
+   "home": 0,
+   "day": 0,
+   "pwin": 0.618,
+   "f": [
+    [
+     "form",
+     -0.2
+    ],
+    [
+     "opponent",
+     0
+    ],
+    [
+     "home",
+     0
+    ],
+    [
+     "rest",
+     0
+    ]
+   ],
+   "nxe": [
+    [
+     15,
+     "BES",
+     0,
+     9.0,
+     5,
+     0
+    ],
+    [
+     16,
+     "OLY",
+     1,
+     9.2,
+     4,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     12,
+     "VIR",
+     0,
+     9.4,
+     4,
+     0
+    ],
+    [
+     13,
+     "ZAL",
+     0,
+     8.7,
+     5,
+     1
+    ],
+    [
+     14,
+     "PAM",
+     0,
+     8.7,
+     4,
+     0
+    ]
+   ],
+   "p3": 3.2,
+   "p5": 5.5,
+   "start": 0,
+   "odrtg": 116.5,
+   "gpace": 76.4,
+   "mcv": 0.37,
+   "hcap": 20.7,
+   "hhit": 0,
+   "hneg": 0.33,
+   "rest": 4,
+   "b2b": 1,
+   "ph": [
+    [
+     11,
+     4.6
+    ],
+    [
+     12,
+     4.5
+    ]
+   ],
+   "l3": 10.3,
+   "m3": 12.7,
+   "m10": 12.7,
+   "gp": 3,
+   "vpc": 0.244,
+   "small": 0,
+   "sig": "avoid",
+   "sigScore": -21,
+   "sigConf": "medium",
+   "why": [
+    "value-",
+    "schedule+"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": -31
+    },
+    {
+     "k": "schedule",
+     "v": 10
+    }
+   ],
+   "grade": "D",
+   "posPct": 11,
+   "posRank": 100,
+   "rank": 261,
+   "vpc3": 0.711,
+   "fvpc": 0.26,
+   "fvpc3": 0.75,
+   "dn": "Nikolaos Rogkavopoulos",
+   "s": "nikolaos-rogkavopoulos",
+   "_seen": "2026-11-17",
+   "price_d3": -0.3,
+   "price_d5": -0.5,
+   "price_d10": 0.1,
+   "price_official": 4.5,
+   "override": "Back from injury: 14 pts (8/8 FT, 0/4 3PT), 1 reb, 1 ast, 1 stl, 1 blk, about 12 PIR in 23' vs Kolossos (GBL, 15 Nov, rezultati.com). 10.3 PIR in 13' before the injury.",
+   "score": 8.7,
+   "fresh": false,
+   "g5": [
+    [
+     2,
+     18,
+     19.3
+    ],
+    [
+     4,
+     13,
+     9.7
+    ],
+    [
+     5,
+     0,
+     9.0
+    ],
+    [
+     12,
+     -1,
+     6.4
+    ]
+   ],
+   "gl": [
+    [
+     2,
+     "2026-09-30",
+     "ASV",
+     1,
+     102,
+     79,
+     0,
+     19.3,
+     12,
+     3,
+     3,
+     1,
+     3,
+     1,
+     8,
+     18,
+     4,
+     4,
+     1,
+     1,
+     1,
+     1
+    ],
+    [
+     4,
+     "2026-10-08",
+     "ULK",
+     1,
+     92,
+     74,
+     0,
+     9.7,
+     10,
+     2,
+     0,
+     0,
+     0,
+     0,
+     11,
+     13,
+     2,
+     2,
+     1,
+     1,
+     3,
+     3
+    ],
+    [
+     5,
+     "2026-10-13",
+     "PAR",
+     0,
+     72,
+     55,
+     0,
+     9.0,
+     3,
+     1,
+     1,
+     0,
+     1,
+     0,
+     13,
+     0,
+     0,
+     0,
+     1,
+     2,
+     0,
+     0
+    ],
+    [
+     12,
+     "2026-11-17",
+     "VIR",
+     0,
+     79,
+     84,
+     0,
+     6.4,
+     0,
+     1,
+     0,
+     1,
+     0,
+     0,
+     -4,
+     -1,
+     0,
+     2,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "bio": {
+    "age": 25,
+    "h": 201,
+    "no": "17",
+    "ct": "Greece"
+   },
+   "round_log": [
+    {
+     "rd": 2,
+     "date": "2026-09-30",
+     "opp": "ASV",
+     "home": true,
+     "res": "W 102-79",
+     "start": false,
+     "min": 19.3,
+     "pts": 12,
+     "reb": 3,
+     "ast": 3,
+     "stl": 1,
+     "to": 3,
+     "blk": 1,
+     "pm": 8,
+     "pir": 18
+    },
+    {
+     "rd": 4,
+     "date": "2026-10-08",
+     "opp": "ULK",
+     "home": true,
+     "res": "W 92-74",
+     "start": false,
+     "min": 9.7,
+     "pts": 10,
+     "reb": 2,
+     "ast": 0,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": 11,
+     "pir": 13
+    },
+    {
+     "rd": 5,
+     "date": "2026-10-13",
+     "opp": "PAR",
+     "home": false,
+     "res": "W 72-55",
+     "start": false,
+     "min": 9.0,
+     "pts": 3,
+     "reb": 1,
+     "ast": 1,
+     "stl": 0,
+     "to": 1,
+     "blk": 0,
+     "pm": 13,
+     "pir": 0
+    },
+    {
+     "rd": 12,
+     "date": "2026-11-17",
+     "opp": "VIR",
+     "home": false,
+     "res": "L 79-84",
+     "start": false,
+     "min": 6.4,
+     "pts": 0,
+     "reb": 1,
+     "ast": 0,
+     "stl": 1,
+     "to": 0,
+     "blk": 0,
+     "pm": -4,
+     "pir": -1
+    }
+   ],
+   "season_summary": "4 games, 7.5 PIR per game, 11.1 min"
+  },
+  {
+   "slug": "ousmane-diop",
+   "name": "Ousmane Diop",
+   "team_name": "Olimpia Milano",
+   "t": "MIL",
+   "pos": "Center",
+   "price": 5.0,
+   "since_start": 0.8,
+   "owned": null,
+   "pir_ge_price": "3/6",
+   "proj_price_change": null,
+   "c": "013385",
+   "n": "DIOP, OUSMANE",
+   "price_src": "est",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 8,
+   "l10": 8,
+   "pirpm": 0.633,
+   "pm": 15.6,
+   "pp0": 7.8,
+   "pm0": 13.4,
+   "ppm": 0.582,
+   "pp": 9.1,
+   "p10": 1.6,
+   "p50": 8.5,
+   "p90": 19.1,
+   "conf": 54,
+   "opp": "RED",
+   "home": 1,
+   "day": 0,
+   "pwin": 0.366,
+   "f": [
+    [
+     "home",
+     0.5
+    ],
+    [
+     "form",
+     0.5
+    ],
+    [
+     "role",
+     0.1
+    ],
+    [
+     "opponent",
+     0
+    ]
+   ],
+   "vx": {
+    "k": "ww",
+    "n": 2,
+    "m": 17.3,
+    "a": [
+     "007056"
+    ],
+    "dm": 2.2,
+    "dp": 1.3,
+    "absent_names": [
+     "Devin Booker"
+    ]
+   },
+   "nxe": [
+    [
+     15,
+     "HTA",
+     0,
+     7.6,
+     1,
+     0
+    ],
+    [
+     16,
+     "MUN",
+     1,
+     7.9,
+     3,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     12,
+     "RED",
+     1,
+     9.1,
+     2,
+     0
+    ],
+    [
+     13,
+     "ULK",
+     1,
+     7.9,
+     1,
+     1
+    ],
+    [
+     14,
+     "ASV",
+     0,
+     7.8,
+     2,
+     0
+    ]
+   ],
+   "p3": 24.8,
+   "p5": 40.3,
+   "start": 0,
+   "odrtg": 102.5,
+   "gpace": 75.6,
+   "mcv": 0.41,
+   "hcap": 16,
+   "hhit": 0,
+   "hneg": 0.4,
+   "rest": 5,
+   "b2b": 1,
+   "ph": [
+    [
+     10,
+     6.5
+    ],
+    [
+     11,
+     4.5
+    ],
+    [
+     12,
+     4.8
+    ]
+   ],
+   "l3": 9.7,
+   "m3": 15.2,
+   "m10": 12.6,
+   "gp": 5,
+   "vpc": 1.896,
+   "small": 0,
+   "sig": "buy",
+   "sigScore": 44,
+   "sigConf": "medium",
+   "why": [
+    "value+",
+    "dip-",
+    "schedule+"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 40
+    },
+    {
+     "k": "dip",
+     "v": -8
+    },
+    {
+     "k": "schedule",
+     "v": 8
+    }
+   ],
+   "grade": "A+",
+   "posPct": 100,
+   "posRank": 1,
+   "rank": 1,
+   "vpc3": 5.167,
+   "fvpc": 1.965,
+   "fvpc3": 5.4,
+   "dn": "Ousmane Diop",
+   "s": "ousmane-diop",
+   "_seen": "2026-11-17",
+   "price_d3": 0.6,
+   "price_d5": 0.8,
+   "price_d10": 0.8,
+   "price_official": 4.8,
+   "score": 7.9,
+   "fresh": false,
+   "g5": [
+    [
+     8,
+     10,
+     13.5
+    ],
+    [
+     9,
+     -1,
+     11.1
+    ],
+    [
+     10,
+     18,
+     20.0
+    ],
+    [
+     11,
+     12,
+     13.7
+    ],
+    [
+     12,
+     4,
+     9.4
+    ]
+   ],
+   "gl": [
+    [
+     6,
+     "2026-10-15",
+     "DUB",
+     1,
+     97,
+     101,
+     0,
+     4.1,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0,
+     -11,
+     1,
+     0,
+     0,
+     0,
+     0,
+     1,
+     2
+    ],
+    [
+     8,
+     "2026-10-27",
+     "PAN",
+     0,
+     75,
+     80,
+     0,
+     13.5,
+     4,
+     6,
+     2,
+     0,
+     0,
+     0,
+     18,
+     10,
+     2,
+     2,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     9,
+     "2026-10-30",
+     "OLY",
+     0,
+     78,
+     84,
+     0,
+     11.1,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     -5,
+     -1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2
+    ],
+    [
+     10,
+     "2026-11-05",
+     "PAM",
+     1,
+     73,
+     84,
+     0,
+     20.0,
+     11,
+     4,
+     3,
+     2,
+     1,
+     0,
+     7,
+     18,
+     4,
+     7,
+     0,
+     0,
+     3,
+     4
+    ],
+    [
+     11,
+     "2026-11-12",
+     "ZAL",
+     1,
+     83,
+     86,
+     0,
+     13.7,
+     6,
+     2,
+     1,
+     2,
+     0,
+     0,
+     -8,
+     12,
+     1,
+     1,
+     0,
+     0,
+     4,
+     4
+    ],
+    [
+     12,
+     "2026-11-17",
+     "RED",
+     1,
+     91,
+     77,
+     0,
+     9.4,
+     4,
+     0,
+     0,
+     1,
+     0,
+     0,
+     8,
+     4,
+     1,
+     2,
+     0,
+     0,
+     2,
+     2
+    ]
+   ],
+   "bio": {
+    "age": 26,
+    "h": 204,
+    "no": "6",
+    "ct": "Senegal"
+   },
+   "round_log": [
+    {
+     "rd": 6,
+     "date": "2026-10-15",
+     "opp": "DUB",
+     "home": true,
+     "res": "L 97-101",
+     "start": false,
+     "min": 4.1,
+     "pts": 1,
+     "reb": 1,
+     "ast": 0,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": -11,
+     "pir": 1
+    },
+    {
+     "rd": 8,
+     "date": "2026-10-27",
+     "opp": "PAN",
+     "home": false,
+     "res": "L 75-80",
+     "start": false,
+     "min": 13.5,
+     "pts": 4,
+     "reb": 6,
+     "ast": 2,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": 18,
+     "pir": 10
+    },
+    {
+     "rd": 9,
+     "date": "2026-10-30",
+     "opp": "OLY",
+     "home": false,
+     "res": "L 78-84",
+     "start": false,
+     "min": 11.1,
+     "pts": 0,
+     "reb": 0,
+     "ast": 0,
+     "stl": 1,
+     "to": 0,
+     "blk": 0,
+     "pm": -5,
+     "pir": -1
+    },
+    {
+     "rd": 10,
+     "date": "2026-11-05",
+     "opp": "PAM",
+     "home": true,
+     "res": "L 73-84",
+     "start": false,
+     "min": 20.0,
+     "pts": 11,
+     "reb": 4,
+     "ast": 3,
+     "stl": 2,
+     "to": 1,
+     "blk": 0,
+     "pm": 7,
+     "pir": 18
+    },
+    {
+     "rd": 11,
+     "date": "2026-11-12",
+     "opp": "ZAL",
+     "home": true,
+     "res": "L 83-86",
+     "start": false,
+     "min": 13.7,
+     "pts": 6,
+     "reb": 2,
+     "ast": 1,
+     "stl": 2,
+     "to": 0,
+     "blk": 0,
+     "pm": -8,
+     "pir": 12
+    },
+    {
+     "rd": 12,
+     "date": "2026-11-17",
+     "opp": "RED",
+     "home": true,
+     "res": "W 91-77",
+     "start": false,
+     "min": 9.4,
+     "pts": 4,
+     "reb": 0,
+     "ast": 0,
+     "stl": 1,
+     "to": 0,
+     "blk": 0,
+     "pm": 8,
+     "pir": 4
+    }
+   ],
+   "season_summary": "6 games, 7.3 PIR per game, 11.9 min"
+  },
+  {
+   "slug": "vanja-marinkovic",
+   "name": "Vanja Marinkovic",
+   "team_name": "Partizan",
+   "t": "PAR",
+   "pos": "Forward",
+   "price": 4.3,
+   "since_start": -0.8,
+   "owned": null,
+   "pir_ge_price": "2/3",
+   "proj_price_change": null,
+   "c": "004761",
+   "n": "MARINKOVIC, VANJA",
+   "price_src": "est",
+   "status": "playing",
+   "status_src": "none",
+   "l5": 5,
+   "l10": 5,
+   "pirpm": 0.282,
+   "pm": 17.4,
+   "pp0": 6.8,
+   "pm0": 17.4,
+   "ppm": 0.392,
+   "pp": 6.8,
+   "p10": -0.7,
+   "p50": 6.4,
+   "p90": 16.5,
+   "conf": 35,
+   "opp": "PAM",
+   "home": 1,
+   "day": 0,
+   "pwin": 0.511,
+   "f": [
+    [
+     "home",
+     0.5
+    ],
+    [
+     "role",
+     0.3
+    ],
+    [
+     "opponent",
+     0.1
+    ],
+    [
+     "form",
+     0.1
+    ]
+   ],
+   "nxe": [
+    [
+     15,
+     "VIR",
+     0,
+     6.5,
+     2,
+     0
+    ],
+    [
+     16,
+     "BAR",
+     1,
+     6.8,
+     4,
+     0
+    ]
+   ],
+   "nx": [
+    [
+     12,
+     "PAM",
+     1,
+     6.8,
+     1,
+     0
+    ],
+    [
+     13,
+     "BES",
+     1,
+     6.8,
+     1,
+     0
+    ],
+    [
+     14,
+     "DUB",
+     0,
+     6.4,
+     5,
+     0
+    ]
+   ],
+   "p3": 20,
+   "p5": 33.3,
+   "start": 0.5,
+   "odrtg": 111.2,
+   "gpace": 77.1,
+   "mcv": null,
+   "hcap": 10,
+   "hhit": 0,
+   "hneg": 0.5,
+   "rest": 6,
+   "b2b": 0,
+   "ph": [
+    [
+     11,
+     4.1
+    ],
+    [
+     12,
+     4.2
+    ]
+   ],
+   "l3": 5,
+   "m3": 17.7,
+   "m10": 17.7,
+   "gp": 2,
+   "vpc": 1.619,
+   "small": 1,
+   "sig": "buy",
+   "sigScore": 43,
+   "sigConf": "low",
+   "why": [
+    "value+",
+    "schedule+"
+   ],
+   "factors": [
+    {
+     "k": "value",
+     "v": 39
+    },
+    {
+     "k": "schedule",
+     "v": 4
+    }
+   ],
+   "grade": null,
+   "posPct": 99,
+   "posRank": 2,
+   "rank": 4,
+   "vpc3": 4.762,
+   "fvpc": 1.702,
+   "fvpc3": 5.002,
+   "dn": "Vanja Marinkovic",
+   "s": "vanja-marinkovic",
+   "_seen": "2026-11-17",
+   "price_d3": 0.0,
+   "price_d5": -0.2,
+   "price_d10": -0.7,
+   "price_official": 4.2,
+   "score": 6.8,
+   "fresh": false,
+   "g5": [
+    [
+     10,
+     3,
+     11.6
+    ],
+    [
+     11,
+     7,
+     22.9
+    ],
+    [
+     12,
+     6,
+     27.7
+    ]
+   ],
+   "gl": [
+    [
+     10,
+     "2026-11-06",
+     "TEL",
+     1,
+     88,
+     67,
+     0,
+     11.6,
+     9,
+     0,
+     0,
+     0,
+     0,
+     0,
+     -6,
+     3,
+     0,
+     2,
+     3,
+     5,
+     0,
+     0
+    ],
+    [
+     11,
+     "2026-11-11",
+     "BAS",
+     1,
+     80,
+     66,
+     1,
+     22.9,
+     6,
+     2,
+     2,
+     1,
+     0,
+     0,
+     15,
+     7,
+     2,
+     2,
+     0,
+     4,
+     2,
+     2
+    ],
+    [
+     12,
+     "2026-11-17",
+     "PAM",
+     1,
+     64,
+     76,
+     1,
+     27.7,
+     10,
+     1,
+     0,
+     2,
+     0,
+     0,
+     -6,
+     6,
+     1,
+     3,
+     2,
+     8,
+     2,
+     2
+    ]
+   ],
+   "bio": {
+    "age": 29,
+    "h": 199,
+    "no": "9",
+    "ct": "Serbia"
+   },
+   "round_log": [
+    {
+     "rd": 10,
+     "date": "2026-11-06",
+     "opp": "TEL",
+     "home": true,
+     "res": "W 88-67",
+     "start": false,
+     "min": 11.6,
+     "pts": 9,
+     "reb": 0,
+     "ast": 0,
+     "stl": 0,
+     "to": 0,
+     "blk": 0,
+     "pm": -6,
+     "pir": 3
+    },
+    {
+     "rd": 11,
+     "date": "2026-11-11",
+     "opp": "BAS",
+     "home": true,
+     "res": "W 80-66",
+     "start": true,
+     "min": 22.9,
+     "pts": 6,
+     "reb": 2,
+     "ast": 2,
+     "stl": 1,
+     "to": 0,
+     "blk": 0,
+     "pm": 15,
+     "pir": 7
+    },
+    {
+     "rd": 12,
+     "date": "2026-11-17",
+     "opp": "PAM",
+     "home": true,
+     "res": "L 64-76",
+     "start": true,
+     "min": 27.7,
+     "pts": 10,
+     "reb": 1,
+     "ast": 0,
+     "stl": 2,
+     "to": 0,
+     "blk": 0,
+     "pm": -6,
+     "pir": 6
+    }
+   ],
+   "season_summary": "3 games, 5.3 PIR per game, 20.7 min"
+  }
+ ]
+}

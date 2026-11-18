@@ -1,0 +1,511 @@
+{
+ "target": 200.0,
+ "current_best_lineup": {
+  "mean": 139.6,
+  "p90": 175.7,
+  "p10": 103.5,
+  "p_target": 0.018
+ },
+ "plans": [
+  {
+   "trades": [
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.4,
+     "in": "Coach IST",
+     "in_price": 6.3
+    },
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.0,
+     "in": "John Dibartolomeo",
+     "in_price": 4.2
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.9,
+     "in": "Elijah Bryant",
+     "in_price": 17.7
+    },
+    {
+     "out": "Andres Feliz",
+     "out_price": 9.9,
+     "in": "Cameron Payne",
+     "in_price": 10.3
+    }
+   ],
+   "coach": "IST",
+   "bank_after": 0.4,
+   "formation": "2-2-1",
+   "starters": [
+    "Elijah Bryant",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Cameron Payne",
+   "bench": [
+    "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
+    "Stefan Joksimovic",
+    "John Dibartolomeo"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 151.2,
+   "p90": 194.6,
+   "p10": 107.2,
+   "p_target": 0.073
+  },
+  {
+   "trades": [
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.4,
+     "in": "Coach IST",
+     "in_price": 6.3
+    },
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.0,
+     "in": "Sergio Llull",
+     "in_price": 4.2
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.9,
+     "in": "Elijah Bryant",
+     "in_price": 17.7
+    },
+    {
+     "out": "Andres Feliz",
+     "out_price": 9.9,
+     "in": "Cameron Payne",
+     "in_price": 10.3
+    }
+   ],
+   "coach": "IST",
+   "bank_after": 0.4,
+   "formation": "2-2-1",
+   "starters": [
+    "Elijah Bryant",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Cameron Payne",
+   "bench": [
+    "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
+    "Stefan Joksimovic",
+    "Sergio Llull"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 151.2,
+   "p90": 193.8,
+   "p10": 107.7,
+   "p_target": 0.071
+  },
+  {
+   "trades": [
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.4,
+     "in": "Coach IST",
+     "in_price": 6.3
+    },
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.0,
+     "in": "John Dibartolomeo",
+     "in_price": 4.2
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.9,
+     "in": "Elijah Bryant",
+     "in_price": 17.7
+    },
+    {
+     "out": "Andres Feliz",
+     "out_price": 9.9,
+     "in": "Jordan Loyd",
+     "in_price": 10.3
+    }
+   ],
+   "coach": "IST",
+   "bank_after": 0.4,
+   "formation": "2-2-1",
+   "starters": [
+    "Elijah Bryant",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Jordan Loyd",
+   "bench": [
+    "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
+    "Stefan Joksimovic",
+    "John Dibartolomeo"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 149.9,
+   "p90": 193.0,
+   "p10": 106.2,
+   "p_target": 0.068
+  },
+  {
+   "trades": [
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.4,
+     "in": "Coach IST",
+     "in_price": 6.3
+    },
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.0,
+     "in": "Josep Puerto",
+     "in_price": 5.0
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.9,
+     "in": "Tj Shorts",
+     "in_price": 17.0
+    },
+    {
+     "out": "Andres Feliz",
+     "out_price": 9.9,
+     "in": "Cameron Payne",
+     "in_price": 10.3
+    }
+   ],
+   "coach": "IST",
+   "bank_after": 0.3,
+   "formation": "2-2-1",
+   "starters": [
+    "Tj Shorts",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Cameron Payne",
+   "bench": [
+    "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
+    "Josep Puerto",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 149.6,
+   "p90": 192.9,
+   "p10": 105.7,
+   "p_target": 0.068
+  },
+  {
+   "trades": [
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.4,
+     "in": "Coach IST",
+     "in_price": 6.3
+    },
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.0,
+     "in": "Sergio Llull",
+     "in_price": 4.2
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.9,
+     "in": "Elijah Bryant",
+     "in_price": 17.7
+    },
+    {
+     "out": "Andres Feliz",
+     "out_price": 9.9,
+     "in": "Jordan Loyd",
+     "in_price": 10.3
+    }
+   ],
+   "coach": "IST",
+   "bank_after": 0.4,
+   "formation": "2-2-1",
+   "starters": [
+    "Elijah Bryant",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Jordan Loyd",
+   "bench": [
+    "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
+    "Stefan Joksimovic",
+    "Sergio Llull"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 150.0,
+   "p90": 192.2,
+   "p10": 106.8,
+   "p_target": 0.065
+  },
+  {
+   "trades": [
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.4,
+     "in": "Coach IST",
+     "in_price": 6.3
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.9,
+     "in": "Theo Maledon",
+     "in_price": 12.7
+    },
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.0,
+     "in": "Rj Cole",
+     "in_price": 9.0
+    },
+    {
+     "out": "Andres Feliz",
+     "out_price": 9.9,
+     "in": "Cameron Payne",
+     "in_price": 10.3
+    }
+   ],
+   "coach": "IST",
+   "bank_after": 0.6,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Cameron Payne",
+   "bench": [
+    "Rj Cole",
+    "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
+    "Stefan Joksimovic"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 149.6,
+   "p90": 191.8,
+   "p10": 106.8,
+   "p_target": 0.059
+  },
+  {
+   "trades": [
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.4,
+     "in": "Coach IST",
+     "in_price": 6.3
+    },
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.0,
+     "in": "Alvaro Cardenas",
+     "in_price": 4.4
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.9,
+     "in": "Elijah Bryant",
+     "in_price": 17.7
+    },
+    {
+     "out": "Andres Feliz",
+     "out_price": 9.9,
+     "in": "Rj Cole",
+     "in_price": 9.0
+    }
+   ],
+   "coach": "IST",
+   "bank_after": 1.5,
+   "formation": "2-2-1",
+   "starters": [
+    "Elijah Bryant",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Rj Cole",
+   "bench": [
+    "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
+    "Stefan Joksimovic",
+    "Alvaro Cardenas"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 149.5,
+   "p90": 190.8,
+   "p10": 107.8,
+   "p_target": 0.058
+  },
+  {
+   "trades": [
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.4,
+     "in": "Coach IST",
+     "in_price": 6.3
+    },
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.0,
+     "in": "Alvaro Cardenas",
+     "in_price": 4.4
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.9,
+     "in": "Elijah Bryant",
+     "in_price": 17.7
+    },
+    {
+     "out": "Stefan Joksimovic",
+     "out_price": 4.2,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.3
+    }
+   ],
+   "coach": "IST",
+   "bank_after": 0.5,
+   "formation": "2-2-1",
+   "starters": [
+    "Elijah Bryant",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
+    "Vanja Marinkovic",
+    "Alvaro Cardenas"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 150.7,
+   "p90": 190.3,
+   "p10": 110.8,
+   "p_target": 0.053
+  },
+  {
+   "trades": [
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.4,
+     "in": "Coach IST",
+     "in_price": 6.3
+    },
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.0,
+     "in": "John Dibartolomeo",
+     "in_price": 4.2
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.9,
+     "in": "Elijah Bryant",
+     "in_price": 17.7
+    },
+    {
+     "out": "Stefan Joksimovic",
+     "out_price": 4.2,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.3
+    }
+   ],
+   "coach": "IST",
+   "bank_after": 0.7,
+   "formation": "2-2-1",
+   "starters": [
+    "Elijah Bryant",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
+    "Vanja Marinkovic",
+    "John Dibartolomeo"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 150.4,
+   "p90": 189.9,
+   "p10": 110.3,
+   "p_target": 0.053
+  },
+  {
+   "trades": [
+    {
+     "out": "Dario Brizuela",
+     "out_price": 6.0,
+     "in": "John Dibartolomeo",
+     "in_price": 4.2
+    },
+    {
+     "out": "Coach ZAL",
+     "out_price": 7.4,
+     "in": "Coach PAM",
+     "in_price": 8.3
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.9,
+     "in": "Nadir Hifi",
+     "in_price": 15.7
+    },
+    {
+     "out": "Andres Feliz",
+     "out_price": 9.9,
+     "in": "Cameron Payne",
+     "in_price": 10.3
+    }
+   ],
+   "coach": "PAM",
+   "bank_after": 0.4,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "sixth": "Cameron Payne",
+   "bench": [
+    "Kenan Kamenjas",
+    "Nikolaos Rogkavopoulos",
+    "Stefan Joksimovic",
+    "John Dibartolomeo"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 149.9,
+   "p90": 189.4,
+   "p10": 110.6,
+   "p_target": 0.052
+  }
+ ]
+}
