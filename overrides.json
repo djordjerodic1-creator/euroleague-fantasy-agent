@@ -12,15 +12,15 @@
    "pos": "Center",
    "price": 4.8,
    "status": "ok",
-   "pir": 10,
+   "pir": 13,
    "until_round": 13,
-   "why": "Moved from Dubai to Baskonia (Gasteizhoy); the game still lists him at Dubai. Debut vs Real Madrid (ACB, 15 Nov): 15 pts, 8 reb, PIR 22 in 24' off the bench. Baskonia are short of bigs."
+   "why": "Moved from Dubai to Baskonia on loan (the game still lists him at Dubai). ACB debut 15 Nov: PIR 22 in 24'. EuroLeague debut R12 vs Hapoel (17 Nov): started, 31', 12 pts 12 reb, PIR 19 (EFE/oslobodjenje.ba). Faried and Santos out, so he's the starting center."
   },
   "Nikolaos Rogkavopoulos": {
    "status": "ok",
-   "pir": 9,
+   "pir": 6,
    "until_round": 13,
-   "why": "Back from injury: 14 pts (8/8 FT, 0/4 3PT), 1 reb, 1 ast, 1 stl, 1 blk, about 12 PIR in 23' vs Kolossos (GBL, 15 Nov, rezultati.com). 10.3 PIR in 13' before the injury."
+   "why": "Back from injury: 14 pts in 23' vs Kolossos (GBL, 15 Nov), but only 6.4' and PIR -1 at Virtus in R12 (re-introduction). 6 until his minutes grow."
   }
  }
 }

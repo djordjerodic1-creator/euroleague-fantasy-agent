@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T09:16",
+ "generated": "2026-11-18T09:25",
  "today": "2026-11-18",
  "source_round": 12,
  "rounds_in_progress": [
@@ -407,14 +407,14 @@
   },
   {
    "out": "Nikolaos Rogkavopoulos",
-   "out_score": 8.7,
+   "out_score": 5.8,
    "options": [
     {
      "name": "Vanja Marinkovic",
      "team": "PAR",
      "price": 4.3,
      "score": 6.8,
-     "gain": -1.9,
+     "gain": 1.0,
      "owned": null
     },
     {
@@ -422,7 +422,7 @@
      "team": "RED",
      "price": 4.8,
      "score": 5.6,
-     "gain": -3.1,
+     "gain": -0.2,
      "owned": null
     },
     {
@@ -430,7 +430,7 @@
      "team": "RED",
      "price": 4.8,
      "score": 4.5,
-     "gain": -4.2,
+     "gain": -1.3,
      "owned": null
     },
     {
@@ -438,7 +438,7 @@
      "team": "PRS",
      "price": 4.0,
      "score": 3.6,
-     "gain": -5.1,
+     "gain": -2.2,
      "owned": null
     },
     {
@@ -446,7 +446,7 @@
      "team": "ASV",
      "price": 4.5,
      "score": 3.5,
-     "gain": -5.2,
+     "gain": -2.3,
      "owned": null
     }
    ]
@@ -499,14 +499,14 @@
   },
   {
    "out": "Kenan Kamenjas",
-   "out_score": 9.7,
+   "out_score": 12.6,
    "options": [
     {
      "name": "Ousmane Diop",
      "team": "MIL",
      "price": 5.0,
      "score": 7.9,
-     "gain": -1.8,
+     "gain": -4.7,
      "owned": null
     },
     {
@@ -514,7 +514,7 @@
      "team": "ZAL",
      "price": 5.3,
      "score": 2.5,
-     "gain": -7.2,
+     "gain": -10.1,
      "owned": null
     },
     {
@@ -522,7 +522,7 @@
      "team": "BES",
      "price": 4.4,
      "score": 2.5,
-     "gain": -7.2,
+     "gain": -10.1,
      "owned": null
     },
     {
@@ -530,7 +530,7 @@
      "team": "OLY",
      "price": 4.4,
      "score": 1.0,
-     "gain": -8.7,
+     "gain": -11.6,
      "owned": null
     },
     {
@@ -538,7 +538,7 @@
      "team": "ULK",
      "price": 4.0,
      "score": 0.85,
-     "gain": -8.8,
+     "gain": -11.8,
      "owned": null
     }
    ]
@@ -5783,9 +5783,9 @@
    "pm0": 2.5,
    "ppm": 0.444,
    "pp": 1.1,
-   "p10": 3.1,
+   "p10": 2.1,
    "p50": 3.4,
-   "p90": 15.8,
+   "p90": 10.5,
    "conf": 42,
    "opp": "VIR",
    "home": 0,
@@ -5814,7 +5814,7 @@
      15,
      "BES",
      0,
-     9.0,
+     6.0,
      5,
      0
     ],
@@ -5822,7 +5822,7 @@
      16,
      "OLY",
      1,
-     9.2,
+     6.1,
      4,
      0
     ]
@@ -5832,7 +5832,7 @@
      12,
      "VIR",
      0,
-     9.4,
+     6.2,
      4,
      0
     ],
@@ -5840,7 +5840,7 @@
      13,
      "ZAL",
      0,
-     8.7,
+     5.8,
      5,
      1
     ],
@@ -5848,7 +5848,7 @@
      14,
      "PAM",
      0,
-     8.7,
+     5.8,
      4,
      0
     ]
@@ -5911,8 +5911,8 @@
    "price_d5": -0.5,
    "price_d10": 0.1,
    "price_official": 4.5,
-   "override": "Back from injury: 14 pts (8/8 FT, 0/4 3PT), 1 reb, 1 ast, 1 stl, 1 blk, about 12 PIR in 23' vs Kolossos (GBL, 15 Nov, rezultati.com). 10.3 PIR in 13' before the injury.",
-   "score": 8.7,
+   "override": "Back from injury: 14 pts in 23' vs Kolossos (GBL, 15 Nov), but only 6.4' and PIR -1 at Virtus in R12 (re-introduction). 6 until his minutes grow.",
+   "score": 5.8,
    "fresh": false,
    "g5": [
     [
@@ -6845,7 +6845,7 @@
      12,
      "HTA",
      1,
-     10.4,
+     13.5,
      4,
      0
     ],
@@ -6853,7 +6853,7 @@
      13,
      "MUN",
      0,
-     9.7,
+     12.6,
      5,
      1
     ],
@@ -6861,7 +6861,7 @@
      14,
      "IST",
      1,
-     10.4,
+     13.5,
      5,
      0
     ]
@@ -6871,7 +6871,7 @@
      15,
      "TEL",
      1,
-     10.5,
+     13.7,
      4,
      0
     ],
@@ -6879,15 +6879,15 @@
      16,
      "ZAL",
      0,
-     9.0,
+     11.7,
      2,
      0
     ]
    ],
-   "p10": 3.5,
-   "p90": 17.5,
-   "override": "Moved from Dubai to Baskonia (Gasteizhoy); the game still lists him at Dubai. Debut vs Real Madrid (ACB, 15 Nov): 15 pts, 8 reb, PIR 22 in 24' off the bench. Baskonia are short of bigs.",
-   "score": 9.7,
+   "p10": 4.5,
+   "p90": 22.8,
+   "override": "Moved from Dubai to Baskonia on loan (the game still lists him at Dubai). ACB debut 15 Nov: PIR 22 in 24'. EuroLeague debut R12 vs Hapoel (17 Nov): started, 31', 12 pts 12 reb, PIR 19 (EFE/oslobodjenje.ba). Faried and Santos out, so he's the starting center.",
+   "score": 12.6,
    "fresh": false,
    "round_log": [],
    "season_summary": "no data",
