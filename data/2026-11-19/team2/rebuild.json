@@ -8,24 +8,24 @@
  "current": [
   {
    "rd": 14,
-   "mean": 131.9,
-   "p90": 169.3,
-   "p10": 94.1,
-   "p_target": 0.01
+   "mean": 133.1,
+   "p90": 170.5,
+   "p10": 95.2,
+   "p_target": 0.011
   },
   {
    "rd": 15,
-   "mean": 155.2,
-   "p90": 198.9,
-   "p10": 111.7,
-   "p_target": 0.095
+   "mean": 157.0,
+   "p90": 200.7,
+   "p10": 113.7,
+   "p_target": 0.105
   },
   {
    "rd": 16,
-   "mean": 147.5,
-   "p90": 187.2,
-   "p10": 107.1,
-   "p_target": 0.044
+   "mean": 148.5,
+   "p90": 187.8,
+   "p10": 108.0,
+   "p_target": 0.045
   }
  ],
  "plans": [
@@ -62,8 +62,8 @@
     "Mfiondu Kabengele"
    ],
    "coach_change": true,
-   "avg_p_target": 0.126,
-   "avg_mean": 158.9,
+   "avg_p_target": 0.13,
+   "avg_mean": 159.8,
    "rounds": [
     {
      "rd": 14,
@@ -83,10 +83,10 @@
       "Gabriele Procida"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 162.2,
-     "p90": 205.2,
-     "p10": 117.8,
-     "p_target": 0.137
+     "mean": 163.2,
+     "p90": 206.3,
+     "p10": 118.9,
+     "p_target": 0.142
     },
     {
      "rd": 15,
@@ -106,10 +106,10 @@
       "Gabriele Procida"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 169.4,
-     "p90": 211.5,
-     "p10": 125.9,
-     "p_target": 0.177
+     "mean": 170.2,
+     "p90": 212.2,
+     "p10": 127.1,
+     "p_target": 0.182
     },
     {
      "rd": 16,
@@ -129,10 +129,10 @@
       "Gabriele Procida"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 145.0,
-     "p90": 190.1,
-     "p10": 99.9,
-     "p_target": 0.063
+     "mean": 145.9,
+     "p90": 190.8,
+     "p10": 101.2,
+     "p_target": 0.065
     }
    ]
   },
@@ -171,8 +171,8 @@
     "Nadir Hifi"
    ],
    "coach_change": true,
-   "avg_p_target": 0.121,
-   "avg_mean": 159.2,
+   "avg_p_target": 0.129,
+   "avg_mean": 160.6,
    "rounds": [
     {
      "rd": 14,
@@ -192,10 +192,10 @@
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 159.8,
-     "p90": 201.4,
-     "p10": 117.1,
-     "p_target": 0.11
+     "mean": 161.3,
+     "p90": 203.3,
+     "p10": 118.8,
+     "p_target": 0.12
     },
     {
      "rd": 15,
@@ -215,10 +215,10 @@
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 171.2,
-     "p90": 212.8,
-     "p10": 128.2,
-     "p_target": 0.19
+     "mean": 172.5,
+     "p90": 213.7,
+     "p10": 130.4,
+     "p_target": 0.198
     },
     {
      "rd": 16,
@@ -238,10 +238,10 @@
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 146.5,
-     "p90": 190.5,
-     "p10": 103.5,
-     "p_target": 0.063
+     "mean": 147.9,
+     "p90": 191.5,
+     "p10": 105.4,
+     "p_target": 0.069
     }
    ]
   },
@@ -280,8 +280,8 @@
     "Tyson Ward"
    ],
    "coach_change": true,
-   "avg_p_target": 0.102,
-   "avg_mean": 158.0,
+   "avg_p_target": 0.116,
+   "avg_mean": 160.2,
    "rounds": [
     {
      "rd": 14,
@@ -301,10 +301,10 @@
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 158.3,
-     "p90": 200.2,
-     "p10": 115.5,
-     "p_target": 0.101
+     "mean": 160.8,
+     "p90": 202.9,
+     "p10": 117.9,
+     "p_target": 0.117
     },
     {
      "rd": 15,
@@ -324,10 +324,10 @@
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 164.0,
-     "p90": 207.1,
-     "p10": 120.5,
-     "p_target": 0.148
+     "mean": 166.4,
+     "p90": 209.7,
+     "p10": 122.8,
+     "p_target": 0.165
     },
     {
      "rd": 16,
@@ -347,10 +347,10 @@
       "Vanja Marinkovic"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 151.6,
-     "p90": 191.4,
-     "p10": 111.8,
-     "p_target": 0.058
+     "mean": 153.3,
+     "p90": 192.9,
+     "p10": 113.2,
+     "p_target": 0.067
     }
    ]
   }

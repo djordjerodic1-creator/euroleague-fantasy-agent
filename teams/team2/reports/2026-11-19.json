@@ -6,15 +6,142 @@
   "bank": 1.3
  },
  "window": "R13: 4 trades, open until Thursday's first tip-off (19 Nov, 19:15 Athens / 18:15 Budapest, Maccabi–Dubai) · unlimited before R14 (21–24 Nov)",
- "generated": "2026-11-19T10:45Z",
- "bottom_line": "R13 plan: Maledon → Bryant, Diarra → Kamenjas, Oturu → Kabengele and coach Itoudis (HTA) → Albert (PAM). That's about 13% for 200, against 4% with no trades, and it splits your squad 5 Thursday / 5 Friday so you can sub on Friday news. Captain Bryant on Thursday and move the armband to Vezenkov on Friday unless Bryant has 30+.",
+ "generated": "2026-11-19T11:30Z",
+ "bottom_line": "R13 plan: Oturu → Kamenjas, DiBartolomeo → Robinson, Abalde → Da Silva and coach Itoudis (HTA) → Laso (IST). Thursday starters are the cheaper ones (Nunn, Da Silva, Kamenjas, Diarra) and Friday's bench (Maledon, Malcolm, Marinković) replaces any of them who has a quiet night: about 16% for 200, against 4% with no trades. Make Vezenkov captain.",
  "current_fix": "Even with zero trades, move the captaincy from Maledon to Vezenkov (24.3 projected vs 14.6, and Madrid–Olympiacos puts them on opposite sides). Swap DiBartolomeo (−5 PIR in 7' last game) out of any active slot; he's on the bench already.",
  "variations": [
   {
    "key": "A",
-   "name": "Bryant + Kabengele, Valencia coach, 5/5 nights",
+   "name": "Cheap Thursday starters, Maledon and Malcolm as Friday upgrades",
    "recommended": true,
    "risk": "Medium",
+   "tagline": "Thursday: Nunn, Da Silva, Kamenjas and Diarra start. Friday: Vezenkov (C) and Robinson, with Maledon, Malcolm and Marinković on the bench to replace any Thursday starter who has a quiet night. Coach Laso (IST).",
+   "trades": [
+    {
+     "out": "Dan Oturu (14.2)",
+     "in": "Kenan Kamenjas (5.4)",
+     "credits": "+8.8",
+     "why": "Funds Robinson. Kamenjas started his debut (19 PIR in 31') and Baskonia have three fit bigs at Bayern on Thursday. [dom: ACB 15 Nov vs Madrid 24' PIR 22, acb.com]"
+    },
+    {
+     "out": "John Dibartolomeo (4.0)",
+     "in": "Justin Robinson (13.2)",
+     "credits": "−9.2",
+     "why": "The dead slot (1.7 PIR over his last 3) becomes Barça's starting guard at home to Zvezda on Friday. [dom: ACB 15 Nov 15' PIR 9, acb.com]"
+    },
+    {
+     "out": "Alberto Abalde (6.2)",
+     "in": "Oscar Da Silva (8.2)",
+     "credits": "−2.0",
+     "why": "Moves a forward from Friday (Madrid, against your captain) to Thursday: Da Silva has played 27' over his last 2 with Lučić out. Maledon replaces him on Friday if he scores under 15. [dom: BBL unverified after 2 searches]"
+    },
+    {
+     "out": "Coach Itoudis (HTA) (7.7)",
+     "in": "Coach Laso (IST) (6.0)",
+     "credits": "+1.7",
+     "why": "Hapoel at Paris is a coin flip; Efes host ASVEL at 70–75%, and it stacks with Malcolm. No clash with Diarra."
+    }
+   ],
+   "bank_after": 0.6,
+   "formation": "1-2-2",
+   "starters": [
+    "Kendrick Nunn",
+    "Sasha Vezenkov",
+    "Oscar Da Silva",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Justin Robinson",
+   "bench": [
+    "Theo Maledon",
+    "Collin Malcolm",
+    "Vanja Marinkovic",
+    "Gabriele Procida"
+   ],
+   "coach": "Anadolu Efes",
+   "captain": "Sasha Vezenkov",
+   "vice": "Justin Robinson",
+   "captain_note": "Vezenkov at home to Madrid on Friday is the biggest ceiling; he has the armband from the start.",
+   "captain_plan": "Vezenkov keeps the armband all round. After Thursday, make the swaps in the Nights line above (e.g. Da Silva out, Maledon in, if Da Silva has a quiet night).",
+   "reasoning": [
+    "About 16% chance of 200 (1 in 6), the best plan once Friday swaps count, against 4% with no trades.",
+    "Thursday starters are the cheaper or lower-floor players; Friday's bench (Maledon 15 expected, Malcolm 13, Marinković 10) replaces any of them who has a quiet night.",
+    "After Thursday, any Thursday starter or 6th man who has played can go to the bench and a Friday bench player who hasn't played comes in. Points count by slot at the end of the round.",
+    "Maledon starts on the bench, so he only plays a full slot against your captain's Olympiacos when a Thursday player has flopped.",
+    "Malcolm and coach Laso (IST) both gain if Efes beat ASVEL."
+   ],
+   "cancel_if": [
+    "If Da Silva isn't on Bayern's list, make trade 3 Abalde → Clement Frisch (BAS, 5.5) instead (bank 3.3).",
+    "If Robinson is listed out on Friday, put Maledon in the 6th-man slot."
+   ]
+  },
+  {
+   "key": "B",
+   "name": "Keep Maledon starting, Frisch, Valencia coach",
+   "recommended": false,
+   "risk": "Low",
+   "tagline": "Oturu → Kamenjas, DiBartolomeo → Robinson, Abalde → Frisch, coach Albert (PAM). Maledon starts, Nunn is 6th man; Robinson, Malcolm and Marinković on the Friday bench.",
+   "trades": [
+    {
+     "out": "Dan Oturu (14.2)",
+     "in": "Kenan Kamenjas (5.4)",
+     "credits": "+8.8",
+     "why": "Same as A. [dom: ACB 15 Nov 24' PIR 22, acb.com]"
+    },
+    {
+     "out": "John Dibartolomeo (4.0)",
+     "in": "Justin Robinson (13.2)",
+     "credits": "−9.2",
+     "why": "Same as A. [dom: ACB 15 Nov 15' PIR 9, acb.com]"
+    },
+    {
+     "out": "Alberto Abalde (6.2)",
+     "in": "Clement Frisch (5.5)",
+     "credits": "+0.7",
+     "why": "A Thursday forward: starting for Baskonia with Sedekerskis out (23.7' over his last 3). [dom: ACB 15 Nov vs Madrid, unverified after 2 searches]"
+    },
+    {
+     "out": "Coach Itoudis (HTA) (7.7)",
+     "in": "Coach Albert (PAM) (8.6)",
+     "credits": "−0.9",
+     "why": "Valencia are the round's biggest favourites. It works against Diarra, but Malcolm replaces him on Friday if Virtus are crushed."
+    }
+   ],
+   "bank_after": 0.7,
+   "formation": "1-2-2",
+   "starters": [
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Clement Frisch",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Kendrick Nunn",
+   "bench": [
+    "Justin Robinson",
+    "Vanja Marinkovic",
+    "Collin Malcolm",
+    "Gabriele Procida"
+   ],
+   "coach": "Valencia",
+   "captain": "Sasha Vezenkov",
+   "vice": "Kendrick Nunn",
+   "captain_note": "Vezenkov on Friday.",
+   "captain_plan": "Vezenkov keeps the armband all round. After Thursday, make the swaps in the Nights line above.",
+   "reasoning": [
+    "About 16% chance of 200; keeps Maledon starting and Nunn (widely owned) for rank safety.",
+    "After Thursday, any Thursday starter or 6th man who has played can go to the bench and a Friday bench player who hasn't played comes in. Points count by slot at the end of the round.",
+    "Robinson on the bench is the big Friday upgrade: he comes in for Frisch unless Frisch has an 18+ night."
+   ],
+   "cancel_if": [
+    "If Frisch isn't in Baskonia's starting five on Thursday, it doesn't matter much: Robinson replaces him on Friday."
+   ]
+  },
+  {
+   "key": "C",
+   "name": "Bryant + Kabengele moonshot",
+   "recommended": false,
+   "risk": "High",
    "tagline": "The best plan balanced over the two nights (5 Thursday / 5 Friday), level with the overall best at about 13%: Bryant and Kabengele on Thursday, Vezenkov on Friday, coach Albert (PAM). No Madrid player against your captain.",
    "trades": [
     {
@@ -64,7 +191,7 @@
    "captain_note": "Vezenkov at home to Madrid on Friday is the biggest ceiling; Bryant on Thursday is the early shot.",
    "captain_plan": "Put the armband on Bryant for Thursday (21:45 Athens). Keep it if he finishes on 30+ PIR; otherwise move it to Vezenkov before Friday's 21:15 tip-off.",
    "reasoning": [
-    "About 13% chance (1 in 8) of 200, level with the optimiser's best plan, but balanced: 5 play Thursday (Bryant, Nunn, Kabengele, Kamenjas, DiBartolomeo), 5 on Friday (Vezenkov, Malcolm, Marinković, Abalde, Procida).",
+    "Moonshot: Bryant and Kabengele on Thursday for a big early score. The Friday bench (Marinković, Abalde, Procida) is weak, so there's less to upgrade with than in A.",
     "Friday swaps: Vezenkov or Malcolm ⇄ Abalde/Procida if Friday news breaks.",
     "Correlation: Maledon sold and Abalde/Procida benched, so nothing in your active slots needs Madrid to beat your captain.",
     "Kamenjas (6th man) is the role jump of the week; DiBartolomeo stays only as a bench filler.",
@@ -74,136 +201,12 @@
     "If Kabengele is listed out, keep Oturu (bank 2.1, three trades) and start him.",
     "If Bryant is ruled out, make trade 1 Maledon → Robinson (BAR, 13.2) instead (bank 4.5) and captain Vezenkov from the start."
    ]
-  },
-  {
-   "key": "B",
-   "name": "Keep the guards, Laso + Da Silva",
-   "recommended": false,
-   "risk": "Low",
-   "tagline": "Keeps Nunn, Maledon and Diarra; Oturu → Kamenjas, DiBartolomeo → Robinson, Abalde → Da Silva, coach Laso (IST). Split 4 Thursday / 6 Friday.",
-   "trades": [
-    {
-     "out": "Dan Oturu (14.2)",
-     "in": "Kenan Kamenjas (5.4)",
-     "credits": "+8.8",
-     "why": "Funds Robinson; Kamenjas has the minutes at Bayern. [dom: ACB 15 Nov 24' PIR 22, acb.com]"
-    },
-    {
-     "out": "John Dibartolomeo (4.0)",
-     "in": "Justin Robinson (13.2)",
-     "credits": "−9.2",
-     "why": "The dead slot (1.7 PIR over his last 3) becomes Barça's starting guard at home to Zvezda. [dom: ACB 15 Nov 15' PIR 9, acb.com]"
-    },
-    {
-     "out": "Alberto Abalde (6.2)",
-     "in": "Oscar Da Silva (8.2)",
-     "credits": "−2.0",
-     "why": "Moves a Friday Madrid forward (against your captain) to Thursday: Da Silva has played 27' over his last 2 with Lučić out, home to Baskonia. [dom: BBL unverified after 2 searches]"
-    },
-    {
-     "out": "Coach Itoudis (HTA) (7.7)",
-     "in": "Coach Laso (IST) (6.0)",
-     "credits": "+1.7",
-     "why": "Efes host ASVEL (worst defence) at 70–75%; no clash with Diarra."
-    }
-   ],
-   "bank_after": 0.6,
-   "formation": "2-1-2",
-   "starters": [
-    "Theo Maledon",
-    "Kendrick Nunn",
-    "Sasha Vezenkov",
-    "Kenan Kamenjas",
-    "Aliou Diarra"
-   ],
-   "sixth": "Justin Robinson",
-   "bench": [
-    "Vanja Marinkovic",
-    "Oscar Da Silva",
-    "Gabriele Procida",
-    "Collin Malcolm"
-   ],
-   "coach": "Anadolu Efes",
-   "captain": "Sasha Vezenkov",
-   "vice": "Kendrick Nunn",
-   "captain_note": "Vezenkov on Friday; Nunn (Thursday) is the early armband.",
-   "reasoning": [
-    "About 13% chance of 200, keeping the widely-owned Nunn, Maledon and Diarra for rank safety.",
-    "Thursday: Nunn, Kamenjas, Diarra start, Da Silva on the bench. Friday: Maledon, Vezenkov and 6th man Robinson, with Marinković, Procida and Malcolm to swap in.",
-    "The cost is Maledon starting against your captain's Olympiacos."
-   ],
-   "cancel_if": [
-    "If Da Silva isn't on Bayern's list, use trade 3 on Procida → Edwin Jackson (ASV, 4.6) instead (bank 3.0)."
-   ]
-  },
-  {
-   "key": "C",
-   "name": "Bryant captain, Thiemann, Valencia coach",
-   "recommended": false,
-   "risk": "High",
-   "tagline": "Moonshot: Bryant as captain from the start, Robinson for Maledon (nothing on Madrid's side), Thiemann at centre.",
-   "trades": [
-    {
-     "out": "Kendrick Nunn (14.8)",
-     "in": "Elijah Bryant (17.6)",
-     "credits": "−2.8",
-     "why": "The highest-ceiling guard in the fastest game; 23 PIR over his last 3. [dom: unverified after 2 searches]"
-    },
-    {
-     "out": "Theo Maledon (13.4)",
-     "in": "Justin Robinson (13.2)",
-     "credits": "+0.2",
-     "why": "Takes the captain's opponent out of your squad: Maledon on a back-to-back at Olympiacos, with minutes being managed. [dom: ACB 15 Nov 15' PIR 9, acb.com]"
-    },
-    {
-     "out": "Dan Oturu (14.2)",
-     "in": "Johannes Thiemann (11.5)",
-     "credits": "+2.7",
-     "why": "31 pts in Kaunas on Tuesday; home to Baskonia with their three fit bigs, and it frees 2.7 for Bryant. [dom: unverified after 2 searches]"
-    },
-    {
-     "out": "Coach Itoudis (HTA) (7.7)",
-     "in": "Coach Albert (PAM) (8.6)",
-     "credits": "−0.9",
-     "why": "The round's biggest favourite."
-    }
-   ],
-   "bank_after": 0.5,
-   "formation": "2-2-1",
-   "starters": [
-    "Elijah Bryant",
-    "Justin Robinson",
-    "Sasha Vezenkov",
-    "Collin Malcolm",
-    "Johannes Thiemann"
-   ],
-   "sixth": "Aliou Diarra",
-   "bench": [
-    "Vanja Marinkovic",
-    "Alberto Abalde",
-    "Gabriele Procida",
-    "John Dibartolomeo"
-   ],
-   "coach": "Valencia",
-   "captain": "Elijah Bryant",
-   "vice": "Sasha Vezenkov",
-   "captain_note": "Differential captain: Bryant has had 35-PIR nights this season; almost half the league captains Vezenkov.",
-   "captain_plan": "Captain Bryant on Thursday and keep it unless he's under 15; then move it to Vezenkov on Friday.",
-   "reasoning": [
-    "A lower chance of 200 than A: DiBartolomeo stays as a dead bench slot and Diarra (6th) works against the coach. Take it only to climb rank fast.",
-    "Bryant, Thiemann and Diarra all play on Thursday, so by Friday you know whether to switch the armband.",
-    "No Madrid players in active slots at all.",
-    "Balanced over the nights: 4 play Thursday (Bryant, Thiemann, Diarra, DiBartolomeo) and 6 on Friday, with Marinković, Abalde and Procida as Friday swaps."
-   ],
-   "cancel_if": [
-    "If Bryant is ruled out, make trade 1 Nunn → Hifi (PRS, 16.3) instead (bank 1.8)."
-   ]
   }
  ],
  "alerts": [
   {
-   "level": "",
-   "text": "Lineups are now balanced over the two nights (Thursday 19 / Friday 20 Nov). The earlier A and B were 3/7 and 2/8; the new ones are 5/5 and 4/6 at the same chance of 200."
+   "level": "high",
+   "text": "Plan changed (11:30): the game lets you bench a Thursday player who has already played and bring in a Friday player who hasn't. The plans now start the cheaper Thursday players and keep stronger Friday players on the bench as upgrades; each plan lists exact swap rules."
   },
   {
    "level": "high",
@@ -211,7 +214,7 @@
   },
   {
    "level": "high",
-   "text": "Your captain is Maledon. Move it to Vezenkov (or Hifi/Nunn first on Thursday, as in the plans): Maledon plays against Vezenkov's Olympiacos on a back-to-back."
+   "text": "Your captain is Maledon. Move it to Vezenkov: Maledon plays against Vezenkov's Olympiacos on a back-to-back."
   },
   {
    "level": "high",
@@ -271,8 +274,8 @@
   },
   {
    "name": "Theo Maledon",
-   "verdict": "SELL",
-   "read": "26 PIR in 24.6' in Istanbul, but a back-to-back at Olympiacos with managed minutes, against your captain. Sold for Bryant in A, kept in B. Re-buy candidate in the window. [dom: ACB 15 Nov at Baskonia 16' PIR 29, acb.com]"
+   "verdict": "KEEP",
+   "read": "26 PIR in 24.6' in Istanbul. In A he sits on the Friday bench as the first upgrade (comes in if Da Silva scores under 15), so he only plays a full slot against your captain when it pays. [dom: ACB 15 Nov at Baskonia 16' PIR 29, acb.com]"
   },
   {
    "name": "Kendrick Nunn",
@@ -286,8 +289,8 @@
   },
   {
    "name": "Aliou Diarra",
-   "verdict": "SELL",
-   "read": "24 PIR against PAO on Tuesday, but at Valencia (86% favourites) and against coach Albert (PAM) in A. Re-buy in the window. [dom: LBA unverified after 2 searches; EL 17 Nov 15 pts, bolognatoday.it]"
+   "verdict": "KEEP",
+   "read": "24 PIR against PAO on Tuesday. A Thursday starter in A; Malcolm replaces him on Friday if he scores under 13 at Valencia. [dom: LBA unverified after 2 searches; EL 17 Nov 15 pts, bolognatoday.it]"
   },
   {
    "name": "Collin Malcolm",
@@ -296,8 +299,8 @@
   },
   {
    "name": "Alberto Abalde",
-   "verdict": "KEEP",
-   "read": "12.7 PIR over his last 3 in 22.5' with Deck and Jantunen out. Bench in all plans because of the captain clash. [dom: ACB 15 Nov at Baskonia 17.6' PIR 7, acb.com]"
+   "verdict": "SELL",
+   "read": "12.7 PIR over his last 3, but a Friday Madrid forward against your captain. Sold for a Thursday forward (Da Silva). [dom: ACB 15 Nov at Baskonia 17.6' PIR 7, acb.com]"
   },
   {
    "name": "Gabriele Procida",
@@ -311,8 +314,8 @@
   },
   {
    "name": "John Dibartolomeo",
-   "verdict": "WATCH",
-   "read": "1.7 PIR over his last 3 (−5 in 7' vs Olympiacos). Kept in A only as a Thursday bench filler; sold in B. [dom: unverified after 2 searches]"
+   "verdict": "SELL",
+   "read": "1.7 PIR over his last 3 (−5 in 7' vs Olympiacos). Sold for Robinson. [dom: unverified after 2 searches]"
   }
  ],
  "watchlist": [

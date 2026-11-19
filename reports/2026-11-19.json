@@ -6,139 +6,136 @@
   "bank": 0.2
  },
  "window": "R13: 4 trades, open until Thursday's first tip-off (19 Nov, 19:15 Athens / 18:15 Budapest, Maccabi–Dubai) · unlimited before R14 (21–24 Nov)",
- "generated": "2026-11-19T10:45Z",
- "bottom_line": "R13 plan: Maledon → Bryant, Malcolm → Edwin Jackson, Diarra → Thiemann and coach Masiulis (ZAL) → Albert (PAM). That's about 12% for 200, against 4% with no trades. The unlimited window before R14 resets the squad anyway, so spend all 4 trades on this round only. Captain Bryant on Thursday and move the armband to Vezenkov on Friday unless Bryant has 30+.",
+ "generated": "2026-11-19T11:30Z",
+ "bottom_line": "R13 plan: Maledon → Robinson, Davidovac → Da Silva, Brizuela → Marinković and coach Masiulis (ZAL) → Laso (IST). Thursday starters are the cheaper ones (Nunn, Da Silva, Diarra, Kamenjas) and Friday's bench (Feliz, Malcolm, Marinković) replaces any of them who has a quiet night: about 15% for 200, against 5% with no trades. Vezenkov is captain all round.",
  "current_fix": "If you make no trades, your lineup is already right: 3-1-1 Maledon, Nunn, Feliz / Vezenkov (C) / Diarra, Kamenjas 6th man, bench Rogkavopoulos, Malcolm, Davidovac, Brizuela.",
  "variations": [
   {
    "key": "A",
-   "name": "Bryant + Valencia, no Madrid–Olympiacos clash",
+   "name": "Cheap Thursday starters, Friday bench to upgrade",
    "recommended": true,
    "risk": "Medium",
-   "tagline": "Sell Maledon so you hold less of Madrid against your captain's Olympiacos. Add Bryant (pace game, Thursday armband) and Thiemann. Coach Albert (PAM), the round's biggest favourite.",
+   "tagline": "Thursday: Nunn, Da Silva, Diarra and Kamenjas start. Friday: Vezenkov (C) and Robinson, with Feliz, Malcolm and Marinković on the bench to replace any Thursday starter who has a quiet night. Coach Laso (IST).",
    "trades": [
-    {
-     "out": "Theo Maledon (13.4)",
-     "in": "Elijah Bryant (17.6)",
-     "credits": "−4.2",
-     "why": "Maledon is on a back-to-back at Olympiacos (site 71% vs Madrid) after 24.6' in Istanbul last night, and Martinez says 'without rushing things'. A Madrid boom also hurts captain Vezenkov. Bryant plays at Paris on Thursday, the round's pace game (projected 93–93), with 23 PIR per game over his last 3 and 31' a night. [dom: unverified after 2 searches]"
-    },
-    {
-     "out": "Collin Malcolm (10.1)",
-     "in": "Edwin Jackson (4.6)",
-     "credits": "+5.5",
-     "why": "Pays for Bryant. Malcolm had 6 PIR at Dubai and was a bench player (50%) here anyway. 12.3 PIR over his last 3 in 19' at 4.6, a real forward (the game lists Marinković as a Guard). At Efes, a bench slot at 50%. [dom: LNB unverified after 2 searches]"
-    },
-    {
-     "out": "Aliou Diarra (11.3)",
-     "in": "Johannes Thiemann (11.5)",
-     "credits": "−0.2",
-     "why": "Diarra goes to Valencia (86% favourites, projected −11), which works against coach Albert (PAM). Thiemann had 31 pts in the OT game in Kaunas on Tuesday, is home to Baskonia (1-11, Faried, Sedekerskis and Santos out: three fit bigs), and Lučić is out sick. [dom: BBL unverified; EL 17 Nov at ZAL 31 pts, fcbayern.com]"
-    },
-    {
-     "out": "Coach Masiulis (ZAL) (7.5)",
-     "in": "Coach Albert (PAM) (8.6)",
-     "credits": "−1.1",
-     "why": "Zalgiris–PAO is close to a coin flip (site 54–59%). Valencia (9-3, 1st) host Virtus (5-7) at 79–86%, with five wins in their last six at home against them: the best shot at a +20 coach score."
-    }
-   ],
-   "bank_after": 0.2,
-   "formation": "3-1-1",
-   "starters": [
-    "Elijah Bryant",
-    "Kendrick Nunn",
-    "Andres Feliz",
-    "Sasha Vezenkov",
-    "Johannes Thiemann"
-   ],
-   "sixth": "Kenan Kamenjas",
-   "bench": [
-    "Dario Brizuela",
-    "Edwin Jackson",
-    "Dejan Davidovac",
-    "Nikolaos Rogkavopoulos"
-   ],
-   "coach": "Valencia",
-   "captain": "Sasha Vezenkov",
-   "vice": "Elijah Bryant",
-   "captain_note": "Vezenkov at home to Madrid on Friday is the biggest ceiling (41 PIR at Maccabi on Tuesday, and the whole offence with Montero and Milutinov out). Bryant on Thursday is the early shot at a 35.",
-   "captain_plan": "Put the armband on Bryant for Thursday (Paris, 21:45 Athens). Keep it if he finishes on 30+ PIR. Otherwise move it to Vezenkov before Friday's 21:15 tip-off.",
-   "reasoning": [
-    "About 12% chance (1 in 8) of 200, joint best of the optimiser's plans, against 4% with no trades. The unlimited window before R14 rebuilds the squad anyway, so nothing is bought for the long term.",
-    "Correlation: Vezenkov (C) wins with Olympiacos; holding Maledon and Feliz in active slots bets on Madrid at the same time. This keeps Feliz (27' a night, Madrid's only fit point guard with Campazzo out) and drops Maledon.",
-    "Coach lens: Baskonia have three fit bigs, so Kamenjas (19 PIR, 31' on his debut) plays big minutes against Thiemann on Thursday. The two centres are on opposite sides, but a fast, foul-heavy game helps both, and Kamenjas only plays at 6th-man value.",
-    "Cheap upside watch: Edwin Jackson (4.6, 12.3 PIR over his last 3) takes the bench forward slot. Marinković is a Guard in the game, so he doesn't fit. Da Silva (MUN, 8.2) was the other option, but there was no money left after Bryant.",
-    "Nunn stays: 21.7 PIR over his last 3 and listed in the travelling squad for Kaunas. The Zalgiris defence (DRtg rank 1) caps his ceiling, but selling him costs more than it gains.",
-    "Balanced over the two nights: 5 play Thursday (Bryant, Nunn, the two centres, Rogkavopoulos) and 5 Friday (Feliz, Vezenkov, Brizuela, Jackson, Davidovac), so on Friday you can swap Feliz ⇄ Brizuela or Vezenkov ⇄ Jackson/Davidovac on late news."
-   ],
-   "cancel_if": [
-    "If Bryant is ruled out before 18:15 Budapest, make trade 1 Maledon → Robinson (BAR, 13.2) instead and keep the other three (bank 4.6).",
-    "If Thiemann is missing from Bayern's list, keep Diarra and use trade 3 on Davidovac → Procida (MAD, 5.0) instead (bank 0.0)."
-   ]
-  },
-  {
-   "key": "B",
-   "name": "Robinson + Bryant, keep the template bigs",
-   "recommended": false,
-   "risk": "Low",
-   "tagline": "Sells both Thursday-heavy guards' rivals: Nunn → Bryant and Maledon → Robinson, keeps Diarra, Feliz and Malcolm (widely owned), coach Laso (IST). Split 4 Thursday / 6 Friday with a Friday sub for every Friday slot.",
-   "trades": [
-    {
-     "out": "Kendrick Nunn (14.8)",
-     "in": "Elijah Bryant (17.6)",
-     "credits": "−2.8",
-     "why": "Nunn at Kaunas (best defence) on a back-to-back; Bryant at Paris in the pace game, 23 PIR over his last 3. [dom: unverified after 2 searches]"
-    },
     {
      "out": "Theo Maledon (13.4)",
      "in": "Justin Robinson (13.2)",
      "credits": "+0.2",
-     "why": "Takes Madrid's guard out of the captain's game. Robinson is one of Barça's two fit guards at home to Zvezda; Hayes practises for the first time on Thursday. [dom: ACB 15 Nov vs Obradoiro 15' PIR 9, acb.com]"
+     "why": "Takes the Madrid guard out of your captain's game and adds a Friday guard: Robinson is one of Barça's two fit guards at home to Zvezda (Hayes practises for the first time on Thursday). [dom: ACB 15 Nov vs Obradoiro 15' PIR 9, acb.com]"
+    },
+    {
+     "out": "Dejan Davidovac (4.6)",
+     "in": "Oscar Da Silva (8.2)",
+     "credits": "−3.6",
+     "why": "A cheap Thursday starter with a real role: 27' over his last 2 with Lučić out (illness), home to a Baskonia side with three fit bigs. If he has a quiet night, Feliz comes in on Friday. [dom: BBL unverified after 2 searches]"
     },
     {
      "out": "Dario Brizuela (6.2)",
      "in": "Vanja Marinkovic (4.3)",
      "credits": "+1.9",
-     "why": "Both are bench guards on Friday; Marinković starts for Partizan (27.7' on Tuesday) and is 1.9 cheaper. He is a Guard in the game. [dom: ABA early Nov vs Cluj, played, max-sport.rs]"
+     "why": "Same role (Friday bench guard), 1.9 cheaper, and he starts for Partizan (27.7' on Tuesday). A Guard in the game. [dom: ABA early Nov vs Cluj, played, max-sport.rs]"
     },
     {
      "out": "Coach Masiulis (ZAL) (7.5)",
      "in": "Coach Laso (IST) (6.0)",
      "credits": "+1.5",
-     "why": "Zalgiris–PAO is close to a coin flip; Efes host ASVEL (worst defence) at 70–75%, cheaper, and it stacks with Malcolm. No clash with Diarra (unlike the Valencia coach)."
+     "why": "Zalgiris–PAO is close to a coin flip; Efes host ASVEL (worst defence) at 70–75%, cheaper, and it stacks with Malcolm. No clash with Diarra."
     }
    ],
-   "bank_after": 1.0,
-   "formation": "2-1-2",
+   "bank_after": 0.2,
+   "formation": "1-2-2",
    "starters": [
-    "Elijah Bryant",
-    "Justin Robinson",
+    "Kendrick Nunn",
     "Sasha Vezenkov",
+    "Oscar Da Silva",
     "Aliou Diarra",
     "Kenan Kamenjas"
    ],
-   "sixth": "Andres Feliz",
+   "sixth": "Justin Robinson",
    "bench": [
-    "Vanja Marinkovic",
+    "Andres Feliz",
     "Collin Malcolm",
-    "Nikolaos Rogkavopoulos",
-    "Dejan Davidovac"
+    "Vanja Marinkovic",
+    "Nikolaos Rogkavopoulos"
+   ],
+   "coach": "Anadolu Efes",
+   "captain": "Sasha Vezenkov",
+   "vice": "Justin Robinson",
+   "captain_note": "Vezenkov at home to Madrid on Friday: 41 PIR on Tuesday and the whole Olympiacos offence. He has the armband from the start.",
+   "captain_plan": "Vezenkov keeps the armband all round. After Thursday, make the swaps in the Nights line above (e.g. Da Silva out, Feliz in, if Da Silva has a quiet night).",
+   "reasoning": [
+    "About 15% chance of 200 (1 in 7), the best plan once Friday swaps count, against 5% with no trades.",
+    "Thursday starters are the cheaper, lower-floor players (Nunn, Da Silva, Diarra, Kamenjas). Friday's bench (Feliz 13–14 expected, Malcolm 13, Marinković 9) replaces any of them who has a quiet night, so a Thursday flop costs about half its slot.",
+    "After Thursday, any Thursday starter or 6th man who has played can go to the bench and a Friday bench player who hasn't played comes in. Points count by slot at the end of the round.",
+    "Correlation: no Madrid player in the Friday active slots against captain Vezenkov; Feliz sits on the bench and comes in only if needed.",
+    "Malcolm and coach Laso (IST) both gain if Efes beat ASVEL."
+   ],
+   "cancel_if": [
+    "If Da Silva isn't on Bayern's list, make trade 2 Davidovac → Clement Frisch (BAS, 5.5) instead (bank 2.9); same Thursday role.",
+    "If Robinson is listed out on Friday, put Feliz in the 6th-man slot."
+   ]
+  },
+  {
+   "key": "B",
+   "name": "Bryant on Thursday, Robinson on Friday",
+   "recommended": false,
+   "risk": "Medium",
+   "tagline": "Nunn → Bryant, Maledon → Robinson, Malcolm → Da Silva, coach Laso (IST). Bryant, Da Silva, Diarra and Kamenjas on Thursday; Feliz, Brizuela and Davidovac on the Friday bench.",
+   "trades": [
+    {
+     "out": "Kendrick Nunn (14.8)",
+     "in": "Elijah Bryant (17.6)",
+     "credits": "−2.8",
+     "why": "Bryant at Paris in the pace game (23 PIR over his last 3) is a bigger Thursday ceiling than Nunn at Kaunas. [dom: unverified after 2 searches]"
+    },
+    {
+     "out": "Theo Maledon (13.4)",
+     "in": "Justin Robinson (13.2)",
+     "credits": "+0.2",
+     "why": "Friday guard without the clash against your captain. [dom: ACB 15 Nov 15' PIR 9, acb.com]"
+    },
+    {
+     "out": "Collin Malcolm (10.1)",
+     "in": "Oscar Da Silva (8.2)",
+     "credits": "+1.9",
+     "why": "Moves a forward from Friday to Thursday, so Feliz and Davidovac can cover him. [dom: BBL unverified after 2 searches]"
+    },
+    {
+     "out": "Coach Masiulis (ZAL) (7.5)",
+     "in": "Coach Laso (IST) (6.0)",
+     "credits": "+1.5",
+     "why": "Efes at home to ASVEL, 70–75%, and cheaper."
+    }
+   ],
+   "bank_after": 1.0,
+   "formation": "1-2-2",
+   "starters": [
+    "Elijah Bryant",
+    "Sasha Vezenkov",
+    "Oscar Da Silva",
+    "Aliou Diarra",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Justin Robinson",
+   "bench": [
+    "Andres Feliz",
+    "Dario Brizuela",
+    "Dejan Davidovac",
+    "Nikolaos Rogkavopoulos"
    ],
    "coach": "Anadolu Efes",
    "captain": "Sasha Vezenkov",
    "vice": "Elijah Bryant",
-   "captain_note": "Vezenkov on Friday; Bryant is the Thursday armband.",
+   "captain_note": "Vezenkov on Friday; Bryant has the bigger Thursday ceiling.",
+   "captain_plan": "Vezenkov keeps the armband all round. After Thursday, make the swaps in the Nights line above.",
    "reasoning": [
-    "About 12.5% chance of 200, level with the best plan, and the best plan that is balanced over the two nights.",
-    "Thursday: Bryant, Diarra, Kamenjas start (and Rogkavopoulos on the bench). Friday: Robinson, Vezenkov and 6th man Feliz, with Marinković, Malcolm and Davidovac on the bench to swap in on Friday news.",
-    "Keeps the widely-owned Diarra, Feliz, Malcolm and Vezenkov: safer for rank than A.",
-    "2-1-2 with two centres starting: Kamenjas has a big role at Bayern, Diarra has a 30-PIR ceiling even in a loss."
+    "About 14% chance of 200. Higher Thursday ceiling (Bryant), but a weaker Friday bench than A (Brizuela, Davidovac), so fewer good upgrades.",
+    "After Thursday, any Thursday starter or 6th man who has played can go to the bench and a Friday bench player who hasn't played comes in. Points count by slot at the end of the round.",
+    "Keeps the widely-owned Diarra, Feliz and Vezenkov."
    ],
    "cancel_if": [
-    "If Bryant is ruled out before 18:15 Budapest, make trade 1 Nunn → Hifi (PRS, 16.3) instead (bank 2.3).",
-    "If Robinson is listed out on Friday, start Marinković in his place (both play Friday)."
-   ],
-   "captain_plan": "Captain Bryant on Thursday; keep it if he scores 30+, otherwise move it to Vezenkov before Friday's 21:15 tip-off."
+    "If Bryant is ruled out, make trade 1 Nunn → Hifi (PRS, 16.3) instead (bank 2.3)."
+   ]
   },
   {
    "key": "C",
@@ -197,7 +194,7 @@
     "A lower chance of 200 than A: the coach is weaker and Kamenjas plays against him. Take it only if you need to climb fast.",
     "All the boom is on Thursday (Bryant, Kabengele, Nunn), so you'll know by Friday whether to switch the armband.",
     "Kabengele in the Maccabi game: Maccabi are 3-9 and lost Lundberg for months, and Dubai's bigs have the size edge.",
-    "Balanced over the two nights: 5 play Thursday (Bryant, Nunn, the two centres, Rogkavopoulos) and 5 Friday (Feliz, Vezenkov, Brizuela, Jackson, Davidovac), so on Friday you can swap Feliz ⇄ Brizuela or Vezenkov ⇄ Jackson/Davidovac on late news."
+    "Thursday-heavy: Bryant, Nunn, Kabengele and Kamenjas all play Thursday; Feliz's Friday bench mates (Brizuela, Jackson, Davidovac) can replace any of them, but they are weak upgrades."
    ],
    "cancel_if": [
     "If Kabengele is listed out, do Diarra → Thiemann and keep coach Masiulis (ZAL) (bank 1.3, three trades)."
@@ -207,11 +204,11 @@
  "alerts": [
   {
    "level": "high",
-   "text": "Correction (12:30): the first version of this report bought Marinković for a Forward, but the official game lists him as a Guard, which gives 5 guards. The plans now buy Edwin Jackson (ASV, 4.6) instead. The collector now uses the game's official positions (20 players differed from the site's)."
+   "text": "Plan changed (11:30): the game lets you bench a Thursday player who has already played and bring in a Friday player who hasn't. The plans now start the cheaper Thursday players and keep stronger Friday players on the bench as upgrades; each plan lists exact swap rules (e.g. 'Da Silva under 14 → Feliz in'). If you already made this morning's trades, check the ✓ made / ↩ undo marks."
   },
   {
-   "level": "",
-   "text": "Lineups are now balanced over the two nights (Thursday 19 / Friday 20 Nov): each plan shows its split and the Friday swaps still possible. Variation B changed to the best balanced plan (it was 3 Thursday / 7 Friday)."
+   "level": "high",
+   "text": "Correction (12:30): the first version of this report bought Marinković for a Forward, but the official game lists him as a Guard, which gives 5 guards. The plans now buy Edwin Jackson (ASV, 4.6) instead. The collector now uses the game's official positions (20 players differed from the site's)."
   },
   {
    "level": "high",
@@ -294,12 +291,12 @@
   {
    "name": "Kendrick Nunn",
    "verdict": "KEEP",
-   "read": "21.7 PIR over his last 3 and in the travelling squad for Kaunas (Thursday 20:00). Zalgiris have the best defence in the league and it's a back-to-back, so 14–15 is fair. Keep in A, sell in B. [dom: GBL 15 Nov vs Kolossos (78–73 W), line unverified after 2 searches]"
+   "read": "21.7 PIR over his last 3 and travelled to Kaunas. A Thursday starter in A; if Zalgiris's defence holds him under 10, Marinković comes in on Friday. [dom: GBL 15 Nov vs Kolossos, line unverified after 2 searches]"
   },
   {
    "name": "Theo Maledon",
    "verdict": "SELL",
-   "read": "26 PIR in 24.6' in Istanbul last night, so the knee is fine, but it's a back-to-back at Olympiacos and Martinez is managing his minutes. His upside runs against captain Vezenkov. Re-buy candidate in the window. [dom: ACB 15 Nov at Baskonia 16' PIR 29, acb.com]"
+   "read": "26 PIR in 24.6' in Istanbul last night, so the knee is fine, but it's a back-to-back at Olympiacos and Martinez is managing his minutes. His upside runs against captain Vezenkov. Sold for Robinson (Friday, no clash with your captain); re-buy candidate in the window. [dom: ACB 15 Nov at Baskonia 16' PIR 29, acb.com]"
   },
   {
    "name": "Andres Feliz",
@@ -308,13 +305,13 @@
   },
   {
    "name": "Collin Malcolm",
-   "verdict": "SELL",
-   "read": "6 PIR at Dubai. He has a nice spot at home to ASVEL, but at 10.1 on the bench he's the best way to fund Bryant. [dom: BSL 15 Nov unverified after 2 searches; last found 8 Nov vs Tofaş 27' 7 pts, eurobasket.com]"
+   "verdict": "KEEP",
+   "read": "6 PIR at Dubai, but home to ASVEL (worst defence) on Friday with coach Laso (IST): in A he's the Friday bench upgrade for Diarra (comes in if Diarra scores under 13). [dom: BSL 8 Nov vs Tofaş 27' 7 pts, eurobasket.com]"
   },
   {
    "name": "Aliou Diarra",
-   "verdict": "SELL",
-   "read": "24 PIR against PAO on Tuesday (10/10 games at or above his price), but at Valencia (86% favourites, projected margin 11) and against coach Albert (PAM). Re-buy in the window. [dom: LBA unverified after 2 searches; EL 17 Nov vs PAN 15 pts, bolognatoday.it]"
+   "verdict": "KEEP",
+   "read": "24 PIR against PAO on Tuesday (10/10 games at or above his price). Valencia is a tough spot, but in A he starts on Thursday and Malcolm replaces him on Friday if he scores under 13. [dom: LBA unverified after 2 searches; EL 17 Nov 15 pts, bolognatoday.it]"
   },
   {
    "name": "Kenan Kamenjas",
@@ -323,13 +320,13 @@
   },
   {
    "name": "Dario Brizuela",
-   "verdict": "KEEP",
-   "read": "11 PIR and 9 ast vs Paris; one of Barça's two fit guards until Hayes plays. Fine as a bench slot at 6.2. [dom: ACB 15 Nov vs Obradoiro 19' PIR 18, acb.com]"
+   "verdict": "SELL",
+   "read": "11 PIR and 9 ast vs Paris; one of Barça's two fit guards, but Marinković does the same Friday-bench job 1.9 cheaper. [dom: ACB 15 Nov vs Obradoiro 19' PIR 18, acb.com]"
   },
   {
    "name": "Dejan Davidovac",
-   "verdict": "WATCH",
-   "read": "Back in training after an adductor problem (missed the 15 Nov ABA game); 1 PIR at Milan. Sell in B; keep in A as the last bench slot. [dom: ABA 15 Nov DNP (adductor), aba-liga.com]"
+   "verdict": "SELL",
+   "read": "Back in training after an adductor problem; 1 PIR at Milan. Sold for Da Silva in A. [dom: ABA 15 Nov DNP (adductor), aba-liga.com]"
   },
   {
    "name": "Nikolaos Rogkavopoulos",
@@ -360,5 +357,5 @@
   }
  ],
  "review": "R12: your squad (Variation B of the 17 Nov report) scored 206, so you reached the 200 target. Variation A would have scored 194, against 152 predicted. Captain Vezenkov's 41 (90 points doubled, with the win bonus) was the best possible captain. Maledon (26) and Diarra (24) beat their projections; Malcolm (6) and Rogkavopoulos (−1) were the misses. Projection error was 5.6 PIR per player (bias +0.7). Lesson kept: bigs returning to a full role (Kamenjas) are under-projected, and players coming back from injury (Rogkavopoulos) are over-projected. This report started from your real squad (from the screenshot), not the assumed one, because the tracking had Robinson and Joksimović wrongly. Research: ≈20 searches, 8 pages read, 6 players unverified.",
- "window_plan": "The rebuild's best plan sells Nunn, Brizuela, Malcolm, Rogkavopoulos and Davidovac for Bryant, Frisch, Herrera, Edwin Jackson and Marinković, with coach Martinez (RMB): about 9.7% a round over R14–R16. Variation A already buys Bryant and Edwin Jackson, so the window costs fewer changes. I'd wait on Robinson until Hayes's role is clear, and re-buy Maledon or Diarra only on full minutes this round. Nothing has to be bought before the window: the price moves are too small to matter."
+ "window_plan": "The rebuild's best plan sells Nunn, Brizuela, Malcolm, Rogkavopoulos and Davidovac for Bryant, Frisch, Herrera, Edwin Jackson and Marinković, with coach Martinez (RMB): about 9.7% a round over R14–R16. Variation A already buys Robinson and Marinković, so the window costs fewer changes. I'd wait on Robinson until Hayes's role is clear, and re-buy Maledon or Diarra only on full minutes this round. Nothing has to be bought before the window: the price moves are too small to matter."
 }

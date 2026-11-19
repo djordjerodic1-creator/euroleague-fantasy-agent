@@ -25,7 +25,9 @@ say whether you **agree, and why**, or **disagree, and why**.
 - 4 trades per round (the coach counts as one). Unlimited windows come before certain rounds
   (see the calendar in the digest). Trades lock at the first tip-off of the round.
 - Rounds span 2–3 days ("turns"). Between turns you can swap starters and bench and change the
-  captain, but only using players who haven't played yet.
+  captain. A player who has already played can be moved OUT of the starting five / 6th-man slot (his score then
+  counts at the bench rate); only a player who hasn't played yet can come IN. The armband can only move to a
+  starter who hasn't played yet. (Confirmed by the user, 19 Nov 2026.)
 - Prices move after each round based on performance against the price (the site's
   "projected change" estimates this).
 
@@ -94,14 +96,15 @@ The user wants **big rounds, not safe rounds**. Rank every decision by its effec
   yourself and check the money: price out ≤ bank + price in, 4/4/2 positions, max 6 per club.
 
 **Turn and captain management**
-- **Balance the squad over the round's nights (the user's rule).** Between nights you can only swap players who
-  haven't played yet, so a later-night starter or 6th man can only be replaced by a later-night bench player (keeping
-  a valid formation). Every variation should be balanced: at least 4 of the 10 on each night of a two-night round,
-  at least one starter on the first night (early captain) and one on a later night (armband switch), and a
-  later-night bench player able to replace every later-night active player. `sim.py` builds lineups this way when it
-  costs under 1 point of P(target), marks unbalanced plans, and lists the best balanced plans under "Balanced over
-  the round's nights". Prefer those; take an unbalanced plan only when it is clearly better, and say why. The page
-  shows each variation's split and the swaps still possible (🌗 Nights line).
+- **Cheap early starters, strong late bench (the user's rule).** Because a first-night player who has played can be
+  benched and an unplayed later-night bench player brought in, the ideal shape is: first-night starters are the
+  cheaper, lower-expected players; the later-night bench holds stronger players who come in when a first-night
+  starter has a quiet night (swap when his score is below the bench player's expected score). Every variation should
+  be balanced: at least 4 of the 10 on each night of a two-night round, at least one starter on each night, and a
+  later-night bench player able to replace every first-night active player. `sim.py` simulates these swaps (and the
+  armband move), picks lineups that value them, and lists the best balanced plans with their swap rules
+  ("after night 1: X under 14 -> Y"). The page shows the split and the swap rules (🌗 Nights line). Prefer balanced
+  plans; take an unbalanced one only when it is clearly better (e.g. a moonshot), and say why.
 - Put early-turn players in the starting five, so you keep options if late news breaks.
 - Captain = high floor × win probability × minutes certainty. A safe captain usually beats a
   boom-or-bust one. Pick a differential captain only when the user is chasing.

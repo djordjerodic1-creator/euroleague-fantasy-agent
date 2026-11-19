@@ -472,10 +472,12 @@ def write_predictions(date, D, built, team, now):
     (data_dir(date) / "predictions.json").write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
 
 
-def nights_line(st, sixth, bench):
-    """Night split of a lineup and the swaps still possible after the first night (see sim.night_split)."""
-    from sim import night_split
-    ns = night_split(st, sixth, bench)
+def nights_line(st, sixth, bench, captain, D):
+    """Night split of a lineup and the planned swaps after the first night (see sim.night_split / sim.plan_subs)."""
+    from sim import night_split, prep
+    st, sixth, bench = [prep(p) for p in st], (prep(sixth) if sixth else None), [prep(p) for p in bench]
+    cap = next((p for p in st if norm(p["name"]) == norm(captain)), st[0])
+    ns = night_split(st, sixth, bench, cap, D.games)
     if not ns:
         return ""
     date_of = {}
@@ -483,11 +485,12 @@ def nights_line(st, sixth, bench):
         g = p.get("game") or {}
         if g.get("turn"):
             date_of.setdefault(g["turn"], g.get("date") or "")
+    n1, n2 = ns["nights"][0], ns["nights"][1]
     parts = " · ".join(f"night {n} ({esc(date_of.get(n, ''))}): {ns['count'][n]} players, {ns['starters'][n]} starting"
                        for n in ns["nights"])
-    sw = " · ".join(f"{esc(surname(a))} ⇄ {esc(', '.join(surname(b) for b in o))}" for a, o in ns["swaps"].items() if o)
-    later = f"night {ns['nights'][1]}"
-    txt = f"🌗 <b>Nights:</b> {parts}. Swaps before {later}: {sw or 'none'}."
+    plan = " · ".join(f"{esc(surname(a))} under {math.floor(mu)} → {esc(surname(b))} in" for a, b, mu in ns["plan"])
+    txt = (f"🌗 <b>Nights:</b> {parts}. <b>After night {n1}</b> (a player who has played can go to the bench, "
+           f"one who hasn't can come in): {plan or 'no swaps planned'}.")
     if not ns["balanced"]:
         txt += f" <b>Unbalanced:</b> {esc('; '.join(ns['reasons']))}."
     return f'<p class="capline nights">{txt}</p>'
@@ -507,7 +510,7 @@ def day_plan(v, D):
     best = None
     for x in starters:
         tx = turns.get(x["name"])
-        # you can only hand the armband to a starter who hasn't played yet (subs in/out must both be unplayed)
+        # you can only hand the armband to a starter who hasn't played yet (a played player can go out, only an unplayed one comes in)
         later = [p for p in starters if turns.get(p["name"]) and tx and turns[p["name"]] > tx]
         if not later:
             continue
@@ -1218,7 +1221,7 @@ def render(date):
 </div><div class="side">
 {(f"<h4>Picks</h4><p class='why'>New team picked from scratch: {cost} of {budget} credits, bank {round(budget - cost, 1)}.</p>" if DRAFT else "<h4>Trades</h4>" + (''.join(tcards) or '<p>No trades.</p>'))}
 <p class="capline">🧢 <b>{esc(surname(v['captain']))}</b> captain{(' · vice ' + esc(surname(v['vice']))) if v.get('vice') else ''}. {esc(v.get('captain_note', ''))}</p>
-{nights_line(st, sixth, bench)}
+{nights_line(st, sixth, bench, v['captain'], D)}
 {(lambda dp: f'<p class="capline dayplan">🔁 <b>Day plan:</b> {esc(dp)}</p>' if dp else '')(v.get('captain_plan') or day_plan(v, D))}
 <details{' open' if v.get('recommended') else ''}><summary>Why this squad</summary><ul>{''.join(f'<li>{esc(x)}</li>' for x in v.get('reasoning', []))}</ul></details>
 {('<details><summary>Change the plan if…</summary><ul>' + ''.join(f'<li>{esc(x)}</li>' for x in v.get('cancel_if', [])) + '</ul></details>') if v.get('cancel_if') else ''}

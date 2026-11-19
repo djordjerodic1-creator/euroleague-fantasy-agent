@@ -1,12 +1,92 @@
 {
  "target": 200.0,
  "current_best_lineup": {
-  "mean": 143.3,
-  "p90": 185.5,
-  "p10": 100.4,
-  "p_target": 0.041
+  "mean": 144.6,
+  "p90": 186.5,
+  "p10": 102.3,
+  "p_target": 0.044
  },
  "plans": [
+  {
+   "trades": [
+    {
+     "out": "Dan Oturu",
+     "out_price": 14.2,
+     "in": "Kenan Kamenjas",
+     "in_price": 5.4
+    },
+    {
+     "out": "John Dibartolomeo",
+     "out_price": 4.0,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Coach HTA",
+     "out_price": 7.7,
+     "in": "Coach PAM",
+     "in_price": 8.6
+    },
+    {
+     "out": "Alberto Abalde",
+     "out_price": 6.2,
+     "in": "Clement Frisch",
+     "in_price": 5.5
+    }
+   ],
+   "coach": "PAM",
+   "bank_after": 0.7,
+   "formation": "1-2-2",
+   "starters": [
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Clement Frisch",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Kendrick Nunn",
+   "bench": [
+    "Justin Robinson",
+    "Vanja Marinkovic",
+    "Gabriele Procida",
+    "Collin Malcolm"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 168.6,
+   "p90": 208.2,
+   "p10": 129.6,
+   "p_target": 0.159,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Clement Frisch",
+      "Justin Robinson",
+      18.3
+     ],
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      12.9
+     ],
+     [
+      "Kendrick Nunn",
+      "Vanja Marinkovic",
+      9.5
+     ]
+    ]
+   },
+   "kept_your_trades": 0
+  },
   {
    "trades": [
     {
@@ -52,10 +132,10 @@
     "Gabriele Procida"
    ],
    "captain": "Sasha Vezenkov",
-   "mean": 163.9,
-   "p90": 205.3,
-   "p10": 122.7,
-   "p_target": 0.133,
+   "mean": 166.6,
+   "p90": 207.6,
+   "p10": 124.5,
+   "p_target": 0.151,
    "nights": {
     "count": {
      "1": 3,
@@ -68,6 +148,495 @@
     "balanced": false,
     "reasons": [
      "only 3 of 10 play on night 1"
+    ],
+    "plan": [
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      12.9
+     ],
+     [
+      "Nadir Hifi",
+      "Vanja Marinkovic",
+      9.5
+     ]
+    ]
+   },
+   "kept_your_trades": 0
+  },
+  {
+   "trades": [
+    {
+     "out": "Dan Oturu",
+     "out_price": 14.2,
+     "in": "Kenan Kamenjas",
+     "in_price": 5.4
+    },
+    {
+     "out": "John Dibartolomeo",
+     "out_price": 4.0,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Coach HTA",
+     "out_price": 7.7,
+     "in": "Coach PAM",
+     "in_price": 8.6
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.1,
+     "in": "Oscar Da Silva",
+     "in_price": 8.2
+    }
+   ],
+   "coach": "PAM",
+   "bank_after": 1.9,
+   "formation": "1-2-2",
+   "starters": [
+    "Kendrick Nunn",
+    "Sasha Vezenkov",
+    "Oscar Da Silva",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Justin Robinson",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Alberto Abalde",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 168.4,
+   "p90": 206.3,
+   "p10": 129.9,
+   "p_target": 0.15,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Oscar Da Silva",
+      "Theo Maledon",
+      15.0
+     ],
+     [
+      "Aliou Diarra",
+      "Vanja Marinkovic",
+      9.5
+     ],
+     [
+      "Kendrick Nunn",
+      "Alberto Abalde",
+      8.0
+     ]
+    ]
+   },
+   "kept_your_trades": 0
+  },
+  {
+   "trades": [
+    {
+     "out": "Dan Oturu",
+     "out_price": 14.2,
+     "in": "Kenan Kamenjas",
+     "in_price": 5.4
+    },
+    {
+     "out": "John Dibartolomeo",
+     "out_price": 4.0,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Coach HTA",
+     "out_price": 7.7,
+     "in": "Coach PAM",
+     "in_price": 8.6
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.1,
+     "in": "Johnny Juzang",
+     "in_price": 9.1
+    }
+   ],
+   "coach": "PAM",
+   "bank_after": 1.0,
+   "formation": "1-2-2",
+   "starters": [
+    "Kendrick Nunn",
+    "Sasha Vezenkov",
+    "Johnny Juzang",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Justin Robinson",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Alberto Abalde",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 167.7,
+   "p90": 206.0,
+   "p10": 128.5,
+   "p_target": 0.146,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Johnny Juzang",
+      "Theo Maledon",
+      15.0
+     ],
+     [
+      "Aliou Diarra",
+      "Vanja Marinkovic",
+      9.5
+     ],
+     [
+      "Kendrick Nunn",
+      "Alberto Abalde",
+      8.0
+     ]
+    ]
+   },
+   "kept_your_trades": 0
+  },
+  {
+   "trades": [
+    {
+     "out": "Coach HTA",
+     "out_price": 7.7,
+     "in": "Coach PAM",
+     "in_price": 8.6
+    },
+    {
+     "out": "Dan Oturu",
+     "out_price": 14.2,
+     "in": "Kenan Kamenjas",
+     "in_price": 5.4
+    },
+    {
+     "out": "Theo Maledon",
+     "out_price": 13.4,
+     "in": "Elijah Bryant",
+     "in_price": 17.6
+    },
+    {
+     "out": "John Dibartolomeo",
+     "out_price": 4.0,
+     "in": "Tyson Carter",
+     "in_price": 7.9
+    }
+   ],
+   "coach": "PAM",
+   "bank_after": 1.1,
+   "formation": "2-1-2",
+   "starters": [
+    "Elijah Bryant",
+    "Kendrick Nunn",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Tyson Carter",
+   "bench": [
+    "Vanja Marinkovic",
+    "Alberto Abalde",
+    "Gabriele Procida",
+    "Collin Malcolm"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 166.1,
+   "p90": 206.9,
+   "p10": 126.7,
+   "p_target": 0.145,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      12.9
+     ],
+     [
+      "Kendrick Nunn",
+      "Vanja Marinkovic",
+      9.5
+     ],
+     [
+      "Elijah Bryant",
+      "Alberto Abalde",
+      8.0
+     ]
+    ]
+   },
+   "kept_your_trades": 0
+  },
+  {
+   "trades": [
+    {
+     "out": "Coach HTA",
+     "out_price": 7.7,
+     "in": "Coach PAM",
+     "in_price": 8.6
+    },
+    {
+     "out": "Dan Oturu",
+     "out_price": 14.2,
+     "in": "Kenan Kamenjas",
+     "in_price": 5.4
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Elijah Bryant",
+     "in_price": 17.6
+    },
+    {
+     "out": "John Dibartolomeo",
+     "out_price": 4.0,
+     "in": "Duane Washington",
+     "in_price": 10.1
+    }
+   ],
+   "coach": "PAM",
+   "bank_after": 0.3,
+   "formation": "2-1-2",
+   "starters": [
+    "Theo Maledon",
+    "Elijah Bryant",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Duane Washington",
+   "bench": [
+    "Vanja Marinkovic",
+    "Alberto Abalde",
+    "Gabriele Procida",
+    "Collin Malcolm"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 167.1,
+   "p90": 205.7,
+   "p10": 128.2,
+   "p_target": 0.141,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Duane Washington",
+      "Collin Malcolm",
+      12.9
+     ],
+     [
+      "Aliou Diarra",
+      "Vanja Marinkovic",
+      9.5
+     ],
+     [
+      "Elijah Bryant",
+      "Alberto Abalde",
+      8.0
+     ]
+    ]
+   },
+   "kept_your_trades": 0
+  },
+  {
+   "trades": [
+    {
+     "out": "Coach HTA",
+     "out_price": 7.7,
+     "in": "Coach PAM",
+     "in_price": 8.6
+    },
+    {
+     "out": "Dan Oturu",
+     "out_price": 14.2,
+     "in": "Kenan Kamenjas",
+     "in_price": 5.4
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Elijah Bryant",
+     "in_price": 17.6
+    },
+    {
+     "out": "John Dibartolomeo",
+     "out_price": 4.0,
+     "in": "Andreas Obst",
+     "in_price": 9.4
+    }
+   ],
+   "coach": "PAM",
+   "bank_after": 1.0,
+   "formation": "2-1-2",
+   "starters": [
+    "Theo Maledon",
+    "Elijah Bryant",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andreas Obst",
+   "bench": [
+    "Vanja Marinkovic",
+    "Alberto Abalde",
+    "Gabriele Procida",
+    "Collin Malcolm"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 167.0,
+   "p90": 205.7,
+   "p10": 128.3,
+   "p_target": 0.141,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Andreas Obst",
+      "Collin Malcolm",
+      12.9
+     ],
+     [
+      "Aliou Diarra",
+      "Vanja Marinkovic",
+      9.5
+     ],
+     [
+      "Elijah Bryant",
+      "Alberto Abalde",
+      8.0
+     ]
+    ]
+   },
+   "kept_your_trades": 0
+  },
+  {
+   "trades": [
+    {
+     "out": "Dan Oturu",
+     "out_price": 14.2,
+     "in": "Kenan Kamenjas",
+     "in_price": 5.4
+    },
+    {
+     "out": "John Dibartolomeo",
+     "out_price": 4.0,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Coach HTA",
+     "out_price": 7.7,
+     "in": "Coach PAM",
+     "in_price": 8.6
+    },
+    {
+     "out": "Gabriele Procida",
+     "out_price": 5.0,
+     "in": "Edwin Jackson",
+     "in_price": 4.6
+    }
+   ],
+   "coach": "PAM",
+   "bank_after": 0.4,
+   "formation": "2-1-2",
+   "starters": [
+    "Justin Robinson",
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Kendrick Nunn",
+   "bench": [
+    "Collin Malcolm",
+    "Vanja Marinkovic",
+    "Edwin Jackson",
+    "Alberto Abalde"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 167.1,
+   "p90": 206.8,
+   "p10": 127.4,
+   "p_target": 0.14,
+   "nights": {
+    "count": {
+     "1": 3,
+     "2": 7
+    },
+    "starters": {
+     "1": 2,
+     "2": 3
+    },
+    "balanced": false,
+    "reasons": [
+     "only 3 of 10 play on night 1"
+    ],
+    "plan": [
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      12.9
+     ],
+     [
+      "Kendrick Nunn",
+      "Vanja Marinkovic",
+      9.5
+     ]
     ]
    },
    "kept_your_trades": 0
@@ -117,10 +686,10 @@
     "Gabriele Procida"
    ],
    "captain": "Sasha Vezenkov",
-   "mean": 163.8,
-   "p90": 205.1,
-   "p10": 123.1,
-   "p_target": 0.13,
+   "mean": 166.1,
+   "p90": 207.0,
+   "p10": 125.3,
+   "p_target": 0.14,
    "nights": {
     "count": {
      "1": 2,
@@ -133,388 +702,18 @@
     "balanced": false,
     "reasons": [
      "only 2 of 10 play on night 1"
-    ]
-   },
-   "kept_your_trades": 0
-  },
-  {
-   "trades": [
-    {
-     "out": "Coach HTA",
-     "out_price": 7.7,
-     "in": "Coach PAM",
-     "in_price": 8.6
-    },
-    {
-     "out": "Aliou Diarra",
-     "out_price": 11.3,
-     "in": "Kenan Kamenjas",
-     "in_price": 5.4
-    },
-    {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Elijah Bryant",
-     "in_price": 17.6
-    },
-    {
-     "out": "Dan Oturu",
-     "out_price": 14.2,
-     "in": "Jonas Valanciunas",
-     "in_price": 17.7
-    }
-   ],
-   "coach": "PAM",
-   "bank_after": 0.0,
-   "formation": "2-2-1",
-   "starters": [
-    "Theo Maledon",
-    "Elijah Bryant",
-    "Sasha Vezenkov",
-    "Collin Malcolm",
-    "Jonas Valanciunas"
-   ],
-   "sixth": "Kenan Kamenjas",
-   "bench": [
-    "John Dibartolomeo",
-    "Vanja Marinkovic",
-    "Alberto Abalde",
-    "Gabriele Procida"
-   ],
-   "captain": "Sasha Vezenkov",
-   "mean": 164.0,
-   "p90": 203.9,
-   "p10": 123.3,
-   "p_target": 0.126,
-   "nights": {
-    "count": {
-     "1": 4,
-     "2": 6
-    },
-    "starters": {
-     "1": 2,
-     "2": 3
-    },
-    "balanced": true,
-    "reasons": []
-   },
-   "kept_your_trades": 0
-  },
-  {
-   "trades": [
-    {
-     "out": "Dan Oturu",
-     "out_price": 14.2,
-     "in": "Kenan Kamenjas",
-     "in_price": 5.4
-    },
-    {
-     "out": "John Dibartolomeo",
-     "out_price": 4.0,
-     "in": "Justin Robinson",
-     "in_price": 13.2
-    },
-    {
-     "out": "Coach HTA",
-     "out_price": 7.7,
-     "in": "Coach PAM",
-     "in_price": 8.6
-    },
-    {
-     "out": "Alberto Abalde",
-     "out_price": 6.2,
-     "in": "Clement Frisch",
-     "in_price": 5.5
-    }
-   ],
-   "coach": "PAM",
-   "bank_after": 0.7,
-   "formation": "2-1-2",
-   "starters": [
-    "Theo Maledon",
-    "Kendrick Nunn",
-    "Sasha Vezenkov",
-    "Kenan Kamenjas",
-    "Aliou Diarra"
-   ],
-   "sixth": "Justin Robinson",
-   "bench": [
-    "Vanja Marinkovic",
-    "Clement Frisch",
-    "Gabriele Procida",
-    "Collin Malcolm"
-   ],
-   "captain": "Sasha Vezenkov",
-   "mean": 164.1,
-   "p90": 204.5,
-   "p10": 124.2,
-   "p_target": 0.125,
-   "nights": {
-    "count": {
-     "1": 4,
-     "2": 6
-    },
-    "starters": {
-     "1": 3,
-     "2": 2
-    },
-    "balanced": true,
-    "reasons": []
-   },
-   "kept_your_trades": 0
-  },
-  {
-   "trades": [
-    {
-     "out": "Coach HTA",
-     "out_price": 7.7,
-     "in": "Coach PAM",
-     "in_price": 8.6
-    },
-    {
-     "out": "Dan Oturu",
-     "out_price": 14.2,
-     "in": "Johannes Thiemann",
-     "in_price": 11.5
-    },
-    {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Elijah Bryant",
-     "in_price": 17.6
-    },
-    {
-     "out": "Theo Maledon",
-     "out_price": 13.4,
-     "in": "Justin Robinson",
-     "in_price": 13.2
-    }
-   ],
-   "coach": "PAM",
-   "bank_after": 0.5,
-   "formation": "2-2-1",
-   "starters": [
-    "Justin Robinson",
-    "Elijah Bryant",
-    "Sasha Vezenkov",
-    "Collin Malcolm",
-    "Johannes Thiemann"
-   ],
-   "sixth": "Aliou Diarra",
-   "bench": [
-    "John Dibartolomeo",
-    "Vanja Marinkovic",
-    "Alberto Abalde",
-    "Gabriele Procida"
-   ],
-   "captain": "Sasha Vezenkov",
-   "mean": 163.7,
-   "p90": 203.8,
-   "p10": 123.8,
-   "p_target": 0.125,
-   "nights": {
-    "count": {
-     "1": 4,
-     "2": 6
-    },
-    "starters": {
-     "1": 2,
-     "2": 3
-    },
-    "balanced": true,
-    "reasons": []
-   },
-   "kept_your_trades": 0
-  },
-  {
-   "trades": [
-    {
-     "out": "Coach HTA",
-     "out_price": 7.7,
-     "in": "Coach PAM",
-     "in_price": 8.6
-    },
-    {
-     "out": "Dan Oturu",
-     "out_price": 14.2,
-     "in": "Kenan Kamenjas",
-     "in_price": 5.4
-    },
-    {
-     "out": "Theo Maledon",
-     "out_price": 13.4,
-     "in": "Elijah Bryant",
-     "in_price": 17.6
-    },
-    {
-     "out": "John Dibartolomeo",
-     "out_price": 4.0,
-     "in": "Tyson Carter",
-     "in_price": 7.9
-    }
-   ],
-   "coach": "PAM",
-   "bank_after": 1.1,
-   "formation": "2-2-1",
-   "starters": [
-    "Elijah Bryant",
-    "Kendrick Nunn",
-    "Sasha Vezenkov",
-    "Collin Malcolm",
-    "Kenan Kamenjas"
-   ],
-   "sixth": "Aliou Diarra",
-   "bench": [
-    "Tyson Carter",
-    "Vanja Marinkovic",
-    "Alberto Abalde",
-    "Gabriele Procida"
-   ],
-   "captain": "Sasha Vezenkov",
-   "mean": 163.3,
-   "p90": 204.3,
-   "p10": 123.5,
-   "p_target": 0.125,
-   "nights": {
-    "count": {
-     "1": 4,
-     "2": 6
-    },
-    "starters": {
-     "1": 3,
-     "2": 2
-    },
-    "balanced": true,
-    "reasons": []
-   },
-   "kept_your_trades": 0
-  },
-  {
-   "trades": [
-    {
-     "out": "Dan Oturu",
-     "out_price": 14.2,
-     "in": "Kenan Kamenjas",
-     "in_price": 5.4
-    },
-    {
-     "out": "John Dibartolomeo",
-     "out_price": 4.0,
-     "in": "Justin Robinson",
-     "in_price": 13.2
-    },
-    {
-     "out": "Coach HTA",
-     "out_price": 7.7,
-     "in": "Coach PAM",
-     "in_price": 8.6
-    },
-    {
-     "out": "Gabriele Procida",
-     "out_price": 5.0,
-     "in": "Edwin Jackson",
-     "in_price": 4.6
-    }
-   ],
-   "coach": "PAM",
-   "bank_after": 0.4,
-   "formation": "2-1-2",
-   "starters": [
-    "Justin Robinson",
-    "Theo Maledon",
-    "Sasha Vezenkov",
-    "Kenan Kamenjas",
-    "Aliou Diarra"
-   ],
-   "sixth": "Kendrick Nunn",
-   "bench": [
-    "Collin Malcolm",
-    "Vanja Marinkovic",
-    "Edwin Jackson",
-    "Alberto Abalde"
-   ],
-   "captain": "Sasha Vezenkov",
-   "mean": 163.9,
-   "p90": 203.8,
-   "p10": 124.0,
-   "p_target": 0.121,
-   "nights": {
-    "count": {
-     "1": 3,
-     "2": 7
-    },
-    "starters": {
-     "1": 2,
-     "2": 3
-    },
-    "balanced": false,
-    "reasons": [
-     "only 3 of 10 play on night 1"
-    ]
-   },
-   "kept_your_trades": 0
-  },
-  {
-   "trades": [
-    {
-     "out": "Coach HTA",
-     "out_price": 7.7,
-     "in": "Coach PAM",
-     "in_price": 8.6
-    },
-    {
-     "out": "Dan Oturu",
-     "out_price": 14.2,
-     "in": "Kenan Kamenjas",
-     "in_price": 5.4
-    },
-    {
-     "out": "John Dibartolomeo",
-     "out_price": 4.0,
-     "in": "Andres Feliz",
-     "in_price": 9.9
-    },
-    {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Elijah Bryant",
-     "in_price": 17.6
-    }
-   ],
-   "coach": "PAM",
-   "bank_after": 0.5,
-   "formation": "2-1-2",
-   "starters": [
-    "Elijah Bryant",
-    "Theo Maledon",
-    "Sasha Vezenkov",
-    "Kenan Kamenjas",
-    "Aliou Diarra"
-   ],
-   "sixth": "Andres Feliz",
-   "bench": [
-    "Collin Malcolm",
-    "Vanja Marinkovic",
-    "Alberto Abalde",
-    "Gabriele Procida"
-   ],
-   "captain": "Sasha Vezenkov",
-   "mean": 164.7,
-   "p90": 203.1,
-   "p10": 126.4,
-   "p_target": 0.12,
-   "nights": {
-    "count": {
-     "1": 3,
-     "2": 7
-    },
-    "starters": {
-     "1": 3,
-     "2": 2
-    },
-    "balanced": false,
-    "reasons": [
-     "only 3 of 10 play on night 1"
+    ],
+    "plan": [
+     [
+      "Kenan Kamenjas",
+      "Collin Malcolm",
+      12.9
+     ],
+     [
+      "Kendrick Nunn",
+      "Vanja Marinkovic",
+      9.5
+     ]
     ]
    },
    "kept_your_trades": 0
@@ -564,10 +763,10 @@
     "Gabriele Procida"
    ],
    "captain": "Sasha Vezenkov",
-   "mean": 163.6,
-   "p90": 203.4,
-   "p10": 123.7,
-   "p_target": 0.12,
+   "mean": 166.8,
+   "p90": 206.5,
+   "p10": 127.2,
+   "p_target": 0.138,
    "nights": {
     "count": {
      "1": 3,
@@ -580,139 +779,24 @@
     "balanced": false,
     "reasons": [
      "only 3 of 10 play on night 1"
-    ]
-   },
-   "kept_your_trades": 0
-  },
-  {
-   "trades": [
-    {
-     "out": "Dan Oturu",
-     "out_price": 14.2,
-     "in": "Kenan Kamenjas",
-     "in_price": 5.4
-    },
-    {
-     "out": "John Dibartolomeo",
-     "out_price": 4.0,
-     "in": "Justin Robinson",
-     "in_price": 13.2
-    },
-    {
-     "out": "Coach HTA",
-     "out_price": 7.7,
-     "in": "Coach PAM",
-     "in_price": 8.6
-    },
-    {
-     "out": "Collin Malcolm",
-     "out_price": 10.1,
-     "in": "Tyson Ward",
-     "in_price": 8.3
-    }
-   ],
-   "coach": "PAM",
-   "bank_after": 1.8,
-   "formation": "2-1-2",
-   "starters": [
-    "Justin Robinson",
-    "Theo Maledon",
-    "Sasha Vezenkov",
-    "Kenan Kamenjas",
-    "Aliou Diarra"
-   ],
-   "sixth": "Kendrick Nunn",
-   "bench": [
-    "Tyson Ward",
-    "Vanja Marinkovic",
-    "Alberto Abalde",
-    "Gabriele Procida"
-   ],
-   "captain": "Sasha Vezenkov",
-   "mean": 163.2,
-   "p90": 203.0,
-   "p10": 123.2,
-   "p_target": 0.118,
-   "nights": {
-    "count": {
-     "1": 3,
-     "2": 7
-    },
-    "starters": {
-     "1": 2,
-     "2": 3
-    },
-    "balanced": false,
-    "reasons": [
-     "only 3 of 10 play on night 1"
+    ],
+    "plan": [
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      12.9
+     ],
+     [
+      "Kendrick Nunn",
+      "Vanja Marinkovic",
+      9.5
+     ]
     ]
    },
    "kept_your_trades": 0
   }
  ],
  "balanced_plans": [
-  {
-   "trades": [
-    {
-     "out": "Coach HTA",
-     "out_price": 7.7,
-     "in": "Coach PAM",
-     "in_price": 8.6
-    },
-    {
-     "out": "Aliou Diarra",
-     "out_price": 11.3,
-     "in": "Kenan Kamenjas",
-     "in_price": 5.4
-    },
-    {
-     "out": "Theo Maledon",
-     "out_price": 13.4,
-     "in": "Elijah Bryant",
-     "in_price": 17.6
-    },
-    {
-     "out": "Dan Oturu",
-     "out_price": 14.2,
-     "in": "Mfiondu Kabengele",
-     "in_price": 16.2
-    }
-   ],
-   "coach": "PAM",
-   "bank_after": 0.1,
-   "formation": "2-2-1",
-   "starters": [
-    "Elijah Bryant",
-    "Kendrick Nunn",
-    "Sasha Vezenkov",
-    "Collin Malcolm",
-    "Mfiondu Kabengele"
-   ],
-   "sixth": "Kenan Kamenjas",
-   "bench": [
-    "John Dibartolomeo",
-    "Vanja Marinkovic",
-    "Alberto Abalde",
-    "Gabriele Procida"
-   ],
-   "captain": "Sasha Vezenkov",
-   "mean": 163.7,
-   "p90": 205.9,
-   "p10": 121.9,
-   "p_target": 0.133,
-   "nights": {
-    "count": {
-     "1": 5,
-     "2": 5
-    },
-    "starters": {
-     "1": 3,
-     "2": 2
-    },
-    "balanced": true,
-    "reasons": []
-   }
-  },
   {
    "trades": [
     {
@@ -742,99 +826,54 @@
    ],
    "coach": "IST",
    "bank_after": 0.6,
-   "formation": "2-1-2",
+   "formation": "1-2-2",
    "starters": [
-    "Theo Maledon",
     "Kendrick Nunn",
     "Sasha Vezenkov",
+    "Oscar Da Silva",
     "Kenan Kamenjas",
     "Aliou Diarra"
    ],
    "sixth": "Justin Robinson",
    "bench": [
+    "Theo Maledon",
     "Vanja Marinkovic",
-    "Oscar Da Silva",
     "Gabriele Procida",
     "Collin Malcolm"
    ],
    "captain": "Sasha Vezenkov",
-   "mean": 163.0,
-   "p90": 204.9,
-   "p10": 121.6,
-   "p_target": 0.129,
+   "mean": 168.4,
+   "p90": 210.4,
+   "p10": 126.0,
+   "p_target": 0.166,
    "nights": {
     "count": {
      "1": 4,
      "2": 6
     },
     "starters": {
-     "1": 3,
-     "2": 2
-    },
-    "balanced": true,
-    "reasons": []
-   }
-  },
-  {
-   "trades": [
-    {
-     "out": "Coach HTA",
-     "out_price": 7.7,
-     "in": "Coach PAM",
-     "in_price": 8.6
-    },
-    {
-     "out": "Aliou Diarra",
-     "out_price": 11.3,
-     "in": "Kenan Kamenjas",
-     "in_price": 5.4
-    },
-    {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Elijah Bryant",
-     "in_price": 17.6
-    },
-    {
-     "out": "Dan Oturu",
-     "out_price": 14.2,
-     "in": "Jonas Valanciunas",
-     "in_price": 17.7
-    }
-   ],
-   "coach": "PAM",
-   "bank_after": 0.0,
-   "formation": "2-2-1",
-   "starters": [
-    "Theo Maledon",
-    "Elijah Bryant",
-    "Sasha Vezenkov",
-    "Collin Malcolm",
-    "Jonas Valanciunas"
-   ],
-   "sixth": "Kenan Kamenjas",
-   "bench": [
-    "John Dibartolomeo",
-    "Vanja Marinkovic",
-    "Alberto Abalde",
-    "Gabriele Procida"
-   ],
-   "captain": "Sasha Vezenkov",
-   "mean": 164.0,
-   "p90": 203.9,
-   "p10": 123.3,
-   "p_target": 0.126,
-   "nights": {
-    "count": {
      "1": 4,
-     "2": 6
-    },
-    "starters": {
-     "1": 2,
-     "2": 3
+     "2": 1
     },
     "balanced": true,
-    "reasons": []
+    "reasons": [],
+    "plan": [
+     [
+      "Oscar Da Silva",
+      "Theo Maledon",
+      15.0
+     ],
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      12.9
+     ],
+     [
+      "Kendrick Nunn",
+      "Vanja Marinkovic",
+      9.5
+     ]
+    ]
    }
   },
   {
@@ -866,26 +905,26 @@
    ],
    "coach": "PAM",
    "bank_after": 0.7,
-   "formation": "2-1-2",
+   "formation": "1-2-2",
    "starters": [
     "Theo Maledon",
-    "Kendrick Nunn",
     "Sasha Vezenkov",
+    "Clement Frisch",
     "Kenan Kamenjas",
     "Aliou Diarra"
    ],
-   "sixth": "Justin Robinson",
+   "sixth": "Kendrick Nunn",
    "bench": [
+    "Justin Robinson",
     "Vanja Marinkovic",
-    "Clement Frisch",
     "Gabriele Procida",
     "Collin Malcolm"
    ],
    "captain": "Sasha Vezenkov",
-   "mean": 164.1,
-   "p90": 204.5,
-   "p10": 124.2,
-   "p_target": 0.125,
+   "mean": 168.6,
+   "p90": 208.2,
+   "p10": 129.6,
+   "p_target": 0.159,
    "nights": {
     "count": {
      "1": 4,
@@ -896,7 +935,24 @@
      "2": 2
     },
     "balanced": true,
-    "reasons": []
+    "reasons": [],
+    "plan": [
+     [
+      "Clement Frisch",
+      "Justin Robinson",
+      18.3
+     ],
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      12.9
+     ],
+     [
+      "Kendrick Nunn",
+      "Vanja Marinkovic",
+      9.5
+     ]
+    ]
    }
   },
   {
@@ -910,14 +966,14 @@
     {
      "out": "Dan Oturu",
      "out_price": 14.2,
-     "in": "Johannes Thiemann",
-     "in_price": 11.5
+     "in": "Kenan Kamenjas",
+     "in_price": 5.4
     },
     {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Elijah Bryant",
-     "in_price": 17.6
+     "out": "Alberto Abalde",
+     "out_price": 6.2,
+     "in": "Dwayne Bacon",
+     "in_price": 14.5
     },
     {
      "out": "Theo Maledon",
@@ -927,47 +983,222 @@
     }
    ],
    "coach": "PAM",
-   "bank_after": 0.5,
-   "formation": "2-2-1",
+   "bank_after": 1.1,
+   "formation": "1-2-2",
    "starters": [
     "Justin Robinson",
-    "Elijah Bryant",
     "Sasha Vezenkov",
-    "Collin Malcolm",
-    "Johannes Thiemann"
+    "Dwayne Bacon",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
    ],
-   "sixth": "Aliou Diarra",
+   "sixth": "Kendrick Nunn",
    "bench": [
     "John Dibartolomeo",
+    "Vanja Marinkovic",
+    "Gabriele Procida",
+    "Collin Malcolm"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 167.3,
+   "p90": 208.2,
+   "p10": 126.0,
+   "p_target": 0.152,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      12.9
+     ],
+     [
+      "Kendrick Nunn",
+      "Vanja Marinkovic",
+      9.5
+     ],
+     [
+      "Dwayne Bacon",
+      "Gabriele Procida",
+      7.4
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Dan Oturu",
+     "out_price": 14.2,
+     "in": "Kenan Kamenjas",
+     "in_price": 5.4
+    },
+    {
+     "out": "John Dibartolomeo",
+     "out_price": 4.0,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Coach HTA",
+     "out_price": 7.7,
+     "in": "Coach PAM",
+     "in_price": 8.6
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.1,
+     "in": "Oscar Da Silva",
+     "in_price": 8.2
+    }
+   ],
+   "coach": "PAM",
+   "bank_after": 1.9,
+   "formation": "1-2-2",
+   "starters": [
+    "Kendrick Nunn",
+    "Sasha Vezenkov",
+    "Oscar Da Silva",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Justin Robinson",
+   "bench": [
+    "Theo Maledon",
     "Vanja Marinkovic",
     "Alberto Abalde",
     "Gabriele Procida"
    ],
    "captain": "Sasha Vezenkov",
-   "mean": 163.7,
-   "p90": 203.8,
-   "p10": 123.8,
-   "p_target": 0.125,
+   "mean": 168.4,
+   "p90": 206.3,
+   "p10": 129.9,
+   "p_target": 0.15,
    "nights": {
     "count": {
      "1": 4,
      "2": 6
     },
     "starters": {
-     "1": 2,
-     "2": 3
+     "1": 4,
+     "2": 1
     },
     "balanced": true,
-    "reasons": []
+    "reasons": [],
+    "plan": [
+     [
+      "Oscar Da Silva",
+      "Theo Maledon",
+      15.0
+     ],
+     [
+      "Aliou Diarra",
+      "Vanja Marinkovic",
+      9.5
+     ],
+     [
+      "Kendrick Nunn",
+      "Alberto Abalde",
+      8.0
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Dan Oturu",
+     "out_price": 14.2,
+     "in": "Kenan Kamenjas",
+     "in_price": 5.4
+    },
+    {
+     "out": "John Dibartolomeo",
+     "out_price": 4.0,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Coach HTA",
+     "out_price": 7.7,
+     "in": "Coach PAM",
+     "in_price": 8.6
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.1,
+     "in": "Johnny Juzang",
+     "in_price": 9.1
+    }
+   ],
+   "coach": "PAM",
+   "bank_after": 1.0,
+   "formation": "1-2-2",
+   "starters": [
+    "Kendrick Nunn",
+    "Sasha Vezenkov",
+    "Johnny Juzang",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Justin Robinson",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Alberto Abalde",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 167.7,
+   "p90": 206.0,
+   "p10": 128.5,
+   "p_target": 0.146,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Johnny Juzang",
+      "Theo Maledon",
+      15.0
+     ],
+     [
+      "Aliou Diarra",
+      "Vanja Marinkovic",
+      9.5
+     ],
+     [
+      "Kendrick Nunn",
+      "Alberto Abalde",
+      8.0
+     ]
+    ]
    }
   }
  ],
  "pre_round_squad": true,
  "with_your_trades": {
-  "mean": 143.3,
-  "p90": 185.5,
-  "p10": 100.4,
-  "p_target": 0.041,
+  "mean": 144.6,
+  "p90": 186.5,
+  "p10": 102.3,
+  "p_target": 0.044,
   "captain": "Sasha Vezenkov"
  }
 }
