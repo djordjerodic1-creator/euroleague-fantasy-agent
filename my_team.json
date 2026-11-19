@@ -3,57 +3,63 @@
   "round": 13,
   "players": [
     "Kendrick Nunn",
-    "Dario Brizuela",
+    "Theo Maledon",
     "Andres Feliz",
-    "Justin Robinson",
+    "Dario Brizuela",
     "Sasha Vezenkov",
     "Collin Malcolm",
-    "Stefan Joksimovic",
     "Nikolaos Rogkavopoulos",
+    "Dejan Davidovac",
     "Aliou Diarra",
     "Kenan Kamenjas"
   ],
   "lineup": {
     "starters": [
-      "Justin Robinson",
+      "Theo Maledon",
       "Kendrick Nunn",
       "Andres Feliz",
       "Sasha Vezenkov",
       "Aliou Diarra"
     ],
-    "sixth": "Collin Malcolm",
+    "sixth": "Kenan Kamenjas",
     "bench": [
-      "Kenan Kamenjas",
       "Nikolaos Rogkavopoulos",
-      "Stefan Joksimovic",
+      "Collin Malcolm",
+      "Dejan Davidovac",
       "Dario Brizuela"
     ]
   },
   "captain": "Sasha Vezenkov",
   "coach": "Zalgiris",
-  "bank": 0.7,
-  "bank_known": false,
-  "total_budget": 105.5,
-  "trades_left_this_round": 0,
+  "bank": 0.2,
+  "bank_known": true,
+  "total_budget": 107.9,
+  "trades_left_this_round": 4,
   "tracking": {
-    "source": "assumed: report 2026-11-17 variation A",
-    "updated": "2026-11-18",
+    "source": "user",
+    "updated": "2026-11-19",
     "last_applied_report": "2026-11-17"
   },
-  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. R12 trades redone 15 Nov evening (user screenshot): Faye->Kamenjas, Davidovac->Rogkavopoulos, Madar->Maledon, coach Partizan->Jasikevicius (ULK); Robinson, Herrera, Diop and coach Masiulis undone. App shows 0.0/105.5, trades 4/4. The app still lists Kamenjas at Dubai (vs EFS) and shows injury crosses on Rogkavopoulos and Maledon. Lineup in the app: Brizuela, Nunn, Vezenkov (C), Malcolm, Diarra; 6th Kamenjas; bench Joksimovic, Feliz, Rogkavopoulos, Maledon. 15 Nov late: user chose Variation B: Madar->Robinson instead of Maledon, coach Masiulis (ZAL) instead of Jasikevicius. Bank 0.7 expected, not yet confirmed from the app.",
+  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. 19 Nov (user screenshot, R13 before trades): Maledon and Davidovac in the squad (not Robinson/Joksimovic); app shows 0.2/107.9, trades 0/4, formation 3-1-1, captain Vezenkov, coach Masiulis (ZAL).",
   "target_points": 200,
   "app_prices": {
-    "_note": "In-app prices from the user's screenshot, 15 Nov.",
-    "Aliou Diarra": 10.8,
-    "Collin Malcolm": 10.3,
-    "Sasha Vezenkov": 19.2,
-    "Dario Brizuela": 6.0,
-    "Kendrick Nunn": 14.9,
-    "Kenan Kamenjas": 4.8,
-    "Stefan Joksimovic": 4.1,
-    "Andres Feliz": 9.7,
-    "Nikolaos Rogkavopoulos": 4.5,
-    "Justin Robinson": 13.1,
-    "Coach Masiulis (ZAL)": 7.4
+    "_note": "See app_prices.json (official game HAR, round 13, 19 Nov)."
+  },
+  "round_start": {
+    "round": 13,
+    "players": [
+      "Kendrick Nunn",
+      "Theo Maledon",
+      "Andres Feliz",
+      "Dario Brizuela",
+      "Sasha Vezenkov",
+      "Collin Malcolm",
+      "Nikolaos Rogkavopoulos",
+      "Dejan Davidovac",
+      "Aliou Diarra",
+      "Kenan Kamenjas"
+    ],
+    "coach": "Zalgiris",
+    "bank": 0.2
   }
 }
