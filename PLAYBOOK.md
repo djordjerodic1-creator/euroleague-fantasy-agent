@@ -94,6 +94,14 @@ The user wants **big rounds, not safe rounds**. Rank every decision by its effec
   yourself and check the money: price out ≤ bank + price in, 4/4/2 positions, max 6 per club.
 
 **Turn and captain management**
+- **Balance the squad over the round's nights (the user's rule).** Between nights you can only swap players who
+  haven't played yet, so a later-night starter or 6th man can only be replaced by a later-night bench player (keeping
+  a valid formation). Every variation should be balanced: at least 4 of the 10 on each night of a two-night round,
+  at least one starter on the first night (early captain) and one on a later night (armband switch), and a
+  later-night bench player able to replace every later-night active player. `sim.py` builds lineups this way when it
+  costs under 1 point of P(target), marks unbalanced plans, and lists the best balanced plans under "Balanced over
+  the round's nights". Prefer those; take an unbalanced plan only when it is clearly better, and say why. The page
+  shows each variation's split and the swaps still possible (🌗 Nights line).
 - Put early-turn players in the starting five, so you keep options if late news breaks.
 - Captain = high floor × win probability × minutes certainty. A safe captain usually beats a
   boom-or-bust one. Pick a differential captain only when the user is chasing.

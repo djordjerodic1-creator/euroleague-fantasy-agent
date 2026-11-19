@@ -94,6 +94,93 @@ def best_lineup(players, coach_g, target):
     return best
 
 
+# ------------------------------------------------------------------ nights (turns) and swaps between them
+def _turn(p):
+    return ((p.get("game") or {}).get("turn")) or 0
+
+
+def night_split(starters, sixth, bench):
+    """How a lineup splits over the round's nights, and which swaps stay possible between them.
+
+    Between nights you can only swap players who haven't played yet, so a later-night starter or 6th man can only
+    be replaced by a later-night bench player (and the starting five must stay a valid formation). Balanced means:
+    each night has a fair share of the 10 (at least 4 of 10 over two nights), at least one starter plays on the
+    first night (early captain) and one on a later night (switch target), and every later-night active player has
+    a later-night bench player who can replace him. Returns None for a one-night round."""
+    allp = list(starters) + ([sixth] if sixth else []) + list(bench)
+    nights = sorted({_turn(p) for p in allp if _turn(p)})
+    if len(nights) < 2:
+        return None
+    n2 = nights[1]
+    cnt = {n: sum(1 for p in allp if _turn(p) == n) for n in nights}
+    st_cnt = {n: sum(1 for p in starters if _turn(p) == n) for n in nights}
+    st_pos = {k: sum(1 for p in starters if p["pos"] == k) for k in POS}
+    late_bench = [b for b in bench if _turn(b) >= n2]
+    late_active = [a for a in list(starters) + ([sixth] if sixth else []) if _turn(a) >= n2]
+    swaps = {}
+    for a in late_active:
+        opts = []
+        for b in late_bench:
+            if a is sixth:
+                ok = True
+            else:
+                c = dict(st_pos)
+                c[a["pos"]] -= 1
+                c[b["pos"]] = c.get(b["pos"], 0) + 1
+                ok = tuple(c[k] for k in POS) in FORMS.values()
+            if ok:
+                opts.append(b["name"])
+        swaps[a["name"]] = opts
+    floor = max(1, len(allp) // len(nights) - 1)
+    reasons = []
+    for n in nights:
+        if cnt[n] < floor:
+            reasons.append(f"only {cnt[n]} of {len(allp)} play on night {n}")
+    if not st_cnt[nights[0]]:
+        reasons.append("no starter on the first night (no early captain)")
+    if not any(st_cnt[n] for n in nights[1:]):
+        reasons.append("no starter on a later night (no armband switch)")
+    uncovered = [a for a, o in swaps.items() if not o]
+    if uncovered:
+        reasons.append("no later-night bench cover for " + ", ".join(n.split(" ", 1)[-1] for n in uncovered))
+    return {"nights": nights, "count": cnt, "starters": st_cnt, "swaps": swaps, "balanced": not reasons,
+            "reasons": reasons}
+
+
+def balanced_lineup(players, coach_g, target, slack=0.01):
+    """The best lineup (by the same normal approximation as best_lineup) among those that are balanced over the
+    nights; falls back to best_lineup when nothing balanced is within `slack` of its P(target)."""
+    from itertools import combinations
+    top = best_lineup(players, coach_g, target)
+    if not top or night_split(top["starters"], top["sixth"], top["bench"]) is None:
+        return top
+    cm, cs = coach_moments(coach_g)
+    by = {k: [p for p in players if p["pos"] == k] for k in POS}
+    best = None
+    for f, need in FORMS.items():
+        if any(len(by[k]) < n for k, n in zip(POS, need)):
+            continue
+        for g in combinations(by["Guard"], need[0]):
+            for fw in combinations(by["Forward"], need[1]):
+                for ce in combinations(by["Center"], need[2]):
+                    st = list(g) + list(fw) + list(ce)
+                    rest = [p for p in players if p not in st]
+                    for sixth in rest:
+                        bench = [p for p in rest if p is not sixth]
+                        ns = night_split(st, sixth, bench)
+                        if not ns["balanced"]:
+                            continue
+                        base_m = sum(p["_m"] for p in st) + sixth["_m"] + 0.5 * sum(p["_m"] for p in bench) + cm
+                        base_v = sum(p["_s"] ** 2 for p in st) + sixth["_s"] ** 2 + 0.25 * sum(p["_s"] ** 2 for p in bench) + cs ** 2
+                        for c in st:
+                            m, v = base_m + c["_m"], base_v + 3 * c["_s"] ** 2
+                            prob = 1 - phi((target - m) / math.sqrt(v))
+                            if not best or prob > best["p"] + 1e-12:
+                                best = {"p": prob, "mean": m, "sd": math.sqrt(v), "formation": f, "starters": st,
+                                        "sixth": sixth, "bench": bench, "captain": c}
+    return best if best and best["p"] >= top["p"] - slack else top
+
+
 # ------------------------------------------------------------------ Monte Carlo (correlated)
 def simulate(starters, sixth, bench, captain, coach_code, games, target, n=4000, seed=7):
     rnd = random.Random(seed)
@@ -215,18 +302,34 @@ def optimise(D, team, coach_prices, target, trades=4, beam=80, per_pos=30):
             states[k] = nxt[k]
         if depth == trades - 1:
             results = [states[k] for k in frontier]
+    def plan(sq, c, b, moves, bl):
+        mc = simulate(bl["starters"], bl["sixth"], bl["bench"], bl["captain"], c, games, target)
+        ns = night_split(bl["starters"], bl["sixth"], bl["bench"])
+        return {"trades": [{"out": o, "out_price": op, "in": i, "in_price": ip} for o, op, i, ip in moves],
+                "coach": c, "bank_after": b, "formation": bl["formation"],
+                "starters": [p["name"] for p in bl["starters"]], "sixth": bl["sixth"]["name"],
+                "bench": [p["name"] for p in bl["bench"]], "captain": bl["captain"]["name"], **mc,
+                "nights": ({"count": ns["count"], "starters": ns["starters"], "balanced": ns["balanced"],
+                            "reasons": ns["reasons"]} if ns else None)}
+
     out = []
     for sq, c, b, moves, _ in results[:20]:
-        bl = best_lineup(sq, games.get(c), target)
-        mc = simulate(bl["starters"], bl["sixth"], bl["bench"], bl["captain"], c, games, target)
-        out.append({"trades": [{"out": o, "out_price": op, "in": i, "in_price": ip} for o, op, i, ip in moves],
-                    "coach": c, "bank_after": b, "formation": bl["formation"],
-                    "starters": [p["name"] for p in bl["starters"]], "sixth": bl["sixth"]["name"],
-                    "bench": [p["name"] for p in bl["bench"]], "captain": bl["captain"]["name"], **mc})
+        out.append(plan(sq, c, b, moves, balanced_lineup(sq, games.get(c), target)))
     out.sort(key=lambda r: (-r["p_target"], -r["mean"]))
+    # plans whose squad AND lineup are balanced over the round's nights (so you can sub between them), from the
+    # whole final beam: these can sit a little lower on P(target) than the top plans
+    bal = []
+    for sq, c, b, moves, _ in results:
+        bl = balanced_lineup(sq, games.get(c), target, slack=1.0)
+        ns = night_split(bl["starters"], bl["sixth"], bl["bench"])
+        if ns and ns["balanced"]:
+            bal.append((bl["p"], sq, c, b, moves, bl))
+    bal.sort(key=lambda x: -x[0])
+    balanced_plans = sorted((plan(sq, c, b, moves, bl) for _, sq, c, b, moves, bl in bal[:15]),
+                            key=lambda r: (-r["p_target"], -r["mean"]))[:5]
     base_bl = best_lineup(squad, games.get(coach), target)
     base = simulate(base_bl["starters"], base_bl["sixth"], base_bl["bench"], base_bl["captain"], coach, games, target)
-    res = {"target": target, "current_best_lineup": base, "plans": out[:10]}
+    res = {"target": target, "current_best_lineup": base, "plans": out[:10], "balanced_plans": balanced_plans}
     if rs.get("round") == D.target:
         # the squad with the trades you've made so far, for comparison
         now = [prep(D.player(n)) for n in team_now["players"]]
@@ -483,9 +586,22 @@ def print_plans(res, target):
     if res.get("with_your_trades"):
         w = res["with_your_trades"]
         print(f"With the trades you've made: mean {w['mean']}, top-10% {w['p90']}, P(>=target) {w['p_target']:.1%} (captain {w['captain']})")
+    def nights(r):
+        n = r.get("nights")
+        if not n:
+            return ""
+        split = "/".join(str(v) for v in n["count"].values())
+        return f"  nights {split}{'' if n['balanced'] else ' (unbalanced)'}"
+
     for i, r in enumerate(res["plans"], 1):
         t = "; ".join(f"{x['out']}->{x['in']}" for x in r["trades"])
-        print(f"{i:2}. P {r['p_target']:.1%}  mean {r['mean']}  p90 {r['p90']}  bank {r['bank_after']}  cap {r['captain']}  | {t}")
+        print(f"{i:2}. P {r['p_target']:.1%}  mean {r['mean']}  p90 {r['p90']}  bank {r['bank_after']}  cap {r['captain']}{nights(r)}  | {t}")
+    if res.get("balanced_plans"):
+        print("Balanced over the round's nights (subs possible between them):")
+        for i, r in enumerate(res["balanced_plans"], 1):
+            t = "; ".join(f"{x['out']}->{x['in']}" for x in r["trades"])
+            print(f" b{i}. P {r['p_target']:.1%}  mean {r['mean']}  bank {r['bank_after']}  cap {r['captain']}{nights(r)}  | {t}")
+            print(f"     {r['formation']} {', '.join(r['starters'])} | 6th {r['sixth']} | bench {', '.join(r['bench'])}")
 
 
 def window_plan(D, team, coach_prices, target, date):

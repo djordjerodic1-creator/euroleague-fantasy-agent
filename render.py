@@ -472,6 +472,27 @@ def write_predictions(date, D, built, team, now):
     (data_dir(date) / "predictions.json").write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
 
 
+def nights_line(st, sixth, bench):
+    """Night split of a lineup and the swaps still possible after the first night (see sim.night_split)."""
+    from sim import night_split
+    ns = night_split(st, sixth, bench)
+    if not ns:
+        return ""
+    date_of = {}
+    for p in st + ([sixth] if sixth else []) + bench:
+        g = p.get("game") or {}
+        if g.get("turn"):
+            date_of.setdefault(g["turn"], g.get("date") or "")
+    parts = " · ".join(f"night {n} ({esc(date_of.get(n, ''))}): {ns['count'][n]} players, {ns['starters'][n]} starting"
+                       for n in ns["nights"])
+    sw = " · ".join(f"{esc(surname(a))} ⇄ {esc(', '.join(surname(b) for b in o))}" for a, o in ns["swaps"].items() if o)
+    later = f"night {ns['nights'][1]}"
+    txt = f"🌗 <b>Nights:</b> {parts}. Swaps before {later}: {sw or 'none'}."
+    if not ns["balanced"]:
+        txt += f" <b>Unbalanced:</b> {esc('; '.join(ns['reasons']))}."
+    return f'<p class="capline nights">{txt}</p>'
+
+
 def day_plan(v, D):
     """Captain by day: captain an early starter and switch to a later one if he has a quiet night.
     Keep-threshold = the later option's expected score; picks the early captain with the best E[max(X, later)]."""
@@ -1197,6 +1218,7 @@ def render(date):
 </div><div class="side">
 {(f"<h4>Picks</h4><p class='why'>New team picked from scratch: {cost} of {budget} credits, bank {round(budget - cost, 1)}.</p>" if DRAFT else "<h4>Trades</h4>" + (''.join(tcards) or '<p>No trades.</p>'))}
 <p class="capline">🧢 <b>{esc(surname(v['captain']))}</b> captain{(' · vice ' + esc(surname(v['vice']))) if v.get('vice') else ''}. {esc(v.get('captain_note', ''))}</p>
+{nights_line(st, sixth, bench)}
 {(lambda dp: f'<p class="capline dayplan">🔁 <b>Day plan:</b> {esc(dp)}</p>' if dp else '')(v.get('captain_plan') or day_plan(v, D))}
 <details{' open' if v.get('recommended') else ''}><summary>Why this squad</summary><ul>{''.join(f'<li>{esc(x)}</li>' for x in v.get('reasoning', []))}</ul></details>
 {('<details><summary>Change the plan if…</summary><ul>' + ''.join(f'<li>{esc(x)}</li>' for x in v.get('cancel_if', [])) + '</ul></details>') if v.get('cancel_if') else ''}
