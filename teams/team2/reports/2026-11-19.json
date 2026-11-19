@@ -1,0 +1,329 @@
+{
+ "date": "2026-11-19",
+ "round": 13,
+ "budget": {
+  "total": 112.5,
+  "bank": 1.3
+ },
+ "window": "R13: 4 trades, open until Thursday's first tip-off (19 Nov, 19:15 Athens / 18:15 Budapest, Maccabi–Dubai) · unlimited before R14 (21–24 Nov)",
+ "generated": "2026-11-19T13:00Z",
+ "bottom_line": "R13 plan: Oturu → Kamenjas, DiBartolomeo → Robinson, Nunn → Hifi and coach Itoudis (HTA) → Laso (IST). That's about 13% for 200, against 4% with no trades. Move the captaincy off Maledon: Vezenkov plays the same game on the other side and is the bigger ceiling. Start the armband on Hifi on Thursday and move it to Vezenkov unless Hifi has 30+.",
+ "current_fix": "Even with zero trades, move the captaincy from Maledon to Vezenkov (24.3 projected vs 14.6, and Madrid–Olympiacos puts them on opposite sides). Swap DiBartolomeo (−5 PIR in 7' last game) out of any active slot; he's on the bench already.",
+ "variations": [
+  {
+   "key": "A",
+   "name": "Efes stack + Hifi, Kamenjas funds it",
+   "recommended": true,
+   "risk": "Medium",
+   "tagline": "The optimiser's best plan: sell the dead bench guard and the expensive Oturu, buy Robinson and Hifi, and stack Malcolm with coach Laso (IST) at home to ASVEL.",
+   "trades": [
+    {
+     "out": "Dan Oturu (14.2)",
+     "in": "Kenan Kamenjas (5.4)",
+     "credits": "+8.8",
+     "why": "Funds the guard upgrades. Oturu is good (19.3 PIR over his last 3), but Paris–Hapoel is a coin flip. Kamenjas started his debut (12 and 12, 19 PIR in 31') and Baskonia have only three fit bigs at Bayern. [dom: ACB 15 Nov vs Madrid 24' PIR 22, acb.com]"
+    },
+    {
+     "out": "John Dibartolomeo (4.0)",
+     "in": "Justin Robinson (13.2)",
+     "credits": "−9.2",
+     "why": "DiBartolomeo has had 1.7 PIR over his last 3 (−5 in 7' vs Olympiacos). Robinson is one of Barça's two fit guards at home to Zvezda; Hayes signed but practises for the first time on Thursday. [dom: ACB 15 Nov vs Obradoiro 15' PIR 9, acb.com]"
+    },
+    {
+     "out": "Kendrick Nunn (14.8)",
+     "in": "Nadir Hifi (16.3)",
+     "credits": "−1.5",
+     "why": "Nunn goes to Kaunas (best defence in the league) on a back-to-back. Hifi is home to Hapoel in the round's pace game (projected 93–93): 24 PIR over his last 3, 25 pts to win at Barcelona on Tuesday. His ankle is being managed over the international break, not now. [dom: LNB unverified after 2 searches; EL 17 Nov at BAR 25 pts, basketeurope.com]"
+    },
+    {
+     "out": "Coach Itoudis (HTA) (7.7)",
+     "in": "Coach Laso (IST) (6.0)",
+     "credits": "+1.7",
+     "why": "Hapoel at Paris is a coin flip (site 50%). Efes host ASVEL (worst defence in the league) at 70–75%, and it stacks with Malcolm."
+    }
+   ],
+   "bank_after": 1.1,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Aliou Diarra",
+    "Vanja Marinkovic",
+    "Alberto Abalde",
+    "Gabriele Procida"
+   ],
+   "coach": "Anadolu Efes",
+   "captain": "Sasha Vezenkov",
+   "vice": "Nadir Hifi",
+   "captain_note": "Vezenkov at home to Madrid on Friday: 41 PIR on Tuesday and the whole Olympiacos offence. Hifi on Thursday is the early shot.",
+   "captain_plan": "Put the armband on Hifi for Thursday (21:45 Athens). Keep it if he finishes on 30+ PIR; otherwise move it to Vezenkov before Friday's 21:15 tip-off.",
+   "reasoning": [
+    "About 13% chance (1 in 8) of 200, the optimiser's top plan, against 4% with no trades. All 4 trades are for R13 only: the unlimited window before R14 resets the squad.",
+    "Correlation: Malcolm plus coach Laso (IST) both win if Efes beat ASVEL (Mike James and Fernando out, so Malcolm and Payne carry it).",
+    "Three Madrid players (Maledon, Abalde, Procida) bet against captain Vezenkov. This keeps only Maledon active, as 6th man; Abalde and Procida sit on the bench.",
+    "Diarra moves to the bench: Virtus at Valencia (86% favourites) is his toughest spot of the season.",
+    "Cheap upside watch: Kamenjas is the role jump of the week. Marinković (a Guard in the game) stays on the bench at a starter's minutes."
+   ],
+   "cancel_if": [
+    "If Hifi is ruled out before 18:15 Budapest, keep Nunn and use trade 3 on Abalde → Edwin Jackson (ASV, 4.6) (bank 4.2).",
+    "If Robinson is listed out or Barça say Hayes plays big minutes on Friday, make trade 2 DiBartolomeo → Tyson Carter (RED, 7.9) instead."
+   ]
+  },
+  {
+   "key": "B",
+   "name": "Keep the guards, Jekiri for Diarra",
+   "recommended": false,
+   "risk": "Low",
+   "tagline": "Keeps Nunn and Maledon. Oturu → Kamenjas and DiBartolomeo → Robinson, Diarra → Jekiri, coach Albert (PAM).",
+   "trades": [
+    {
+     "out": "Dan Oturu (14.2)",
+     "in": "Kenan Kamenjas (5.4)",
+     "credits": "+8.8",
+     "why": "Same as A: funds Robinson, and Kamenjas has the minutes. [dom: ACB 15 Nov 24' PIR 22, acb.com]"
+    },
+    {
+     "out": "John Dibartolomeo (4.0)",
+     "in": "Justin Robinson (13.2)",
+     "credits": "−9.2",
+     "why": "The dead slot becomes a starting guard at home to Zvezda. [dom: ACB 15 Nov 15' PIR 9, acb.com]"
+    },
+    {
+     "out": "Aliou Diarra (11.3)",
+     "in": "Tonye Jekiri (9.9)",
+     "credits": "+1.4",
+     "why": "Diarra is at Valencia and works against coach Albert (PAM). Jekiri is back from his October injury (14.7 PIR over his last 3) and Partizan host Beşiktaş at 65%, with Hayes still recovering. [dom: ABA 14 Nov DNP, aba-liga.com]"
+    },
+    {
+     "out": "Coach Itoudis (HTA) (7.7)",
+     "in": "Coach Albert (PAM) (8.6)",
+     "credits": "−0.9",
+     "why": "Valencia (9-3, first) host Virtus at 79–86%: the best shot at a +20 coach score."
+    }
+   ],
+   "bank_after": 1.4,
+   "formation": "2-2-1",
+   "starters": [
+    "Kendrick Nunn",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Tonye Jekiri"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Kenan Kamenjas",
+    "Vanja Marinkovic",
+    "Alberto Abalde",
+    "Gabriele Procida"
+   ],
+   "coach": "Valencia",
+   "captain": "Sasha Vezenkov",
+   "vice": "Kendrick Nunn",
+   "captain_note": "Vezenkov on Friday. Nunn (Thursday) is the early armband if you want the switch option.",
+   "reasoning": [
+    "About 12% chance of 200, close to A, keeping two widely-owned guards (Nunn and Maledon) for rank safety.",
+    "Diarra and the Valencia coach pulled in opposite directions; Jekiri fixes that and saves 1.4.",
+    "Nunn at Kaunas is the weak spot: the best defence in the league, on a back-to-back."
+   ],
+   "cancel_if": [
+    "If Jekiri isn't on Partizan's list, keep Diarra and use trade 3 on Procida → Edwin Jackson (ASV, 4.6) (bank 0.4)."
+   ]
+  },
+  {
+   "key": "C",
+   "name": "Bryant captain, Thiemann, Valencia coach",
+   "recommended": false,
+   "risk": "High",
+   "tagline": "Moonshot: Bryant as captain from the start, Robinson for Maledon (nothing on Madrid's side), Thiemann at centre.",
+   "trades": [
+    {
+     "out": "Kendrick Nunn (14.8)",
+     "in": "Elijah Bryant (17.6)",
+     "credits": "−2.8",
+     "why": "The highest-ceiling guard in the fastest game; 23 PIR over his last 3. [dom: unverified after 2 searches]"
+    },
+    {
+     "out": "Theo Maledon (13.4)",
+     "in": "Justin Robinson (13.2)",
+     "credits": "+0.2",
+     "why": "Takes the captain's opponent out of your squad: Maledon on a back-to-back at Olympiacos, with minutes being managed. [dom: ACB 15 Nov 15' PIR 9, acb.com]"
+    },
+    {
+     "out": "Dan Oturu (14.2)",
+     "in": "Johannes Thiemann (11.5)",
+     "credits": "+2.7",
+     "why": "31 pts in Kaunas on Tuesday; home to Baskonia with their three fit bigs, and it frees 2.7 for Bryant. [dom: unverified after 2 searches]"
+    },
+    {
+     "out": "Coach Itoudis (HTA) (7.7)",
+     "in": "Coach Albert (PAM) (8.6)",
+     "credits": "−0.9",
+     "why": "The round's biggest favourite."
+    }
+   ],
+   "bank_after": 0.5,
+   "formation": "2-2-1",
+   "starters": [
+    "Elijah Bryant",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Collin Malcolm",
+    "Johannes Thiemann"
+   ],
+   "sixth": "Aliou Diarra",
+   "bench": [
+    "Vanja Marinkovic",
+    "Alberto Abalde",
+    "Gabriele Procida",
+    "John Dibartolomeo"
+   ],
+   "coach": "Valencia",
+   "captain": "Elijah Bryant",
+   "vice": "Sasha Vezenkov",
+   "captain_note": "Differential captain: Bryant has had 35-PIR nights this season; almost half the league captains Vezenkov.",
+   "captain_plan": "Captain Bryant on Thursday and keep it unless he's under 15; then move it to Vezenkov on Friday.",
+   "reasoning": [
+    "A lower chance of 200 than A: DiBartolomeo stays as a dead bench slot and Diarra (6th) works against the coach. Take it only to climb rank fast.",
+    "Bryant, Thiemann and Diarra all play on Thursday, so by Friday you know whether to switch the armband.",
+    "No Madrid players in active slots at all."
+   ],
+   "cancel_if": [
+    "If Bryant is ruled out, make trade 1 Nunn → Hifi (PRS, 16.3) instead (bank 1.8)."
+   ]
+  }
+ ],
+ "alerts": [
+  {
+   "level": "high",
+   "text": "Team 2 updated from your screenshot (19 Nov, 'GreenBoys'): the file had an assumed squad that was never yours. Real squad: Maledon (C), Nunn, Vezenkov, Abalde, Oturu; 6th Diarra; bench Procida, DiBartolomeo, Marinković, Malcolm; coach Itoudis (HTA); bank 1.3 (confirmed), total 112.5."
+  },
+  {
+   "level": "high",
+   "text": "Your captain is Maledon. Move it to Vezenkov (or Hifi/Nunn first on Thursday, as in the plans): Maledon plays against Vezenkov's Olympiacos on a back-to-back."
+  },
+  {
+   "level": "high",
+   "text": "Deadline: Thursday 19 Nov, 18:15 Budapest (19:15 Athens, Maccabi–Dubai)."
+  },
+  {
+   "level": "",
+   "text": "Prices and positions are exact for R13 (official game, from your HAR). The game lists Marinković as a Guard; the collector now uses the game's positions."
+  },
+  {
+   "level": "",
+   "text": "Research is shared with the main team (≈25 searches, 10 pages read); domestic games for Hifi, Bryant, Thiemann, Oturu and DiBartolomeo are unverified."
+  }
+ ],
+ "rumours": [
+  {
+   "kind": "confirmed",
+   "team": "Barcelona",
+   "text": "Killian Hayes signed; first practice on Thursday, debut tipped for Sunday in the ACB.",
+   "impact": "Robinson keeps his role on Friday; it shrinks from R14.",
+   "source": "https://www.eurohoops.net/en/euroleague/2037059/killian-hayes-to-barcelona-euroleague/"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Baskonia",
+   "text": "Faried, Sedekerskis and Santos out: three fit bigs.",
+   "impact": "Kamenjas plays big minutes at Bayern; Thiemann faces a thin frontcourt.",
+   "source": "https://www.euroleaguebasketball.net/en/euroleague/news/kenneth-faried-adds-to-baskonia-injury-problems/"
+  },
+  {
+   "kind": "report",
+   "team": "Paris",
+   "text": "Hifi has carried an ankle problem for a month; France and Paris will rest him over the international break.",
+   "impact": "He plays this round; watch his minutes in the R14 window.",
+   "source": "https://www.basketeurope.com/paris-basketball-bat-barcelone-89-86-hifi-euroleague/"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Maccabi Tel Aviv",
+   "text": "Lundberg out for months after knee surgery.",
+   "impact": "DiBartolomeo should get minutes, but at −5 to 9 PIR he isn't worth a slot.",
+   "source": "https://www.eurohoops.net/en/euroleague/2037007/gabriel-iffe-lundberg-injury-update-maccabi-euroleague/"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Real Madrid",
+   "text": "Campazzo, Deck, Jantunen and Garuba stayed out in Istanbul (83–79 loss); Maledon had 22 pts on his return.",
+   "impact": "Maledon, Abalde and Procida all have minutes at Olympiacos, but on a back-to-back and against your captain.",
+   "source": "https://sportando.basketball/euroleague-injury-report-18-novembre-2026-besiktas-real-madrid/"
+  }
+ ],
+ "players": [
+  {
+   "name": "Sasha Vezenkov",
+   "verdict": "KEEP/CAPTAIN",
+   "read": "41 PIR in 39.5' at Maccabi. Home to Madrid on Friday with Montero and Milutinov out: 24.3 projected, 35+ ceiling. Make him captain. [dom: GBL 15 Nov 35' PIR 21, esake.gr]"
+  },
+  {
+   "name": "Theo Maledon",
+   "verdict": "KEEP",
+   "read": "26 PIR in 24.6' in Istanbul, but a back-to-back at Olympiacos with managed minutes. Fine as 6th man; not as captain. [dom: ACB 15 Nov at Baskonia 16' PIR 29, acb.com]"
+  },
+  {
+   "name": "Kendrick Nunn",
+   "verdict": "SELL",
+   "read": "21.7 PIR over his last 3 and travelled to Kaunas, but Zalgiris have the best defence in the league. Sold for Hifi in A, kept in B. [dom: GBL 15 Nov vs Kolossos, line unverified after 2 searches]"
+  },
+  {
+   "name": "Dan Oturu",
+   "verdict": "SELL",
+   "read": "19.3 PIR over his last 3 and a starter, but at 14.2 he's the best source of money in the squad, in a coin-flip game at Paris. [dom: Winner League unverified after 2 searches]"
+  },
+  {
+   "name": "Aliou Diarra",
+   "verdict": "WATCH",
+   "read": "24 PIR against PAO on Tuesday, but at Valencia (86% favourites) on Thursday. Bench in A, sold in B. Re-buy in the window. [dom: LBA unverified after 2 searches; EL 17 Nov 15 pts, bolognatoday.it]"
+  },
+  {
+   "name": "Collin Malcolm",
+   "verdict": "KEEP",
+   "read": "6 PIR at Dubai, but home to ASVEL (worst defence in the league) with James and Fernando out; starts in A with coach Laso (IST). [dom: BSL 8 Nov vs Tofaş 27' 7 pts, eurobasket.com]"
+  },
+  {
+   "name": "Alberto Abalde",
+   "verdict": "KEEP",
+   "read": "12.7 PIR over his last 3 in 22.5' with Deck and Jantunen out. Bench in all plans because of the captain clash. [dom: ACB 15 Nov at Baskonia 17.6' PIR 7, acb.com]"
+  },
+  {
+   "name": "Gabriele Procida",
+   "verdict": "KEEP",
+   "read": "Minutes up (18.9' over his last 3), but −1 PIR in 7.9' on Tuesday. Bench filler. [dom: ACB 15 Nov at Baskonia 18.2' PIR 0, acb.com]"
+  },
+  {
+   "name": "Vanja Marinkovic",
+   "verdict": "KEEP",
+   "read": "A Guard in the game. Starting since his Achilles return (27.7' on Tuesday), home to Beşiktaş. Good bench value at 4.3. [dom: ABA early Nov vs Cluj, played, max-sport.rs]"
+  },
+  {
+   "name": "John Dibartolomeo",
+   "verdict": "SELL",
+   "read": "1.7 PIR over his last 3 and −5 in 7' vs Olympiacos. Lundberg's injury may give him minutes, but not production. [dom: unverified after 2 searches]"
+  }
+ ],
+ "watchlist": [
+  {
+   "name": "Elijah Bryant (HTA, 17.6)",
+   "why": "Variation C's captain, and a core buy in the R14 rebuild."
+  },
+  {
+   "name": "Edwin Jackson (ASV, 4.6)",
+   "why": "12.3 PIR over his last 3 at 4.6; the cheap forward for the window."
+  },
+  {
+   "name": "Oscar Da Silva (MUN, 8.2)",
+   "why": "27' over his last 2 with Lučić out; a window buy if that holds."
+  }
+ ],
+ "window_plan": "The rebuild's best plan for the window sells Kendrick Nunn, John Dibartolomeo, Alberto Abalde, Collin Malcolm, Dan Oturu, Aliou Diarra and buys Andres Feliz, Clement Frisch, Edwin Jackson, Elijah Bryant, Kenan Kamenjas, Mfiondu Kabengele, with coach OLY. Variation A already moves part of the way (Robinson, Hifi, Kamenjas). Re-buy Diarra or Maledon only if they play full minutes this round; wait on Robinson until Hayes's role is clear. Nothing needs buying before the window.",
+ "review": "First report built on Team 2's real squad. The earlier Team 2 reports (15–18 Nov) assumed a squad picked by the analyst, so they can't be graded against what you actually held: there's no scorecard for this team yet. From now on, each run tracks this squad like the main team. Research: shared with the main team, ≈25 searches, 10 pages read, 5 players unverified."
+}

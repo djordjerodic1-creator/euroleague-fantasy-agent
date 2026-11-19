@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T09:25",
+ "generated": "2026-11-19T09:27",
  "today": "2026-11-19",
  "source_round": 13,
  "rounds_in_progress": [
@@ -80,7 +80,7 @@
    "IST": 1,
    "RED": 1,
    "VIR": 1,
-   "DUB": 1
+   "BAS": 1
   }
  },
  "swaps": [
@@ -500,14 +500,14 @@
   },
   {
    "out": "Kenan Kamenjas",
-   "out_score": 13.5,
+   "out_score": 14.4,
    "options": [
     {
      "name": "Ousmane Diop",
      "team": "MIL",
      "price": 4.8,
      "score": 8.1,
-     "gain": -5.4,
+     "gain": -6.3,
      "owned": null
     },
     {
@@ -515,7 +515,7 @@
      "team": "OLY",
      "price": 4.4,
      "score": 4.8,
-     "gain": -8.7,
+     "gain": -9.6,
      "owned": null
     },
     {
@@ -523,7 +523,7 @@
      "team": "ULK",
      "price": 4.0,
      "score": 3.6,
-     "gain": -9.9,
+     "gain": -10.8,
      "owned": null
     },
     {
@@ -531,7 +531,7 @@
      "team": "ZAL",
      "price": 5.3,
      "score": 2.6,
-     "gain": -10.9,
+     "gain": -11.8,
      "owned": null
     },
     {
@@ -539,7 +539,7 @@
      "team": "PAR",
      "price": 5.5,
      "score": 1.2,
-     "gain": -12.3,
+     "gain": -13.2,
      "owned": null
     }
    ]
@@ -6794,7 +6794,7 @@
   {
    "c": "008325",
    "n": "KAMENJAS, KENAN",
-   "t": "DUB",
+   "t": "BAS",
    "pos": "Center",
    "price": 5.4,
    "price_src": "app",
@@ -6852,44 +6852,44 @@
    "nxe": [
     [
      16,
-     "BES",
-     1,
-     13.4,
-     5,
+     "ZAL",
+     0,
+     12.1,
+     2,
      0
     ],
     [
      17,
-     "PAM",
-     0,
-     12.5,
-     3,
+     "BAR",
+     1,
+     12.8,
+     4,
      0
     ]
    ],
    "nx": [
     [
      13,
-     "TEL",
+     "MUN",
      0,
-     13.5,
+     14.4,
      5,
      1
     ],
     [
      14,
-     "PAR",
+     "IST",
      1,
-     13.3,
-     3,
+     12.8,
+     5,
      0
     ],
     [
      15,
-     "ZAL",
-     0,
-     12.3,
-     5,
+     "TEL",
+     1,
+     12.8,
+     3,
      0
     ]
    ],
@@ -6947,8 +6947,8 @@
    "price_d5": null,
    "price_d10": null,
    "name": "Kenan Kamenjas",
-   "override": "Moved from Dubai to Baskonia on loan (the game still lists him at Dubai). ACB debut 15 Nov: PIR 22 in 24'. EuroLeague debut R12 vs Hapoel (17 Nov): started, 31', 12 pts 12 reb, PIR 19 (EFE/oslobodjenje.ba). Faried and Santos out, so he's the starting center.",
-   "score": 13.5,
+   "override": "Moved from Dubai to Baskonia on loan (the game still lists him at Dubai). ACB debut 15 Nov: PIR 22 in 24'. EuroLeague debut R12 vs Hapoel (17 Nov): started, 31', 12 pts 12 reb, PIR 19 (EFE/oslobodjenje.ba). Faried and Santos out, so he's the starting center. Price comes from the game (app_prices.json, 5.4); the club override stays because basketballstats.eu still lists him at Dubai.",
+   "score": 14.4,
    "fresh": true,
    "g5": [
     [
@@ -7008,7 +7008,19 @@
      "pir": 19
     }
    ],
-   "season_summary": "1 games, 19.0 PIR per game, 30.8 min"
+   "season_summary": "1 games, 19.0 PIR per game, 30.8 min",
+   "dom": {
+    "league": "ACB",
+    "date": "2026-11-15",
+    "opp": "vs Real Madrid",
+    "min": 23.8,
+    "start": false,
+    "pts": 15,
+    "reb": 8,
+    "ast": 2,
+    "pir": 22,
+    "url": "https://live.acb.com/partidos/kosner-baskonia-vs-real-madrid-105446/estadisticas"
+   }
   }
  ]
 }

@@ -1,46 +1,63 @@
 {
-  "_note": "Second team, started from scratch on 15 Nov 2026 (no picks yet). Same rules and playbook as the main team; maintained by the agent like my_team.json.",
+  "_note": "Second team ('GreenBoys' in the app). Same rules and playbook as the main team; maintained by the agent like my_team.json.",
   "name": "Team 2",
   "round": 13,
   "players": [
-    "Elijah Bryant",
-    "Justin Robinson",
-    "Andres Feliz",
+    "Theo Maledon",
+    "Kendrick Nunn",
+    "John Dibartolomeo",
+    "Vanja Marinkovic",
     "Sasha Vezenkov",
-    "Kenan Kamenjas",
-    "Cameron Payne",
+    "Alberto Abalde",
     "Gabriele Procida",
-    "Nikolaos Rogkavopoulos",
-    "Ousmane Diop",
-    "Vanja Marinkovic"
+    "Collin Malcolm",
+    "Dan Oturu",
+    "Aliou Diarra"
   ],
   "lineup": {
     "starters": [
-      "Elijah Bryant",
-      "Justin Robinson",
-      "Andres Feliz",
+      "Theo Maledon",
+      "Kendrick Nunn",
       "Sasha Vezenkov",
-      "Kenan Kamenjas"
+      "Alberto Abalde",
+      "Dan Oturu"
     ],
-    "sixth": "Cameron Payne",
+    "sixth": "Aliou Diarra",
     "bench": [
       "Gabriele Procida",
-      "Nikolaos Rogkavopoulos",
-      "Ousmane Diop",
-      "Vanja Marinkovic"
+      "John Dibartolomeo",
+      "Vanja Marinkovic",
+      "Collin Malcolm"
     ]
   },
-  "captain": "Sasha Vezenkov",
-  "coach": "Olympiacos",
-  "bank": 0.0,
-  "bank_known": false,
-  "total_budget": 103.3,
+  "captain": "Theo Maledon",
+  "coach": "Hapoel Tel Aviv",
+  "bank": 1.3,
+  "bank_known": true,
+  "total_budget": 112.5,
   "trades_left_this_round": 4,
   "tracking": {
-    "source": "assumed: report 2026-11-17 variation A",
-    "updated": "2026-11-18",
+    "source": "user",
+    "updated": "2026-11-19",
     "last_applied_report": "2026-11-17"
   },
-  "notes": "Brand-new team: first squad picked freely from scratch with budget 103.3. Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades once the team exists.",
-  "target_points": 200
+  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. 19 Nov (user screenshot, R13 before trades): app shows 1.3/112.5, trades 0/4, formation 2-2-1 Maledon (C), Nunn / Vezenkov, Abalde / Oturu; 6th Diarra; bench Procida, DiBartolomeo, Marinkovic (a Guard in the game), Malcolm; coach Itoudis (HTA).",
+  "target_points": 200,
+  "round_start": {
+    "round": 13,
+    "players": [
+      "Theo Maledon",
+      "Kendrick Nunn",
+      "John Dibartolomeo",
+      "Vanja Marinkovic",
+      "Sasha Vezenkov",
+      "Alberto Abalde",
+      "Gabriele Procida",
+      "Collin Malcolm",
+      "Dan Oturu",
+      "Aliou Diarra"
+    ],
+    "coach": "Hapoel Tel Aviv",
+    "bank": 1.3
+  }
 }

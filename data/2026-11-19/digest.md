@@ -9,7 +9,7 @@ Target round: **R13** (R13 trades already made can still be changed until the de
 - R16: 2026-12-10 → 2026-12-11 · 4 trades
 
 ## My team
-Cost 107.7 · bank 0.2 · coach ZAL · captain Sasha Vezenkov · clubs {'PAN': 2, 'MAD': 2, 'BAR': 1, 'OLY': 1, 'IST': 1, 'RED': 1, 'VIR': 1, 'DUB': 1}
+Cost 107.7 · bank 0.2 · coach ZAL · captain Sasha Vezenkov · clubs {'PAN': 2, 'MAD': 2, 'BAR': 1, 'OLY': 1, 'IST': 1, 'RED': 1, 'VIR': 1, 'BAS': 1}
 
 ### Kendrick Nunn — Panathinaikos · Guard · 14.8 cr · owned None%
 - Status: **playing** · site signal buy (value+, schedule+, price-) · grade A · data fresh today: True
@@ -122,17 +122,17 @@ Cost 107.7 · bank 0.2 · coach ZAL · captain Sasha Vezenkov · clubs {'PAN': 2
 - Window score (site proj, weighted): 14.2 · P10–P90 this round 4.5–25.8 · win prob 0.211
 - Domestic league: LBA (Italy)
 
-### Kenan Kamenjas — Dubai Basketball · Center · 5.4 cr · owned None%
+### Kenan Kamenjas — Baskonia · Center · 5.4 cr · owned None%
 - Status: **None** · site signal hold (value+, schedule-) · grade None · data fresh today: True
 - Form PIR L3/L5/L10: 19/19/19 · minutes L3 30.8 vs L10 30.8 · PIR/min 0.617 · starts 100%
 - Season: 1 games, 19.0 PIR per game, 30.8 min
-- Domestic last game: ABA League, see the domestic alerts section
+- Domestic last game (auto, ACB): 2026-11-15 vs Real Madrid: 23.8' 15 pts 8 reb 2 ast, league PIR 22 (bench) · https://live.acb.com/partidos/kosner-baskonia-vs-real-madrid-105446/estadisticas
 - Last 5 games: R12 @ BAS W 85-82: 19 PIR, 30.8 min, 12p 12r 1a (start)
 - Price Δ last 3/5/10 rounds: None/None/None · since start None · projected change after round None · PIR≥price None
-- Schedule: R13 @TEL 13.5 (diff 5/5, B2B)
-- Window score (site proj, weighted): 13.5 · P10–P90 this round 4.5–22.8 · win prob 0.544
+- Schedule: R13 @MUN 14.4 (diff 5/5, B2B)
+- Window score (site proj, weighted): 14.4 · P10–P90 this round 4.5–22.8 · win prob 0.544
 - When Kosta Kondic, Davis Bertans out (1 games): minutes +0.7, PIR +0.4 (avg min then 30.8)
-- Domestic league: ABA League
+- Domestic league: Liga ACB (Spain)
 
 ## Mechanical swap baseline (same position, budget & 6-per-club feasible — NOT advice)
 - OUT Kendrick Nunn (score 14.6): Justin Robinson (BAR, 13.2cr, score 17.2, gain +2.6, own None%); Carlik Jones (PAR, 14.4cr, score 13.8, gain -0.8, own None%); Sylvain Francisco (PAN, 13.7cr, score 12.6, gain -2.0, own None%); Yam Madar (TEL, 10.6cr, score 12.6, gain -2.0, own None%)
@@ -144,7 +144,7 @@ Cost 107.7 · bank 0.2 · coach ZAL · captain Sasha Vezenkov · clubs {'PAN': 2
 - OUT Nikolaos Rogkavopoulos (score 6.0): Giampaolo Ricci (MIL, 4.0cr, score 3.6, gain -2.4, own None%); Kostas Papanikolaou (OLY, 4.0cr, score 3.5, gain -2.5, own None%); David Lighty (ASV, 4.3cr, score 3.4, gain -2.6, own None%); Jeremy Morgan (PRS, 4.3cr, score 3.2, gain -2.8, own None%)
 - OUT Dejan Davidovac (score 5.0): Edwin Jackson (ASV, 4.6cr, score 7.9, gain +2.9, own None%); Ognjen Dobric (RED, 4.7cr, score 4.2, gain -0.8, own None%); Giampaolo Ricci (MIL, 4.0cr, score 3.6, gain -1.4, own None%); Kostas Papanikolaou (OLY, 4.0cr, score 3.5, gain -1.5, own None%)
 - OUT Aliou Diarra (score 14.2): Johannes Thiemann (MUN, 11.5cr, score 15.8, gain +1.6, own None%); Tonye Jekiri (PAR, 9.9cr, score 13.8, gain -0.4, own None%); Christian Koloko (RED, 10.1cr, score 11.9, gain -2.3, own None%); Donta Hall (OLY, 9.5cr, score 10.4, gain -3.8, own None%)
-- OUT Kenan Kamenjas (score 13.5): Ousmane Diop (MIL, 4.8cr, score 8.1, gain -5.4, own None%); Bryant Dunston (OLY, 4.4cr, score 4.8, gain -8.7, own None%); Sertac Sanli (ULK, 4.0cr, score 3.6, gain -9.9, own None%); Kaodirichi Akobundu-Ehiogu (ZAL, 5.3cr, score 2.6, gain -10.9, own None%)
+- OUT Kenan Kamenjas (score 14.4): Ousmane Diop (MIL, 4.8cr, score 8.1, gain -6.3, own None%); Bryant Dunston (OLY, 4.4cr, score 4.8, gain -9.6, own None%); Sertac Sanli (ULK, 4.0cr, score 3.6, gain -10.8, own None%); Kaodirichi Akobundu-Ehiogu (ZAL, 5.3cr, score 2.6, gain -11.8, own None%)
 
 ## Guards — market
 **Top window score:**
@@ -203,15 +203,15 @@ Cost 107.7 · bank 0.2 · coach ZAL · captain Sasha Vezenkov · clubs {'PAN': 2
 - Mathias Lessort (PAN) 16.2cr own None% · playing · Δ3 -1.2 · L3/L10 17.3/18 · min 26/23.8 · R13 @ZAL 16.4 (diff 5/5, B2B) · Δprice None · sig buy
 - Johannes Thiemann (MUN) 11.5cr own None% · playing · Δ3 1.5 · L3/L10 19/13.3 · min 25.6/21.6 · R13 vsBAS 15.8 (diff 2/5, B2B) · Δprice None · sig hold
 - Moses Wright (MIL) 13.2cr own None% · playing · Δ3 -0.3 · L3/L10 7.3/13.6 · min 21.7/21.6 · R13 vsULK 14.6 (diff 1/5, B2B) · Δprice None · sig buy
+- Kenan Kamenjas (BAS) 5.4cr own None% · None · Δ3 None · L3/L10 19/19 · min 30.8/30.8 · R13 @MUN 14.4 (diff 5/5, B2B) · Δprice None · sig hold
 - Dan Oturu (HTA) 14.2cr own None% · playing · Δ3 0.8 · L3/L10 19.3/13.7 · min 25.2/20.8 · R13 @PRS 14.3 (diff 4/5, B2B) · Δprice None · sig hold
 - Aliou Diarra (VIR) 11.3cr own None% · playing · Δ3 1.1 · L3/L10 21.3/19.5 · min 20.3/18.9 · R13 @PAM 14.2 (diff 3/5, B2B) · Δprice None · sig hold
 - Walter Tavares (MAD) 14.6cr own None% · playing · Δ3 0.2 · L3/L10 10.7/15.7 · min 21.8/21.2 · R13 @OLY 13.8 (diff 4/5, B2B) · Δprice None · sig hold
 - Tonye Jekiri (PAR) 9.9cr own None% · playing · Δ3 3.7 · L3/L10 14.7/15.4 · min 16/18.3 · R13 vsBES 13.8 (diff 5/5) · Δprice None · sig hold
-- Kenan Kamenjas (DUB) 5.4cr own None% · None · Δ3 None · L3/L10 19/19 · min 30.8/30.8 · R13 @TEL 13.5 (diff 5/5, B2B) · Δprice None · sig hold
 - Josh Nebo (BAR) 12.3cr own None% · playing · Δ3 0.0 · L3/L10 11.7/12.4 · min 24.2/22.7 · R13 vsRED 12.2 (diff 2/5) · Δprice None · sig buy
 - Christian Koloko (RED) 10.1cr own None% · playing · Δ3 None · L3/L10 11/12 · min 20.7/18.4 · R13 @BAR 11.9 (diff 4/5) · Δprice None · sig buy
 **Cheap value (≤9 cr):**
-- Kenan Kamenjas (DUB) 5.4cr own None% · None · Δ3 None · L3/L10 19/19 · min 30.8/30.8 · R13 @TEL 13.5 (diff 5/5, B2B) · Δprice None · sig hold
+- Kenan Kamenjas (BAS) 5.4cr own None% · None · Δ3 None · L3/L10 19/19 · min 30.8/30.8 · R13 @MUN 14.4 (diff 5/5, B2B) · Δprice None · sig hold
 - Ousmane Diop (MIL) 4.8cr own None% · playing · Δ3 3.1 · L3/L10 11.3/7.3 · min 14.4/11.9 · R13 vsULK 8.1 (diff 1/5, B2B) · Δprice None · sig hold
 - Mouhamed Faye (PRS) 8.5cr own None% · playing · Δ3 1.1 · L3/L10 11.3/11.8 · min 18.6/17.7 · R13 vsHTA 10.4 (diff 1/5, B2B) · Δprice None · sig hold
 - Nikola Tanaskovic (PAR) 8.4cr own None% · playing · Δ3 0.9 · L3/L10 12/8.8 · min 24.7/19.8 · R13 vsBES 9.9 (diff 5/5) · Δprice None · sig hold

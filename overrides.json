@@ -8,10 +8,12 @@
    "why": "Back from injury: 18 pts, 6 ast, PIR 29 in 16' at Baskonia (ACB, 15 Nov). Minutes still limited, so 15 rather than his pre-injury 20."
   },
   "Kenan Kamenjas": {
+   "club": "BAS",
+   "pos": "Center",
    "status": "ok",
    "pir": 13,
    "until_round": 13,
-   "why": "Moved from Dubai to Baskonia on loan (the game still lists him at Dubai). ACB debut 15 Nov: PIR 22 in 24'. EuroLeague debut R12 vs Hapoel (17 Nov): started, 31', 12 pts 12 reb, PIR 19 (EFE/oslobodjenje.ba). Faried and Santos out, so he's the starting center."
+   "why": "Moved from Dubai to Baskonia on loan (the game still lists him at Dubai). ACB debut 15 Nov: PIR 22 in 24'. EuroLeague debut R12 vs Hapoel (17 Nov): started, 31', 12 pts 12 reb, PIR 19 (EFE/oslobodjenje.ba). Faried and Santos out, so he's the starting center. Price comes from the game (app_prices.json, 5.4); the club override stays because basketballstats.eu still lists him at Dubai."
   },
   "Nikolaos Rogkavopoulos": {
    "status": "ok",

@@ -1,5 +1,5 @@
 # Evidence digest — 2026-11-19
-Target round: **R13** · decision horizon: R13 · rounds in progress today: [13] · projections file is for R13
+Target round: **R13** (R13 trades already made can still be changed until the deadline: planning from your pre-R13 squad) · decision horizon: R13 · rounds in progress today: [13] · projections file is for R13
 
 ## Calendar
 - R12: 2026-11-17 → 2026-11-18 · DOUBLE WEEK · 4 trades
@@ -9,44 +9,59 @@ Target round: **R13** · decision horizon: R13 · rounds in progress today: [13]
 - R16: 2026-12-10 → 2026-12-11 · 4 trades
 
 ## My team
-Cost 104.4 · bank 0.0 · coach OLY · captain Sasha Vezenkov · clubs {'HTA': 1, 'BAR': 1, 'MAD': 2, 'OLY': 1, 'BAS': 1, 'IST': 1, 'PAN': 1, 'MIL': 1, 'PAR': 1}
+Cost 111.2 · bank 1.3 · coach HTA · captain Theo Maledon · clubs {'MAD': 3, 'PAN': 1, 'TEL': 1, 'PAR': 1, 'OLY': 1, 'IST': 1, 'HTA': 1, 'VIR': 1}
 
-### Elijah Bryant — Hapoel Tel Aviv · Guard · 17.7 cr · owned None%
-- Status: **playing** · site signal buy (value+, dip-, price-) · grade A+ · data fresh today: True
-- Form PIR L3/L5/L10: 23/19.6/21.1 · minutes L3 31.4 vs L10 28.7 · PIR/min 0.736 · starts 100%
-- Season: 12 games, 21.2 PIR per game, 29.4 min
+### Theo Maledon — Real Madrid · Guard · 13.4 cr · owned None%
+- Status: **None** · site signal buy (value+, schedule+, price+) · grade B+ · data fresh today: True
+- Form PIR L3/L5/L10: 25.7/21.4/21 · minutes L3 23.9 vs L10 23.3 · PIR/min 0.9 · starts 40%
+- Season: 10 games, 21.0 PIR per game, 23.3 min
+- Domestic last game (auto, ACB): 2026-11-15 @ Kosner Baskonia: 16.0' 18 pts 3 reb 6 ast, league PIR 29 (bench) · https://live.acb.com/partidos/kosner-baskonia-vs-real-madrid-105446/estadisticas
+- Last 5 games: R6 vs ASV W 111-92: 26 PIR, 23.7 min, 16p 5r 9a (start) · R7 @ TEL W 113-99: 4 PIR, 24.1 min, 11p 2r 4a (start) · R8 @ BAS W 104-86: 16 PIR, 22.7 min, 19p 4r 6a (start) · R9 vs ULK W 95-76: 35 PIR, 24.2 min, 26p 7r 2a (start) · R12 @ BES L 79-83: 26 PIR, 24.6 min, 22p 6r 3a (bench)
+- Price Δ last 3/5/10 rounds: -0.7/-0.9/None · since start 3.1 · projected change after round None · PIR≥price 7/10
+- Schedule: R13 @OLY 14.6 (diff 4/5, B2B)
+- Window score (site proj, weighted): 14.6 · P10–P90 this round 5.2–26.2 · win prob 0.388
+- When Gabriel Deck, Mikael Jantunen, Facundo Campazzo out (1 games): minutes +2, PIR +1.5 (avg min then 24.6)
+- Domestic league: Liga ACB (Spain)
+  - news [projection_change] 2026-11-18:  
+  - news [press] 2026-11-17: Theo Maledon returns but Pedro Martinez cautions: “Without rushing things” 
+  - news [return] 2026-11-16:  
+  - news [injury] 2026-11-04:  
+
+### Kendrick Nunn — Panathinaikos · Guard · 14.8 cr · owned None%
+- Status: **playing** · site signal buy (value+, schedule+, price-) · grade A · data fresh today: True
+- Form PIR L3/L5/L10: 21.7/20.2/18.2 · minutes L3 25.5 vs L10 24.2 · PIR/min 0.751 · starts 40%
+- Season: 6 games, 18.2 PIR per game, 24.2 min
 - Domestic last game: not auto-covered (research it)
-- Last 5 games: R8 vs IST W 118-88: 35 PIR, 29.4 min, 16p 3r 12a (start) · R9 @ DUB L 83-97: -6 PIR, 22.4 min, 3p 2r 1a (start) · R10 vs BAR L 90-93: 35 PIR, 27.8 min, 25p 3r 1a (start) · R11 @ TEL L 73-80: 17 PIR, 31.3 min, 12p 5r 5a (start) · R12 @ BAS W 85-82: 17 PIR, 35.2 min, 15p 6r 2a (start)
-- Price Δ last 3/5/10 rounds: 1.1/-1.5/None · since start 2.1 · projected change after round None · PIR≥price 5/10
-- Schedule: R13 @PRS 19.6 (diff 1/5, B2B)
-- Window score (site proj, weighted): 19.6 · P10–P90 this round 9.2–31.2 · win prob 0.496
+- Last 5 games: R8 vs MIL W 80-75: 26 PIR, 22.8 min, 20p 2r 6a (bench) · R9 @ IST L 68-83: 10 PIR, 26.2 min, 17p 3r 1a (start) · R10 @ MAD W 115-112: 31 PIR, 23.7 min, 33p 1r 1a (bench) · R11 vs BAR L 74-76: 19 PIR, 25.1 min, 19p 6r 3a (bench) · R12 @ VIR L 79-84: 15 PIR, 27.7 min, 18p 8r 1a (start)
+- Price Δ last 3/5/10 rounds: 1.3/None/None · since start 0.3 · projected change after round None · PIR≥price 4/6
+- Schedule: R13 @ZAL 14.6 (diff 1/5, B2B)
+- Window score (site proj, weighted): 14.6 · P10–P90 this round 4.5–26.3 · win prob 0.459
+- Domestic league: GBL (Greece)
+
+### John Dibartolomeo — Maccabi Tel Aviv · Guard · 4.0 cr · owned None%
+- Status: **playing** · site signal hold (value-, price-, minutes+) · grade C+ · data fresh today: True
+- Form PIR L3/L5/L10: 1.7/2.2/1.3 · minutes L3 15.3 vs L10 12.9 · PIR/min 0.104 · starts 40%
+- Season: 6 games, 1.3 PIR per game, 12.9 min
+- Domestic last game: not auto-covered (research it)
+- Last 5 games: R7 vs MAD L 99-113: 5 PIR, 12.7 min, 5p 2r 2a (bench) · R8 @ RED L 78-100: 1 PIR, 11.0 min, 1p 1r 1a (bench) · R10 @ PAR L 67-88: 1 PIR, 15.7 min, 0p 3r 0a (bench) · R11 vs HTA W 80-73: 9 PIR, 23.2 min, 6p 4r 1a (start) · R12 vs OLY L 95-97: -5 PIR, 7.0 min, 0p 0r 0a (start)
+- Price Δ last 3/5/10 rounds: 1.0/None/None · since start -0.3 · projected change after round None · PIR≥price 2/6
+- Schedule: R13 vsDUB 3.4 (diff 4/5, B2B)
+- Window score (site proj, weighted): 3.4 · P10–P90 this round -2.3–11.8 · win prob 0.456
 - Domestic league: Winner League (Israel)
 
-### Justin Robinson — Barcelona · Guard · 13.3 cr · owned None%
-- Status: **playing** · site signal buy (value+, price-, dip-) · grade A+ · data fresh today: True
-- Form PIR L3/L5/L10: 18/17/15.8 · minutes L3 24.7 vs L10 22.1 · PIR/min 0.715 · starts 100%
-- Season: 12 games, 14.4 PIR per game, 21.5 min
-- Domestic last game (auto, ACB): 2026-11-15 vs Monbus Obradoiro: 15.1' 7 pts 2 reb 6 ast, league PIR 9 (bench) · https://live.acb.com/partidos/barca-vs-monbus-obradoiro-105444/estadisticas
-- Last 5 games: R8 @ MUN W 88-84: 8 PIR, 19.9 min, 11p 1r 5a (start) · R9 vs PAM W 98-94: 23 PIR, 20.8 min, 22p 0r 1a (start) · R10 @ HTA W 93-90: 18 PIR, 21.4 min, 20p 4r 6a (start) · R11 @ PAN W 76-74: 20 PIR, 25.7 min, 24p 1r 1a (start) · R12 vs PRS L 86-89: 16 PIR, 26.9 min, 15p 3r 7a (start)
-- Price Δ last 3/5/10 rounds: 1.7/2.4/None · since start 0.9 · projected change after round None · PIR≥price 6/10
-- Schedule: R13 vsRED 17.2 (diff 2/5)
-- Window score (site proj, weighted): 17.2 · P10–P90 this round 7–28.7 · win prob 0.57
-- When Tosan Evbuomwan, Umoja Gibson, Kevin Punter out (1 games): minutes +2, PIR +1.4 (avg min then 26.9)
-- Domestic league: Liga ACB (Spain)
+### Vanja Marinkovic — Partizan · Guard · 4.3 cr · owned None%
+- Status: **playing** · site signal buy (value+, schedule+) · grade A · data fresh today: True
+- Form PIR L3/L5/L10: 5.3/5.3/5.3 · minutes L3 20.7 vs L10 20.7 · PIR/min 0.258 · starts 67%
+- Season: 3 games, 5.3 PIR per game, 20.7 min
+- Domestic last game: ABA League, see the domestic alerts section
+- Last 5 games: R10 vs TEL W 88-67: 3 PIR, 11.6 min, 9p 0r 0a (bench) · R11 vs BAS W 80-66: 7 PIR, 22.9 min, 6p 2r 2a (start) · R12 vs PAM L 64-76: 6 PIR, 27.7 min, 10p 1r 0a (start)
+- Price Δ last 3/5/10 rounds: None/None/None · since start -0.8 · projected change after round None · PIR≥price 2/3
+- Schedule: R13 vsBES 8.9 (diff 2/5)
+- Window score (site proj, weighted): 8.9 · P10–P90 this round 1–19.3 · win prob 0.651
+- When Ethan Thompson, Kevarrius Hayes out (1 games): minutes +3.1, PIR +1.2 (avg min then 27.7)
+- Domestic league: ABA League
 
-### Andres Feliz — Real Madrid · Guard · 9.9 cr · owned None%
-- Status: **playing** · site signal buy (value+, minutes+, schedule+) · grade A+ · data fresh today: True
-- Form PIR L3/L5/L10: 20.7/15.4/15.5 · minutes L3 27.3 vs L10 22.3 · PIR/min 0.696 · starts 100%
-- Season: 12 games, 14.8 PIR per game, 22.0 min
-- Domestic last game (auto, ACB): 2026-11-15 @ Kosner Baskonia: 24.0' 18 pts 5 reb 3 ast, league PIR 27 · https://live.acb.com/partidos/kosner-baskonia-vs-real-madrid-105446/estadisticas
-- Last 5 games: R8 @ BAS W 104-86: 9 PIR, 21.9 min, 12p 1r 3a (start) · R9 vs ULK W 95-76: 6 PIR, 22.1 min, 8p 2r 1a (start) · R10 vs PAN L 112-115: 28 PIR, 33.9 min, 27p 2r 6a (start) · R11 vs RED W 105-84: 19 PIR, 23.0 min, 11p 4r 7a (start) · R12 @ BES L 79-83: 15 PIR, 24.9 min, 13p 5r 2a (start)
-- Price Δ last 3/5/10 rounds: 1.5/-0.3/None · since start 3.5 · projected change after round None · PIR≥price 7/10
-- Schedule: R13 @OLY 13.6 (diff 2/5, B2B)
-- Window score (site proj, weighted): 13.6 · P10–P90 this round 3.9–24.9 · win prob 0.388
-- When Gabriel Deck, Mikael Jantunen, Facundo Campazzo out (3 games): minutes +2.3, PIR +1.2 (avg min then 27.3)
-- Domestic league: Liga ACB (Spain)
-
-### Sasha Vezenkov — Olympiacos · Forward · 19.3 cr · owned None%
+### Sasha Vezenkov — Olympiacos · Forward · 20.2 cr · owned None%
 - Status: **playing** · site signal buy (value+, dip-, minutes+) · grade A+ · data fresh today: True
 - Form PIR L3/L5/L10: 31.7/27.2/24 · minutes L3 31.4 vs L10 29 · PIR/min 0.827 · starts 100%
 - Season: 12 games, 24.7 PIR per game, 27.8 min
@@ -58,31 +73,19 @@ Cost 104.4 · bank 0.0 · coach OLY · captain Sasha Vezenkov · clubs {'HTA': 1
 - When John Konchar, Tyler Dorsey, Nikola Milutinov, Jean Montero out (2 games): minutes +1.9, PIR +1.5 (avg min then 31.7)
 - Domestic league: GBL (Greece)
 
-### Kenan Kamenjas — Baskonia · Center · 4.8 cr · owned None%
-- Status: **None** · site signal hold (value+, schedule-) · grade None · data fresh today: True
-- Form PIR L3/L5/L10: 19/19/19 · minutes L3 30.8 vs L10 30.8 · PIR/min 0.617 · starts 100%
-- Season: 1 games, 19.0 PIR per game, 30.8 min
-- Domestic last game (auto, ACB): 2026-11-15 vs Real Madrid: 23.8' 15 pts 8 reb 2 ast, league PIR 22 (bench) · https://live.acb.com/partidos/kosner-baskonia-vs-real-madrid-105446/estadisticas
-- Last 5 games: R12 @ BAS W 85-82: 19 PIR, 30.8 min, 12p 12r 1a (start)
-- Price Δ last 3/5/10 rounds: None/None/None · since start None · projected change after round None · PIR≥price None
-- Schedule: R13 @MUN 14.4 (diff 5/5, B2B)
-- Window score (site proj, weighted): 14.4 · P10–P90 this round 4.5–22.8 · win prob 0.544
-- When Kosta Kondic, Davis Bertans out (1 games): minutes +0.7, PIR +0.4 (avg min then 30.8)
+### Alberto Abalde — Real Madrid · Forward · 6.2 cr · owned None%
+- Status: **playing** · site signal hold (value+, price-, minutes+) · grade B+ · data fresh today: True
+- Form PIR L3/L5/L10: 12.7/11.4/9.3 · minutes L3 22.5 vs L10 19.8 · PIR/min 0.469 · starts 20%
+- Season: 12 games, 8.2 PIR per game, 18.8 min
+- Domestic last game (auto, ACB): 2026-11-15 @ Kosner Baskonia: 17.6' 6 pts 3 reb 1 ast, league PIR 7 (bench) · https://live.acb.com/partidos/kosner-baskonia-vs-real-madrid-105446/estadisticas
+- Last 5 games: R8 @ BAS W 104-86: 14 PIR, 21.2 min, 8p 2r 5a (bench) · R9 vs ULK W 95-76: 5 PIR, 22.2 min, 8p 2r 1a (bench) · R10 vs PAN L 112-115: 23 PIR, 25.7 min, 23p 2r 5a (start) · R11 vs RED W 105-84: 7 PIR, 16.9 min, 8p 2r 1a (bench) · R12 @ BES L 79-83: 8 PIR, 24.8 min, 7p 5r 0a (bench)
+- Price Δ last 3/5/10 rounds: 1.3/1.9/None · since start 1.6 · projected change after round None · PIR≥price 6/10
+- Schedule: R13 @OLY 7.8 (diff 2/5, B2B)
+- Window score (site proj, weighted): 7.8 · P10–P90 this round -0.7–17.4 · win prob 0.388
+- When Gabriel Deck, Mikael Jantunen, Facundo Campazzo out (3 games): minutes +0.7, PIR +0.2 (avg min then 22.5)
 - Domestic league: Liga ACB (Spain)
 
-### Cameron Payne — Anadolu Efes · Guard · 10.3 cr · owned None%
-- Status: **playing** · site signal hold (value+, dip-, schedule-) · grade A · data fresh today: True
-- Form PIR L3/L5/L10: 14.3/11.8/12.2 · minutes L3 23.5 vs L10 21.3 · PIR/min 0.573 · starts 100%
-- Season: 9 games, 12.2 PIR per game, 21.3 min
-- Domestic last game: not auto-covered (research it)
-- Last 5 games: R8 @ HTA L 88-118: 1 PIR, 18.2 min, 8p 0r 4a (start) · R9 vs PAN W 83-68: 15 PIR, 24.6 min, 14p 1r 8a (start) · R10 vs PRS L 90-95: 29 PIR, 30.1 min, 33p 2r 7a (start) · R11 vs VIR W 103-91: 9 PIR, 20.6 min, 9p 0r 8a (start) · R12 @ DUB L 75-80: 5 PIR, 19.9 min, 5p 1r 6a (start)
-- Price Δ last 3/5/10 rounds: 0.7/-0.5/None · since start 1.2 · projected change after round None · PIR≥price 4/9
-- Schedule: R13 vsASV 11.7 (diff 5/5)
-- Window score (site proj, weighted): 11.7 · P10–P90 this round 2.8–23 · win prob 0.695
-- When Mike James, Bruno Fernando out (1 games): minutes -0.7, PIR -0.4 (avg min then 19.9)
-- Domestic league: BSL (Turkey)
-
-### Gabriele Procida — Real Madrid · Forward · 5.5 cr · owned None%
+### Gabriele Procida — Real Madrid · Forward · 5.0 cr · owned None%
 - Status: **playing** · site signal hold (dip-, value+, price-) · grade B · data fresh today: True
 - Form PIR L3/L5/L10: 10.7/8.6/6.5 · minutes L3 16.9 vs L10 12.7 · PIR/min 0.512 · starts 80%
 - Season: 8 games, 6.5 PIR per game, 12.7 min
@@ -95,127 +98,124 @@ Cost 104.4 · bank 0.0 · coach OLY · captain Sasha Vezenkov · clubs {'HTA': 1
 - Domestic league: Liga ACB (Spain)
   - news [minutes_up] 2026-11-18:  {"m3": 18.9, "m10": 13.4}
 
-### Nikolaos Rogkavopoulos — Panathinaikos · Forward · 4.4 cr · owned None%
-- Status: **None** · site signal hold (value-, schedule+, minutes-) · grade C · data fresh today: True
-- Form PIR L3/L5/L10: 4/7.5/7.5 · minutes L3 8.4 vs L10 11.1 · PIR/min 0.676 · starts 0%
-- Season: 4 games, 7.5 PIR per game, 11.1 min
+### Collin Malcolm — Anadolu Efes · Forward · 10.1 cr · owned None%
+- Status: **playing** · site signal hold (value+, price-, schedule-) · grade B+ · data fresh today: True
+- Form PIR L3/L5/L10: 16.3/16.6/14.7 · minutes L3 26.7 vs L10 27.3 · PIR/min 0.538 · starts 100%
+- Season: 12 games, 13.2 PIR per game, 25.6 min
 - Domestic last game: not auto-covered (research it)
-- Last 5 games: R2 vs ASV W 102-79: 18 PIR, 19.3 min, 12p 3r 3a (bench) · R4 vs ULK W 92-74: 13 PIR, 9.7 min, 10p 2r 0a (bench) · R5 @ PAR W 72-55: 0 PIR, 9.0 min, 3p 1r 1a (bench) · R12 @ VIR L 79-84: -1 PIR, 6.4 min, 0p 1r 0a (bench)
-- Price Δ last 3/5/10 rounds: None/None/None · since start 0.0 · projected change after round None · PIR≥price 2/4
-- Schedule: R13 @ZAL 6.0 (diff 5/5, B2B)
-- Window score (site proj, weighted): 6.0 · P10–P90 this round 2.1–10.5 · win prob 0.459
-- Domestic league: GBL (Greece)
-  - news [return] 2026-11-16:  
-  - news [injury] 2026-11-11:  
+- Last 5 games: R8 @ HTA L 88-118: 13 PIR, 25.9 min, 9p 6r 4a (start) · R9 vs PAN W 83-68: 21 PIR, 31.4 min, 15p 6r 1a (start) · R10 vs PRS L 90-95: 21 PIR, 30.9 min, 20p 6r 2a (start) · R11 vs VIR W 103-91: 22 PIR, 26.4 min, 20p 5r 1a (start) · R12 @ DUB L 75-80: 6 PIR, 22.9 min, 9p 3r 2a (start)
+- Price Δ last 3/5/10 rounds: 0.8/2.3/None · since start 2.2 · projected change after round None · PIR≥price 7/10
+- Schedule: R13 vsASV 12 (diff 4/5)
+- Window score (site proj, weighted): 12.0 · P10–P90 this round 2.7–22.5 · win prob 0.695
+- When Mike James, Bruno Fernando out (1 games): minutes -1.3, PIR -0.7 (avg min then 22.9)
+- Domestic league: BSL (Turkey)
 
-### Ousmane Diop — Olimpia Milano · Center · 5.0 cr · owned None%
-- Status: **playing** · site signal hold (dip-, price-, value+) · grade B · data fresh today: True
-- Form PIR L3/L5/L10: 11.3/8.6/7.3 · minutes L3 14.4 vs L10 11.9 · PIR/min 0.614 · starts 0%
-- Season: 6 games, 7.3 PIR per game, 11.9 min
+### Dan Oturu — Hapoel Tel Aviv · Center · 14.2 cr · owned None%
+- Status: **playing** · site signal hold (value+, dip-, minutes+) · grade A+ · data fresh today: True
+- Form PIR L3/L5/L10: 19.3/19.6/13.7 · minutes L3 25.2 vs L10 20.8 · PIR/min 0.66 · starts 100%
+- Season: 12 games, 14.8 PIR per game, 21.3 min
 - Domestic last game: not auto-covered (research it)
-- Last 5 games: R8 @ PAN L 75-80: 10 PIR, 13.5 min, 4p 6r 2a (bench) · R9 @ OLY L 78-84: -1 PIR, 11.1 min, 0p 0r 0a (bench) · R10 vs PAM L 73-84: 18 PIR, 20.0 min, 11p 4r 3a (bench) · R11 vs ZAL L 83-86: 12 PIR, 13.7 min, 6p 2r 1a (bench) · R12 vs RED W 91-77: 4 PIR, 9.4 min, 4p 0r 0a (bench)
-- Price Δ last 3/5/10 rounds: 3.1/None/None · since start 0.8 · projected change after round None · PIR≥price 3/6
-- Schedule: R13 vsULK 8.1 (diff 1/5, B2B)
-- Window score (site proj, weighted): 8.1 · P10–P90 this round 1.2–17.8 · win prob 0.377
-- When Devin Booker out (3 games): minutes +0.8, PIR +0.4 (avg min then 14.4)
+- Last 5 games: R8 vs IST W 118-88: 25 PIR, 25.9 min, 20p 5r 0a (start) · R9 @ DUB L 83-97: 15 PIR, 16.2 min, 14p 3r 0a (start) · R10 vs BAR L 90-93: 23 PIR, 28.5 min, 11p 7r 0a (start) · R11 @ TEL L 73-80: 20 PIR, 27.2 min, 13p 8r 1a (start) · R12 @ BAS W 85-82: 15 PIR, 19.9 min, 12p 4r 2a (start)
+- Price Δ last 3/5/10 rounds: 0.8/1.9/None · since start 0.0 · projected change after round None · PIR≥price 5/10
+- Schedule: R13 @PRS 14.3 (diff 4/5, B2B)
+- Window score (site proj, weighted): 14.3 · P10–P90 this round 4.9–25.7 · win prob 0.496
+- Domestic league: Winner League (Israel)
+
+### Aliou Diarra — Virtus Bologna · Center · 11.3 cr · owned None%
+- Status: **playing** · site signal hold (value+, price-, minutes+) · grade B+ · data fresh today: True
+- Form PIR L3/L5/L10: 21.3/18.4/19.5 · minutes L3 20.3 vs L10 18.9 · PIR/min 1.033 · starts 0%
+- Season: 12 games, 18.9 PIR per game, 19.5 min
+- Domestic last game: not auto-covered (research it)
+- Last 5 games: R8 vs ZAL L 74-91: 16 PIR, 16.9 min, 13p 6r 0a (bench) · R9 vs BES L 101-103: 12 PIR, 17.2 min, 8p 7r 1a (bench) · R10 vs DUB L 75-93: 29 PIR, 20.1 min, 19p 7r 3a (bench) · R11 @ IST L 91-103: 11 PIR, 21.2 min, 10p 6r 1a (bench) · R12 vs PAN W 84-79: 24 PIR, 19.6 min, 15p 9r 0a (bench)
+- Price Δ last 3/5/10 rounds: 1.1/-1.8/None · since start 4.3 · projected change after round None · PIR≥price 10/10
+- Schedule: R13 @PAM 14.2 (diff 3/5, B2B)
+- Window score (site proj, weighted): 14.2 · P10–P90 this round 4.5–25.8 · win prob 0.211
 - Domestic league: LBA (Italy)
 
-### Vanja Marinkovic — Partizan · Forward · 4.3 cr · owned None%
-- Status: **playing** · site signal buy (value+, schedule+) · grade A · data fresh today: True
-- Form PIR L3/L5/L10: 5.3/5.3/5.3 · minutes L3 20.7 vs L10 20.7 · PIR/min 0.258 · starts 67%
-- Season: 3 games, 5.3 PIR per game, 20.7 min
-- Domestic last game: ABA League, see the domestic alerts section
-- Last 5 games: R10 vs TEL W 88-67: 3 PIR, 11.6 min, 9p 0r 0a (bench) · R11 vs BAS W 80-66: 7 PIR, 22.9 min, 6p 2r 2a (start) · R12 vs PAM L 64-76: 6 PIR, 27.7 min, 10p 1r 0a (start)
-- Price Δ last 3/5/10 rounds: None/None/None · since start -0.8 · projected change after round None · PIR≥price 2/3
-- Schedule: R13 vsBES 8.9 (diff 2/5)
-- Window score (site proj, weighted): 8.9 · P10–P90 this round 1–19.3 · win prob 0.651
-- When Ethan Thompson, Kevarrius Hayes out (1 games): minutes +3.1, PIR +1.2 (avg min then 27.7)
-- Domestic league: ABA League
-
 ## Mechanical swap baseline (same position, budget & 6-per-club feasible — NOT advice)
-- OUT Elijah Bryant (score 19.6): Nadir Hifi (PRS, 15.7cr, score 17.6, gain -2.0, own None%); Tj Shorts (PAM, 17.0cr, score 15.9, gain -3.7, own None%); Kendrick Nunn (PAN, 14.9cr, score 14.6, gain -5.0, own None%); Theo Maledon (MAD, 12.7cr, score 14.6, gain -5.0, own None%)
-- OUT Justin Robinson (score 17.2): Theo Maledon (MAD, 12.7cr, score 14.6, gain -2.6, own None%); Yam Madar (TEL, 10.6cr, score 12.6, gain -4.6, own None%); Chris Jones (RED, 12.4cr, score 12.3, gain -4.9, own None%); Duane Washington (MUN, 9.4cr, score 12.0, gain -5.2, own None%)
-- OUT Andres Feliz (score 13.6): Duane Washington (MUN, 9.4cr, score 12.0, gain -1.6, own None%); Andreas Obst (MUN, 9.2cr, score 11.9, gain -1.7, own None%); Tyson Carter (RED, 7.7cr, score 11.6, gain -2.0, own None%); Jimmy Clark Iii (TEL, 9.4cr, score 10.9, gain -2.7, own None%)
-- OUT Sasha Vezenkov (score 24.3): Dwayne Bacon (DUB, 14.8cr, score 15.8, gain -8.5, own None%); Dario Saric (IST, 14.3cr, score 14.5, gain -9.8, own None%); Azuolas Tubelis (ZAL, 12.9cr, score 13.9, gain -10.4, own None%); Jordan Nwora (RED, 14.1cr, score 13.7, gain -10.6, own None%)
-- OUT Kenan Kamenjas (score 14.4): Bryant Dunston (OLY, 4.4cr, score 4.8, gain -9.6, own None%); Sertac Sanli (ULK, 4.0cr, score 3.6, gain -10.8, own None%); Metecan Birsen (BES, 4.4cr, score 2.6, gain -11.8, own None%)
-- OUT Cameron Payne (score 11.7): Duane Washington (MUN, 9.4cr, score 12.0, gain +0.3, own None%); Andreas Obst (MUN, 9.2cr, score 11.9, gain +0.2, own None%); Tyson Carter (RED, 7.7cr, score 11.6, gain -0.1, own None%); Jimmy Clark Iii (TEL, 9.4cr, score 10.9, gain -0.8, own None%)
-- OUT Gabriele Procida (score 7.2): Edwin Jackson (ASV, 4.0cr, score 7.9, gain +0.7, own None%); Dejan Davidovac (RED, 4.8cr, score 5.0, gain -2.2, own None%); Bodian Massa (ASV, 5.3cr, score 4.8, gain -2.4, own None%); Ognjen Dobric (RED, 4.8cr, score 4.2, gain -3.0, own None%)
-- OUT Nikolaos Rogkavopoulos (score 6.0): Edwin Jackson (ASV, 4.0cr, score 7.9, gain +1.9, own None%); Giampaolo Ricci (MIL, 4.0cr, score 3.6, gain -2.4, own None%); Kostas Papanikolaou (OLY, 4.1cr, score 3.5, gain -2.5, own None%); Jeremy Morgan (PRS, 4.3cr, score 3.2, gain -2.8, own None%)
-- OUT Ousmane Diop (score 8.1): Bryant Dunston (OLY, 4.4cr, score 4.8, gain -3.3, own None%); Sertac Sanli (ULK, 4.0cr, score 3.6, gain -4.5, own None%); Metecan Birsen (BES, 4.4cr, score 2.6, gain -5.5, own None%)
-- OUT Vanja Marinkovic (score 8.9): Edwin Jackson (ASV, 4.0cr, score 7.9, gain -1.0, own None%); Giampaolo Ricci (MIL, 4.0cr, score 3.6, gain -5.3, own None%); Kostas Papanikolaou (OLY, 4.1cr, score 3.5, gain -5.4, own None%); Jeremy Morgan (PRS, 4.3cr, score 3.2, gain -5.7, own None%)
+- OUT Theo Maledon (score 14.6): Justin Robinson (BAR, 13.2cr, score 17.2, gain +2.6, own None%); Carlik Jones (PAR, 14.4cr, score 13.8, gain -0.8, own None%); Andres Feliz (MAD, 9.9cr, score 13.6, gain -1.0, own None%); Sylvain Francisco (PAN, 13.7cr, score 12.6, gain -2.0, own None%)
+- OUT Kendrick Nunn (score 14.6): Justin Robinson (BAR, 13.2cr, score 17.2, gain +2.6, own None%); Carlik Jones (PAR, 14.4cr, score 13.8, gain -0.8, own None%); Andres Feliz (MAD, 9.9cr, score 13.6, gain -1.0, own None%); Sylvain Francisco (PAN, 13.7cr, score 12.6, gain -2.0, own None%)
+- OUT John Dibartolomeo (score 3.4): Ignas Sargiunas (ULK, 5.3cr, score 5.4, gain +2.0, own None%); Alvaro Cardenas (PAM, 4.3cr, score 5.3, gain +1.9, own None%); Josep Puerto (PAM, 5.2cr, score 5.1, gain +1.7, own None%); Mario Saint-Supery (PAM, 4.0cr, score 4.4, gain +1.0, own None%)
+- OUT Vanja Marinkovic (score 8.9): Ignas Sargiunas (ULK, 5.3cr, score 5.4, gain -3.5, own None%); Alvaro Cardenas (PAM, 4.3cr, score 5.3, gain -3.6, own None%); Josep Puerto (PAM, 5.2cr, score 5.1, gain -3.8, own None%); Mario Saint-Supery (PAM, 4.0cr, score 4.4, gain -4.5, own None%)
+- OUT Sasha Vezenkov (score 24.3): Dwayne Bacon (DUB, 14.5cr, score 15.8, gain -8.5, own None%); Dario Saric (IST, 14.4cr, score 14.5, gain -9.8, own None%); Azuolas Tubelis (ZAL, 13.1cr, score 13.9, gain -10.4, own None%); Jordan Nwora (RED, 13.9cr, score 13.7, gain -10.6, own None%)
+- OUT Alberto Abalde (score 7.8): Marius Grigonis (ZAL, 7.5cr, score 9.6, gain +1.8, own None%); Clement Frisch (BAS, 5.5cr, score 8.7, gain +0.9, own None%); Joel Parra (BAR, 7.2cr, score 8.5, gain +0.7, own None%); Arnas Butkevicius (ZAL, 6.8cr, score 8.3, gain +0.5, own None%)
+- OUT Gabriele Procida (score 7.2): Clement Frisch (BAS, 5.5cr, score 8.7, gain +1.5, own None%); Edwin Jackson (ASV, 4.6cr, score 7.9, gain +0.7, own None%); Rodions Kurucs (BAS, 6.1cr, score 6.9, gain -0.3, own None%); Dustin Sleva (ZAL, 6.2cr, score 6.6, gain -0.6, own None%)
+- OUT Collin Malcolm (score 12.0): Oscar Da Silva (MUN, 8.2cr, score 12.3, gain +0.3, own None%); Bonzie Colson (TEL, 11.3cr, score 12.1, gain +0.1, own None%); Johnny Juzang (ULK, 9.1cr, score 11.5, gain -0.5, own None%); Tyson Ward (OLY, 8.3cr, score 11.3, gain -0.7, own None%)
+- OUT Dan Oturu (score 14.3): Johannes Thiemann (MUN, 11.5cr, score 15.8, gain +1.5, own None%); Moses Wright (MIL, 13.2cr, score 14.6, gain +0.3, own None%); Kenan Kamenjas (BAS, 5.4cr, score 14.4, gain +0.1, own None%); Walter Tavares (MAD, 14.6cr, score 13.8, gain -0.5, own None%)
+- OUT Aliou Diarra (score 14.2): Johannes Thiemann (MUN, 11.5cr, score 15.8, gain +1.6, own None%); Kenan Kamenjas (BAS, 5.4cr, score 14.4, gain +0.2, own None%); Tonye Jekiri (PAR, 9.9cr, score 13.8, gain -0.4, own None%); Josh Nebo (BAR, 12.3cr, score 12.2, gain -2.0, own None%)
 
 ## Guards — market
 **Top window score:**
-- Elijah Bryant (HTA) 17.7cr own None% · playing · Δ3 1.1 · L3/L10 23/21.1 · min 31.4/28.7 · R13 @PRS 19.6 (diff 1/5, B2B) · Δprice None · sig buy
-- Nadir Hifi (PRS) 15.7cr own None% · playing · Δ3 2.2 · L3/L10 24/19.7 · min 26.2/25.3 · R13 vsHTA 17.6 (diff 5/5, B2B) · Δprice None · sig buy
-- Justin Robinson (BAR) 13.3cr own None% · playing · Δ3 1.7 · L3/L10 18/15.8 · min 24.7/22.1 · R13 vsRED 17.2 (diff 2/5) · Δprice None · sig buy
-- Tj Shorts (PAM) 17.0cr own None% · playing · Δ3 -0.5 · L3/L10 17.3/19.8 · min 22.6/23.6 · R13 vsVIR 15.9 (diff 3/5, B2B) · Δprice None · sig buy
-- Kendrick Nunn (PAN) 14.9cr own None% · playing · Δ3 1.3 · L3/L10 21.7/18.2 · min 25.5/24.2 · R13 @ZAL 14.6 (diff 1/5, B2B) · Δprice None · sig buy
-- Theo Maledon (MAD) 12.7cr own None% · None · Δ3 -0.7 · L3/L10 25.7/21 · min 23.9/23.3 · R13 @OLY 14.6 (diff 4/5, B2B) · Δprice None · sig buy
-- Carlik Jones (PAR) 13.9cr own None% · playing · Δ3 -2.0 · L3/L10 16.7/13.5 · min 28.1/28.3 · R13 vsBES 13.8 (diff 3/5) · Δprice None · sig buy
+- Elijah Bryant (HTA) 17.6cr own None% · playing · Δ3 1.1 · L3/L10 23/21.1 · min 31.4/28.7 · R13 @PRS 19.6 (diff 1/5, B2B) · Δprice None · sig buy
+- Nadir Hifi (PRS) 16.3cr own None% · playing · Δ3 2.2 · L3/L10 24/19.7 · min 26.2/25.3 · R13 vsHTA 17.6 (diff 5/5, B2B) · Δprice None · sig buy
+- Justin Robinson (BAR) 13.2cr own None% · playing · Δ3 1.7 · L3/L10 18/15.8 · min 24.7/22.1 · R13 vsRED 17.2 (diff 2/5) · Δprice None · sig buy
+- Tj Shorts (PAM) 16.8cr own None% · playing · Δ3 -0.5 · L3/L10 17.3/19.8 · min 22.6/23.6 · R13 vsVIR 15.9 (diff 3/5, B2B) · Δprice None · sig buy
+- Kendrick Nunn (PAN) 14.8cr own None% · playing · Δ3 1.3 · L3/L10 21.7/18.2 · min 25.5/24.2 · R13 @ZAL 14.6 (diff 1/5, B2B) · Δprice None · sig buy
+- Theo Maledon (MAD) 13.4cr own None% · None · Δ3 -0.7 · L3/L10 25.7/21 · min 23.9/23.3 · R13 @OLY 14.6 (diff 4/5, B2B) · Δprice None · sig buy
+- Carlik Jones (PAR) 14.4cr own None% · playing · Δ3 -2.0 · L3/L10 16.7/13.5 · min 28.1/28.3 · R13 vsBES 13.8 (diff 3/5) · Δprice None · sig buy
 - Andres Feliz (MAD) 9.9cr own None% · playing · Δ3 1.5 · L3/L10 20.7/15.5 · min 27.3/22.3 · R13 @OLY 13.6 (diff 2/5, B2B) · Δprice None · sig buy
-- Sylvain Francisco (PAN) 14.0cr own None% · playing · Δ3 -1.3 · L3/L10 12/11.7 · min 23.7/23.6 · R13 @ZAL 12.6 (diff 1/5, B2B) · Δprice None · sig buy
+- Sylvain Francisco (PAN) 13.7cr own None% · playing · Δ3 -1.3 · L3/L10 12/11.7 · min 23.7/23.6 · R13 @ZAL 12.6 (diff 1/5, B2B) · Δprice None · sig buy
 - Yam Madar (TEL) 10.6cr own None% · playing · Δ3 -0.5 · L3/L10 13/14.4 · min 17.7/20.7 · R13 vsDUB 12.6 (diff 4/5, B2B) · Δprice None · sig hold
-- Chris Jones (RED) 12.4cr own None% · playing · Δ3 -0.9 · L3/L10 12/12.7 · min 21.3/20.2 · R13 @BAR 12.3 (diff 2/5) · Δprice None · sig buy
-- Duane Washington (MUN) 9.4cr own None% · playing · Δ3 0.5 · L3/L10 14.7/11.4 · min 22.5/20.7 · R13 vsBAS 12 (diff 3/5, B2B) · Δprice None · sig hold
+- Chris Jones (RED) 12.3cr own None% · playing · Δ3 -0.9 · L3/L10 12/12.7 · min 21.3/20.2 · R13 @BAR 12.3 (diff 2/5) · Δprice None · sig buy
+- Duane Washington (MUN) 10.1cr own None% · playing · Δ3 0.5 · L3/L10 14.7/11.4 · min 22.5/20.7 · R13 vsBAS 12 (diff 3/5, B2B) · Δprice None · sig hold
 **Cheap value (≤9 cr):**
-- Tyson Carter (RED) 7.7cr own None% · playing · Δ3 1.5 · L3/L10 11.3/9.8 · min 24.6/19.5 · R13 @BAR 11.6 (diff 2/5) · Δprice None · sig buy
-- Cory Joseph (OLY) 5.8cr own None% · playing · Δ3 2.5 · L3/L10 12/5.3 · min 25/18.6 · R13 vsMAD 8.7 (diff 2/5) · Δprice None · sig hold
-- Marius Grigonis (ZAL) 7.2cr own None% · playing · Δ3 1.5 · L3/L10 13/10 · min 21.4/18.5 · R13 vsPAN 9.6 (diff 4/5, B2B) · Δprice None · sig hold
-- Dario Brizuela (BAR) 6.0cr own None% · playing · Δ3 0.5 · L3/L10 10/4.7 · min 18.6/18.5 · R13 vsRED 7.9 (diff 2/5) · Δprice None · sig hold
-- Justinian Jessup (MUN) 7.0cr own None% · playing · Δ3 1.7 · L3/L10 9.7/6.8 · min 17.9/15.6 · R13 vsBAS 9.1 (diff 3/5, B2B) · Δprice None · sig hold
-- Darius Thompson (MIL) 7.4cr own None% · playing · Δ3 0.9 · L3/L10 10.7/6.4 · min 23.1/18.1 · R13 vsULK 9.4 (diff 4/5, B2B) · Δprice None · sig hold
-- Sebastian Herrera (PRS) 6.4cr own None% · playing · Δ3 0.1 · L3/L10 8.3/8 · min 21/20.7 · R13 vsHTA 8 (diff 5/5, B2B) · Δprice None · sig hold
-- Alvaro Cardenas (PAM) 4.4cr own None% · playing · Δ3 0.2 · L3/L10 5/4.1 · min 14.7/12.4 · R13 vsVIR 5.3 (diff 3/5, B2B) · Δprice None · sig hold
+- Vanja Marinkovic (PAR) 4.3cr own None% · playing · Δ3 None · L3/L10 5.3/5.3 · min 20.7/20.7 · R13 vsBES 8.9 (diff 2/5) · Δprice None · sig buy
+- Tyson Carter (RED) 7.9cr own None% · playing · Δ3 1.5 · L3/L10 11.3/9.8 · min 24.6/19.5 · R13 @BAR 11.6 (diff 2/5) · Δprice None · sig buy
+- Cory Joseph (OLY) 6.2cr own None% · playing · Δ3 2.5 · L3/L10 12/5.3 · min 25/18.6 · R13 vsMAD 8.7 (diff 2/5) · Δprice None · sig hold
+- Dario Brizuela (BAR) 6.2cr own None% · playing · Δ3 0.5 · L3/L10 10/4.7 · min 18.6/18.5 · R13 vsRED 7.9 (diff 2/5) · Δprice None · sig hold
+- Sebastian Herrera (PRS) 6.3cr own None% · playing · Δ3 0.1 · L3/L10 8.3/8 · min 21/20.7 · R13 vsHTA 8 (diff 5/5, B2B) · Δprice None · sig hold
+- Alvaro Cardenas (PAM) 4.3cr own None% · playing · Δ3 0.2 · L3/L10 5/4.1 · min 14.7/12.4 · R13 vsVIR 5.3 (diff 3/5, B2B) · Δprice None · sig hold
+- Justinian Jessup (MUN) 7.4cr own None% · playing · Δ3 1.7 · L3/L10 9.7/6.8 · min 17.9/15.6 · R13 vsBAS 9.1 (diff 3/5, B2B) · Δprice None · sig hold
+- Rokas Jokubaitis (MUN) 8.5cr own None% · playing · Δ3 1.2 · L3/L10 12.3/9 · min 23.9/19 · R13 vsBAS 10 (diff 3/5, B2B) · Δprice None · sig hold
 **Differentials (<5% owned):**
 
 ## Forwards — market
 **Top window score:**
-- Sasha Vezenkov (OLY) 19.3cr own None% · playing · Δ3 0.8 · L3/L10 31.7/24 · min 31.4/29 · R13 vsMAD 24.3 (diff 2/5) · Δprice None · sig buy
-- Dwayne Bacon (DUB) 14.8cr own None% · playing · Δ3 -0.8 · L3/L10 14.3/16.5 · min 29.1/27.5 · R13 @TEL 15.8 (diff 3/5, B2B) · Δprice None · sig buy
-- Dario Saric (IST) 14.3cr own None% · playing · Δ3 -0.5 · L3/L10 15/14.3 · min 27.5/26.2 · R13 vsASV 14.5 (diff 4/5) · Δprice None · sig buy
-- Azuolas Tubelis (ZAL) 12.9cr own None% · playing · Δ3 0.2 · L3/L10 18.7/15.1 · min 24.9/22.9 · R13 vsPAN 13.9 (diff 2/5, B2B) · Δprice None · sig buy
-- Jordan Nwora (RED) 14.1cr own None% · playing · Δ3 0.7 · L3/L10 17.7/15.9 · min 23.4/22.9 · R13 @BAR 13.7 (diff 4/5) · Δprice None · sig buy
-- Zach Leday (HTA) 12.7cr own None% · playing · Δ3 -1.5 · L3/L10 8/12.7 · min 23/22.5 · R13 @PRS 12.3 (diff 1/5, B2B) · Δprice None · sig buy
-- Oscar Da Silva (MUN) 7.7cr own None% · playing · Δ3 1.0 · L3/L10 14/10.7 · min 23.6/18.9 · R13 vsBAS 12.3 (diff 5/5, B2B) · Δprice None · sig hold
-- Bonzie Colson (TEL) 11.4cr own None% · playing · Δ3 0.3 · L3/L10 10/12 · min 21.5/20.8 · R13 vsDUB 12.1 (diff 5/5, B2B) · Δprice None · sig buy
-- Collin Malcolm (IST) 10.4cr own None% · playing · Δ3 0.8 · L3/L10 16.3/14.7 · min 26.7/27.3 · R13 vsASV 12 (diff 4/5) · Δprice None · sig hold
-- Kameron Taylor (PAM) 11.8cr own None% · playing · Δ3 0.1 · L3/L10 15.3/11.2 · min 22.6/24 · R13 vsVIR 11.7 (diff 1/5, B2B) · Δprice None · sig hold
-- Johnny Juzang (ULK) 8.2cr own None% · playing · Δ3 2.8 · L3/L10 9.3/8.2 · min 12.5/10.6 · R13 @MIL 11.5 (diff 3/5, B2B) · Δprice None · sig buy
+- Sasha Vezenkov (OLY) 20.2cr own None% · playing · Δ3 0.8 · L3/L10 31.7/24 · min 31.4/29 · R13 vsMAD 24.3 (diff 2/5) · Δprice None · sig buy
+- Dwayne Bacon (DUB) 14.5cr own None% · playing · Δ3 -0.8 · L3/L10 14.3/16.5 · min 29.1/27.5 · R13 @TEL 15.8 (diff 3/5, B2B) · Δprice None · sig buy
+- Dario Saric (IST) 14.4cr own None% · playing · Δ3 -0.5 · L3/L10 15/14.3 · min 27.5/26.2 · R13 vsASV 14.5 (diff 4/5) · Δprice None · sig buy
+- Azuolas Tubelis (ZAL) 13.1cr own None% · playing · Δ3 0.2 · L3/L10 18.7/15.1 · min 24.9/22.9 · R13 vsPAN 13.9 (diff 2/5, B2B) · Δprice None · sig buy
+- Jordan Nwora (RED) 13.9cr own None% · playing · Δ3 0.7 · L3/L10 17.7/15.9 · min 23.4/22.9 · R13 @BAR 13.7 (diff 4/5) · Δprice None · sig buy
+- Zach Leday (HTA) 12.9cr own None% · playing · Δ3 -1.5 · L3/L10 8/12.7 · min 23/22.5 · R13 @PRS 12.3 (diff 1/5, B2B) · Δprice None · sig buy
+- Oscar Da Silva (MUN) 8.2cr own None% · playing · Δ3 1.0 · L3/L10 14/10.7 · min 23.6/18.9 · R13 vsBAS 12.3 (diff 5/5, B2B) · Δprice None · sig hold
+- Bonzie Colson (TEL) 11.3cr own None% · playing · Δ3 0.3 · L3/L10 10/12 · min 21.5/20.8 · R13 vsDUB 12.1 (diff 5/5, B2B) · Δprice None · sig buy
+- Collin Malcolm (IST) 10.1cr own None% · playing · Δ3 0.8 · L3/L10 16.3/14.7 · min 26.7/27.3 · R13 vsASV 12 (diff 4/5) · Δprice None · sig hold
+- Kameron Taylor (PAM) 12.1cr own None% · playing · Δ3 0.1 · L3/L10 15.3/11.2 · min 22.6/24 · R13 vsVIR 11.7 (diff 1/5, B2B) · Δprice None · sig hold
+- Johnny Juzang (ULK) 9.1cr own None% · playing · Δ3 2.8 · L3/L10 9.3/8.2 · min 12.5/10.6 · R13 @MIL 11.5 (diff 3/5, B2B) · Δprice None · sig buy
 - Tyson Ward (OLY) 8.3cr own None% · playing · Δ3 -0.6 · L3/L10 6/8.5 · min 24.8/23.6 · R13 vsMAD 11.3 (diff 2/5) · Δprice None · sig buy
 **Cheap value (≤9 cr):**
-- Vanja Marinkovic (PAR) 4.3cr own None% · playing · Δ3 None · L3/L10 5.3/5.3 · min 20.7/20.7 · R13 vsBES 8.9 (diff 2/5) · Δprice None · sig buy
-- Edwin Jackson (ASV) 4.0cr own None% · playing · Δ3 None · L3/L10 12.3/12.3 · min 19.3/19.3 · R13 @IST 7.9 (diff 5/5) · Δprice None · sig hold
-- Oscar Da Silva (MUN) 7.7cr own None% · playing · Δ3 1.0 · L3/L10 14/10.7 · min 23.6/18.9 · R13 vsBAS 12.3 (diff 5/5, B2B) · Δprice None · sig hold
-- Clement Frisch (BAS) 5.6cr own None% · playing · Δ3 1.4 · L3/L10 10/7.1 · min 23.7/16.7 · R13 @MUN 8.7 (diff 5/5, B2B) · Δprice None · sig hold
-- Johnny Juzang (ULK) 8.2cr own None% · playing · Δ3 2.8 · L3/L10 9.3/8.2 · min 12.5/10.6 · R13 @MIL 11.5 (diff 3/5, B2B) · Δprice None · sig buy
-- Nikolaos Rogkavopoulos (PAN) 4.4cr own None% · None · Δ3 None · L3/L10 4/7.5 · min 8.4/11.1 · R13 @ZAL 6.0 (diff 5/5, B2B) · Δprice None · sig hold
+- Edwin Jackson (ASV) 4.6cr own None% · playing · Δ3 None · L3/L10 12.3/12.3 · min 19.3/19.3 · R13 @IST 7.9 (diff 5/5) · Δprice None · sig hold
+- Clement Frisch (BAS) 5.5cr own None% · playing · Δ3 1.4 · L3/L10 10/7.1 · min 23.7/16.7 · R13 @MUN 8.7 (diff 5/5, B2B) · Δprice None · sig hold
+- Oscar Da Silva (MUN) 8.2cr own None% · playing · Δ3 1.0 · L3/L10 14/10.7 · min 23.6/18.9 · R13 vsBAS 12.3 (diff 5/5, B2B) · Δprice None · sig hold
+- Gabriele Procida (MAD) 5.0cr own None% · playing · Δ3 1.7 · L3/L10 10.7/6.5 · min 16.9/12.7 · R13 @OLY 7.2 (diff 2/5, B2B) · Δprice None · sig hold
+- Nikolaos Rogkavopoulos (PAN) 4.3cr own None% · None · Δ3 None · L3/L10 4/7.5 · min 8.4/11.1 · R13 @ZAL 6.0 (diff 5/5, B2B) · Δprice None · sig hold
 - Tyson Ward (OLY) 8.3cr own None% · playing · Δ3 -0.6 · L3/L10 6/8.5 · min 24.8/23.6 · R13 vsMAD 11.3 (diff 2/5) · Δprice None · sig buy
-- Robert Franks (PAR) 7.7cr own None% · playing · Δ3 None · L3/L10 11.7/10.4 · min 19.6/19.5 · R13 vsBES 10.3 (diff 2/5) · Δprice None · sig hold
+- Robert Franks (PAR) 7.9cr own None% · playing · Δ3 None · L3/L10 11.7/10.4 · min 19.6/19.5 · R13 vsBES 10.3 (diff 2/5) · Δprice None · sig hold
+- Marius Grigonis (ZAL) 7.5cr own None% · playing · Δ3 1.5 · L3/L10 13/10 · min 21.4/18.5 · R13 vsPAN 9.6 (diff 4/5, B2B) · Δprice None · sig hold
 **Differentials (<5% owned):**
 
 ## Centers — market
 **Top window score:**
-- Jonas Valanciunas (ZAL) 17.8cr own None% · playing · Δ3 0.9 · L3/L10 25.7/20.6 · min 19.7/20.7 · R13 vsPAN 18.5 (diff 1/5, B2B) · Δprice None · sig buy
-- Mfiondu Kabengele (DUB) 15.9cr own None% · playing · Δ3 1.0 · L3/L10 20.7/18.7 · min 26.5/24.1 · R13 @TEL 18.2 (diff 5/5, B2B) · Δprice None · sig buy
-- Mathias Lessort (PAN) 16.4cr own None% · playing · Δ3 -1.2 · L3/L10 17.3/18 · min 26/23.8 · R13 @ZAL 16.4 (diff 5/5, B2B) · Δprice None · sig buy
-- Johannes Thiemann (MUN) 10.5cr own None% · playing · Δ3 1.5 · L3/L10 19/13.3 · min 25.6/21.6 · R13 vsBAS 15.8 (diff 2/5, B2B) · Δprice None · sig hold
-- Moses Wright (MIL) 13.0cr own None% · playing · Δ3 -0.3 · L3/L10 7.3/13.6 · min 21.7/21.6 · R13 vsULK 14.6 (diff 1/5, B2B) · Δprice None · sig buy
-- Kenan Kamenjas (BAS) 4.8cr own None% · None · Δ3 None · L3/L10 19/19 · min 30.8/30.8 · R13 @MUN 14.4 (diff 5/5, B2B) · Δprice None · sig hold
+- Jonas Valanciunas (ZAL) 17.7cr own None% · playing · Δ3 0.9 · L3/L10 25.7/20.6 · min 19.7/20.7 · R13 vsPAN 18.5 (diff 1/5, B2B) · Δprice None · sig buy
+- Mfiondu Kabengele (DUB) 16.2cr own None% · playing · Δ3 1.0 · L3/L10 20.7/18.7 · min 26.5/24.1 · R13 @TEL 18.2 (diff 5/5, B2B) · Δprice None · sig buy
+- Mathias Lessort (PAN) 16.2cr own None% · playing · Δ3 -1.2 · L3/L10 17.3/18 · min 26/23.8 · R13 @ZAL 16.4 (diff 5/5, B2B) · Δprice None · sig buy
+- Johannes Thiemann (MUN) 11.5cr own None% · playing · Δ3 1.5 · L3/L10 19/13.3 · min 25.6/21.6 · R13 vsBAS 15.8 (diff 2/5, B2B) · Δprice None · sig hold
+- Moses Wright (MIL) 13.2cr own None% · playing · Δ3 -0.3 · L3/L10 7.3/13.6 · min 21.7/21.6 · R13 vsULK 14.6 (diff 1/5, B2B) · Δprice None · sig buy
+- Kenan Kamenjas (BAS) 5.4cr own None% · None · Δ3 None · L3/L10 19/19 · min 30.8/30.8 · R13 @MUN 14.4 (diff 5/5, B2B) · Δprice None · sig hold
 - Dan Oturu (HTA) 14.2cr own None% · playing · Δ3 0.8 · L3/L10 19.3/13.7 · min 25.2/20.8 · R13 @PRS 14.3 (diff 4/5, B2B) · Δprice None · sig hold
-- Aliou Diarra (VIR) 11.0cr own None% · playing · Δ3 1.1 · L3/L10 21.3/19.5 · min 20.3/18.9 · R13 @PAM 14.2 (diff 3/5, B2B) · Δprice None · sig hold
-- Walter Tavares (MAD) 14.9cr own None% · playing · Δ3 0.2 · L3/L10 10.7/15.7 · min 21.8/21.2 · R13 @OLY 13.8 (diff 4/5, B2B) · Δprice None · sig hold
-- Tonye Jekiri (PAR) 9.7cr own None% · playing · Δ3 3.7 · L3/L10 14.7/15.4 · min 16/18.3 · R13 vsBES 13.8 (diff 5/5) · Δprice None · sig hold
-- Josh Nebo (BAR) 12.6cr own None% · playing · Δ3 0.0 · L3/L10 11.7/12.4 · min 24.2/22.7 · R13 vsRED 12.2 (diff 2/5) · Δprice None · sig buy
-- Christian Koloko (RED) 9.8cr own None% · playing · Δ3 None · L3/L10 11/12 · min 20.7/18.4 · R13 @BAR 11.9 (diff 4/5) · Δprice None · sig buy
+- Aliou Diarra (VIR) 11.3cr own None% · playing · Δ3 1.1 · L3/L10 21.3/19.5 · min 20.3/18.9 · R13 @PAM 14.2 (diff 3/5, B2B) · Δprice None · sig hold
+- Walter Tavares (MAD) 14.6cr own None% · playing · Δ3 0.2 · L3/L10 10.7/15.7 · min 21.8/21.2 · R13 @OLY 13.8 (diff 4/5, B2B) · Δprice None · sig hold
+- Tonye Jekiri (PAR) 9.9cr own None% · playing · Δ3 3.7 · L3/L10 14.7/15.4 · min 16/18.3 · R13 vsBES 13.8 (diff 5/5) · Δprice None · sig hold
+- Josh Nebo (BAR) 12.3cr own None% · playing · Δ3 0.0 · L3/L10 11.7/12.4 · min 24.2/22.7 · R13 vsRED 12.2 (diff 2/5) · Δprice None · sig buy
+- Christian Koloko (RED) 10.1cr own None% · playing · Δ3 None · L3/L10 11/12 · min 20.7/18.4 · R13 @BAR 11.9 (diff 4/5) · Δprice None · sig buy
 **Cheap value (≤9 cr):**
-- Kenan Kamenjas (BAS) 4.8cr own None% · None · Δ3 None · L3/L10 19/19 · min 30.8/30.8 · R13 @MUN 14.4 (diff 5/5, B2B) · Δprice None · sig hold
-- Ousmane Diop (MIL) 5.0cr own None% · playing · Δ3 3.1 · L3/L10 11.3/7.3 · min 14.4/11.9 · R13 vsULK 8.1 (diff 1/5, B2B) · Δprice None · sig hold
-- Olek Balcerowski (BAR) 7.3cr own None% · playing · Δ3 0.3 · L3/L10 11.7/7.5 · min 13.2/14.4 · R13 vsRED 9.2 (diff 2/5) · Δprice None · sig hold
-- Mouhamed Faye (PRS) 8.3cr own None% · playing · Δ3 1.1 · L3/L10 11.3/11.8 · min 18.6/17.7 · R13 vsHTA 10.4 (diff 1/5, B2B) · Δprice None · sig hold
-- Mathis Dossou-Yovo (ASV) 8.2cr own None% · playing · Δ3 None · L3/L10 14.5/14.5 · min 15.1/15.1 · R13 @IST 9.7 (diff 2/5) · Δprice None · sig hold
-- Allan Dokossi (PRS) 8.9cr own None% · playing · Δ3 0.7 · L3/L10 10.3/11.9 · min 17.3/18.5 · R13 vsHTA 10.2 (diff 1/5, B2B) · Δprice None · sig hold
-- Nikola Tanaskovic (PAR) 8.8cr own None% · playing · Δ3 0.9 · L3/L10 12/8.8 · min 24.7/19.8 · R13 vsBES 9.9 (diff 5/5) · Δprice None · sig hold
+- Kenan Kamenjas (BAS) 5.4cr own None% · None · Δ3 None · L3/L10 19/19 · min 30.8/30.8 · R13 @MUN 14.4 (diff 5/5, B2B) · Δprice None · sig hold
+- Ousmane Diop (MIL) 4.8cr own None% · playing · Δ3 3.1 · L3/L10 11.3/7.3 · min 14.4/11.9 · R13 vsULK 8.1 (diff 1/5, B2B) · Δprice None · sig hold
+- Mouhamed Faye (PRS) 8.5cr own None% · playing · Δ3 1.1 · L3/L10 11.3/11.8 · min 18.6/17.7 · R13 vsHTA 10.4 (diff 1/5, B2B) · Δprice None · sig hold
+- Nikola Tanaskovic (PAR) 8.4cr own None% · playing · Δ3 0.9 · L3/L10 12/8.8 · min 24.7/19.8 · R13 vsBES 9.9 (diff 5/5) · Δprice None · sig hold
+- Allan Dokossi (PRS) 9.0cr own None% · playing · Δ3 0.7 · L3/L10 10.3/11.9 · min 17.3/18.5 · R13 vsHTA 10.2 (diff 1/5, B2B) · Δprice None · sig hold
+- Olek Balcerowski (BAR) 8.2cr own None% · playing · Δ3 0.3 · L3/L10 11.7/7.5 · min 13.2/14.4 · R13 vsRED 9.2 (diff 2/5) · Δprice None · sig hold
+- Jasiel Rivero (PAM) 8.1cr own None% · playing · Δ3 1.1 · L3/L10 13/8.1 · min 18.7/15.8 · R13 vsVIR 9 (diff 1/5, B2B) · Δprice None · sig hold
 - Bryant Dunston (OLY) 4.4cr own None% · playing · Δ3 None · L3/L10 3/3 · min 14.3/14.3 · R13 vsMAD 4.8 (diff 4/5) · Δprice None · sig hold
 **Differentials (<5% owned):**
 
@@ -272,26 +272,26 @@ https://basketballstats.eu/en/game/zalgiris-panathinaikos-13/
 
 
 ## Coaches (current-round projections)
-- Xavier Albert (PAM) 8.3cr exp 11.93 · win 0.789 · vs VIR home
-- Pablo Laso (IST) 6.3cr exp 8.89 · win 0.695 · vs ASV home
-- Anton Gavel (MUN) 4.0cr exp 8 · win 0.666 · vs BAS home
-- Joan Penarroya (PAR) 6.6cr exp 7.6 · win 0.651 · vs BES home
-- Saras Jasikevicius (ULK) 8.3cr exp 6.79 · win 0.623 · vs MIL away
+- Xavier Albert (PAM) 8.6cr exp 11.93 · win 0.789 · vs VIR home
+- Pablo Laso (IST) 6cr exp 8.89 · win 0.695 · vs ASV home
+- Anton Gavel (MUN) 4cr exp 8 · win 0.666 · vs BAS home
+- Joan Penarroya (PAR) 6.2cr exp 7.6 · win 0.651 · vs BES home
+- Saras Jasikevicius (ULK) 8.7cr exp 6.79 · win 0.623 · vs MIL away
 - Georgios Bartzokas (OLY) 9.9cr exp 6.39 · win 0.612 · vs MAD home
-- Aleksander Sekulic (BAR) 8.1cr exp 5.16 · win 0.57 · vs RED home
-- Xavi Pascual (DUB) 7.8cr exp 4.45 · win 0.544 · vs TEL away
-- Tomas Masiulis (ZAL) 7.4cr exp 4.34 · win 0.541 · vs PAN home
-- Maxime Lefevre (PRS) 4.6cr exp 3.32 · win 0.504 · vs HTA home
-- Dimitris Itoudis (HTA) 7.6cr exp 3.12 · win 0.496 · vs PRS away
-- Zeljko Obradovic (PAN) 10.2cr exp 2.1 · win 0.459 · vs ZAL away
-- Oded Kattash (TEL) 4.2cr exp 2 · win 0.456 · vs DUB home
-- Ibon Navarro (RED) 7.1cr exp 1.29 · win 0.43 · vs BAR away
-- Pedro Martinez (MAD) 9.5cr exp 0.09 · win 0.388 · vs OLY away
-- Luca Banchi (MIL) 4.1cr exp -0.3 · win 0.377 · vs ULK home
-- Dusan Alimpijevic (BES) 4.8cr exp -1.08 · win 0.349 · vs PAR away
-- Velimir Perasovic (BAS) 4.0cr exp -1.47 · win 0.334 · vs MUN away
-- Tony Parker (ASV) 4.4cr exp -2.33 · win 0.305 · vs IST away
-- Alex Mumbru (VIR) 4.0cr exp -5.24 · win 0.211 · vs PAM away
+- Aleksander Sekulic (BAR) 7.8cr exp 5.16 · win 0.57 · vs RED home
+- Xavi Pascual (DUB) 7.9cr exp 4.45 · win 0.544 · vs TEL away
+- Tomas Masiulis (ZAL) 7.5cr exp 4.34 · win 0.541 · vs PAN home
+- Maxime Lefevre (PRS) 4.7cr exp 3.32 · win 0.504 · vs HTA home
+- Dimitris Itoudis (HTA) 7.7cr exp 3.12 · win 0.496 · vs PRS away
+- Zeljko Obradovic (PAN) 9.8cr exp 2.1 · win 0.459 · vs ZAL away
+- Oded Kattash (TEL) 4cr exp 2 · win 0.456 · vs DUB home
+- Ibon Navarro (RED) 6.7cr exp 1.29 · win 0.43 · vs BAR away
+- Pedro Martinez (MAD) 9.1cr exp 0.09 · win 0.388 · vs OLY away
+- Luca Banchi (MIL) 4.5cr exp -0.3 · win 0.377 · vs ULK home
+- Dusan Alimpijevic (BES) 4.9cr exp -1.08 · win 0.349 · vs PAR away
+- Velimir Perasovic (BAS) 4cr exp -1.47 · win 0.334 · vs MUN away
+- Tony Parker (ASV) 4cr exp -2.33 · win 0.305 · vs IST away
+- Alex Mumbru (VIR) 4.2cr exp -5.24 · win 0.211 · vs PAM away
 
 ## Domestic-league alerts (ABA only from site; other leagues → research)
 - MOTLEY, JOHNATHAN (RED) dom_absent {"league": "ABA", "date": "2026-11-15", "home": "Crvena zvezda Meridianbet", "away": "Cedevita Olimpija", "link": "https://www.aba-liga.com/match/71/26/1/Boxscore/"}
@@ -306,18 +306,18 @@ https://basketballstats.eu/en/game/zalgiris-panathinaikos-13/
 
 ## Cheap upside watch: role just grew (price ≤ 9)
 Projections lag role changes; these are the likeliest upside misses. Consider them for the 6th-man and bench slots.
-- Oscar Da Silva (MUN, Forward, 7.7 cr, owned None%): minutes 18 → 27 over the last 2 games; Vladimir Lucic (injured) was playing 22 min at forward · PIR last 2: 16.5 · 0.57 PIR/min → ~15.3 if the role holds
-- Scottie Wilbekin (BES, Guard, 8.9 cr, owned None%): minutes 20 → 27 over the last 2 games; Jaylen Nowell (injured) was playing 21 min at guard · PIR last 2: 13.0 · 0.49 PIR/min → ~13.4 if the role holds
-- Johnny Juzang (ULK, Forward, 8.2 cr, owned None%): Nicolo Melli (injured) was playing 21 min at forward; Braxton Key (injured) was playing 20 min at forward · PIR last 2: 14.5 · 0.77 PIR/min → ~12.8 if the role holds
-- Lamar Stevens (PAR, Forward, 8.9 cr, owned None%): Ethan Thompson (injured) was playing 23 min at forward · PIR last 2: 13.5 · 0.54 PIR/min → ~12.4 if the role holds
-- Marius Grigonis (ZAL, Guard, 7.2 cr, owned None%): minutes 16 → 23 over the last 2 games; Nigel Williams-Goss (injured) was playing 19 min at guard · PIR last 2: 12.5 · 0.52 PIR/min → ~11.8 if the role holds
-- Mbaye Ndiaye (OLY, Forward, 8.7 cr, owned None%): John Konchar (injured) was playing 18 min at forward · PIR last 2: 10.5 · 0.62 PIR/min → ~11.3 if the role holds
-- Mouhamet Diouf (VIR, Center, 8.0 cr, owned None%): minutes 11 → 19 over the last 2 games · PIR last 2: 18.0 · 0.59 PIR/min → ~11.1 if the role holds
-- Nikola Tanaskovic (PAR, Center, 8.8 cr, owned None%): Kevarrius Hayes (injured) was playing 22 min at center · PIR last 2: 8.5 · 0.45 PIR/min → ~10.9 if the role holds
-- Robert Franks (PAR, Forward, 7.7 cr, owned None%): Ethan Thompson (injured) was playing 23 min at forward · PIR last 2: 9.0 · 0.53 PIR/min → ~10.5 if the role holds
+- Oscar Da Silva (MUN, Forward, 8.2 cr, owned None%): minutes 18 → 27 over the last 2 games; Vladimir Lucic (injured) was playing 22 min at forward · PIR last 2: 16.5 · 0.57 PIR/min → ~15.3 if the role holds
+- Scottie Wilbekin (BES, Guard, 9.0 cr, owned None%): minutes 20 → 27 over the last 2 games; Jaylen Nowell (injured) was playing 21 min at guard · PIR last 2: 13.0 · 0.49 PIR/min → ~13.4 if the role holds
+- Marius Grigonis (ZAL, Forward, 7.5 cr, owned None%): minutes 16 → 23 over the last 2 games · PIR last 2: 12.5 · 0.52 PIR/min → ~11.8 if the role holds
+- Mbaye Ndiaye (OLY, Forward, 8.5 cr, owned None%): John Konchar (injured) was playing 18 min at forward · PIR last 2: 10.5 · 0.62 PIR/min → ~11.3 if the role holds
+- Mouhamet Diouf (VIR, Center, 8.6 cr, owned None%): minutes 10 → 19 over the last 2 games · PIR last 2: 18.0 · 0.59 PIR/min → ~11.1 if the role holds
+- Nikola Tanaskovic (PAR, Center, 8.4 cr, owned None%): Kevarrius Hayes (injured) was playing 22 min at center · PIR last 2: 8.5 · 0.45 PIR/min → ~10.9 if the role holds
 - Tyson Ward (OLY, Forward, 8.3 cr, owned None%): John Konchar (injured) was playing 18 min at forward · PIR last 2: 10.0 · 0.39 PIR/min → ~10.2 if the role holds
-- A.J. Lawson (BAS, Forward, 8.6 cr, owned None%): Tadas Sedekerskis (injured) was playing 18 min at forward · PIR last 2: 5.5 · 0.4 PIR/min → ~9.8 if the role holds
 - Marcio Santos (BAS, Center, 7.9 cr, owned None%): Kenneth Faried (injured) was playing 23 min at center · PIR last 2: 10.0 · 0.58 PIR/min → ~9.6 if the role holds
+- Clement Frisch (BAS, Forward, 5.5 cr, owned None%): Tadas Sedekerskis (injured) was playing 18 min at forward · PIR last 2: 8.5 · 0.43 PIR/min → ~9.3 if the role holds
+- Semi Ojeleye (RED, Forward, 7.9 cr, owned None%): Chima Moneke (injured) was playing 19 min at forward · PIR last 2: 3.5 · 0.41 PIR/min → ~9.1 if the role holds
+- Olivier Nkamhoua (BAR, Forward, 7.1 cr, owned None%): minutes 10 → 19 over the last 2 games · PIR last 2: 11.5 · 0.47 PIR/min → ~8.8 if the role holds
+- Darius Thompson (MIL, Guard, 8.0 cr, owned None%): minutes 17 → 24 over the last 2 games · PIR last 2: 17.0 · 0.35 PIR/min → ~8.6 if the role holds
 
 ## Minutes / role changes flagged by site model
 - BALDWIN, KAMAR (TEL) transfer: None → 3.7
