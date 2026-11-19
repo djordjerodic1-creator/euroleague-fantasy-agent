@@ -140,9 +140,9 @@ def option_gain(starters, sixth, bench, captain, games):
     g = 0.0
     for a, b, mu in plan_subs(starters, sixth, bench, captain, games):
         g += 0.5 * _below(mu, expected_pts(a, games), a["_s"])  # 0.5*(Y - X) when X < E[Y]
-    nights = sorted({_turn(p) for p in starters if _turn(p)})
+    nights = sorted({_turn(p) for p in list(starters) + ([sixth] if sixth else []) if _turn(p)})
     if nights and _turn(captain) == nights[0] and len(nights) > 1:
-        later = [p for p in starters if _turn(p) > nights[0]]
+        later = [p for p in list(starters) + ([sixth] if sixth else []) if _turn(p) > nights[0]]  # 6th can swap in
         if later:
             mu = max(expected_pts(p, games) for p in later)
             g += _below(mu, expected_pts(captain, games), captain["_s"])
@@ -190,8 +190,8 @@ def night_split(starters, sixth, bench, captain=None, games=None):
             reasons.append(f"only {cnt[n]} of {len(allp)} play on night {n}")
     if not st_cnt[first]:
         reasons.append("no starter on the first night (no early captain)")
-    if not any(st_cnt[n] for n in nights[1:]):
-        reasons.append("no starter on a later night (no armband switch)")
+    if not any(st_cnt[n] for n in nights[1:]) and not (sixth and _turn(sixth) > first):
+        reasons.append("no starter or 6th man on a later night (no armband switch)")
     uncovered = [a for a, o in swaps.items() if not o and _turn(next(p for p in allp if p["name"] == a)) == first]
     if uncovered:
         reasons.append("no later-night bench player to replace " + ", ".join(n.split(" ", 1)[-1] for n in uncovered))
@@ -291,6 +291,17 @@ def later_subs(starters, sixth, bench, captain, score, games):
     cap = captain["name"]
     if _turn(captain) == first:
         later = [p for p in allp if p["name"] in in_five and _turn(p) > first]
+        # an unplayed 6th man can also take the armband: he swaps into the five with a played starter, who becomes
+        # 6th man (both still count 100%), as long as the formation stays valid
+        if sixth and _turn(sixth) > first and mult.get(sixth["name"]) == 1.0 and sixth["name"] not in in_five:
+            for a in starters:
+                if a["name"] in in_five and _turn(a) == first:
+                    c = dict(pos)
+                    c[a["pos"]] -= 1
+                    c[sixth["pos"]] += 1
+                    if tuple(c[k] for k in POS) in FORMS.values():
+                        later.append(sixth)
+                        break
         if later:
             l = max(later, key=lambda p: exp[p["name"]])
             if exp[l["name"]] > score[cap]:
