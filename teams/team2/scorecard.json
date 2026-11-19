@@ -1,0 +1,445 @@
+{
+ "rounds": {
+  "12": {
+   "round": 12,
+   "report_date": "2026-11-17",
+   "variations": [
+    {
+     "total": 180.0,
+     "coach_pts": 10,
+     "players": [
+      {
+       "name": "Elijah Bryant",
+       "pir": 17,
+       "mult": 1.0,
+       "pts": 18.7
+      },
+      {
+       "name": "Justin Robinson",
+       "pir": 16,
+       "mult": 1.0,
+       "pts": 16.0
+      },
+      {
+       "name": "Andres Feliz",
+       "pir": 15,
+       "mult": 1.0,
+       "pts": 15.0
+      },
+      {
+       "name": "Sasha Vezenkov",
+       "pir": 41,
+       "mult": 2.0,
+       "pts": 90.2
+      },
+      {
+       "name": "Kenan Kamenjas",
+       "pir": 19,
+       "mult": 1.0,
+       "pts": 20.9
+      },
+      {
+       "name": "Cameron Payne",
+       "pir": 5,
+       "mult": 1.0,
+       "pts": 5.0
+      },
+      {
+       "name": "Gabriele Procida",
+       "pir": -1,
+       "mult": 0.5,
+       "pts": -0.5
+      },
+      {
+       "name": "Nikolaos Rogkavopoulos",
+       "pir": -1,
+       "mult": 0.5,
+       "pts": -0.5
+      },
+      {
+       "name": "Ousmane Diop",
+       "pir": 4,
+       "mult": 0.5,
+       "pts": 2.2
+      },
+      {
+       "name": "Vanja Marinkovic",
+       "pir": 6,
+       "mult": 0.5,
+       "pts": 3.0
+      }
+     ],
+     "captain": "Sasha Vezenkov",
+     "captain_pir": 41,
+     "best_captain": "Sasha Vezenkov",
+     "best_captain_pir": 41,
+     "key": "A",
+     "name": "Best shot at 200",
+     "recommended": true,
+     "pred_mean": 152.0,
+     "pred_p90": 194.5,
+     "pred_p_target": 0.072
+    },
+    {
+     "total": 202.5,
+     "coach_pts": 10,
+     "players": [
+      {
+       "name": "Elijah Bryant",
+       "pir": 17,
+       "mult": 1.0,
+       "pts": 18.7
+      },
+      {
+       "name": "Justin Robinson",
+       "pir": 16,
+       "mult": 1.0,
+       "pts": 16.0
+      },
+      {
+       "name": "Andres Feliz",
+       "pir": 15,
+       "mult": 1.0,
+       "pts": 15.0
+      },
+      {
+       "name": "Sasha Vezenkov",
+       "pir": 41,
+       "mult": 2.0,
+       "pts": 90.2
+      },
+      {
+       "name": "Aliou Diarra",
+       "pir": 24,
+       "mult": 1.0,
+       "pts": 26.4
+      },
+      {
+       "name": "Kenan Kamenjas",
+       "pir": 19,
+       "mult": 1.0,
+       "pts": 20.9
+      },
+      {
+       "name": "Gabriele Procida",
+       "pir": -1,
+       "mult": 0.5,
+       "pts": -0.5
+      },
+      {
+       "name": "Nikolaos Rogkavopoulos",
+       "pir": -1,
+       "mult": 0.5,
+       "pts": -0.5
+      },
+      {
+       "name": "Sebastian Herrera",
+       "pir": 6,
+       "mult": 0.5,
+       "pts": 3.3
+      },
+      {
+       "name": "Vanja Marinkovic",
+       "pir": 6,
+       "mult": 0.5,
+       "pts": 3.0
+      }
+     ],
+     "captain": "Sasha Vezenkov",
+     "captain_pir": 41,
+     "best_captain": "Sasha Vezenkov",
+     "best_captain_pir": 41,
+     "key": "B",
+     "name": "Template: Diarra and Zalgiris",
+     "recommended": false,
+     "pred_mean": 155.5,
+     "pred_p90": 193.9,
+     "pred_p_target": 0.069
+    },
+    {
+     "total": 183.9,
+     "coach_pts": 25,
+     "players": [
+      {
+       "name": "Justin Robinson",
+       "pir": 16,
+       "mult": 2.0,
+       "pts": 32.0
+      },
+      {
+       "name": "Theo Maledon",
+       "pir": 26,
+       "mult": 1.0,
+       "pts": 26.0
+      },
+      {
+       "name": "Sasha Vezenkov",
+       "pir": 41,
+       "mult": 1.0,
+       "pts": 45.1
+      },
+      {
+       "name": "Gabriele Procida",
+       "pir": -1,
+       "mult": 1.0,
+       "pts": -1.0
+      },
+      {
+       "name": "Aliou Diarra",
+       "pir": 24,
+       "mult": 1.0,
+       "pts": 26.4
+      },
+      {
+       "name": "Andres Feliz",
+       "pir": 15,
+       "mult": 1.0,
+       "pts": 15.0
+      },
+      {
+       "name": "Kenan Kamenjas",
+       "pir": 19,
+       "mult": 0.5,
+       "pts": 10.5
+      },
+      {
+       "name": "Cameron Payne",
+       "pir": 5,
+       "mult": 0.5,
+       "pts": 2.5
+      },
+      {
+       "name": "Nikolaos Rogkavopoulos",
+       "pir": -1,
+       "mult": 0.5,
+       "pts": -0.5
+      },
+      {
+       "name": "Vanja Marinkovic",
+       "pir": 6,
+       "mult": 0.5,
+       "pts": 3.0
+      }
+     ],
+     "captain": "Justin Robinson",
+     "captain_pir": 16,
+     "best_captain": "Sasha Vezenkov",
+     "best_captain_pir": 41,
+     "key": "C",
+     "name": "Moonshot: Robinson captain, Fenerbahçe coach",
+     "recommended": false,
+     "pred_mean": 151.2,
+     "pred_p90": 190.4,
+     "pred_p_target": 0.053
+    }
+   ],
+   "team": {
+    "total": 180.0,
+    "coach_pts": 10,
+    "players": [
+     {
+      "name": "Elijah Bryant",
+      "pir": 17,
+      "mult": 1.0,
+      "pts": 18.7
+     },
+     {
+      "name": "Justin Robinson",
+      "pir": 16,
+      "mult": 1.0,
+      "pts": 16.0
+     },
+     {
+      "name": "Andres Feliz",
+      "pir": 15,
+      "mult": 1.0,
+      "pts": 15.0
+     },
+     {
+      "name": "Sasha Vezenkov",
+      "pir": 41,
+      "mult": 2.0,
+      "pts": 90.2
+     },
+     {
+      "name": "Kenan Kamenjas",
+      "pir": 19,
+      "mult": 1.0,
+      "pts": 20.9
+     },
+     {
+      "name": "Cameron Payne",
+      "pir": 5,
+      "mult": 1.0,
+      "pts": 5.0
+     },
+     {
+      "name": "Gabriele Procida",
+      "pir": -1,
+      "mult": 0.5,
+      "pts": -0.5
+     },
+     {
+      "name": "Nikolaos Rogkavopoulos",
+      "pir": -1,
+      "mult": 0.5,
+      "pts": -0.5
+     },
+     {
+      "name": "Ousmane Diop",
+      "pir": 4,
+      "mult": 0.5,
+      "pts": 2.2
+     },
+     {
+      "name": "Vanja Marinkovic",
+      "pir": 6,
+      "mult": 0.5,
+      "pts": 3.0
+     }
+    ],
+    "captain": "Sasha Vezenkov",
+    "captain_pir": 41,
+    "best_captain": "Sasha Vezenkov",
+    "best_captain_pir": 41,
+    "source": "assumed: report 2026-11-17 variation A"
+   },
+   "projections": {
+    "n": 218,
+    "bias": 0.68,
+    "mae": 5.58,
+    "inside_p10_p90": 0.812,
+    "below_p10": 23,
+    "above_p90": 18,
+    "by_tier": {
+     "15+": {
+      "n": 10,
+      "bias": 2.68
+     },
+     "8-15": {
+      "n": 96,
+      "bias": -0.26
+     },
+     "<8": {
+      "n": 112,
+      "bias": 1.31
+     }
+    },
+    "upside_misses": [
+     {
+      "name": "Johannes Thiemann",
+      "t": "MUN",
+      "price": 10.6,
+      "owned": null,
+      "proj": 8.8,
+      "pir": 34,
+      "min": 32.8,
+      "kind": "upside"
+     },
+     {
+      "name": "Johnny Juzang",
+      "t": "ULK",
+      "price": 8.4,
+      "owned": null,
+      "proj": 1.9,
+      "pir": 25,
+      "min": 24.9,
+      "kind": "upside"
+     },
+     {
+      "name": "Olek Balcerowski",
+      "t": "BAR",
+      "price": 7.4,
+      "owned": null,
+      "proj": 5,
+      "pir": 28,
+      "min": 22.3,
+      "kind": "upside"
+     },
+     {
+      "name": "Daquan Jeffries",
+      "t": "BES",
+      "price": 6.6,
+      "owned": null,
+      "proj": 2.9,
+      "pir": 24,
+      "min": 24.4,
+      "kind": "upside"
+     },
+     {
+      "name": "Sasha Vezenkov",
+      "t": "OLY",
+      "price": 19.2,
+      "owned": null,
+      "proj": 20.6,
+      "pir": 41,
+      "min": 39.5,
+      "kind": "upside"
+     },
+     {
+      "name": "Shane Larkin",
+      "t": "ULK",
+      "price": 11.3,
+      "owned": null,
+      "proj": 7.2,
+      "pir": 26,
+      "min": 15.5,
+      "kind": "upside"
+     },
+     {
+      "name": "Dzanan Musa",
+      "t": "DUB",
+      "price": 11.7,
+      "owned": null,
+      "proj": 8.5,
+      "pir": 27,
+      "min": 23.7,
+      "kind": "upside"
+     },
+     {
+      "name": "Edwin Jackson",
+      "t": "ASV",
+      "price": 4.0,
+      "owned": null,
+      "proj": 1.7,
+      "pir": 20,
+      "min": 22.8,
+      "kind": "upside"
+     }
+    ],
+    "downside_misses": [
+     {
+      "name": "Luca Vildoza",
+      "t": "PAR",
+      "price": 7.7,
+      "owned": null,
+      "proj": 8.7,
+      "pir": -7,
+      "min": 14.9,
+      "kind": "downside"
+     },
+     {
+      "name": "Derrick Alston Jr.",
+      "t": "VIR",
+      "price": 8.7,
+      "owned": null,
+      "proj": 9.4,
+      "pir": -5,
+      "min": 16.9,
+      "kind": "downside"
+     },
+     {
+      "name": "Nikolaos Rogkavopoulos",
+      "t": "PAN",
+      "price": 4.5,
+      "owned": null,
+      "proj": 9.4,
+      "pir": -1,
+      "min": 6.4,
+      "kind": "downside"
+     }
+    ]
+   }
+  }
+ }
+}
