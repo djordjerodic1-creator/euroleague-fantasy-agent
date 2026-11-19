@@ -138,12 +138,12 @@ Cost 107.7 · bank 0.2 · coach ZAL · captain Sasha Vezenkov · clubs {'PAN': 2
 - OUT Kendrick Nunn (score 14.6): Justin Robinson (BAR, 13.2cr, score 17.2, gain +2.6, own None%); Carlik Jones (PAR, 14.4cr, score 13.8, gain -0.8, own None%); Sylvain Francisco (PAN, 13.7cr, score 12.6, gain -2.0, own None%); Yam Madar (TEL, 10.6cr, score 12.6, gain -2.0, own None%)
 - OUT Theo Maledon (score 14.6): Justin Robinson (BAR, 13.2cr, score 17.2, gain +2.6, own None%); Yam Madar (TEL, 10.6cr, score 12.6, gain -2.0, own None%); Chris Jones (RED, 12.3cr, score 12.3, gain -2.3, own None%); Duane Washington (MUN, 10.1cr, score 12.0, gain -2.6, own None%)
 - OUT Andres Feliz (score 13.6): Duane Washington (MUN, 10.1cr, score 12.0, gain -1.6, own None%); Andreas Obst (MUN, 9.4cr, score 11.9, gain -1.7, own None%); Cameron Payne (IST, 10.0cr, score 11.7, gain -1.9, own None%); Tyson Carter (RED, 7.9cr, score 11.6, gain -2.0, own None%)
-- OUT Dario Brizuela (score 7.9): Cory Joseph (OLY, 6.2cr, score 8.7, gain +0.8, own None%); Sebastian Herrera (PRS, 6.3cr, score 8.0, gain +0.1, own None%); Terry Tarpey (PRS, 6.1cr, score 5.9, gain -2.0, own None%); Justin Minaya (BAR, 5.8cr, score 5.4, gain -2.5, own None%)
+- OUT Dario Brizuela (score 7.9): Vanja Marinkovic (PAR, 4.3cr, score 8.9, gain +1.0, own None%); Cory Joseph (OLY, 6.2cr, score 8.7, gain +0.8, own None%); Sebastian Herrera (PRS, 6.3cr, score 8.0, gain +0.1, own None%); Terry Tarpey (PRS, 6.1cr, score 5.9, gain -2.0, own None%)
 - OUT Sasha Vezenkov (score 24.3): Dwayne Bacon (DUB, 14.5cr, score 15.8, gain -8.5, own None%); Dario Saric (IST, 14.4cr, score 14.5, gain -9.8, own None%); Azuolas Tubelis (ZAL, 13.1cr, score 13.9, gain -10.4, own None%); Jordan Nwora (RED, 13.9cr, score 13.7, gain -10.6, own None%)
-- OUT Collin Malcolm (score 12.0): Oscar Da Silva (MUN, 8.2cr, score 12.3, gain +0.3, own None%); Johnny Juzang (ULK, 9.1cr, score 11.5, gain -0.5, own None%); Tyson Ward (OLY, 8.3cr, score 11.3, gain -0.7, own None%); Evan Fournier (OLY, 9.3cr, score 11.0, gain -1.0, own None%)
-- OUT Nikolaos Rogkavopoulos (score 6.0): Vanja Marinkovic (PAR, 4.3cr, score 8.9, gain +2.9, own None%); Giampaolo Ricci (MIL, 4.0cr, score 3.6, gain -2.4, own None%); Kostas Papanikolaou (OLY, 4.0cr, score 3.5, gain -2.5, own None%); David Lighty (ASV, 4.3cr, score 3.4, gain -2.6, own None%)
-- OUT Dejan Davidovac (score 5.0): Vanja Marinkovic (PAR, 4.3cr, score 8.9, gain +3.9, own None%); Edwin Jackson (ASV, 4.6cr, score 7.9, gain +2.9, own None%); Ognjen Dobric (RED, 4.7cr, score 4.2, gain -0.8, own None%); Giampaolo Ricci (MIL, 4.0cr, score 3.6, gain -1.4, own None%)
-- OUT Aliou Diarra (score 14.2): Johannes Thiemann (MUN, 11.5cr, score 15.8, gain +1.6, own None%); Tonye Jekiri (PAR, 9.9cr, score 13.8, gain -0.4, own None%); Christian Koloko (RED, 10.1cr, score 11.9, gain -2.3, own None%); Eugene Omoruyi (BES, 10.0cr, score 10.5, gain -3.7, own None%)
+- OUT Collin Malcolm (score 12.0): Oscar Da Silva (MUN, 8.2cr, score 12.3, gain +0.3, own None%); Johnny Juzang (ULK, 9.1cr, score 11.5, gain -0.5, own None%); Tyson Ward (OLY, 8.3cr, score 11.3, gain -0.7, own None%); Eugene Omoruyi (BES, 10.0cr, score 10.5, gain -1.5, own None%)
+- OUT Nikolaos Rogkavopoulos (score 6.0): Giampaolo Ricci (MIL, 4.0cr, score 3.6, gain -2.4, own None%); Kostas Papanikolaou (OLY, 4.0cr, score 3.5, gain -2.5, own None%); David Lighty (ASV, 4.3cr, score 3.4, gain -2.6, own None%); Jeremy Morgan (PRS, 4.3cr, score 3.2, gain -2.8, own None%)
+- OUT Dejan Davidovac (score 5.0): Edwin Jackson (ASV, 4.6cr, score 7.9, gain +2.9, own None%); Ognjen Dobric (RED, 4.7cr, score 4.2, gain -0.8, own None%); Giampaolo Ricci (MIL, 4.0cr, score 3.6, gain -1.4, own None%); Kostas Papanikolaou (OLY, 4.0cr, score 3.5, gain -1.5, own None%)
+- OUT Aliou Diarra (score 14.2): Johannes Thiemann (MUN, 11.5cr, score 15.8, gain +1.6, own None%); Tonye Jekiri (PAR, 9.9cr, score 13.8, gain -0.4, own None%); Christian Koloko (RED, 10.1cr, score 11.9, gain -2.3, own None%); Donta Hall (OLY, 9.5cr, score 10.4, gain -3.8, own None%)
 - OUT Kenan Kamenjas (score 13.5): Ousmane Diop (MIL, 4.8cr, score 8.1, gain -5.4, own None%); Bryant Dunston (OLY, 4.4cr, score 4.8, gain -8.7, own None%); Sertac Sanli (ULK, 4.0cr, score 3.6, gain -9.9, own None%); Kaodirichi Akobundu-Ehiogu (ZAL, 5.3cr, score 2.6, gain -10.9, own None%)
 
 ## Guards — market
@@ -161,9 +161,9 @@ Cost 107.7 · bank 0.2 · coach ZAL · captain Sasha Vezenkov · clubs {'PAN': 2
 - Chris Jones (RED) 12.3cr own None% · playing · Δ3 -0.9 · L3/L10 12/12.7 · min 21.3/20.2 · R13 @BAR 12.3 (diff 2/5) · Δprice None · sig buy
 - Duane Washington (MUN) 10.1cr own None% · playing · Δ3 0.5 · L3/L10 14.7/11.4 · min 22.5/20.7 · R13 vsBAS 12 (diff 3/5, B2B) · Δprice None · sig hold
 **Cheap value (≤9 cr):**
+- Vanja Marinkovic (PAR) 4.3cr own None% · playing · Δ3 None · L3/L10 5.3/5.3 · min 20.7/20.7 · R13 vsBES 8.9 (diff 2/5) · Δprice None · sig buy
 - Tyson Carter (RED) 7.9cr own None% · playing · Δ3 1.5 · L3/L10 11.3/9.8 · min 24.6/19.5 · R13 @BAR 11.6 (diff 2/5) · Δprice None · sig buy
 - Cory Joseph (OLY) 6.2cr own None% · playing · Δ3 2.5 · L3/L10 12/5.3 · min 25/18.6 · R13 vsMAD 8.7 (diff 2/5) · Δprice None · sig hold
-- Marius Grigonis (ZAL) 7.5cr own None% · playing · Δ3 1.5 · L3/L10 13/10 · min 21.4/18.5 · R13 vsPAN 9.6 (diff 4/5, B2B) · Δprice None · sig hold
 - Dario Brizuela (BAR) 6.2cr own None% · playing · Δ3 0.5 · L3/L10 10/4.7 · min 18.6/18.5 · R13 vsRED 7.9 (diff 2/5) · Δprice None · sig hold
 - Sebastian Herrera (PRS) 6.3cr own None% · playing · Δ3 0.1 · L3/L10 8.3/8 · min 21/20.7 · R13 vsHTA 8 (diff 5/5, B2B) · Δprice None · sig hold
 - Alvaro Cardenas (PAM) 4.3cr own None% · playing · Δ3 0.2 · L3/L10 5/4.1 · min 14.7/12.4 · R13 vsVIR 5.3 (diff 3/5, B2B) · Δprice None · sig hold
@@ -186,7 +186,6 @@ Cost 107.7 · bank 0.2 · coach ZAL · captain Sasha Vezenkov · clubs {'PAN': 2
 - Johnny Juzang (ULK) 9.1cr own None% · playing · Δ3 2.8 · L3/L10 9.3/8.2 · min 12.5/10.6 · R13 @MIL 11.5 (diff 3/5, B2B) · Δprice None · sig buy
 - Tyson Ward (OLY) 8.3cr own None% · playing · Δ3 -0.6 · L3/L10 6/8.5 · min 24.8/23.6 · R13 vsMAD 11.3 (diff 2/5) · Δprice None · sig buy
 **Cheap value (≤9 cr):**
-- Vanja Marinkovic (PAR) 4.3cr own None% · playing · Δ3 None · L3/L10 5.3/5.3 · min 20.7/20.7 · R13 vsBES 8.9 (diff 2/5) · Δprice None · sig buy
 - Edwin Jackson (ASV) 4.6cr own None% · playing · Δ3 None · L3/L10 12.3/12.3 · min 19.3/19.3 · R13 @IST 7.9 (diff 5/5) · Δprice None · sig hold
 - Clement Frisch (BAS) 5.5cr own None% · playing · Δ3 1.4 · L3/L10 10/7.1 · min 23.7/16.7 · R13 @MUN 8.7 (diff 5/5, B2B) · Δprice None · sig hold
 - Oscar Da Silva (MUN) 8.2cr own None% · playing · Δ3 1.0 · L3/L10 14/10.7 · min 23.6/18.9 · R13 vsBAS 12.3 (diff 5/5, B2B) · Δprice None · sig hold
@@ -194,6 +193,7 @@ Cost 107.7 · bank 0.2 · coach ZAL · captain Sasha Vezenkov · clubs {'PAN': 2
 - Nikolaos Rogkavopoulos (PAN) 4.3cr own None% · None · Δ3 None · L3/L10 4/7.5 · min 8.4/11.1 · R13 @ZAL 6.0 (diff 5/5, B2B) · Δprice None · sig hold
 - Tyson Ward (OLY) 8.3cr own None% · playing · Δ3 -0.6 · L3/L10 6/8.5 · min 24.8/23.6 · R13 vsMAD 11.3 (diff 2/5) · Δprice None · sig buy
 - Robert Franks (PAR) 7.9cr own None% · playing · Δ3 None · L3/L10 11.7/10.4 · min 19.6/19.5 · R13 vsBES 10.3 (diff 2/5) · Δprice None · sig hold
+- Marius Grigonis (ZAL) 7.5cr own None% · playing · Δ3 1.5 · L3/L10 13/10 · min 21.4/18.5 · R13 vsPAN 9.6 (diff 4/5, B2B) · Δprice None · sig hold
 **Differentials (<5% owned):**
 
 ## Centers — market
@@ -217,8 +217,8 @@ Cost 107.7 · bank 0.2 · coach ZAL · captain Sasha Vezenkov · clubs {'PAN': 2
 - Nikola Tanaskovic (PAR) 8.4cr own None% · playing · Δ3 0.9 · L3/L10 12/8.8 · min 24.7/19.8 · R13 vsBES 9.9 (diff 5/5) · Δprice None · sig hold
 - Allan Dokossi (PRS) 9.0cr own None% · playing · Δ3 0.7 · L3/L10 10.3/11.9 · min 17.3/18.5 · R13 vsHTA 10.2 (diff 1/5, B2B) · Δprice None · sig hold
 - Olek Balcerowski (BAR) 8.2cr own None% · playing · Δ3 0.3 · L3/L10 11.7/7.5 · min 13.2/14.4 · R13 vsRED 9.2 (diff 2/5) · Δprice None · sig hold
+- Jasiel Rivero (PAM) 8.1cr own None% · playing · Δ3 1.1 · L3/L10 13/8.1 · min 18.7/15.8 · R13 vsVIR 9 (diff 1/5, B2B) · Δprice None · sig hold
 - Bryant Dunston (OLY) 4.4cr own None% · playing · Δ3 None · L3/L10 3/3 · min 14.3/14.3 · R13 vsMAD 4.8 (diff 4/5) · Δprice None · sig hold
-- Mathis Dossou-Yovo (ASV) 8.9cr own None% · playing · Δ3 None · L3/L10 14.5/14.5 · min 15.1/15.1 · R13 @IST 9.7 (diff 2/5) · Δprice None · sig hold
 **Differentials (<5% owned):**
 
 ## Round 13 game previews (site model)
@@ -310,16 +310,16 @@ https://basketballstats.eu/en/game/zalgiris-panathinaikos-13/
 Projections lag role changes; these are the likeliest upside misses. Consider them for the 6th-man and bench slots.
 - Oscar Da Silva (MUN, Forward, 8.2 cr, owned None%): minutes 18 → 27 over the last 2 games; Vladimir Lucic (injured) was playing 22 min at forward · PIR last 2: 16.5 · 0.57 PIR/min → ~15.3 if the role holds
 - Scottie Wilbekin (BES, Guard, 9.0 cr, owned None%): minutes 20 → 27 over the last 2 games; Jaylen Nowell (injured) was playing 21 min at guard · PIR last 2: 13.0 · 0.49 PIR/min → ~13.4 if the role holds
-- Lamar Stevens (PAR, Forward, 8.8 cr, owned None%): Ethan Thompson (injured) was playing 23 min at forward · PIR last 2: 13.5 · 0.54 PIR/min → ~12.4 if the role holds
-- Marius Grigonis (ZAL, Guard, 7.5 cr, owned None%): minutes 16 → 23 over the last 2 games; Nigel Williams-Goss (injured) was playing 19 min at guard · PIR last 2: 12.5 · 0.52 PIR/min → ~11.8 if the role holds
+- Marius Grigonis (ZAL, Forward, 7.5 cr, owned None%): minutes 16 → 23 over the last 2 games · PIR last 2: 12.5 · 0.52 PIR/min → ~11.8 if the role holds
 - Mbaye Ndiaye (OLY, Forward, 8.5 cr, owned None%): John Konchar (injured) was playing 18 min at forward · PIR last 2: 10.5 · 0.62 PIR/min → ~11.3 if the role holds
 - Mouhamet Diouf (VIR, Center, 8.6 cr, owned None%): minutes 10 → 19 over the last 2 games · PIR last 2: 18.0 · 0.59 PIR/min → ~11.1 if the role holds
 - Nikola Tanaskovic (PAR, Center, 8.4 cr, owned None%): Kevarrius Hayes (injured) was playing 22 min at center · PIR last 2: 8.5 · 0.45 PIR/min → ~10.9 if the role holds
-- Robert Franks (PAR, Forward, 7.9 cr, owned None%): Ethan Thompson (injured) was playing 23 min at forward · PIR last 2: 9.0 · 0.53 PIR/min → ~10.5 if the role holds
 - Tyson Ward (OLY, Forward, 8.3 cr, owned None%): John Konchar (injured) was playing 18 min at forward · PIR last 2: 10.0 · 0.39 PIR/min → ~10.2 if the role holds
-- A.J. Lawson (BAS, Forward, 8.5 cr, owned None%): Tadas Sedekerskis (injured) was playing 18 min at forward · PIR last 2: 5.5 · 0.4 PIR/min → ~9.8 if the role holds
 - Marcio Santos (BAS, Center, 7.9 cr, owned None%): Kenneth Faried (injured) was playing 23 min at center · PIR last 2: 10.0 · 0.58 PIR/min → ~9.6 if the role holds
-- Dj Stewart (BAS, Forward, 8.6 cr, owned None%): Tadas Sedekerskis (injured) was playing 18 min at forward · PIR last 2: 11.0 · 0.37 PIR/min → ~9.4 if the role holds
+- Clement Frisch (BAS, Forward, 5.5 cr, owned None%): Tadas Sedekerskis (injured) was playing 18 min at forward · PIR last 2: 8.5 · 0.43 PIR/min → ~9.3 if the role holds
+- Semi Ojeleye (RED, Forward, 7.9 cr, owned None%): Chima Moneke (injured) was playing 19 min at forward · PIR last 2: 3.5 · 0.41 PIR/min → ~9.1 if the role holds
+- Olivier Nkamhoua (BAR, Forward, 7.1 cr, owned None%): minutes 10 → 19 over the last 2 games · PIR last 2: 11.5 · 0.47 PIR/min → ~8.8 if the role holds
+- Darius Thompson (MIL, Guard, 8.0 cr, owned None%): minutes 17 → 24 over the last 2 games · PIR last 2: 17.0 · 0.35 PIR/min → ~8.6 if the role holds
 
 ## Minutes / role changes flagged by site model
 - BALDWIN, KAMAR (TEL) transfer: None → 3.7

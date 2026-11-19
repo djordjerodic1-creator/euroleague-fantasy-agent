@@ -548,6 +548,8 @@ def main():
                 q = cand[0] if len(cand) == 1 else None
             if q and val:
                 q["price"], q["price_src"] = float(val), "app"
+                if inf.get("pos") in ("Guard", "Forward", "Center"):  # the official game's position beats the site's
+                    q["pos"] = inf["pos"]
                 app_n += 1
             else:
                 missed.append(nm)

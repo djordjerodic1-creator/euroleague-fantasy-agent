@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T09:17",
+ "generated": "2026-11-19T09:25",
  "today": "2026-11-19",
  "source_round": 13,
  "rounds_in_progress": [
@@ -213,11 +213,11 @@
      "owned": null
     },
     {
-     "name": "Jimmy Clark Iii",
-     "team": "TEL",
-     "price": 9.6,
-     "score": 10.9,
-     "gain": -2.7,
+     "name": "Evan Fournier",
+     "team": "OLY",
+     "price": 9.3,
+     "score": 11.0,
+     "gain": -2.6,
      "owned": null
     }
    ]
@@ -226,6 +226,14 @@
    "out": "Dario Brizuela",
    "out_score": 7.9,
    "options": [
+    {
+     "name": "Vanja Marinkovic",
+     "team": "PAR",
+     "price": 4.3,
+     "score": 8.9,
+     "gain": 1.0,
+     "owned": null
+    },
     {
      "name": "Cory Joseph",
      "team": "OLY",
@@ -248,14 +256,6 @@
      "price": 6.1,
      "score": 5.9,
      "gain": -2.0,
-     "owned": null
-    },
-    {
-     "name": "Justin Minaya",
-     "team": "BAR",
-     "price": 5.8,
-     "score": 5.4,
-     "gain": -2.5,
      "owned": null
     },
     {
@@ -343,19 +343,19 @@
      "owned": null
     },
     {
-     "name": "Evan Fournier",
-     "team": "OLY",
-     "price": 9.3,
-     "score": 11.0,
-     "gain": -1.0,
+     "name": "Eugene Omoruyi",
+     "team": "BES",
+     "price": 10.0,
+     "score": 10.5,
+     "gain": -1.5,
      "owned": null
     },
     {
-     "name": "Chris Duarte",
-     "team": "BAS",
-     "price": 9.8,
-     "score": 10.4,
-     "gain": -1.6,
+     "name": "Robert Franks",
+     "team": "PAR",
+     "price": 7.9,
+     "score": 10.3,
+     "gain": -1.7,
      "owned": null
     }
    ]
@@ -364,14 +364,6 @@
    "out": "Nikolaos Rogkavopoulos",
    "out_score": 6.0,
    "options": [
-    {
-     "name": "Vanja Marinkovic",
-     "team": "PAR",
-     "price": 4.3,
-     "score": 8.9,
-     "gain": 2.9,
-     "owned": null
-    },
     {
      "name": "Giampaolo Ricci",
      "team": "MIL",
@@ -403,6 +395,14 @@
      "score": 3.2,
      "gain": -2.8,
      "owned": null
+    },
+    {
+     "name": "Metecan Birsen",
+     "team": "BES",
+     "price": 4.2,
+     "score": 2.6,
+     "gain": -3.4,
+     "owned": null
     }
    ]
   },
@@ -410,14 +410,6 @@
    "out": "Dejan Davidovac",
    "out_score": 5.0,
    "options": [
-    {
-     "name": "Vanja Marinkovic",
-     "team": "PAR",
-     "price": 4.3,
-     "score": 8.9,
-     "gain": 3.9,
-     "owned": null
-    },
     {
      "name": "Edwin Jackson",
      "team": "ASV",
@@ -448,6 +440,14 @@
      "price": 4.0,
      "score": 3.5,
      "gain": -1.5,
+     "owned": null
+    },
+    {
+     "name": "David Lighty",
+     "team": "ASV",
+     "price": 4.3,
+     "score": 3.4,
+     "gain": -1.6,
      "owned": null
     }
    ]
@@ -481,17 +481,17 @@
      "owned": null
     },
     {
-     "name": "Eugene Omoruyi",
-     "team": "BES",
-     "price": 10.0,
-     "score": 10.5,
-     "gain": -3.7,
-     "owned": null
-    },
-    {
      "name": "Donta Hall",
      "team": "OLY",
      "price": 9.5,
+     "score": 10.4,
+     "gain": -3.8,
+     "owned": null
+    },
+    {
+     "name": "Neal Sako",
+     "team": "PAM",
+     "price": 9.6,
      "score": 10.4,
      "gain": -3.8,
      "owned": null
@@ -535,11 +535,11 @@
      "owned": null
     },
     {
-     "name": "Metecan Birsen",
-     "team": "BES",
-     "price": 4.2,
-     "score": 2.6,
-     "gain": -10.9,
+     "name": "Chris Silva",
+     "team": "PAR",
+     "price": 5.5,
+     "score": 1.2,
+     "gain": -12.3,
      "owned": null
     }
    ]
@@ -901,24 +901,9 @@
    ]
   },
   {
-   "name": "Lamar Stevens",
-   "t": "PAR",
-   "pos": "Forward",
-   "price": 8.8,
-   "owned": null,
-   "min_last2": 23.1,
-   "min_before": 20.0,
-   "pir_last2": 13.5,
-   "pir_per_min": 0.54,
-   "est_pir_if_role_holds": 12.4,
-   "reasons": [
-    "Ethan Thompson (injured) was playing 23 min at forward"
-   ]
-  },
-  {
    "name": "Marius Grigonis",
    "t": "ZAL",
-   "pos": "Guard",
+   "pos": "Forward",
    "price": 7.5,
    "owned": null,
    "min_last2": 22.9,
@@ -927,8 +912,7 @@
    "pir_per_min": 0.52,
    "est_pir_if_role_holds": 11.8,
    "reasons": [
-    "minutes 16 → 23 over the last 2 games",
-    "Nigel Williams-Goss (injured) was playing 19 min at guard"
+    "minutes 16 → 23 over the last 2 games"
    ]
   },
   {
@@ -977,21 +961,6 @@
    ]
   },
   {
-   "name": "Robert Franks",
-   "t": "PAR",
-   "pos": "Forward",
-   "price": 7.9,
-   "owned": null,
-   "min_last2": 19.8,
-   "min_before": 19.4,
-   "pir_last2": 9.0,
-   "pir_per_min": 0.53,
-   "est_pir_if_role_holds": 10.5,
-   "reasons": [
-    "Ethan Thompson (injured) was playing 23 min at forward"
-   ]
-  },
-  {
    "name": "Tyson Ward",
    "t": "OLY",
    "pos": "Forward",
@@ -1004,21 +973,6 @@
    "est_pir_if_role_holds": 10.2,
    "reasons": [
     "John Konchar (injured) was playing 18 min at forward"
-   ]
-  },
-  {
-   "name": "A.J. Lawson",
-   "t": "BAS",
-   "pos": "Forward",
-   "price": 8.5,
-   "owned": null,
-   "min_last2": 17.8,
-   "min_before": 24.5,
-   "pir_last2": 5.5,
-   "pir_per_min": 0.4,
-   "est_pir_if_role_holds": 9.8,
-   "reasons": [
-    "Tadas Sedekerskis (injured) was playing 18 min at forward"
    ]
   },
   {
@@ -1037,18 +991,63 @@
    ]
   },
   {
-   "name": "Dj Stewart",
+   "name": "Clement Frisch",
    "t": "BAS",
    "pos": "Forward",
-   "price": 8.6,
+   "price": 5.5,
    "owned": null,
-   "min_last2": 25.8,
-   "min_before": 24.2,
-   "pir_last2": 11.0,
-   "pir_per_min": 0.37,
-   "est_pir_if_role_holds": 9.4,
+   "min_last2": 21.9,
+   "min_before": 17.6,
+   "pir_last2": 8.5,
+   "pir_per_min": 0.43,
+   "est_pir_if_role_holds": 9.3,
    "reasons": [
     "Tadas Sedekerskis (injured) was playing 18 min at forward"
+   ]
+  },
+  {
+   "name": "Semi Ojeleye",
+   "t": "RED",
+   "pos": "Forward",
+   "price": 7.9,
+   "owned": null,
+   "min_last2": 17.8,
+   "min_before": 22.2,
+   "pir_last2": 3.5,
+   "pir_per_min": 0.41,
+   "est_pir_if_role_holds": 9.1,
+   "reasons": [
+    "Chima Moneke (injured) was playing 19 min at forward"
+   ]
+  },
+  {
+   "name": "Olivier Nkamhoua",
+   "t": "BAR",
+   "pos": "Forward",
+   "price": 7.1,
+   "owned": null,
+   "min_last2": 18.7,
+   "min_before": 10.3,
+   "pir_last2": 11.5,
+   "pir_per_min": 0.47,
+   "est_pir_if_role_holds": 8.8,
+   "reasons": [
+    "minutes 10 → 19 over the last 2 games"
+   ]
+  },
+  {
+   "name": "Darius Thompson",
+   "t": "MIL",
+   "pos": "Guard",
+   "price": 8.0,
+   "owned": null,
+   "min_last2": 24.3,
+   "min_before": 17.2,
+   "pir_last2": 17.0,
+   "pir_per_min": 0.35,
+   "est_pir_if_role_holds": 8.6,
+   "reasons": [
+    "minutes 17 → 24 over the last 2 games"
    ]
   }
  ],

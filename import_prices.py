@@ -69,7 +69,7 @@ def main():
             continue
         prices[name] = q
         info[name] = {"t": CLUB.get((x.get("team") or {}).get("abbreviation")), "last": x.get("last_name", ""),
-                      "injured": bool(x.get("is_injured")), "p_play": x.get("probability_of_playing"),
+                      "pos": (x.get("position") or {}).get("name"), "injured": bool(x.get("is_injured")), "p_play": x.get("probability_of_playing"),
                       "owned": round(100 * (x.get("popularity") or 0), 1)}
     out = {"round": rnd, "updated": dt.date.today().isoformat(), "source": "official game (browser HAR)",
            "prices": dict(sorted(prices.items())), "coaches": dict(sorted(coaches.items())), "info": info}

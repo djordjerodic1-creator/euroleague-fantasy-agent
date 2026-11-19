@@ -6,8 +6,8 @@
   "bank": 0.2
  },
  "window": "R13: 4 trades, open until Thursday's first tip-off (19 Nov, 19:15 Athens / 18:15 Budapest, Maccabi–Dubai) · unlimited before R14 (21–24 Nov)",
- "generated": "2026-11-19T11:30Z",
- "bottom_line": "R13 plan: Maledon → Bryant, Malcolm → Marinković, Diarra → Thiemann and coach Masiulis (ZAL) → Albert (PAM). That's about 12% for 200, against 4% with no trades. The unlimited window before R14 resets the squad anyway, so spend all 4 trades on this round only. Captain Bryant on Thursday and move the armband to Vezenkov on Friday unless Bryant has 30+.",
+ "generated": "2026-11-19T12:30Z",
+ "bottom_line": "R13 plan: Maledon → Bryant, Malcolm → Edwin Jackson, Diarra → Thiemann and coach Masiulis (ZAL) → Albert (PAM). That's about 12% for 200, against 4% with no trades. The unlimited window before R14 resets the squad anyway, so spend all 4 trades on this round only. Captain Bryant on Thursday and move the armband to Vezenkov on Friday unless Bryant has 30+.",
  "current_fix": "If you make no trades, your lineup is already right: 3-1-1 Maledon, Nunn, Feliz / Vezenkov (C) / Diarra, Kamenjas 6th man, bench Rogkavopoulos, Malcolm, Davidovac, Brizuela.",
  "variations": [
   {
@@ -25,9 +25,9 @@
     },
     {
      "out": "Collin Malcolm (10.1)",
-     "in": "Vanja Marinkovic (4.3)",
-     "credits": "+5.8",
-     "why": "Pays for Bryant. Malcolm had 6 PIR at Dubai and was a bench player (50%) in this squad anyway. Marinković has started since his Achilles comeback (20.7' over the last 3), home to Beşiktaş. [dom: ABA early Nov vs Cluj, played (return), max-sport.rs]"
+     "in": "Edwin Jackson (4.6)",
+     "credits": "+5.5",
+     "why": "Pays for Bryant. Malcolm had 6 PIR at Dubai and was a bench player (50%) here anyway. 12.3 PIR over his last 3 in 19' at 4.6, a real forward (the game lists Marinković as a Guard). At Efes, a bench slot at 50%. [dom: LNB unverified after 2 searches]"
     },
     {
      "out": "Aliou Diarra (11.3)",
@@ -42,7 +42,7 @@
      "why": "Zalgiris–PAO is close to a coin flip (site 54–59%). Valencia (9-3, 1st) host Virtus (5-7) at 79–86%, with five wins in their last six at home against them: the best shot at a +20 coach score."
     }
    ],
-   "bank_after": 0.5,
+   "bank_after": 0.2,
    "formation": "3-1-1",
    "starters": [
     "Elijah Bryant",
@@ -54,7 +54,7 @@
    "sixth": "Kenan Kamenjas",
    "bench": [
     "Dario Brizuela",
-    "Vanja Marinkovic",
+    "Edwin Jackson",
     "Dejan Davidovac",
     "Nikolaos Rogkavopoulos"
    ],
@@ -67,12 +67,12 @@
     "About 12% chance (1 in 8) of 200, joint best of the optimiser's plans, against 4% with no trades. The unlimited window before R14 rebuilds the squad anyway, so nothing is bought for the long term.",
     "Correlation: Vezenkov (C) wins with Olympiacos; holding Maledon and Feliz in active slots bets on Madrid at the same time. This keeps Feliz (27' a night, Madrid's only fit point guard with Campazzo out) and drops Maledon.",
     "Coach lens: Baskonia have three fit bigs, so Kamenjas (19 PIR, 31' on his debut) plays big minutes against Thiemann on Thursday. The two centres are on opposite sides, but a fast, foul-heavy game helps both, and Kamenjas only plays at 6th-man value.",
-    "Cheap upside watch: Marinković (a starter at 4.3) is the pick for the bench slot. Da Silva (MUN, 8.2) was the other option, but there was no money left after Bryant.",
+    "Cheap upside watch: Edwin Jackson (4.6, 12.3 PIR over his last 3) takes the bench forward slot. Marinković is a Guard in the game, so he doesn't fit. Da Silva (MUN, 8.2) was the other option, but there was no money left after Bryant.",
     "Nunn stays: 21.7 PIR over his last 3 and listed in the travelling squad for Kaunas. The Zalgiris defence (DRtg rank 1) caps his ceiling, but selling him costs more than it gains."
    ],
    "cancel_if": [
-    "If Bryant is ruled out before 18:15 Budapest, make trade 1 Maledon → Robinson (BAR, 13.2) instead and keep the other three (bank 4.9).",
-    "If Thiemann is missing from Bayern's list, keep Diarra and make trade 3 Davidovac → Edwin Jackson (ASV, 4.6) instead (bank 0.7)."
+    "If Bryant is ruled out before 18:15 Budapest, make trade 1 Maledon → Robinson (BAR, 13.2) instead and keep the other three (bank 4.6).",
+    "If Thiemann is missing from Bayern's list, keep Diarra and use trade 3 on Davidovac → Procida (MAD, 5.0) instead (bank 0.0)."
    ]
   },
   {
@@ -90,9 +90,9 @@
     },
     {
      "out": "Dejan Davidovac (4.6)",
-     "in": "Vanja Marinkovic (4.3)",
-     "credits": "+0.3",
-     "why": "Davidovac missed Zvezda's ABA game on 15 Nov (adductor) and has had 1–8 PIR in 11–15'. Marinković starts for Partizan. [dom: ABA early Nov vs Cluj, played, max-sport.rs]"
+     "in": "Edwin Jackson (4.6)",
+     "credits": "0.0",
+     "why": "Davidovac missed Zvezda's ABA game on 15 Nov (adductor) and has had 1–8 PIR in 11–15'. Jackson is a starter-level forward at the same price. 12.3 PIR over his last 3 in 19' at 4.6, a real forward (the game lists Marinković as a Guard). At Efes, a bench slot at 50%. [dom: LNB unverified after 2 searches]"
     },
     {
      "out": "Aliou Diarra (11.3)",
@@ -107,7 +107,7 @@
      "why": "Valencia are the round's biggest favourites at home to Virtus."
     }
    ],
-   "bank_after": 0.8,
+   "bank_after": 0.5,
    "formation": "2-2-1",
    "starters": [
     "Justin Robinson",
@@ -120,7 +120,7 @@
    "bench": [
     "Kenan Kamenjas",
     "Dario Brizuela",
-    "Vanja Marinkovic",
+    "Edwin Jackson",
     "Nikolaos Rogkavopoulos"
    ],
    "coach": "Valencia",
@@ -135,7 +135,7 @@
    ],
    "cancel_if": [
     "If Barcelona say Hayes will play big minutes on Friday, swap trade 1 for Maledon → Bryant (as in A).",
-    "If Thiemann is missing from Bayern's list, keep Diarra and use trade 3 on Rogkavopoulos → Edwin Jackson (ASV, 4.6) (bank 0.7)."
+    "If Thiemann is missing from Bayern's list, keep Diarra and use trade 3 on Rogkavopoulos → Procida (MAD, 5.0) (bank 0.0)."
    ]
   },
   {
@@ -153,9 +153,9 @@
     },
     {
      "out": "Collin Malcolm (10.1)",
-     "in": "Vanja Marinkovic (4.3)",
-     "credits": "+5.8",
-     "why": "Pays for the upgrades; a bench slot. [dom: ABA early Nov, played, max-sport.rs]"
+     "in": "Edwin Jackson (4.6)",
+     "credits": "+5.5",
+     "why": "Pays for the upgrades; a bench slot. 12.3 PIR over his last 3 in 19' at 4.6, a real forward (the game lists Marinković as a Guard). At Efes, a bench slot at 50%. [dom: LNB unverified after 2 searches]"
     },
     {
      "out": "Aliou Diarra (11.3)",
@@ -170,7 +170,7 @@
      "why": "Bayern are 67% at home to winless-streak Baskonia, and at 4.0 he funds Kabengele. Note: Kamenjas plays for the other side."
     }
    ],
-   "bank_after": 0.4,
+   "bank_after": 0.1,
    "formation": "3-1-1",
    "starters": [
     "Elijah Bryant",
@@ -182,7 +182,7 @@
    "sixth": "Kenan Kamenjas",
    "bench": [
     "Dario Brizuela",
-    "Vanja Marinkovic",
+    "Edwin Jackson",
     "Dejan Davidovac",
     "Nikolaos Rogkavopoulos"
    ],
@@ -197,11 +197,15 @@
     "Kabengele in the Maccabi game: Maccabi are 3-9 and lost Lundberg for months, and Dubai's bigs have the size edge."
    ],
    "cancel_if": [
-    "If Kabengele is listed out, do Diarra → Thiemann and keep coach Masiulis (ZAL) (bank 1.6, three trades)."
+    "If Kabengele is listed out, do Diarra → Thiemann and keep coach Masiulis (ZAL) (bank 1.3, three trades)."
    ]
   }
  ],
  "alerts": [
+  {
+   "level": "high",
+   "text": "Correction (12:30): the first version of this report bought Marinković for a Forward, but the official game lists him as a Guard, which gives 5 guards. The plans now buy Edwin Jackson (ASV, 4.6) instead. The collector now uses the game's official positions (20 players differed from the site's)."
+  },
   {
    "level": "high",
    "text": "Team updated from your screenshot (19 Nov): Maledon and Davidovac were in the squad, not Robinson and Joksimović, and the bank is 0.2 (confirmed). All three plans start from that squad."
@@ -342,8 +346,12 @@
   {
    "name": "Edwin Jackson (ASV, 4.6)",
    "why": "12.3 PIR over his last 3 at 4.6: the best cheap forward for the window."
+  },
+  {
+   "name": "Vanja Marinkovic (PAR, 4.3, Guard)",
+   "why": "A starter's minutes at the minimum price; a cheap Guard option in the window."
   }
  ],
  "review": "R12: your squad (Variation B of the 17 Nov report) scored 206, so you reached the 200 target. Variation A would have scored 194, against 152 predicted. Captain Vezenkov's 41 (90 points doubled, with the win bonus) was the best possible captain. Maledon (26) and Diarra (24) beat their projections; Malcolm (6) and Rogkavopoulos (−1) were the misses. Projection error was 5.6 PIR per player (bias +0.7). Lesson kept: bigs returning to a full role (Kamenjas) are under-projected, and players coming back from injury (Rogkavopoulos) are over-projected. This report started from your real squad (from the screenshot), not the assumed one, because the tracking had Robinson and Joksimović wrongly. Research: ≈20 searches, 8 pages read, 6 players unverified.",
- "window_plan": "The rebuild's best plan sells Nunn, Brizuela, Malcolm, Rogkavopoulos and Davidovac for Bryant, Frisch, Herrera, Edwin Jackson and Marinković, with coach Martinez (RMB): about 9.7% a round over R14–R16. Variation A already buys Bryant and Marinković, so the window costs fewer changes. I'd wait on Robinson until Hayes's role is clear, and re-buy Maledon or Diarra only on full minutes this round. Nothing has to be bought before the window: the price moves are too small to matter."
+ "window_plan": "The rebuild's best plan sells Nunn, Brizuela, Malcolm, Rogkavopoulos and Davidovac for Bryant, Frisch, Herrera, Edwin Jackson and Marinković, with coach Martinez (RMB): about 9.7% a round over R14–R16. Variation A already buys Bryant and Edwin Jackson, so the window costs fewer changes. I'd wait on Robinson until Hayes's role is clear, and re-buy Maledon or Diarra only on full minutes this round. Nothing has to be bought before the window: the price moves are too small to matter."
 }
