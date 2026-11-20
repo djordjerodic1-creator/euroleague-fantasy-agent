@@ -1,65 +1,48 @@
 {
   "_note": "Real squad from the user's screenshot (Round 11, 12 Nov 2026). Maintained by the agent: after each trade deadline it applies Variation A of the latest report unless the user reports otherwise (see PLAYBOOK.md, Team tracking).",
-  "round": 13,
+  "round": 14,
   "players": [
     "Kendrick Nunn",
-    "Theo Maledon",
+    "Justin Robinson",
     "Andres Feliz",
-    "Dario Brizuela",
+    "Vanja Marinkovic",
     "Sasha Vezenkov",
     "Collin Malcolm",
     "Nikolaos Rogkavopoulos",
-    "Dejan Davidovac",
+    "Oscar Da Silva",
     "Aliou Diarra",
     "Kenan Kamenjas"
   ],
   "lineup": {
     "starters": [
-      "Theo Maledon",
       "Kendrick Nunn",
-      "Andres Feliz",
       "Sasha Vezenkov",
-      "Aliou Diarra"
+      "Oscar Da Silva",
+      "Aliou Diarra",
+      "Kenan Kamenjas"
     ],
-    "sixth": "Kenan Kamenjas",
+    "sixth": "Justin Robinson",
     "bench": [
-      "Nikolaos Rogkavopoulos",
+      "Andres Feliz",
       "Collin Malcolm",
-      "Dejan Davidovac",
-      "Dario Brizuela"
+      "Vanja Marinkovic",
+      "Nikolaos Rogkavopoulos"
     ]
   },
   "captain": "Sasha Vezenkov",
-  "coach": "Zalgiris",
+  "coach": "Anadolu Efes",
   "bank": 0.2,
   "bank_known": true,
   "total_budget": 107.9,
   "trades_left_this_round": 4,
   "tracking": {
-    "source": "user",
-    "updated": "2026-11-19",
-    "last_applied_report": "2026-11-17"
+    "source": "assumed: report 2026-11-19 variation A",
+    "updated": "2026-11-20",
+    "last_applied_report": "2026-11-19"
   },
   "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. 19 Nov (user screenshot, R13 before trades): Maledon and Davidovac in the squad (not Robinson/Joksimovic); app shows 0.2/107.9, trades 0/4, formation 3-1-1, captain Vezenkov, coach Masiulis (ZAL).",
   "target_points": 200,
   "app_prices": {
     "_note": "See app_prices.json (official game HAR, round 13, 19 Nov)."
-  },
-  "round_start": {
-    "round": 13,
-    "players": [
-      "Kendrick Nunn",
-      "Theo Maledon",
-      "Andres Feliz",
-      "Dario Brizuela",
-      "Sasha Vezenkov",
-      "Collin Malcolm",
-      "Nikolaos Rogkavopoulos",
-      "Dejan Davidovac",
-      "Aliou Diarra",
-      "Kenan Kamenjas"
-    ],
-    "coach": "Zalgiris",
-    "bank": 0.2
   }
 }

@@ -559,6 +559,15 @@ def main():
                 if c.get("t") in app["coaches"]:
                     c["price"] = app["coaches"][c["t"]]
             (OUT / "projections.json").write_text(json.dumps(proj, ensure_ascii=False), encoding="utf-8")
+    elif app.get("info"):  # older prices, but positions don't change between rounds: keep the game's
+        by_name = {norm(p["name"]): p for p in pool.values()}
+        pos_n = 0
+        for nm, inf in app["info"].items():
+            q = by_name.get(norm(nm))
+            if q and inf.get("pos") in ("Guard", "Forward", "Center") and q.get("pos") != inf["pos"]:
+                q["pos"] = inf["pos"]
+                pos_n += 1
+        print(f"  app prices are for round {app.get('round')} (target {target}): prices from the site, {pos_n} official positions applied")
     ov_n = apply_overrides(pool, target, app)
     for p in pool.values():
         p["score"] = window_score(p, horizon) if p.get("nx") else None

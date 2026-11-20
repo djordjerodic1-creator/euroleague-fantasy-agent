@@ -1,0 +1,436 @@
+# Evidence digest — 2026-11-20
+Target round: **R14** · decision horizon: R14, R15, R16, R17 · rounds in progress today: [13] · projections file is for R14
+
+## Calendar
+- R13: 2026-11-19 → 2026-11-20 · DOUBLE WEEK · 4 trades
+- R14: 2026-11-24 → 2026-11-25 · UNLIMITED trades before it (21 Nov – 24 Nov)
+- R15: 2026-12-03 → 2026-12-04 · 4 trades
+- R16: 2026-12-10 → 2026-12-11 · 4 trades
+- R17: 2026-12-15 → 2026-12-16 · DOUBLE WEEK · 4 trades
+
+## My team
+Cost 107.7 · bank 0.2 · coach IST · captain Sasha Vezenkov · clubs {'PAN': 2, 'BAR': 1, 'MAD': 1, 'PAR': 1, 'OLY': 1, 'IST': 1, 'MUN': 1, 'VIR': 1, 'BAS': 1}
+
+### Kendrick Nunn — Panathinaikos · Guard · 14.8 cr · owned None%
+- Status: **playing** · site signal buy (value+, price-, schedule+) · grade A · data fresh today: True
+- Form PIR L3/L5/L10: 19.3/19.8/19 · minutes L3 25.2 vs L10 24 · PIR/min 0.792 · starts 40%
+- Season: 7 games, 19.0 PIR per game, 24.0 min
+- Domestic last game: not auto-covered (research it)
+- Last 5 games: R9 @ IST L 68-83: 10 PIR, 26.2 min, 17p 3r 1a (start) · R10 @ MAD W 115-112: 31 PIR, 23.7 min, 33p 1r 1a (bench) · R11 vs BAR L 74-76: 19 PIR, 25.1 min, 19p 6r 3a (bench) · R12 @ VIR L 79-84: 15 PIR, 27.7 min, 18p 8r 1a (start) · R13 @ ZAL W 87-72: 24 PIR, 22.7 min, 21p 3r 3a (bench)
+- Price Δ last 3/5/10 rounds: 1.9/None/None · since start 0.2 · projected change after round None · PIR≥price 5/7
+- Schedule: R14 @PAM 14.8 (diff 1/5) | R15 @BES 15.2 (diff 3/5) | R16 vsOLY 15.6 (diff 3/5) | R17 vsRED 15.7 (diff 2/5)
+- Window score (site proj, weighted): 38.47 · P10–P90 this round 4.6–26.6 · win prob 0.397
+- Domestic league: GBL (Greece)
+
+### Justin Robinson — Barcelona · Guard · 13.2 cr · owned None%
+- Status: **playing** · site signal hold (value+, price-, dip-) · grade A+ · data fresh today: True
+- Form PIR L3/L5/L10: 18/17/15.8 · minutes L3 24.7 vs L10 22.1 · PIR/min 0.715 · starts 100%
+- Season: 12 games, 14.4 PIR per game, 21.5 min
+- Domestic last game (auto, ACB): 2026-11-15 vs Monbus Obradoiro: 15.1' 7 pts 2 reb 6 ast, league PIR 9 (bench) · https://live.acb.com/partidos/barca-vs-monbus-obradoiro-105444/estadisticas
+- Last 5 games: R8 @ MUN W 88-84: 8 PIR, 19.9 min, 11p 1r 5a (start) · R9 vs PAM W 98-94: 23 PIR, 20.8 min, 22p 0r 1a (start) · R10 @ HTA W 93-90: 18 PIR, 21.4 min, 20p 4r 6a (start) · R11 @ PAN W 76-74: 20 PIR, 25.7 min, 24p 1r 1a (start) · R12 vs PRS L 86-89: 16 PIR, 26.9 min, 15p 3r 7a (start)
+- Price Δ last 3/5/10 rounds: 3.0/2.8/6.3 · since start 1.0 · projected change after round None · PIR≥price 6/10
+- Schedule: R14 vsULK 17.1 (diff 3/5) | R15 @MAD 15.1 (diff 2/5) | R16 @PAR 14.6 (diff 4/5) | R17 @BAS 15.4 (diff 3/5)
+- Window score (site proj, weighted): 40.11 · P10–P90 this round 6.4–28.8 · win prob 0.539
+- When Tosan Evbuomwan, Umoja Gibson, Kevin Punter out (1 games): minutes +2, PIR +1.4 (avg min then 26.9)
+- Domestic league: Liga ACB (Spain)
+
+### Andres Feliz — Real Madrid · Guard · 9.9 cr · owned None%
+- Status: **playing** · site signal buy (value+, price-, dip-) · grade A+ · data fresh today: True
+- Form PIR L3/L5/L10: 20.7/15.4/15.5 · minutes L3 27.3 vs L10 22.3 · PIR/min 0.696 · starts 100%
+- Season: 12 games, 14.8 PIR per game, 22.0 min
+- Domestic last game (auto, ACB): 2026-11-15 @ Kosner Baskonia: 24.0' 18 pts 5 reb 3 ast, league PIR 27 · https://live.acb.com/partidos/kosner-baskonia-vs-real-madrid-105446/estadisticas
+- Last 5 games: R8 @ BAS W 104-86: 9 PIR, 21.9 min, 12p 1r 3a (start) · R9 vs ULK W 95-76: 6 PIR, 22.1 min, 8p 2r 1a (start) · R10 vs PAN L 112-115: 28 PIR, 33.9 min, 27p 2r 6a (start) · R11 vs RED W 105-84: 19 PIR, 23.0 min, 11p 4r 7a (start) · R12 @ BES L 79-83: 15 PIR, 24.9 min, 13p 5r 2a (start)
+- Price Δ last 3/5/10 rounds: 5.8/0.8/6.3 · since start 3.7 · projected change after round None · PIR≥price 7/10
+- Schedule: R14 vsZAL 15.4 (diff 2/5) | R15 vsBAR 13.9 (diff 1/5) | R16 @PRS 13.5 (diff 1/5) | R17 vsMUN 14.2 (diff 4/5)
+- Window score (site proj, weighted): 36.62 · P10–P90 this round 5.1–27 · win prob 0.697
+- When Gabriel Deck, Mikael Jantunen, Facundo Campazzo out (3 games): minutes +2.4, PIR +1.4 (avg min then 27.3)
+- Domestic league: Liga ACB (Spain)
+  - news [minutes_up] 2026-11-19:  {"m3": 27.3, "m10": 22.3}
+
+### Vanja Marinkovic — Partizan · Guard · 4.3 cr · owned None%
+- Status: **playing** · site signal hold (value+, price-, schedule-) · grade A · data fresh today: True
+- Form PIR L3/L5/L10: 5.3/5.3/5.3 · minutes L3 20.7 vs L10 20.7 · PIR/min 0.258 · starts 67%
+- Season: 3 games, 5.3 PIR per game, 20.7 min
+- Domestic last game: ABA League, see the domestic alerts section
+- Last 5 games: R10 vs TEL W 88-67: 3 PIR, 11.6 min, 9p 0r 0a (bench) · R11 vs BAS W 80-66: 7 PIR, 22.9 min, 6p 2r 2a (start) · R12 vs PAM L 64-76: 6 PIR, 27.7 min, 10p 1r 0a (start)
+- Price Δ last 3/5/10 rounds: 4.6/None/None · since start -0.7 · projected change after round None · PIR≥price 2/3
+- Schedule: R14 @DUB 8.3 (diff 5/5) | R15 @VIR 7.2 (diff 1/5) | R16 vsBAR 7.3 (diff 5/5) | R17 @IST 7.2 (diff 5/5)
+- Window score (site proj, weighted): 19.39 · P10–P90 this round 0.1–19.5 · win prob 0.374
+- When Ethan Thompson out (1 games): minutes +3, PIR +1.1 (avg min then 27.7)
+- Domestic league: ABA League
+
+### Sasha Vezenkov — Olympiacos · Forward · 20.2 cr · owned None%
+- Status: **playing** · site signal hold (value+, dip-, price-) · grade A+ · data fresh today: True
+- Form PIR L3/L5/L10: 31.7/27.2/24 · minutes L3 31.4 vs L10 29 · PIR/min 0.827 · starts 100%
+- Season: 12 games, 24.7 PIR per game, 27.8 min
+- Domestic last game (auto, GBL): 2026-11-15 : 35.0' 19 pts 7 reb 1 ast, league PIR 21 · https://www.esake.gr/el/action/EsakegameView?idgame=F30A6CCD&mode=3
+- Last 5 games: R8 @ BES W 81-73: 19 PIR, 24.0 min, 16p 5r 2a (start) · R9 vs MIL W 84-78: 22 PIR, 31.9 min, 23p 4r 1a (start) · R10 vs RED L 57-62: 28 PIR, 33.8 min, 27p 6r 1a (start) · R11 vs DUB W 101-72: 26 PIR, 20.9 min, 20p 4r 1a (start) · R12 @ TEL W 97-95: 41 PIR, 39.5 min, 37p 9r 1a (start)
+- Price Δ last 3/5/10 rounds: 2.5/0.6/-2.4 · since start 3.2 · projected change after round None · PIR≥price 6/10
+- Schedule: R14 vsHTA 24.7 (diff 5/5) | R15 vsASV 22.9 (diff 4/5) | R16 @PAN 21.3 (diff 2/5) | R17 @PRS 22 (diff 2/5)
+- Window score (site proj, weighted): 58.71 · P10–P90 this round 15.2–37.8 · win prob 0.683
+- When John Konchar, Tyler Dorsey, Jean Montero out (4 games): minutes +2.7, PIR +2.2 (avg min then 32.3)
+- Domestic league: GBL (Greece)
+
+### Collin Malcolm — Anadolu Efes · Forward · 10.1 cr · owned None%
+- Status: **playing** · site signal hold (value+, price-, schedule-) · grade B+ · data fresh today: True
+- Form PIR L3/L5/L10: 16.3/16.6/14.7 · minutes L3 26.7 vs L10 27.3 · PIR/min 0.538 · starts 100%
+- Season: 12 games, 13.2 PIR per game, 25.6 min
+- Domestic last game: not auto-covered (research it)
+- Last 5 games: R8 @ HTA L 88-118: 13 PIR, 25.9 min, 9p 6r 4a (start) · R9 vs PAN W 83-68: 21 PIR, 31.4 min, 15p 6r 1a (start) · R10 vs PRS L 90-95: 21 PIR, 30.9 min, 20p 6r 2a (start) · R11 vs VIR W 103-91: 22 PIR, 26.4 min, 20p 5r 1a (start) · R12 @ DUB L 75-80: 6 PIR, 22.9 min, 9p 3r 2a (start)
+- Price Δ last 3/5/10 rounds: 4.1/1.7/4.7 · since start 2.0 · projected change after round None · PIR≥price 7/10
+- Schedule: R14 @BAS 11.2 (diff 5/5) | R15 vsPAM 12.4 (diff 1/5) | R16 @ULK 11.3 (diff 4/5) | R17 vsPAR 12.5 (diff 1/5)
+- Window score (site proj, weighted): 29.7 · P10–P90 this round 1.3–21.6 · win prob 0.574
+- When Mike James, Bruno Fernando out (1 games): minutes -1.3, PIR -0.6 (avg min then 22.9)
+- Domestic league: BSL (Turkey)
+
+### Nikolaos Rogkavopoulos — Panathinaikos · Forward · 4.3 cr · owned None%
+- Status: **None** · site signal avoid (value-, price-, schedule+) · grade C · data fresh today: True
+- Form PIR L3/L5/L10: 4/7.5/7.5 · minutes L3 8.4 vs L10 11.1 · PIR/min 0.676 · starts 0%
+- Season: 4 games, 7.5 PIR per game, 11.1 min
+- Domestic last game: not auto-covered (research it)
+- Last 5 games: R2 vs ASV W 102-79: 18 PIR, 19.3 min, 12p 3r 3a (bench) · R4 vs ULK W 92-74: 13 PIR, 9.7 min, 10p 2r 0a (bench) · R5 @ PAR W 72-55: 0 PIR, 9.0 min, 3p 1r 1a (bench) · R12 @ VIR L 79-84: -1 PIR, 6.4 min, 0p 1r 0a (bench)
+- Price Δ last 3/5/10 rounds: 2.7/None/None · since start -0.2 · projected change after round None · PIR≥price 2/4
+- Schedule: R14 @PAM 6.0 (diff 3/5) | R15 @BES 5.8 (diff 5/5) | R16 vsOLY 6.1 (diff 4/5) | R17 vsRED 6.1 (diff 2/5)
+- Window score (site proj, weighted): 15.14 · P10–P90 this round 2.1–10.5 · win prob 0.397
+- Domestic league: GBL (Greece)
+  - news [return] 2026-11-16:  
+  - news [injury] 2026-11-11:  
+
+### Oscar Da Silva — Bayern Munich · Forward · 8.2 cr · owned None%
+- Status: **playing** · site signal hold (value+, price-, minutes+) · grade B+ · data fresh today: True
+- Form PIR L3/L5/L10: 15.7/12.2/12 · minutes L3 23 vs L10 19.5 · PIR/min 0.616 · starts 20%
+- Season: 11 games, 11.0 PIR per game, 18.5 min
+- Domestic last game: not auto-covered (research it)
+- Last 5 games: R8 vs BAR L 84-88: 5 PIR, 9.2 min, 2p 1r 1a (bench) · R9 @ RED L 73-103: 9 PIR, 17.1 min, 4p 3r 1a (bench) · R11 @ PAM L 87-102: 11 PIR, 22.6 min, 12p 7r 0a (start) · R12 @ ZAL L 114-117: 22 PIR, 31.3 min, 16p 12r 0a (bench) · R13 vs BAS W 100-81: 14 PIR, 15.0 min, 8p 5r 3a (bench)
+- Price Δ last 3/5/10 rounds: 4.9/1.5/None · since start 0.9 · projected change after round None · PIR≥price 7/10
+- Schedule: R14 vsTEL 10.6 (diff 3/5) | R15 vsPRS 10.5 (diff 2/5) | R16 @MIL 10.1 (diff 3/5) | R17 @MAD 10 (diff 2/5)
+- Window score (site proj, weighted): 26.33 · P10–P90 this round 2–20.7 · win prob 0.634
+- Domestic league: BBL (Germany)
+
+### Aliou Diarra — Virtus Bologna · Center · 11.3 cr · owned None%
+- Status: **playing** · site signal hold (value+, price-, minutes+) · grade A · data fresh today: True
+- Form PIR L3/L5/L10: 16.7/18.2/18 · minutes L3 19.5 vs L10 18.1 · PIR/min 0.994 · starts 0%
+- Season: 13 games, 18.6 PIR per game, 19.3 min
+- Domestic last game: not auto-covered (research it)
+- Last 5 games: R9 vs BES L 101-103: 12 PIR, 17.2 min, 8p 7r 1a (bench) · R10 vs DUB L 75-93: 29 PIR, 20.1 min, 19p 7r 3a (bench) · R11 @ IST L 91-103: 11 PIR, 21.2 min, 10p 6r 1a (bench) · R12 vs PAN W 84-79: 24 PIR, 19.6 min, 15p 9r 0a (bench) · R13 @ PAM L 87-92: 15 PIR, 17.6 min, 9p 7r 1a (bench)
+- Price Δ last 3/5/10 rounds: 5.1/-2.3/-3.6 · since start 4.8 · projected change after round None · PIR≥price 9/10
+- Schedule: R14 @RED 13.7 (diff 2/5) | R15 vsPAR 14.7 (diff 3/5) | R16 vsTEL 14.8 (diff 5/5) | R17 vsASV 15 (diff 2/5)
+- Window score (site proj, weighted): 36.39 · P10–P90 this round 3.3–25.7 · win prob 0.265
+- Domestic league: LBA (Italy)
+
+### Kenan Kamenjas — Baskonia · Center · 5.4 cr · owned None%
+- Status: **None** · site signal hold (value+, schedule-) · grade None · data fresh today: True
+- Form PIR L3/L5/L10: 22/22/22 · minutes L3 30.5 vs L10 30.5 · PIR/min 0.721 · starts 100%
+- Season: 2 games, 22.0 PIR per game, 30.5 min
+- Domestic last game (auto, ACB): 2026-11-15 vs Real Madrid: 23.8' 15 pts 8 reb 2 ast, league PIR 22 (bench) · https://live.acb.com/partidos/kosner-baskonia-vs-real-madrid-105446/estadisticas
+- Last 5 games: R12 @ BAS W 85-82: 19 PIR, 30.8 min, 12p 12r 1a (start) · R13 @ MUN L 81-100: 25 PIR, 30.2 min, 16p 13r 1a (start)
+- Price Δ last 3/5/10 rounds: None/None/None · since start -0.5 · projected change after round None · PIR≥price 2/2
+- Schedule: R14 vsIST 18.1 (diff 5/5) | R15 vsTEL 17.2 (diff 3/5) | R16 @ZAL 15.8 (diff 1/5) | R17 vsBAR 17.0 (diff 4/5)
+- Window score (site proj, weighted): 43.71 · P10–P90 this round 5.9–29.8 · win prob 0.626
+- When Kosta Kondic, Davis Bertans out (2 games): minutes +0.9, PIR +0.5 (avg min then 30.5)
+- Domestic league: Liga ACB (Spain)
+
+## Mechanical swap baseline (same position, budget & 6-per-club feasible — NOT advice)
+- OUT Kendrick Nunn (score 38.47): Theo Maledon (MAD, 13.4cr, score 41.14, gain +2.7, own None%); Yam Madar (TEL, 10.6cr, score 34.8, gain -3.7, own None%); Talen Horton Tucker (ULK, 13.1cr, score 34.02, gain -4.4, own None%); Carlik Jones (PAR, 14.4cr, score 32.47, gain -6.0, own None%)
+- OUT Justin Robinson (score 40.11): Yam Madar (TEL, 10.6cr, score 34.8, gain -5.3, own None%); Talen Horton Tucker (ULK, 13.1cr, score 34.02, gain -6.1, own None%); Vasilije Micic (HTA, 12.0cr, score 30.47, gain -9.6, own None%); Lonnie Walker Iv (BES, 11.0cr, score 30.22, gain -9.9, own None%)
+- OUT Andres Feliz (score 36.62): Duane Washington (MUN, 10.1cr, score 29.83, gain -6.8, own None%); Cameron Payne (IST, 10.0cr, score 29.17, gain -7.4, own None%); Tyson Carter (RED, 7.9cr, score 27.79, gain -8.8, own None%); Scottie Wilbekin (BES, 9.0cr, score 25.86, gain -10.8, own None%)
+- OUT Vanja Marinkovic (score 19.39): Alvaro Cardenas (PAM, 4.3cr, score 13.94, gain -5.5, own None%); Daniel Hackett (VIR, 4.4cr, score 12.16, gain -7.2, own None%); Nikola Djurisic (RED, 4.0cr, score 9.77, gain -9.6, own None%); Mario Saint-Supery (PAM, 4.0cr, score 9.42, gain -10.0, own None%)
+- OUT Sasha Vezenkov (score 58.71): Dwayne Bacon (DUB, 14.5cr, score 39.79, gain -18.9, own None%); Jordan Nwora (RED, 13.9cr, score 34.82, gain -23.9, own None%); Dario Saric (IST, 14.4cr, score 34.44, gain -24.3, own None%); Azuolas Tubelis (ZAL, 13.1cr, score 34.14, gain -24.6, own None%)
+- OUT Collin Malcolm (score 29.7): Eugene Omoruyi (BES, 10.0cr, score 27.18, gain -2.5, own None%); Tyson Ward (OLY, 8.3cr, score 26.3, gain -3.4, own None%); Johnny Juzang (ULK, 9.1cr, score 26.26, gain -3.4, own None%); Mathis Dossou-Yovo (ASV, 8.9cr, score 25.96, gain -3.7, own None%)
+- OUT Nikolaos Rogkavopoulos (score 15.14): Stefan Joksimovic (BAS, 4.0cr, score 11.3, gain -3.8, own None%); David Lighty (ASV, 4.3cr, score 10.0, gain -5.1, own None%); Metecan Birsen (BES, 4.2cr, score 9.55, gain -5.6, own None%); Leopold Cavaliere (PRS, 4.0cr, score 9.37, gain -5.8, own None%)
+- OUT Oscar Da Silva (score 26.33): Tyson Ward (OLY, 8.3cr, score 26.3, gain -0.0, own None%); Marius Grigonis (ZAL, 7.5cr, score 23.86, gain -2.5, own None%); Robert Franks (PAR, 7.9cr, score 23.4, gain -2.9, own None%); Edwin Jackson (ASV, 4.6cr, score 22.09, gain -4.2, own None%)
+- OUT Aliou Diarra (score 36.39): Johannes Thiemann (MUN, 11.5cr, score 32.33, gain -4.1, own None%); Tonye Jekiri (PAR, 9.9cr, score 32.26, gain -4.1, own None%); Christian Koloko (RED, 10.1cr, score 28.37, gain -8.0, own None%); Neal Sako (PAM, 9.6cr, score 26.84, gain -9.6, own None%)
+- OUT Kenan Kamenjas (score 43.71): Ousmane Diop (MIL, 4.8cr, score 18.8, gain -24.9, own None%); Bryant Dunston (OLY, 4.4cr, score 11.04, gain -32.7, own None%); Kaodirichi Akobundu-Ehiogu (ZAL, 5.3cr, score 6.07, gain -37.6, own None%); Sertac Sanli (ULK, 4.0cr, score 5.52, gain -38.2, own None%)
+
+## Guards — market
+**Top window score:**
+- Nadir Hifi (PRS) 16.3cr own None% · playing · Δ3 2.1 · L3/L10 18.7/20 · min 26.4/25.3 · R14 @BES 18.2 (diff 3/5) | R15 @MUN 18.8 (diff 4/5) | R16 vsMAD 19.1 (diff 2/5) | R17 vsOLY 18.7 (diff 3/5) · Δprice None · sig buy
+- Elijah Bryant (HTA) 17.6cr own None% · playing · Δ3 -0.6 · L3/L10 15.7/18.4 · min 32.6/28.7 · R14 @OLY 16.5 (diff 3/5) | R15 vsMIL 18.4 (diff 4/5) | R16 vsASV 18.4 (diff 5/5) | R17 @ULK 16.6 (diff 3/5) · Δprice None · sig buy
+- Theo Maledon (MAD) 13.4cr own None% · playing · Δ3 4.7 · L3/L10 25.7/21 · min 23.9/23.3 · R14 vsZAL 17.1 (diff 2/5) | R15 vsBAR 15.7 (diff 1/5) | R16 @PRS 15.5 (diff 1/5) | R17 vsMUN 15.9 (diff 4/5) · Δprice None · sig buy
+- Justin Robinson (BAR) 13.2cr own None% · playing · Δ3 3.0 · L3/L10 18/15.8 · min 24.7/22.1 · R14 vsULK 17.1 (diff 3/5) | R15 @MAD 15.1 (diff 2/5) | R16 @PAR 14.6 (diff 4/5) | R17 @BAS 15.4 (diff 3/5) · Δprice None · sig hold
+- Kendrick Nunn (PAN) 14.8cr own None% · playing · Δ3 1.9 · L3/L10 19.3/19 · min 25.2/24 · R14 @PAM 14.8 (diff 1/5) | R15 @BES 15.2 (diff 3/5) | R16 vsOLY 15.6 (diff 3/5) | R17 vsRED 15.7 (diff 2/5) · Δprice None · sig buy
+- Tj Shorts (PAM) 16.8cr own None% · playing · Δ3 0.3 · L3/L10 19/19.9 · min 23.4/23.8 · R14 vsPAN 15.4 (diff 4/5) | R15 @IST 14.2 (diff 1/5) | R16 vsRED 14.6 (diff 2/5) | R17 vsDUB 15.5 (diff 5/5) · Δprice None · sig buy
+- Andres Feliz (MAD) 9.9cr own None% · playing · Δ3 5.8 · L3/L10 20.7/15.5 · min 27.3/22.3 · R14 vsZAL 15.4 (diff 2/5) | R15 vsBAR 13.9 (diff 1/5) | R16 @PRS 13.5 (diff 1/5) | R17 vsMUN 14.2 (diff 4/5) · Δprice None · sig buy
+- Yam Madar (TEL) 10.6cr own None% · playing · Δ3 4.9 · L3/L10 16/16.6 · min 18.9/21.7 · R14 @MUN 13.7 (diff 4/5) | R15 @BAS 13.7 (diff 3/5) | R16 @VIR 13.7 (diff 2/5) | R17 vsZAL 14 (diff 2/5) · Δprice None · sig hold
+- Talen Horton Tucker (ULK) 13.1cr own None% · playing · Δ3 1.8 · L3/L10 20.7/13.6 · min 24.3/20.2 · R14 @BAR 13.3 (diff 1/5) | R15 vsRED 13.3 (diff 2/5) | R16 vsIST 13.7 (diff 1/5) | R17 vsHTA 13.7 (diff 4/5) · Δprice None · sig buy
+- Carlik Jones (PAR) 14.4cr own None% · playing · Δ3 0.0 · L3/L10 16.7/13.5 · min 28.1/28.3 · R14 @DUB 13.4 (diff 5/5) | R15 @VIR 12.5 (diff 2/5) | R16 vsBAR 12.6 (diff 1/5) | R17 @IST 12.1 (diff 1/5) · Δprice None · sig buy
+- Wade Baldwin Iv (ULK) 13.9cr own None% · playing · Δ3 -0.2 · L3/L10 16/12.4 · min 24.5/23.8 · R14 @BAR 12.3 (diff 1/5) | R15 vsRED 12.4 (diff 2/5) | R16 vsIST 12.8 (diff 1/5) | R17 vsHTA 12.7 (diff 4/5) · Δprice None · sig buy
+- Vasilije Micic (HTA) 12.0cr own None% · playing · Δ3 1.1 · L3/L10 9.7/12.9 · min 25.5/26 · R14 @OLY 11.4 (diff 3/5) | R15 vsMIL 12.7 (diff 4/5) | R16 vsASV 12.8 (diff 5/5) | R17 @ULK 11.4 (diff 3/5) · Δprice None · sig hold
+**Cheap value (≤9 cr):**
+- Vanja Marinkovic (PAR) 4.3cr own None% · playing · Δ3 4.6 · L3/L10 5.3/5.3 · min 20.7/20.7 · R14 @DUB 8.3 (diff 5/5) | R15 @VIR 7.2 (diff 1/5) | R16 vsBAR 7.3 (diff 5/5) | R17 @IST 7.2 (diff 5/5) · Δprice None · sig hold
+- Tyson Carter (RED) 7.9cr own None% · playing · Δ3 4.5 · L3/L10 11.3/9.8 · min 24.6/19.5 · R14 vsVIR 12.1 (diff 2/5) | R15 @ULK 10.2 (diff 3/5) | R16 @PAM 10.3 (diff 2/5) | R17 @PAN 10.2 (diff 4/5) · Δprice None · sig buy
+- Alvaro Cardenas (PAM) 4.3cr own None% · playing · Δ3 3.5 · L3/L10 5/4.6 · min 15.5/13 · R14 vsPAN 5.6 (diff 4/5) | R15 @IST 5.2 (diff 1/5) | R16 vsRED 5.6 (diff 2/5) | R17 vsDUB 5.7 (diff 5/5) · Δprice None · sig hold
+- Cory Joseph (OLY) 6.2cr own None% · playing · Δ3 3.4 · L3/L10 12/5.3 · min 25/18.6 · R14 vsHTA 8.3 (diff 4/5) | R15 vsASV 7.8 (diff 5/5) | R16 @PAN 6.8 (diff 4/5) | R17 @PRS 7.2 (diff 1/5) · Δprice None · sig hold
+- Kobi Simmons (BAS) 7.5cr own None% · playing · Δ3 2.1 · L3/L10 10/6.7 · min 25.3/24.1 · R14 vsIST 9.4 (diff 1/5) | R15 vsTEL 9.5 (diff 4/5) | R16 @ZAL 8.7 (diff 2/5) | R17 vsBAR 9.4 (diff 1/5) · Δprice None · sig hold
+- Leandro Bolmaro (MIL) 8.3cr own None% · playing · Δ3 3.6 · L3/L10 13.3/10.8 · min 24/24 · R14 @ASV 10.2 (diff 5/5) | R15 @HTA 9.8 (diff 5/5) | R16 vsMUN 10.5 (diff 3/5) | R17 @BES 9.9 (diff 3/5) · Δprice None · sig hold
+- Dj Stewart (BAS) 8.6cr own None% · playing · Δ3 2.9 · L3/L10 14/9.8 · min 26.4/24.5 · R14 vsIST 10.3 (diff 5/5) | R15 vsTEL 9.8 (diff 3/5) | R16 @ZAL 9 (diff 1/5) | R17 vsBAR 9.7 (diff 4/5) · Δprice None · sig hold
+- Scottie Wilbekin (BES) 9.0cr own None% · playing · Δ3 3.0 · L3/L10 7/10.4 · min 21.4/22.8 · R14 vsPRS 11.4 (diff 1/5) | R15 vsPAN 9.3 (diff 3/5) | R16 @DUB 9.3 (diff 5/5) | R17 vsMIL 9.9 (diff 4/5) · Δprice None · sig buy
+**Differentials (<5% owned):**
+
+## Forwards — market
+**Top window score:**
+- Sasha Vezenkov (OLY) 20.2cr own None% · playing · Δ3 2.5 · L3/L10 31.7/24 · min 31.4/29 · R14 vsHTA 24.7 (diff 5/5) | R15 vsASV 22.9 (diff 4/5) | R16 @PAN 21.3 (diff 2/5) | R17 @PRS 22 (diff 2/5) · Δprice None · sig hold
+- Dwayne Bacon (DUB) 14.5cr own None% · playing · Δ3 1.7 · L3/L10 15.3/17.2 · min 29/27.8 · R14 vsPAR 16.2 (diff 1/5) | R15 @ZAL 15.1 (diff 1/5) | R16 vsBES 15.8 (diff 2/5) | R17 @PAM 15.4 (diff 1/5) · Δprice None · sig buy
+- Jordan Nwora (RED) 13.9cr own None% · playing · Δ3 1.4 · L3/L10 17.7/15.9 · min 23.4/22.9 · R14 vsVIR 14.7 (diff 1/5) | R15 @ULK 13 (diff 4/5) | R16 @PAM 13.4 (diff 1/5) | R17 @PAN 13 (diff 2/5) · Δprice None · sig buy
+- Dario Saric (IST) 14.4cr own None% · playing · Δ3 0.0 · L3/L10 15/14.3 · min 27.5/26.2 · R14 @BAS 13.9 (diff 5/5) | R15 vsPAM 13.6 (diff 1/5) | R16 @ULK 12.9 (diff 4/5) | R17 vsPAR 13.7 (diff 1/5) · Δprice None · sig buy
+- Azuolas Tubelis (ZAL) 13.1cr own None% · playing · Δ3 1.8 · L3/L10 19.3/14.7 · min 26.9/22.9 · R14 @MAD 13.4 (diff 2/5) | R15 vsDUB 13.5 (diff 5/5) | R16 vsBAS 13.8 (diff 5/5) | R17 @TEL 13.2 (diff 3/5) · Δprice None · sig hold
+- Collin Malcolm (IST) 10.1cr own None% · playing · Δ3 4.1 · L3/L10 16.3/14.7 · min 26.7/27.3 · R14 @BAS 11.2 (diff 5/5) | R15 vsPAM 12.4 (diff 1/5) | R16 @ULK 11.3 (diff 4/5) | R17 vsPAR 12.5 (diff 1/5) · Δprice None · sig hold
+- Kameron Taylor (PAM) 12.1cr own None% · playing · Δ3 0.2 · L3/L10 12.3/11.2 · min 22.5/24.2 · R14 vsPAN 11.9 (diff 2/5) | R15 @IST 11 (diff 5/5) | R16 vsRED 11.5 (diff 1/5) | R17 vsDUB 11.5 (diff 5/5) · Δprice None · sig buy
+- Zach Leday (HTA) 12.9cr own None% · playing · Δ3 -0.3 · L3/L10 11/12.6 · min 21.5/22.7 · R14 @OLY 11.1 (diff 3/5) | R15 vsMIL 11.8 (diff 2/5) | R16 vsASV 11.8 (diff 4/5) | R17 @ULK 11.1 (diff 4/5) · Δprice None · sig buy
+- Jaylen Hoard (TEL) 12.7cr own None% · playing · Δ3 -1.0 · L3/L10 9/9.9 · min 27.4/25.5 · R14 @MUN 11 (diff 5/5) | R15 @BAS 11.1 (diff 5/5) | R16 @VIR 11.3 (diff 1/5) | R17 vsZAL 11.7 (diff 1/5) · Δprice None · sig buy
+- Nigel Hayes-Davis (PAN) 12.2cr own None% · playing · Δ3 0.2 · L3/L10 17/11.4 · min 29.7/28 · R14 @PAM 11.1 (diff 1/5) | R15 @BES 10.8 (diff 2/5) | R16 vsOLY 11.1 (diff 3/5) | R17 vsRED 11.2 (diff 1/5) · Δprice None · sig hold
+- Bonzie Colson (TEL) 11.3cr own None% · playing · Δ3 1.3 · L3/L10 8.3/12 · min 19.5/20.5 · R14 @MUN 11.4 (diff 5/5) | R15 @BAS 10.5 (diff 5/5) | R16 @VIR 10.6 (diff 1/5) | R17 vsZAL 11 (diff 1/5) · Δprice None · sig buy
+- Eugene Omoruyi (BES) 10.0cr own None% · playing · Δ3 1.5 · L3/L10 15/8.9 · min 24.2/18.8 · R14 vsPRS 11.4 (diff 4/5) | R15 vsPAN 10.4 (diff 1/5) | R16 @DUB 10 (diff 5/5) | R17 vsMIL 10.5 (diff 4/5) · Δprice None · sig hold
+**Cheap value (≤9 cr):**
+- Edwin Jackson (ASV) 4.6cr own None% · playing · Δ3 7.8 · L3/L10 12.3/12.3 · min 19.3/19.3 · R14 vsMIL 10 (diff 3/5) | R15 @OLY 7.8 (diff 3/5) | R16 @HTA 8 (diff 5/5) | R17 @VIR 7.9 (diff 1/5) · Δprice None · sig hold
+- Clement Frisch (BAS) 5.5cr own None% · playing · Δ3 4.7 · L3/L10 6.7/6.7 · min 20.1/16.7 · R14 vsIST 8.3 (diff 5/5) | R15 vsTEL 9.2 (diff 3/5) | R16 @ZAL 8.2 (diff 1/5) | R17 vsBAR 9.1 (diff 4/5) · Δprice None · sig hold
+- Gabriele Procida (MAD) 5.0cr own None% · playing · Δ3 4.5 · L3/L10 10.7/6.5 · min 16.9/12.7 · R14 vsZAL 7.6 (diff 1/5) | R15 vsBAR 6.9 (diff 4/5) | R16 @PRS 6.6 (diff 2/5) | R17 vsMUN 7 (diff 5/5) · Δprice None · sig hold
+- Nikolaos Rogkavopoulos (PAN) 4.3cr own None% · None · Δ3 2.7 · L3/L10 4/7.5 · min 8.4/11.1 · R14 @PAM 6.0 (diff 3/5) | R15 @BES 5.8 (diff 5/5) | R16 vsOLY 6.1 (diff 4/5) | R17 vsRED 6.1 (diff 2/5) · Δprice None · sig avoid
+- Alberto Abalde (MAD) 6.2cr own None% · playing · Δ3 4.6 · L3/L10 12.7/9.3 · min 22.5/19.8 · R14 vsZAL 8.8 (diff 1/5) | R15 vsBAR 8.5 (diff 4/5) | R16 @PRS 7.9 (diff 2/5) | R17 vsMUN 8.7 (diff 5/5) · Δprice None · sig hold
+- Oscar Da Silva (MUN) 8.2cr own None% · playing · Δ3 4.9 · L3/L10 15.7/12 · min 23/19.5 · R14 vsTEL 10.6 (diff 3/5) | R15 vsPRS 10.5 (diff 2/5) | R16 @MIL 10.1 (diff 3/5) | R17 @MAD 10 (diff 2/5) · Δprice None · sig hold
+- Marius Grigonis (ZAL) 7.5cr own None% · playing · Δ3 4.0 · L3/L10 9.7/9.8 · min 22.1/18.8 · R14 @MAD 9.2 (diff 2/5) | R15 vsDUB 9.6 (diff 5/5) | R16 vsBAS 9.7 (diff 3/5) | R17 @TEL 9.3 (diff 4/5) · Δprice None · sig hold
+- Tyson Ward (OLY) 8.3cr own None% · playing · Δ3 3.0 · L3/L10 6/8.5 · min 24.8/23.6 · R14 vsHTA 11.2 (diff 5/5) | R15 vsASV 10.5 (diff 4/5) | R16 @PAN 9.1 (diff 2/5) | R17 @PRS 9.6 (diff 2/5) · Δprice None · sig buy
+**Differentials (<5% owned):**
+
+## Centers — market
+**Top window score:**
+- Jonas Valanciunas (ZAL) 17.7cr own None% · playing · Δ3 0.9 · L3/L10 20.7/19.8 · min 21.8/21.2 · R14 @MAD 17.1 (diff 5/5) | R15 vsDUB 18.3 (diff 5/5) | R16 vsBAS 18.6 (diff 1/5) | R17 @TEL 17.5 (diff 5/5) · Δprice None · sig buy
+- Mfiondu Kabengele (DUB) 16.2cr own None% · playing · Δ3 1.9 · L3/L10 20/18.9 · min 27.7/24.3 · R14 vsPAR 18.9 (diff 3/5) | R15 @ZAL 16.2 (diff 5/5) | R16 vsBES 17.5 (diff 5/5) | R17 @PAM 16.3 (diff 3/5) · Δprice None · sig buy
+- Kenan Kamenjas (BAS) 5.4cr own None% · None · Δ3 None · L3/L10 22/22 · min 30.5/30.5 · R14 vsIST 18.1 (diff 5/5) | R15 vsTEL 17.2 (diff 3/5) | R16 @ZAL 15.8 (diff 1/5) | R17 vsBAR 17.0 (diff 4/5) · Δprice None · sig hold
+- Moses Wright (MIL) 13.2cr own None% · playing · Δ3 1.9 · L3/L10 17/15.3 · min 25/22.1 · R14 @ASV 16.1 (diff 2/5) | R15 @HTA 15.2 (diff 1/5) | R16 vsMUN 16.1 (diff 3/5) | R17 @BES 15.4 (diff 5/5) · Δprice None · sig buy
+- Mathias Lessort (PAN) 16.2cr own None% · playing · Δ3 -0.7 · L3/L10 9/17.4 · min 21.8/23.6 · R14 @PAM 15.3 (diff 3/5) | R15 @BES 14.9 (diff 5/5) | R16 vsOLY 15.6 (diff 4/5) | R17 vsRED 15.6 (diff 2/5) · Δprice None · sig buy
+- Walter Tavares (MAD) 14.6cr own None% · playing · Δ3 0.1 · L3/L10 10.7/15.7 · min 21.8/21.2 · R14 vsZAL 15 (diff 5/5) | R15 vsBAR 14.5 (diff 4/5) | R16 @PRS 13.9 (diff 4/5) | R17 vsMUN 14.7 (diff 3/5) · Δprice None · sig buy
+- Aliou Diarra (VIR) 11.3cr own None% · playing · Δ3 5.1 · L3/L10 16.7/18 · min 19.5/18.1 · R14 @RED 13.7 (diff 2/5) | R15 vsPAR 14.7 (diff 3/5) | R16 vsTEL 14.8 (diff 5/5) | R17 vsASV 15 (diff 2/5) · Δprice None · sig hold
+- Dan Oturu (HTA) 14.2cr own None% · playing · Δ3 0.2 · L3/L10 13.7/13.9 · min 22.6/21.2 · R14 @OLY 13.3 (diff 4/5) | R15 vsMIL 14.6 (diff 4/5) | R16 vsASV 14.6 (diff 2/5) | R17 @ULK 13.8 (diff 1/5) · Δprice None · sig buy
+- Johannes Thiemann (MUN) 11.5cr own None% · playing · Δ3 2.8 · L3/L10 19.7/12.1 · min 26.2/21 · R14 vsTEL 13 (diff 5/5) | R15 vsPRS 13 (diff 4/5) | R16 @MIL 12.4 (diff 4/5) | R17 @MAD 12.1 (diff 5/5) · Δprice None · sig hold
+- Tonye Jekiri (PAR) 9.9cr own None% · playing · Δ3 5.3 · L3/L10 14.7/15.4 · min 16/18.3 · R14 @DUB 13.1 (diff 5/5) | R15 @VIR 12.1 (diff 4/5) | R16 vsBAR 13.2 (diff 4/5) | R17 @IST 12.3 (diff 2/5) · Δprice None · sig hold
+- Josh Nebo (BAR) 12.3cr own None% · playing · Δ3 1.0 · L3/L10 11.7/12.4 · min 24.2/22.7 · R14 vsULK 12.1 (diff 1/5) | R15 @MAD 12.4 (diff 5/5) | R16 @PAR 12.1 (diff 3/5) | R17 @BAS 13.2 (diff 1/5) · Δprice None · sig hold
+- Christian Koloko (RED) 10.1cr own None% · playing · Δ3 2.8 · L3/L10 11/12 · min 20.7/18.4 · R14 vsVIR 12.5 (diff 4/5) | R15 @ULK 10.6 (diff 1/5) | R16 @PAM 10.1 (diff 4/5) | R17 @PAN 10.2 (diff 1/5) · Δprice None · sig hold
+**Cheap value (≤9 cr):**
+- Kenan Kamenjas (BAS) 5.4cr own None% · None · Δ3 None · L3/L10 22/22 · min 30.5/30.5 · R14 vsIST 18.1 (diff 5/5) | R15 vsTEL 17.2 (diff 3/5) | R16 @ZAL 15.8 (diff 1/5) | R17 vsBAR 17.0 (diff 4/5) · Δprice None · sig hold
+- Ousmane Diop (MIL) 4.8cr own None% · playing · Δ3 5.2 · L3/L10 8.7/7.7 · min 11.3/11.8 · R14 @ASV 7.4 (diff 2/5) | R15 @HTA 7.3 (diff 1/5) | R16 vsMUN 7.8 (diff 3/5) | R17 @BES 7.2 (diff 5/5) · Δprice None · sig hold
+- Mouhamed Faye (PRS) 8.5cr own None% · playing · Δ3 4.8 · L3/L10 13.3/12.9 · min 20.8/18.9 · R14 @BES 10.1 (diff 5/5) | R15 @MUN 10.4 (diff 3/5) | R16 vsMAD 10.5 (diff 5/5) | R17 vsOLY 10.4 (diff 4/5) · Δprice None · sig hold
+- Nikola Tanaskovic (PAR) 8.4cr own None% · playing · Δ3 2.6 · L3/L10 12/8.8 · min 24.7/19.8 · R14 @DUB 9.4 (diff 5/5) | R15 @VIR 9.8 (diff 4/5) | R16 vsBAR 10.4 (diff 4/5) | R17 @IST 9.7 (diff 2/5) · Δprice None · sig hold
+- Wenyen Gabriel (BES) 8.3cr own None% · playing · Δ3 3.2 · L3/L10 15.7/8.6 · min 22.1/17.7 · R14 vsPRS 9.3 (diff 4/5) | R15 vsPAN 9.2 (diff 1/5) | R16 @DUB 8.5 (diff 5/5) | R17 vsMIL 9.3 (diff 4/5) · Δprice None · sig hold
+- Allan Dokossi (PRS) 9.0cr own None% · playing · Δ3 3.1 · L3/L10 12.3/11 · min 19.6/18.3 · R14 @BES 9.4 (diff 5/5) | R15 @MUN 9.7 (diff 3/5) | R16 vsMAD 9.7 (diff 5/5) | R17 vsOLY 9.7 (diff 4/5) · Δprice None · sig hold
+- Bryant Dunston (OLY) 4.4cr own None% · playing · Δ3 2.1 · L3/L10 3/3 · min 14.3/14.3 · R14 vsHTA 4.9 (diff 1/5) | R15 vsASV 4.2 (diff 2/5) | R16 @PAN 3.8 (diff 1/5) | R17 @PRS 3.9 (diff 4/5) · Δprice None · sig hold
+- Olek Balcerowski (BAR) 8.2cr own None% · playing · Δ3 2.3 · L3/L10 11.7/7.5 · min 13.2/14.4 · R14 vsULK 9.3 (diff 1/5) | R15 @MAD 7.2 (diff 5/5) | R16 @PAR 7 (diff 3/5) | R17 @BAS 7.5 (diff 1/5) · Δprice None · sig hold
+**Differentials (<5% owned):**
+
+## Round 14 game previews (site model)
+### asvel-olimpia-milano-14
+Preview ASVEL vs Olimpia Milano: the EuroLeague 2026-27 Round 14 game tips off Tuesday 24 November at 21:45 (Athens time) at Ldlc Arena. ASVEL: 16th place, 4-8, form WWLLL. Olimpia Milano: 18th place, 3-10, form LLLWW. Our model projects 88-90. Favourite: Olimpia Milano, with a 55% chance to win. Players to watch: Mathis Dossou-Yovo (12.0 points, 14.5 PIR) and Moses Wright (12.2 points, 15.2 PIR). Absences: ASVEL: Myles Cale, Yves Pons and Joel Bolomboy · Olimpia Milano: Devin Booker. Matchup Center ASV ASVEL 45% 55% Olimpia Milano MIL Projected score 88-90 Margin -2.5 Projected total 178.0 Pace 75.6 Model confidence Low Olimpia Milano 55% win probability | Projected score: 88-90 | Projected total: 178 | Pace: 75.6 | Model confidence: Low Model mp-1.4 (lightgbm) · last updated 20 Nov, 11:22 · how accurate it is 
+Key matchups Guard: Patty Mills (13.4 PIR) – Devon Hall (10.2 PIR) Forward: Edwin Jackson (12.3 PIR) – Alec Peters (8.9 PIR) Center: Mathis Dossou-Yovo (14.5 PIR) – Moses Wright (15.2 PIR) Top scorer vs defense: Patty Mills (15.6 pts) vs a defense with DRtg 118.0 (14) · Moses Wright (12.2 pts) vs a defense with DRtg 123.7 (19) Rebounding battle: ASVEL OREB% 28.8% vs DREB% 65.6% Olimpia Milano · Olimpia Milano OREB% 33.3% vs DREB% 60.1% ASVEL Pace battle: ASVEL 76.8 – Olimpia Milano 73.6 · projected 75.6 Bench (PIR from reserves per game): ASVEL 62.6 – Olimpia Milano 44.7 Coaches: Tony Parker – Luca Banchi Players to watch ASVEL Olimpia Milano Projected PIR Mathis Dossou-Yovo 11.3 PIR Tyty Washington Jr 10.6 PIR Both Gach 10.1 PIR Edwin Jackson 10.0 PIR Tremont Waters 9.5 PIR Moses Wright 16.1 PIR Leandro Bolmaro 10.2 PIR Marko Guduric 8.8 PIR Alec Peters 8.5 PIR Darius Thompson 8.3 PIR S
+https://basketballstats.eu/en/game/asvel-olimpia-milano-14/
+
+### barcelona-fenerbahce-14
+Preview Barcelona vs Fenerbahce: the EuroLeague 2026-27 Round 14 game tips off Tuesday 24 November at 22:00 (Athens time) at Palau Blaugrana. Barcelona: 5th place, 8-4, form WWWWL. Fenerbahce: 6th place, 8-5, form LWLWL. Our model projects 85-82. Favourite: Barcelona, with a 59% chance to win. Players to watch: Justin Robinson (14.7 points, 14.4 PIR) and Talen Horton Tucker (13.4 points, 14.2 PIR). Absences: Barcelona: Juan Nunez, Tosan Evbuomwan, Umoja Gibson and Kevin Punter · Fenerbahce: Nicolo Melli and Braxton Key. Matchup Center BAR Barcelona 59% 41% Fenerbahce ULK Projected score 85-82 Margin +2.6 Projected total 167.2 Pace 73.2 Model confidence Medium Barcelona 59% win probability | Projected score: 85-82 | Projected total: 167 | Pace: 73.2 | Model confidence: Medium Model mp-1.4 (lightgbm) · last updated 20 Nov, 11:22 · how accurate it is 
+Key matchups Guard: Kevin Punter (14.8 PIR) – Talen Horton Tucker (14.2 PIR) Forward: Tyrese Martin (7.8 PIR) – Shavon Shields (12.2 PIR) Center: Josh Nebo (12.4 PIR) – Dwight Powell (8.5 PIR) Top scorer vs defense: Kevin Punter (15.9 pts) vs a defense with DRtg 106.6 (3) · Talen Horton Tucker (13.4 pts) vs a defense with DRtg 115.4 (10) Rebounding battle: Barcelona OREB% 35.0% vs DREB% 68.1% Fenerbahce · Fenerbahce OREB% 34.3% vs DREB% 67.0% Barcelona Pace battle: Barcelona 75.0 – Fenerbahce 73.2 · projected 73.2 Bench (PIR from reserves per game): Barcelona 44.3 – Fenerbahce 58.5 Coaches: Aleksander Sekulic – Saras Jasikevicius Players to watch Barcelona Fenerbahce Projected PIR Justin Robinson 17.1 PIR Josh Nebo 12.1 PIR Olek Balcerowski 9.3 PIR Tyrese Martin 9.2 PIR Joel Parra 8.0 PIR Talen Horton Tucker 13.3 PIR Wade Baldwin Iv 12.3 PIR Johnny Juzang 11.7 PIR Will Clyburn 9.8 PIR Sh
+https://basketballstats.eu/en/game/barcelona-fenerbahce-14/
+
+### baskonia-anadolu-efes-14
+Preview Baskonia vs Anadolu Efes: the EuroLeague 2026-27 Round 14 game tips off Wednesday 25 November at 21:30 (Athens time) at Buesa Arena. Baskonia: 20th place, 1-12, form LLLLL. Anadolu Efes: 14th place, 5-7, form LWLWL. Our model projects 88-90. Favourite: Anadolu Efes, with a 63% chance to win. Players to watch: Chris Duarte (9.9 points, 10.8 PIR) and Dario Saric (11.8 points, 14.9 PIR). Absences: Baskonia: Markus Howard, Rolands Smits, Marcio Santos, Tadas Sedekerskis and Kenneth Faried · Anadolu Efes: Mike James and Bruno Fernando. Matchup Center BAS Baskonia 37% 63% Anadolu Efes IST Projected score 88-90 Margin -2.3 Projected total 177.3 Pace 75.2 Model confidence Medium Anadolu Efes 63% win probability | Projected score: 88-90 | Projected total: 177 | Pace: 75.2 | Model confidence: Medium Model mp-1.4 (lightgbm) · last updated 20 Nov, 11:22 · how accurate it is 
+Key matchups Guard: Damion Baugh (6.8 PIR) – Mike James (14.0 PIR) Forward: Tadas Sedekerskis (13.0 PIR) – Dario Saric (14.9 PIR) Center: Kenneth Faried (13.8 PIR) – Bruno Fernando (11.5 PIR) Top scorer vs defense: A.J. Lawson (11.0 pts) vs a defense with DRtg 114.1 (8) · Cameron Payne (15.2 pts) vs a defense with DRtg 121.4 (17) Rebounding battle: Baskonia OREB% 32.3% vs DREB% 68.0% Anadolu Efes · Anadolu Efes OREB% 28.3% vs DREB% 67.0% Baskonia Pace battle: Baskonia 75.8 – Anadolu Efes 76.1 · projected 75.2 Bench (PIR from reserves per game): Baskonia 42.0 – Anadolu Efes 42.2 Coaches: Velimir Perasovic – Pablo Laso Players to watch Baskonia Anadolu Efes Projected PIR Dj Stewart 10.3 PIR Kobi Simmons 9.4 PIR A.J. Lawson 9.0 PIR Rodions Kurucs 8.6 PIR Clement Frisch 8.3 PIR Dario Saric 13.9 PIR Matthew Strazel 11.4 PIR Cameron Payne 11.2 PIR Collin Malcolm 11.2 PIR Jordan Loyd 9.2 PIR Sc
+https://basketballstats.eu/en/game/baskonia-anadolu-efes-14/
+
+### bayern-munich-maccabi-tel-aviv-14
+Preview Bayern Munich vs Maccabi Tel Aviv: the EuroLeague 2026-27 Round 14 game tips off Tuesday 24 November at 21:00 (Athens time) at Sap Garden. Bayern Munich: 17th place, 4-9, form LWLLW. Maccabi Tel Aviv: 19th place, 3-10, form LLWLL. Our model projects 93-92. Favourite: Bayern Munich, with a 61% chance to win. Players to watch: Johannes Thiemann (11.2 points, 13.5 PIR) and Yam Madar (12.0 points, 14.8 PIR). Absences: Bayern Munich: Justus Hollatz, Vladimir Lucic and Austin Wiley · Maccabi Tel Aviv: Iffe Lundberg. Matchup Center MUN Bayern Munich 61% 39% Maccabi Tel Aviv TEL Projected score 93-92 Margin +1.4 Projected total 185.0 Pace 77.1 Model confidence Medium Bayern Munich 61% win probability | Projected score: 93-92 | Projected total: 185 | Pace: 77.1 | Model confidence: Medium Model mp-1.4 (lightgbm) · last updated 20 Nov, 11:22 · how accurate it is 
+Key matchups Guard: Duane Washington (13.4 PIR) – Yam Madar (14.8 PIR) Forward: Oscar Da Silva (11.0 PIR) – O'Shae J Brissett (11.0 PIR) Center: Johannes Thiemann (13.5 PIR) – Daniel Theis (10.5 PIR) Top scorer vs defense: Duane Washington (16.8 pts) vs a defense with DRtg 121.8 (18) · Jimmy Clark Iii (13.2 pts) vs a defense with DRtg 125.3 (20) Rebounding battle: Bayern Munich OREB% 31.9% vs DREB% 68.1% Maccabi Tel Aviv · Maccabi Tel Aviv OREB% 32.8% vs DREB% 65.6% Bayern Munich Pace battle: Bayern Munich 75.7 – Maccabi Tel Aviv 74.4 · projected 77.1 Bench (PIR from reserves per game): Bayern Munich 49.6 – Maccabi Tel Aviv 44.6 Coaches: Anton Gavel – Oded Kattash Players to watch Bayern Munich Maccabi Tel Aviv Projected PIR Johannes Thiemann 13.0 PIR Duane Washington 12.0 PIR Oscar Da Silva 10.6 PIR Andreas Obst 10.1 PIR Rokas Jokubaitis 9.0 PIR Yam Madar 13.7 PIR Bonzie Colson 11.4 PIR
+https://basketballstats.eu/en/game/bayern-munich-maccabi-tel-aviv-14/
+
+### besiktas-paris-14
+Preview Besiktas vs Paris Basketball: the EuroLeague 2026-27 Round 14 game tips off Tuesday 24 November at 19:00 (Athens time) at Turkcell Basketball Development Center. Besiktas: 13th place, 6-6, form LWLWW. Paris Basketball: 11th place, 7-6, form WWWWW. Our model projects 92-91. Favourite: Besiktas, with a 55% chance to win. Players to watch: Lonnie Walker Iv (14.0 points, 13.2 PIR) and Nadir Hifi (20.9 points, 20.0 PIR). Absences: Besiktas: Jaylen Nowell · Paris Basketball: Daulton Hommes. Matchup Center BES Besiktas 55% 45% Paris Basketball PRS Projected score 92-91 Margin +1.4 Projected total 183.0 Pace 79.1 Model confidence Low Besiktas 55% win probability | Projected score: 92-91 | Projected total: 183 | Pace: 79.1 | Model confidence: Low Model mp-1.4 (lightgbm) · last updated 20 Nov, 11:22 · how accurate it is 
+Key matchups Guard: Lonnie Walker Iv (13.2 PIR) – Nadir Hifi (20.0 PIR) Forward: Daquan Jeffries (7.7 PIR) – Tj Warren (10.1 PIR) Center: Ante Zizic (10.3 PIR) – Allan Dokossi (10.6 PIR) Top scorer vs defense: Lonnie Walker Iv (14.0 pts) vs a defense with DRtg 118.7 (16) · Nadir Hifi (20.9 pts) vs a defense with DRtg 118.1 (15) Rebounding battle: Besiktas OREB% 29.6% vs DREB% 62.2% Paris Basketball · Paris Basketball OREB% 35.1% vs DREB% 67.1% Besiktas Pace battle: Besiktas 76.1 – Paris Basketball 78.1 · projected 79.1 Bench (PIR from reserves per game): Besiktas 47.6 – Paris Basketball 60.0 Coaches: Dusan Alimpijevic – Maxime Lefevre Players to watch Besiktas Paris Basketball Projected PIR Lonnie Walker Iv 12.2 PIR Eugene Omoruyi 11.4 PIR Scottie Wilbekin 11.4 PIR Devon Dotson 10.3 PIR Wenyen Gabriel 9.3 PIR Nadir Hifi 18.2 PIR Mouhamed Faye 10.1 PIR Allan Dokossi 9.4 PIR Jared Rhoden 8
+https://basketballstats.eu/en/game/besiktas-paris-14/
+
+### crvena-zvezda-virtus-bologna-14
+Preview Crvena Zvezda vs Virtus Bologna: the EuroLeague 2026-27 Round 14 game tips off Tuesday 24 November at 20:00 (Athens time) at Belgrade Arena. Crvena Zvezda: 9th place, 7-5, form WWWLL. Virtus Bologna: 15th place, 5-8, form LLLWL. Our model projects 88-81. Favourite: Crvena Zvezda, with a 76% chance to win. Players to watch: Jordan Nwora (14.3 points, 15.1 PIR) and Aliou Diarra (12.1 points, 18.6 PIR). Absences: Crvena Zvezda: Johnathan Motley, Stefan Miljenovic, David Kramer, Jared Butler, Chima Moneke and Chris Jones · Virtus Bologna: Davide Casarin. Matchup Center RED Crvena Zvezda 76% 24% Virtus Bologna VIR Projected score 88-81 Margin +7.2 Projected total 168.3 Pace 75.1 Model confidence High Crvena Zvezda 76% win probability | Projected score: 88-81 | Projected total: 168 | Pace: 75.1 | Model confidence: High Model mp-1.4 (lightgbm) · last updated 20 Nov, 11:22 · how accurate it is 
+Key matchups Guard: Chris Jones (13.2 PIR) – Marcus Carr (10.4 PIR) Forward: Jordan Nwora (15.1 PIR) – Derrick Alston Jr. (8.2 PIR) Center: Christian Koloko (12.0 PIR) – Aliou Diarra (18.6 PIR) Top scorer vs defense: Jordan Nwora (14.3 pts) vs a defense with DRtg 117.6 (13) · Aliou Diarra (12.1 pts) vs a defense with DRtg 106.4 (2) Rebounding battle: Crvena Zvezda OREB% 33.7% vs DREB% 63.6% Virtus Bologna · Virtus Bologna OREB% 36.0% vs DREB% 64.3% Crvena Zvezda Pace battle: Crvena Zvezda 73.3 – Virtus Bologna 76.5 · projected 75.1 Bench (PIR from reserves per game): Crvena Zvezda 31.8 – Virtus Bologna 50.6 Coaches: Ibon Navarro – Alex Mumbru Players to watch Crvena Zvezda Virtus Bologna Projected PIR Jordan Nwora 14.7 PIR Christian Koloko 12.5 PIR Tyson Carter 12.1 PIR Semi Ojeleye 7.1 PIR Nick Weiler-Babb 5.8 PIR Aliou Diarra 13.7 PIR Wendell Moore 8.7 PIR Marcus Carr 8.1 PIR Trent Fra
+https://basketballstats.eu/en/game/crvena-zvezda-virtus-bologna-14/
+
+### dubai-partizan-14
+Preview Dubai Basketball vs Partizan: the EuroLeague 2026-27 Round 14 game tips off Wednesday 25 November at 18:00 (Athens time) at Coca-Cola Arena. Dubai Basketball: 4th place, 9-4, form WWLWW. Partizan: 12th place, 6-6, form LLWWL. Our model projects 86-80. Favourite: Dubai Basketball, with a 73% chance to win. Players to watch: Kenan Kamenjas (14.0 points, 22.0 PIR) and Carlik Jones (14.4 points, 16.2 PIR). Absences: Dubai Basketball: Kosta Kondic, Davis Bertans and Davion Mintz · Partizan: Joffrey Lauvergne, Derek Willis, Kyle Allman, Ethan Thompson and Kevarrius Hayes. Matchup Center DUB Dubai Basketball 73% 27% Partizan PAR Projected score 86-80 Margin +7.0 Projected total 165.9 Pace 71.5 Model confidence High Dubai Basketball 73% win probability | Projected score: 86-80 | Projected total: 166 | Pace: 71.5 | Model confidence: High Model mp-1.4 (lightgbm) · last updated 20 Nov, 11:22 · how accurate it is 
+Key matchups Guard: Elie Okobo (11.8 PIR) – Carlik Jones (16.2 PIR) Forward: Dwayne Bacon (17.8 PIR) – Lamar Stevens (11.3 PIR) Center: Kenan Kamenjas (22.0 PIR) – Tonye Jekiri (15.4 PIR) Top scorer vs defense: Dwayne Bacon (16.5 pts) vs a defense with DRtg 106.8 (4) · Carlik Jones (14.4 pts) vs a defense with DRtg 116.0 (12) Rebounding battle: Dubai Basketball OREB% 35.2% vs DREB% 68.0% Partizan · Partizan OREB% 28.9% vs DREB% 68.9% Dubai Basketball Pace battle: Dubai Basketball 72.4 – Partizan 71.9 · projected 71.5 Bench (PIR from reserves per game): Dubai Basketball 48.4 – Partizan 42.7 Coaches: Xavi Pascual – Joan Penarroya Players to watch Dubai Basketball Partizan Projected PIR Mfiondu Kabengele 18.9 PIR Kenan Kamenjas 16.9 PIR Dwayne Bacon 16.2 PIR Elie Okobo 10.5 PIR Filip Petrusev 9.8 PIR Carlik Jones 13.4 PIR Tonye Jekiri 13.1 PIR Robert Franks 9.7 PIR Nikola Tanaskovic 9.4 PIR
+https://basketballstats.eu/en/game/dubai-partizan-14/
+
+### olympiacos-hapoel-tel-aviv-14
+Preview Olympiacos vs Hapoel Tel Aviv: the EuroLeague 2026-27 Round 14 game tips off Wednesday 25 November at 21:15 (Athens time) at Sunel Arena. Olympiacos: 2nd place, 9-3, form WWLWW. Hapoel Tel Aviv: 10th place, 7-6, form LLLWL. Our model projects 92-81. Favourite: Olympiacos, with a 81% chance to win. Players to watch: Sasha Vezenkov (20.7 points, 24.7 PIR) and Elijah Bryant (14.7 points, 20.6 PIR). Absences: Olympiacos: John Konchar, Tyler Dorsey, Nikola Milutinov, Tyrique Jones and Jean Montero · Hapoel Tel Aviv: Bruno Caboclo. Matchup Center OLY Olympiacos 81% 19% Hapoel Tel Aviv HTA Projected score 92-81 Margin +10.9 Projected total 173.1 Pace 74.4 Model confidence High Olympiacos 81% win probability | Projected score: 92-81 | Projected total: 173 | Pace: 74.4 | Model confidence: High Model mp-1.4 (lightgbm) · last updated 20 Nov, 11:22 · how accurate it is 
+Key matchups Guard: Jean Montero (20.3 PIR) – Elijah Bryant (20.6 PIR) Forward: Sasha Vezenkov (24.7 PIR) – Zach Leday (12.9 PIR) Center: Nikola Milutinov (9.1 PIR) – Dan Oturu (14.2 PIR) Top scorer vs defense: Sasha Vezenkov (20.7 pts) vs a defense with DRtg 115.6 (11) · Elijah Bryant (14.7 pts) vs a defense with DRtg 108.7 (5) Rebounding battle: Olympiacos OREB% 36.8% vs DREB% 68.2% Hapoel Tel Aviv · Hapoel Tel Aviv OREB% 27.7% vs DREB% 64.6% Olympiacos Pace battle: Olympiacos 73.1 – Hapoel Tel Aviv 75.7 · projected 74.4 Bench (PIR from reserves per game): Olympiacos 56.3 – Hapoel Tel Aviv 37.4 Coaches: Georgios Bartzokas – Dimitris Itoudis Players to watch Olympiacos Hapoel Tel Aviv Projected PIR Sasha Vezenkov 24.7 PIR Codi Miller-Mcintyre 11.8 PIR Tyson Ward 11.2 PIR Evan Fournier 10.6 PIR Donta Hall 9.1 PIR Elijah Bryant 16.5 PIR Dan Oturu 13.3 PIR Vasilije Micic 11.4 PIR Zach Leda
+https://basketballstats.eu/en/game/olympiacos-hapoel-tel-aviv-14/
+
+### real-madrid-zalgiris-14
+Preview Real Madrid vs Zalgiris: the EuroLeague 2026-27 Round 14 game tips off Wednesday 25 November at 21:45 (Athens time) at Movistar Arena. Real Madrid: 8th place, 7-5, form WWLWL. Zalgiris: 7th place, 8-5, form WWWWL. Our model projects 95-89. Favourite: Real Madrid, with a 70% chance to win. Players to watch: Theo Maledon (16.9 points, 21.0 PIR) and Jonas Valanciunas (12.5 points, 19.9 PIR). Absences: Real Madrid: Gabriel Deck, Mikael Jantunen and Facundo Campazzo · Zalgiris: Nigel Williams-Goss and Maodo Lo. Matchup Center MAD Real Madrid 70% 30% Zalgiris ZAL Projected score 95-89 Margin +6.3 Projected total 183.5 Pace 76.8 Model confidence Medium Real Madrid 70% win probability | Projected score: 95-89 | Projected total: 184 | Pace: 76.8 | Model confidence: Medium Model mp-1.4 (lightgbm) · last updated 20 Nov, 11:22 · how accurate it is 
+Key matchups Guard: Theo Maledon (21.0 PIR) – Carsen Edwards (12.3 PIR) Forward: Alberto Abalde (8.2 PIR) – Azuolas Tubelis (16.7 PIR) Center: Walter Tavares (14.7 PIR) – Jonas Valanciunas (19.9 PIR) Top scorer vs defense: Theo Maledon (16.9 pts) vs a defense with DRtg 112.2 (6) · Carsen Edwards (16.5 pts) vs a defense with DRtg 115.1 (9) Rebounding battle: Real Madrid OREB% 34.3% vs DREB% 72.8% Zalgiris · Zalgiris OREB% 36.0% vs DREB% 68.4% Real Madrid Pace battle: Real Madrid 77.0 – Zalgiris 75.2 · projected 76.8 Bench (PIR from reserves per game): Real Madrid 58.1 – Zalgiris 39.6 Coaches: Pedro Martinez – Tomas Masiulis Players to watch Real Madrid Zalgiris Projected PIR Theo Maledon 17.1 PIR Andres Feliz 15.4 PIR Walter Tavares 15.0 PIR Timothe Luwawu-Cabarrot 9.1 PIR Alberto Abalde 8.8 PIR Jonas Valanciunas 17.1 PIR Azuolas Tubelis 13.4 PIR Carsen Edwards 11.1 PIR Marius Grigonis 9.
+https://basketballstats.eu/en/game/real-madrid-zalgiris-14/
+
+### valencia-panathinaikos-14
+Preview Valencia Basket vs Panathinaikos: the EuroLeague 2026-27 Round 14 game tips off Tuesday 24 November at 21:30 (Athens time) at Roig Arena. Valencia Basket: 1st place, 10-3, form LWWWW. Panathinaikos: 3rd place, 9-4, form LWLLW. Our model projects 90-86. Favourite: Valencia Basket, with a 65% chance to win. Players to watch: Tj Shorts (16.5 points, 20.1 PIR) and Kendrick Nunn (19.9 points, 19.0 PIR). Absences: Valencia Basket: Nathan Reuvers and Nikola Mirotic · Panathinaikos: Eleftherios Mantzoukas. Matchup Center PAM Valencia Basket 65% 35% Panathinaikos PAN Projected score 90-86 Margin +4.3 Projected total 176.0 Pace 75.0 Model confidence Medium Valencia Basket 65% win probability | Projected score: 90-86 | Projected total: 176 | Pace: 75.0 | Model confidence: Medium Model mp-1.4 (lightgbm) · last updated 20 Nov, 11:22 · how accurate it is 
+Key matchups Guard: Tj Shorts (20.1 PIR) – Kendrick Nunn (19.0 PIR) Forward: Nikola Mirotic (14.1 PIR) – Nigel Hayes-Davis (12.0 PIR) Center: Neal Sako (11.6 PIR) – Mathias Lessort (18.1 PIR) Top scorer vs defense: Tj Shorts (16.5 pts) vs a defense with DRtg 105.1 (1) · Kendrick Nunn (19.9 pts) vs a defense with DRtg 112.3 (7) Rebounding battle: Valencia Basket OREB% 37.8% vs DREB% 68.0% Panathinaikos · Panathinaikos OREB% 34.5% vs DREB% 69.6% Valencia Basket Pace battle: Valencia Basket 76.6 – Panathinaikos 73.9 · projected 75.0 Bench (PIR from reserves per game): Valencia Basket 61.0 – Panathinaikos 95.3 Coaches: Xavier Albert – Zeljko Obradovic Players to watch Valencia Basket Panathinaikos Projected PIR Tj Shorts 15.4 PIR Kameron Taylor 11.9 PIR Armoni Brooks 11.5 PIR Neal Sako 10.8 PIR Jasiel Rivero 7.6 PIR Mathias Lessort 15.3 PIR Kendrick Nunn 14.8 PIR Sylvain Francisco 11.7 PIR N
+https://basketballstats.eu/en/game/valencia-panathinaikos-14/
+
+
+## Coaches (current-round projections)
+- Ibon Navarro (RED) 6.7cr exp 10.16 · win 0.735 · vs VIR home
+- Pedro Martinez (MAD) 9.1cr exp 8.99 · win 0.697 · vs ZAL home
+- Georgios Bartzokas (OLY) 9.9cr exp 8.5 · win 0.683 · vs HTA home
+- Anton Gavel (MUN) 4.0cr exp 7.1 · win 0.634 · vs TEL home
+- Xavi Pascual (DUB) 7.9cr exp 6.79 · win 0.626 · vs PAR home
+- Dusan Alimpijevic (BES) 4.9cr exp 6.39 · win 0.611 · vs PRS home
+- Xavier Albert (PAM) 8.6cr exp 6.18 · win 0.603 · vs PAN home
+- Tony Parker (ASV) 4.0cr exp 5.37 · win 0.576 · vs MIL home
+- Pablo Laso (IST) 6.0cr exp 5.27 · win 0.574 · vs BAS away
+- Aleksander Sekulic (BAR) 7.8cr exp 4.34 · win 0.539 · vs ULK home
+- Saras Jasikevicius (ULK) 8.7cr exp 2.1 · win 0.461 · vs BAR away
+- Velimir Perasovic (BAS) 4.0cr exp 1.19 · win 0.426 · vs IST home
+- Luca Banchi (MIL) 4.5cr exp 1.09 · win 0.424 · vs ASV away
+- Zeljko Obradovic (PAN) 9.8cr exp 0.29 · win 0.397 · vs PAM away
+- Maxime Lefevre (PRS) 4.7cr exp 0.09 · win 0.389 · vs BES away
+- Joan Penarroya (PAR) 6.2cr exp -0.3 · win 0.374 · vs DUB away
+- Oded Kattash (TEL) 4.0cr exp -0.6 · win 0.366 · vs MUN away
+- Dimitris Itoudis (HTA) 7.7cr exp -1.95 · win 0.317 · vs OLY away
+- Tomas Masiulis (ZAL) 7.5cr exp -2.42 · win 0.303 · vs MAD away
+- Alex Mumbru (VIR) 4.2cr exp -3.54 · win 0.265 · vs RED away
+
+## Domestic-league alerts (ABA only from site; other leagues → research)
+- MOTLEY, JOHNATHAN (RED) dom_absent {"league": "ABA", "date": "2026-11-15", "home": "Crvena zvezda Meridianbet", "away": "Cedevita Olimpija", "link": "https://www.aba-liga.com/match/71/26/1/Boxscore/"}
+- WEILER-BABB, NICK (RED) dom_absent {"league": "ABA", "date": "2026-11-15", "home": "Crvena zvezda Meridianbet", "away": "Cedevita Olimpija", "link": "https://www.aba-liga.com/match/71/26/1/Boxscore/"}
+- DAVIDOVAC, DEJAN (RED) dom_absent {"league": "ABA", "date": "2026-11-15", "home": "Crvena zvezda Meridianbet", "away": "Cedevita Olimpija", "link": "https://www.aba-liga.com/match/71/26/1/Boxscore/"}
+- THOMPSON, ETHAN (PAR) dom_absent {"league": "ABA", "date": "2026-11-14", "home": "Zadar", "away": "Partizan Mozzart Bet", "link": "https://www.aba-liga.com/match/76/26/1/Boxscore/"}
+- VILDOZA, LUCA (PAR) dom_absent {"league": "ABA", "date": "2026-11-14", "home": "Zadar", "away": "Partizan Mozzart Bet", "link": "https://www.aba-liga.com/match/76/26/1/Boxscore/"}
+- HAYES, KEVARRIUS (PAR) dom_absent {"league": "ABA", "date": "2026-11-14", "home": "Zadar", "away": "Partizan Mozzart Bet", "link": "https://www.aba-liga.com/match/76/26/1/Boxscore/"}
+- STEVENS, LAMAR (PAR) dom_absent {"league": "ABA", "date": "2026-11-14", "home": "Zadar", "away": "Partizan Mozzart Bet", "link": "https://www.aba-liga.com/match/76/26/1/Boxscore/"}
+- JEKIRI, TONYE (PAR) dom_absent {"league": "ABA", "date": "2026-11-14", "home": "Zadar", "away": "Partizan Mozzart Bet", "link": "https://www.aba-liga.com/match/76/26/1/Boxscore/"}
+- JONES, CARLIK (PAR) dom_absent {"league": "ABA", "date": "2026-11-14", "home": "Zadar", "away": "Partizan Mozzart Bet", "link": "https://www.aba-liga.com/match/76/26/1/Boxscore/"}
+
+## Cheap upside watch: role just grew (price ≤ 9)
+Projections lag role changes; these are the likeliest upside misses. Consider them for the 6th-man and bench slots.
+- Scottie Wilbekin (BES, Guard, 9.0 cr, owned None%): minutes 20 → 27 over the last 2 games; Jaylen Nowell (injured) was playing 21 min at guard · PIR last 2: 13.0 · 0.49 PIR/min → ~13.4 if the role holds
+- Mbaye Ndiaye (OLY, Forward, 8.5 cr, owned None%): John Konchar (injured) was playing 18 min at forward · PIR last 2: 10.5 · 0.62 PIR/min → ~11.3 if the role holds
+- Justinian Jessup (MUN, Guard, 7.4 cr, owned None%): minutes 15 → 23 over the last 2 games · PIR last 2: 12.5 · 0.46 PIR/min → ~10.4 if the role holds
+- Mouhamet Diouf (VIR, Center, 8.6 cr, owned None%): minutes 11 → 18 over the last 2 games · PIR last 2: 12.5 · 0.56 PIR/min → ~10.2 if the role holds
+- Tyson Ward (OLY, Forward, 8.3 cr, owned None%): John Konchar (injured) was playing 18 min at forward · PIR last 2: 10.0 · 0.39 PIR/min → ~10.2 if the role holds
+- Semi Ojeleye (RED, Forward, 7.9 cr, owned None%): Chima Moneke (injured) was playing 19 min at forward · PIR last 2: 3.5 · 0.41 PIR/min → ~9.1 if the role holds
+- Marko Guduric (MIL, Guard, 8.1 cr, owned None%): minutes 17 → 27 over the last 2 games · PIR last 2: 10.5 · 0.33 PIR/min → ~8.8 if the role holds
+- Olivier Nkamhoua (BAR, Forward, 7.1 cr, owned None%): minutes 10 → 19 over the last 2 games · PIR last 2: 11.5 · 0.47 PIR/min → ~8.8 if the role holds
+- Rodions Kurucs (BAS, Forward, 6.1 cr, owned None%): Tadas Sedekerskis (injured) was playing 18 min at forward · PIR last 2: 6.5 · 0.33 PIR/min → ~8.7 if the role holds
+- Clement Frisch (BAS, Forward, 5.5 cr, owned None%): Tadas Sedekerskis (injured) was playing 18 min at forward · PIR last 2: 5.0 · 0.4 PIR/min → ~8.0 if the role holds
+- Luca Vildoza (PAR, Guard, 7.1 cr, owned None%): Ethan Thompson (injured) was playing 23 min at guard · PIR last 2: -2.5 · 0.38 PIR/min → ~7.8 if the role holds
+- Dustin Sleva (ZAL, Forward, 6.2 cr, owned None%): minutes 17 → 24 over the last 2 games · PIR last 2: 9.0 · 0.33 PIR/min → ~7.8 if the role holds
+
+## Minutes / role changes flagged by site model
+- AYAYI, JOEL (PRS) return: 1.1 → 3.6
+- COLE, RJ (MIL) minutes_drop: 9.9 → 7.8
+- NDIAYE, MBAYE (OLY) minutes_drop: 7.8 → 7.7
+- HERNANGOMEZ, JUANCHO (PAN) minutes_drop: 6.1 → 6.4
+- ZIZIC, ANTE (BES) minutes_drop: 6 → 6.4
+- JONES, KAI (IST) minutes_drop: 4.9 → 4.8
+- BURNELL, JASON (MIL) minutes_drop: 4.9 → 4.7
+- BROWN, ANTHONY (BES) minutes_drop: 3.6 → 4
+- MOORE, OMARI (PAM) minutes_drop: 3.2 → 3.3
+- ALLMAN, KYLE (PAR) minutes_drop: 0.5 → 0.5
+- KALAITZAKIS, PANAGIOTIS (PAN) minutes_drop: 0.3 → 0.2
+- MANTZOUKAS, ELEFTHERIOS (PAN) minutes_drop: 0 → 0
+- FELIZ, ANDRES (MAD) minutes_up: 13.6 → 15.5
+- THIEMANN, JOHANNES (MUN) minutes_up: 13 → 13.2
+- CARTER, TYSON (RED) minutes_up: 11.6 → 12.1
+- JUZANG, JOHNNY (ULK) minutes_up: 11.5 → 11.6
+- OMORUYI, EUGENE (BES) minutes_up: 10.5 → 11.4
+- GUDURIC, MARKO (MIL) minutes_up: 8.3 → 9
+- KURUCS, RODIONS (BAS) minutes_up: 6.5 → 8.6
+- JOSEPH, CORY (OLY) minutes_up: 8.2 → 8.2
+- UMUDE, STANLEY (BAR) minutes_up: 6.4 → 6.3
+- SEDEKERSKIS, TADAS (BAS) minutes_up: 0 → 0
+- BALDWIN, KAMAR (TEL) transfer: None → 3.7
+- SILVA, CHRIS (PAR) transfer: None → 1.2
+- MALEDON, THEO (MAD) projection_change: 7.3 → 15.6
+- JEFFRIES, DAQUAN (BES) projection_change: 2.9 → 7.6
+- ZIZIC, ANTE (BES) minutes_drop: 7.4 → 7
+- BROWN, ANTHONY (BES) minutes_drop: 5.4 → 4.9
+- PROCIDA, GABRIELE (MAD) minutes_up: 9.4 → 8.7
+- DEJULIUS, DAVID (BES) minutes_up: 8.6 → 7.8
+- GABRIEL, WENYEN (BES) minutes_up: 8.8 → 7.6
+- BIRSEN, METECAN (BES) minutes_up: 1.8 → 1.6
+- UGURLU, BERK (BES) return: 0 → 2.3
+- HACKETT, DANIEL (VIR) return: 1.5 → 3.6
+- WALKUP, THOMAS (DUB) return: 0 → 2.4
+- MALEDON, THEO (MAD) return: 0 → 8
+- ROGKAVOPOULOS, NIKOLAOS (PAN) return: 0 → 1.1
+- STEVENS, LAMAR (PAR) projection_change: 9.3 → 5.8
+- GIBSON, UMOJA (BAR) return: 2.1 → 6.2
+- KORKMAZ, FURKAN (BES) return: 0.8 → 5.1
+- JEFFRIES, DAQUAN (BES) return: 0 → 2.9
+- ZIZIC, ANTE (BES) minutes_drop: 6.1 → 7.9
+- BROWN, ANTHONY (BES) minutes_drop: 8.7 → 5.7
+- BALCEROWSKI, OLEK (BAR) minutes_drop: 4.4 → 5.5
+- FODZO DADA, MARC-OWEN (ASV) minutes_drop: 4 → 2.6
+- KALAITZAKIS, PANAGIOTIS (PAN) minutes_drop: 1.5 → 0.4
+- MANTZOUKAS, ELEFTHERIOS (PAN) minutes_drop: 1.4 → 0.4
+- DEJULIUS, DAVID (BES) minutes_up: 6.7 → 9
+- GABRIEL, WENYEN (BES) minutes_up: 6.4 → 8.6
+- BIRSEN, METECAN (BES) minutes_up: 3.9 → 1.8
+- FOURNIER, EVAN (OLY) return: 0 → 7.5
+- OJELEYE, SEMI (RED) minutes_drop: 8.9 → 7.6
+- DIAKITE, MAMADI (DUB) minutes_drop: 4.9 → 3.7
+- ALLMAN, KYLE (PAR) minutes_drop: 2.2 → 0.8
+- WARD, TYSON (OLY) minutes_up: 10.6 → 9.9
+- CARTER, TYSON (RED) minutes_up: 7.7 → 8
+- HIFI, NADIR (PRS) projection_change: 7.1 → 13.8
+- SANTOS, MARCIO (BAS) transfer: None → 8.7
+- BALCEROWSKI, OLEK (BAR) minutes_drop: 5 → 5
+- ALLMAN, KYLE (PAR) minutes_drop: 2.1 → 2.1
+- KALAITZAKIS, PANAGIOTIS (PAN) minutes_drop: 1.3 → 1.3
+- MANTZOUKAS, ELEFTHERIOS (PAN) minutes_drop: 0.2 → 0.2
+- COLE, RJ (MIL) minutes_up: 10.1 → 10.1
+- MILLER-MCINTYRE, CODI (OLY) minutes_up: 10.1 → 10.1
+- WARD, TYSON (OLY) minutes_up: 9.2 → 9.2
+- BAUGH, DAMION (BAS) minutes_up: 7.5 → 7.5
+- PAPANIKOLAOU, KOSTAS (OLY) minutes_up: 7 → 7
+- FRISCH, CLEMENT (BAS) minutes_up: 5.7 → 5.7
+- BIRSEN, METECAN (BES) minutes_up: 5.3 → 5.3
+- JOKSIMOVIC, STEFAN (BAS) minutes_up: 4.6 → 4.6
+- JOSEPH, CORY (OLY) minutes_up: 4.2 → 4.2
+- SEDEKERSKIS, TADAS (BAS) minutes_up: 2.1 → 2.1
+
+## Press items
+- 2026-11-19 GRANT, JERIAN [return] Παναθηναϊκός: Επιστροφή Γκραντ, Φαλ με Ζαλγκίρις — https://www.eurohoops.net/el/euroleague-el-2/2037760/panathinaikos-epistrofi-gkrant-fal-me-zalgkiris/
+- 2026-11-19 SHIELDS, SHAVON [injury] Shavon Shields torna a Milano: prima da avversario dopo dieci trofei — https://sportando.basketball/shavon-shields-torna-a-milano-prima-da-avversario-dopo-dieci-trofei/
+- 2026-11-19 SMITS, ROLANDS [injury] EuroLeague Round 13 injury report highlights Rolands Smits setback — https://www.eurohoops.net/en/euroleague/2037682/injury-report-round-13-smits-a-scratch-for-tonight/
+- 2026-11-19 DORSEY, TYLER [injury] Bartzokas rules out Dorsey, expects Milutinov to miss Real Madrid — https://www.eurohoops.net/en/euroleague/2037668/tyler-dorsey-nikola-milutinov-updates-olympiacos-euroleague/
+- 2026-11-19 MILUTINOV, NIKOLA [injury] Bartzokas rules out Dorsey, expects Milutinov to miss Real Madrid — https://www.eurohoops.net/en/euroleague/2037668/tyler-dorsey-nikola-milutinov-updates-olympiacos-euroleague/
+- 2026-11-18 MELLI, NICOLO [injury] Φενέρ: Χειρουργείο για Νικολό Μέλι & Μπράξτον Κι — https://www.eurohoops.net/el/euroleague-el-2/2037066/fener-chirourgio-gia-nikolo-meli-braxton-ki/
+- 2026-11-18 MELLI, NICOLO [injury] Melli, Key expected to be sidelined for six to eight weeks — https://www.eurohoops.net/en/euroleague/2037064/nicolo-melli-braxton-key-injury-updates-fenerbahce-euroleague/
+- 2026-11-18 LUNDBERG, IFFE [injury] Iffe Lundberg requires knee surgery, out for months — https://www.eurohoops.net/en/euroleague/2037007/gabriel-iffe-lundberg-injury-update-maccabi-euroleague/
+- 2026-11-17 MALEDON, THEO [return] Theo Maledon returns but Pedro Martinez cautions: “Without rushing things” — https://www.eurohoops.net/en/euroleague/2036388/theo-maledon-injury-update-real-madrid-euroleague/
+- 2026-11-16 MICIC, VASILIJE [return] Σερβία: Με Μίτσιτς, Πετρούσεφ και επιστροφή Λούτσιτς η προεπιλογή για το “παράθυρο” της FIBA — https://www.eurohoops.net/el/fibawc-el/2036171/servia-me-mitsits-petrousef-ke-epistrofi-loutsits-i-proepilogi-gia-to-parathiro-tis-fiba/
+- 2026-11-16 GUDURIC, MARKO [return] Lucic returns as Micic and Guduric headline Serbia’s squad — https://www.eurohoops.net/en/fibawc/2036154/lucic-returns-as-micic-and-guduric-headline-serbias-squad/
+- 2026-11-16 LUCIC, VLADIMIR [return] Lucic returns as Micic and Guduric headline Serbia’s squad — https://www.eurohoops.net/en/fibawc/2036154/lucic-returns-as-micic-and-guduric-headline-serbias-squad/
+- 2026-11-16 MICIC, VASILIJE [return] Lucic returns as Micic and Guduric headline Serbia’s squad — https://www.eurohoops.net/en/fibawc/2036154/lucic-returns-as-micic-and-guduric-headline-serbias-squad/
+- 2026-11-16 MELLI, NICOLO [injury] Nicolo Melli faces possible surgery, Braxton Key sustains finger injury — https://www.eurohoops.net/en/euroleague/2035850/braxton-key-nicolo-melli-injury-updates-fenerbahce-euroleague/
+- 2026-11-16 KEY, BRAXTON [injury] Nicolo Melli faces possible surgery, Braxton Key sustains finger injury — https://www.eurohoops.net/en/euroleague/2035850/braxton-key-nicolo-melli-injury-updates-fenerbahce-euroleague/
+- 2026-11-14 MILUTINOV, NIKOLA [injury] Nikola Milutinov to miss EuroLeague Game versus Maccabi in Cyprus — https://www.eurohoops.net/en/euroleague/2035090/nikola-milutinov-injury-update-olympiacos-euroleague/
+- 2026-11-14 PAPANIKOLAOU, KOSTAS [return] Μιλουτίνοφ: Νοκ άουτ για τα ματς με Άρη και Μακάμπι – Επιστροφή Παπανικολάου — https://www.eurohoops.net/el/heba-el/2035083/miloutinof-nok-aout-gia-ta-mats-me-ari-ke-makampi/
+- 2026-11-14 MILUTINOV, NIKOLA [return] Μιλουτίνοφ: Νοκ άουτ για τα ματς με Άρη και Μακάμπι – Επιστροφή Παπανικολάου — https://www.eurohoops.net/el/heba-el/2035083/miloutinof-nok-aout-gia-ta-mats-me-ari-ke-makampi/
+- 2026-11-13 FERNANDO, BRUNO [injury] Pablo Laso on Bruno Fernando’s injury: “I can’t say anything without MRI, he told me he’s fine” — https://www.eurohoops.net/en/euroleague/2034751/pablo-laso-on-bruno-fernandos-injury-i-cant-say-anything-without-mri-he-told-me-hes-fine/
+- 2026-11-13 FARIED, KENNETH [injury] Μπασκόνια: Εκτός δράσης (και) ο Φαρίντ με κάκωση στον οπίσθιο μηριαίο — https://www.eurohoops.net/el/euroleague-el-2/2034558/baskonia-ektos-drasis-ke-o-farint-me-kakosi-ston-opisthio-mirieo/
+- 2026-11-13 FARIED, KENNETH [injury] Kenneth Faried out as Baskonia injury woes continue mounting — https://www.eurohoops.net/en/euroleague/2034509/kenneth-faried-injury-update-baskonia-euroleague/
+- 2026-11-13 DORSEY, TYLER [injury] Olympiacos, Tyler Dorsey torna ad allenarsi dopo la sospensione — https://sportando.basketball/olympiacos-tyler-dorsey-torna-ad-allenarsi-dopo-la-sospensione/
+- 2026-11-13 BRISSETT, O'SHAE J [doubtful] Μακάμπι: Μαντάρ & Μπρίσετ αμφίβολοι με Ολυμπιακό — https://www.eurohoops.net/el/euroleague-el-2/2034434/makampi-mantar-briset-amfivoli-me-olimpiako/
+- 2026-11-13 MADAR, YAM [doubtful] Μακάμπι: Μαντάρ & Μπρίσετ αμφίβολοι με Ολυμπιακό — https://www.eurohoops.net/el/euroleague-el-2/2034434/makampi-mantar-briset-amfivoli-me-olimpiako/
+- 2026-11-12 DORSEY, TYLER [return] Dorsey returns to Olympiacos practices, expected to be in the active roster against Aris — https://www.eurohoops.net/en/euroleague/2034257/dorsey-returns-to-olympiacos-practices-expected-to-be-in-the-active-roster-against-aris/
+- 2026-11-12 VALANCIUNAS, JONAS [return] ΤΡΟΜΑΚΤΙΚΟΣ Βαλαντσιούνας και η Ζαλγκίρις χάλασε την επιστροφή Μπάνκι στην Αρμάνι — https://www.eurohoops.net/el/euroleague-el-2/2034136/tromaktikos-valantsiounas-ke-i-zalgkiris-chalase-tin-epistrofi-banki-sto-milano/
+- 2026-11-12 THOMPSON, ETHAN [injury] Ethan Thompson avoids fracture after fall against Baskonia — https://www.eurohoops.net/en/euroleague/2034117/ethan-thompson-avoids-fracture-after-fall-against-baskonia/
+- 2026-11-12 LESSORT, MATHIAS [return] Λεσόρ: “Αισθάνομαι ότι επιστρέφω στον παλιό μου εαυτό” — https://www.eurohoops.net/el/euroleague-el-2/2034106/lesor-esthanome-oti-epistrefo-ston-palio-mou-eafto/
+- 2026-11-12 HACKETT, DANIEL [injury] Daniel Hackett among additions to EuroLeague Round 11 injury report — https://www.eurohoops.net/en/euroleague/2033937/injury-report-round-11-justin-anderson-ready-for-season-debut-johnathan-motley-out-for-zvezda/
+- 2026-11-12 SATORANSKY, TOMAS [return] Tomas Satoransky targets return from scary injury, reflects on NBA years — https://www.eurohoops.net/en/euroleague/2033919/tomas-satoransky-talks-injury-hapoel-tel-aviv-euroleague-nba/
+- 2026-11-10 NOWELL, JAYLEN [injury] Jaylen Nowell undergoes nose surgery in Istanbul, begins rehabilitation — https://www.eurohoops.net/en/euroleague/2033058/jaylen-nowell-injury-update-besiktas-euroleague/
+- 2026-11-10 VILDOZA, LUCA [doubtful] Tonye Jekiri and Luca Vildoza are game-time decisions for Partizan — https://www.eurohoops.net/en/euroleague/2033031/injury-report-round-11-partizans-vildoza-jekiri-gtd-hayes-out/
+- 2026-11-10 JEKIRI, TONYE [doubtful] Tonye Jekiri and Luca Vildoza are game-time decisions for Partizan — https://www.eurohoops.net/en/euroleague/2033031/injury-report-round-11-partizans-vildoza-jekiri-gtd-hayes-out/
+- 2026-11-09 WALKUP, THOMAS [injury] Thomas Walkup will miss the clash against Olympiacos due to injury — https://www.eurohoops.net/en/euroleague/2032675/thomas-walkup-will-miss-the-clash-against-olympiacos-due-to-injury/
+- 2026-11-09 PUNTER, KEVIN [injury] Kevin Punter, sidelined for three weeks with ankle injury — https://www.eurohoops.net/en/euroleague/2032663/kevin-punter-sidelined-for-three-weeks-with-ankle-injury/
+- 2026-11-09 PUNTER, KEVIN [injury] Πάντερ: Τρεις εβδομάδες εκτός δράσης, χάνει (και) Παναθηναϊκό — https://www.eurohoops.net/el/euroleague-el-2/2032656/panter-tris-evdomades-ektos-drasis-chani-ke-panathinaiko/
+- 2026-11-06 FOURNIER, EVAN [return] Ο Φουρνιέ το πήρε πάνω του: “Μπέρδεψα το ρυθμό της ομάδας με την επιστροφή μου” — https://www.eurohoops.net/el/euroleague-el-2/2031630/o-fournie-to-pire-pano-tou-mperdepsa-to-rithmo-tis-omadas-me-tin-epistrofi-mou/
+- 2026-11-05 BOOKER, DEVIN [injury] EuroLeague, injury report del 5 novembre: Booker fuori, Bolmaro atteso contro Valencia — https://sportando.basketball/euroleague-injury-report-5-novembre-2026-round-10/
+- 2026-11-05 BOLMARO, LEANDRO [injury] EuroLeague, injury report del 5 novembre: Booker fuori, Bolmaro atteso contro Valencia — https://sportando.basketball/euroleague-injury-report-5-novembre-2026-round-10/
+
+## Injury report (raw)
+Latest updates Player Team Status Updated Eleftherios Mantzoukas Panathinaikos ✚ Injured: Panathinaikos's only absentee against Zalgiris 19 Nov · source Tyler Dorsey Olympiacos ✚ Out: Ruled out against Real Madrid as well, following his club suspension 19 Nov · source Marcio Santos Baskonia ✚ Injured: Left calf tear, out 19 Nov · source Nicolo Melli Fenerbahce ✚ Injured: Underwent left knee meniscus surgery, out 6-8 weeks · Expected back: January 2027 19 Nov · source Braxton Key Fenerbahce ✚ Injured: Underwent surgery on a right-hand finger, out 6-8 weeks · Expected back: January 2027 19 Nov · source Tadas Sedekerskis Baskonia ✚ Injured: Right thigh muscle injury, expected back in late November · Expected back: November 2026 19 Nov · source Kevarrius Hayes Partizan ✚ Doubtful: Shoulder, training with the team again, doubtful against Besiktas 19 Nov · source Austin Wiley Bayern Munich ✚ Doubtful: Practiced, game-time decision against Baskonia 19 Nov · source Derek Willis Partizan ✚ Injured: Ankle, Partizan confirmed he is out against Besiktas, possibly until after the international break 19 Nov · source Nikola Milutinov Olympiacos ✚ Doubtful: Fractured right index finger, game-time decision against Real Madrid 19 Nov · source Nikola Mirotic Valencia Basket ✚ Doubtful: Muscle injury, back in team practice, game-time decision against Virtus 19 Nov · source Ethan Thompson Partizan ✚ Injured: Hip, Partizan confirmed he is out against Besiktas 19 Nov · source Valencia Basket (2) Olympiacos (5) Panathinaikos (1) Dubai Basketball (3) Barcelona (4) Fenerbahce (2) Zalgiris (2) Real Madrid (3) Crvena Zvezda (6) Hapoel Tel Aviv (1) Paris Basketball (1) Partizan (5) Besiktas (1) Anadolu Efes (2) Virtus Bologna (1) ASVEL (3) Bayern Munich (3) Olimpia Milano (1) Maccabi Tel Aviv (1) Baskonia (5) Valencia Basket Next: Panathinaikos · Round 14 ✚ Nikola Mirotic Doubtful: Muscle injury, back in team practice, game-time decision against Virtus upd. 19 Nov · source ✚ Nathan Reuvers Injured: Foot upd. 30 Oct · source Olympiacos Next: Real Madrid · Round 13 ✚ Nikola Milutinov Doubtful: Fractured right index finger, game-time decision against Real Madrid upd. 19 Nov · source ✚ Tyrique Jones Doubtful: Knee discomfort since Round 12, doubtful against Real Madrid upd. 19 Nov · source ✚ Jean Montero Injured: Left knee meniscus surgery, out about 6 months · Expected back: May 2027 upd. 30 Oct · source ✚ John Konchar Out: Left Olympiacos for personal reasons upd. 17 Nov · source ✚ Tyler Dorsey Out: Ruled out against Real Madrid as well, following his club suspension upd. 19 Nov · source Panathinaikos Next: @ Valencia Basket · Round 14 ✚ Eleftherios Mantzoukas Injured: Panathinaikos's only absentee against Zalgiris upd. 19 Nov · source Dubai Basketball Next: Partizan · Round 14 ✚ Davis Bertans Injured: Hamstring upd. 12 Nov · source ✚ Kosta Kondic Injured: Hip/psoas, out upd. 17 Nov · source ✚ Davion Mintz Has missed his team's last 2 games Barcelona Next: Crvena Zvezda · Round 13 ✚ Juan Nunez Doubtful: Right ankle sprain, doubtful against Crvena Zvezda upd. 19 Nov · source ✚ Kevin Punter Injured: Left ankle sprain, out 3 to 6 weeks · Expected back: December 2026 upd. 9 Nov · source ✚ Tosan Evbuomwan Injured: Oblique muscle tear, out about 3 weeks · Expected back: 30 November upd. 9 Nov · source ✚ Umoja Gibson Injured: Injured in Round 11, out for about three weeks · Expected back: December 2026 upd. 15 Nov · source Fenerbahce Next: @ Barcelona · Round 14 ✚ Braxton Key Injured: Underwent surgery on a right-hand finger, out 6-8 weeks · Expected back: January 2027 upd. 19 Nov · source ✚ Nicolo Melli Injured: Underwent left knee meniscus surgery, out 6-8 weeks · Expected back: January 2027 upd. 19 Nov · source Zalgiris Next: @ Real Madrid · Round 14 ✚ Nigel Williams-Goss Injured: Hamstring, out since Round 6 upd. 11 Nov · source ✚ Maodo Lo Has missed his team's last 5 games Real Madrid Next: @ Olympiacos · Round 13 ✚ Facundo Campazzo Injured: Muscle injury, awaiting tests on its severity upd. 2 Nov · source ✚ Gabriel Deck Injured: Shoulder surgery upd. 11 Nov · source ✚ Mikael Jantunen Injured: Complete plantar fascia tear in the left foot, out 2-3 months · Expected back: January 2027 upd. 30 Oct · source Crvena Zvezda Next: @ Barcelona · Round 13 ✚ Chris Jones Doubtful: Minor issue in practice, doubtful against Barcelona upd. 19 Nov · source ✚ David Kramer Doubtful: Face injury, practicing without a mask, decision on game day upd. 19 Nov · source ✚ Jared Butler Doubtful: Practiced, doubtful against Barcelona upd. 19 Nov · source ✚ Chima Moneke Out: Did not travel to Barcelona, stayed in Belgrade upd. 19 Nov · source ✚ Johnathan Motley Injured: Flu, stays in Belgrade, out against Milan upd. 17 Nov · source ✚ Stefan Miljenovic Injured: Ankle surgery upd. 10 Nov · source Hapoel Tel Aviv Next: @ Olympiacos · Round 14 ✚ Bruno Caboclo Injured: Minor calf tear, Hapoel's only absentee against Paris upd. 19 Nov · source Paris Basketball Next: @ Besiktas · Round 14 ✚ Daulton Hommes Has missed his team's last 5 games Partizan Next: Besiktas · Round 13 ✚ Kevarrius Hayes Doubtful: Shoulder, training with the team again, doubtful against Besiktas upd. 19 Nov · source ✚ Derek Willis Injured: Ankle, Partizan confirmed he is out against Besiktas, possibly until after the international break upd. 19 Nov · source ✚ Ethan Thompson Injured: Hip, Partizan confirmed he is out against Besiktas upd. 19 Nov · source ✚ Joffrey Lauvergne Out: Replaced by Silva on the EuroLeague roster, available only domestically upd. 17 Nov · source ✚ Kyle Allman Has missed his team's last 4 games Besiktas Next: @ Partizan · Round 13 ✚ Jaylen Nowell Injured: Nose surgery, has started rehab upd. 10 Nov · source Anadolu Efes Next: ASVEL · Round 13 ✚ Bruno Fernando Injured: Calf injury, out 3-4 weeks · Expected back: 10 December upd. 14 Nov · source ✚ Mike James Injured: Achilles tendon, out 7 to 9 months · Expected back: June 2027 upd. 11 Nov · source Virtus Bologn

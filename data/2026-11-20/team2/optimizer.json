@@ -1,0 +1,1174 @@
+{
+ "target": 200.0,
+ "current_best_lineup": {
+  "mean": 163.2,
+  "p90": 208.4,
+  "p10": 118.0,
+  "p_target": 0.147
+ },
+ "plans": [
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Andres Feliz",
+     "in_price": 9.9
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Tyson Ward",
+     "in_price": 8.3
+    },
+    {
+     "out": "Duane Washington",
+     "out_price": 10.1,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.5,
+   "formation": "2-1-2",
+   "starters": [
+    "Justin Robinson",
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Tyson Ward",
+    "Collin Malcolm",
+    "Vanja Marinkovic",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 177.3,
+   "p90": 227.6,
+   "p10": 125.1,
+   "p_target": 0.292,
+   "nights": {
+    "count": {
+     "1": 2,
+     "2": 8
+    },
+    "starters": {
+     "1": 2,
+     "2": 3
+    },
+    "balanced": false,
+    "reasons": [
+     "only 2 of 10 play on night 1"
+    ],
+    "plan": [
+     [
+      "Aliou Diarra",
+      "Tyson Ward",
+      12.1
+     ],
+     [
+      "Justin Robinson",
+      "Collin Malcolm",
+      11.9
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Andres Feliz",
+     "in_price": 9.9
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Johnny Juzang",
+     "in_price": 9.1
+    },
+    {
+     "out": "Duane Washington",
+     "out_price": 10.1,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.7,
+   "formation": "2-1-2",
+   "starters": [
+    "Justin Robinson",
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Johnny Juzang",
+    "Collin Malcolm",
+    "Vanja Marinkovic",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 177.2,
+   "p90": 225.6,
+   "p10": 126.8,
+   "p_target": 0.288,
+   "nights": {
+    "count": {
+     "1": 3,
+     "2": 7
+    },
+    "starters": {
+     "1": 2,
+     "2": 3
+    },
+    "balanced": false,
+    "reasons": [
+     "only 3 of 10 play on night 1"
+    ],
+    "plan": [
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      11.9
+     ],
+     [
+      "Justin Robinson",
+      "Vanja Marinkovic",
+      8.5
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Edwin Jackson",
+     "in_price": 4.6
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.1,
+     "in": "Dwayne Bacon",
+     "in_price": 14.5
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.6,
+   "formation": "2-1-2",
+   "starters": [
+    "Justin Robinson",
+    "Duane Washington",
+    "Sasha Vezenkov",
+    "Aliou Diarra",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Vanja Marinkovic",
+    "Edwin Jackson",
+    "Gabriele Procida",
+    "Dwayne Bacon"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 178.5,
+   "p90": 226.1,
+   "p10": 128.3,
+   "p_target": 0.287,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Duane Washington",
+      "Dwayne Bacon",
+      17.4
+     ],
+     [
+      "Aliou Diarra",
+      "Vanja Marinkovic",
+      8.5
+     ],
+     [
+      "Justin Robinson",
+      "Gabriele Procida",
+      8.1
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Edwin Jackson",
+     "in_price": 4.6
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.1,
+     "in": "Jordan Nwora",
+     "in_price": 13.9
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.2,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Duane Washington",
+    "Sasha Vezenkov",
+    "Jordan Nwora",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Aliou Diarra",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Edwin Jackson",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 178.0,
+   "p90": 226.4,
+   "p10": 128.7,
+   "p_target": 0.283,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Duane Washington",
+      "Theo Maledon",
+      18.3
+     ],
+     [
+      "Aliou Diarra",
+      "Vanja Marinkovic",
+      8.5
+     ],
+     [
+      "Jordan Nwora",
+      "Gabriele Procida",
+      8.1
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Andres Feliz",
+     "in_price": 9.9
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Mathis Dossou-Yovo",
+     "in_price": 8.9
+    },
+    {
+     "out": "Duane Washington",
+     "out_price": 10.1,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.9,
+   "formation": "2-1-2",
+   "starters": [
+    "Justin Robinson",
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Mathis Dossou-Yovo",
+    "Collin Malcolm",
+    "Vanja Marinkovic",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 176.9,
+   "p90": 225.9,
+   "p10": 126.3,
+   "p_target": 0.283,
+   "nights": {
+    "count": {
+     "1": 3,
+     "2": 7
+    },
+    "starters": {
+     "1": 2,
+     "2": 3
+    },
+    "balanced": false,
+    "reasons": [
+     "only 3 of 10 play on night 1"
+    ],
+    "plan": [
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      11.9
+     ],
+     [
+      "Justin Robinson",
+      "Vanja Marinkovic",
+      8.5
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Edwin Jackson",
+     "in_price": 4.6
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Nadir Hifi",
+     "in_price": 16.3
+    },
+    {
+     "out": "Duane Washington",
+     "out_price": 10.1,
+     "in": "Andres Feliz",
+     "in_price": 9.9
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 2.1,
+   "formation": "2-1-2",
+   "starters": [
+    "Nadir Hifi",
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Collin Malcolm",
+    "Edwin Jackson",
+    "Vanja Marinkovic",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 177.0,
+   "p90": 226.3,
+   "p10": 126.6,
+   "p_target": 0.282,
+   "nights": {
+    "count": {
+     "1": 3,
+     "2": 7
+    },
+    "starters": {
+     "1": 2,
+     "2": 3
+    },
+    "balanced": false,
+    "reasons": [
+     "only 3 of 10 play on night 1"
+    ],
+    "plan": [
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      11.9
+     ],
+     [
+      "Nadir Hifi",
+      "Vanja Marinkovic",
+      8.5
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Andres Feliz",
+     "in_price": 9.9
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Oscar Da Silva",
+     "in_price": 8.2
+    },
+    {
+     "out": "Duane Washington",
+     "out_price": 10.1,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.6,
+   "formation": "2-1-2",
+   "starters": [
+    "Justin Robinson",
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Collin Malcolm",
+    "Oscar Da Silva",
+    "Vanja Marinkovic",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 176.6,
+   "p90": 225.8,
+   "p10": 125.9,
+   "p_target": 0.28,
+   "nights": {
+    "count": {
+     "1": 3,
+     "2": 7
+    },
+    "starters": {
+     "1": 2,
+     "2": 3
+    },
+    "balanced": false,
+    "reasons": [
+     "only 3 of 10 play on night 1"
+    ],
+    "plan": [
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      11.9
+     ],
+     [
+      "Justin Robinson",
+      "Vanja Marinkovic",
+      8.5
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Edwin Jackson",
+     "in_price": 4.6
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Duane Washington",
+     "out_price": 10.1,
+     "in": "Andres Feliz",
+     "in_price": 9.9
+    },
+    {
+     "out": "Aliou Diarra",
+     "out_price": 11.3,
+     "in": "Moses Wright",
+     "in_price": 13.2
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.7,
+   "formation": "2-1-2",
+   "starters": [
+    "Theo Maledon",
+    "Andres Feliz",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Moses Wright"
+   ],
+   "sixth": "Kendrick Nunn",
+   "bench": [
+    "Collin Malcolm",
+    "Edwin Jackson",
+    "Vanja Marinkovic",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 176.5,
+   "p90": 225.3,
+   "p10": 126.9,
+   "p_target": 0.275,
+   "nights": {
+    "count": {
+     "1": 3,
+     "2": 7
+    },
+    "starters": {
+     "1": 1,
+     "2": 4
+    },
+    "balanced": false,
+    "reasons": [
+     "only 3 of 10 play on night 1"
+    ],
+    "plan": [
+     [
+      "Kendrick Nunn",
+      "Collin Malcolm",
+      11.9
+     ],
+     [
+      "Moses Wright",
+      "Vanja Marinkovic",
+      8.5
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Rodions Kurucs",
+     "in_price": 6.1
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Duane Washington",
+     "out_price": 10.1,
+     "in": "Andres Feliz",
+     "in_price": 9.9
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Nadir Hifi",
+     "in_price": 16.3
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.6,
+   "formation": "2-1-2",
+   "starters": [
+    "Nadir Hifi",
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Collin Malcolm",
+    "Rodions Kurucs",
+    "Vanja Marinkovic",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 176.4,
+   "p90": 225.5,
+   "p10": 125.7,
+   "p_target": 0.275,
+   "nights": {
+    "count": {
+     "1": 2,
+     "2": 8
+    },
+    "starters": {
+     "1": 2,
+     "2": 3
+    },
+    "balanced": false,
+    "reasons": [
+     "only 2 of 10 play on night 1"
+    ],
+    "plan": [
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      11.9
+     ],
+     [
+      "Nadir Hifi",
+      "Rodions Kurucs",
+      8.9
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Clement Frisch",
+     "in_price": 5.5
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Nadir Hifi",
+     "in_price": 16.3
+    },
+    {
+     "out": "Duane Washington",
+     "out_price": 10.1,
+     "in": "Andres Feliz",
+     "in_price": 9.9
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.2,
+   "formation": "2-1-2",
+   "starters": [
+    "Nadir Hifi",
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Collin Malcolm",
+    "Vanja Marinkovic",
+    "Clement Frisch",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 176.2,
+   "p90": 225.5,
+   "p10": 125.5,
+   "p_target": 0.274,
+   "nights": {
+    "count": {
+     "1": 2,
+     "2": 8
+    },
+    "starters": {
+     "1": 2,
+     "2": 3
+    },
+    "balanced": false,
+    "reasons": [
+     "only 2 of 10 play on night 1"
+    ],
+    "plan": [
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      11.9
+     ],
+     [
+      "Nadir Hifi",
+      "Clement Frisch",
+      8.6
+     ]
+    ]
+   }
+  }
+ ],
+ "balanced_plans": [
+  {
+   "trades": [
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Edwin Jackson",
+     "in_price": 4.6
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Vanja Marinkovic",
+     "out_price": 4.3,
+     "in": "Tyson Carter",
+     "in_price": 7.9
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.4,
+   "formation": "3-1-1",
+   "starters": [
+    "Justin Robinson",
+    "Duane Washington",
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Aliou Diarra"
+   ],
+   "sixth": "Tyson Carter",
+   "bench": [
+    "Edwin Jackson",
+    "Gabriele Procida",
+    "Collin Malcolm",
+    "Kenan Kamenjas"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 178.1,
+   "p90": 224.8,
+   "p10": 129.1,
+   "p_target": 0.289,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Duane Washington",
+      "Kenan Kamenjas",
+      18.8
+     ],
+     [
+      "Tyson Carter",
+      "Collin Malcolm",
+      11.9
+     ],
+     [
+      "Aliou Diarra",
+      "Gabriele Procida",
+      8.1
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Edwin Jackson",
+     "in_price": 4.6
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.1,
+     "in": "Dwayne Bacon",
+     "in_price": 14.5
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.6,
+   "formation": "2-1-2",
+   "starters": [
+    "Justin Robinson",
+    "Duane Washington",
+    "Sasha Vezenkov",
+    "Aliou Diarra",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Vanja Marinkovic",
+    "Edwin Jackson",
+    "Gabriele Procida",
+    "Dwayne Bacon"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 178.5,
+   "p90": 226.1,
+   "p10": 128.3,
+   "p_target": 0.287,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Duane Washington",
+      "Dwayne Bacon",
+      17.4
+     ],
+     [
+      "Aliou Diarra",
+      "Vanja Marinkovic",
+      8.5
+     ],
+     [
+      "Justin Robinson",
+      "Gabriele Procida",
+      8.1
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Edwin Jackson",
+     "in_price": 4.6
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.1,
+     "in": "Jordan Nwora",
+     "in_price": 13.9
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.2,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Duane Washington",
+    "Sasha Vezenkov",
+    "Jordan Nwora",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Aliou Diarra",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Edwin Jackson",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 178.0,
+   "p90": 226.4,
+   "p10": 128.7,
+   "p_target": 0.283,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Duane Washington",
+      "Theo Maledon",
+      18.3
+     ],
+     [
+      "Aliou Diarra",
+      "Vanja Marinkovic",
+      8.5
+     ],
+     [
+      "Jordan Nwora",
+      "Gabriele Procida",
+      8.1
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Edwin Jackson",
+     "in_price": 4.6
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Gabriele Procida",
+     "out_price": 5.0,
+     "in": "Johnny Juzang",
+     "in_price": 9.1
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.9,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Duane Washington",
+    "Sasha Vezenkov",
+    "Johnny Juzang",
+    "Aliou Diarra"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Vanja Marinkovic",
+    "Edwin Jackson",
+    "Collin Malcolm",
+    "Kenan Kamenjas"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 177.0,
+   "p90": 224.4,
+   "p10": 128.5,
+   "p_target": 0.276,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Johnny Juzang",
+      "Kenan Kamenjas",
+      18.8
+     ],
+     [
+      "Duane Washington",
+      "Collin Malcolm",
+      11.9
+     ],
+     [
+      "Aliou Diarra",
+      "Vanja Marinkovic",
+      8.5
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Edwin Jackson",
+     "in_price": 4.6
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Gabriele Procida",
+     "out_price": 5.0,
+     "in": "Tyson Ward",
+     "in_price": 8.3
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.7,
+   "formation": "2-1-2",
+   "starters": [
+    "Justin Robinson",
+    "Duane Washington",
+    "Sasha Vezenkov",
+    "Aliou Diarra",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Vanja Marinkovic",
+    "Edwin Jackson",
+    "Tyson Ward",
+    "Collin Malcolm"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 175.8,
+   "p90": 226.1,
+   "p10": 124.6,
+   "p_target": 0.275,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Duane Washington",
+      "Tyson Ward",
+      12.1
+     ],
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      11.9
+     ],
+     [
+      "Justin Robinson",
+      "Vanja Marinkovic",
+      8.5
+     ]
+    ]
+   }
+  }
+ ]
+}
