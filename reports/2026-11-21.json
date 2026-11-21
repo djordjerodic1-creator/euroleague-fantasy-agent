@@ -152,6 +152,10 @@
    "text": "Rogkavopoulos is out of Panathinaikos' EuroLeague rotation (your note), so he now counts as 0 and A sells him. That replaced Wright and Abalde with Franks and Procida, kept Diarra, and left a 0.4 buffer; the R14–R15 chance is the same."
   },
   {
+   "level": "",
+   "text": "Cheap coaches checked (21 Nov): Banchi (MIL, 4.6) and Gavel (MUN, 4.4) save about 5.7, which buys Valančiūnas instead of Diarra. The best squads with them still come out at about 11% (MIL) and 10% (MUN) averaged over R14–R16, against 16.6% with Bartzokas. Milano are only 57% at ASVEL and Bayern 56% at home to Maccabi in R14, and in R15 Milano are at Hapoel (24%) while Olympiacos host ASVEL (94%)."
+  },
+  {
    "level": "high",
    "text": "R14 has UNLIMITED trades from today until Tuesday 19:00 Athens. Nothing has been applied to the team yet: my_team.json is still the squad after R13 (Nunn, Robinson, Feliz, Marinković, Vezenkov, Malcolm, Rogkavopoulos, Da Silva, Diarra, Kamenjas, coach Laso (IST), bank 0.2). If you trade, write it in inbox/team.md or save it on the page."
   },
