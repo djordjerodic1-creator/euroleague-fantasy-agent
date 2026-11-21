@@ -1,372 +1,372 @@
 {
- "round": 13,
- "updated": "2026-11-19",
+ "round": 14,
+ "updated": "2026-11-21",
  "source": "official game (browser HAR)",
  "prices": {
   "Abdu Kone": 4,
-  "Agustin Ubal": 5.1,
-  "Aj Lawson": 8.5,
-  "Alberto Abalde": 6.2,
-  "Alec Peters": 10.3,
-  "Aleksander Balcerowski": 8.2,
+  "Agustin Ubal": 4.9,
+  "Aj Lawson": 8.1,
+  "Alberto Abalde": 5.9,
+  "Alec Peters": 10,
+  "Aleksander Balcerowski": 8.4,
   "Aleksej Nedeljkovic": 4,
-  "Alessandro Pajola": 7,
-  "Aliou Diarra": 11.3,
-  "Alize Johnson": 8.6,
+  "Alessandro Pajola": 7.4,
+  "Aliou Diarra": 11.4,
+  "Alize Johnson": 8.5,
   "Allan Dokossi": 9,
-  "Alvaro Cardenas": 4.3,
-  "Amath M'baye": 5.2,
-  "Amir Coffey": 10.4,
+  "Alvaro Cardenas": 4.4,
+  "Amath M'baye": 5.1,
+  "Amir Coffey": 10.1,
   "Amit Ebo": 4,
-  "Andreas Obst": 9.4,
+  "Andreas Obst": 9.2,
   "Andrej Bjelic": 4,
-  "Andres Feliz": 9.9,
+  "Andres Feliz": 9.6,
   "Andrija Susic": 4,
-  "Ante Zizic": 10.7,
-  "Anthony Brown": 8.4,
-  "Antonio Blakeney": 9,
-  "Antonio Reeves": 6.8,
-  "Antonis Karagiannidis": 5.3,
+  "Ante Zizic": 10.1,
+  "Anthony Brown": 8.3,
+  "Antonio Blakeney": 9.6,
+  "Antonio Reeves": 6.6,
+  "Antonis Karagiannidis": 5.2,
   "Arijan Lakic": 4,
-  "Armando Bacot": 6.3,
+  "Armando Bacot": 6.2,
   "Armoni Brooks": 11.1,
-  "Arnas Butkevicius": 6.8,
-  "Austin Wiley": 10.7,
-  "Azuolas Tubelis": 13.1,
-  "Bandja Sy": 4,
+  "Arnas Butkevicius": 6.5,
+  "Austin Wiley": 10.6,
+  "Azuolas Tubelis": 13.4,
   "Bar Timor": 4,
   "Berk Ugurlu": 4,
-  "Bobi Klintman": 8.4,
-  "Bodian Massa": 5.8,
-  "Bonzie Colson": 11.3,
-  "Both Gach": 8.9,
-  "Brancou Badio": 6.5,
-  "Braxton Key": 7.5,
-  "Brice Dessert": 4.3,
-  "Bruno Caboclo": 6.4,
-  "Bruno Fernando": 10.8,
-  "Bryant Dunston": 4.4,
+  "Bobi Klintman": 8.8,
+  "Bodian Massa": 5.6,
+  "Bonzie Colson": 10.8,
+  "Both Gach": 9,
+  "Brancou Badio": 6.4,
+  "Braxton Key": 7.4,
+  "Brice Dessert": 4.2,
+  "Bruno Caboclo": 6.3,
+  "Bruno Fernando": 10.7,
+  "Bryant Dunston": 4.3,
   "Burakcan Yildizli": 4,
-  "Cameron Payne": 10,
-  "Carlik Jones": 14.4,
-  "Carsen Edwards": 11.6,
+  "Cameron Payne": 10.2,
+  "Carlik Jones": 14.8,
+  "Carsen Edwards": 11.7,
   "Caspar Vossenberg": 4,
-  "Chima Moneke": 14,
-  "Chris Duarte": 9.8,
-  "Chris Jones": 12.3,
-  "Chris Silva": 5.5,
-  "Christian Koloko": 10.1,
-  "Chuma Okeke": 8.5,
-  "Clement Frisch": 5.5,
-  "Codi Miller-Mcintyre": 10.2,
-  "Collin Malcolm": 10.1,
+  "Chima Moneke": 13.9,
+  "Chris Duarte": 9.7,
+  "Chris Jones": 11.8,
+  "Chris Silva": 5.4,
+  "Christian Koloko": 10.4,
+  "Chuma Okeke": 8.7,
+  "Clement Frisch": 5.4,
+  "Codi Miller-Mcintyre": 10,
+  "Collin Malcolm": 10.2,
   "Conor Morgan": 8.1,
-  "Cory Joseph": 6.2,
+  "Cory Joseph": 6.1,
   "DaQuan Jeffries": 7.4,
-  "Damian Jones": 7.9,
-  "Damion Baugh": 7.7,
-  "Dan Oturu": 14.2,
-  "Daniel Hackett": 4.4,
-  "Daniel Theis": 11.2,
-  "Dario Brizuela": 6.2,
-  "Dario Saric": 14.4,
+  "Damian Jones": 8.2,
+  "Damion Baugh": 7.4,
+  "Dan Oturu": 13.8,
+  "Daniel Hackett": 4.5,
+  "Daniel Theis": 11,
+  "Dario Brizuela": 7.2,
+  "Dario Saric": 14.6,
   "Darius Karutasu": 4,
-  "Darius Thompson": 8,
-  "Daron Russell": 7.9,
-  "Daulton Hommes": 5,
-  "David Dejulius": 8.5,
-  "David Kramer": 5.2,
-  "David Lighty": 4.3,
+  "Darius Thompson": 7.6,
+  "Daron Russell": 7.8,
+  "Daulton Hommes": 4.9,
+  "David Dejulius": 8.2,
+  "David Kramer": 4.8,
+  "David Lighty": 4.2,
   "David Mutaf": 4,
-  "Davide Casarin": 4.3,
-  "Davion Mintz": 4.9,
-  "Davis Bertans": 4.1,
+  "Davide Casarin": 4.2,
+  "Davion Mintz": 4.8,
+  "Davis Bertans": 4,
   "Deividas Sirvydis": 4,
-  "Dejan Davidovac": 4.6,
-  "Derek  Willis": 6.9,
-  "Derrick Alston Jr.": 8.1,
-  "Devin Booker": 8.1,
-  "Devon Dotson": 9.7,
-  "Devon Hall": 8.7,
+  "Dejan Davidovac": 5.1,
+  "Derek  Willis": 6.8,
+  "Derrick Alston Jr.": 8,
+  "Devin Booker": 8,
+  "Devon Dotson": 9.4,
+  "Devon Hall": 8.6,
   "Diego Flaccadori": 4,
   "Dimitris Moraitis": 4,
-  "Dj Stewart": 8.6,
-  "Donta Hall": 9.5,
+  "Dj Stewart": 9,
+  "Donta Hall": 9.6,
   "Dovydas Giedraitis": 4,
-  "Duane Washington": 10.1,
-  "Dustin Sleva": 6.2,
-  "Dwayne Bacon": 14.5,
-  "Dwight Powell": 8.6,
-  "Dylan Osetkowski": 6.6,
-  "Dzanan Musa": 12.4,
-  "Ebuka Izundu": 7.3,
-  "Edgaras Ulanovas": 6.1,
-  "Edwin Jackson": 4.6,
-  "Eleftherios Mantzoukas": 4.3,
-  "Elie Okobo": 11.7,
-  "Elijah Bryant": 17.6,
-  "Ercan Osmani": 6.6,
+  "Duane Washington": 11.1,
+  "Dustin Sleva": 6.1,
+  "Dwayne Bacon": 14.6,
+  "Dwight Powell": 8.5,
+  "Dylan Osetkowski": 6.3,
+  "Dzanan Musa": 11.9,
+  "Ebuka Izundu": 7.1,
+  "Edgaras Ulanovas": 5.9,
+  "Edwin Jackson": 4.2,
+  "Eleftherios Mantzoukas": 4.2,
+  "Elie Okobo": 11.9,
+  "Elijah Bryant": 17.4,
+  "Ercan Osmani": 6.5,
   "Erkan Yilmaz": 4,
-  "Ethan Thompson": 8.8,
-  "Eugene German": 6.1,
-  "Eugene Omoruyi": 10,
-  "Evan Fournier": 9.3,
-  "Facundo Campazzo": 13.3,
-  "Filip Petrusev": 11.9,
+  "Ethan Thompson": 8.7,
+  "Eugene German": 6,
+  "Eugene Omoruyi": 10.1,
+  "Evan Fournier": 9.6,
+  "Facundo Campazzo": 13.2,
+  "Filip Petrusev": 11.6,
   "Francesco Ferrari": 4,
-  "Frank Ntilikina": 6.6,
-  "Furkan Korkmaz": 6.9,
-  "Gabriel Deck": 6.9,
-  "Gabriele Procida": 5,
-  "Garrison Mathews": 7.3,
+  "Frank Ntilikina": 6.8,
+  "Furkan Korkmaz": 6.6,
+  "Gabriel Deck": 6.8,
+  "Gabriele Procida": 4.8,
+  "Garrison Mathews": 7,
   "George Papas": 4,
   "Georgios Bourneles": 4,
-  "Georgios Papagiannis": 5.9,
+  "Georgios Papagiannis": 5.8,
   "Giampaolo Ricci": 4,
-  "Gonzalo Corbalan": 7.4,
+  "Gonzalo Corbalan": 7.1,
   "Guerschon Yabusele": 12.2,
   "Gur Lavi": 4,
   "Guy Palatin": 4,
-  "Hugo Besson": 9.2,
+  "Hugo Besson": 9.1,
   "Iason Varvaritis": 4,
-  "Iffe Lundberg": 7.4,
-  "Ignas Sargiunas": 5.3,
+  "Iffe Lundberg": 7.3,
+  "Ignas Sargiunas": 5.1,
   "Ioannis Kouzeloglou": 4,
   "Isaac Bonga": 9,
-  "Isaia Cordinier": 7.9,
-  "Ish Wainright": 5.4,
+  "Isaia Cordinier": 7.8,
+  "Ish Wainright": 5.9,
   "Itay Segev": 4,
-  "Jacob Toppin": 8,
-  "Jae Crowder": 9.3,
-  "Jaime Pradilla": 7.9,
-  "Jared Butler": 8.2,
-  "Jared Rhoden": 9.3,
-  "Jaron Blossomgame": 8.2,
-  "Jasiel Rivero": 8.1,
-  "Jason Burnell": 8,
-  "Jaylen Hoard": 12.7,
-  "Jaylen Nowell": 8.6,
-  "Jean Montero": 14.1,
-  "Jeremy Morgan": 4.3,
-  "Jerian Grant": 7.6,
-  "Jimmy Clark III": 9.6,
-  "Joel Ayayi": 4.4,
-  "Joel Bolomboy": 9.6,
-  "Joel Parra": 7.2,
-  "Joffrey Lauvergne": 6.2,
-  "Johannes Thiemann": 11.5,
-  "Johannes Voigtmann": 6.3,
+  "Jacob Toppin": 7.9,
+  "Jae Crowder": 9.2,
+  "Jaime Pradilla": 7.8,
+  "Jared Butler": 8.6,
+  "Jared Rhoden": 9.4,
+  "Jaron Blossomgame": 8.3,
+  "Jasiel Rivero": 7.8,
+  "Jason Burnell": 7.8,
+  "Jaylen Hoard": 12.3,
+  "Jaylen Nowell": 8.5,
+  "Jean Montero": 14,
+  "Jeremy Morgan": 4.4,
+  "Jerian Grant": 7.2,
+  "Jimmy Clark III": 9.3,
+  "Joel Ayayi": 4.6,
+  "Joel Bolomboy": 9.5,
+  "Joel Parra": 7.8,
+  "Joffrey Lauvergne": 6.1,
+  "Johannes Thiemann": 11.6,
+  "Johannes Voigtmann": 6.4,
   "John Dibartolomeo": 4,
-  "John Konchar": 8,
-  "Johnathan Motley": 8,
-  "Johnny Juzang": 9.1,
-  "Jonas Valanciunas": 17.7,
-  "Jordan Loyd": 10.1,
+  "John Konchar": 7.9,
+  "Johnathan Motley": 7.9,
+  "Johnny Juzang": 9,
+  "Jonas Valanciunas": 17.2,
+  "Jordan Loyd": 10.6,
   "Jordan Nwora": 13.9,
   "Josep Puerto": 5.2,
-  "Josh Nebo": 12.3,
+  "Josh Nebo": 12.1,
   "Juan Nunez": 4,
-  "Juancho Hernangomez": 9.7,
-  "Juhann Begarin": 5.3,
-  "Justin Anderson": 5.3,
-  "Justin Minaya": 5.8,
-  "Justin Robinson": 13.2,
-  "Justinian Jessup": 7.4,
+  "Juancho Hernangomez": 9.6,
+  "Juhann Begarin": 5.2,
+  "Justin Anderson": 5.2,
+  "Justin Minaya": 5.9,
+  "Justin Robinson": 13.1,
+  "Justinian Jessup": 7.5,
   "Justus Hollatz": 4,
-  "Kai Jones": 7.7,
+  "Kai Jones": 8.3,
   "Kamar Baldwin": 6.3,
-  "Kameron Taylor": 12.1,
-  "Kaodirichi Akobundu-Ehiogu": 5.3,
-  "Keaton Wallace": 7.8,
+  "Kameron Taylor": 12.2,
+  "Kaodirichi Akobundu-Ehiogu": 5.2,
+  "Keaton Wallace": 7.5,
   "Keenan Evans": 8,
-  "Kenan Kamenjas": 5.4,
-  "Kendrick Nunn": 14.8,
-  "Kenneth Faried": 10.8,
-  "Kessler Edwards": 8.2,
-  "Kevarrius Hayes": 8.1,
-  "Kevin Kokila": 7.6,
-  "Kevin Punter": 13.5,
-  "Khadeen Carrington": 5.8,
+  "Kenan Kamenjas": 6.2,
+  "Kendrick Nunn": 15.2,
+  "Kenneth Faried": 10.7,
+  "Kessler Edwards": 8.3,
+  "Kevarrius Hayes": 8.6,
+  "Kevin Kokila": 7.1,
+  "Kevin Punter": 13.4,
+  "Khadeen Carrington": 5.7,
   "Kilian Fischer": 4,
+  "Killian Hayes": 9,
   "Klemen Prepelic": 4,
-  "Kobi Simmons": 7.5,
+  "Kobi Simmons": 8.2,
   "Konstantinos Mitoglou": 6,
   "Kosta Kondic": 4,
-  "Kostas Papanikolaou": 4,
+  "Kostas Papanikolaou": 4.1,
   "Kostas Sloukas": 9.1,
-  "Kyle Allman": 7.4,
-  "Lamar Stevens": 8.8,
-  "Leandro Bolmaro": 8.3,
-  "Leopold Cavaliere": 4,
-  "Lonnie Walker IV": 11,
-  "Luca Vildoza": 7.1,
+  "Kyle Allman": 8.1,
+  "Lamar Stevens": 8.7,
+  "Leandro Bolmaro": 8.9,
+  "Leopold Cavaliere": 4.4,
+  "Lonnie Walker IV": 11.2,
+  "Luca Vildoza": 7,
   "Lucas Mari": 4,
-  "Mam Jaiteh": 5.6,
-  "Mamadi Diakite": 7.9,
-  "Maodo Lo": 5.4,
-  "Maozinha Pereira": 8.2,
-  "Marc-owen Fodzo Dada": 4.6,
+  "Mam Jaiteh": 5.5,
+  "Mamadi Diakite": 7.5,
+  "Maodo Lo": 5.3,
+  "Maozinha Pereira": 8.1,
+  "Marc-owen Fodzo Dada": 5.1,
   "Marcelinho Huertas": 5.1,
-  "Marcio Santos": 7.9,
-  "Marcus Bingham": 10,
-  "Marcus Carr": 9.9,
-  "Marek Blazevic": 7.1,
-  "Mario Nakic": 4.1,
+  "Marcio Santos": 7.8,
+  "Marcus Bingham": 9.6,
+  "Marcus Carr": 9.8,
+  "Marek Blazevic": 7,
+  "Mario Nakic": 4,
   "Mario Saint-supery": 4,
-  "Marius Grigonis": 7.5,
-  "Marjon Beauchamp": 8.8,
-  "Marko Guduric": 8.1,
-  "Mathias Lessort": 16.2,
-  "Mathis Dossou-yovo": 8.9,
+  "Marius Grigonis": 7.3,
+  "Marjon Beauchamp": 9.2,
+  "Marko Guduric": 8.4,
+  "Mathias Lessort": 15.7,
+  "Mathis Dossou-yovo": 8.7,
   "Matteo Baiocchi": 4,
-  "Matteo Spagnolo": 5,
-  "Matthew Strazel": 11.1,
-  "Max Heidegger": 4.6,
-  "Max Shulga": 6.4,
-  "Mbaye Ndiaye": 8.5,
-  "Mckinley Wright": 12.1,
+  "Matteo Spagnolo": 4.7,
+  "Matthew Strazel": 11.7,
+  "Max Heidegger": 4.5,
+  "Max Shulga": 6.3,
+  "Mbaye Ndiaye": 8.4,
+  "Mckinley Wright": 11.5,
   "Melih Mahmutoglu": 4,
-  "Metecan Birsen": 4.2,
+  "Metecan Birsen": 4.3,
   "Mfiondu Kabengele": 16.2,
-  "Mikael Jantunen": 6,
-  "Mike James": 14.8,
-  "Miles Norris": 7.4,
-  "Mo Gueye": 7,
-  "Moses Wright": 13.2,
+  "Mikael Jantunen": 5.9,
+  "Mike James": 14.7,
+  "Miles Norris": 7.3,
+  "Mo Gueye": 6.6,
+  "Moses Wright": 14.2,
   "Mouhamed Faye": 8.5,
-  "Mouhamet Diouf": 8.6,
-  "Moustapha Fall": 6.6,
-  "Myles Cale": 5.9,
-  "Nadir Hifi": 16.3,
-  "Nathan Reuvers": 9.2,
-  "Nathan Sestina": 6.1,
-  "Neal Sako": 9.6,
-  "Nemanja Dangubic": 4,
-  "Nick Smith Jr": 7.1,
+  "Mouhamet Diouf": 8.4,
+  "Moustapha Fall": 6.4,
+  "Myles Cale": 5.8,
+  "Nadir Hifi": 16.6,
+  "Nathan Reuvers": 9.1,
+  "Nathan Sestina": 6.5,
+  "Neal Sako": 10.3,
+  "Nemanja Dangubic": 4.1,
+  "Nick Smith Jr": 6.8,
   "Nick Weiler-Babb": 7.6,
   "Nicola Akele": 4,
-  "Nicolo Melli": 7.7,
+  "Nicolo Melli": 7.6,
   "Niels Giffey": 4,
-  "Nigel Hayes-davis": 12.2,
-  "Nigel Williams-Goss": 8.4,
+  "Nigel Hayes-davis": 12.6,
+  "Nigel Williams-Goss": 8.3,
   "Niko Jerkic": 4,
   "Nikola Djurisic": 4,
-  "Nikola Milutinov": 13.1,
-  "Nikola Mirotic": 12,
-  "Nikola Tanaskovic": 8.4,
+  "Nikola Milutinov": 13,
+  "Nikola Mirotic": 11.8,
+  "Nikola Tanaskovic": 8,
   "Nikolaos Plotas": 4,
-  "Nikos Rogkavopoulos": 4.3,
+  "Nikos Rogkavopoulos": 4.2,
   "Ognjen Dobric": 4.7,
-  "Olivier Nkamhoua": 7.1,
-  "Olivier Sarr": 7.6,
-  "Omari Moore": 6.4,
+  "Olivier Nkamhoua": 6.8,
+  "Olivier Sarr": 7.5,
+  "Omari Moore": 6.3,
   "Omiros Netzipoglou": 4.1,
   "Onuralp Bitim": 4,
-  "Oscar Da Silva": 8.2,
-  "Oshae Brissett": 10.2,
-  "Ousmane Diop": 4.8,
+  "Oscar Da Silva": 8.5,
+  "Oshae Brissett": 10.3,
+  "Ousmane Diop": 5,
   "Oz Blayzer": 4,
   "Panagiotis Kalaitzakis": 4,
-  "Patrick Baldwin Jr": 8.7,
-  "Patty Mills": 12.4,
+  "Patrick Baldwin Jr": 8.4,
+  "Patty Mills": 12.5,
   "Pedro Souza": 4,
-  "Perry Dozier": 6.5,
-  "Rasheed Bello": 8.4,
-  "Rj Cole": 8.7,
-  "Robert Franks": 7.9,
-  "Rodions Kurucs": 6.1,
-  "Rokas Jokubaitis": 8.5,
-  "Rolands Smits": 9.6,
-  "Roman Sorkin": 11.3,
+  "Perry Dozier": 6.1,
+  "Rasheed Bello": 8.6,
+  "Rj Cole": 8.3,
+  "Robert Franks": 7.7,
+  "Rodions Kurucs": 6.2,
+  "Rokas Jokubaitis": 8.3,
+  "Rolands Smits": 9.5,
+  "Roman Sorkin": 11,
   "Ruzgar Fenemen": 4,
-  "Saben Lee": 7.4,
-  "Santi Yusta": 6.8,
-  "Sasha Vezenkov": 20.2,
-  "Scottie Wilbekin": 9,
+  "Saben Lee": 7.2,
+  "Santi Yusta": 7.4,
+  "Sasha Vezenkov": 20,
+  "Scottie Wilbekin": 9.6,
   "Sebastian Herrera": 6.3,
-  "Semi Ojeleye": 7.9,
-  "Sergio Llull": 4.1,
+  "Semi Ojeleye": 7.7,
+  "Sergio Llull": 4,
   "Sertac Sanli": 4,
-  "Shane Hunter": 4.7,
-  "Shane Larkin": 12,
-  "Shavon Shields": 12.6,
-  "Stanley Umude": 7.5,
+  "Shane Hunter": 4.6,
+  "Shane Larkin": 11.7,
+  "Shavon Shields": 12.1,
+  "Stanley Umude": 7.1,
   "Stefan Joksimovic": 4,
   "Stefan Miljenovic": 4,
   "Stefano Tonut": 4,
-  "Sterling Brown": 10.5,
-  "Sylvain Francisco": 13.7,
-  "TJ Leaf": 7.8,
-  "TJ Shorts": 16.8,
-  "Tadas Sedekerskis": 10.4,
-  "Tai Odiase": 7.1,
-  "Talen Horton-Tucker": 13.1,
-  "Tamir Blatt": 6.5,
-  "Terry Tarpey": 6.1,
-  "Theo Maledon": 13.4,
+  "Sterling Brown": 10.2,
+  "Sylvain Francisco": 13.2,
+  "TJ Leaf": 7.7,
+  "TJ Shorts": 17.1,
+  "Tadas Sedekerskis": 10.3,
+  "Tai Odiase": 7.2,
+  "Talen Horton-Tucker": 13.2,
+  "Tamir Blatt": 6.4,
+  "Terry Tarpey": 6,
+  "Theo Maledon": 13.8,
   "Thierry Henry Alves de Souza": 4,
-  "Thomas Walkup": 6.2,
-  "Timothé Luwawu-Cabarrot": 9.3,
-  "Tj Warren": 11,
-  "Tobias Jensen": 5.4,
-  "Tomas Satoransky": 8.9,
+  "Thomas Walkup": 6.5,
+  "Timothé Luwawu-Cabarrot": 9.2,
+  "Tj Warren": 10.6,
+  "Tobias Jensen": 5.2,
+  "Tomas Satoransky": 9.3,
   "Tomer Ginat": 4,
   "Tommaso Baldasso": 4,
   "Tonye Jekiri": 9.9,
-  "Tornike Shengelia": 10.7,
-  "Tosan Evbuomwan": 8.2,
-  "Tremont Waters": 9.9,
-  "Trent Forrest": 8.5,
-  "Trent Frazier": 9.2,
-  "Tyler Dorsey": 11.6,
-  "Tyler Ennis": 4.5,
-  "Tyrese Martin": 8.5,
-  "Tyrique Jones": 9.8,
-  "Tyson Carter": 7.9,
-  "Tyson Etienne": 9.5,
-  "Tyson Ward": 8.3,
-  "Tyty Washington": 9.4,
-  "Umoja Gibson": 10,
+  "Tornike Shengelia": 10.2,
+  "Tosan Evbuomwan": 8.1,
+  "Tremont Waters": 9.5,
+  "Trent Forrest": 8.4,
+  "Trent Frazier": 9.1,
+  "Tyler Dorsey": 11.5,
+  "Tyler Ennis": 4.4,
+  "Tyrese Martin": 8.2,
+  "Tyrique Jones": 10.7,
+  "Tyson Carter": 8.9,
+  "Tyson Etienne": 9,
+  "Tyson Ward": 8.5,
+  "Tyty Washington": 9,
+  "Umoja Gibson": 9.9,
   "Uros Danilovic": 4,
   "Uros Mijailovic": 4,
-  "Usman Garuba": 4.9,
-  "Vanja Marinkovic": 4.3,
-  "Vasilije Micic": 12,
-  "Vladimir Lucic": 9.4,
-  "Wade Baldwin": 13.9,
-  "Walter Tavares": 14.6,
-  "Wendell Moore": 9.6,
-  "Wenyen Gabriel": 8.3,
-  "Will Clyburn": 11.2,
+  "Usman Garuba": 4.8,
+  "Vanja Marinkovic": 4.4,
+  "Vasilije Micic": 11.7,
+  "Vladimir Lucic": 9,
+  "Wade Baldwin": 13.7,
+  "Walter Tavares": 14,
+  "Wendell Moore": 9.2,
+  "Wenyen Gabriel": 8.1,
+  "Will Clyburn": 10.8,
   "William Rayman": 4,
   "Yagiz Aksu": 4,
-  "Yam Madar": 10.6,
-  "Yankuba Sima": 5.3,
-  "Yoan Makoundou": 5.8,
-  "Yves Pons": 6,
+  "Yam Madar": 11,
+  "Yankuba Sima": 5.2,
+  "Yoan Makoundou": 5.7,
+  "Yves Pons": 5.9,
   "Zach Leday": 12.9
  },
  "coaches": {
   "ASV": 4,
-  "BAR": 7.8,
+  "BAR": 7.5,
   "BAS": 4,
-  "BES": 4.9,
-  "DUB": 7.9,
-  "HTA": 7.7,
-  "IST": 6,
-  "MAD": 9.1,
-  "MIL": 4.5,
-  "MUN": 4,
-  "OLY": 9.9,
+  "BES": 4.7,
+  "DUB": 8,
+  "HTA": 7.4,
+  "IST": 6.5,
+  "MAD": 8.6,
+  "MIL": 4.6,
+  "MUN": 4.4,
+  "OLY": 10.2,
   "PAM": 8.6,
-  "PAN": 9.8,
-  "PAR": 6.2,
-  "PRS": 4.7,
-  "RED": 6.7,
+  "PAN": 10.1,
+  "PAR": 6.3,
+  "PRS": 4.8,
+  "RED": 6.8,
   "TEL": 4,
-  "ULK": 8.7,
-  "VIR": 4.2,
-  "ZAL": 7.5
+  "ULK": 8.4,
+  "VIR": 4,
+  "ZAL": 7.1
  },
  "info": {
   "Sasha Vezenkov": {
@@ -375,15 +375,7 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 47.7
-  },
-  "Jonas Valanciunas": {
-   "t": "ZAL",
-   "last": "Valanciunas",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 21.9
+   "owned": 50.0
   },
   "Elijah Bryant": {
    "t": "HTA",
@@ -393,13 +385,21 @@
    "p_play": 1,
    "owned": 15.7
   },
+  "Jonas Valanciunas": {
+   "t": "ZAL",
+   "last": "Valanciunas",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 18.0
+  },
   "TJ Shorts": {
    "t": "PAM",
    "last": "Shorts",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 20.4
+   "owned": 20.3
   },
   "Nadir Hifi": {
    "t": "PRS",
@@ -407,15 +407,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 6.8
-  },
-  "Mathias Lessort": {
-   "t": "PAN",
-   "last": "Lessort",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 12.0
+   "owned": 9.9
   },
   "Mfiondu Kabengele": {
    "t": "DUB",
@@ -423,7 +415,31 @@
    "pos": "Center",
    "injured": false,
    "p_play": 1,
-   "owned": 7.6
+   "owned": 9.7
+  },
+  "Mathias Lessort": {
+   "t": "PAN",
+   "last": "Lessort",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 10.2
+  },
+  "Kendrick Nunn": {
+   "t": "PAN",
+   "last": "Nunn",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 14.6
+  },
+  "Carlik Jones": {
+   "t": "PAR",
+   "last": "Jones",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 22.4
   },
   "Mike James": {
    "t": "IST",
@@ -433,37 +449,13 @@
    "p_play": 0,
    "owned": 0.4
   },
-  "Kendrick Nunn": {
-   "t": "PAN",
-   "last": "Nunn",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 15.3
-  },
-  "Walter Tavares": {
-   "t": "MAD",
-   "last": "Tavares",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 3.4
-  },
   "Dwayne Bacon": {
    "t": "DUB",
    "last": "Bacon",
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 12.1
-  },
-  "Carlik Jones": {
-   "t": "PAR",
-   "last": "Jones",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 20.8
+   "owned": 12.3
   },
   "Dario Saric": {
    "t": "IST",
@@ -471,79 +463,7 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 3.0
-  },
-  "Dan Oturu": {
-   "t": "HTA",
-   "last": "Oturu",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 7.5
-  },
-  "Jean Montero": {
-   "t": "OLY",
-   "last": "Montero",
-   "pos": "Guard",
-   "injured": true,
-   "p_play": 0,
-   "owned": 3.4
-  },
-  "Chima Moneke": {
-   "t": "RED",
-   "last": "Moneke",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 2.3
-  },
-  "Wade Baldwin": {
-   "t": "ULK",
-   "last": "Baldwin",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 2.3
-  },
-  "Jordan Nwora": {
-   "t": "RED",
-   "last": "Nwora",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 11.9
-  },
-  "Sylvain Francisco": {
-   "t": "PAN",
-   "last": "Francisco",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 7.0
-  },
-  "Kevin Punter": {
-   "t": "BAR",
-   "last": "Punter",
-   "pos": "Guard",
-   "injured": true,
-   "p_play": 0,
-   "owned": 2.3
-  },
-  "Theo Maledon": {
-   "t": "MAD",
-   "last": "Maledon",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 15.9
-  },
-  "Facundo Campazzo": {
-   "t": "MAD",
-   "last": "Campazzo",
-   "pos": "Guard",
-   "injured": true,
-   "p_play": 0,
-   "owned": 1.1
+   "owned": 4.1
   },
   "Moses Wright": {
    "t": "MIL",
@@ -551,7 +471,103 @@
    "pos": "Center",
    "injured": false,
    "p_play": 1,
-   "owned": 3.8
+   "owned": 4.7
+  },
+  "Walter Tavares": {
+   "t": "MAD",
+   "last": "Tavares",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 2.7
+  },
+  "Jean Montero": {
+   "t": "OLY",
+   "last": "Montero",
+   "pos": "Guard",
+   "injured": true,
+   "p_play": 0,
+   "owned": 3.3
+  },
+  "Chima Moneke": {
+   "t": "RED",
+   "last": "Moneke",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 2.2
+  },
+  "Jordan Nwora": {
+   "t": "RED",
+   "last": "Nwora",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 10.6
+  },
+  "Theo Maledon": {
+   "t": "MAD",
+   "last": "Maledon",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 19.9
+  },
+  "Dan Oturu": {
+   "t": "HTA",
+   "last": "Oturu",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 6.1
+  },
+  "Wade Baldwin": {
+   "t": "ULK",
+   "last": "Baldwin",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 2.2
+  },
+  "Kevin Punter": {
+   "t": "BAR",
+   "last": "Punter",
+   "pos": "Guard",
+   "injured": true,
+   "p_play": 0,
+   "owned": 2.2
+  },
+  "Azuolas Tubelis": {
+   "t": "ZAL",
+   "last": "Tubelis",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 20.4
+  },
+  "Facundo Campazzo": {
+   "t": "MAD",
+   "last": "Campazzo",
+   "pos": "Guard",
+   "injured": true,
+   "p_play": 0,
+   "owned": 1.0
+  },
+  "Sylvain Francisco": {
+   "t": "PAN",
+   "last": "Francisco",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 6.8
+  },
+  "Talen Horton-Tucker": {
+   "t": "ULK",
+   "last": "Horton-Tucker",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 10.0
   },
   "Justin Robinson": {
    "t": "BAR",
@@ -559,7 +575,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 10.3
+   "owned": 8.1
   },
   "Nikola Milutinov": {
    "t": "OLY",
@@ -569,29 +585,29 @@
    "p_play": 0,
    "owned": 1.0
   },
-  "Azuolas Tubelis": {
-   "t": "ZAL",
-   "last": "Tubelis",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 19.9
-  },
-  "Talen Horton-Tucker": {
-   "t": "ULK",
-   "last": "Horton-Tucker",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 10.2
-  },
   "Zach Leday": {
    "t": "HTA",
    "last": "Leday",
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 3.5
+   "owned": 3.7
+  },
+  "Nigel Hayes-davis": {
+   "t": "PAN",
+   "last": "Hayes-davis",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 3.7
+  },
+  "Patty Mills": {
+   "t": "ASV",
+   "last": "Mills",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.5
   },
   "Jaylen Hoard": {
    "t": "TEL",
@@ -601,53 +617,13 @@
    "p_play": 1,
    "owned": 0.6
   },
-  "Shavon Shields": {
-   "t": "ULK",
-   "last": "Shields",
+  "Kameron Taylor": {
+   "t": "PAM",
+   "last": "Taylor",
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 3.5
-  },
-  "Dzanan Musa": {
-   "t": "DUB",
-   "last": "Musa",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.7
-  },
-  "Patty Mills": {
-   "t": "ASV",
-   "last": "Mills",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 1.7
-  },
-  "Josh Nebo": {
-   "t": "BAR",
-   "last": "Nebo",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 2.3
-  },
-  "Chris Jones": {
-   "t": "RED",
-   "last": "Jones",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 4.5
-  },
-  "Nigel Hayes-davis": {
-   "t": "PAN",
-   "last": "Hayes-davis",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 3.2
+   "owned": 3.9
   },
   "Guerschon Yabusele": {
    "t": "PAN",
@@ -655,55 +631,31 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 3.0
+   "owned": 2.9
   },
-  "Mckinley Wright": {
-   "t": "DUB",
-   "last": "Wright",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 1.4
-  },
-  "Kameron Taylor": {
-   "t": "PAM",
-   "last": "Taylor",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 3.2
-  },
-  "Shane Larkin": {
+  "Shavon Shields": {
    "t": "ULK",
-   "last": "Larkin",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.9
-  },
-  "Nikola Mirotic": {
-   "t": "PAM",
-   "last": "Mirotic",
+   "last": "Shields",
    "pos": "Forward",
-   "injured": true,
-   "p_play": 0,
-   "owned": 1.3
-  },
-  "Vasilije Micic": {
-   "t": "HTA",
-   "last": "Micic",
-   "pos": "Guard",
    "injured": false,
    "p_play": 1,
    "owned": 3.3
   },
-  "Filip Petrusev": {
-   "t": "DUB",
-   "last": "Petrusev",
-   "pos": "Forward",
+  "Josh Nebo": {
+   "t": "BAR",
+   "last": "Nebo",
+   "pos": "Center",
    "injured": false,
    "p_play": 1,
-   "owned": 1.4
+   "owned": 1.7
+  },
+  "Dzanan Musa": {
+   "t": "DUB",
+   "last": "Musa",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.8
   },
   "Elie Okobo": {
    "t": "DUB",
@@ -711,7 +663,71 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 1.6
+   "owned": 1.5
+  },
+  "Nikola Mirotic": {
+   "t": "PAM",
+   "last": "Mirotic",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.4
+  },
+  "Chris Jones": {
+   "t": "RED",
+   "last": "Jones",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 4.1
+  },
+  "Shane Larkin": {
+   "t": "ULK",
+   "last": "Larkin",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.1
+  },
+  "Carsen Edwards": {
+   "t": "ZAL",
+   "last": "Edwards",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 3.6
+  },
+  "Matthew Strazel": {
+   "t": "IST",
+   "last": "Strazel",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 4.9
+  },
+  "Vasilije Micic": {
+   "t": "HTA",
+   "last": "Micic",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 3.4
+  },
+  "Filip Petrusev": {
+   "t": "DUB",
+   "last": "Petrusev",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.5
+  },
+  "Johannes Thiemann": {
+   "t": "MUN",
+   "last": "Thiemann",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 2.6
   },
   "Tyler Dorsey": {
    "t": "OLY",
@@ -721,29 +737,45 @@
    "p_play": 0,
    "owned": 1.3
   },
-  "Carsen Edwards": {
-   "t": "ZAL",
-   "last": "Edwards",
+  "Mckinley Wright": {
+   "t": "DUB",
+   "last": "Wright",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 3.5
+   "owned": 1.2
   },
-  "Johannes Thiemann": {
-   "t": "MUN",
-   "last": "Thiemann",
+  "Aliou Diarra": {
+   "t": "VIR",
+   "last": "Diarra",
    "pos": "Center",
    "injured": false,
    "p_play": 1,
-   "owned": 1.3
+   "owned": 33.0
   },
-  "Bonzie Colson": {
-   "t": "TEL",
-   "last": "Colson",
-   "pos": "Forward",
+  "Lonnie Walker IV": {
+   "t": "BES",
+   "last": "Walker IV",
+   "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 1.2
+   "owned": 2.3
+  },
+  "Duane Washington": {
+   "t": "MUN",
+   "last": "Washington",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 3.7
+  },
+  "Armoni Brooks": {
+   "t": "PAM",
+   "last": "Brooks",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 5.0
   },
   "Roman Sorkin": {
    "t": "TEL",
@@ -753,21 +785,13 @@
    "p_play": 1,
    "owned": 0.7
   },
-  "Aliou Diarra": {
-   "t": "VIR",
-   "last": "Diarra",
-   "pos": "Center",
+  "Yam Madar": {
+   "t": "TEL",
+   "last": "Madar",
+   "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 30.4
-  },
-  "Will Clyburn": {
-   "t": "ULK",
-   "last": "Clyburn",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 2.3
+   "owned": 6.5
   },
   "Daniel Theis": {
    "t": "TEL",
@@ -777,37 +801,29 @@
    "p_play": 1,
    "owned": 0.7
   },
-  "Armoni Brooks": {
-   "t": "PAM",
-   "last": "Brooks",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 6.3
-  },
-  "Matthew Strazel": {
-   "t": "IST",
-   "last": "Strazel",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 2.4
-  },
-  "Lonnie Walker IV": {
-   "t": "BES",
-   "last": "Walker IV",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 2.6
-  },
-  "Tj Warren": {
-   "t": "PRS",
-   "last": "Warren",
+  "Will Clyburn": {
+   "t": "ULK",
+   "last": "Clyburn",
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 1.0
+   "owned": 2.3
+  },
+  "Bonzie Colson": {
+   "t": "TEL",
+   "last": "Colson",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.2
+  },
+  "Tyrique Jones": {
+   "t": "OLY",
+   "last": "Jones",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.5
   },
   "Bruno Fernando": {
    "t": "IST",
@@ -815,7 +831,7 @@
    "pos": "Center",
    "injured": true,
    "p_play": 0,
-   "owned": 1.2
+   "owned": 1.1
   },
   "Kenneth Faried": {
    "t": "BAS",
@@ -823,47 +839,39 @@
    "pos": "Center",
    "injured": true,
    "p_play": 0,
-   "owned": 1.0
+   "owned": 0.8
   },
-  "Tornike Shengelia": {
-   "t": "DUB",
-   "last": "Shengelia",
-   "pos": "Forward",
+  "Jordan Loyd": {
+   "t": "IST",
+   "last": "Loyd",
+   "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 1.0
-  },
-  "Ante Zizic": {
-   "t": "BES",
-   "last": "Zizic",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 1.2
+   "owned": 1.3
   },
   "Austin Wiley": {
    "t": "MUN",
    "last": "Wiley",
    "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.4
+   "injured": true,
+   "p_play": 0,
+   "owned": 0.3
   },
-  "Yam Madar": {
-   "t": "TEL",
-   "last": "Madar",
-   "pos": "Guard",
+  "Tj Warren": {
+   "t": "PRS",
+   "last": "Warren",
+   "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 6.2
+   "owned": 1.1
   },
-  "Sterling Brown": {
-   "t": "ZAL",
-   "last": "Brown",
-   "pos": "Guard",
+  "Christian Koloko": {
+   "t": "RED",
+   "last": "Koloko",
+   "pos": "Center",
    "injured": false,
    "p_play": 1,
-   "owned": 1.8
+   "owned": 3.4
   },
   "Tadas Sedekerskis": {
    "t": "BAS",
@@ -873,29 +881,13 @@
    "p_play": 0,
    "owned": 0.5
   },
-  "Amir Coffey": {
-   "t": "HTA",
-   "last": "Coffey",
-   "pos": "Forward",
+  "Neal Sako": {
+   "t": "PAM",
+   "last": "Sako",
+   "pos": "Center",
    "injured": false,
    "p_play": 1,
-   "owned": 0.3
-  },
-  "Alec Peters": {
-   "t": "MIL",
-   "last": "Peters",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 2.8
-  },
-  "Codi Miller-Mcintyre": {
-   "t": "OLY",
-   "last": "Miller-Mcintyre",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 4.0
+   "owned": 1.1
   },
   "Oshae Brissett": {
    "t": "TEL",
@@ -905,21 +897,13 @@
    "p_play": 1,
    "owned": 0.6
   },
-  "Jordan Loyd": {
-   "t": "IST",
-   "last": "Loyd",
-   "pos": "Guard",
+  "Tornike Shengelia": {
+   "t": "DUB",
+   "last": "Shengelia",
+   "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 1.1
-  },
-  "Duane Washington": {
-   "t": "MUN",
-   "last": "Washington",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 1.6
+   "owned": 1.0
   },
   "Collin Malcolm": {
    "t": "IST",
@@ -927,23 +911,63 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 24.3
+   "owned": 22.5
   },
-  "Christian Koloko": {
-   "t": "RED",
-   "last": "Koloko",
-   "pos": "Center",
+  "Sterling Brown": {
+   "t": "ZAL",
+   "last": "Brown",
+   "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 3.1
+   "owned": 1.8
   },
-  "Marcus Bingham": {
-   "t": "ULK",
-   "last": "Bingham",
+  "Cameron Payne": {
+   "t": "IST",
+   "last": "Payne",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 5.7
+  },
+  "Ante Zizic": {
+   "t": "BES",
+   "last": "Zizic",
    "pos": "Center",
    "injured": false,
    "p_play": 1,
    "owned": 1.1
+  },
+  "Eugene Omoruyi": {
+   "t": "BES",
+   "last": "Omoruyi",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.2
+  },
+  "Amir Coffey": {
+   "t": "HTA",
+   "last": "Coffey",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.2
+  },
+  "Codi Miller-Mcintyre": {
+   "t": "OLY",
+   "last": "Miller-Mcintyre",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 3.4
+  },
+  "Alec Peters": {
+   "t": "MIL",
+   "last": "Peters",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 2.9
   },
   "Umoja Gibson": {
    "t": "BAR",
@@ -953,30 +977,6 @@
    "p_play": 1,
    "owned": 0.3
   },
-  "Eugene Omoruyi": {
-   "t": "BES",
-   "last": "Omoruyi",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 1.6
-  },
-  "Cameron Payne": {
-   "t": "IST",
-   "last": "Payne",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 7.3
-  },
-  "Andres Feliz": {
-   "t": "MAD",
-   "last": "Feliz",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 36.4
-  },
   "Tonye Jekiri": {
    "t": "PAR",
    "last": "Jekiri",
@@ -984,14 +984,6 @@
    "injured": false,
    "p_play": 1,
    "owned": 6.7
-  },
-  "Tremont Waters": {
-   "t": "ASV",
-   "last": "Waters",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.4
   },
   "Marcus Carr": {
    "t": "VIR",
@@ -1001,21 +993,21 @@
    "p_play": 1,
    "owned": 1.3
   },
-  "Tyrique Jones": {
-   "t": "OLY",
-   "last": "Jones",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 1.6
-  },
   "Chris Duarte": {
    "t": "BAS",
    "last": "Duarte",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.5
+   "owned": 0.7
+  },
+  "Donta Hall": {
+   "t": "OLY",
+   "last": "Hall",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.6
   },
   "Juancho Hernangomez": {
    "t": "PAN",
@@ -1025,13 +1017,45 @@
    "p_play": 1,
    "owned": 1.1
   },
-  "Devon Dotson": {
+  "Scottie Wilbekin": {
    "t": "BES",
-   "last": "Dotson",
+   "last": "Wilbekin",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.5
+   "owned": 6.0
+  },
+  "Andres Feliz": {
+   "t": "MAD",
+   "last": "Feliz",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 29.6
+  },
+  "Evan Fournier": {
+   "t": "OLY",
+   "last": "Fournier",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 8.9
+  },
+  "Antonio Blakeney": {
+   "t": "HTA",
+   "last": "Blakeney",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.1
+  },
+  "Marcus Bingham": {
+   "t": "ULK",
+   "last": "Bingham",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.7
   },
   "Joel Bolomboy": {
    "t": "ASV",
@@ -1047,15 +1071,39 @@
    "pos": "Center",
    "injured": false,
    "p_play": 1,
-   "owned": 0
+   "owned": 0.1
   },
-  "Neal Sako": {
-   "t": "PAM",
-   "last": "Sako",
-   "pos": "Center",
+  "Tremont Waters": {
+   "t": "ASV",
+   "last": "Waters",
+   "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 1.1
+   "owned": 0.3
+  },
+  "Devon Dotson": {
+   "t": "BES",
+   "last": "Dotson",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.4
+  },
+  "Jared Rhoden": {
+   "t": "PRS",
+   "last": "Rhoden",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.7
+  },
+  "Tomas Satoransky": {
+   "t": "HTA",
+   "last": "Satoransky",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.3
   },
   "Jimmy Clark III": {
    "t": "TEL",
@@ -1063,7 +1111,39 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.7
+   "owned": 0.9
+  },
+  "Timothé Luwawu-Cabarrot": {
+   "t": "MAD",
+   "last": "Luwawu-Cabarrot",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 3.2
+  },
+  "Andreas Obst": {
+   "t": "MUN",
+   "last": "Obst",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 2.7
+  },
+  "Marjon Beauchamp": {
+   "t": "MUN",
+   "last": "Beauchamp",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.3
+  },
+  "Jae Crowder": {
+   "t": "ASV",
+   "last": "Crowder",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.6
   },
   "Wendell Moore": {
    "t": "VIR",
@@ -1073,77 +1153,13 @@
    "p_play": 1,
    "owned": 0.5
   },
-  "Donta Hall": {
-   "t": "OLY",
-   "last": "Hall",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 1.7
-  },
-  "Tyson Etienne": {
-   "t": "PRS",
-   "last": "Etienne",
+  "Kostas Sloukas": {
+   "t": "PAN",
+   "last": "Sloukas",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.6
-  },
-  "Vladimir Lucic": {
-   "t": "MUN",
-   "last": "Lucic",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 0.25,
-   "owned": 1.1
-  },
-  "Andreas Obst": {
-   "t": "MUN",
-   "last": "Obst",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 2.1
-  },
-  "Tyty Washington": {
-   "t": "ASV",
-   "last": "Washington",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.6
-  },
-  "Timothé Luwawu-Cabarrot": {
-   "t": "MAD",
-   "last": "Luwawu-Cabarrot",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 4.1
-  },
-  "Evan Fournier": {
-   "t": "OLY",
-   "last": "Fournier",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 9.8
-  },
-  "Jared Rhoden": {
-   "t": "PRS",
-   "last": "Rhoden",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.8
-  },
-  "Jae Crowder": {
-   "t": "ASV",
-   "last": "Crowder",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 1.7
+   "owned": 0.4
   },
   "Nathan Reuvers": {
    "t": "PAM",
@@ -1159,7 +1175,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.4
+   "owned": 0.3
   },
   "Trent Frazier": {
    "t": "VIR",
@@ -1169,29 +1185,13 @@
    "p_play": 1,
    "owned": 0.2
   },
-  "Kostas Sloukas": {
-   "t": "PAN",
-   "last": "Sloukas",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.3
-  },
-  "Johnny Juzang": {
-   "t": "ULK",
-   "last": "Juzang",
+  "Vladimir Lucic": {
+   "t": "MUN",
+   "last": "Lucic",
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 0.3
-  },
-  "Scottie Wilbekin": {
-   "t": "BES",
-   "last": "Wilbekin",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 5.7
+   "owned": 0.9
   },
   "Isaac Bonga": {
    "t": "PAN",
@@ -1199,15 +1199,15 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 2.3
+   "owned": 2.4
   },
-  "Antonio Blakeney": {
-   "t": "HTA",
-   "last": "Blakeney",
+  "Dj Stewart": {
+   "t": "BAS",
+   "last": "Stewart",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 1.1
+   "owned": 0.4
   },
   "Allan Dokossi": {
    "t": "PRS",
@@ -1217,14 +1217,6 @@
    "p_play": 1,
    "owned": 1.0
   },
-  "Tomas Satoransky": {
-   "t": "HTA",
-   "last": "Satoransky",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.3
-  },
   "Both Gach": {
    "t": "ASV",
    "last": "Gach",
@@ -1233,37 +1225,101 @@
    "p_play": 1,
    "owned": 0.6
   },
+  "Johnny Juzang": {
+   "t": "ULK",
+   "last": "Juzang",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.0
+  },
+  "Tyty Washington": {
+   "t": "ASV",
+   "last": "Washington",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.5
+  },
+  "Tyson Etienne": {
+   "t": "PRS",
+   "last": "Etienne",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.6
+  },
+  "Killian Hayes": {
+   "t": "BAR",
+   "last": "Hayes",
+   "pos": "Guard",
+   "injured": true,
+   "p_play": 0,
+   "owned": 0
+  },
+  "Leandro Bolmaro": {
+   "t": "MIL",
+   "last": "Bolmaro",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.6
+  },
+  "Tyson Carter": {
+   "t": "RED",
+   "last": "Carter",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 8.3
+  },
+  "Bobi Klintman": {
+   "t": "VIR",
+   "last": "Klintman",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.1
+  },
+  "Chuma Okeke": {
+   "t": "MAD",
+   "last": "Okeke",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.0
+  },
+  "Lamar Stevens": {
+   "t": "PAR",
+   "last": "Stevens",
+   "pos": "Forward",
+   "injured": true,
+   "p_play": 0,
+   "owned": 3.5
+  },
   "Mathis Dossou-yovo": {
    "t": "ASV",
    "last": "Dossou-yovo",
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 0.2
-  },
-  "Lamar Stevens": {
-   "t": "PAR",
-   "last": "Stevens",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 3.9
-  },
-  "Marjon Beauchamp": {
-   "t": "MUN",
-   "last": "Beauchamp",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.3
+   "owned": 0.9
   },
   "Ethan Thompson": {
    "t": "PAR",
    "last": "Thompson",
    "pos": "Guard",
+   "injured": true,
+   "p_play": 0,
+   "owned": 0.7
+  },
+  "Kevarrius Hayes": {
+   "t": "PAR",
+   "last": "Hayes",
+   "pos": "Center",
    "injured": false,
-   "p_play": 0.25,
-   "owned": 0.8
+   "p_play": 1,
+   "owned": 2.3
   },
   "Devon Hall": {
    "t": "MIL",
@@ -1271,39 +1327,47 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 1.4
+   "owned": 1.5
   },
-  "Rj Cole": {
-   "t": "MIL",
-   "last": "Cole",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.5
-  },
-  "Patrick Baldwin Jr": {
+  "Jared Butler": {
    "t": "RED",
-   "last": "Baldwin Jr",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.5
-  },
-  "Mouhamet Diouf": {
-   "t": "VIR",
-   "last": "Diouf",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.3
-  },
-  "Dj Stewart": {
-   "t": "BAS",
-   "last": "Stewart",
+   "last": "Butler",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.3
+   "owned": 3.6
+  },
+  "Rasheed Bello": {
+   "t": "VIR",
+   "last": "Bello",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.1
+  },
+  "Tyson Ward": {
+   "t": "OLY",
+   "last": "Ward",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 4.5
+  },
+  "Oscar Da Silva": {
+   "t": "MUN",
+   "last": "Da Silva",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 4.2
+  },
+  "Mouhamed Faye": {
+   "t": "PRS",
+   "last": "Faye",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 2.4
   },
   "Jaylen Nowell": {
    "t": "BES",
@@ -1327,7 +1391,7 @@
    "pos": "Center",
    "injured": false,
    "p_play": 1,
-   "owned": 1.4
+   "owned": 0.9
   },
   "Trent Forrest": {
    "t": "ULK",
@@ -1337,13 +1401,13 @@
    "p_play": 1,
    "owned": 0.7
   },
-  "Rokas Jokubaitis": {
-   "t": "MUN",
-   "last": "Jokubaitis",
+  "Marko Guduric": {
+   "t": "MIL",
+   "last": "Guduric",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 1.3
+   "owned": 1.7
   },
   "Mbaye Ndiaye": {
    "t": "OLY",
@@ -1351,23 +1415,95 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 5.0
+   "owned": 4.4
   },
-  "Chuma Okeke": {
-   "t": "MAD",
-   "last": "Okeke",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 1.1
-  },
-  "Mouhamed Faye": {
-   "t": "PRS",
-   "last": "Faye",
+  "Aleksander Balcerowski": {
+   "t": "BAR",
+   "last": "Balcerowski",
    "pos": "Center",
    "injured": false,
    "p_play": 1,
-   "owned": 2.8
+   "owned": 1.5
+  },
+  "Mouhamet Diouf": {
+   "t": "VIR",
+   "last": "Diouf",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.4
+  },
+  "Patrick Baldwin Jr": {
+   "t": "RED",
+   "last": "Baldwin Jr",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.4
+  },
+  "Rokas Jokubaitis": {
+   "t": "MUN",
+   "last": "Jokubaitis",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.4
+  },
+  "Jaron Blossomgame": {
+   "t": "DUB",
+   "last": "Blossomgame",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.3
+  },
+  "Nigel Williams-Goss": {
+   "t": "ZAL",
+   "last": "Williams-Goss",
+   "pos": "Guard",
+   "injured": true,
+   "p_play": 0,
+   "owned": 0.5
+  },
+  "Anthony Brown": {
+   "t": "BES",
+   "last": "Brown",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.6
+  },
+  "Rj Cole": {
+   "t": "MIL",
+   "last": "Cole",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.3
+  },
+  "Kai Jones": {
+   "t": "IST",
+   "last": "Jones",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.8
+  },
+  "Kessler Edwards": {
+   "t": "VIR",
+   "last": "Edwards",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.6
+  },
+  "Kobi Simmons": {
+   "t": "BAS",
+   "last": "Simmons",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.3
   },
   "David Dejulius": {
    "t": "BES",
@@ -1375,7 +1511,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.4
+   "owned": 0.3
   },
   "Tyrese Martin": {
    "t": "BAR",
@@ -1383,7 +1519,47 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 2.2
+   "owned": 1.4
+  },
+  "Damian Jones": {
+   "t": "MAD",
+   "last": "Jones",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.4
+  },
+  "Wenyen Gabriel": {
+   "t": "BES",
+   "last": "Gabriel",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.3
+  },
+  "Conor Morgan": {
+   "t": "BES",
+   "last": "Morgan",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.5
+  },
+  "Kyle Allman": {
+   "t": "PAR",
+   "last": "Allman",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.4
+  },
+  "Tosan Evbuomwan": {
+   "t": "BAR",
+   "last": "Evbuomwan",
+   "pos": "Forward",
+   "injured": true,
+   "p_play": 0,
+   "owned": 0.1
   },
   "Aj Lawson": {
    "t": "BAS",
@@ -1391,12 +1567,28 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.6
+   "owned": 0.5
   },
-  "Nigel Williams-Goss": {
+  "Maozinha Pereira": {
+   "t": "PRS",
+   "last": "Pereira",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.1
+  },
+  "Keenan Evans": {
    "t": "ZAL",
-   "last": "Williams-Goss",
+   "last": "Evans",
    "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.5
+  },
+  "Devin Booker": {
+   "t": "MIL",
+   "last": "Booker",
+   "pos": "Center",
    "injured": true,
    "p_play": 0,
    "owned": 0.5
@@ -1407,151 +1599,7 @@
    "pos": "Center",
    "injured": false,
    "p_play": 1,
-   "owned": 4.3
-  },
-  "Anthony Brown": {
-   "t": "BES",
-   "last": "Brown",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.7
-  },
-  "Rasheed Bello": {
-   "t": "VIR",
-   "last": "Bello",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.1
-  },
-  "Bobi Klintman": {
-   "t": "VIR",
-   "last": "Klintman",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.1
-  },
-  "Wenyen Gabriel": {
-   "t": "BES",
-   "last": "Gabriel",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 1.4
-  },
-  "Tyson Ward": {
-   "t": "OLY",
-   "last": "Ward",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 4.6
-  },
-  "Leandro Bolmaro": {
-   "t": "MIL",
-   "last": "Bolmaro",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.7
-  },
-  "Jaron Blossomgame": {
-   "t": "DUB",
-   "last": "Blossomgame",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 1.3
-  },
-  "Oscar Da Silva": {
-   "t": "MUN",
-   "last": "Da Silva",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 1.4
-  },
-  "Aleksander Balcerowski": {
-   "t": "BAR",
-   "last": "Balcerowski",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 1.4
-  },
-  "Jared Butler": {
-   "t": "RED",
-   "last": "Butler",
-   "pos": "Guard",
-   "injured": true,
-   "p_play": 0,
-   "owned": 3.9
-  },
-  "Kessler Edwards": {
-   "t": "VIR",
-   "last": "Edwards",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.6
-  },
-  "Tosan Evbuomwan": {
-   "t": "BAR",
-   "last": "Evbuomwan",
-   "pos": "Forward",
-   "injured": true,
-   "p_play": 0,
-   "owned": 0.1
-  },
-  "Maozinha Pereira": {
-   "t": "PRS",
-   "last": "Pereira",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.1
-  },
-  "Devin Booker": {
-   "t": "MIL",
-   "last": "Booker",
-   "pos": "Center",
-   "injured": true,
-   "p_play": 0,
-   "owned": 0.5
-  },
-  "Jasiel Rivero": {
-   "t": "PAM",
-   "last": "Rivero",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 1.2
-  },
-  "Marko Guduric": {
-   "t": "MIL",
-   "last": "Guduric",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 1.7
-  },
-  "Kevarrius Hayes": {
-   "t": "PAR",
-   "last": "Hayes",
-   "pos": "Center",
-   "injured": true,
-   "p_play": 0,
-   "owned": 2.3
-  },
-  "Conor Morgan": {
-   "t": "BES",
-   "last": "Morgan",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.5
+   "owned": 2.7
   },
   "Derrick Alston Jr.": {
    "t": "VIR",
@@ -1559,23 +1607,7 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 1.2
-  },
-  "Keenan Evans": {
-   "t": "ZAL",
-   "last": "Evans",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.5
-  },
-  "Darius Thompson": {
-   "t": "MIL",
-   "last": "Thompson",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.7
+   "owned": 1.1
   },
   "Johnathan Motley": {
    "t": "RED",
@@ -1584,14 +1616,6 @@
    "injured": false,
    "p_play": 1,
    "owned": 0.5
-  },
-  "Jason Burnell": {
-   "t": "MIL",
-   "last": "Burnell",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.2
   },
   "Jacob Toppin": {
    "t": "HTA",
@@ -1617,6 +1641,22 @@
    "p_play": 0,
    "owned": 0.1
   },
+  "Jasiel Rivero": {
+   "t": "PAM",
+   "last": "Rivero",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.1
+  },
+  "Joel Parra": {
+   "t": "BAR",
+   "last": "Parra",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 5.2
+  },
   "Marcio Santos": {
    "t": "BAS",
    "last": "Santos",
@@ -1625,29 +1665,13 @@
    "p_play": 0,
    "owned": 0
   },
-  "Semi Ojeleye": {
-   "t": "RED",
-   "last": "Ojeleye",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 3.5
-  },
   "Jaime Pradilla": {
    "t": "MAD",
    "last": "Pradilla",
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 1.1
-  },
-  "Tyson Carter": {
-   "t": "RED",
-   "last": "Carter",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 6.2
+   "owned": 0.9
   },
   "Daron Russell": {
    "t": "IST",
@@ -1657,21 +1681,29 @@
    "p_play": 1,
    "owned": 0.2
   },
-  "Mamadi Diakite": {
-   "t": "DUB",
-   "last": "Diakite",
-   "pos": "Center",
+  "Jason Burnell": {
+   "t": "MIL",
+   "last": "Burnell",
+   "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 0.3
+   "owned": 0.2
   },
-  "Damian Jones": {
-   "t": "MAD",
-   "last": "Jones",
-   "pos": "Center",
+  "Semi Ojeleye": {
+   "t": "RED",
+   "last": "Ojeleye",
+   "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 0.5
+   "owned": 3.2
+  },
+  "TJ Leaf": {
+   "t": "TEL",
+   "last": "Leaf",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.2
   },
   "Robert Franks": {
    "t": "PAR",
@@ -1681,53 +1713,21 @@
    "p_play": 1,
    "owned": 2.0
   },
-  "TJ Leaf": {
-   "t": "TEL",
-   "last": "Leaf",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.1
-  },
-  "Keaton Wallace": {
-   "t": "TEL",
-   "last": "Wallace",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.3
-  },
   "Nicolo Melli": {
    "t": "ULK",
    "last": "Melli",
    "pos": "Forward",
    "injured": true,
    "p_play": 0,
-   "owned": 1.2
+   "owned": 1.1
   },
-  "Kai Jones": {
-   "t": "IST",
-   "last": "Jones",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.8
-  },
-  "Damion Baugh": {
-   "t": "BAS",
-   "last": "Baugh",
+  "Darius Thompson": {
+   "t": "MIL",
+   "last": "Thompson",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.1
-  },
-  "Jerian Grant": {
-   "t": "PAN",
-   "last": "Grant",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 1.2
+   "owned": 0.9
   },
   "Nick Weiler-Babb": {
    "t": "RED",
@@ -1737,13 +1737,29 @@
    "p_play": 1,
    "owned": 0.8
   },
-  "Kevin Kokila": {
-   "t": "VIR",
-   "last": "Kokila",
+  "Justinian Jessup": {
+   "t": "MUN",
+   "last": "Jessup",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.5
+  },
+  "Mamadi Diakite": {
+   "t": "DUB",
+   "last": "Diakite",
    "pos": "Center",
    "injured": false,
    "p_play": 1,
-   "owned": 0.1
+   "owned": 0.3
+  },
+  "Keaton Wallace": {
+   "t": "TEL",
+   "last": "Wallace",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.3
   },
   "Olivier Sarr": {
    "t": "MAD",
@@ -1753,21 +1769,13 @@
    "p_play": 1,
    "owned": 0.2
   },
-  "Marius Grigonis": {
-   "t": "ZAL",
-   "last": "Grigonis",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 5.4
-  },
-  "Kobi Simmons": {
-   "t": "BAS",
-   "last": "Simmons",
+  "Alessandro Pajola": {
+   "t": "PAR",
+   "last": "Pajola",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.3
+   "owned": 2.3
   },
   "Braxton Key": {
    "t": "ULK",
@@ -1775,15 +1783,31 @@
    "pos": "Forward",
    "injured": true,
    "p_play": 0,
-   "owned": 4.1
+   "owned": 3.6
   },
-  "Stanley Umude": {
-   "t": "BAR",
-   "last": "Umude",
+  "Santi Yusta": {
+   "t": "IST",
+   "last": "Yusta",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.3
+  },
+  "Damion Baugh": {
+   "t": "BAS",
+   "last": "Baugh",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.2
+   "owned": 0.1
+  },
+  "DaQuan Jeffries": {
+   "t": "BES",
+   "last": "Jeffries",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.1
   },
   "Iffe Lundberg": {
    "t": "TEL",
@@ -1793,29 +1817,13 @@
    "p_play": 0,
    "owned": 0.6
   },
-  "Justinian Jessup": {
-   "t": "MUN",
-   "last": "Jessup",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.3
-  },
-  "Kyle Allman": {
-   "t": "PAR",
-   "last": "Allman",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.4
-  },
-  "Saben Lee": {
+  "Marius Grigonis": {
    "t": "ZAL",
-   "last": "Lee",
-   "pos": "Guard",
+   "last": "Grigonis",
+   "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 0.5
+   "owned": 6.1
   },
   "Miles Norris": {
    "t": "MUN",
@@ -1825,21 +1833,45 @@
    "p_play": 1,
    "owned": 0.3
   },
-  "Gonzalo Corbalan": {
-   "t": "PAM",
-   "last": "Corbalan",
+  "Jerian Grant": {
+   "t": "PAN",
+   "last": "Grant",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.2
+   "owned": 1.2
   },
-  "DaQuan Jeffries": {
-   "t": "BES",
-   "last": "Jeffries",
-   "pos": "Forward",
+  "Dario Brizuela": {
+   "t": "BAR",
+   "last": "Brizuela",
+   "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.3
+   "owned": 5.5
+  },
+  "Tai Odiase": {
+   "t": "HTA",
+   "last": "Odiase",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 2.2
+  },
+  "Saben Lee": {
+   "t": "ZAL",
+   "last": "Lee",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.4
+  },
+  "Kevin Kokila": {
+   "t": "VIR",
+   "last": "Kokila",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.1
   },
   "Ebuka Izundu": {
    "t": "RED",
@@ -1849,37 +1881,29 @@
    "p_play": 1,
    "owned": 0.7
   },
-  "Garrison Mathews": {
-   "t": "MIL",
-   "last": "Mathews",
+  "Stanley Umude": {
+   "t": "BAR",
+   "last": "Umude",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.1
+   "owned": 0.2
   },
-  "Joel Parra": {
-   "t": "BAR",
-   "last": "Parra",
-   "pos": "Forward",
+  "Gonzalo Corbalan": {
+   "t": "PAM",
+   "last": "Corbalan",
+   "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 4.8
+   "owned": 0.2
   },
   "Luca Vildoza": {
    "t": "PAR",
    "last": "Vildoza",
    "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 3.5
-  },
-  "Tai Odiase": {
-   "t": "HTA",
-   "last": "Odiase",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 2.3
+   "injured": true,
+   "p_play": 0,
+   "owned": 3.3
   },
   "Marek Blazevic": {
    "t": "ZAL",
@@ -1889,45 +1913,13 @@
    "p_play": 1,
    "owned": 0.2
   },
-  "Olivier Nkamhoua": {
-   "t": "BAR",
-   "last": "Nkamhoua",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.6
-  },
-  "Nick Smith Jr": {
-   "t": "MAD",
-   "last": "Smith Jr",
+  "Garrison Mathews": {
+   "t": "MIL",
+   "last": "Mathews",
    "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.3
-  },
-  "Alessandro Pajola": {
-   "t": "PAR",
-   "last": "Pajola",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 2.4
-  },
-  "Mo Gueye": {
-   "t": "PAM",
-   "last": "Gueye",
-   "pos": "Forward",
    "injured": false,
    "p_play": 1,
    "owned": 0.2
-  },
-  "Furkan Korkmaz": {
-   "t": "BES",
-   "last": "Korkmaz",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.3
   },
   "Gabriel Deck": {
    "t": "MAD",
@@ -1937,6 +1929,14 @@
    "p_play": 0,
    "owned": 0.3
   },
+  "Frank Ntilikina": {
+   "t": "PRS",
+   "last": "Ntilikina",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.7
+  },
   "Derek  Willis": {
    "t": "PAR",
    "last": "Willis",
@@ -1945,17 +1945,33 @@
    "p_play": 0,
    "owned": 0.2
   },
-  "Arnas Butkevicius": {
-   "t": "ZAL",
-   "last": "Butkevicius",
+  "Olivier Nkamhoua": {
+   "t": "BAR",
+   "last": "Nkamhoua",
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 1.1
+   "owned": 0.7
   },
-  "Santi Yusta": {
-   "t": "IST",
-   "last": "Yusta",
+  "Nick Smith Jr": {
+   "t": "MAD",
+   "last": "Smith Jr",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.3
+  },
+  "Furkan Korkmaz": {
+   "t": "BES",
+   "last": "Korkmaz",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.3
+  },
+  "Mo Gueye": {
+   "t": "PAM",
+   "last": "Gueye",
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
@@ -1967,7 +1983,39 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.5
+   "owned": 0.4
+  },
+  "Thomas Walkup": {
+   "t": "DUB",
+   "last": "Walkup",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.7
+  },
+  "Arnas Butkevicius": {
+   "t": "ZAL",
+   "last": "Butkevicius",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.1
+  },
+  "Nathan Sestina": {
+   "t": "ASV",
+   "last": "Sestina",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.3
+  },
+  "Ercan Osmani": {
+   "t": "IST",
+   "last": "Osmani",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.9
   },
   "Moustapha Fall": {
    "t": "PAN",
@@ -1977,26 +2025,10 @@
    "p_play": 1,
    "owned": 0.5
   },
-  "Frank Ntilikina": {
-   "t": "PRS",
-   "last": "Ntilikina",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.8
-  },
-  "Dylan Osetkowski": {
-   "t": "PAM",
-   "last": "Osetkowski",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.8
-  },
-  "Ercan Osmani": {
-   "t": "IST",
-   "last": "Osmani",
-   "pos": "Forward",
+  "Johannes Voigtmann": {
+   "t": "MUN",
+   "last": "Voigtmann",
+   "pos": "Center",
    "injured": false,
    "p_play": 1,
    "owned": 0.9
@@ -2015,15 +2047,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 2.7
-  },
-  "Perry Dozier": {
-   "t": "IST",
-   "last": "Dozier",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.5
+   "owned": 2.6
   },
   "Bruno Caboclo": {
    "t": "HTA",
@@ -2032,30 +2056,6 @@
    "injured": false,
    "p_play": 1,
    "owned": 0.7
-  },
-  "Omari Moore": {
-   "t": "PAM",
-   "last": "Moore",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.4
-  },
-  "Max Shulga": {
-   "t": "MAD",
-   "last": "Shulga",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.1
-  },
-  "Johannes Voigtmann": {
-   "t": "MUN",
-   "last": "Voigtmann",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.8
   },
   "Kamar Baldwin": {
    "t": "TEL",
@@ -2071,7 +2071,47 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 10.3
+   "owned": 9.7
+  },
+  "Omari Moore": {
+   "t": "PAM",
+   "last": "Moore",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.4
+  },
+  "Dylan Osetkowski": {
+   "t": "PAM",
+   "last": "Osetkowski",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.9
+  },
+  "Max Shulga": {
+   "t": "MAD",
+   "last": "Shulga",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.1
+  },
+  "Kenan Kamenjas": {
+   "t": "BAS",
+   "last": "Kamenjas",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 20.6
+  },
+  "Rodions Kurucs": {
+   "t": "BAS",
+   "last": "Kurucs",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.1
   },
   "Armando Bacot": {
    "t": "TEL",
@@ -2087,31 +2127,7 @@
    "pos": "Center",
    "injured": false,
    "p_play": 1,
-   "owned": 0.4
-  },
-  "Thomas Walkup": {
-   "t": "DUB",
-   "last": "Walkup",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.6
-  },
-  "Dario Brizuela": {
-   "t": "BAR",
-   "last": "Brizuela",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 5.7
-  },
-  "Alberto Abalde": {
-   "t": "MAD",
-   "last": "Abalde",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 20.4
+   "owned": 0.3
   },
   "Dustin Sleva": {
    "t": "ZAL",
@@ -2119,7 +2135,15 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 1.6
+   "owned": 1.8
+  },
+  "Perry Dozier": {
+   "t": "IST",
+   "last": "Dozier",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.7
   },
   "Cory Joseph": {
    "t": "OLY",
@@ -2127,15 +2151,15 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 3.8
+   "owned": 4.4
   },
-  "Edgaras Ulanovas": {
-   "t": "ZAL",
-   "last": "Ulanovas",
+  "Konstantinos Mitoglou": {
+   "t": "PAN",
+   "last": "Mitoglou",
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 1.2
+   "owned": 7.2
   },
   "Terry Tarpey": {
    "t": "PRS",
@@ -2145,37 +2169,21 @@
    "p_play": 1,
    "owned": 0.4
   },
-  "Rodions Kurucs": {
-   "t": "BAS",
-   "last": "Kurucs",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.9
-  },
-  "Nathan Sestina": {
-   "t": "ASV",
-   "last": "Sestina",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.3
-  },
   "Eugene German": {
    "t": "HTA",
    "last": "German",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.2
+   "owned": 0.1
   },
-  "Konstantinos Mitoglou": {
-   "t": "PAN",
-   "last": "Mitoglou",
+  "Edgaras Ulanovas": {
+   "t": "ZAL",
+   "last": "Ulanovas",
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 7.3
+   "owned": 1.2
   },
   "Mikael Jantunen": {
    "t": "MAD",
@@ -2183,11 +2191,35 @@
    "pos": "Forward",
    "injured": true,
    "p_play": 0,
-   "owned": 1.5
+   "owned": 1.4
+  },
+  "Alberto Abalde": {
+   "t": "MAD",
+   "last": "Abalde",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 16.6
+  },
+  "Ish Wainright": {
+   "t": "HTA",
+   "last": "Wainright",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.0
   },
   "Yves Pons": {
    "t": "ASV",
    "last": "Pons",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.2
+  },
+  "Justin Minaya": {
+   "t": "BAR",
+   "last": "Minaya",
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
@@ -2231,15 +2263,7 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 0.4
-  },
-  "Justin Minaya": {
-   "t": "BAR",
-   "last": "Minaya",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.2
+   "owned": 0.6
   },
   "Mam Jaiteh": {
    "t": "DUB",
@@ -2255,7 +2279,7 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 3.7
+   "owned": 4.8
   },
   "Chris Silva": {
    "t": "PAR",
@@ -2273,37 +2297,13 @@
    "p_play": 1,
    "owned": 1.2
   },
-  "Kenan Kamenjas": {
-   "t": "BAS",
-   "last": "Kamenjas",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 11.5
-  },
-  "Ish Wainright": {
-   "t": "HTA",
-   "last": "Wainright",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 1.0
-  },
-  "Tobias Jensen": {
-   "t": "MUN",
-   "last": "Jensen",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.2
-  },
   "Justin Anderson": {
    "t": "DUB",
    "last": "Anderson",
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 0.4
+   "owned": 0.5
   },
   "Juhann Begarin": {
    "t": "ASV",
@@ -2312,6 +2312,14 @@
    "injured": true,
    "p_play": 0,
    "owned": 0.1
+  },
+  "Josep Puerto": {
+   "t": "PAM",
+   "last": "Puerto",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 4.0
   },
   "Yankuba Sima": {
    "t": "PAM",
@@ -2327,15 +2335,15 @@
    "pos": "Center",
    "injured": false,
    "p_play": 1,
-   "owned": 0.6
+   "owned": 0.5
   },
-  "Ignas Sargiunas": {
-   "t": "ULK",
-   "last": "Sargiunas",
+  "Tobias Jensen": {
+   "t": "MUN",
+   "last": "Jensen",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.9
+   "owned": 0.2
   },
   "Antonis Karagiannidis": {
    "t": "OLY",
@@ -2345,13 +2353,13 @@
    "p_play": 1,
    "owned": 0.2
   },
-  "Josep Puerto": {
-   "t": "PAM",
-   "last": "Puerto",
-   "pos": "Guard",
+  "Dejan Davidovac": {
+   "t": "RED",
+   "last": "Davidovac",
+   "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 3.6
+   "owned": 10.9
   },
   "Amath M'baye": {
    "t": "PRS",
@@ -2361,13 +2369,45 @@
    "p_play": 1,
    "owned": 0.3
   },
-  "David Kramer": {
-   "t": "RED",
-   "last": "Kramer",
+  "Marcelinho Huertas": {
+   "t": "DUB",
+   "last": "Huertas",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 2.3
+   "owned": 0.4
+  },
+  "Ignas Sargiunas": {
+   "t": "ULK",
+   "last": "Sargiunas",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.9
+  },
+  "Marc-owen Fodzo Dada": {
+   "t": "ASV",
+   "last": "Fodzo Dada",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 3.9
+  },
+  "Ousmane Diop": {
+   "t": "MIL",
+   "last": "Diop",
+   "pos": "Center",
+   "injured": false,
+   "p_play": 1,
+   "owned": 16.6
+  },
+  "Daulton Hommes": {
+   "t": "PRS",
+   "last": "Hommes",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 0.4
   },
   "Agustin Ubal": {
    "t": "BAR",
@@ -2377,9 +2417,33 @@
    "p_play": 1,
    "owned": 0.5
   },
-  "Marcelinho Huertas": {
+  "Usman Garuba": {
+   "t": "MAD",
+   "last": "Garuba",
+   "pos": "Center",
+   "injured": true,
+   "p_play": 0,
+   "owned": 0.2
+  },
+  "Gabriele Procida": {
+   "t": "MAD",
+   "last": "Procida",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 11.3
+  },
+  "David Kramer": {
+   "t": "RED",
+   "last": "Kramer",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 2.2
+  },
+  "Davion Mintz": {
    "t": "DUB",
-   "last": "Huertas",
+   "last": "Mintz",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
@@ -2391,47 +2455,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 2.1
-  },
-  "Gabriele Procida": {
-   "t": "MAD",
-   "last": "Procida",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 14.5
-  },
-  "Daulton Hommes": {
-   "t": "PRS",
-   "last": "Hommes",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.4
-  },
-  "Usman Garuba": {
-   "t": "MAD",
-   "last": "Garuba",
-   "pos": "Center",
-   "injured": true,
-   "p_play": 0,
-   "owned": 0.2
-  },
-  "Davion Mintz": {
-   "t": "DUB",
-   "last": "Mintz",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.3
-  },
-  "Ousmane Diop": {
-   "t": "MIL",
-   "last": "Diop",
-   "pos": "Center",
-   "injured": false,
-   "p_play": 1,
-   "owned": 19.0
+   "owned": 1.9
   },
   "Ognjen Dobric": {
    "t": "RED",
@@ -2441,6 +2465,14 @@
    "p_play": 1,
    "owned": 7.4
   },
+  "Joel Ayayi": {
+   "t": "PRS",
+   "last": "Ayayi",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 2.0
+  },
   "Shane Hunter": {
    "t": "TEL",
    "last": "Hunter",
@@ -2449,21 +2481,13 @@
    "p_play": 1,
    "owned": 0.4
   },
-  "Dejan Davidovac": {
-   "t": "RED",
-   "last": "Davidovac",
-   "pos": "Forward",
+  "Daniel Hackett": {
+   "t": "VIR",
+   "last": "Hackett",
+   "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 10.9
-  },
-  "Edwin Jackson": {
-   "t": "ASV",
-   "last": "Jackson",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 6.0
+   "owned": 2.9
   },
   "Max Heidegger": {
    "t": "HTA",
@@ -2473,13 +2497,29 @@
    "p_play": 1,
    "owned": 0.3
   },
-  "Marc-owen Fodzo Dada": {
-   "t": "ASV",
-   "last": "Fodzo Dada",
+  "Leopold Cavaliere": {
+   "t": "PRS",
+   "last": "Cavaliere",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 3.4
+  },
+  "Vanja Marinkovic": {
+   "t": "PAR",
+   "last": "Marinkovic",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 3.3
+   "owned": 7.4
+  },
+  "Jeremy Morgan": {
+   "t": "PRS",
+   "last": "Morgan",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 1.0
   },
   "Tyler Ennis": {
    "t": "HTA",
@@ -2489,13 +2529,13 @@
    "p_play": 0,
    "owned": 0
   },
-  "Daniel Hackett": {
-   "t": "VIR",
-   "last": "Hackett",
+  "Alvaro Cardenas": {
+   "t": "PAM",
+   "last": "Cardenas",
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 3.0
+   "owned": 5.5
   },
   "Bryant Dunston": {
    "t": "OLY",
@@ -2503,15 +2543,15 @@
    "pos": "Center",
    "injured": false,
    "p_play": 1,
-   "owned": 1.6
+   "owned": 1.8
   },
-  "Joel Ayayi": {
-   "t": "PRS",
-   "last": "Ayayi",
-   "pos": "Guard",
+  "Metecan Birsen": {
+   "t": "BES",
+   "last": "Birsen",
+   "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 2.4
+   "owned": 1.1
   },
   "Nikos Rogkavopoulos": {
    "t": "PAN",
@@ -2519,15 +2559,7 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 4.1
-  },
-  "Vanja Marinkovic": {
-   "t": "PAR",
-   "last": "Marinkovic",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 6.2
+   "owned": 5.1
   },
   "David Lighty": {
    "t": "ASV",
@@ -2535,23 +2567,23 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 3.2
+   "owned": 3.1
+  },
+  "Edwin Jackson": {
+   "t": "ASV",
+   "last": "Jackson",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 7.8
   },
   "Eleftherios Mantzoukas": {
    "t": "PAN",
    "last": "Mantzoukas",
    "pos": "Forward",
-   "injured": true,
-   "p_play": 0,
-   "owned": 4.3
-  },
-  "Jeremy Morgan": {
-   "t": "PRS",
-   "last": "Morgan",
-   "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 0.8
+   "owned": 4.1
   },
   "Davide Casarin": {
    "t": "VIR",
@@ -2567,47 +2599,23 @@
    "pos": "Center",
    "injured": false,
    "p_play": 1,
-   "owned": 0.8
+   "owned": 0.9
   },
-  "Alvaro Cardenas": {
-   "t": "PAM",
-   "last": "Cardenas",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 5.9
-  },
-  "Metecan Birsen": {
-   "t": "BES",
-   "last": "Birsen",
+  "Kostas Papanikolaou": {
+   "t": "OLY",
+   "last": "Papanikolaou",
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 1.0
+   "owned": 12.9
   },
-  "Mario Nakic": {
-   "t": "PAR",
-   "last": "Nakic",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 0.7
-  },
-  "Sergio Llull": {
-   "t": "MAD",
-   "last": "Llull",
-   "pos": "Guard",
-   "injured": false,
-   "p_play": 1,
-   "owned": 6.8
-  },
-  "Davis Bertans": {
+  "Nemanja Dangubic": {
    "t": "DUB",
-   "last": "Bertans",
+   "last": "Dangubic",
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 2.9
+   "owned": 3.8
   },
   "Omiros Netzipoglou": {
    "t": "OLY",
@@ -2615,7 +2623,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 1.0
+   "owned": 1.1
   },
   "Deividas Sirvydis": {
    "t": "ZAL",
@@ -2625,37 +2633,21 @@
    "p_play": 1,
    "owned": 2.5
   },
-  "Kostas Papanikolaou": {
-   "t": "OLY",
-   "last": "Papanikolaou",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 12.8
-  },
   "Juan Nunez": {
    "t": "BAR",
    "last": "Nunez",
    "pos": "Guard",
    "injured": false,
-   "p_play": 0.5,
-   "owned": 1.2
-  },
-  "Leopold Cavaliere": {
-   "t": "PRS",
-   "last": "Cavaliere",
-   "pos": "Forward",
-   "injured": false,
    "p_play": 1,
-   "owned": 3.1
+   "owned": 1.3
   },
-  "Bandja Sy": {
+  "Mario Nakic": {
    "t": "PAR",
-   "last": "Sy",
+   "last": "Nakic",
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 1.0
+   "owned": 0.8
   },
   "Justus Hollatz": {
    "t": "MUN",
@@ -2663,7 +2655,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 1.1
+   "owned": 0.9
   },
   "Arijan Lakic": {
    "t": "PAR",
@@ -2671,7 +2663,15 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 22.5
+   "owned": 21.3
+  },
+  "Sergio Llull": {
+   "t": "MAD",
+   "last": "Llull",
+   "pos": "Guard",
+   "injured": false,
+   "p_play": 1,
+   "owned": 6.0
   },
   "Sertac Sanli": {
    "t": "ULK",
@@ -2679,7 +2679,7 @@
    "pos": "Center",
    "injured": false,
    "p_play": 1,
-   "owned": 16.4
+   "owned": 14.9
   },
   "Niels Giffey": {
    "t": "MUN",
@@ -2695,7 +2695,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 2.3
+   "owned": 2.1
   },
   "Stefano Tonut": {
    "t": "MIL",
@@ -2703,7 +2703,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.9
+   "owned": 0.8
   },
   "Dovydas Giedraitis": {
    "t": "ZAL",
@@ -2719,7 +2719,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 2.3
+   "owned": 2.4
   },
   "Erkan Yilmaz": {
    "t": "IST",
@@ -2751,7 +2751,7 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 2.6
+   "owned": 2.5
   },
   "Panagiotis Kalaitzakis": {
    "t": "PAN",
@@ -2759,7 +2759,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 10.7
+   "owned": 9.7
   },
   "Burakcan Yildizli": {
    "t": "IST",
@@ -2775,7 +2775,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.4
+   "owned": 0.3
   },
   "Berk Ugurlu": {
    "t": "BES",
@@ -2783,7 +2783,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 1.5
+   "owned": 1.3
   },
   "Tomer Ginat": {
    "t": "HTA",
@@ -2791,7 +2791,7 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 0.6
+   "owned": 0.8
   },
   "Guy Palatin": {
    "t": "HTA",
@@ -2815,7 +2815,7 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 1.9
+   "owned": 1.8
   },
   "Bar Timor": {
    "t": "HTA",
@@ -2832,6 +2832,14 @@
    "injured": false,
    "p_play": 1,
    "owned": 0.5
+  },
+  "Davis Bertans": {
+   "t": "DUB",
+   "last": "Bertans",
+   "pos": "Forward",
+   "injured": false,
+   "p_play": 1,
+   "owned": 2.9
   },
   "Klemen Prepelic": {
    "t": "DUB",
@@ -2855,7 +2863,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 0.3
+   "owned": 0.4
   },
   "Stefan Miljenovic": {
    "t": "RED",
@@ -2863,15 +2871,7 @@
    "pos": "Guard",
    "injured": true,
    "p_play": 0,
-   "owned": 2.0
-  },
-  "Nemanja Dangubic": {
-   "t": "DUB",
-   "last": "Dangubic",
-   "pos": "Forward",
-   "injured": false,
-   "p_play": 1,
-   "owned": 3.5
+   "owned": 1.9
   },
   "Ioannis Kouzeloglou": {
    "t": "PAN",
@@ -2903,7 +2903,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 1.8
+   "owned": 1.6
   },
   "Stefan Joksimovic": {
    "t": "BAS",
@@ -2911,7 +2911,7 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 15.8
+   "owned": 14.9
   },
   "Pedro Souza": {
    "t": "BAS",
@@ -2935,7 +2935,7 @@
    "pos": "Forward",
    "injured": false,
    "p_play": 1,
-   "owned": 1.6
+   "owned": 1.5
   },
   "Ruzgar Fenemen": {
    "t": "IST",
@@ -2991,7 +2991,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 4.4
+   "owned": 4.1
   },
   "Andrej Bjelic": {
    "t": "RED",
@@ -3023,7 +3023,7 @@
    "pos": "Guard",
    "injured": false,
    "p_play": 1,
-   "owned": 8.3
+   "owned": 8.1
   },
   "Lucas Mari": {
    "t": "PAM",

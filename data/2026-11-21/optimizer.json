@@ -10,32 +10,32 @@
   {
    "trades": [
     {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Tyson Carter",
-     "in_price": 7.9
+     "out": "Coach IST",
+     "out_price": 6.5,
+     "in": "Coach RED",
+     "in_price": 6.8
     },
     {
-     "out": "Coach IST",
-     "out_price": 6.0,
-     "in": "Coach RED",
-     "in_price": 6.7
+     "out": "Kendrick Nunn",
+     "out_price": 15.2,
+     "in": "Tyson Carter",
+     "in_price": 8.9
     },
     {
      "out": "Collin Malcolm",
-     "out_price": 10.1,
+     "out_price": 10.2,
      "in": "Jordan Nwora",
      "in_price": 13.9
     },
     {
      "out": "Aliou Diarra",
-     "out_price": 11.3,
+     "out_price": 11.4,
      "in": "Moses Wright",
-     "in_price": 13.2
+     "in_price": 14.2
     }
    ],
    "coach": "RED",
-   "bank_after": 0.7,
+   "bank_after": 0.0,
    "formation": "2-2-1",
    "starters": [
     "Tyson Carter",
@@ -89,251 +89,73 @@
   {
    "trades": [
     {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Tyson Carter",
-     "in_price": 7.9
+     "out": "Collin Malcolm",
+     "out_price": 10.2,
+     "in": "Clement Frisch",
+     "in_price": 5.4
     },
     {
      "out": "Coach IST",
-     "out_price": 6.0,
-     "in": "Coach RED",
-     "in_price": 6.7
+     "out_price": 6.5,
+     "in": "Coach OLY",
+     "in_price": 10.2
     },
     {
-     "out": "Collin Malcolm",
-     "out_price": 10.1,
-     "in": "Jordan Nwora",
-     "in_price": 13.9
+     "out": "Kendrick Nunn",
+     "out_price": 15.2,
+     "in": "Theo Maledon",
+     "in_price": 13.8
     },
     {
-     "out": "Nikolaos Rogkavopoulos",
-     "out_price": 4.3,
-     "in": "Clement Frisch",
-     "in_price": 5.5
+     "out": "Aliou Diarra",
+     "out_price": 11.4,
+     "in": "Moses Wright",
+     "in_price": 14.2
     }
    ],
-   "coach": "RED",
-   "bank_after": 1.4,
+   "coach": "OLY",
+   "bank_after": 0.2,
    "formation": "2-2-1",
    "starters": [
-    "Tyson Carter",
+    "Theo Maledon",
     "Justin Robinson",
     "Sasha Vezenkov",
     "Oscar Da Silva",
-    "Aliou Diarra"
+    "Kenan Kamenjas"
    ],
-   "sixth": "Jordan Nwora",
+   "sixth": "Moses Wright",
    "bench": [
     "Andres Feliz",
     "Vanja Marinkovic",
     "Clement Frisch",
-    "Kenan Kamenjas"
+    "Nikolaos Rogkavopoulos"
    ],
    "captain": "Justin Robinson",
-   "mean": 178.5,
-   "p90": 221.5,
-   "p10": 134.1,
-   "p_target": 0.261,
+   "mean": 176.6,
+   "p90": 222.1,
+   "p10": 128.3,
+   "p_target": 0.262,
    "nights": {
     "count": {
-     "1": 5,
-     "2": 5
+     "1": 4,
+     "2": 6
     },
     "starters": {
-     "1": 4,
-     "2": 1
+     "1": 2,
+     "2": 3
     },
     "balanced": true,
     "reasons": [],
     "plan": [
      [
       "Oscar Da Silva",
-      "Kenan Kamenjas",
-      18.6
-     ],
-     [
-      "Aliou Diarra",
       "Andres Feliz",
       15.5
-     ],
-     [
-      "Tyson Carter",
-      "Clement Frisch",
-      8.8
-     ],
-     [
-      "Jordan Nwora",
-      "Vanja Marinkovic",
-      8.6
-     ]
-    ]
-   }
-  },
-  {
-   "trades": [
-    {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Tyson Carter",
-     "in_price": 7.9
-    },
-    {
-     "out": "Coach IST",
-     "out_price": 6.0,
-     "in": "Coach RED",
-     "in_price": 6.7
-    },
-    {
-     "out": "Collin Malcolm",
-     "out_price": 10.1,
-     "in": "Jordan Nwora",
-     "in_price": 13.9
-    },
-    {
-     "out": "Nikolaos Rogkavopoulos",
-     "out_price": 4.3,
-     "in": "Rodions Kurucs",
-     "in_price": 6.1
-    }
-   ],
-   "coach": "RED",
-   "bank_after": 0.8,
-   "formation": "2-2-1",
-   "starters": [
-    "Tyson Carter",
-    "Justin Robinson",
-    "Sasha Vezenkov",
-    "Oscar Da Silva",
-    "Aliou Diarra"
-   ],
-   "sixth": "Jordan Nwora",
-   "bench": [
-    "Andres Feliz",
-    "Vanja Marinkovic",
-    "Rodions Kurucs",
-    "Kenan Kamenjas"
-   ],
-   "captain": "Justin Robinson",
-   "mean": 178.5,
-   "p90": 221.5,
-   "p10": 134.1,
-   "p_target": 0.261,
-   "nights": {
-    "count": {
-     "1": 5,
-     "2": 5
-    },
-    "starters": {
-     "1": 4,
-     "2": 1
-    },
-    "balanced": true,
-    "reasons": [],
-    "plan": [
-     [
-      "Oscar Da Silva",
-      "Kenan Kamenjas",
-      18.6
-     ],
-     [
-      "Aliou Diarra",
-      "Andres Feliz",
-      15.5
-     ],
-     [
-      "Tyson Carter",
-      "Rodions Kurucs",
-      8.8
-     ],
-     [
-      "Jordan Nwora",
-      "Vanja Marinkovic",
-      8.6
-     ]
-    ]
-   }
-  },
-  {
-   "trades": [
-    {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Tyson Carter",
-     "in_price": 7.9
-    },
-    {
-     "out": "Coach IST",
-     "out_price": 6.0,
-     "in": "Coach RED",
-     "in_price": 6.7
-    },
-    {
-     "out": "Nikolaos Rogkavopoulos",
-     "out_price": 4.3,
-     "in": "Joel Parra",
-     "in_price": 7.2
-    },
-    {
-     "out": "Aliou Diarra",
-     "out_price": 11.3,
-     "in": "Moses Wright",
-     "in_price": 13.2
-    }
-   ],
-   "coach": "RED",
-   "bank_after": 1.6,
-   "formation": "2-2-1",
-   "starters": [
-    "Tyson Carter",
-    "Justin Robinson",
-    "Sasha Vezenkov",
-    "Oscar Da Silva",
-    "Moses Wright"
-   ],
-   "sixth": "Joel Parra",
-   "bench": [
-    "Andres Feliz",
-    "Vanja Marinkovic",
-    "Collin Malcolm",
-    "Kenan Kamenjas"
-   ],
-   "captain": "Justin Robinson",
-   "mean": 177.6,
-   "p90": 220.1,
-   "p10": 132.3,
-   "p_target": 0.259,
-   "nights": {
-    "count": {
-     "1": 5,
-     "2": 5
-    },
-    "starters": {
-     "1": 4,
-     "2": 1
-    },
-    "balanced": true,
-    "reasons": [],
-    "plan": [
-     [
-      "Oscar Da Silva",
-      "Kenan Kamenjas",
-      18.6
-     ],
-     [
-      "Joel Parra",
-      "Andres Feliz",
-      15.5
-     ],
-     [
-      "Tyson Carter",
-      "Collin Malcolm",
-      11.3
      ],
      [
       "Moses Wright",
-      "Vanja Marinkovic",
-      8.6
+      "Clement Frisch",
+      8.8
      ]
     ]
    }
@@ -342,31 +164,31 @@
    "trades": [
     {
      "out": "Kendrick Nunn",
-     "out_price": 14.8,
+     "out_price": 15.2,
      "in": "Tyson Carter",
-     "in_price": 7.9
+     "in_price": 8.9
     },
     {
      "out": "Aliou Diarra",
-     "out_price": 11.3,
+     "out_price": 11.4,
      "in": "Mfiondu Kabengele",
      "in_price": 16.2
     },
     {
      "out": "Coach IST",
-     "out_price": 6.0,
+     "out_price": 6.5,
      "in": "Coach RED",
-     "in_price": 6.7
+     "in_price": 6.8
     },
     {
      "out": "Collin Malcolm",
-     "out_price": 10.1,
+     "out_price": 10.2,
      "in": "Eugene Omoruyi",
-     "in_price": 10.0
+     "in_price": 10.1
     }
    ],
    "coach": "RED",
-   "bank_after": 1.6,
+   "bank_after": 1.8,
    "formation": "2-2-1",
    "starters": [
     "Tyson Carter",
@@ -421,31 +243,105 @@
    "trades": [
     {
      "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Theo Maledon",
-     "in_price": 13.4
-    },
-    {
-     "out": "Coach IST",
-     "out_price": 6.0,
-     "in": "Coach RED",
-     "in_price": 6.7
-    },
-    {
-     "out": "Collin Malcolm",
-     "out_price": 10.1,
-     "in": "Joel Parra",
-     "in_price": 7.2
+     "out_price": 15.2,
+     "in": "Tyson Carter",
+     "in_price": 8.9
     },
     {
      "out": "Aliou Diarra",
-     "out_price": 11.3,
-     "in": "Moses Wright",
-     "in_price": 13.2
+     "out_price": 11.4,
+     "in": "Mfiondu Kabengele",
+     "in_price": 16.2
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.5,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Oscar Da Silva",
+     "out_price": 8.5,
+     "in": "Eugene Omoruyi",
+     "in_price": 10.1
     }
    ],
    "coach": "RED",
-   "bank_after": 1.9,
+   "bank_after": 0.1,
+   "formation": "2-2-1",
+   "starters": [
+    "Tyson Carter",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Eugene Omoruyi",
+    "Mfiondu Kabengele"
+   ],
+   "sixth": "Kenan Kamenjas",
+   "bench": [
+    "Andres Feliz",
+    "Vanja Marinkovic",
+    "Collin Malcolm",
+    "Nikolaos Rogkavopoulos"
+   ],
+   "captain": "Justin Robinson",
+   "mean": 177.3,
+   "p90": 219.9,
+   "p10": 132.9,
+   "p_target": 0.255,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Eugene Omoruyi",
+      "Andres Feliz",
+      15.5
+     ],
+     [
+      "Tyson Carter",
+      "Collin Malcolm",
+      11.3
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Coach IST",
+     "out_price": 6.5,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 15.2,
+     "in": "Theo Maledon",
+     "in_price": 13.8
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.2,
+     "in": "Joel Parra",
+     "in_price": 7.8
+    },
+    {
+     "out": "Aliou Diarra",
+     "out_price": 11.4,
+     "in": "Moses Wright",
+     "in_price": 14.2
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 1.2,
    "formation": "1-2-2",
    "starters": [
     "Justin Robinson",
@@ -499,56 +395,56 @@
   {
    "trades": [
     {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Tyson Carter",
-     "in_price": 7.9
-    },
-    {
-     "out": "Aliou Diarra",
-     "out_price": 11.3,
-     "in": "Mfiondu Kabengele",
-     "in_price": 16.2
-    },
-    {
      "out": "Coach IST",
-     "out_price": 6.0,
+     "out_price": 6.5,
      "in": "Coach RED",
-     "in_price": 6.7
+     "in_price": 6.8
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 15.2,
+     "in": "Theo Maledon",
+     "in_price": 13.8
     },
     {
      "out": "Collin Malcolm",
-     "out_price": 10.1,
-     "in": "Tyson Ward",
-     "in_price": 8.3
+     "out_price": 10.2,
+     "in": "Both Gach",
+     "in_price": 9.0
+    },
+    {
+     "out": "Aliou Diarra",
+     "out_price": 11.4,
+     "in": "Moses Wright",
+     "in_price": 14.2
     }
    ],
    "coach": "RED",
-   "bank_after": 3.3,
-   "formation": "2-2-1",
+   "bank_after": 0.0,
+   "formation": "1-2-2",
    "starters": [
-    "Tyson Carter",
     "Justin Robinson",
     "Sasha Vezenkov",
-    "Oscar Da Silva",
-    "Mfiondu Kabengele"
+    "Both Gach",
+    "Moses Wright",
+    "Kenan Kamenjas"
    ],
-   "sixth": "Kenan Kamenjas",
+   "sixth": "Oscar Da Silva",
    "bench": [
+    "Theo Maledon",
     "Andres Feliz",
     "Vanja Marinkovic",
-    "Tyson Ward",
     "Nikolaos Rogkavopoulos"
    ],
    "captain": "Justin Robinson",
-   "mean": 176.5,
-   "p90": 219.9,
-   "p10": 131.8,
-   "p_target": 0.252,
+   "mean": 177.7,
+   "p90": 220.1,
+   "p10": 134.1,
+   "p_target": 0.253,
    "nights": {
     "count": {
-     "1": 4,
-     "2": 6
+     "1": 5,
+     "2": 5
     },
     "starters": {
      "1": 3,
@@ -559,13 +455,18 @@
     "plan": [
      [
       "Oscar Da Silva",
+      "Theo Maledon",
+      18.4
+     ],
+     [
+      "Both Gach",
       "Andres Feliz",
       15.5
      ],
      [
-      "Tyson Carter",
-      "Tyson Ward",
-      12.4
+      "Moses Wright",
+      "Vanja Marinkovic",
+      8.6
      ]
     ]
    }
@@ -573,32 +474,32 @@
   {
    "trades": [
     {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Theo Maledon",
-     "in_price": 13.4
+     "out": "Coach IST",
+     "out_price": 6.5,
+     "in": "Coach RED",
+     "in_price": 6.8
     },
     {
-     "out": "Coach IST",
-     "out_price": 6.0,
-     "in": "Coach RED",
-     "in_price": 6.7
+     "out": "Kendrick Nunn",
+     "out_price": 15.2,
+     "in": "Theo Maledon",
+     "in_price": 13.8
     },
     {
      "out": "Collin Malcolm",
-     "out_price": 10.1,
+     "out_price": 10.2,
      "in": "Tyson Ward",
-     "in_price": 8.3
+     "in_price": 8.5
     },
     {
      "out": "Aliou Diarra",
-     "out_price": 11.3,
+     "out_price": 11.4,
      "in": "Moses Wright",
-     "in_price": 13.2
+     "in_price": 14.2
     }
    ],
    "coach": "RED",
-   "bank_after": 0.8,
+   "bank_after": 0.5,
    "formation": "2-2-1",
    "starters": [
     "Theo Maledon",
@@ -647,52 +548,52 @@
   {
    "trades": [
     {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Theo Maledon",
-     "in_price": 13.4
-    },
-    {
      "out": "Coach IST",
-     "out_price": 6.0,
+     "out_price": 6.5,
      "in": "Coach RED",
-     "in_price": 6.7
+     "in_price": 6.8
     },
     {
-     "out": "Andres Feliz",
-     "out_price": 9.9,
-     "in": "Tyson Carter",
-     "in_price": 7.9
+     "out": "Kendrick Nunn",
+     "out_price": 15.2,
+     "in": "Theo Maledon",
+     "in_price": 13.8
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.2,
+     "in": "Johnny Juzang",
+     "in_price": 9.0
     },
     {
      "out": "Aliou Diarra",
-     "out_price": 11.3,
+     "out_price": 11.4,
      "in": "Moses Wright",
-     "in_price": 13.2
+     "in_price": 14.2
     }
    ],
    "coach": "RED",
-   "bank_after": 1.0,
-   "formation": "2-2-1",
+   "bank_after": 0.0,
+   "formation": "1-2-2",
    "starters": [
     "Justin Robinson",
-    "Tyson Carter",
     "Sasha Vezenkov",
-    "Oscar Da Silva",
+    "Johnny Juzang",
+    "Moses Wright",
     "Kenan Kamenjas"
    ],
-   "sixth": "Moses Wright",
+   "sixth": "Oscar Da Silva",
    "bench": [
     "Theo Maledon",
+    "Andres Feliz",
     "Vanja Marinkovic",
-    "Collin Malcolm",
     "Nikolaos Rogkavopoulos"
    ],
    "captain": "Justin Robinson",
-   "mean": 176.7,
-   "p90": 219.5,
-   "p10": 133.4,
-   "p_target": 0.251,
+   "mean": 177.4,
+   "p90": 220.1,
+   "p10": 133.8,
+   "p_target": 0.25,
    "nights": {
     "count": {
      "1": 5,
@@ -711,9 +612,88 @@
       18.4
      ],
      [
-      "Tyson Carter",
-      "Collin Malcolm",
-      11.3
+      "Johnny Juzang",
+      "Andres Feliz",
+      15.5
+     ],
+     [
+      "Moses Wright",
+      "Vanja Marinkovic",
+      8.6
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Coach IST",
+     "out_price": 6.5,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 15.2,
+     "in": "Theo Maledon",
+     "in_price": 13.8
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.2,
+     "in": "Mathis Dossou-Yovo",
+     "in_price": 8.7
+    },
+    {
+     "out": "Aliou Diarra",
+     "out_price": 11.4,
+     "in": "Moses Wright",
+     "in_price": 14.2
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.3,
+   "formation": "1-2-2",
+   "starters": [
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Mathis Dossou-Yovo",
+    "Moses Wright",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Oscar Da Silva",
+   "bench": [
+    "Theo Maledon",
+    "Andres Feliz",
+    "Vanja Marinkovic",
+    "Nikolaos Rogkavopoulos"
+   ],
+   "captain": "Justin Robinson",
+   "mean": 177.0,
+   "p90": 219.3,
+   "p10": 133.2,
+   "p_target": 0.246,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Mathis Dossou-Yovo",
+      "Theo Maledon",
+      18.4
+     ],
+     [
+      "Oscar Da Silva",
+      "Andres Feliz",
+      15.5
      ],
      [
       "Moses Wright",
@@ -727,27 +707,27 @@
    "trades": [
     {
      "out": "Kendrick Nunn",
-     "out_price": 14.8,
+     "out_price": 15.2,
      "in": "Tyson Carter",
-     "in_price": 7.9
+     "in_price": 8.9
     },
     {
      "out": "Aliou Diarra",
-     "out_price": 11.3,
+     "out_price": 11.4,
      "in": "Mfiondu Kabengele",
      "in_price": 16.2
     },
     {
      "out": "Coach IST",
-     "out_price": 6.0,
+     "out_price": 6.5,
      "in": "Coach RED",
-     "in_price": 6.7
+     "in_price": 6.8
     },
     {
-     "out": "Nikolaos Rogkavopoulos",
-     "out_price": 4.3,
-     "in": "Dejan Davidovac",
-     "in_price": 4.6
+     "out": "Oscar Da Silva",
+     "out_price": 8.5,
+     "in": "Both Gach",
+     "in_price": 9.0
     }
    ],
    "coach": "RED",
@@ -757,7 +737,7 @@
     "Tyson Carter",
     "Justin Robinson",
     "Sasha Vezenkov",
-    "Oscar Da Silva",
+    "Both Gach",
     "Mfiondu Kabengele"
    ],
    "sixth": "Kenan Kamenjas",
@@ -765,13 +745,13 @@
     "Andres Feliz",
     "Vanja Marinkovic",
     "Collin Malcolm",
-    "Dejan Davidovac"
+    "Nikolaos Rogkavopoulos"
    ],
    "captain": "Justin Robinson",
    "mean": 176.3,
-   "p90": 219.7,
-   "p10": 131.3,
-   "p_target": 0.25,
+   "p90": 218.8,
+   "p10": 132.2,
+   "p_target": 0.245,
    "nights": {
     "count": {
      "1": 4,
@@ -785,7 +765,7 @@
     "reasons": [],
     "plan": [
      [
-      "Oscar Da Silva",
+      "Both Gach",
       "Andres Feliz",
       15.5
      ],
@@ -802,32 +782,32 @@
   {
    "trades": [
     {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Tyson Carter",
-     "in_price": 7.9
+     "out": "Coach IST",
+     "out_price": 6.5,
+     "in": "Coach RED",
+     "in_price": 6.8
     },
     {
-     "out": "Coach IST",
-     "out_price": 6.0,
-     "in": "Coach RED",
-     "in_price": 6.7
+     "out": "Kendrick Nunn",
+     "out_price": 15.2,
+     "in": "Tyson Carter",
+     "in_price": 8.9
     },
     {
      "out": "Collin Malcolm",
-     "out_price": 10.1,
+     "out_price": 10.2,
      "in": "Jordan Nwora",
      "in_price": 13.9
     },
     {
      "out": "Aliou Diarra",
-     "out_price": 11.3,
+     "out_price": 11.4,
      "in": "Moses Wright",
-     "in_price": 13.2
+     "in_price": 14.2
     }
    ],
    "coach": "RED",
-   "bank_after": 0.7,
+   "bank_after": 0.0,
    "formation": "2-2-1",
    "starters": [
     "Tyson Carter",
@@ -881,111 +861,32 @@
   {
    "trades": [
     {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Tyson Carter",
-     "in_price": 7.9
-    },
-    {
      "out": "Coach IST",
-     "out_price": 6.0,
+     "out_price": 6.5,
      "in": "Coach RED",
-     "in_price": 6.7
+     "in_price": 6.8
     },
     {
-     "out": "Oscar Da Silva",
-     "out_price": 8.2,
-     "in": "Jordan Nwora",
-     "in_price": 13.9
+     "out": "Kendrick Nunn",
+     "out_price": 15.2,
+     "in": "Tyson Carter",
+     "in_price": 8.9
     },
     {
      "out": "Collin Malcolm",
-     "out_price": 10.1,
-     "in": "Eugene Omoruyi",
-     "in_price": 10.0
-    }
-   ],
-   "coach": "RED",
-   "bank_after": 0.8,
-   "formation": "2-2-1",
-   "starters": [
-    "Tyson Carter",
-    "Justin Robinson",
-    "Sasha Vezenkov",
-    "Eugene Omoruyi",
-    "Aliou Diarra"
-   ],
-   "sixth": "Jordan Nwora",
-   "bench": [
-    "Andres Feliz",
-    "Vanja Marinkovic",
-    "Nikolaos Rogkavopoulos",
-    "Kenan Kamenjas"
-   ],
-   "captain": "Justin Robinson",
-   "mean": 178.5,
-   "p90": 221.9,
-   "p10": 134.6,
-   "p_target": 0.264,
-   "nights": {
-    "count": {
-     "1": 6,
-     "2": 4
-    },
-    "starters": {
-     "1": 4,
-     "2": 1
-    },
-    "balanced": true,
-    "reasons": [],
-    "plan": [
-     [
-      "Eugene Omoruyi",
-      "Kenan Kamenjas",
-      18.6
-     ],
-     [
-      "Aliou Diarra",
-      "Andres Feliz",
-      15.5
-     ],
-     [
-      "Tyson Carter",
-      "Vanja Marinkovic",
-      8.6
-     ]
-    ]
-   }
-  },
-  {
-   "trades": [
-    {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Tyson Carter",
-     "in_price": 7.9
-    },
-    {
-     "out": "Coach IST",
-     "out_price": 6.0,
-     "in": "Coach RED",
-     "in_price": 6.7
-    },
-    {
-     "out": "Collin Malcolm",
-     "out_price": 10.1,
+     "out_price": 10.2,
      "in": "Jordan Nwora",
      "in_price": 13.9
     },
     {
      "out": "Nikolaos Rogkavopoulos",
-     "out_price": 4.3,
+     "out_price": 4.2,
      "in": "Clement Frisch",
-     "in_price": 5.5
+     "in_price": 5.4
     }
    ],
    "coach": "RED",
-   "bank_after": 1.4,
+   "bank_after": 1.6,
    "formation": "2-2-1",
    "starters": [
     "Tyson Carter",
@@ -1044,28 +945,28 @@
   {
    "trades": [
     {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Tyson Carter",
-     "in_price": 7.9
+     "out": "Coach IST",
+     "out_price": 6.5,
+     "in": "Coach RED",
+     "in_price": 6.8
     },
     {
-     "out": "Coach IST",
-     "out_price": 6.0,
-     "in": "Coach RED",
-     "in_price": 6.7
+     "out": "Kendrick Nunn",
+     "out_price": 15.2,
+     "in": "Tyson Carter",
+     "in_price": 8.9
     },
     {
      "out": "Collin Malcolm",
-     "out_price": 10.1,
+     "out_price": 10.2,
      "in": "Jordan Nwora",
      "in_price": 13.9
     },
     {
      "out": "Nikolaos Rogkavopoulos",
-     "out_price": 4.3,
+     "out_price": 4.2,
      "in": "Rodions Kurucs",
-     "in_price": 6.1
+     "in_price": 6.2
     }
    ],
    "coach": "RED",
@@ -1128,32 +1029,32 @@
   {
    "trades": [
     {
-     "out": "Kendrick Nunn",
-     "out_price": 14.8,
-     "in": "Tyson Carter",
-     "in_price": 7.9
+     "out": "Coach IST",
+     "out_price": 6.5,
+     "in": "Coach RED",
+     "in_price": 6.8
     },
     {
-     "out": "Coach IST",
-     "out_price": 6.0,
-     "in": "Coach RED",
-     "in_price": 6.7
+     "out": "Kendrick Nunn",
+     "out_price": 15.2,
+     "in": "Tyson Carter",
+     "in_price": 8.9
     },
     {
      "out": "Collin Malcolm",
-     "out_price": 10.1,
+     "out_price": 10.2,
      "in": "Jordan Nwora",
      "in_price": 13.9
     },
     {
      "out": "Nikolaos Rogkavopoulos",
-     "out_price": 4.3,
+     "out_price": 4.2,
      "in": "Alberto Abalde",
-     "in_price": 6.2
+     "in_price": 5.9
     }
    ],
    "coach": "RED",
-   "bank_after": 0.7,
+   "bank_after": 1.1,
    "formation": "2-2-1",
    "starters": [
     "Tyson Carter",
@@ -1204,6 +1105,85 @@
      [
       "Jordan Nwora",
       "Alberto Abalde",
+      8.6
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 15.2,
+     "in": "Tyson Carter",
+     "in_price": 8.9
+    },
+    {
+     "out": "Aliou Diarra",
+     "out_price": 11.4,
+     "in": "Mfiondu Kabengele",
+     "in_price": 16.2
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.5,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.2,
+     "in": "Eugene Omoruyi",
+     "in_price": 10.1
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 1.8,
+   "formation": "2-2-1",
+   "starters": [
+    "Tyson Carter",
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Eugene Omoruyi",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Oscar Da Silva",
+   "bench": [
+    "Andres Feliz",
+    "Vanja Marinkovic",
+    "Nikolaos Rogkavopoulos",
+    "Mfiondu Kabengele"
+   ],
+   "captain": "Justin Robinson",
+   "mean": 178.0,
+   "p90": 221.0,
+   "p10": 134.3,
+   "p_target": 0.258,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Oscar Da Silva",
+      "Mfiondu Kabengele",
+      20.0
+     ],
+     [
+      "Eugene Omoruyi",
+      "Andres Feliz",
+      15.5
+     ],
+     [
+      "Tyson Carter",
+      "Vanja Marinkovic",
       8.6
      ]
     ]

@@ -31,16 +31,16 @@
   },
   "captain": "Sasha Vezenkov",
   "coach": "Anadolu Efes",
-  "bank": 0.2,
+  "bank": 0.5,
   "bank_known": true,
-  "total_budget": 107.9,
+  "total_budget": 109.8,
   "trades_left_this_round": 4,
   "tracking": {
     "source": "assumed: report 2026-11-19 variation A",
     "updated": "2026-11-20",
     "last_applied_report": "2026-11-19"
   },
-  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. 19 Nov (user screenshot, R13 before trades): Maledon and Davidovac in the squad (not Robinson/Joksimovic); app shows 0.2/107.9, trades 0/4, formation 3-1-1, captain Vezenkov, coach Masiulis (ZAL).",
+  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. 19 Nov (user screenshot, R13 before trades): Maledon and Davidovac in the squad (not Robinson/Joksimovic); app shows 0.2/107.9, trades 0/4, formation 3-1-1, captain Vezenkov, coach Masiulis (ZAL). 21 Nov (user): unlimited-trade week, team value 109.8 in the app; at the official R14 prices (HAR 21 Nov) the squad is 109.3, so bank 0.5.",
   "target_points": 200,
   "app_prices": {
     "_note": "See app_prices.json (official game HAR, round 13, 19 Nov)."
