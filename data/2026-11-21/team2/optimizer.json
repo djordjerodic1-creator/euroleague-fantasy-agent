@@ -1,0 +1,1214 @@
+{
+ "target": 200.0,
+ "current_best_lineup": {
+  "mean": 160.3,
+  "p90": 204.2,
+  "p10": 116.7,
+  "p_target": 0.124
+ },
+ "plans": [
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach RED",
+     "in_price": 6.7
+    },
+    {
+     "out": "Duane Washington",
+     "out_price": 10.1,
+     "in": "Tyson Carter",
+     "in_price": 7.9
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Jordan Nwora",
+     "in_price": 13.9
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 1.1,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Tyson Carter",
+    "Sasha Vezenkov",
+    "Jordan Nwora",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Aliou Diarra",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Gabriele Procida",
+    "Collin Malcolm"
+   ],
+   "captain": "Justin Robinson",
+   "mean": 179.8,
+   "p90": 222.8,
+   "p10": 134.9,
+   "p_target": 0.285,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Aliou Diarra",
+      "Theo Maledon",
+      18.4
+     ],
+     [
+      "Tyson Carter",
+      "Collin Malcolm",
+      11.3
+     ],
+     [
+      "Jordan Nwora",
+      "Vanja Marinkovic",
+      8.6
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Both Gach",
+     "in_price": 8.9
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Duane Washington",
+     "out_price": 10.1,
+     "in": "Tyson Carter",
+     "in_price": 7.9
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 2.9,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Tyson Carter",
+    "Sasha Vezenkov",
+    "Both Gach",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Aliou Diarra",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Gabriele Procida",
+    "Collin Malcolm"
+   ],
+   "captain": "Justin Robinson",
+   "mean": 177.2,
+   "p90": 221.6,
+   "p10": 129.2,
+   "p_target": 0.272,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Both Gach",
+      "Theo Maledon",
+      18.4
+     ],
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      11.3
+     ],
+     [
+      "Tyson Carter",
+      "Vanja Marinkovic",
+      8.6
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach RED",
+     "in_price": 6.7
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Tyson Ward",
+     "in_price": 8.3
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.1,
+     "in": "Jordan Nwora",
+     "in_price": 13.9
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.7,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Duane Washington",
+    "Sasha Vezenkov",
+    "Jordan Nwora",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Aliou Diarra",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Tyson Ward",
+    "Gabriele Procida"
+   ],
+   "captain": "Justin Robinson",
+   "mean": 178.4,
+   "p90": 221.5,
+   "p10": 133.7,
+   "p_target": 0.268,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Duane Washington",
+      "Theo Maledon",
+      18.4
+     ],
+     [
+      "Aliou Diarra",
+      "Tyson Ward",
+      12.4
+     ],
+     [
+      "Jordan Nwora",
+      "Vanja Marinkovic",
+      8.6
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach RED",
+     "in_price": 6.7
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Joel Parra",
+     "in_price": 7.2
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.1,
+     "in": "Jordan Nwora",
+     "in_price": 13.9
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 1.8,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Duane Washington",
+    "Sasha Vezenkov",
+    "Joel Parra",
+    "Aliou Diarra"
+   ],
+   "sixth": "Jordan Nwora",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Gabriele Procida",
+    "Kenan Kamenjas"
+   ],
+   "captain": "Justin Robinson",
+   "mean": 178.3,
+   "p90": 220.8,
+   "p10": 134.1,
+   "p_target": 0.266,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Joel Parra",
+      "Kenan Kamenjas",
+      18.6
+     ],
+     [
+      "Duane Washington",
+      "Theo Maledon",
+      18.4
+     ],
+     [
+      "Aliou Diarra",
+      "Vanja Marinkovic",
+      8.6
+     ],
+     [
+      "Jordan Nwora",
+      "Gabriele Procida",
+      7.4
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Tyson Ward",
+     "in_price": 8.3
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Duane Washington",
+     "out_price": 10.1,
+     "in": "Yam Madar",
+     "in_price": 10.6
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.8,
+   "formation": "3-1-1",
+   "starters": [
+    "Justin Robinson",
+    "Theo Maledon",
+    "Yam Madar",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Aliou Diarra",
+   "bench": [
+    "Tyson Ward",
+    "Collin Malcolm",
+    "Vanja Marinkovic",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 175.0,
+   "p90": 223.1,
+   "p10": 125.7,
+   "p_target": 0.263,
+   "nights": {
+    "count": {
+     "1": 3,
+     "2": 7
+    },
+    "starters": {
+     "1": 2,
+     "2": 3
+    },
+    "balanced": false,
+    "reasons": [
+     "only 3 of 10 play on night 1"
+    ],
+    "plan": [
+     [
+      "Aliou Diarra",
+      "Tyson Ward",
+      12.4
+     ],
+     [
+      "Yam Madar",
+      "Collin Malcolm",
+      11.3
+     ],
+     [
+      "Justin Robinson",
+      "Vanja Marinkovic",
+      8.6
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Tyson Ward",
+     "in_price": 8.3
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Duane Washington",
+     "out_price": 10.1,
+     "in": "Tyson Carter",
+     "in_price": 7.9
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 3.5,
+   "formation": "3-1-1",
+   "starters": [
+    "Justin Robinson",
+    "Theo Maledon",
+    "Tyson Carter",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Aliou Diarra",
+   "bench": [
+    "Tyson Ward",
+    "Collin Malcolm",
+    "Vanja Marinkovic",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 175.4,
+   "p90": 223.4,
+   "p10": 126.5,
+   "p_target": 0.262,
+   "nights": {
+    "count": {
+     "1": 3,
+     "2": 7
+    },
+    "starters": {
+     "1": 2,
+     "2": 3
+    },
+    "balanced": false,
+    "reasons": [
+     "only 3 of 10 play on night 1"
+    ],
+    "plan": [
+     [
+      "Aliou Diarra",
+      "Tyson Ward",
+      12.4
+     ],
+     [
+      "Tyson Carter",
+      "Collin Malcolm",
+      11.3
+     ],
+     [
+      "Justin Robinson",
+      "Vanja Marinkovic",
+      8.6
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Tyson Ward",
+     "in_price": 8.3
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Duane Washington",
+     "out_price": 10.1,
+     "in": "Andres Feliz",
+     "in_price": 9.9
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.5,
+   "formation": "2-1-2",
+   "starters": [
+    "Justin Robinson",
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Aliou Diarra"
+   ],
+   "sixth": "Andres Feliz",
+   "bench": [
+    "Tyson Ward",
+    "Collin Malcolm",
+    "Vanja Marinkovic",
+    "Gabriele Procida"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 174.1,
+   "p90": 223.0,
+   "p10": 123.2,
+   "p_target": 0.262,
+   "nights": {
+    "count": {
+     "1": 2,
+     "2": 8
+    },
+    "starters": {
+     "1": 2,
+     "2": 3
+    },
+    "balanced": false,
+    "reasons": [
+     "only 2 of 10 play on night 1"
+    ],
+    "plan": [
+     [
+      "Aliou Diarra",
+      "Tyson Ward",
+      12.4
+     ],
+     [
+      "Justin Robinson",
+      "Collin Malcolm",
+      11.3
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach RED",
+     "in_price": 6.7
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Oscar Da Silva",
+     "in_price": 8.2
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.1,
+     "in": "Jordan Nwora",
+     "in_price": 13.9
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.8,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Duane Washington",
+    "Sasha Vezenkov",
+    "Oscar Da Silva",
+    "Aliou Diarra"
+   ],
+   "sixth": "Jordan Nwora",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Gabriele Procida",
+    "Kenan Kamenjas"
+   ],
+   "captain": "Justin Robinson",
+   "mean": 178.2,
+   "p90": 219.9,
+   "p10": 134.7,
+   "p_target": 0.261,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Oscar Da Silva",
+      "Kenan Kamenjas",
+      18.6
+     ],
+     [
+      "Duane Washington",
+      "Theo Maledon",
+      18.4
+     ],
+     [
+      "Aliou Diarra",
+      "Vanja Marinkovic",
+      8.6
+     ],
+     [
+      "Jordan Nwora",
+      "Gabriele Procida",
+      7.4
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach RED",
+     "in_price": 6.7
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Tyson Ward",
+     "in_price": 8.3
+    },
+    {
+     "out": "Vanja Marinkovic",
+     "out_price": 4.3,
+     "in": "Tyson Carter",
+     "in_price": 7.9
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.9,
+   "formation": "2-1-2",
+   "starters": [
+    "Justin Robinson",
+    "Duane Washington",
+    "Sasha Vezenkov",
+    "Aliou Diarra",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Tyson Carter",
+   "bench": [
+    "Theo Maledon",
+    "Tyson Ward",
+    "Gabriele Procida",
+    "Collin Malcolm"
+   ],
+   "captain": "Justin Robinson",
+   "mean": 178.2,
+   "p90": 221.1,
+   "p10": 134.2,
+   "p_target": 0.26,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Duane Washington",
+      "Theo Maledon",
+      18.4
+     ],
+     [
+      "Aliou Diarra",
+      "Tyson Ward",
+      12.4
+     ],
+     [
+      "Tyson Carter",
+      "Collin Malcolm",
+      11.3
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach RED",
+     "in_price": 6.7
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Robert Franks",
+     "in_price": 7.9
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.1,
+     "in": "Jordan Nwora",
+     "in_price": 13.9
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 1.1,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Duane Washington",
+    "Sasha Vezenkov",
+    "Jordan Nwora",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Aliou Diarra",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Robert Franks",
+    "Gabriele Procida"
+   ],
+   "captain": "Justin Robinson",
+   "mean": 177.0,
+   "p90": 219.2,
+   "p10": 133.2,
+   "p_target": 0.251,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Duane Washington",
+      "Theo Maledon",
+      18.4
+     ],
+     [
+      "Aliou Diarra",
+      "Robert Franks",
+      10.3
+     ],
+     [
+      "Jordan Nwora",
+      "Vanja Marinkovic",
+      8.6
+     ]
+    ]
+   }
+  }
+ ],
+ "balanced_plans": [
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach RED",
+     "in_price": 6.7
+    },
+    {
+     "out": "Duane Washington",
+     "out_price": 10.1,
+     "in": "Tyson Carter",
+     "in_price": 7.9
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Jordan Nwora",
+     "in_price": 13.9
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 1.1,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Tyson Carter",
+    "Sasha Vezenkov",
+    "Jordan Nwora",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Aliou Diarra",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Gabriele Procida",
+    "Collin Malcolm"
+   ],
+   "captain": "Justin Robinson",
+   "mean": 179.8,
+   "p90": 222.8,
+   "p10": 134.9,
+   "p_target": 0.285,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Aliou Diarra",
+      "Theo Maledon",
+      18.4
+     ],
+     [
+      "Tyson Carter",
+      "Collin Malcolm",
+      11.3
+     ],
+     [
+      "Jordan Nwora",
+      "Vanja Marinkovic",
+      8.6
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Both Gach",
+     "in_price": 8.9
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Duane Washington",
+     "out_price": 10.1,
+     "in": "Tyson Carter",
+     "in_price": 7.9
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 2.9,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Tyson Carter",
+    "Sasha Vezenkov",
+    "Both Gach",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Aliou Diarra",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Gabriele Procida",
+    "Collin Malcolm"
+   ],
+   "captain": "Justin Robinson",
+   "mean": 177.2,
+   "p90": 221.6,
+   "p10": 129.2,
+   "p_target": 0.272,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Both Gach",
+      "Theo Maledon",
+      18.4
+     ],
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      11.3
+     ],
+     [
+      "Tyson Carter",
+      "Vanja Marinkovic",
+      8.6
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Joel Parra",
+     "in_price": 7.2
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach OLY",
+     "in_price": 9.9
+    },
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Duane Washington",
+     "out_price": 10.1,
+     "in": "Yam Madar",
+     "in_price": 10.6
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.9,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Yam Madar",
+    "Sasha Vezenkov",
+    "Joel Parra",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Aliou Diarra",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Gabriele Procida",
+    "Collin Malcolm"
+   ],
+   "captain": "Justin Robinson",
+   "mean": 176.3,
+   "p90": 221.6,
+   "p10": 127.8,
+   "p_target": 0.27,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Joel Parra",
+      "Theo Maledon",
+      18.4
+     ],
+     [
+      "Aliou Diarra",
+      "Collin Malcolm",
+      11.3
+     ],
+     [
+      "Yam Madar",
+      "Vanja Marinkovic",
+      8.6
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach RED",
+     "in_price": 6.7
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Tyson Ward",
+     "in_price": 8.3
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.1,
+     "in": "Jordan Nwora",
+     "in_price": 13.9
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.7,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Duane Washington",
+    "Sasha Vezenkov",
+    "Jordan Nwora",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Aliou Diarra",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Tyson Ward",
+    "Gabriele Procida"
+   ],
+   "captain": "Justin Robinson",
+   "mean": 178.4,
+   "p90": 221.5,
+   "p10": 133.7,
+   "p_target": 0.268,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Duane Washington",
+      "Theo Maledon",
+      18.4
+     ],
+     [
+      "Aliou Diarra",
+      "Tyson Ward",
+      12.4
+     ],
+     [
+      "Jordan Nwora",
+      "Vanja Marinkovic",
+      8.6
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Kendrick Nunn",
+     "out_price": 14.8,
+     "in": "Justin Robinson",
+     "in_price": 13.2
+    },
+    {
+     "out": "Coach IST",
+     "out_price": 6.0,
+     "in": "Coach RED",
+     "in_price": 6.7
+    },
+    {
+     "out": "Filip Petrusev",
+     "out_price": 11.9,
+     "in": "Joel Parra",
+     "in_price": 7.2
+    },
+    {
+     "out": "Collin Malcolm",
+     "out_price": 10.1,
+     "in": "Jordan Nwora",
+     "in_price": 13.9
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 1.8,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Duane Washington",
+    "Sasha Vezenkov",
+    "Joel Parra",
+    "Aliou Diarra"
+   ],
+   "sixth": "Jordan Nwora",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Gabriele Procida",
+    "Kenan Kamenjas"
+   ],
+   "captain": "Justin Robinson",
+   "mean": 178.3,
+   "p90": 220.8,
+   "p10": 134.1,
+   "p_target": 0.266,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Joel Parra",
+      "Kenan Kamenjas",
+      18.6
+     ],
+     [
+      "Duane Washington",
+      "Theo Maledon",
+      18.4
+     ],
+     [
+      "Aliou Diarra",
+      "Vanja Marinkovic",
+      8.6
+     ],
+     [
+      "Jordan Nwora",
+      "Gabriele Procida",
+      7.4
+     ]
+    ]
+   }
+  }
+ ]
+}

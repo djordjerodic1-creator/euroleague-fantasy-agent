@@ -440,6 +440,437 @@
      }
     ]
    }
+  },
+  "13": {
+   "round": 13,
+   "report_date": "2026-11-19",
+   "variations": [
+    {
+     "total": 173.7,
+     "coach_pts": 25,
+     "players": [
+      {
+       "name": "Kendrick Nunn",
+       "pir": 24,
+       "mult": 1.0,
+       "pts": 26.4
+      },
+      {
+       "name": "Sasha Vezenkov",
+       "pir": 15,
+       "mult": 2.0,
+       "pts": 33.0
+      },
+      {
+       "name": "Oscar Da Silva",
+       "pir": 14,
+       "mult": 1.0,
+       "pts": 15.4
+      },
+      {
+       "name": "Kenan Kamenjas",
+       "pir": 25,
+       "mult": 1.0,
+       "pts": 25.0
+      },
+      {
+       "name": "Aliou Diarra",
+       "pir": 15,
+       "mult": 1.0,
+       "pts": 15.0
+      },
+      {
+       "name": "Justin Robinson",
+       "pir": 12,
+       "mult": 1.0,
+       "pts": 12.0
+      },
+      {
+       "name": "Theo Maledon",
+       "pir": 24,
+       "mult": 0.5,
+       "pts": 12.0
+      },
+      {
+       "name": "Collin Malcolm",
+       "pir": 12,
+       "mult": 0.5,
+       "pts": 6.6
+      },
+      {
+       "name": "Vanja Marinkovic",
+       "pir": 6,
+       "mult": 0.5,
+       "pts": 3.3
+      },
+      {
+       "name": "Gabriele Procida",
+       "pir": 0,
+       "mult": 0.5,
+       "pts": 0.0
+      }
+     ],
+     "captain": "Sasha Vezenkov",
+     "captain_pir": 15,
+     "best_captain": "Kenan Kamenjas",
+     "best_captain_pir": 25,
+     "key": "A",
+     "name": "Cheap Thursday starters, Maledon and Malcolm as Friday upgrades",
+     "recommended": true,
+     "pred_mean": 168.0,
+     "pred_p90": 209.0,
+     "pred_p_target": 0.16
+    },
+    {
+     "total": 152.3,
+     "coach_pts": 10,
+     "players": [
+      {
+       "name": "Theo Maledon",
+       "pir": 24,
+       "mult": 1.0,
+       "pts": 24.0
+      },
+      {
+       "name": "Sasha Vezenkov",
+       "pir": 15,
+       "mult": 2.0,
+       "pts": 33.0
+      },
+      {
+       "name": "Clement Frisch",
+       "pir": 3,
+       "mult": 1.0,
+       "pts": 3.0
+      },
+      {
+       "name": "Kenan Kamenjas",
+       "pir": 25,
+       "mult": 1.0,
+       "pts": 25.0
+      },
+      {
+       "name": "Aliou Diarra",
+       "pir": 15,
+       "mult": 1.0,
+       "pts": 15.0
+      },
+      {
+       "name": "Kendrick Nunn",
+       "pir": 24,
+       "mult": 1.0,
+       "pts": 26.4
+      },
+      {
+       "name": "Justin Robinson",
+       "pir": 12,
+       "mult": 0.5,
+       "pts": 6.0
+      },
+      {
+       "name": "Vanja Marinkovic",
+       "pir": 6,
+       "mult": 0.5,
+       "pts": 3.3
+      },
+      {
+       "name": "Collin Malcolm",
+       "pir": 12,
+       "mult": 0.5,
+       "pts": 6.6
+      },
+      {
+       "name": "Gabriele Procida",
+       "pir": 0,
+       "mult": 0.5,
+       "pts": 0.0
+      }
+     ],
+     "captain": "Sasha Vezenkov",
+     "captain_pir": 15,
+     "best_captain": "Kenan Kamenjas",
+     "best_captain_pir": 25,
+     "key": "B",
+     "name": "Keep Maledon starting, Frisch, Valencia coach",
+     "recommended": false,
+     "pred_mean": 168.4,
+     "pred_p90": 208.1,
+     "pred_p_target": 0.155
+    },
+    {
+     "total": 140.4,
+     "coach_pts": 10,
+     "players": [
+      {
+       "name": "Elijah Bryant",
+       "pir": 13,
+       "mult": 1.0,
+       "pts": 13.0
+      },
+      {
+       "name": "Kendrick Nunn",
+       "pir": 24,
+       "mult": 1.0,
+       "pts": 26.4
+      },
+      {
+       "name": "Sasha Vezenkov",
+       "pir": 15,
+       "mult": 2.0,
+       "pts": 33.0
+      },
+      {
+       "name": "Collin Malcolm",
+       "pir": 12,
+       "mult": 1.0,
+       "pts": 13.2
+      },
+      {
+       "name": "Mfiondu Kabengele",
+       "pir": 15,
+       "mult": 1.0,
+       "pts": 16.5
+      },
+      {
+       "name": "Kenan Kamenjas",
+       "pir": 25,
+       "mult": 1.0,
+       "pts": 25.0
+      },
+      {
+       "name": "John Dibartolomeo",
+       "pir": null,
+       "mult": 0.5,
+       "pts": 0.0
+      },
+      {
+       "name": "Vanja Marinkovic",
+       "pir": 6,
+       "mult": 0.5,
+       "pts": 3.3
+      },
+      {
+       "name": "Alberto Abalde",
+       "pir": 0,
+       "mult": 0.5,
+       "pts": 0.0
+      },
+      {
+       "name": "Gabriele Procida",
+       "pir": 0,
+       "mult": 0.5,
+       "pts": 0.0
+      }
+     ],
+     "captain": "Sasha Vezenkov",
+     "captain_pir": 15,
+     "best_captain": "Kendrick Nunn",
+     "best_captain_pir": 24,
+     "key": "C",
+     "name": "Bryant + Kabengele moonshot",
+     "recommended": false,
+     "pred_mean": 165.2,
+     "pred_p90": 206.0,
+     "pred_p_target": 0.135
+    }
+   ],
+   "team": {
+    "total": 198.0,
+    "coach_pts": 25,
+    "players": [
+     {
+      "name": "Kendrick Nunn",
+      "pir": 24,
+      "mult": 2.0,
+      "pts": 52.8
+     },
+     {
+      "name": "Duane Washington",
+      "pir": 33,
+      "mult": 1.0,
+      "pts": 36.3
+     },
+     {
+      "name": "Filip Petrusev",
+      "pir": 5,
+      "mult": 1.0,
+      "pts": 5.5
+     },
+     {
+      "name": "Aliou Diarra",
+      "pir": 15,
+      "mult": 1.0,
+      "pts": 15.0
+     },
+     {
+      "name": "Kenan Kamenjas",
+      "pir": 25,
+      "mult": 1.0,
+      "pts": 25.0
+     },
+     {
+      "name": "Sasha Vezenkov",
+      "pir": 15,
+      "mult": 1.0,
+      "pts": 16.5
+     },
+     {
+      "name": "Gabriele Procida",
+      "pir": 0,
+      "mult": 0.5,
+      "pts": 0.0
+     },
+     {
+      "name": "Theo Maledon",
+      "pir": 24,
+      "mult": 0.5,
+      "pts": 12.0
+     },
+     {
+      "name": "Vanja Marinkovic",
+      "pir": 6,
+      "mult": 0.5,
+      "pts": 3.3
+     },
+     {
+      "name": "Collin Malcolm",
+      "pir": 12,
+      "mult": 0.5,
+      "pts": 6.6
+     }
+    ],
+    "captain": "Kendrick Nunn",
+    "captain_pir": 24,
+    "best_captain": "Duane Washington",
+    "best_captain_pir": 33,
+    "source": "user"
+   },
+   "projections": {
+    "n": 218,
+    "bias": 0.31,
+    "mae": 6.03,
+    "inside_p10_p90": 0.729,
+    "below_p10": 28,
+    "above_p90": 31,
+    "by_tier": {
+     "15+": {
+      "n": 10,
+      "bias": -3.63
+     },
+     "8-15": {
+      "n": 100,
+      "bias": 0.23
+     },
+     "<8": {
+      "n": 108,
+      "bias": 0.75
+     }
+    },
+    "upside_misses": [
+     {
+      "name": "Kyle Allman",
+      "t": "PAR",
+      "price": 7.4,
+      "owned": null,
+      "proj": 0.2,
+      "pir": 24,
+      "min": 28.1,
+      "kind": "upside"
+     },
+     {
+      "name": "Dario Brizuela",
+      "t": "BAR",
+      "price": 6.2,
+      "owned": null,
+      "proj": 7.9,
+      "pir": 31,
+      "min": 30.1,
+      "kind": "upside"
+     },
+     {
+      "name": "Moses Wright",
+      "t": "MIL",
+      "price": 13.2,
+      "owned": null,
+      "proj": 14.6,
+      "pir": 36,
+      "min": 28.8,
+      "kind": "upside"
+     },
+     {
+      "name": "Tyrique Jones",
+      "t": "OLY",
+      "price": 9.8,
+      "owned": null,
+      "proj": 8.8,
+      "pir": 30,
+      "min": 22.0,
+      "kind": "upside"
+     },
+     {
+      "name": "Duane Washington",
+      "t": "MUN",
+      "price": 10.1,
+      "owned": null,
+      "proj": 12,
+      "pir": 33,
+      "min": 22.1,
+      "kind": "upside"
+     },
+     {
+      "name": "Tyson Carter",
+      "t": "RED",
+      "price": 7.9,
+      "owned": null,
+      "proj": 11.6,
+      "pir": 30,
+      "min": 29.0,
+      "kind": "upside"
+     },
+     {
+      "name": "Kobi Simmons",
+      "t": "BAS",
+      "price": 7.5,
+      "owned": null,
+      "proj": 8.2,
+      "pir": 25,
+      "min": 25.4,
+      "kind": "upside"
+     },
+     {
+      "name": "Kai Jones",
+      "t": "IST",
+      "price": 7.7,
+      "owned": null,
+      "proj": 4.9,
+      "pir": 21,
+      "min": 26.9,
+      "kind": "upside"
+     }
+    ],
+    "downside_misses": [
+     {
+      "name": "Mckinley Wright Iv",
+      "t": "DUB",
+      "price": 12.6,
+      "owned": null,
+      "proj": 10.1,
+      "pir": -3,
+      "min": 20.5,
+      "kind": "downside"
+     },
+     {
+      "name": "Edwin Jackson",
+      "t": "ASV",
+      "price": 4.6,
+      "owned": null,
+      "proj": 7.9,
+      "pir": -4,
+      "min": 13.0,
+      "kind": "downside"
+     }
+    ]
+   }
   }
  }
 }
