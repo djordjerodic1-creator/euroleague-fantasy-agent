@@ -84,14 +84,14 @@ Cost 109.3 · bank 0.5 · coach IST · captain Sasha Vezenkov · clubs {'PAN': 2
 - Domestic league: BSL (Turkey)
 
 ### Nikolaos Rogkavopoulos — Panathinaikos · Forward · 4.2 cr · owned None%
-- Status: **None** · site signal avoid (value-, price-, minutes-) · grade C · data fresh today: True
+- Status: **out** · site signal avoid (value-, price-, minutes-) · grade C · data fresh today: True
 - Form PIR L3/L5/L10: 4/7.5/7.5 · minutes L3 8.4 vs L10 11.1 · PIR/min 0.676 · starts 0%
 - Season: 4 games, 7.5 PIR per game, 11.1 min
 - Domestic last game: not auto-covered (research it)
 - Last 5 games: R2 vs ASV W 102-79: 18 PIR, 19.3 min, 12p 3r 3a (bench) · R4 vs ULK W 92-74: 13 PIR, 9.7 min, 10p 2r 0a (bench) · R5 @ PAR W 72-55: 0 PIR, 9.0 min, 3p 1r 1a (bench) · R12 @ VIR L 79-84: -1 PIR, 6.4 min, 0p 1r 0a (bench)
 - Price Δ last 3/5/10 rounds: 2.7/None/None · since start -0.2 · projected change after round None · PIR≥price 2/4
-- Schedule: R14 @PAM 5.7 (diff 2/5) | R15 @BES 6.0 (diff 2/5) | R16 vsOLY 6.1 (diff 3/5) | R17 vsRED 6.1 (diff 3/5)
-- Window score (site proj, weighted): 14.98 · P10–P90 this round 2.1–10.5 · win prob 0.397
+- Schedule: R14 @PAM 1.4 (diff 1/5) | R15 @BES 1.5 (diff 2/5) | R16 vsOLY 1.5 (diff 4/5) | R17 vsRED 1.5 (diff 1/5)
+- Window score (site proj, weighted): 0.0 · P10–P90 this round -4.4–14.1 · win prob 0.397
 - Domestic league: GBL (Greece)
   - news [return] 2026-11-16:  
   - news [injury] 2026-11-11:  
@@ -137,7 +137,7 @@ Cost 109.3 · bank 0.5 · coach IST · captain Sasha Vezenkov · clubs {'PAN': 2
 - OUT Vanja Marinkovic (score 19.86): Alvaro Cardenas (PAM, 4.4cr, score 13.97, gain -5.9, own None%); Daniel Hackett (VIR, 4.5cr, score 12.01, gain -7.8, own None%); Joel Ayayi (PRS, 4.6cr, score 9.63, gain -10.2, own None%); Sergio Llull (MAD, 4.0cr, score 9.63, gain -10.2, own None%)
 - OUT Sasha Vezenkov (score 56.97): Dwayne Bacon (DUB, 14.6cr, score 38.65, gain -18.3, own None%); Jordan Nwora (RED, 13.9cr, score 36.92, gain -20.0, own None%); Azuolas Tubelis (ZAL, 13.4cr, score 34.29, gain -22.7, own None%); Dario Saric (IST, 14.6cr, score 32.36, gain -24.6, own None%)
 - OUT Collin Malcolm (score 28.58): Eugene Omoruyi (BES, 10.1cr, score 28.74, gain +0.2, own None%); Both Gach (ASV, 9.0cr, score 27.61, gain -1.0, own None%); Tyson Ward (OLY, 8.5cr, score 26.85, gain -1.7, own None%); Johnny Juzang (ULK, 9.0cr, score 25.07, gain -3.5, own None%)
-- OUT Nikolaos Rogkavopoulos (score 14.98): Edwin Jackson (ASV, 4.2cr, score 13.88, gain -1.1, own None%); Stefan Joksimovic (BAS, 4.0cr, score 11.56, gain -3.4, own None%); Ognjen Dobric (RED, 4.7cr, score 9.88, gain -5.1, own None%); Leopold Cavaliere (PRS, 4.4cr, score 9.54, gain -5.4, own None%)
+- OUT Nikolaos Rogkavopoulos (score 0.0): Edwin Jackson (ASV, 4.2cr, score 13.88, gain +13.9, own None%); Stefan Joksimovic (BAS, 4.0cr, score 11.56, gain +11.6, own None%); Ognjen Dobric (RED, 4.7cr, score 9.88, gain +9.9, own None%); Leopold Cavaliere (PRS, 4.4cr, score 9.54, gain +9.5, own None%)
 - OUT Oscar Da Silva (score 26.28): Both Gach (ASV, 9.0cr, score 27.61, gain +1.3, own None%); Tyson Ward (OLY, 8.5cr, score 26.85, gain +0.6, own None%); Johnny Juzang (ULK, 9.0cr, score 25.07, gain -1.2, own None%); Mathis Dossou-Yovo (ASV, 8.7cr, score 23.85, gain -2.4, own None%)
 - OUT Aliou Diarra (score 35.62): Johannes Thiemann (MUN, 11.6cr, score 32.39, gain -3.2, own None%); Christian Koloko (RED, 10.4cr, score 32.28, gain -3.3, own None%); Tonye Jekiri (PAR, 9.9cr, score 30.3, gain -5.3, own None%); Neal Sako (PAM, 10.3cr, score 27.07, gain -8.5, own None%)
 - OUT Kenan Kamenjas (score 43.53): Ousmane Diop (MIL, 5.0cr, score 19.46, gain -24.1, own None%); Johannes Voigtmann (MUN, 6.4cr, score 13.93, gain -29.6, own None%); Moustapha Fall (PAN, 6.4cr, score 13.26, gain -30.3, own None%); Georgios Papagiannis (IST, 5.8cr, score 11.74, gain -31.8, own None%)
@@ -183,13 +183,13 @@ Cost 109.3 · bank 0.5 · coach IST · captain Sasha Vezenkov · clubs {'PAN': 2
 - Both Gach (ASV) 9.0cr own None% · playing · Δ3 4.0 · L3/L10 10.7/12.3 · min 21.9/23 · R14 vsMIL 11.5 (diff 3/5) | R15 @OLY 10.2 (diff 4/5) | R16 @HTA 10.6 (diff 5/5) | R17 @VIR 11 (diff 1/5) · Δprice None · sig hold
 **Cheap value (≤9 cr):**
 - Clement Frisch (BAS) 5.4cr own None% · playing · Δ3 4.8 · L3/L10 6.7/6.7 · min 20.1/16.7 · R14 vsIST 8.5 (diff 5/5) | R15 vsTEL 9.6 (diff 3/5) | R16 @ZAL 8.3 (diff 1/5) | R17 vsBAR 9.6 (diff 4/5) · Δprice None · sig hold
-- Nikolaos Rogkavopoulos (PAN) 4.2cr own None% · None · Δ3 2.7 · L3/L10 4/7.5 · min 8.4/11.1 · R14 @PAM 5.7 (diff 2/5) | R15 @BES 6.0 (diff 2/5) | R16 vsOLY 6.1 (diff 3/5) | R17 vsRED 6.1 (diff 3/5) · Δprice None · sig avoid
 - Gabriele Procida (MAD) 4.8cr own None% · playing · Δ3 4.2 · L3/L10 7/5.8 · min 14.6/13 · R14 vsZAL 6.9 (diff 1/5) | R15 vsBAR 6.7 (diff 4/5) | R16 @PRS 6.3 (diff 2/5) | R17 vsMUN 6.8 (diff 5/5) · Δprice None · sig hold
 - Alberto Abalde (MAD) 5.9cr own None% · playing · Δ3 4.3 · L3/L10 5/9.1 · min 19.3/20.7 · R14 vsZAL 8 (diff 1/5) | R15 vsBAR 8.1 (diff 4/5) | R16 @PRS 7.2 (diff 2/5) | R17 vsMUN 8.1 (diff 5/5) · Δprice None · sig hold
 - Edwin Jackson (ASV) 4.2cr own None% · playing · Δ3 4.9 · L3/L10 6.3/8.2 · min 15/17.7 · R14 vsMIL 6.8 (diff 3/5) | R15 @OLY 4.5 (diff 4/5) | R16 @HTA 4.6 (diff 5/5) | R17 @VIR 4.9 (diff 1/5) · Δprice None · sig avoid
 - Marius Grigonis (ZAL) 7.3cr own None% · playing · Δ3 3.9 · L3/L10 9.7/9.8 · min 22.1/18.8 · R14 @MAD 8.9 (diff 3/5) | R15 vsDUB 9.5 (diff 5/5) | R16 vsBAS 9.6 (diff 3/5) | R17 @TEL 9.2 (diff 4/5) · Δprice None · sig hold
 - Tyson Ward (OLY) 8.5cr own None% · playing · Δ3 3.6 · L3/L10 11/9.9 · min 24.9/24.5 · R14 vsHTA 11.5 (diff 4/5) | R15 vsASV 10.8 (diff 2/5) | R16 @PAN 9.1 (diff 1/5) | R17 @PRS 9.7 (diff 2/5) · Δprice None · sig hold
 - Oscar Da Silva (MUN) 8.5cr own None% · playing · Δ3 4.8 · L3/L10 15.7/12 · min 23/19.5 · R14 vsTEL 10.5 (diff 3/5) | R15 vsPRS 10.5 (diff 2/5) | R16 @MIL 10.2 (diff 3/5) | R17 @MAD 10 (diff 1/5) · Δprice None · sig hold
+- Rodions Kurucs (BAS) 6.2cr own None% · playing · Δ3 3.4 · L3/L10 9.3/7 · min 26.8/21.3 · R14 vsIST 8.5 (diff 5/5) | R15 vsTEL 7.1 (diff 3/5) | R16 @ZAL 6.6 (diff 1/5) | R17 vsBAR 7.1 (diff 4/5) · Δprice None · sig hold
 **Differentials (<5% owned):**
 
 ## Centers — market

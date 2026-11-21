@@ -10,10 +10,9 @@
    "why": "On loan from Dubai at Baskonia (the site still lists him at Dubai). EuroLeague: R12 vs Hapoel 31' PIR 19, R13 at Bayern 30' 16 pts 13 reb PIR 25. Faried and Santos out, so he's the starting center; 17 rather than 22 because Faried's return would cut his minutes."
   },
   "Nikolaos Rogkavopoulos": {
-   "status": "ok",
-   "pir": 6,
-   "until_round": 15,
-   "why": "Back from injury but 8' a game in EuroLeague (R12 PIR -1, R13 DNP-level minutes). 6 until his minutes grow."
+   "status": "out",
+   "until_round": 16,
+   "why": "Out of Panathinaikos' EuroLeague rotation (user, 21 Nov; 8' in R12 and barely played in R13). Treated as 0 until he gets real minutes."
   }
  }
 }

@@ -7,7 +7,7 @@
  },
  "window": "R14: UNLIMITED trades from today until Tuesday's first tip-off (24 Nov, 19:00 Athens, Besiktas–Paris). R15 is back to 4 trades.",
  "generated": "2026-11-21T11:30Z",
- "bottom_line": "Unlimited trades until Tuesday 19:00 Athens, and you have 109.8. Build for R14 and R15 together, because R15 is back to 4 trades. Variation A: sell Nunn, Malcolm, Da Silva and Diarra for Nadir Hifi, Moses Wright, Clement Frisch and Alberto Abalde, and switch the coach from Laso (IST) to Bartzokas (OLY). Captain Vezenkov gets his own coach's 82% home game against Hapoel. About 24% chance of 200 in R14 and 20% in R15, against 14% and 10% if you stand still. The Zvezda stack (B) is as good in R14 but drops to about 6% in R15. A uses the full 109.8, leaving 0.0 in the bank.",
+ "bottom_line": "Unlimited trades until Tuesday 19:00 Athens, and you have 109.8. Build for R14 and R15 together, because R15 is back to 4 trades. Variation A: sell Nunn, Malcolm, Da Silva and Rogkavopoulos (out of Panathinaikos' rotation) for Nadir Hifi, Robert Franks, Clement Frisch and Gabriele Procida, and switch the coach from Laso (IST) to Bartzokas (OLY). Captain Vezenkov gets his own coach's 82% home game. About 23% chance of 200 in R14 and 21% in R15, against 14% and 10% if you stand still, with 0.4 left in the bank.",
  "current_fix": "With no trades: captain Vezenkov (home to Hapoel, 82%), start Kamenjas and Diarra, and keep Feliz on Wednesday's bench as the upgrade. Expect about 163, with a 14% chance of 200.",
  "variations": [
   {
@@ -24,10 +24,10 @@
      "why": "Paris' lead scorer (25 PIR per game over his last 5, 26 minutes) at Beşiktaş on Tuesday, then at Bayern and home to Madrid. Under 10% owned."
     },
     {
-     "out": "Aliou Diarra (11.4)",
-     "in": "Moses Wright (14.2)",
-     "credits": "−2.8",
-     "why": "Milan's only real big (25 minutes, 17 PIR per game over his last 3). At ASVEL on Tuesday, then at Hapoel and home to Bayern."
+     "out": "Collin Malcolm (10.2)",
+     "in": "Robert Franks (7.7)",
+     "credits": "+2.5",
+     "why": "Partizan forward, 23 minutes, 9.4 PIR per game over his last 5, with Stevens and Vildoza out. Plays Wednesday at Dubai, then at Virtus."
     },
     {
      "out": "Oscar Da Silva (8.5)",
@@ -36,10 +36,10 @@
      "why": "Baskonia are without Faried, Santos and Sedekerskis, and Smits is doubtful, so Frisch's minutes go back up. Home to Efes and Maccabi."
     },
     {
-     "out": "Collin Malcolm (10.2)",
-     "in": "Alberto Abalde (5.9)",
-     "credits": "+4.3",
-     "why": "Cheap Madrid minutes with Campazzo, Deck and Garuba out (19 minutes over his last 3). Plays Wednesday, so he's a sub option after Tuesday's games."
+     "out": "Nikolaos Rogkavopoulos (4.2)",
+     "in": "Gabriele Procida (4.8)",
+     "credits": "−0.6",
+     "why": "Rogkavopoulos is out of Panathinaikos' EuroLeague rotation. Procida starts for injury-hit Madrid (15 minutes over his last 3) and plays Wednesday."
     },
     {
      "out": "Coach Laso (IST) (6.5)",
@@ -48,34 +48,34 @@
      "why": "Olympiacos are 82% at home to Hapoel (+11 projected), the best coach game of the round, and it stacks with captain Vezenkov. R15 is home to ASVEL."
     }
    ],
-   "bank_after": 0.0,
+   "bank_after": 0.4,
    "formation": "2-1-2",
    "starters": [
     "Justin Robinson",
     "Nadir Hifi",
     "Sasha Vezenkov",
     "Kenan Kamenjas",
-    "Moses Wright"
+    "Aliou Diarra"
    ],
    "sixth": "Andres Feliz",
    "bench": [
+    "Robert Franks",
     "Clement Frisch",
     "Vanja Marinkovic",
-    "Alberto Abalde",
-    "Nikolaos Rogkavopoulos"
+    "Gabriele Procida"
    ],
    "coach": "Olympiacos",
    "captain": "Sasha Vezenkov",
    "vice": "Nadir Hifi",
    "captain_note": "Vezenkov: 27 PIR per game over his last 3, home to Hapoel with Milutinov and Dorsey still out, and your coach is on the same game.",
    "reasoning": [
-    "Judged over R14–R16: about 24% / 20% / 6% chance of 200, the best average of any squad at 109.8 (the planner searched every 10 + coach).",
-    "Keeps Robinson, Vezenkov, Kamenjas (6.2 for about 18 PIR as Baskonia's starting center), Feliz, Marinković and Rogkavopoulos.",
-    "Tuesday: Robinson, Hifi, Wright, Rogkavopoulos. Wednesday: Vezenkov, Kamenjas, Feliz, Frisch, Abalde, Marinković. Six late players give you sub options after Tuesday's games."
+    "Judged over R14–R16: about 23% / 21% / 6% chance of 200, the best average of any squad at 109.8 now that Rogkavopoulos counts as 0.",
+    "Keeps Robinson, Vezenkov, Kamenjas (6.2 for about 18 PIR as Baskonia's starting center), Diarra, Feliz and Marinković.",
+    "Tuesday: Robinson, Hifi, Diarra. Wednesday: Vezenkov, Kamenjas, Feliz, Frisch, Franks, Procida, Marinković. Lots of late options for subs after Tuesday's games.",
+    "Leaves 0.4 in the bank as a buffer."
    ],
    "cancel_if": [
-    "If Killian Hayes is registered for Barcelona on Tuesday, Robinson's minutes are at risk: swap him for Maledon (13.4) and keep the rest.",
-    "If the app doesn't show exactly 0.0 left after the trades, a price differs: swap Abalde for Procida (4.8)."
+    "If Killian Hayes is registered for Barcelona on Tuesday, Robinson's minutes are at risk: swap him for Maledon (13.4) and keep the rest."
    ]
   },
   {
@@ -146,6 +146,10 @@
   {
    "level": "high",
    "text": "New official R14 prices are in (your HAR, 21 Nov), and your app shows 109.8 in total. At today's prices your current squad is 109.3, so there's 0.5 in the bank before trading. Every plan here is re-priced. Delete the HAR file from your Desktop: it contains your login session."
+  },
+  {
+   "level": "",
+   "text": "Rogkavopoulos is out of Panathinaikos' EuroLeague rotation (your note), so he now counts as 0 and A sells him. That replaced Wright and Abalde with Franks and Procida, kept Diarra, and left a 0.4 buffer; the R14–R15 chance is the same."
   },
   {
    "level": "high",
