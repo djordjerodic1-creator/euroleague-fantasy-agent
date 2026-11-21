@@ -2,83 +2,93 @@
  "date": "2026-11-21",
  "round": 14,
  "budget": {
-  "total": 111.9,
-  "bank": 0.0
+  "total": 114.3,
+  "bank": 1.4
  },
  "window": "R14: UNLIMITED trades from today until Tuesday's first tip-off (24 Nov, 19:00 Athens, Besiktas–Paris). R15 is back to 4 trades.",
- "generated": "2026-11-21T10:30Z",
- "bottom_line": "Sell Nunn, Washington, Petrusev and Diarra for Justin Robinson, Tyson Carter, Jordan Nwora and Christian Koloko, and switch the coach from Laso (IST) to Navarro (RED). Zvezda at home to Virtus is the round's best stack. That takes the chance of 200 from about 12% to about 31% (almost 1 in 3).",
+ "generated": "2026-11-21T13:00Z",
+ "bottom_line": "R14 only, 114.3 credits: build a Zvezda stack with Wednesday cover. Sell Nunn, Washington, Petrušev, Procida, Malcolm and Diarra for Robinson, Carter, Nwora, Edwin Jackson, Kabengele and Frisch, and switch the coach from Laso to Navarro (RED). Start your Tuesday players with Vezenkov as 6th man, captain Robinson, and swap Wednesday players in after Tuesday's games. About 199 expected points, 1.4 left in the bank.",
  "current_fix": "With no trades: captain Vezenkov (home to Hapoel), start Washington and Diarra on Tuesday, and keep Maledon as the Wednesday upgrade. Expect about 160, with a 12% chance of 200.",
  "variations": [
   {
    "key": "A",
-   "name": "Zvezda stack + Robinson",
+   "name": "R14 only: Zvezda stack + Wednesday subs",
    "recommended": true,
    "risk": "Medium",
-   "tagline": "Tuesday: Robinson (C), Carter, Nwora and Koloko; Wednesday: Vezenkov, Kamenjas and Maledon. Coach Navarro (RED). 5 trades (free this round).",
+   "tagline": "Built for R14 alone (round by round). Tuesday-first lineup with strong Wednesday players on the bench to swap in.",
    "trades": [
     {
-     "out": "Kendrick Nunn (14.8)",
-     "in": "Justin Robinson (13.2)",
-     "credits": "+1.6",
-     "why": "Robinson runs a Barcelona missing Punter, Evbuomwan and Gibson (21 pts on Friday), at home to Fenerbahce on Tuesday. Nunn is at Valencia (34%). [dom: ACB 15 Nov vs Obradoiro 15' val 9, acb.com]"
+     "out": "Kendrick Nunn (15.2)",
+     "in": "Justin Robinson (13.1)",
+     "credits": "+2.1",
+     "why": "Barcelona's lead guard, home to Fenerbahçe on Tuesday (projected 18.5). Your captain."
     },
     {
-     "out": "Duane Washington (10.1)",
-     "in": "Tyson Carter (7.9)",
+     "out": "Duane Washington (11.1)",
+     "in": "Tyson Carter (8.9)",
      "credits": "+2.2",
-     "why": "You bank Washington's 33 and 25 off the bench; Bayern–Maccabi is a coin flip (63%). Carter is a starter now (30 PIR at Barcelona) at home to Virtus. [dom: ABA 15 Nov vs Cedevita 13 pts, novosti.rs]"
+     "why": "Zvezda guard, 30 PIR at Barcelona last round, minutes up from 20 to 28. Home to Virtus on Tuesday."
     },
     {
-     "out": "Filip Petrusev (11.9)",
+     "out": "Filip Petrusev (11.6)",
      "in": "Jordan Nwora (13.9)",
-     "credits": "−2.0",
-     "why": "Petrusev plays 16' off the bench (5 PIR on Thursday). Nwora is Zvezda's first option at home. [dom: ABA 15 Nov vs Cedevita 15 pts, novosti.rs]"
+     "credits": "−2.3",
+     "why": "Zvezda's top forward (16.4 PIR per game over his last 5), same game, with coach Navarro on it too."
     },
     {
-     "out": "Aliou Diarra (11.3)",
-     "in": "Christian Koloko (10.1)",
-     "credits": "+1.2",
-     "why": "Free in the unlimited window: it moves our Tuesday center to the winning side of Zvezda–Virtus. Koloko starts and blocks shots (3 on Friday). [dom: ABA 15 Nov vs Cedevita 14' 4 pts 6 reb 4 blk, novosti.rs]"
+     "out": "Gabriele Procida (4.8)",
+     "in": "Edwin Jackson (4.2)",
+     "credits": "+0.6",
+     "why": "A cheap Tuesday placeholder (ASVEL vs Milano): unless he scores 20+, swap Kabengele in for him on Wednesday."
     },
     {
-     "out": "Coach Laso (IST) (6.0)",
-     "in": "Coach Navarro (RED) (6.7)",
-     "credits": "−0.7",
-     "why": "Zvezda 74% at home, the best expected coach score (10.2), and it stacks with three of our players."
+     "out": "Collin Malcolm (10.2)",
+     "in": "Mfiondu Kabengele (16.2)",
+     "credits": "−6.0",
+     "why": "Dubai's big (projected 18.6), home to Partizan on Wednesday. Comes in for Jackson after Tuesday."
+    },
+    {
+     "out": "Aliou Diarra (11.4)",
+     "in": "Clement Frisch (5.4)",
+     "credits": "+6.0",
+     "why": "Baskonia's frontcourt is depleted (Faried, Santos, Sedekerskis out). Wednesday sub for Nwora if Nwora has a bad night."
+    },
+    {
+     "out": "Coach Laso (IST) (6.5)",
+     "in": "Coach Navarro (RED) (6.8)",
+     "credits": "−0.3",
+     "why": "Zvezda are 74% at home to Virtus (+9). The coach pays off in the same game as Carter and Nwora."
     }
    ],
-   "bank_after": 2.3,
+   "bank_after": 1.4,
    "formation": "2-2-1",
    "starters": [
     "Justin Robinson",
     "Tyson Carter",
-    "Sasha Vezenkov",
     "Jordan Nwora",
+    "Edwin Jackson",
     "Kenan Kamenjas"
    ],
-   "sixth": "Christian Koloko",
+   "sixth": "Sasha Vezenkov",
    "bench": [
+    "Mfiondu Kabengele",
     "Theo Maledon",
-    "Vanja Marinkovic",
-    "Gabriele Procida",
-    "Collin Malcolm"
+    "Clement Frisch",
+    "Vanja Marinkovic"
    ],
    "coach": "Crvena Zvezda",
    "captain": "Justin Robinson",
    "vice": "Sasha Vezenkov",
-   "captain_note": "Robinson has the armband on Tuesday; if he has a normal night it moves to Vezenkov (home to Hapoel, 82%) on Wednesday.",
-   "captain_plan": "Robinson (C) on Tuesday. Keep the armband only at 25+; otherwise move it to Vezenkov on Wednesday. After Tuesday: Carter or Koloko under 16 → Maledon in.",
+   "captain_note": "Robinson on Tuesday. If he scores under about 25, move the armband to Vezenkov (Wednesday, home to Hapoel).",
+   "captain_plan": "Captain Robinson on Tuesday; under ~25 PIR, switch to Vezenkov for Wednesday.",
    "reasoning": [
-    "About 28% for 200 on the optimiser's best plan, plus a free fifth move (Diarra → Koloko) that stops us holding both sides of Zvezda–Virtus.",
-    "Correlation: Carter, Nwora, Koloko and Navarro (RED) all win big together if Zvezda win by 10+.",
-    "Nights: four Tuesday actives; Maledon (home to Zalgiris, 24 PIR on Friday) is the strong Wednesday bench player who replaces any Tuesday flop.",
-    "Cheap upside watch: Carter (minutes 20 → 28) is the pick. Selling Washington after 33 PIR is selling high: a bench role at 10.1 credits.",
-    "Bank 2.3 is a safe buffer for the stale prices, and it can turn Procida into Brizuela (6.2) once you re-import the prices, if you want a better Tuesday bench."
+    "About 199 expected points with Wednesday subs (about 182 without), the best of every squad tried at 114.3.",
+    "Wednesday subs: Jackson under ~20 → Kabengele; Carter under ~18 → Maledon; Nwora under ~9 → Frisch.",
+    "Keeps Vezenkov, Maledon, Kamenjas and Marinković. 6 player trades + the coach = 7 of your 11."
    ],
    "cancel_if": [
-    "If Killian Hayes is registered for Tuesday, captain Vezenkov from the start (or keep Nunn instead of buying Robinson).",
-    "If Carter or Nwora is ruled out, buy Wilbekin (BES, 9.0) in that slot."
+    "If Barcelona register Killian Hayes for Tuesday, keep Nunn instead of Robinson and captain Nwora.",
+    "If the app's squad isn't the one listed under 'out' (the saved team may be a trade behind), tell me what you have: the target 10 + coach stays the same."
    ]
   },
   {
@@ -206,6 +216,10 @@
   }
  ],
  "alerts": [
+  {
+   "level": "high",
+   "text": "Budget set to 114.3 (your app). The saved team-2 squad is worth 115.2 at today's official prices, so it may be a trade behind; the target squad doesn't depend on that, only the list of sells does. Prices are from your HAR (21 Nov)."
+  },
   {
    "level": "high",
    "text": "R14 has UNLIMITED trades until Tuesday 19:00 Athens. Team 2 is unchanged since R13 (Nunn, Washington, Maledon, Marinković, Vezenkov, Petrusev, Procida, Malcolm, Diarra, Kamenjas, coach Laso (IST), bank 0.0). Write any trades in teams/team2/inbox.md or save them on the page."

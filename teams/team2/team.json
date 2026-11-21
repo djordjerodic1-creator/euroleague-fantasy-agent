@@ -32,15 +32,15 @@
   },
   "captain": "Kendrick Nunn",
   "coach": "Anadolu Efes",
-  "bank": 0.0,
+  "bank": -0.9,
   "bank_known": true,
-  "total_budget": 112.5,
-  "trades_left_this_round": 0,
+  "total_budget": 114.3,
+  "trades_left_this_round": 11,
   "tracking": {
     "source": "user",
     "updated": "2026-11-20",
     "last_applied_report": "2026-11-19"
   },
-  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. 19 Nov (user screenshot, R13 before trades): app shows 1.3/112.5, trades 0/4, formation 2-2-1 Maledon (C), Nunn / Vezenkov, Abalde / Oturu; 6th Diarra; bench Procida, DiBartolomeo, Marinkovic (a Guard in the game), Malcolm; coach Itoudis (HTA). 19 Nov midday (user screenshot): R13 trades made Oturu->Kamenjas, DiBartolomeo->Washington, Abalde->Petrusev, coach Itoudis->Laso (IST); 0.0/112.5, 4/4 trades; 2-1-2 Nunn (C), Washington / Petrusev / Diarra, Kamenjas; 6th Vezenkov; bench Procida, Maledon, Marinkovic, Malcolm.",
+  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. 19 Nov (user screenshot, R13 before trades): app shows 1.3/112.5, trades 0/4, formation 2-2-1 Maledon (C), Nunn / Vezenkov, Abalde / Oturu; 6th Diarra; bench Procida, DiBartolomeo, Marinkovic (a Guard in the game), Malcolm; coach Itoudis (HTA). 19 Nov midday (user screenshot): R13 trades made Oturu->Kamenjas, DiBartolomeo->Washington, Abalde->Petrusev, coach Itoudis->Laso (IST); 0.0/112.5, 4/4 trades; 2-1-2 Nunn (C), Washington / Petrusev / Diarra, Kamenjas; 6th Vezenkov; bench Procida, Maledon, Marinkovic, Malcolm. 21 Nov (user): unlimited-trade week (11 trades in the app), team value 114.3; at official R14 prices the squad + coach is 115.2, bank -0.9.",
   "target_points": 200
 }
