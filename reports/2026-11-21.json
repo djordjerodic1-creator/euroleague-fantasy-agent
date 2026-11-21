@@ -3,17 +3,80 @@
  "round": 14,
  "budget": {
   "total": 109.8,
-  "bank": 0.3
+  "bank": 1.9
  },
  "window": "R14: UNLIMITED trades from today until Tuesday's first tip-off (24 Nov, 19:00 Athens, Besiktas–Paris). R15 is back to 4 trades.",
  "generated": "2026-11-21T11:30Z",
- "bottom_line": "Balanced R14 without Robinson: Hifi → Feliz, Thiemann → Kabengele, Papanikolaou → Edwin Jackson, coach Banchi → Navarro (RED). Start Carter, Fodzo Dada, Nwora (C) on Tuesday and Maledon, Kamenjas on Wednesday, with Vezenkov as 6th man and Kabengele and Feliz ready to sub in. About 193 expected points, 0.3 left.",
+ "bottom_line": "Balanced R14 with no more than 2 players in any game: Hifi → Feliz, Thiemann → Kabengele, Papanikolaou → Frisch, Procida → Edwin Jackson, and keep coach Banchi. Start Carter, Fodzo Dada, Nwora (C) on Tuesday and Maledon, Kamenjas on Wednesday, with Vezenkov as 6th man and Kabengele and Feliz ready to sub in. About 189 expected points, 1.9 left.",
  "current_fix": "With no trades: captain Vezenkov (home to Hapoel, 82%), start Kamenjas and Diarra, and keep Feliz on Wednesday's bench as the upgrade. Expect about 163, with a 14% chance of 200.",
  "variations": [
   {
    "key": "A",
-   "name": "Balanced R14, no Robinson",
+   "name": "Balanced R14, max 2 players per game",
    "recommended": true,
+   "risk": "Medium",
+   "tagline": "No more than 2 of your players in any one game, 3 Tuesday and 2 Wednesday starters, and Wednesday subs on the bench. Keeps Banchi.",
+   "trades": [
+    {
+     "out": "Nadir Hifi (16.6)",
+     "in": "Andres Feliz (9.6)",
+     "credits": "+7.0",
+     "why": "Hifi is the most volatile top guard (last 6: 17, 30, 39, 4, 29, 23). Feliz is a Wednesday sub for Carter; with Maledon that's 2 Madrid players, not 3."
+    },
+    {
+     "out": "Johannes Thiemann (11.6)",
+     "in": "Mfiondu Kabengele (16.2)",
+     "credits": "−4.6",
+     "why": "Dubai's big, projected 18.6, home to Partizan on Wednesday. Comes in for Fodzo Dada unless Fodzo Dada scores 20+."
+    },
+    {
+     "out": "Kostas Papanikolaou (4.1)",
+     "in": "Clement Frisch (5.4)",
+     "credits": "−1.3",
+     "why": "Papanikolaou barely plays. Frisch plays Wednesday for an injury-hit Baskonia frontcourt."
+    },
+    {
+     "out": "Gabriele Procida (4.8)",
+     "in": "Edwin Jackson (4.2)",
+     "credits": "+0.6",
+     "why": "Takes you off a third Madrid–Zalgiris player. Jackson is a cheap Tuesday bench player."
+    }
+   ],
+   "bank_after": 1.9,
+   "formation": "2-2-1",
+   "starters": [
+    "Tyson Carter",
+    "Marc-Owen Fodzo Dada",
+    "Jordan Nwora",
+    "Theo Maledon",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Sasha Vezenkov",
+   "bench": [
+    "Mfiondu Kabengele",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Edwin Jackson"
+   ],
+   "coach": "Olimpia Milano",
+   "captain": "Jordan Nwora",
+   "vice": "Sasha Vezenkov",
+   "captain_note": "Nwora on Tuesday. Under about 25, move the armband to Vezenkov on Wednesday.",
+   "captain_plan": "Captain Nwora on Tuesday; under ~25 PIR, switch to Vezenkov for Wednesday.",
+   "reasoning": [
+    "About 189 expected points with Wednesday subs; no game has more than 2 of your players.",
+    "Games: Zvezda–Virtus (Carter, Nwora), ASVEL–Milano (Fodzo Dada, Jackson, against your coach Banchi), Madrid–Zalgiris (Maledon, Feliz), Baskonia–Efes (Kamenjas, Frisch), Olympiacos–Hapoel (Vezenkov), Dubai–Partizan (Kabengele).",
+    "Wednesday subs: Fodzo Dada under ~20 → Kabengele; Carter under ~16 → Feliz.",
+    "Leaves 1.9 in the bank."
+   ],
+   "cancel_if": [
+    "Alternative with a stronger coach: Hifi → Feliz, Banchi → Bartzokas (OLY), Papanikolaou → Frisch, Procida → Jackson, keeping Thiemann. About 186 expected points, but a higher chance of 200 without subs (about 25% vs 21%)."
+   ]
+  },
+  {
+   "key": "B",
+   "name": "Balanced R14, no Robinson",
+   "recommended": false,
    "risk": "Medium",
    "tagline": "3 Tuesday starters, 2 Wednesday starters, Vezenkov as a Wednesday 6th man, and Kabengele/Feliz as Wednesday subs.",
    "trades": [
@@ -73,7 +136,7 @@
    ]
   },
   {
-   "key": "B",
+   "key": "C",
    "name": "Balanced R14: Tuesday core, Wednesday cover",
    "recommended": false,
    "risk": "Medium",
@@ -133,74 +196,6 @@
    ],
    "cancel_if": [
     "If Barcelona register Killian Hayes for Tuesday, keep Hifi instead of Robinson: you'd need 3.5 more, so make it Thiemann → Diop, Fodzo Dada → Feliz and the coach only, and captain Hifi."
-   ]
-  },
-  {
-   "key": "C",
-   "name": "Two-round build: Hifi + Olympiacos coach",
-   "recommended": false,
-   "risk": "Medium",
-   "tagline": "The same R14 ceiling as the Zvezda stack, but it holds up in R15 (about 20% vs 6%), when you're back to 4 trades.",
-   "trades": [
-    {
-     "out": "Kendrick Nunn (15.2)",
-     "in": "Nadir Hifi (16.6)",
-     "credits": "−1.4",
-     "why": "Paris' lead scorer (25 PIR per game over his last 5, 26 minutes) at Beşiktaş on Tuesday, then at Bayern and home to Madrid. Under 10% owned."
-    },
-    {
-     "out": "Collin Malcolm (10.2)",
-     "in": "Robert Franks (7.7)",
-     "credits": "+2.5",
-     "why": "Partizan forward, 23 minutes, 9.4 PIR per game over his last 5, with Stevens and Vildoza out. Plays Wednesday at Dubai, then at Virtus."
-    },
-    {
-     "out": "Oscar Da Silva (8.5)",
-     "in": "Clement Frisch (5.4)",
-     "credits": "+3.1",
-     "why": "Baskonia are without Faried, Santos and Sedekerskis, and Smits is doubtful, so Frisch's minutes go back up. Home to Efes and Maccabi."
-    },
-    {
-     "out": "Nikolaos Rogkavopoulos (4.2)",
-     "in": "Gabriele Procida (4.8)",
-     "credits": "−0.6",
-     "why": "Rogkavopoulos is out of Panathinaikos' EuroLeague rotation. Procida starts for injury-hit Madrid (15 minutes over his last 3) and plays Wednesday."
-    },
-    {
-     "out": "Coach Laso (IST) (6.5)",
-     "in": "Coach Bartzokas (OLY) (10.2)",
-     "credits": "−3.7",
-     "why": "Olympiacos are 82% at home to Hapoel (+11 projected), the best coach game of the round, and it stacks with captain Vezenkov. R15 is home to ASVEL."
-    }
-   ],
-   "bank_after": 0.4,
-   "formation": "2-1-2",
-   "starters": [
-    "Justin Robinson",
-    "Nadir Hifi",
-    "Sasha Vezenkov",
-    "Kenan Kamenjas",
-    "Aliou Diarra"
-   ],
-   "sixth": "Andres Feliz",
-   "bench": [
-    "Robert Franks",
-    "Clement Frisch",
-    "Vanja Marinkovic",
-    "Gabriele Procida"
-   ],
-   "coach": "Olympiacos",
-   "captain": "Sasha Vezenkov",
-   "vice": "Nadir Hifi",
-   "captain_note": "Vezenkov: 27 PIR per game over his last 3, home to Hapoel with Milutinov and Dorsey still out, and your coach is on the same game.",
-   "reasoning": [
-    "Judged over R14–R16: about 23% / 21% / 6% chance of 200, the best average of any squad at 109.8 now that Rogkavopoulos counts as 0.",
-    "Keeps Robinson, Vezenkov, Kamenjas (6.2 for about 18 PIR as Baskonia's starting center), Diarra, Feliz and Marinković.",
-    "Tuesday: Robinson, Hifi, Diarra. Wednesday: Vezenkov, Kamenjas, Feliz, Frisch, Franks, Procida, Marinković. Lots of late options for subs after Tuesday's games.",
-    "Leaves 0.4 in the bank as a buffer."
-   ],
-   "cancel_if": [
-    "If Killian Hayes is registered for Barcelona on Tuesday, Robinson's minutes are at risk: swap him for Maledon (13.4) and keep the rest."
    ]
   }
  ],
