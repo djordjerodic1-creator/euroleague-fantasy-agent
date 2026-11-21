@@ -2,45 +2,45 @@
   "_note": "Real squad from the user's screenshot (Round 11, 12 Nov 2026). Maintained by the agent: after each trade deadline it applies Variation A of the latest report unless the user reports otherwise (see PLAYBOOK.md, Team tracking).",
   "round": 14,
   "players": [
-    "Kendrick Nunn",
-    "Justin Robinson",
-    "Andres Feliz",
-    "Vanja Marinkovic",
+    "Johannes Thiemann",
+    "Jordan Nwora",
+    "Nadir Hifi",
+    "Tyson Carter",
+    "Marc-Owen Fodzo Dada",
+    "Kostas Papanikolaou",
+    "Gabriele Procida",
     "Sasha Vezenkov",
-    "Collin Malcolm",
-    "Nikolaos Rogkavopoulos",
-    "Oscar Da Silva",
-    "Aliou Diarra",
-    "Kenan Kamenjas"
+    "Kenan Kamenjas",
+    "Theo Maledon"
   ],
   "lineup": {
     "starters": [
-      "Kendrick Nunn",
-      "Sasha Vezenkov",
-      "Oscar Da Silva",
-      "Aliou Diarra",
-      "Kenan Kamenjas"
+      "Nadir Hifi",
+      "Tyson Carter",
+      "Marc-Owen Fodzo Dada",
+      "Jordan Nwora",
+      "Johannes Thiemann"
     ],
-    "sixth": "Justin Robinson",
+    "sixth": "Kostas Papanikolaou",
     "bench": [
-      "Andres Feliz",
-      "Collin Malcolm",
-      "Vanja Marinkovic",
-      "Nikolaos Rogkavopoulos"
+      "Gabriele Procida",
+      "Sasha Vezenkov",
+      "Kenan Kamenjas",
+      "Theo Maledon"
     ]
   },
-  "captain": "Sasha Vezenkov",
-  "coach": "Anadolu Efes",
-  "bank": 0.5,
+  "captain": "Nadir Hifi",
+  "coach": "Olimpia Milano",
+  "bank": 0.2,
   "bank_known": true,
   "total_budget": 109.8,
   "trades_left_this_round": 4,
   "tracking": {
-    "source": "assumed: report 2026-11-19 variation A",
-    "updated": "2026-11-20",
-    "last_applied_report": "2026-11-19"
+    "source": "user (screenshot)",
+    "updated": "2026-11-21",
+    "last_applied_report": "2026-11-21"
   },
-  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. 19 Nov (user screenshot, R13 before trades): Maledon and Davidovac in the squad (not Robinson/Joksimovic); app shows 0.2/107.9, trades 0/4, formation 3-1-1, captain Vezenkov, coach Masiulis (ZAL). 21 Nov (user): unlimited-trade week, team value 109.8 in the app; at the official R14 prices (HAR 21 Nov) the squad is 109.3, so bank 0.5.",
+  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. 19 Nov (user screenshot, R13 before trades): Maledon and Davidovac in the squad (not Robinson/Joksimovic); app shows 0.2/107.9, trades 0/4, formation 3-1-1, captain Vezenkov, coach Masiulis (ZAL). 21 Nov (user): unlimited-trade week, team value 109.8 in the app; at the official R14 prices (HAR 21 Nov) the squad is 109.3, so bank 0.5. 21 Nov (screenshot, R14 window): 7 of 11 trades used, 0.2/109.8, coach Banchi (MIL). User wants R14 round by round, balanced over both nights (not all on Tuesday).",
   "target_points": 200,
   "app_prices": {
     "_note": "See app_prices.json (official game HAR, round 13, 19 Nov)."

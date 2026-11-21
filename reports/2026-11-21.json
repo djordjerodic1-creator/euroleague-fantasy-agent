@@ -3,17 +3,80 @@
  "round": 14,
  "budget": {
   "total": 109.8,
-  "bank": 0.5
+  "bank": 0.2
  },
  "window": "R14: UNLIMITED trades from today until Tuesday's first tip-off (24 Nov, 19:00 Athens, Besiktas–Paris). R15 is back to 4 trades.",
  "generated": "2026-11-21T11:30Z",
- "bottom_line": "Unlimited trades until Tuesday 19:00 Athens, and you have 109.8. Build for R14 and R15 together, because R15 is back to 4 trades. Variation A: sell Nunn, Malcolm, Da Silva and Rogkavopoulos (out of Panathinaikos' rotation) for Nadir Hifi, Robert Franks, Clement Frisch and Gabriele Procida, and switch the coach from Laso (IST) to Bartzokas (OLY). Captain Vezenkov gets his own coach's 82% home game. About 23% chance of 200 in R14 and 21% in R15, against 14% and 10% if you stand still, with 0.4 left in the bank.",
+ "bottom_line": "Your squad after 7 of 11 trades (screenshot): use the last 4 for a balanced R14. Hifi → Robinson, Fodzo Dada → Feliz, Thiemann → Diop, and coach Banchi → Bartzokas (OLY). Start Robinson (C), Carter, Nwora on Tuesday with Vezenkov and Kamenjas on Wednesday, Maledon as 6th man, and Feliz and Procida ready to sub in. About 188 expected points, 0.2 left.",
  "current_fix": "With no trades: captain Vezenkov (home to Hapoel, 82%), start Kamenjas and Diarra, and keep Feliz on Wednesday's bench as the upgrade. Expect about 163, with a 14% chance of 200.",
  "variations": [
   {
    "key": "A",
-   "name": "Two-round build: Hifi + Olympiacos coach",
+   "name": "Balanced R14: Tuesday core, Wednesday cover",
    "recommended": true,
+   "risk": "Medium",
+   "tagline": "3 Tuesday starters, 2 Wednesday starters, a Wednesday 6th man and Wednesday subs on the bench. The coach plays Wednesday too.",
+   "trades": [
+    {
+     "out": "Nadir Hifi (16.6)",
+     "in": "Justin Robinson (13.1)",
+     "credits": "+3.5",
+     "why": "Same projection (18.5) for 3.5 less: Barcelona host Fenerbahçe on Tuesday. Your captain."
+    },
+    {
+     "out": "Marc-Owen Fodzo Dada (5.1)",
+     "in": "Andres Feliz (9.6)",
+     "credits": "−4.5",
+     "why": "A real Wednesday sub (projected 14.5, home to Zalgiris) instead of a Tuesday fringe player."
+    },
+    {
+     "out": "Johannes Thiemann (11.6)",
+     "in": "Ousmane Diop (5.0)",
+     "credits": "+6.6",
+     "why": "Frees the money for the coach. Kamenjas (Wednesday) is your starting center; Diop is cover only."
+    },
+    {
+     "out": "Coach Banchi (MIL) (4.6)",
+     "in": "Coach Bartzokas (OLY) (10.2)",
+     "credits": "−5.6",
+     "why": "Olympiacos are 82% at home to Hapoel on Wednesday, with Vezenkov on the same game. Spreads your coach points away from Tuesday."
+    }
+   ],
+   "bank_after": 0.2,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Tyson Carter",
+    "Jordan Nwora",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Andres Feliz",
+    "Gabriele Procida",
+    "Kostas Papanikolaou",
+    "Ousmane Diop"
+   ],
+   "coach": "Olympiacos",
+   "captain": "Justin Robinson",
+   "vice": "Sasha Vezenkov",
+   "captain_note": "Robinson on Tuesday; if he scores under about 25, move the armband to Vezenkov on Wednesday.",
+   "captain_plan": "Captain Robinson on Tuesday; under ~25 PIR, switch to Vezenkov for Wednesday.",
+   "reasoning": [
+    "About 188 expected points with Wednesday subs, against about 176 for your squad as it stands (balanced the same way).",
+    "Tuesday: Robinson, Carter, Nwora (+ Diop on the bench). Wednesday: Vezenkov, Kamenjas, Maledon, Feliz, Procida, Papanikolaou and coach Bartzokas.",
+    "Wednesday subs: Carter under ~16 → Feliz; Nwora under ~7 → Procida.",
+    "The all-Tuesday Zvezda stack scores about 8 points more on average, but it depends on one game; this spreads the risk over both nights."
+   ],
+   "cancel_if": [
+    "If Barcelona register Killian Hayes for Tuesday, keep Hifi instead of Robinson: you'd need 3.5 more, so make it Thiemann → Diop, Fodzo Dada → Feliz and the coach only, and captain Hifi."
+   ]
+  },
+  {
+   "key": "B",
+   "name": "Two-round build: Hifi + Olympiacos coach",
+   "recommended": false,
    "risk": "Medium",
    "tagline": "The same R14 ceiling as the Zvezda stack, but it holds up in R15 (about 20% vs 6%), when you're back to 4 trades.",
    "trades": [
@@ -79,7 +142,7 @@
    ]
   },
   {
-   "key": "B",
+   "key": "C",
    "name": "Zvezda stack (R14 only)",
    "recommended": false,
    "risk": "Medium",
