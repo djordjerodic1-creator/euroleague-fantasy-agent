@@ -1,0 +1,342 @@
+{
+ "round": 14,
+ "budget": {
+  "total": 109.8,
+  "bank": 1.2
+ },
+ "window": "R14: UNLIMITED trades until Tuesday's first tip-off (24 Nov, 19:00 Athens, Besiktas–Paris). Your app shows 4 of the 11 window trades left. R15 is back to 4 trades.",
+ "variations": [
+  {
+   "key": "A",
+   "name": "Keep Hifi, coach Navarro, 2 per game",
+   "recommended": true,
+   "risk": "Medium",
+   "tagline": "Your two rules kept (no Robinson, no more than 2 players in any game). Hifi stays as captain, Navarro (RED) joins Carter and Nwora, and the bench holds Wednesday subs.",
+   "trades": [
+    {
+     "out": "Johannes Thiemann (11.6)",
+     "in": "Ousmane Diop (5.0)",
+     "credits": "+6.6",
+     "why": "Pays for the coach and Brizuela. Kamenjas (30' a night at Baskonia) is your starting center; Diop is Tuesday cover only. [dom: LBA unverified after 2 searches]"
+    },
+    {
+     "out": "Coach Banchi (MIL) (4.6)",
+     "in": "Coach Navarro (RED) (6.8)",
+     "credits": "−2.2",
+     "why": "Zvezda are 74% at home to Virtus (model 90–81); Milano are only 57% at ASVEL. Navarro booms in the same game as Carter and Nwora."
+    },
+    {
+     "out": "Kostas Papanikolaou (4.1)",
+     "in": "Clement Frisch (5.4)",
+     "credits": "−1.3",
+     "why": "Papanikolaou: 3, 11, −1, −5, 6 in his last 5. Frisch has 20' a night in Baskonia's injury-hit frontcourt and plays Wednesday. [dom: ACB 15 Nov vs Real Madrid 12.6' val −2, acb.com]"
+    },
+    {
+     "out": "Marc-Owen Fodzo Dada (5.1)",
+     "in": "Dario Brizuela (7.2)",
+     "credits": "−2.1",
+     "why": "Punter, Gibson and Evbuomwan are out, so Brizuela's minutes went from 17 to 27 (21 PIR a game over his last 2). Barcelona host Fenerbahçe on Tuesday. [dom: ACB 15 Nov vs Obradoiro, unverified after 2 searches]"
+    }
+   ],
+   "bank_after": 1.2,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Tyson Carter",
+    "Jordan Nwora",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Dario Brizuela",
+   "bench": [
+    "Ousmane Diop",
+    "Clement Frisch",
+    "Gabriele Procida",
+    "Theo Maledon"
+   ],
+   "coach": "Crvena Zvezda",
+   "captain": "Nadir Hifi",
+   "vice": "Sasha Vezenkov",
+   "captain_note": "Hifi plays the round's first game (Tuesday 19:00 at Besiktas): 30, 39, 29 and 23 in four of his last five. If he scores under about 25, move the armband to Vezenkov for Wednesday.",
+   "captain_plan": "Captain Hifi on Tuesday; if he scores under ~25 PIR, move the armband to Vezenkov (home to Hapoel on Wednesday).",
+   "reasoning": [
+    "About 176 expected points and a 26% chance of 200, against 19% for your squad as it stands and 21% for yesterday's A.",
+    "Games: Zvezda–Virtus (Carter, Nwora + coach Navarro), Besiktas–Paris (Hifi), Barcelona–Fenerbahçe (Brizuela), ASVEL–Milano (Diop), Olympiacos–Hapoel (Vezenkov), Baskonia–Efes (Kamenjas, Frisch), Madrid–Zalgiris (Maledon, Procida). No game has more than 2 of your players.",
+    "Coach lens: Moneke (personal reasons) and Motley are both out for Zvezda, so Nwora's minutes go up (+1.3 min and +0.9 PIR a game when both are missing).",
+    "Wednesday swaps: Brizuela under ~18 → Maledon; Carter under ~8 → Frisch. Diop is the Tuesday bench body.",
+    "Upside watch: Brizuela is the role-jump pick for the 6th-man slot (Punter out until ~3 Dec)."
+   ],
+   "cancel_if": [
+    "If Hayes is registered for Barcelona on Tuesday, swap trade 4 to Fodzo Dada → Vanja Marinkovic (+0.7) and keep the rest.",
+    "If Moneke is back for Zvezda, keep the plan: Nwora still starts."
+   ]
+  },
+  {
+   "key": "B",
+   "name": "Bartzokas on Wednesday",
+   "recommended": false,
+   "risk": "Low",
+   "tagline": "The same idea with the template coach: Bartzokas (OLY) is 82% at home to Hapoel, and Marinkovic is a cheap Wednesday bench guard. Same rules kept.",
+   "trades": [
+    {
+     "out": "Johannes Thiemann (11.6)",
+     "in": "Ousmane Diop (5.0)",
+     "credits": "+6.6",
+     "why": "Pays for Bartzokas. Kamenjas starts at center."
+    },
+    {
+     "out": "Coach Banchi (MIL) (4.6)",
+     "in": "Coach Bartzokas (OLY) (10.2)",
+     "credits": "−5.6",
+     "why": "Olympiacos 82% at home to Hapoel (model 92–81) with Milutinov, Dorsey and Montero out: the most likely +20 coach."
+    },
+    {
+     "out": "Kostas Papanikolaou (4.1)",
+     "in": "Clement Frisch (5.4)",
+     "credits": "−1.3",
+     "why": "Papanikolaou barely plays; Frisch has real minutes for Baskonia on Wednesday."
+    },
+    {
+     "out": "Marc-Owen Fodzo Dada (5.1)",
+     "in": "Vanja Marinkovic (4.4)",
+     "credits": "+0.7",
+     "why": "A cheap Wednesday guard (at Dubai) with safe minutes while Partizan miss Thompson and Vildoza. [dom: ABA 14 Nov at Zadar, unverified after 2 searches]"
+    }
+   ],
+   "bank_after": 0.6,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Tyson Carter",
+    "Jordan Nwora",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Ousmane Diop",
+   "bench": [
+    "Vanja Marinkovic",
+    "Clement Frisch",
+    "Gabriele Procida",
+    "Theo Maledon"
+   ],
+   "coach": "Olympiacos",
+   "captain": "Nadir Hifi",
+   "vice": "Sasha Vezenkov",
+   "captain_note": "Hifi on Tuesday; under about 25, Vezenkov takes the armband on Wednesday, in the same game as your coach.",
+   "reasoning": [
+    "About 175 expected points and a 26% chance of 200: nearly A's chance with a lower-risk coach.",
+    "Bartzokas is the most owned coach this round, so it protects rank; Navarro in A is the differential.",
+    "Coach points move to Wednesday, so a bad Tuesday is not the end of the round.",
+    "Only 0.6 left in the bank, but prices are the official R14 ones."
+   ],
+   "cancel_if": [
+    "If Vezenkov is rested or hurt in today's Greek league game, switch the coach trade to Navarro (RED) as in A."
+   ]
+  },
+  {
+   "key": "C",
+   "name": "Moonshot: drop your two rules",
+   "recommended": false,
+   "risk": "High",
+   "tagline": "What the optimiser likes best with no limits: Robinson in for Hifi, Koloko as a third Zvezda player, coach Navarro. Breaks both your rules.",
+   "trades": [
+    {
+     "out": "Nadir Hifi (16.6)",
+     "in": "Justin Robinson (13.1)",
+     "credits": "+3.5",
+     "why": "Barcelona host Fenerbahçe on Tuesday without Punter, Gibson or Evbuomwan; projected 18.5, the same as Hifi, for 3.5 less. [dom: ACB 15 Nov vs Obradoiro 15' val 9, acb.com]"
+    },
+    {
+     "out": "Johannes Thiemann (11.6)",
+     "in": "Christian Koloko (10.4)",
+     "credits": "+1.2",
+     "why": "Zvezda's center with Moneke and Motley out; a third player in the Zvezda game. [dom: ABA 15 Nov vs Cedevita, unverified after 2 searches]"
+    },
+    {
+     "out": "Kostas Papanikolaou (4.1)",
+     "in": "Clement Frisch (5.4)",
+     "credits": "−1.3",
+     "why": "Wednesday minutes instead of none."
+    },
+    {
+     "out": "Coach Banchi (MIL) (4.6)",
+     "in": "Coach Navarro (RED) (6.8)",
+     "credits": "−2.2",
+     "why": "Zvezda 74% at home to Virtus."
+    }
+   ],
+   "bank_after": 1.4,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Marc-Owen Fodzo Dada",
+    "Jordan Nwora",
+    "Sasha Vezenkov",
+    "Christian Koloko"
+   ],
+   "sixth": "Tyson Carter",
+   "bench": [
+    "Clement Frisch",
+    "Gabriele Procida",
+    "Kenan Kamenjas",
+    "Theo Maledon"
+   ],
+   "coach": "Crvena Zvezda",
+   "captain": "Justin Robinson",
+   "vice": "Sasha Vezenkov",
+   "captain_note": "Robinson on Tuesday; under about 25, Vezenkov on Wednesday.",
+   "reasoning": [
+    "About 180 expected points and a 30% chance of 200, the highest of the three.",
+    "Four assets in one game (Carter, Nwora, Koloko and the coach): if Zvezda lose to Virtus, the round is gone.",
+    "Robinson's risk is Killian Hayes; your worry from yesterday still stands, which is why this is C and not A.",
+    "Wednesday swaps: Fodzo Dada under ~19 → Kamenjas; Carter under ~18 → Maledon."
+   ],
+   "cancel_if": [
+    "If Hayes is registered for Tuesday, don't take C."
+   ]
+  }
+ ],
+ "rumours": [
+  {
+   "kind": "confirmed",
+   "team": "Crvena Zvezda",
+   "text": "Chima Moneke is out for personal reasons (not an injury); Motley (flu) and Miljenović (ankle) are also listed out.",
+   "impact": "More frontcourt minutes for Nwora, Koloko and Ojeleye on Tuesday; Navarro (RED) is still a 74% favourite.",
+   "source": "https://basketballsphere.com/en/injuries/euroleague/"
+  },
+  {
+   "kind": "report",
+   "team": "Olympiacos",
+   "text": "Milutinov (finger) and Dorsey are left out again for today's Greek league game at Karditsa; Vezenkov is in the 12.",
+   "impact": "Milutinov is likely out against Hapoel too: more usage for Vezenkov and Tyrique Jones. Bartzokas (OLY) stays the safest coach.",
+   "source": "https://www.sdna.gr/mpasket/1488990_horis-ntorsei-kai-apenanti-stin-karditsa-o-olympiakos"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Panathinaikos",
+   "text": "Obradović rested Hayes-Davis, Sloukas and Bonga and gave Nunn, Lessort and Yabusele short minutes in Saturday's 85–72 win over Marousi.",
+   "impact": "Planned rest before Valencia on Tuesday: Nunn is fresh. Rogkavopoulos scored 15 domestically but is still out of the EuroLeague rotation.",
+   "source": "https://www.paobc.gr/panathinaikos-aktor-marousi-85-72/"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Partizan",
+   "text": "Penarroya's contract extended to 2029.",
+   "impact": "No change to the rotation; Partizan still miss Thompson, Willis and Vildoza at Dubai on Wednesday.",
+   "source": ""
+  },
+  {
+   "kind": "rumour",
+   "team": "Olympiacos / Partizan",
+   "text": "Greek press linked Carlik Jones with Olympiacos; he says he heard it 'playing GTA' and is happy at Partizan.",
+   "impact": "None for now.",
+   "source": ""
+  }
+ ],
+ "watchlist": [
+  {
+   "name": "Mfiondu Kabengele (DUB, 16.2)",
+   "why": "Projected 18.6 at home to Partizan on Wednesday, but he plays Partizan in the ABA tonight too. Yesterday's A bought him; only worth it if he comes through tonight's game with normal minutes and you drop Hifi."
+  },
+  {
+   "name": "Andres Feliz (MAD, 9.6)",
+   "why": "27 PIR in the ACB last weekend, but his EuroLeague minutes dropped when Maledon returned (3 PIR on Friday). Buy only if Maledon is held out on Wednesday."
+  },
+  {
+   "name": "Scottie Wilbekin (BES, 9.6)",
+   "why": "Nowell is out, so his minutes went from 22 to 31. Plays first on Tuesday, against Hifi, so not in the same squad."
+  },
+  {
+   "name": "Johnny Juzang (ULK, 9.0)",
+   "why": "Upside watch: 8 → 26' with Melli and Key out. At Barcelona on Tuesday. A forward option if Nwora were ruled out."
+  }
+ ],
+ "window_plan": "You have 4 window trades left, so a full rebuild isn't possible. The planner's best R14–R16 squad averages 16.7% a round, no better than keeping your core (16.8%), so nothing needs buying for the long term: play R14 for itself. For R15 (4 trades, 3–4 Dec), Olympiacos host ASVEL (94%) and Zvezda go to Fenerbahçe, so Bartzokas (OLY) and a Barcelona guard switch (Punter back) are the likely moves.",
+ "date": "2026-11-22",
+ "generated": "2026-11-22T09:40Z",
+ "bottom_line": "Keep Hifi and change the coach: Thiemann → Diop, Papanikolaou → Frisch, Fodzo Dada → Brizuela, and Banchi → Navarro (RED). Captain Hifi in Tuesday's opener and move the armband to Vezenkov on Wednesday if Hifi has a quiet night. This keeps your two rules (no Robinson, no more than 2 players in any game) and lifts the chance of 200 from about 19% to about 26%, with 1.2 left in the bank.",
+ "current_fix": "With no trades: captain Hifi on Tuesday (Vezenkov on Wednesday if Hifi scores under ~25), Thiemann as 6th man, and Maledon on Wednesday's bench to swap in. About 170 expected, a 19% chance of 200.",
+ "alerts": [
+  {
+   "level": "high",
+   "text": "Change since yesterday: A now keeps Hifi and switches the coach to Navarro (RED). I searched every 4-trade plan that keeps your two rules (no Robinson, max 2 players per game): the best ones all keep Hifi and take Navarro, about 26% against 21% for yesterday's A (Hifi → Feliz, Thiemann → Kabengele). Selling Hifi for being 'volatile' was the wrong call for a 200 target: his swings are what you need."
+  },
+  {
+   "level": "",
+   "text": "Your app showed 4 of the 11 window trades left and 0.2 in the bank (109.8 total). Nothing in the inbox, so the team file is your squad as of yesterday's screenshot. If you made any trades since, write them in inbox/team.md or save them on the page."
+  },
+  {
+   "level": "",
+   "text": "Prices are the official R14 ones (your import, 21 Nov), so the budgets here are exact."
+  },
+  {
+   "level": "",
+   "text": "Domestic games today (Sunday): Olympiacos at Karditsa 15:00 Athens (Vezenkov in the 12; Milutinov and Dorsey out again), Zvezda vs Cibona 13:00 CET, Partizan vs Dubai 19:30 CET (Kabengele, Marinkovic), Real Madrid vs Joventut and Baskonia at Bilbao in the ACB. None had been played when this report was written, so the domestic lines below are from the 14–15 Nov weekend."
+  },
+  {
+   "level": "",
+   "text": "Zvezda: Chima Moneke is listed out for personal reasons and Motley and Miljenović are out too. Good for Nwora's and Koloko's minutes on Tuesday."
+  },
+  {
+   "level": "",
+   "text": "Barcelona: still no sign that Killian Hayes has been registered. If he is in Tuesday's 12, Brizuela loses minutes: use A's cancel_if (Marinkovic instead)."
+  },
+  {
+   "level": "",
+   "text": "No bookmaker lines for R14 found yet (one search), so the coach pick uses the site model: Zvezda 74%, Olympiacos 82%, Dubai 72%, Madrid 68%."
+  }
+ ],
+ "players": [
+  {
+   "name": "Nadir Hifi",
+   "verdict": "KEEP/CAPTAIN",
+   "read": "30, 39, 4, 29, 23 in his last 5 EuroLeague games, 25' a night and Paris's closer (two late game-winners this month). At Besiktas on Tuesday, where Paris are underdogs (36%), but Besiktas are missing Nowell and the game is projected fast (92–92). I agree with the site's 18.5 and the ceiling is the best in your squad. He plays first, so he gets the armband. [dom: LNB 14 Nov at Limoges, 22 pts, eurohoops.net]"
+  },
+  {
+   "name": "Jordan Nwora",
+   "verdict": "KEEP",
+   "read": "15, 23, 18, 12, 14: steady, 23–27' a night. Moneke and Motley are both out, which has been worth about +1 minute and +1 PIR to him. Home to Virtus (74%) on Tuesday. The site's 16 is fair; I'd lean a little higher. [dom: ABA 15 Nov vs Cedevita (W 94–83), stat line unverified after 2 searches]"
+  },
+  {
+   "name": "Tyson Carter",
+   "verdict": "KEEP",
+   "read": "30 PIR (31 pts) at Barcelona on Friday off the bench, and 25.6' over his last 3 against 20 before. A role jump the projections haven't caught (site 14.2). Home to Virtus with Navarro in A. [dom: ABA 15 Nov vs Cedevita, unverified after 2 searches]"
+  },
+  {
+   "name": "Sasha Vezenkov",
+   "verdict": "KEEP",
+   "read": "22, 28, 26, 41, 15. The 15 against Madrid was a 25.7' blowout. With Milutinov, Dorsey and Montero out he has the ball every possession. Home to Hapoel (82%) on Wednesday: the armband if Hifi is quiet. Blowout risk caps his minutes, so 25–30 rather than 40. [dom: GBL 15 Nov at Aris 35' PIR 21, esake.gr; plays Karditsa today]"
+  },
+  {
+   "name": "Kenan Kamenjas",
+   "verdict": "KEEP",
+   "read": "19 and 25 PIR in his two Baskonia games, 30' a night. Faried, Santos, Sedekerskis and Smits are all out, and Efes are without Fernando. At 6.2 credits the best value in the game; I agree with the site's 18. [dom: ACB 15 Nov vs Real Madrid 23.8' 15 pts 8 reb val 22, acb.com]"
+  },
+  {
+   "name": "Theo Maledon",
+   "verdict": "KEEP",
+   "read": "35, 26, 24 since his return, but 16' in the ACB as Martínez manages his knee ('without rushing'). Home to Zalgiris (68%) on Wednesday. On A's bench he is the swap-in for a quiet Tuesday guard; expect about 17. [dom: ACB 15 Nov at Baskonia 16' 18 pts val 29, acb.com]"
+  },
+  {
+   "name": "Johannes Thiemann",
+   "verdict": "SELL",
+   "read": "34 at Zalgiris, then 13 against Baskonia; 26' over his last 3 but 21 on the season. Home to Maccabi on Tuesday (56%). A fair 13 player whose 11.6 credits do more as the coach upgrade and Brizuela. [dom: BBL unverified after 2 searches]"
+  },
+  {
+   "name": "Marc-Owen Fodzo Dada",
+   "verdict": "SELL",
+   "read": "13 and 17 in his last 2 with 19–25', because Cale and Bolomboy are out, but −1, 4, −1 before that. ASVEL host Milano on Tuesday. A fair 8, and Brizuela's ceiling is higher for 2.1 more. [dom: LNB unverified after 2 searches]"
+  },
+  {
+   "name": "Kostas Papanikolaou",
+   "verdict": "SELL",
+   "read": "3, 11, −1, −5, 6 and 12' a night lately: a dead slot. Olympiacos are deep at forward even without Konchar. [dom: GBL 15 Nov at Aris 17.6' 4 pts PIR 6, esake.gr]"
+  },
+  {
+   "name": "Gabriele Procida",
+   "verdict": "KEEP",
+   "read": "22, −1, 0 in his last 3, 15' a night. Kept in A as the cheap Wednesday bench body (Madrid's 2nd player with Maledon). [dom: ACB 15 Nov at Baskonia 18.2' 8 pts val 0, acb.com]"
+  }
+ ],
+ "review": "No round has finished since yesterday's report, so the scorecard has nothing new. R13 (reviewed yesterday): Variation A scored 163.2 against 166.3 predicted, the same as your team; captain Vezenkov 15 (×2) against the best captain, Kamenjas 25. Own miss: yesterday's A sold Hifi for being volatile, but a 200 target needs exactly that kind of ceiling, and a search with your two rules shows the plan was about 5 points of chance worse than keeping him. Role-jump players beat their projections for a third round in a row (Wright, Carter, Brizuela), so A takes Brizuela and keeps Carter. Research: 37 searches, 6 pages read, 6 players unverified (Thiemann, Fodzo Dada, Carter, Nwora, Brizuela, Diop domestic)."
+}

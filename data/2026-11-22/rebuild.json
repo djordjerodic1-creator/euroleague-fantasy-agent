@@ -1,0 +1,360 @@
+{
+ "budget": 109.8,
+ "rounds": [
+  14,
+  15,
+  16
+ ],
+ "current": [
+  {
+   "rd": 14,
+   "mean": 166.4,
+   "p90": 211.6,
+   "p10": 123.0,
+   "p_target": 0.168
+  },
+  {
+   "rd": 15,
+   "mean": 143.4,
+   "p90": 184.0,
+   "p10": 102.6,
+   "p_target": 0.037
+  },
+  {
+   "rd": 16,
+   "mean": 146.3,
+   "p90": 184.6,
+   "p10": 107.2,
+   "p_target": 0.038
+  }
+ ],
+ "plans": [
+  {
+   "players": [
+    "Aliou Diarra",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Gabriele Procida",
+    "Justin Robinson",
+    "Kenan Kamenjas",
+    "Nadir Hifi",
+    "Robert Franks",
+    "Sasha Vezenkov",
+    "Vanja Marinkovic"
+   ],
+   "coach": "OLY",
+   "cost": 109.4,
+   "bank_after": 0.4,
+   "sell": [
+    "Johannes Thiemann",
+    "Jordan Nwora",
+    "Tyson Carter",
+    "Marc-Owen Fodzo Dada",
+    "Kostas Papanikolaou",
+    "Theo Maledon"
+   ],
+   "buy": [
+    "Aliou Diarra",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Justin Robinson",
+    "Robert Franks",
+    "Vanja Marinkovic"
+   ],
+   "coach_change": true,
+   "avg_p_target": 0.167,
+   "avg_mean": 163.4,
+   "rounds": [
+    {
+     "rd": 14,
+     "formation": "2-1-2",
+     "starters": [
+      "Justin Robinson",
+      "Nadir Hifi",
+      "Sasha Vezenkov",
+      "Kenan Kamenjas",
+      "Aliou Diarra"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Robert Franks",
+      "Clement Frisch",
+      "Vanja Marinkovic",
+      "Gabriele Procida"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 172.4,
+     "p90": 219.9,
+     "p10": 123.0,
+     "p_target": 0.234
+    },
+    {
+     "rd": 15,
+     "formation": "2-1-2",
+     "starters": [
+      "Nadir Hifi",
+      "Justin Robinson",
+      "Sasha Vezenkov",
+      "Kenan Kamenjas",
+      "Aliou Diarra"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Clement Frisch",
+      "Robert Franks",
+      "Vanja Marinkovic",
+      "Gabriele Procida"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 172.8,
+     "p90": 214.8,
+     "p10": 129.4,
+     "p_target": 0.207
+    },
+    {
+     "rd": 16,
+     "formation": "2-1-2",
+     "starters": [
+      "Nadir Hifi",
+      "Justin Robinson",
+      "Sasha Vezenkov",
+      "Kenan Kamenjas",
+      "Aliou Diarra"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Robert Franks",
+      "Clement Frisch",
+      "Vanja Marinkovic",
+      "Gabriele Procida"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 145.0,
+     "p90": 189.0,
+     "p10": 102.0,
+     "p_target": 0.059
+    }
+   ]
+  },
+  {
+   "players": [
+    "Alberto Abalde",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Edwin Jackson",
+    "Justin Robinson",
+    "Kenan Kamenjas",
+    "Moses Wright",
+    "Nadir Hifi",
+    "Sasha Vezenkov",
+    "Vanja Marinkovic"
+   ],
+   "coach": "OLY",
+   "cost": 109.8,
+   "bank_after": 0.0,
+   "sell": [
+    "Johannes Thiemann",
+    "Jordan Nwora",
+    "Tyson Carter",
+    "Marc-Owen Fodzo Dada",
+    "Kostas Papanikolaou",
+    "Gabriele Procida",
+    "Theo Maledon"
+   ],
+   "buy": [
+    "Alberto Abalde",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Edwin Jackson",
+    "Justin Robinson",
+    "Moses Wright",
+    "Vanja Marinkovic"
+   ],
+   "coach_change": true,
+   "avg_p_target": 0.165,
+   "avg_mean": 163.1,
+   "rounds": [
+    {
+     "rd": 14,
+     "formation": "2-1-2",
+     "starters": [
+      "Justin Robinson",
+      "Nadir Hifi",
+      "Sasha Vezenkov",
+      "Kenan Kamenjas",
+      "Moses Wright"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Clement Frisch",
+      "Vanja Marinkovic",
+      "Alberto Abalde",
+      "Edwin Jackson"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 174.1,
+     "p90": 221.4,
+     "p10": 125.5,
+     "p_target": 0.246
+    },
+    {
+     "rd": 15,
+     "formation": "2-1-2",
+     "starters": [
+      "Nadir Hifi",
+      "Justin Robinson",
+      "Sasha Vezenkov",
+      "Kenan Kamenjas",
+      "Moses Wright"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Clement Frisch",
+      "Alberto Abalde",
+      "Vanja Marinkovic",
+      "Edwin Jackson"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 171.5,
+     "p90": 213.4,
+     "p10": 129.0,
+     "p_target": 0.194
+    },
+    {
+     "rd": 16,
+     "formation": "2-1-2",
+     "starters": [
+      "Nadir Hifi",
+      "Justin Robinson",
+      "Sasha Vezenkov",
+      "Moses Wright",
+      "Kenan Kamenjas"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Clement Frisch",
+      "Vanja Marinkovic",
+      "Alberto Abalde",
+      "Edwin Jackson"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 143.7,
+     "p90": 187.9,
+     "p10": 101.2,
+     "p_target": 0.055
+    }
+   ]
+  },
+  {
+   "players": [
+    "Alberto Abalde",
+    "Aliou Diarra",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Justin Robinson",
+    "Kenan Kamenjas",
+    "Nadir Hifi",
+    "Sasha Vezenkov",
+    "Tyson Ward",
+    "Vanja Marinkovic"
+   ],
+   "coach": "MAD",
+   "cost": 109.7,
+   "bank_after": 0.1,
+   "sell": [
+    "Johannes Thiemann",
+    "Jordan Nwora",
+    "Tyson Carter",
+    "Marc-Owen Fodzo Dada",
+    "Kostas Papanikolaou",
+    "Gabriele Procida",
+    "Theo Maledon"
+   ],
+   "buy": [
+    "Alberto Abalde",
+    "Aliou Diarra",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Justin Robinson",
+    "Tyson Ward",
+    "Vanja Marinkovic"
+   ],
+   "coach_change": true,
+   "avg_p_target": 0.145,
+   "avg_mean": 162.2,
+   "rounds": [
+    {
+     "rd": 14,
+     "formation": "2-1-2",
+     "starters": [
+      "Justin Robinson",
+      "Nadir Hifi",
+      "Sasha Vezenkov",
+      "Kenan Kamenjas",
+      "Aliou Diarra"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Tyson Ward",
+      "Clement Frisch",
+      "Vanja Marinkovic",
+      "Alberto Abalde"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 170.5,
+     "p90": 218.6,
+     "p10": 122.8,
+     "p_target": 0.216
+    },
+    {
+     "rd": 15,
+     "formation": "2-1-2",
+     "starters": [
+      "Nadir Hifi",
+      "Justin Robinson",
+      "Sasha Vezenkov",
+      "Kenan Kamenjas",
+      "Aliou Diarra"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Tyson Ward",
+      "Clement Frisch",
+      "Alberto Abalde",
+      "Vanja Marinkovic"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 166.9,
+     "p90": 209.8,
+     "p10": 123.3,
+     "p_target": 0.165
+    },
+    {
+     "rd": 16,
+     "formation": "2-1-2",
+     "starters": [
+      "Nadir Hifi",
+      "Justin Robinson",
+      "Sasha Vezenkov",
+      "Kenan Kamenjas",
+      "Aliou Diarra"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Tyson Ward",
+      "Clement Frisch",
+      "Vanja Marinkovic",
+      "Alberto Abalde"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 149.3,
+     "p90": 189.7,
+     "p10": 108.6,
+     "p_target": 0.054
+    }
+   ]
+  }
+ ],
+ "window_before": 14,
+ "window": "21 Nov – 24 Nov"
+}
