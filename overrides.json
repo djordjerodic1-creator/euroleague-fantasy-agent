@@ -13,6 +13,17 @@
    "status": "out",
    "until_round": 16,
    "why": "Out of Panathinaikos' EuroLeague rotation (user, 21 Nov; 8' in R12 and barely played in R13). Treated as 0 until he gets real minutes."
+  },
+  "Eugene Omoruyi": {
+   "status": "out",
+   "until_round": 14,
+   "why": "Hurt in a collision with Wilbekin in Besiktas's BSL derby win over Fenerbahce (22 Nov, beinsports.com.tr); the user reports him out for R14 vs Paris."
+  },
+  "Conor Morgan": {
+   "status": "ok",
+   "pir": 12,
+   "until_round": 14,
+   "why": "Omoruyi out (R14): Morgan is the next forward. 0.53 PIR/min over his last 3 (9 PIR in 16.9'); about 23-25' in Omoruyi's role gives ~12."
   }
  }
 }

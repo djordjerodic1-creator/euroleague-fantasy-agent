@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T23:03",
+ "generated": "2026-11-23T23:27",
  "today": "2026-11-23",
  "source_round": 14,
  "rounds_in_progress": [],
@@ -143,6 +143,14 @@
      "owned": null
     },
     {
+     "name": "Conor Morgan",
+     "team": "BES",
+     "price": 8.1,
+     "score": 31.07,
+     "gain": -6.0,
+     "owned": null
+    },
+    {
      "name": "Kameron Taylor",
      "team": "PAM",
      "price": 12.2,
@@ -156,14 +164,6 @@
      "price": 10.2,
      "score": 28.75,
      "gain": -8.3,
-     "owned": null
-    },
-    {
-     "name": "Eugene Omoruyi",
-     "team": "BES",
-     "price": 10.1,
-     "score": 28.74,
-     "gain": -8.4,
      "owned": null
     },
     {
@@ -435,19 +435,19 @@
      "owned": null
     },
     {
+     "name": "Conor Morgan",
+     "team": "BES",
+     "price": 8.1,
+     "score": 31.07,
+     "gain": -26.1,
+     "owned": null
+    },
+    {
      "name": "Kameron Taylor",
      "team": "PAM",
      "price": 12.2,
      "score": 28.92,
      "gain": -28.3,
-     "owned": null
-    },
-    {
-     "name": "Collin Malcolm",
-     "team": "IST",
-     "price": 10.2,
-     "score": 28.75,
-     "gain": -28.4,
      "owned": null
     }
    ]
@@ -928,7 +928,8 @@
    "pir_per_min": 0.46,
    "est_pir_if_role_holds": 11.9,
    "reasons": [
-    "minutes 8 → 26 over the last 2 games"
+    "minutes 8 → 26 over the last 2 games",
+    "Eugene Omoruyi (out) was playing 21 min at forward"
    ]
   },
   {
