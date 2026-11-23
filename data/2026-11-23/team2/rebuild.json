@@ -1,0 +1,358 @@
+{
+ "budget": 114.3,
+ "rounds": [
+  14,
+  15,
+  16
+ ],
+ "current": [
+  {
+   "rd": 14,
+   "mean": 160.4,
+   "p90": 204.6,
+   "p10": 116.7,
+   "p_target": 0.124
+  },
+  {
+   "rd": 15,
+   "mean": 152.2,
+   "p90": 198.6,
+   "p10": 108.6,
+   "p_target": 0.09
+  },
+  {
+   "rd": 16,
+   "mean": 140.3,
+   "p90": 180.6,
+   "p10": 99.5,
+   "p_target": 0.029
+  }
+ ],
+ "plans": [
+  {
+   "players": [
+    "Alberto Abalde",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Gabriele Procida",
+    "Jonas Valanciunas",
+    "Kenan Kamenjas",
+    "Nadir Hifi",
+    "Sasha Vezenkov",
+    "Theo Maledon",
+    "Vanja Marinkovic"
+   ],
+   "coach": "OLY",
+   "cost": 114.1,
+   "bank_after": 0.2,
+   "sell": [
+    "Kendrick Nunn",
+    "Duane Washington",
+    "Filip Petrusev",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "buy": [
+    "Alberto Abalde",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Jonas Valanciunas",
+    "Nadir Hifi"
+   ],
+   "coach_change": true,
+   "avg_p_target": 0.185,
+   "avg_mean": 165.5,
+   "rounds": [
+    {
+     "rd": 14,
+     "formation": "2-1-2",
+     "starters": [
+      "Nadir Hifi",
+      "Theo Maledon",
+      "Sasha Vezenkov",
+      "Kenan Kamenjas",
+      "Jonas Valanciunas"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Clement Frisch",
+      "Vanja Marinkovic",
+      "Alberto Abalde",
+      "Gabriele Procida"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 173.4,
+     "p90": 220.4,
+     "p10": 125.1,
+     "p_target": 0.241
+    },
+    {
+     "rd": 15,
+     "formation": "2-1-2",
+     "starters": [
+      "Nadir Hifi",
+      "Theo Maledon",
+      "Sasha Vezenkov",
+      "Jonas Valanciunas",
+      "Kenan Kamenjas"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Clement Frisch",
+      "Alberto Abalde",
+      "Vanja Marinkovic",
+      "Gabriele Procida"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 175.9,
+     "p90": 221.0,
+     "p10": 129.6,
+     "p_target": 0.248
+    },
+    {
+     "rd": 16,
+     "formation": "3-1-1",
+     "starters": [
+      "Nadir Hifi",
+      "Theo Maledon",
+      "Andres Feliz",
+      "Sasha Vezenkov",
+      "Jonas Valanciunas"
+     ],
+     "sixth": "Kenan Kamenjas",
+     "bench": [
+      "Clement Frisch",
+      "Vanja Marinkovic",
+      "Alberto Abalde",
+      "Gabriele Procida"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 147.3,
+     "p90": 191.4,
+     "p10": 102.5,
+     "p_target": 0.067
+    }
+   ]
+  },
+  {
+   "players": [
+    "Alberto Abalde",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Jonas Valanciunas",
+    "Justin Robinson",
+    "Kenan Kamenjas",
+    "Marius Grigonis",
+    "Nadir Hifi",
+    "Sasha Vezenkov",
+    "Vanja Marinkovic"
+   ],
+   "coach": "MAD",
+   "cost": 114.3,
+   "bank_after": 0.0,
+   "sell": [
+    "Kendrick Nunn",
+    "Duane Washington",
+    "Theo Maledon",
+    "Filip Petrusev",
+    "Gabriele Procida",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "buy": [
+    "Alberto Abalde",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Jonas Valanciunas",
+    "Justin Robinson",
+    "Marius Grigonis",
+    "Nadir Hifi"
+   ],
+   "coach_change": true,
+   "avg_p_target": 0.145,
+   "avg_mean": 163.7,
+   "rounds": [
+    {
+     "rd": 14,
+     "formation": "2-1-2",
+     "starters": [
+      "Nadir Hifi",
+      "Justin Robinson",
+      "Sasha Vezenkov",
+      "Kenan Kamenjas",
+      "Jonas Valanciunas"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Marius Grigonis",
+      "Clement Frisch",
+      "Vanja Marinkovic",
+      "Alberto Abalde"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 169.4,
+     "p90": 213.3,
+     "p10": 125.7,
+     "p_target": 0.185
+    },
+    {
+     "rd": 15,
+     "formation": "2-1-2",
+     "starters": [
+      "Nadir Hifi",
+      "Justin Robinson",
+      "Sasha Vezenkov",
+      "Jonas Valanciunas",
+      "Kenan Kamenjas"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Clement Frisch",
+      "Marius Grigonis",
+      "Alberto Abalde",
+      "Vanja Marinkovic"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 168.0,
+     "p90": 211.9,
+     "p10": 123.8,
+     "p_target": 0.182
+    },
+    {
+     "rd": 16,
+     "formation": "2-1-2",
+     "starters": [
+      "Nadir Hifi",
+      "Justin Robinson",
+      "Sasha Vezenkov",
+      "Jonas Valanciunas",
+      "Kenan Kamenjas"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Marius Grigonis",
+      "Clement Frisch",
+      "Vanja Marinkovic",
+      "Alberto Abalde"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 153.8,
+     "p90": 193.5,
+     "p10": 113.5,
+     "p_target": 0.069
+    }
+   ]
+  },
+  {
+   "players": [
+    "Alberto Abalde",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Jonas Valanciunas",
+    "Justin Robinson",
+    "Kenan Kamenjas",
+    "Marius Grigonis",
+    "Nadir Hifi",
+    "Sasha Vezenkov",
+    "Vanja Marinkovic"
+   ],
+   "coach": "PAM",
+   "cost": 114.3,
+   "bank_after": 0.0,
+   "sell": [
+    "Kendrick Nunn",
+    "Duane Washington",
+    "Theo Maledon",
+    "Filip Petrusev",
+    "Gabriele Procida",
+    "Collin Malcolm",
+    "Aliou Diarra"
+   ],
+   "buy": [
+    "Alberto Abalde",
+    "Andres Feliz",
+    "Clement Frisch",
+    "Jonas Valanciunas",
+    "Justin Robinson",
+    "Marius Grigonis",
+    "Nadir Hifi"
+   ],
+   "coach_change": true,
+   "avg_p_target": 0.132,
+   "avg_mean": 163.1,
+   "rounds": [
+    {
+     "rd": 14,
+     "formation": "2-1-2",
+     "starters": [
+      "Nadir Hifi",
+      "Justin Robinson",
+      "Sasha Vezenkov",
+      "Kenan Kamenjas",
+      "Jonas Valanciunas"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Marius Grigonis",
+      "Clement Frisch",
+      "Vanja Marinkovic",
+      "Alberto Abalde"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 168.2,
+     "p90": 212.6,
+     "p10": 123.8,
+     "p_target": 0.175
+    },
+    {
+     "rd": 15,
+     "formation": "2-1-2",
+     "starters": [
+      "Nadir Hifi",
+      "Justin Robinson",
+      "Sasha Vezenkov",
+      "Jonas Valanciunas",
+      "Kenan Kamenjas"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Clement Frisch",
+      "Marius Grigonis",
+      "Alberto Abalde",
+      "Vanja Marinkovic"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 163.7,
+     "p90": 208.3,
+     "p10": 121.5,
+     "p_target": 0.143
+    },
+    {
+     "rd": 16,
+     "formation": "2-1-2",
+     "starters": [
+      "Nadir Hifi",
+      "Justin Robinson",
+      "Sasha Vezenkov",
+      "Jonas Valanciunas",
+      "Kenan Kamenjas"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Marius Grigonis",
+      "Clement Frisch",
+      "Vanja Marinkovic",
+      "Alberto Abalde"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 157.4,
+     "p90": 195.2,
+     "p10": 118.3,
+     "p_target": 0.077
+    }
+   ]
+  }
+ ],
+ "window_before": 14,
+ "window": "21 Nov – 24 Nov"
+}
