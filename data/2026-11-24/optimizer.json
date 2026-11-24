@@ -1,0 +1,1193 @@
+{
+ "target": 200.0,
+ "current_best_lineup": {
+  "mean": 164.5,
+  "p90": 208.1,
+  "p10": 120.8,
+  "p_target": 0.151
+ },
+ "plans": [
+  {
+   "trades": [
+    {
+     "out": "Nadir Hifi",
+     "out_price": 16.6,
+     "in": "Justin Robinson",
+     "in_price": 13.1
+    },
+    {
+     "out": "Coach MIL",
+     "out_price": 4.6,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Johannes Thiemann",
+     "out_price": 11.6,
+     "in": "Christian Koloko",
+     "in_price": 10.4
+    },
+    {
+     "out": "Kostas Papanikolaou",
+     "out_price": 4.1,
+     "in": "Rodions Kurucs",
+     "in_price": 6.2
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.6,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Tyson Carter",
+    "Jordan Nwora",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Christian Koloko",
+   "bench": [
+    "Marc-Owen Fodzo Dada",
+    "Rodions Kurucs",
+    "Gabriele Procida",
+    "Theo Maledon"
+   ],
+   "captain": "Justin Robinson",
+   "mean": 176.0,
+   "p90": 222.1,
+   "p10": 129.2,
+   "p_target": 0.267,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Tyson Carter",
+      "Theo Maledon",
+      19.3
+     ],
+     [
+      "Christian Koloko",
+      "Rodions Kurucs",
+      9.7
+     ],
+     [
+      "Jordan Nwora",
+      "Gabriele Procida",
+      7.4
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.9,
+     "in": "Cory Joseph",
+     "in_price": 6.1
+    },
+    {
+     "out": "Coach MIL",
+     "out_price": 4.6,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Johannes Thiemann",
+     "out_price": 11.6,
+     "in": "Christian Koloko",
+     "in_price": 10.4
+    },
+    {
+     "out": "Kostas Papanikolaou",
+     "out_price": 4.1,
+     "in": "Alberto Abalde",
+     "in_price": 5.9
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.2,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Marc-Owen Fodzo Dada",
+    "Jordan Nwora",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Christian Koloko",
+   "bench": [
+    "Cory Joseph",
+    "Alberto Abalde",
+    "Gabriele Procida",
+    "Theo Maledon"
+   ],
+   "captain": "Nadir Hifi",
+   "mean": 175.5,
+   "p90": 220.9,
+   "p10": 129.4,
+   "p_target": 0.258,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Marc-Owen Fodzo Dada",
+      "Theo Maledon",
+      19.3
+     ],
+     [
+      "Christian Koloko",
+      "Alberto Abalde",
+      8.8
+     ],
+     [
+      "Jordan Nwora",
+      "Cory Joseph",
+      8.4
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.9,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.4
+    },
+    {
+     "out": "Coach MIL",
+     "out_price": 4.6,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Johannes Thiemann",
+     "out_price": 11.6,
+     "in": "Christian Koloko",
+     "in_price": 10.4
+    },
+    {
+     "out": "Kostas Papanikolaou",
+     "out_price": 4.1,
+     "in": "Robert Franks",
+     "in_price": 7.7
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.1,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Marc-Owen Fodzo Dada",
+    "Jordan Nwora",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Christian Koloko",
+   "bench": [
+    "Vanja Marinkovic",
+    "Robert Franks",
+    "Gabriele Procida",
+    "Theo Maledon"
+   ],
+   "captain": "Nadir Hifi",
+   "mean": 175.9,
+   "p90": 220.7,
+   "p10": 130.5,
+   "p_target": 0.256,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Marc-Owen Fodzo Dada",
+      "Theo Maledon",
+      19.3
+     ],
+     [
+      "Christian Koloko",
+      "Robert Franks",
+      10.7
+     ],
+     [
+      "Jordan Nwora",
+      "Gabriele Procida",
+      7.4
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.9,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.4
+    },
+    {
+     "out": "Coach MIL",
+     "out_price": 4.6,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Johannes Thiemann",
+     "out_price": 11.6,
+     "in": "Christian Koloko",
+     "in_price": 10.4
+    },
+    {
+     "out": "Kostas Papanikolaou",
+     "out_price": 4.1,
+     "in": "Semi Ojeleye",
+     "in_price": 7.7
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.1,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Marc-Owen Fodzo Dada",
+    "Jordan Nwora",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Christian Koloko",
+   "bench": [
+    "Vanja Marinkovic",
+    "Semi Ojeleye",
+    "Gabriele Procida",
+    "Theo Maledon"
+   ],
+   "captain": "Nadir Hifi",
+   "mean": 175.4,
+   "p90": 221.3,
+   "p10": 129.0,
+   "p_target": 0.256,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Marc-Owen Fodzo Dada",
+      "Theo Maledon",
+      19.3
+     ],
+     [
+      "Christian Koloko",
+      "Gabriele Procida",
+      7.4
+     ],
+     [
+      "Jordan Nwora",
+      "Vanja Marinkovic",
+      7.2
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.9,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.4
+    },
+    {
+     "out": "Coach MIL",
+     "out_price": 4.6,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Johannes Thiemann",
+     "out_price": 11.6,
+     "in": "Christian Koloko",
+     "in_price": 10.4
+    },
+    {
+     "out": "Gabriele Procida",
+     "out_price": 4.8,
+     "in": "Tyson Ward",
+     "in_price": 8.5
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.0,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Marc-Owen Fodzo Dada",
+    "Jordan Nwora",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Christian Koloko",
+   "bench": [
+    "Vanja Marinkovic",
+    "Kostas Papanikolaou",
+    "Tyson Ward",
+    "Theo Maledon"
+   ],
+   "captain": "Nadir Hifi",
+   "mean": 175.4,
+   "p90": 220.4,
+   "p10": 129.1,
+   "p_target": 0.256,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Marc-Owen Fodzo Dada",
+      "Theo Maledon",
+      19.3
+     ],
+     [
+      "Christian Koloko",
+      "Tyson Ward",
+      12.2
+     ],
+     [
+      "Jordan Nwora",
+      "Vanja Marinkovic",
+      7.2
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Nadir Hifi",
+     "out_price": 16.6,
+     "in": "Scottie Wilbekin",
+     "in_price": 9.6
+    },
+    {
+     "out": "Johannes Thiemann",
+     "out_price": 11.6,
+     "in": "Mfiondu Kabengele",
+     "in_price": 16.2
+    },
+    {
+     "out": "Coach MIL",
+     "out_price": 4.6,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Kostas Papanikolaou",
+     "out_price": 4.1,
+     "in": "Edwin Jackson",
+     "in_price": 4.2
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.3,
+   "formation": "2-2-1",
+   "starters": [
+    "Scottie Wilbekin",
+    "Tyson Carter",
+    "Jordan Nwora",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Marc-Owen Fodzo Dada",
+   "bench": [
+    "Mfiondu Kabengele",
+    "Edwin Jackson",
+    "Gabriele Procida",
+    "Theo Maledon"
+   ],
+   "captain": "Jordan Nwora",
+   "mean": 175.8,
+   "p90": 221.3,
+   "p10": 129.6,
+   "p_target": 0.255,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Marc-Owen Fodzo Dada",
+      "Mfiondu Kabengele",
+      20.3
+     ],
+     [
+      "Tyson Carter",
+      "Theo Maledon",
+      19.3
+     ],
+     [
+      "Scottie Wilbekin",
+      "Gabriele Procida",
+      7.4
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.9,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.4
+    },
+    {
+     "out": "Coach MIL",
+     "out_price": 4.6,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Johannes Thiemann",
+     "out_price": 11.6,
+     "in": "Christian Koloko",
+     "in_price": 10.4
+    },
+    {
+     "out": "Kostas Papanikolaou",
+     "out_price": 4.1,
+     "in": "Joel Parra",
+     "in_price": 7.8
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.0,
+   "formation": "1-2-2",
+   "starters": [
+    "Nadir Hifi",
+    "Jordan Nwora",
+    "Joel Parra",
+    "Christian Koloko",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Sasha Vezenkov",
+   "bench": [
+    "Vanja Marinkovic",
+    "Marc-Owen Fodzo Dada",
+    "Gabriele Procida",
+    "Theo Maledon"
+   ],
+   "captain": "Nadir Hifi",
+   "mean": 175.9,
+   "p90": 220.9,
+   "p10": 130.3,
+   "p_target": 0.253,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Joel Parra",
+      "Theo Maledon",
+      19.3
+     ],
+     [
+      "Christian Koloko",
+      "Gabriele Procida",
+      7.4
+     ],
+     [
+      "Jordan Nwora",
+      "Vanja Marinkovic",
+      7.2
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Johannes Thiemann",
+     "out_price": 11.6,
+     "in": "Christian Koloko",
+     "in_price": 10.4
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.9,
+     "in": "Dario Brizuela",
+     "in_price": 7.2
+    },
+    {
+     "out": "Coach MIL",
+     "out_price": 4.6,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Kostas Papanikolaou",
+     "out_price": 4.1,
+     "in": "Edwin Jackson",
+     "in_price": 4.2
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.8,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Dario Brizuela",
+    "Jordan Nwora",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Christian Koloko",
+   "bench": [
+    "Marc-Owen Fodzo Dada",
+    "Edwin Jackson",
+    "Gabriele Procida",
+    "Theo Maledon"
+   ],
+   "captain": "Nadir Hifi",
+   "mean": 175.1,
+   "p90": 219.7,
+   "p10": 128.9,
+   "p_target": 0.253,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Dario Brizuela",
+      "Theo Maledon",
+      19.3
+     ],
+     [
+      "Christian Koloko",
+      "Gabriele Procida",
+      7.4
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.9,
+     "in": "Sebastian Herrera",
+     "in_price": 6.3
+    },
+    {
+     "out": "Coach MIL",
+     "out_price": 4.6,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Johannes Thiemann",
+     "out_price": 11.6,
+     "in": "Christian Koloko",
+     "in_price": 10.4
+    },
+    {
+     "out": "Kostas Papanikolaou",
+     "out_price": 4.1,
+     "in": "Alberto Abalde",
+     "in_price": 5.9
+    }
+   ],
+   "coach": "RED",
+   "bank_after": -0.0,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Marc-Owen Fodzo Dada",
+    "Jordan Nwora",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Christian Koloko",
+   "bench": [
+    "Sebastian Herrera",
+    "Alberto Abalde",
+    "Gabriele Procida",
+    "Theo Maledon"
+   ],
+   "captain": "Nadir Hifi",
+   "mean": 175.1,
+   "p90": 220.2,
+   "p10": 129.2,
+   "p_target": 0.252,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Marc-Owen Fodzo Dada",
+      "Theo Maledon",
+      19.3
+     ],
+     [
+      "Christian Koloko",
+      "Alberto Abalde",
+      8.8
+     ],
+     [
+      "Jordan Nwora",
+      "Gabriele Procida",
+      7.4
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.9,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.4
+    },
+    {
+     "out": "Coach MIL",
+     "out_price": 4.6,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Johannes Thiemann",
+     "out_price": 11.6,
+     "in": "Christian Koloko",
+     "in_price": 10.4
+    },
+    {
+     "out": "Gabriele Procida",
+     "out_price": 4.8,
+     "in": "Conor Morgan",
+     "in_price": 8.1
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.4,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Marc-Owen Fodzo Dada",
+    "Jordan Nwora",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Christian Koloko",
+   "bench": [
+    "Vanja Marinkovic",
+    "Kostas Papanikolaou",
+    "Conor Morgan",
+    "Theo Maledon"
+   ],
+   "captain": "Nadir Hifi",
+   "mean": 175.3,
+   "p90": 220.1,
+   "p10": 129.6,
+   "p_target": 0.25,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Marc-Owen Fodzo Dada",
+      "Theo Maledon",
+      19.3
+     ],
+     [
+      "Christian Koloko",
+      "Vanja Marinkovic",
+      7.2
+     ],
+     [
+      "Jordan Nwora",
+      "Kostas Papanikolaou",
+      4.5
+     ]
+    ]
+   }
+  }
+ ],
+ "balanced_plans": [
+  {
+   "trades": [
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.9,
+     "in": "Cory Joseph",
+     "in_price": 6.1
+    },
+    {
+     "out": "Coach MIL",
+     "out_price": 4.6,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Johannes Thiemann",
+     "out_price": 11.6,
+     "in": "Christian Koloko",
+     "in_price": 10.4
+    },
+    {
+     "out": "Kostas Papanikolaou",
+     "out_price": 4.1,
+     "in": "Alberto Abalde",
+     "in_price": 5.9
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.2,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Marc-Owen Fodzo Dada",
+    "Jordan Nwora",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Christian Koloko",
+   "bench": [
+    "Cory Joseph",
+    "Alberto Abalde",
+    "Gabriele Procida",
+    "Theo Maledon"
+   ],
+   "captain": "Nadir Hifi",
+   "mean": 175.5,
+   "p90": 220.9,
+   "p10": 129.4,
+   "p_target": 0.258,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Marc-Owen Fodzo Dada",
+      "Theo Maledon",
+      19.3
+     ],
+     [
+      "Christian Koloko",
+      "Alberto Abalde",
+      8.8
+     ],
+     [
+      "Jordan Nwora",
+      "Cory Joseph",
+      8.4
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.9,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.4
+    },
+    {
+     "out": "Coach MIL",
+     "out_price": 4.6,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Johannes Thiemann",
+     "out_price": 11.6,
+     "in": "Christian Koloko",
+     "in_price": 10.4
+    },
+    {
+     "out": "Kostas Papanikolaou",
+     "out_price": 4.1,
+     "in": "Robert Franks",
+     "in_price": 7.7
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.1,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Marc-Owen Fodzo Dada",
+    "Jordan Nwora",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Christian Koloko",
+   "bench": [
+    "Vanja Marinkovic",
+    "Robert Franks",
+    "Gabriele Procida",
+    "Theo Maledon"
+   ],
+   "captain": "Nadir Hifi",
+   "mean": 175.9,
+   "p90": 220.7,
+   "p10": 130.5,
+   "p_target": 0.256,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Marc-Owen Fodzo Dada",
+      "Theo Maledon",
+      19.3
+     ],
+     [
+      "Christian Koloko",
+      "Robert Franks",
+      10.7
+     ],
+     [
+      "Jordan Nwora",
+      "Gabriele Procida",
+      7.4
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.9,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.4
+    },
+    {
+     "out": "Coach MIL",
+     "out_price": 4.6,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Johannes Thiemann",
+     "out_price": 11.6,
+     "in": "Christian Koloko",
+     "in_price": 10.4
+    },
+    {
+     "out": "Kostas Papanikolaou",
+     "out_price": 4.1,
+     "in": "Semi Ojeleye",
+     "in_price": 7.7
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.1,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Marc-Owen Fodzo Dada",
+    "Jordan Nwora",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Christian Koloko",
+   "bench": [
+    "Vanja Marinkovic",
+    "Semi Ojeleye",
+    "Gabriele Procida",
+    "Theo Maledon"
+   ],
+   "captain": "Nadir Hifi",
+   "mean": 175.4,
+   "p90": 221.3,
+   "p10": 129.0,
+   "p_target": 0.256,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Marc-Owen Fodzo Dada",
+      "Theo Maledon",
+      19.3
+     ],
+     [
+      "Christian Koloko",
+      "Gabriele Procida",
+      7.4
+     ],
+     [
+      "Jordan Nwora",
+      "Vanja Marinkovic",
+      7.2
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.9,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.4
+    },
+    {
+     "out": "Coach MIL",
+     "out_price": 4.6,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Johannes Thiemann",
+     "out_price": 11.6,
+     "in": "Christian Koloko",
+     "in_price": 10.4
+    },
+    {
+     "out": "Gabriele Procida",
+     "out_price": 4.8,
+     "in": "Tyson Ward",
+     "in_price": 8.5
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.0,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Marc-Owen Fodzo Dada",
+    "Jordan Nwora",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Christian Koloko",
+   "bench": [
+    "Vanja Marinkovic",
+    "Kostas Papanikolaou",
+    "Tyson Ward",
+    "Theo Maledon"
+   ],
+   "captain": "Nadir Hifi",
+   "mean": 175.4,
+   "p90": 220.4,
+   "p10": 129.1,
+   "p_target": 0.256,
+   "nights": {
+    "count": {
+     "1": 4,
+     "2": 6
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Marc-Owen Fodzo Dada",
+      "Theo Maledon",
+      19.3
+     ],
+     [
+      "Christian Koloko",
+      "Tyson Ward",
+      12.2
+     ],
+     [
+      "Jordan Nwora",
+      "Vanja Marinkovic",
+      7.2
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.9,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.4
+    },
+    {
+     "out": "Coach MIL",
+     "out_price": 4.6,
+     "in": "Coach RED",
+     "in_price": 6.8
+    },
+    {
+     "out": "Johannes Thiemann",
+     "out_price": 11.6,
+     "in": "Christian Koloko",
+     "in_price": 10.4
+    },
+    {
+     "out": "Kostas Papanikolaou",
+     "out_price": 4.1,
+     "in": "Joel Parra",
+     "in_price": 7.8
+    }
+   ],
+   "coach": "RED",
+   "bank_after": 0.0,
+   "formation": "1-2-2",
+   "starters": [
+    "Nadir Hifi",
+    "Jordan Nwora",
+    "Joel Parra",
+    "Christian Koloko",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Sasha Vezenkov",
+   "bench": [
+    "Vanja Marinkovic",
+    "Marc-Owen Fodzo Dada",
+    "Gabriele Procida",
+    "Theo Maledon"
+   ],
+   "captain": "Nadir Hifi",
+   "mean": 175.9,
+   "p90": 220.9,
+   "p10": 130.3,
+   "p_target": 0.253,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Joel Parra",
+      "Theo Maledon",
+      19.3
+     ],
+     [
+      "Christian Koloko",
+      "Gabriele Procida",
+      7.4
+     ],
+     [
+      "Jordan Nwora",
+      "Vanja Marinkovic",
+      7.2
+     ]
+    ]
+   }
+  }
+ ]
+}
