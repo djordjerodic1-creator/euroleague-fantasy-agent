@@ -32,19 +32,19 @@
   {
    "players": [
     "Andres Feliz",
-    "Christian Koloko",
     "Clement Frisch",
     "Conor Morgan",
     "Gabriele Procida",
     "Kenan Kamenjas",
     "Nadir Hifi",
+    "Ousmane Diop",
     "Sasha Vezenkov",
-    "Theo Maledon",
-    "Vanja Marinkovic"
+    "Scottie Wilbekin",
+    "Theo Maledon"
    ],
    "coach": "OLY",
-   "cost": 109.5,
-   "bank_after": 0.3,
+   "cost": 109.3,
+   "bank_after": 0.5,
    "sell": [
     "Johannes Thiemann",
     "Jordan Nwora",
@@ -54,63 +54,17 @@
    ],
    "buy": [
     "Andres Feliz",
-    "Christian Koloko",
     "Clement Frisch",
     "Conor Morgan",
-    "Vanja Marinkovic"
+    "Ousmane Diop",
+    "Scottie Wilbekin"
    ],
    "coach_change": true,
-   "avg_p_target": 0.173,
-   "avg_mean": 163.4,
+   "avg_p_target": 0.17,
+   "avg_mean": 163.1,
    "rounds": [
     {
      "rd": 14,
-     "formation": "2-1-2",
-     "starters": [
-      "Nadir Hifi",
-      "Theo Maledon",
-      "Sasha Vezenkov",
-      "Kenan Kamenjas",
-      "Christian Koloko"
-     ],
-     "sixth": "Andres Feliz",
-     "bench": [
-      "Conor Morgan",
-      "Clement Frisch",
-      "Vanja Marinkovic",
-      "Gabriele Procida"
-     ],
-     "captain": "Sasha Vezenkov",
-     "mean": 172.6,
-     "p90": 219.5,
-     "p10": 124.0,
-     "p_target": 0.233
-    },
-    {
-     "rd": 15,
-     "formation": "2-1-2",
-     "starters": [
-      "Nadir Hifi",
-      "Theo Maledon",
-      "Sasha Vezenkov",
-      "Kenan Kamenjas",
-      "Christian Koloko"
-     ],
-     "sixth": "Andres Feliz",
-     "bench": [
-      "Conor Morgan",
-      "Clement Frisch",
-      "Gabriele Procida",
-      "Vanja Marinkovic"
-     ],
-     "captain": "Sasha Vezenkov",
-     "mean": 174.6,
-     "p90": 219.3,
-     "p10": 129.0,
-     "p_target": 0.237
-    },
-    {
-     "rd": 16,
      "formation": "3-1-1",
      "starters": [
       "Nadir Hifi",
@@ -119,18 +73,64 @@
       "Sasha Vezenkov",
       "Kenan Kamenjas"
      ],
-     "sixth": "Conor Morgan",
+     "sixth": "Scottie Wilbekin",
      "bench": [
-      "Christian Koloko",
+      "Conor Morgan",
+      "Ousmane Diop",
       "Clement Frisch",
-      "Gabriele Procida",
-      "Vanja Marinkovic"
+      "Gabriele Procida"
      ],
      "captain": "Sasha Vezenkov",
-     "mean": 143.0,
-     "p90": 187.8,
-     "p10": 99.0,
-     "p_target": 0.049
+     "mean": 171.9,
+     "p90": 218.8,
+     "p10": 124.2,
+     "p_target": 0.225
+    },
+    {
+     "rd": 15,
+     "formation": "2-2-1",
+     "starters": [
+      "Nadir Hifi",
+      "Theo Maledon",
+      "Sasha Vezenkov",
+      "Conor Morgan",
+      "Kenan Kamenjas"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Scottie Wilbekin",
+      "Clement Frisch",
+      "Ousmane Diop",
+      "Gabriele Procida"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 174.2,
+     "p90": 218.1,
+     "p10": 129.2,
+     "p_target": 0.233
+    },
+    {
+     "rd": 16,
+     "formation": "2-2-1",
+     "starters": [
+      "Nadir Hifi",
+      "Theo Maledon",
+      "Sasha Vezenkov",
+      "Conor Morgan",
+      "Kenan Kamenjas"
+     ],
+     "sixth": "Andres Feliz",
+     "bench": [
+      "Scottie Wilbekin",
+      "Clement Frisch",
+      "Ousmane Diop",
+      "Gabriele Procida"
+     ],
+     "captain": "Sasha Vezenkov",
+     "mean": 143.1,
+     "p90": 187.6,
+     "p10": 100.5,
+     "p_target": 0.052
     }
    ]
   },

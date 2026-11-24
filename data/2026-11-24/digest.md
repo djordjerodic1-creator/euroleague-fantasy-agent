@@ -146,7 +146,7 @@ Cost 109.6 · bank 0.2 · coach MIL · captain Nadir Hifi · clubs {'MUN': 1, 'R
   - news [injury] 2026-11-04:  
 
 ## Mechanical swap baseline (same position, budget & 6-per-club feasible — NOT advice)
-- OUT Johannes Thiemann (score 32.32): Aliou Diarra (VIR, 11.4cr, score 34.96, gain +2.6, own None%); Christian Koloko (RED, 10.4cr, score 33.89, gain +1.6, own None%); Neal Sako (PAM, 10.3cr, score 27.03, gain -5.3, own None%); Tonye Jekiri (PAR, 9.9cr, score 27.02, gain -5.3, own None%)
+- OUT Johannes Thiemann (score 32.32): Aliou Diarra (VIR, 11.4cr, score 34.96, gain +2.6, own None%); Christian Koloko (RED, 10.4cr, score 32.18, gain -0.1, own None%); Neal Sako (PAM, 10.3cr, score 27.03, gain -5.3, own None%); Tonye Jekiri (PAR, 9.9cr, score 27.02, gain -5.3, own None%)
 - OUT Jordan Nwora (score 37.9): Azuolas Tubelis (ZAL, 13.4cr, score 34.83, gain -3.1, own None%); Nigel Hayes-Davis (PAN, 12.6cr, score 31.41, gain -6.5, own None%); Conor Morgan (BES, 8.1cr, score 31.02, gain -6.9, own None%); Jaylen Hoard (TEL, 12.3cr, score 29.65, gain -8.2, own None%)
 - OUT Nadir Hifi (score 47.56): Justin Robinson (BAR, 13.1cr, score 40.08, gain -7.5, own None%); Kendrick Nunn (PAN, 15.2cr, score 39.6, gain -8.0, own None%); Carlik Jones (PAR, 14.8cr, score 39.22, gain -8.3, own None%); Andres Feliz (MAD, 9.6cr, score 35.13, gain -12.4, own None%)
 - OUT Tyson Carter (score 25.86): Leandro Bolmaro (MIL, 8.9cr, score 26.72, gain +0.9, own None%); Dj Stewart (BAS, 9.0cr, score 25.93, gain +0.1, own None%); Kobi Simmons (BAS, 8.2cr, score 25.38, gain -0.5, own None%); Marko Guduric (MIL, 8.4cr, score 23.85, gain -2.0, own None%)
@@ -216,9 +216,9 @@ Cost 109.6 · bank 0.2 · coach MIL · captain Nadir Hifi · clubs {'MUN': 1, 'R
 - Mathias Lessort (PAN) 15.7cr own None% · playing · Δ3 None · L3/L10 9/17.4 · min 21.8/23.6 · R14 @PAM 14.3 (diff 3/5) | R15 @BES 14.4 (diff 5/5) | R16 vsOLY 15.2 (diff 4/5) | R17 vsRED 15.2 (diff 3/5) · Δprice 0.0 · sig hold
 - Dan Oturu (HTA) 13.8cr own None% · playing · Δ3 None · L3/L10 13.7/13.9 · min 22.6/21.2 · R14 @OLY 12.9 (diff 4/5) | R15 vsMIL 14.5 (diff 4/5) | R16 vsASV 14.8 (diff 2/5) | R17 @ULK 14 (diff 1/5) · Δprice 0.0 · sig hold
 - Aliou Diarra (VIR) 11.4cr own None% · playing · Δ3 None · L3/L10 16.7/18 · min 19.5/18.1 · R14 @RED 12.6 (diff 2/5) | R15 vsPAR 14.3 (diff 2/5) | R16 vsTEL 14.7 (diff 5/5) | R17 vsASV 15 (diff 2/5) · Δprice 0.1 · sig buy
-- Christian Koloko (RED) 10.4cr own None% · playing · Δ3 None · L3/L10 14.3/12.8 · min 22.9/20.3 · R14 vsVIR 15.3 (diff 4/5) | R15 @ULK 12.4 (diff 1/5) | R16 @PAM 11.9 (diff 4/5) | R17 @PAN 11.9 (diff 1/5) · Δprice 0.2 · sig buy
 - Walter Tavares (MAD) 14.0cr own None% · playing · Δ3 None · L3/L10 6/13.2 · min 19.2/19.9 · R14 vsZAL 13.1 (diff 5/5) | R15 vsBAR 13.1 (diff 4/5) | R16 @PRS 12.5 (diff 5/5) | R17 vsMUN 13.2 (diff 2/5) · Δprice 0.0 · sig hold
 - Johannes Thiemann (MUN) 11.6cr own None% · playing · Δ3 None · L3/L10 19.7/12.1 · min 26.2/21 · R14 vsTEL 12.4 (diff 5/5) | R15 vsPRS 13.4 (diff 5/5) | R16 @MIL 12.9 (diff 4/5) | R17 @MAD 12.3 (diff 4/5) · Δprice 0.1 · sig hold
+- Christian Koloko (RED) 10.4cr own None% · None · Δ3 None · L3/L10 14.3/12.8 · min 22.9/20.3 · R14 vsVIR 14.3 (diff 2/5) | R15 @ULK 11.6 (diff 4/5) | R16 @PAM 11.8 (diff 1/5) | R17 @PAN 11.6 (diff 2/5) · Δprice 0.2 · sig buy
 - Neal Sako (PAM) 10.3cr own None% · playing · Δ3 None · L3/L10 17.7/11.9 · min 19.4/18.2 · R14 vsPAN 10.8 (diff 1/5) | R15 @IST 10.3 (diff 4/5) | R16 vsRED 10.7 (diff 3/5) | R17 vsDUB 11 (diff 4/5) · Δprice 0.0 · sig hold
 - Tonye Jekiri (PAR) 9.9cr own None% · playing · Δ3 None · L3/L10 17/14.8 · min 20.8/18.5 · R14 @DUB 12.2 (diff 4/5) | R15 @VIR 9.5 (diff 4/5) | R16 vsBAR 10.3 (diff 4/5) | R17 @IST 9.1 (diff 4/5) · Δprice 0.1 · sig hold
 **Cheap value (≤9 cr):**

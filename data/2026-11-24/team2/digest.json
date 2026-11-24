@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T09:19",
+ "generated": "2026-11-24T09:26",
  "today": "2026-11-24",
  "source_round": 14,
  "rounds_in_progress": [
@@ -382,8 +382,8 @@
      "name": "Christian Koloko",
      "team": "RED",
      "price": 10.4,
-     "score": 33.89,
-     "gain": -1.1,
+     "score": 32.18,
+     "gain": -2.8,
      "owned": null
     },
     {

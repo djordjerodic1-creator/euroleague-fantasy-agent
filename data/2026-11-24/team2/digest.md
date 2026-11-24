@@ -144,7 +144,7 @@ Cost 115.2 · bank -0.9 · coach IST · captain Kendrick Nunn · clubs {'PAN': 1
 - OUT Filip Petrusev (score 24.33): Conor Morgan (BES, 8.1cr, score 31.02, gain +6.7, own None%); Both Gach (ASV, 9.0cr, score 27.44, gain +3.1, own None%); Tyson Ward (OLY, 8.5cr, score 27.34, gain +3.0, own None%); Oscar Da Silva (MUN, 8.5cr, score 26.33, gain +2.0, own None%)
 - OUT Gabriele Procida (score 17.39): 
 - OUT Collin Malcolm (score 29.39): Conor Morgan (BES, 8.1cr, score 31.02, gain +1.6, own None%); Both Gach (ASV, 9.0cr, score 27.44, gain -1.9, own None%); Tyson Ward (OLY, 8.5cr, score 27.34, gain -2.1, own None%); Oscar Da Silva (MUN, 8.5cr, score 26.33, gain -3.1, own None%)
-- OUT Aliou Diarra (score 34.96): Christian Koloko (RED, 10.4cr, score 33.89, gain -1.1, own None%); Neal Sako (PAM, 10.3cr, score 27.03, gain -7.9, own None%); Tonye Jekiri (PAR, 9.9cr, score 27.02, gain -7.9, own None%); Mouhamed Faye (PRS, 8.5cr, score 26.44, gain -8.5, own None%)
+- OUT Aliou Diarra (score 34.96): Christian Koloko (RED, 10.4cr, score 32.18, gain -2.8, own None%); Neal Sako (PAM, 10.3cr, score 27.03, gain -7.9, own None%); Tonye Jekiri (PAR, 9.9cr, score 27.02, gain -7.9, own None%); Mouhamed Faye (PRS, 8.5cr, score 26.44, gain -8.5, own None%)
 - OUT Kenan Kamenjas (score 43.33): Ousmane Diop (MIL, 5.0cr, score 18.83, gain -24.5, own None%); Sertac Sanli (ULK, 4.0cr, score 5.36, gain -38.0, own None%); Kaodirichi Akobundu-Ehiogu (ZAL, 5.2cr, score 4.9, gain -38.4, own None%); Bryant Dunston (OLY, 4.3cr, score 4.63, gain -38.7, own None%)
 
 ## Guards — market
@@ -206,9 +206,9 @@ Cost 115.2 · bank -0.9 · coach IST · captain Kendrick Nunn · clubs {'PAN': 1
 - Mathias Lessort (PAN) 15.7cr own None% · playing · Δ3 None · L3/L10 9/17.4 · min 21.8/23.6 · R14 @PAM 14.3 (diff 3/5) | R15 @BES 14.4 (diff 5/5) | R16 vsOLY 15.2 (diff 4/5) | R17 vsRED 15.2 (diff 3/5) · Δprice 0.0 · sig hold
 - Dan Oturu (HTA) 13.8cr own None% · playing · Δ3 None · L3/L10 13.7/13.9 · min 22.6/21.2 · R14 @OLY 12.9 (diff 4/5) | R15 vsMIL 14.5 (diff 4/5) | R16 vsASV 14.8 (diff 2/5) | R17 @ULK 14 (diff 1/5) · Δprice 0.0 · sig hold
 - Aliou Diarra (VIR) 11.4cr own None% · playing · Δ3 None · L3/L10 16.7/18 · min 19.5/18.1 · R14 @RED 12.6 (diff 2/5) | R15 vsPAR 14.3 (diff 2/5) | R16 vsTEL 14.7 (diff 5/5) | R17 vsASV 15 (diff 2/5) · Δprice 0.1 · sig buy
-- Christian Koloko (RED) 10.4cr own None% · playing · Δ3 None · L3/L10 14.3/12.8 · min 22.9/20.3 · R14 vsVIR 15.3 (diff 4/5) | R15 @ULK 12.4 (diff 1/5) | R16 @PAM 11.9 (diff 4/5) | R17 @PAN 11.9 (diff 1/5) · Δprice 0.2 · sig buy
 - Walter Tavares (MAD) 14.0cr own None% · playing · Δ3 None · L3/L10 6/13.2 · min 19.2/19.9 · R14 vsZAL 13.1 (diff 5/5) | R15 vsBAR 13.1 (diff 4/5) | R16 @PRS 12.5 (diff 5/5) | R17 vsMUN 13.2 (diff 2/5) · Δprice 0.0 · sig hold
 - Johannes Thiemann (MUN) 11.6cr own None% · playing · Δ3 None · L3/L10 19.7/12.1 · min 26.2/21 · R14 vsTEL 12.4 (diff 5/5) | R15 vsPRS 13.4 (diff 5/5) | R16 @MIL 12.9 (diff 4/5) | R17 @MAD 12.3 (diff 4/5) · Δprice 0.1 · sig hold
+- Christian Koloko (RED) 10.4cr own None% · None · Δ3 None · L3/L10 14.3/12.8 · min 22.9/20.3 · R14 vsVIR 14.3 (diff 2/5) | R15 @ULK 11.6 (diff 4/5) | R16 @PAM 11.8 (diff 1/5) | R17 @PAN 11.6 (diff 2/5) · Δprice 0.2 · sig buy
 - Neal Sako (PAM) 10.3cr own None% · playing · Δ3 None · L3/L10 17.7/11.9 · min 19.4/18.2 · R14 vsPAN 10.8 (diff 1/5) | R15 @IST 10.3 (diff 4/5) | R16 vsRED 10.7 (diff 3/5) | R17 vsDUB 11 (diff 4/5) · Δprice 0.0 · sig hold
 - Tonye Jekiri (PAR) 9.9cr own None% · playing · Δ3 None · L3/L10 17/14.8 · min 20.8/18.5 · R14 @DUB 12.2 (diff 4/5) | R15 @VIR 9.5 (diff 4/5) | R16 vsBAR 10.3 (diff 4/5) | R17 @IST 9.1 (diff 4/5) · Δprice 0.1 · sig hold
 **Cheap value (≤9 cr):**

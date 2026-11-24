@@ -1,0 +1,410 @@
+{
+ "date": "2026-11-24",
+ "generated": "2026-11-24T11:00Z",
+ "round": 14,
+ "budget": {
+  "total": 114.3,
+  "bank": -0.9
+ },
+ "window": "R14: UNLIMITED trades until tonight's first tip-off (24 Nov, 19:00 Athens, Besiktas–Paris). You have 11 window trades; A uses 7. R15 is back to 4 trades.",
+ "bottom_line": "Keep yesterday's plan: sell Nunn, Washington, Petrušev, Procida, Malcolm and Diarra for Robinson, Carter, Nwora, Tyson Ward, Frisch and Koloko, and switch Laso to Navarro (RED). Captain Robinson tonight and swap Wednesday players in after Tuesday's games: about 176 expected, a 26% chance of 200 (12% as you stand), 2.9 left.",
+ "current_fix": "With no trades your bank is −0.9, which the game won't accept: you must sell at least one player before 19:00 Athens. Even a single Nunn → Robinson swap fixes it.",
+ "variations": [
+  {
+   "key": "A",
+   "name": "Zvezda stack with Wednesday cover",
+   "recommended": true,
+   "risk": "Medium",
+   "tagline": "Yesterday's 7 trades, rechecked: Robinson captain, Carter, Nwora and Koloko with Navarro (RED), and Ward, Frisch, Maledon and Marinkovic for Wednesday.",
+   "trades": [
+    {
+     "out": "Kendrick Nunn (15.2)",
+     "in": "Justin Robinson (13.1)",
+     "credits": "+2.1",
+     "why": "Robinson runs Barcelona with Punter, Nebo and Gibson out (21 pts, 9 ast vs Zvezda in R13) and is home to a Fenerbahçe side missing Melli and Key. Sunday was a dud, but ACB minutes say nothing about his EuroLeague role. Nunn is at Valencia. [dom: ACB 22 Nov at Tenerife 24' 4 pts VAL −3, acb.com]"
+    },
+    {
+     "out": "Duane Washington (11.1)",
+     "in": "Tyson Carter (8.9)",
+     "credits": "+2.2",
+     "why": "Minutes up from 20 to 28 (30 PIR at Barcelona), rested on Sunday, home to Virtus. Chris Jones is a game-time decision. [dom: ABA 22 Nov vs Cibona, DNP (rest), aba-liga.com]"
+    },
+    {
+     "out": "Filip Petrusev (11.6)",
+     "in": "Jordan Nwora (13.9)",
+     "credits": "−2.3",
+     "why": "Petrusev is projected only 9.8 behind Kabengele. Nwora starts at home to Virtus (77%), Navarro's 'priority' game. [dom: ABA 22 Nov vs Cibona 15' PIR 14, aba-liga.com]"
+    },
+    {
+     "out": "Gabriele Procida (4.8)",
+     "in": "Tyson Ward (8.5)",
+     "credits": "−3.7",
+     "why": "Konchar has left Olympiacos and Dorsey is out through R14, so Ward keeps the wing minutes. He plays Wednesday at home to Hapoel: a later-night sub. [dom: GBL 22 Nov at Karditsa, 9 pts (low-confidence snippet), eurobasket.com]"
+    },
+    {
+     "out": "Collin Malcolm (10.2)",
+     "in": "Clement Frisch (5.4)",
+     "credits": "+4.8",
+     "why": "Frees 4.8 for the upgrades. Frisch has 20' a night in Baskonia's injury-hit frontcourt on Wednesday and his price is rising; new signing Perrin is a small risk. [dom: ACB 22 Nov at Bilbao 20' 11 pts VAL 10, acb.com]"
+    },
+    {
+     "out": "Aliou Diarra (11.4)",
+     "in": "Christian Koloko (10.4)",
+     "credits": "+1.0",
+     "why": "Diarra is the opponent of your Zvezda stack (Virtus 23%). Koloko starts for Zvezda and was rested on Sunday. I've cut his projection to about 14 because Moneke is back. [dom: ABA 22 Nov vs Cibona, DNP (rest), aba-liga.com]"
+    },
+    {
+     "out": "Coach Laso (IST) (6.5)",
+     "in": "Coach Navarro (RED) (6.8)",
+     "credits": "−0.3",
+     "why": "Zvezda are 77% at home to Virtus; Efes are 65% at Baskonia but without Mike James. Navarro booms with Carter, Nwora and Koloko."
+    }
+   ],
+   "bank_after": 2.9,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Tyson Carter",
+    "Sasha Vezenkov",
+    "Jordan Nwora",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Christian Koloko",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Tyson Ward",
+    "Clement Frisch"
+   ],
+   "coach": "Crvena Zvezda",
+   "captain": "Justin Robinson",
+   "vice": "Sasha Vezenkov",
+   "captain_note": "Robinson plays Tuesday 22:00 at home to Fenerbahçe as Barcelona's only healthy lead guard. If he scores under ~25, move the armband to Vezenkov (Wednesday at home to Hapoel).",
+   "captain_plan": "Captain Robinson on Tuesday; if he scores under ~25 PIR, move the armband to Vezenkov on Wednesday.",
+   "reasoning": [
+    "About 176 expected and a 26% chance of 200, against 12% as you stand. The best 7-trade plans reach 29–30%, but only with Conor Morgan (Omoruyi's injury isn't on Besiktas' list) and Wilbekin over budget, so I'm keeping this one.",
+    "Correlation: Carter, Nwora and Koloko plus Navarro are all in Zvezda–Virtus (77%). Navarro called it the priority game and rested them on Sunday.",
+    "Coach lens: Moneke is back and Motley uncertain. That trims Koloko from the site's 15.3 to about 14, which is why the chance is 26% today, not yesterday's 30%.",
+    "Nights: 4 on Tuesday, 6 on Wednesday. After Tuesday: Carter under ~19 → Maledon; Koloko under ~12 → Ward; Nwora under ~8 → Frisch.",
+    "Upside watch: Carter (minutes 20 → 28) and Ward (Konchar's role) are both role-jump picks; Juzang plays in your captain's game, so he's left out."
+   ],
+   "cancel_if": [
+    "If Motley is confirmed in Zvezda's starting five tonight, skip trade 6 and keep Diarra as the 6th man (bank 1.9).",
+    "If Ward isn't in Olympiacos' 12, skip trade 4 so Procida stays (bank 6.6).",
+    "If Kamenjas isn't in Baskonia's 12, use the bank on Kamenjas → Johannes Voigtmann (6.4)."
+   ]
+  },
+  {
+   "key": "B",
+   "name": "Keep Diarra, 6 trades",
+   "recommended": false,
+   "risk": "Low",
+   "tagline": "A without the Koloko trade: Diarra stays as the 6th man (his 18.6 a game is the safer floor), 1.9 in the bank.",
+   "trades": [
+    {
+     "out": "Kendrick Nunn (15.2)",
+     "in": "Justin Robinson (13.1)",
+     "credits": "+2.1",
+     "why": "Robinson runs Barcelona with Punter, Nebo and Gibson out (21 pts, 9 ast vs Zvezda in R13) and is home to a Fenerbahçe side missing Melli and Key. Sunday was a dud, but ACB minutes say nothing about his EuroLeague role. Nunn is at Valencia. [dom: ACB 22 Nov at Tenerife 24' 4 pts VAL −3, acb.com]"
+    },
+    {
+     "out": "Duane Washington (11.1)",
+     "in": "Tyson Carter (8.9)",
+     "credits": "+2.2",
+     "why": "Minutes up from 20 to 28 (30 PIR at Barcelona), rested on Sunday, home to Virtus. Chris Jones is a game-time decision. [dom: ABA 22 Nov vs Cibona, DNP (rest), aba-liga.com]"
+    },
+    {
+     "out": "Filip Petrusev (11.6)",
+     "in": "Jordan Nwora (13.9)",
+     "credits": "−2.3",
+     "why": "Petrusev is projected only 9.8 behind Kabengele. Nwora starts at home to Virtus (77%), Navarro's 'priority' game. [dom: ABA 22 Nov vs Cibona 15' PIR 14, aba-liga.com]"
+    },
+    {
+     "out": "Gabriele Procida (4.8)",
+     "in": "Tyson Ward (8.5)",
+     "credits": "−3.7",
+     "why": "Konchar has left Olympiacos and Dorsey is out through R14, so Ward keeps the wing minutes. He plays Wednesday at home to Hapoel: a later-night sub. [dom: GBL 22 Nov at Karditsa, 9 pts (low-confidence snippet), eurobasket.com]"
+    },
+    {
+     "out": "Collin Malcolm (10.2)",
+     "in": "Clement Frisch (5.4)",
+     "credits": "+4.8",
+     "why": "Frees 4.8 for the upgrades. Frisch has 20' a night in Baskonia's injury-hit frontcourt on Wednesday and his price is rising; new signing Perrin is a small risk. [dom: ACB 22 Nov at Bilbao 20' 11 pts VAL 10, acb.com]"
+    },
+    {
+     "out": "Coach Laso (IST) (6.5)",
+     "in": "Coach Navarro (RED) (6.8)",
+     "credits": "−0.3",
+     "why": "Zvezda are 77% at home to Virtus; Efes are 65% at Baskonia but without Mike James. Navarro booms with Carter, Nwora and Koloko."
+    }
+   ],
+   "bank_after": 1.9,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Tyson Carter",
+    "Sasha Vezenkov",
+    "Jordan Nwora",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Aliou Diarra",
+   "bench": [
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Tyson Ward",
+    "Clement Frisch"
+   ],
+   "coach": "Crvena Zvezda",
+   "captain": "Justin Robinson",
+   "vice": "Sasha Vezenkov",
+   "captain_note": "Same as A: Robinson on Tuesday, Vezenkov on Wednesday if Robinson scores under ~25.",
+   "reasoning": [
+    "About 175 expected and a 23% chance of 200: 2–3 points of chance below A.",
+    "Diarra (18.6 PIR a game) is a steadier player than Koloko, but he faces your Zvezda stack and Navarro: if Zvezda win big, he usually has a quiet night.",
+    "Use it if you believe Motley starts tonight (then Koloko's minutes shrink).",
+    "Nights: 4 on Tuesday, 6 on Wednesday; Diarra under ~19 → Maledon.",
+    "Upside watch: Carter and Ward as in A."
+   ],
+   "cancel_if": [
+    "If Ward isn't in Olympiacos' 12, skip trade 4 so Procida stays."
+   ]
+  },
+  {
+   "key": "C",
+   "name": "Robinson, Parra and Feliz: frontcourt and Madrid boom",
+   "recommended": false,
+   "risk": "High",
+   "tagline": "Two Barcelona players in your captain's game plus Feliz as a Wednesday sub: more ceiling, more correlation.",
+   "trades": [
+    {
+     "out": "Kendrick Nunn (15.2)",
+     "in": "Justin Robinson (13.1)",
+     "credits": "+2.1",
+     "why": "Robinson runs Barcelona with Punter, Nebo and Gibson out (21 pts, 9 ast vs Zvezda in R13) and is home to a Fenerbahçe side missing Melli and Key. Sunday was a dud, but ACB minutes say nothing about his EuroLeague role. Nunn is at Valencia. [dom: ACB 22 Nov at Tenerife 24' 4 pts VAL −3, acb.com]"
+    },
+    {
+     "out": "Duane Washington (11.1)",
+     "in": "Andres Feliz (9.6)",
+     "credits": "+1.5",
+     "why": "23 pts and a 22 rating against Joventut on Sunday, and Campazzo is out again. Home to Zalgiris (no Tubelis) on Wednesday: a strong late sub. [dom: ACB 22 Nov vs Joventut, 23 pts VAL 22, acb.com]"
+    },
+    {
+     "out": "Filip Petrusev (11.6)",
+     "in": "Jordan Nwora (13.9)",
+     "credits": "−2.3",
+     "why": "Petrusev is projected only 9.8 behind Kabengele. Nwora starts at home to Virtus (77%), Navarro's 'priority' game. [dom: ABA 22 Nov vs Cibona 15' PIR 14, aba-liga.com]"
+    },
+    {
+     "out": "Collin Malcolm (10.2)",
+     "in": "Joel Parra (7.8)",
+     "credits": "+2.4",
+     "why": "Nebo is out 3–4 months and Evbuomwan is doubtful, so Parra plays heavy minutes at home to Fenerbahçe (Melli and Key out). [dom: ACB 22 Nov at Tenerife, unverified after 2 searches]"
+    },
+    {
+     "out": "Aliou Diarra (11.4)",
+     "in": "Christian Koloko (10.4)",
+     "credits": "+1.0",
+     "why": "Diarra is the opponent of your Zvezda stack (Virtus 23%). Koloko starts for Zvezda and was rested on Sunday. I've cut his projection to about 14 because Moneke is back. [dom: ABA 22 Nov vs Cibona, DNP (rest), aba-liga.com]"
+    },
+    {
+     "out": "Coach Laso (IST) (6.5)",
+     "in": "Coach Navarro (RED) (6.8)",
+     "credits": "−0.3",
+     "why": "Zvezda are 77% at home to Virtus; Efes are 65% at Baskonia but without Mike James. Navarro booms with Carter, Nwora and Koloko."
+    }
+   ],
+   "bank_after": 3.5,
+   "formation": "1-2-2",
+   "starters": [
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Jordan Nwora",
+    "Kenan Kamenjas",
+    "Christian Koloko"
+   ],
+   "sixth": "Joel Parra",
+   "bench": [
+    "Andres Feliz",
+    "Theo Maledon",
+    "Vanja Marinkovic",
+    "Gabriele Procida"
+   ],
+   "coach": "Crvena Zvezda",
+   "captain": "Justin Robinson",
+   "vice": "Kenan Kamenjas",
+   "captain_note": "Robinson on Tuesday; if he has a quiet night, the differential move is Kamenjas (39 VAL on Sunday, Efes without Fernando) on Wednesday.",
+   "captain_plan": "Captain Robinson on Tuesday; if he scores under ~25 PIR, move the armband to Kamenjas on Wednesday.",
+   "reasoning": [
+    "About 177 expected and a 26% chance of 200, level with A but with more variance: Robinson and Parra boom or bust together.",
+    "Two centers in the five (Koloko, Kamenjas), as in the optimiser's top plans.",
+    "Feliz and Maledon on the bench give two strong Wednesday subs in Madrid–Zalgiris.",
+    "Nights: 4 on Tuesday, 6 on Wednesday. After Tuesday: Parra under ~19 → Maledon; Koloko under ~15 → Feliz.",
+    "Upside watch: Parra (Nebo's minutes) is the role-jump pick."
+   ],
+   "cancel_if": [
+    "If Motley starts for Zvezda, keep Diarra (skip trade 5).",
+    "If Tyrese Martin and Evbuomwan are both back for Barcelona, skip the Parra trade and keep Malcolm."
+   ]
+  }
+ ],
+ "alerts": [
+  {
+   "level": "high",
+   "text": "Change since yesterday: same 7 trades. Moneke is back for Zvezda, so Koloko is worth a bit less (chance 26%, was 30%). If Motley starts tonight, skip the Diarra → Koloko trade (Variation B)."
+  },
+  {
+   "level": "high",
+   "text": "Your bank is −0.9: make the trades before 19:00 Athens (17:00 UTC) tonight, or at least one sale, so the team is valid when the round locks."
+  },
+  {
+   "level": "",
+   "text": "Nothing in the inbox, so the team file is your squad from 20 Nov, with 11 window trades and a bank of −0.9 at official R14 prices."
+  },
+  {
+   "level": "",
+   "text": "Prices are the official R14 ones from the site's round-14 page, so the budgets are exact."
+  },
+  {
+   "level": "",
+   "text": "The site still lists Motley and Moneke as out for Zvezda, but both played on Sunday (Moneke 'ready', Motley uncertain). I've added an override that cuts Koloko from 15.3 to about 14. That is why the optimiser's Koloko plans are now only C."
+  },
+  {
+   "level": "",
+   "text": "Omoruyi (BES): you reported him out for R14, but the Besiktas absence list (eurohoops TR, 23 Nov) names only Gabriel and Nowell. I've kept your override and no variation depends on Conor Morgan."
+  },
+  {
+   "level": "",
+   "text": "Bookmaker lines: none found today for Zvezda–Virtus, Olympiacos–Hapoel or Madrid–Zalgiris. The only line found is Fenerbahçe −3.5 at Barcelona. Navarro (RED) uses the site's 77%."
+  },
+  {
+   "level": "",
+   "text": "I couldn't open the official EuroLeague R14 injury report (rate-limited). I used basketnews' rolling R14 report and fantasheet instead."
+  }
+ ],
+ "rumours": [
+  {
+   "kind": "report",
+   "team": "Crvena Zvezda",
+   "text": "Navarro: 'Tuesday's game is our priority'; Serbian internationals' loads are assessed after it. Moneke (24 pts) and Motley (21 pts, 14 reb) played Sunday's 115–88 ABA win; Chris Jones is a game-time decision.",
+   "impact": "Full minutes for Carter and Nwora tonight. Moneke's return trims Koloko's ceiling. Navarro (RED) is still the best-value coach.",
+   "source": "https://www.eurohoops.net/en/euroleague/2039271/navarro-on-zvezdas-serbian-internationals-tuesdays-game-is-our-priority/"
+  },
+  {
+   "kind": "report",
+   "team": "Olimpia Milano",
+   "text": "Alec Peters (psoas) is out and didn't travel; Bolmaro (adductor) is decided after shootaround; Booker is out. Assistant Ramondino coaches while Banchi is on Italy duty.",
+   "impact": "Diop gets more frontcourt minutes. Avoid Bolmaro. Selling Banchi (MIL) is right.",
+   "source": "https://sportando.basketball/en/olimpia-milano-without-peters-bolmaro-questionable-against-asvel/"
+  },
+  {
+   "kind": "confirmed",
+   "team": "ASVEL",
+   "text": "ASVEL and Myles Cale parted ways by mutual agreement. Pons and Bolomboy are still uncertain.",
+   "impact": "Fodzo Dada keeps some minutes, but his role is still volatile. Selling him for Marinkovic stands.",
+   "source": "https://www.eurohoops.net/en/euroleague/2039730/asvel-and-myles-cale-part-ways-by-mutual-agreement/"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Baskonia",
+   "text": "Baskonia signed big man Zacharie Perrin (22, from Lleida) through 2030; he could debut against Efes. Faried and Santos are out, Sedekerskis uncertain.",
+   "impact": "Small risk to Kamenjas' 30 minutes and to Frisch's. Kamenjas is still the only established center.",
+   "source": "https://www.eurohoops.net/en/euroleague/2039618/zacharie-perrin-to-baskonia-euroleague/"
+  },
+  {
+   "kind": "report",
+   "team": "Zalgiris",
+   "text": "Tubelis is resting his knee (listed out, awaiting confirmation). Valančiūnas was withdrawn from Lithuania's game and is expected to play at Madrid.",
+   "impact": "Good for Madrid's guards and wings (Maledon, Procida) and for Pedro Martinez (MAD).",
+   "source": "https://basketnews.com/news-212393-euroleague-injury-report-updated.html"
+  },
+  {
+   "kind": "report",
+   "team": "Besiktas",
+   "text": "Wenyen Gabriel is out long-term. Mady Sissoko's contract was reactivated and Reggie Perry has signed. Only Gabriel and Nowell are listed absent against Paris.",
+   "impact": "Besiktas are thin up front: good for Hifi's drives. Omoruyi isn't on the list, but your report wins.",
+   "source": "https://www.eurohoops.net/tr/euroleague-tr/2039770/fenerbahce-tarfin-ve-besiktas-fuzulde-ikiser-eksik/"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Barcelona",
+   "text": "Nebo is out 3–4 months (knee); Tyrese Martin's ankle is unclear; Killian Hayes didn't debut on Sunday. Players blasted the referees after the Zvezda loss.",
+   "impact": "Parra and Balcerowski get the frontcourt minutes. Robinson had −3 VAL at Tenerife on Sunday.",
+   "source": "https://www.eurohoops.net/en/euroleague/2039262/josh-nebo-out-three-to-four-months-with-knee-injury/"
+  },
+  {
+   "kind": "report",
+   "team": "Partizan",
+   "text": "Vildoza is back and travels to Dubai; Willis, Ethan Thompson and Lamar Stevens stayed in Belgrade.",
+   "impact": "Marinkovic keeps his 24' on the wing; Carlik Jones' usage stays high.",
+   "source": "https://www.eurohoops.net/en/euroleague/2039631/luca-vildoza-derek-willis-updates-partizan-euroleague/"
+  }
+ ],
+ "players": [
+  {
+   "name": "Sasha Vezenkov",
+   "verdict": "KEEP",
+   "read": "22, 28, 26, 41, 15 at 28' a night: the best floor in the game. Home to Hapoel on Wednesday. Milutinov is expected back and will take some rebounds, but Konchar's exit keeps Vezenkov's usage at the top. The Wednesday captain backup. [dom: GBL 22 Nov at Karditsa 31' PIR 5, esake.gr]"
+  },
+  {
+   "name": "Kenan Kamenjas",
+   "verdict": "KEEP",
+   "read": "19 and 25 PIR in his two Baskonia EuroLeague games at 30'. Faried and Santos are out, so he's the only established center. Perrin's signing is a small risk to his minutes. Home to Efes (Fernando out) on Wednesday. I'd put him a little above the override's 17. [dom: ACB 22 Nov at Bilbao 33' 24 pts 12 reb VAL 39, acb.com]"
+  },
+  {
+   "name": "Theo Maledon",
+   "verdict": "KEEP",
+   "read": "35, 26, 24 in his last 3 EuroLeague games at 24'. Campazzo is out again (hamstring) and Zalgiris may be without Tubelis. Your strongest Wednesday bench sub. [dom: ACB 22 Nov vs Joventut 19.8' PIR 15 (bench), acb.com]"
+  },
+  {
+   "name": "Vanja Marinkovic",
+   "verdict": "KEEP",
+   "read": "24' a night since his return from the Achilles injury. Rested (not injured) on Sunday and on no R14 injury list; at Dubai on Wednesday. Projected price rise. [dom: ABA 22 Nov vs Dubai, DNP (rest), espreso.co.rs]"
+  },
+  {
+   "name": "Kendrick Nunn",
+   "verdict": "SELL",
+   "read": "19 PIR a game and healthy, but at Valencia he's projected 15.0 against Robinson's 16.5, and the swap frees 2.1. [dom: GBL 21 Nov vs Marousi 15:37 8 pts 4 reb, gazzetta.gr]"
+  },
+  {
+   "name": "Duane Washington",
+   "verdict": "SELL",
+   "read": "25 and 33 in his last 2 off the bench, but projected only 12.0 vs Maccabi and Wiley's return crowds Bayern's rotation. Carter is 2.2 cheaper with a bigger role. [dom: BBL 22 Nov at ALBA (W 90–79), 16 pts, fcbayern.com]"
+  },
+  {
+   "name": "Filip Petrusev",
+   "verdict": "SELL",
+   "read": "Plays behind Kabengele at Dubai; projected 9.8 against Partizan. [dom: ABA 22 Nov vs Partizan (L 76–78), 12 pts 10 reb, eurohoops.net]"
+  },
+  {
+   "name": "Collin Malcolm",
+   "verdict": "SELL",
+   "read": "14.9 PIR over his last 10, but minutes down to 21–23 and projected 11.0 at Baskonia. His 10.2 pays for the upgrades. [dom: BSL 22 Nov at Trabzonspor (W 77–70), unverified after 2 searches]"
+  },
+  {
+   "name": "Aliou Diarra",
+   "verdict": "SELL",
+   "read": "Strong (18.6 a game), but at Zvezda he is the other side of your stack and Virtus are 23% to win; projected 12.6. Keep him (Variation B) only if Motley starts. [dom: LBA 22 Nov vs Roma (W 117–110), 15 pts, virtus.it]"
+  },
+  {
+   "name": "Gabriele Procida",
+   "verdict": "SELL",
+   "read": "22, −1, 0 in his last 3 at 15'; −3 in the ACB on Sunday. Ward is the better Wednesday bench body. [dom: ACB 22 Nov vs Joventut 10.6' PIR −3, acb.com]"
+  }
+ ],
+ "watchlist": [
+  {
+   "name": "Mfiondu Kabengele (DUB, 16.2)",
+   "why": "15 pts against Partizan on Sunday and faces them again on Wednesday. Buy in R15 if his minutes hold."
+  },
+  {
+   "name": "Johnny Juzang (ULK, 9.0)",
+   "why": "Upside watch: 8 → 26' with Melli and Key out 6–8 weeks. An R15 forward target."
+  },
+  {
+   "name": "Conor Morgan (BES, 8.1)",
+   "why": "The optimiser's favourite if Omoruyi is out; buy only if Besiktas confirm it (he isn't on their absence list)."
+  }
+ ],
+ "review": "No round has finished since Sunday's review, so the scorecard has nothing new. R13: your team took 4 trades (Kamenjas, Washington, Petrušev, Laso); Kamenjas's 25 was the best captain option. Calls since then: yesterday's swap of Jackson and Kabengele for Ward and Koloko holds: Konchar has left Olympiacos, so Ward's minutes are safe. Koloko is worth a little less now that Moneke is back. Research (shared with the main team): 54 searches, 38 pages read, 4 players unverified (Malcolm, Parra, Ward's line, Marinkovic's Sunday status from today's searches).",
+ "window_plan": "You have 11 window trades and A uses 7. The planner's best R14–R16 squad from scratch (Feliz, Frisch, Conor Morgan, Hifi, Ward, coach Bartzokas) averages 20.8% a round, below A's 26% for R14, and Morgan's role depends on an unconfirmed Omoruyi injury. So play R14 for itself and keep A's 2.9 bank for R15, when Olympiacos host ASVEL and Bartzokas (OLY) is the obvious coach move."
+}
