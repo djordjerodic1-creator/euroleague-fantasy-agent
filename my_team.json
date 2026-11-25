@@ -1,13 +1,13 @@
 {
   "_note": "Real squad from the user's screenshot (Round 11, 12 Nov 2026). Maintained by the agent: after each trade deadline it applies Variation A of the latest report unless the user reports otherwise (see PLAYBOOK.md, Team tracking).",
-  "round": 14,
+  "round": 15,
   "players": [
-    "Johannes Thiemann",
+    "Ousmane Diop",
     "Jordan Nwora",
     "Nadir Hifi",
     "Tyson Carter",
-    "Marc-Owen Fodzo Dada",
-    "Kostas Papanikolaou",
+    "Vanja Marinkovic",
+    "Tyson Ward",
     "Gabriele Procida",
     "Sasha Vezenkov",
     "Kenan Kamenjas",
@@ -17,28 +17,28 @@
     "starters": [
       "Nadir Hifi",
       "Tyson Carter",
-      "Marc-Owen Fodzo Dada",
       "Jordan Nwora",
-      "Johannes Thiemann"
-    ],
-    "sixth": "Kostas Papanikolaou",
-    "bench": [
-      "Gabriele Procida",
       "Sasha Vezenkov",
-      "Kenan Kamenjas",
+      "Kenan Kamenjas"
+    ],
+    "sixth": "Ousmane Diop",
+    "bench": [
+      "Vanja Marinkovic",
+      "Tyson Ward",
+      "Gabriele Procida",
       "Theo Maledon"
     ]
   },
   "captain": "Nadir Hifi",
-  "coach": "Olimpia Milano",
-  "bank": 0.2,
+  "coach": "Crvena Zvezda",
+  "bank": 0.9,
   "bank_known": true,
   "total_budget": 109.8,
   "trades_left_this_round": 4,
   "tracking": {
-    "source": "user (screenshot)",
-    "updated": "2026-11-21",
-    "last_applied_report": "2026-11-21"
+    "source": "assumed: report 2026-11-24 variation A",
+    "updated": "2026-11-25",
+    "last_applied_report": "2026-11-24"
   },
   "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. 19 Nov (user screenshot, R13 before trades): Maledon and Davidovac in the squad (not Robinson/Joksimovic); app shows 0.2/107.9, trades 0/4, formation 3-1-1, captain Vezenkov, coach Masiulis (ZAL). 21 Nov (user): unlimited-trade week, team value 109.8 in the app; at the official R14 prices (HAR 21 Nov) the squad is 109.3, so bank 0.5. 21 Nov (screenshot, R14 window): 7 of 11 trades used, 0.2/109.8, coach Banchi (MIL). User wants R14 round by round, balanced over both nights (not all on Tuesday).",
   "target_points": 200,
