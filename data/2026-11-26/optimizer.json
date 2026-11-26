@@ -1,0 +1,1208 @@
+{
+ "target": 200.0,
+ "current_best_lineup": {
+  "mean": 150.9,
+  "p90": 198.1,
+  "p10": 104.2,
+  "p_target": 0.092
+ },
+ "plans": [
+  {
+   "trades": [
+    {
+     "out": "Jordan Nwora",
+     "out_price": 14.1,
+     "in": "Marius Grigonis",
+     "in_price": 7.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Evan Fournier",
+     "in_price": 9.8
+    },
+    {
+     "out": "Vanja Marinkovic",
+     "out_price": 4.5,
+     "in": "Cory Joseph",
+     "in_price": 6.2
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.7,
+   "formation": "1-2-2",
+   "starters": [
+    "Nadir Hifi",
+    "Gabriele Procida",
+    "Sasha Vezenkov",
+    "Ousmane Diop",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Marius Grigonis",
+    "Evan Fournier",
+    "Cory Joseph",
+    "Tyson Ward"
+   ],
+   "captain": "Kenan Kamenjas",
+   "mean": 181.7,
+   "p90": 229.2,
+   "p10": 131.8,
+   "p_target": 0.331,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Ousmane Diop",
+      "Evan Fournier",
+      16.4
+     ],
+     [
+      "Gabriele Procida",
+      "Tyson Ward",
+      11.9
+     ],
+     [
+      "Theo Maledon",
+      "Cory Joseph",
+      11.5
+     ],
+     [
+      "Nadir Hifi",
+      "Marius Grigonis",
+      11.3
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Jordan Nwora",
+     "out_price": 14.1,
+     "in": "Chuma Okeke",
+     "in_price": 8.7
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Evan Fournier",
+     "in_price": 9.8
+    },
+    {
+     "out": "Vanja Marinkovic",
+     "out_price": 4.5,
+     "in": "Cory Joseph",
+     "in_price": 6.2
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.4,
+   "formation": "1-2-2",
+   "starters": [
+    "Nadir Hifi",
+    "Chuma Okeke",
+    "Sasha Vezenkov",
+    "Ousmane Diop",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Evan Fournier",
+    "Cory Joseph",
+    "Tyson Ward",
+    "Gabriele Procida"
+   ],
+   "captain": "Kenan Kamenjas",
+   "mean": 181.8,
+   "p90": 229.0,
+   "p10": 132.0,
+   "p_target": 0.327,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Ousmane Diop",
+      "Evan Fournier",
+      16.4
+     ],
+     [
+      "Chuma Okeke",
+      "Tyson Ward",
+      11.9
+     ],
+     [
+      "Theo Maledon",
+      "Cory Joseph",
+      11.5
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Jordan Nwora",
+     "out_price": 14.1,
+     "in": "Oscar Da Silva",
+     "in_price": 8.6
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Evan Fournier",
+     "in_price": 9.8
+    },
+    {
+     "out": "Vanja Marinkovic",
+     "out_price": 4.5,
+     "in": "Cory Joseph",
+     "in_price": 6.2
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.5,
+   "formation": "1-2-2",
+   "starters": [
+    "Nadir Hifi",
+    "Oscar Da Silva",
+    "Sasha Vezenkov",
+    "Ousmane Diop",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Evan Fournier",
+    "Cory Joseph",
+    "Tyson Ward",
+    "Gabriele Procida"
+   ],
+   "captain": "Kenan Kamenjas",
+   "mean": 181.8,
+   "p90": 228.5,
+   "p10": 133.1,
+   "p_target": 0.325,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Ousmane Diop",
+      "Evan Fournier",
+      16.4
+     ],
+     [
+      "Oscar Da Silva",
+      "Tyson Ward",
+      11.9
+     ],
+     [
+      "Theo Maledon",
+      "Cory Joseph",
+      11.5
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Jordan Nwora",
+     "out_price": 14.1,
+     "in": "Marius Grigonis",
+     "in_price": 7.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Andres Feliz",
+     "in_price": 9.8
+    },
+    {
+     "out": "Vanja Marinkovic",
+     "out_price": 4.5,
+     "in": "Cory Joseph",
+     "in_price": 6.2
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.7,
+   "formation": "2-1-2",
+   "starters": [
+    "Nadir Hifi",
+    "Andres Feliz",
+    "Sasha Vezenkov",
+    "Ousmane Diop",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Marius Grigonis",
+    "Cory Joseph",
+    "Tyson Ward",
+    "Gabriele Procida"
+   ],
+   "captain": "Kenan Kamenjas",
+   "mean": 181.3,
+   "p90": 226.9,
+   "p10": 133.1,
+   "p_target": 0.316,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Ousmane Diop",
+      "Tyson Ward",
+      11.9
+     ],
+     [
+      "Andres Feliz",
+      "Cory Joseph",
+      11.5
+     ],
+     [
+      "Theo Maledon",
+      "Marius Grigonis",
+      11.3
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Jordan Nwora",
+     "out_price": 14.1,
+     "in": "Marius Grigonis",
+     "in_price": 7.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Evan Fournier",
+     "in_price": 9.8
+    },
+    {
+     "out": "Vanja Marinkovic",
+     "out_price": 4.5,
+     "in": "Dario Brizuela",
+     "in_price": 7.3
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.6,
+   "formation": "2-1-2",
+   "starters": [
+    "Nadir Hifi",
+    "Dario Brizuela",
+    "Sasha Vezenkov",
+    "Ousmane Diop",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Marius Grigonis",
+    "Evan Fournier",
+    "Tyson Ward",
+    "Gabriele Procida"
+   ],
+   "captain": "Kenan Kamenjas",
+   "mean": 180.4,
+   "p90": 226.8,
+   "p10": 132.1,
+   "p_target": 0.31,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Ousmane Diop",
+      "Evan Fournier",
+      16.4
+     ],
+     [
+      "Dario Brizuela",
+      "Tyson Ward",
+      11.9
+     ],
+     [
+      "Theo Maledon",
+      "Marius Grigonis",
+      11.3
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Jordan Nwora",
+     "out_price": 14.1,
+     "in": "Marius Grigonis",
+     "in_price": 7.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Evan Fournier",
+     "in_price": 9.8
+    },
+    {
+     "out": "Vanja Marinkovic",
+     "out_price": 4.5,
+     "in": "Sebastian Herrera",
+     "in_price": 6.4
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.5,
+   "formation": "2-1-2",
+   "starters": [
+    "Nadir Hifi",
+    "Sebastian Herrera",
+    "Sasha Vezenkov",
+    "Ousmane Diop",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Marius Grigonis",
+    "Evan Fournier",
+    "Tyson Ward",
+    "Gabriele Procida"
+   ],
+   "captain": "Kenan Kamenjas",
+   "mean": 180.2,
+   "p90": 226.5,
+   "p10": 131.7,
+   "p_target": 0.306,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Ousmane Diop",
+      "Evan Fournier",
+      16.4
+     ],
+     [
+      "Sebastian Herrera",
+      "Tyson Ward",
+      11.9
+     ],
+     [
+      "Theo Maledon",
+      "Marius Grigonis",
+      11.3
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Jordan Nwora",
+     "out_price": 14.1,
+     "in": "Marius Grigonis",
+     "in_price": 7.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Evan Fournier",
+     "in_price": 9.8
+    },
+    {
+     "out": "Vanja Marinkovic",
+     "out_price": 4.5,
+     "in": "Alessandro Pajola",
+     "in_price": 7.4
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.5,
+   "formation": "2-1-2",
+   "starters": [
+    "Nadir Hifi",
+    "Alessandro Pajola",
+    "Sasha Vezenkov",
+    "Ousmane Diop",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Marius Grigonis",
+    "Evan Fournier",
+    "Tyson Ward",
+    "Gabriele Procida"
+   ],
+   "captain": "Kenan Kamenjas",
+   "mean": 180.4,
+   "p90": 226.9,
+   "p10": 132.1,
+   "p_target": 0.305,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Ousmane Diop",
+      "Evan Fournier",
+      16.4
+     ],
+     [
+      "Alessandro Pajola",
+      "Tyson Ward",
+      11.9
+     ],
+     [
+      "Theo Maledon",
+      "Marius Grigonis",
+      11.3
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Jordan Nwora",
+     "out_price": 14.1,
+     "in": "Marius Grigonis",
+     "in_price": 7.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Evan Fournier",
+     "in_price": 9.8
+    },
+    {
+     "out": "Vanja Marinkovic",
+     "out_price": 4.5,
+     "in": "Kamar Baldwin",
+     "in_price": 6.3
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.6,
+   "formation": "2-1-2",
+   "starters": [
+    "Nadir Hifi",
+    "Kamar Baldwin",
+    "Sasha Vezenkov",
+    "Ousmane Diop",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Marius Grigonis",
+    "Evan Fournier",
+    "Tyson Ward",
+    "Gabriele Procida"
+   ],
+   "captain": "Kenan Kamenjas",
+   "mean": 179.9,
+   "p90": 226.7,
+   "p10": 131.8,
+   "p_target": 0.305,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Ousmane Diop",
+      "Evan Fournier",
+      16.4
+     ],
+     [
+      "Kamar Baldwin",
+      "Tyson Ward",
+      11.9
+     ],
+     [
+      "Theo Maledon",
+      "Marius Grigonis",
+      11.3
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Jordan Nwora",
+     "out_price": 14.1,
+     "in": "Marius Grigonis",
+     "in_price": 7.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Evan Fournier",
+     "in_price": 9.8
+    },
+    {
+     "out": "Ousmane Diop",
+     "out_price": 5.1,
+     "in": "Damian Jones",
+     "in_price": 8.2
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.3,
+   "formation": "1-2-2",
+   "starters": [
+    "Nadir Hifi",
+    "Gabriele Procida",
+    "Sasha Vezenkov",
+    "Damian Jones",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Marius Grigonis",
+    "Evan Fournier",
+    "Vanja Marinkovic",
+    "Tyson Ward"
+   ],
+   "captain": "Kenan Kamenjas",
+   "mean": 180.1,
+   "p90": 226.0,
+   "p10": 131.3,
+   "p_target": 0.304,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Gabriele Procida",
+      "Evan Fournier",
+      16.4
+     ],
+     [
+      "Damian Jones",
+      "Tyson Ward",
+      11.9
+     ],
+     [
+      "Theo Maledon",
+      "Marius Grigonis",
+      11.3
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Jordan Nwora",
+     "out_price": 14.1,
+     "in": "Marius Grigonis",
+     "in_price": 7.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Evan Fournier",
+     "in_price": 9.8
+    },
+    {
+     "out": "Ousmane Diop",
+     "out_price": 5.1,
+     "in": "Nikola Tanaskovic",
+     "in_price": 8.0
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.5,
+   "formation": "1-2-2",
+   "starters": [
+    "Nadir Hifi",
+    "Gabriele Procida",
+    "Sasha Vezenkov",
+    "Nikola Tanaskovic",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Marius Grigonis",
+    "Evan Fournier",
+    "Vanja Marinkovic",
+    "Tyson Ward"
+   ],
+   "captain": "Kenan Kamenjas",
+   "mean": 179.7,
+   "p90": 225.7,
+   "p10": 131.0,
+   "p_target": 0.301,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Gabriele Procida",
+      "Evan Fournier",
+      16.4
+     ],
+     [
+      "Nikola Tanaskovic",
+      "Tyson Ward",
+      11.9
+     ],
+     [
+      "Theo Maledon",
+      "Marius Grigonis",
+      11.3
+     ]
+    ]
+   }
+  }
+ ],
+ "balanced_plans": [
+  {
+   "trades": [
+    {
+     "out": "Jordan Nwora",
+     "out_price": 14.1,
+     "in": "Marius Grigonis",
+     "in_price": 7.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Evan Fournier",
+     "in_price": 9.8
+    },
+    {
+     "out": "Vanja Marinkovic",
+     "out_price": 4.5,
+     "in": "Cory Joseph",
+     "in_price": 6.2
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.7,
+   "formation": "1-2-2",
+   "starters": [
+    "Nadir Hifi",
+    "Gabriele Procida",
+    "Sasha Vezenkov",
+    "Ousmane Diop",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Marius Grigonis",
+    "Evan Fournier",
+    "Cory Joseph",
+    "Tyson Ward"
+   ],
+   "captain": "Kenan Kamenjas",
+   "mean": 181.7,
+   "p90": 229.2,
+   "p10": 131.8,
+   "p_target": 0.331,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Ousmane Diop",
+      "Evan Fournier",
+      16.4
+     ],
+     [
+      "Gabriele Procida",
+      "Tyson Ward",
+      11.9
+     ],
+     [
+      "Theo Maledon",
+      "Cory Joseph",
+      11.5
+     ],
+     [
+      "Nadir Hifi",
+      "Marius Grigonis",
+      11.3
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Jordan Nwora",
+     "out_price": 14.1,
+     "in": "Chuma Okeke",
+     "in_price": 8.7
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Evan Fournier",
+     "in_price": 9.8
+    },
+    {
+     "out": "Vanja Marinkovic",
+     "out_price": 4.5,
+     "in": "Cory Joseph",
+     "in_price": 6.2
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.4,
+   "formation": "1-2-2",
+   "starters": [
+    "Nadir Hifi",
+    "Chuma Okeke",
+    "Sasha Vezenkov",
+    "Ousmane Diop",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Evan Fournier",
+    "Cory Joseph",
+    "Tyson Ward",
+    "Gabriele Procida"
+   ],
+   "captain": "Kenan Kamenjas",
+   "mean": 181.8,
+   "p90": 229.0,
+   "p10": 132.0,
+   "p_target": 0.327,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Ousmane Diop",
+      "Evan Fournier",
+      16.4
+     ],
+     [
+      "Chuma Okeke",
+      "Tyson Ward",
+      11.9
+     ],
+     [
+      "Theo Maledon",
+      "Cory Joseph",
+      11.5
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Jordan Nwora",
+     "out_price": 14.1,
+     "in": "Oscar Da Silva",
+     "in_price": 8.6
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Evan Fournier",
+     "in_price": 9.8
+    },
+    {
+     "out": "Vanja Marinkovic",
+     "out_price": 4.5,
+     "in": "Cory Joseph",
+     "in_price": 6.2
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.5,
+   "formation": "1-2-2",
+   "starters": [
+    "Nadir Hifi",
+    "Oscar Da Silva",
+    "Sasha Vezenkov",
+    "Ousmane Diop",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Evan Fournier",
+    "Cory Joseph",
+    "Tyson Ward",
+    "Gabriele Procida"
+   ],
+   "captain": "Kenan Kamenjas",
+   "mean": 181.8,
+   "p90": 228.5,
+   "p10": 133.1,
+   "p_target": 0.325,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Ousmane Diop",
+      "Evan Fournier",
+      16.4
+     ],
+     [
+      "Oscar Da Silva",
+      "Tyson Ward",
+      11.9
+     ],
+     [
+      "Theo Maledon",
+      "Cory Joseph",
+      11.5
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Jordan Nwora",
+     "out_price": 14.1,
+     "in": "Marius Grigonis",
+     "in_price": 7.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Andres Feliz",
+     "in_price": 9.8
+    },
+    {
+     "out": "Vanja Marinkovic",
+     "out_price": 4.5,
+     "in": "Cory Joseph",
+     "in_price": 6.2
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.7,
+   "formation": "2-1-2",
+   "starters": [
+    "Nadir Hifi",
+    "Andres Feliz",
+    "Sasha Vezenkov",
+    "Ousmane Diop",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Marius Grigonis",
+    "Cory Joseph",
+    "Tyson Ward",
+    "Gabriele Procida"
+   ],
+   "captain": "Kenan Kamenjas",
+   "mean": 181.3,
+   "p90": 226.9,
+   "p10": 133.1,
+   "p_target": 0.316,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Ousmane Diop",
+      "Tyson Ward",
+      11.9
+     ],
+     [
+      "Andres Feliz",
+      "Cory Joseph",
+      11.5
+     ],
+     [
+      "Theo Maledon",
+      "Marius Grigonis",
+      11.3
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Jordan Nwora",
+     "out_price": 14.1,
+     "in": "Marius Grigonis",
+     "in_price": 7.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Evan Fournier",
+     "in_price": 9.8
+    },
+    {
+     "out": "Vanja Marinkovic",
+     "out_price": 4.5,
+     "in": "Dario Brizuela",
+     "in_price": 7.3
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.6,
+   "formation": "2-1-2",
+   "starters": [
+    "Nadir Hifi",
+    "Dario Brizuela",
+    "Sasha Vezenkov",
+    "Ousmane Diop",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Marius Grigonis",
+    "Evan Fournier",
+    "Tyson Ward",
+    "Gabriele Procida"
+   ],
+   "captain": "Kenan Kamenjas",
+   "mean": 180.4,
+   "p90": 226.8,
+   "p10": 132.1,
+   "p_target": 0.31,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Ousmane Diop",
+      "Evan Fournier",
+      16.4
+     ],
+     [
+      "Dario Brizuela",
+      "Tyson Ward",
+      11.9
+     ],
+     [
+      "Theo Maledon",
+      "Marius Grigonis",
+      11.3
+     ]
+    ]
+   }
+  }
+ ]
+}

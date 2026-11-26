@@ -1083,6 +1083,447 @@
      }
     ]
    }
+  },
+  "14": {
+   "round": 14,
+   "report_date": "2026-11-24",
+   "variations": [
+    {
+     "total": 87.8,
+     "coach_pts": -20,
+     "players": [
+      {
+       "name": "Nadir Hifi",
+       "pir": 16,
+       "mult": 2.0,
+       "pts": 35.2
+      },
+      {
+       "name": "Tyson Carter",
+       "pir": 0,
+       "mult": 1.0,
+       "pts": 0.0
+      },
+      {
+       "name": "Jordan Nwora",
+       "pir": 17,
+       "mult": 1.0,
+       "pts": 17.0
+      },
+      {
+       "name": "Sasha Vezenkov",
+       "pir": 23,
+       "mult": 1.0,
+       "pts": 25.3
+      },
+      {
+       "name": "Kenan Kamenjas",
+       "pir": 5,
+       "mult": 1.0,
+       "pts": 5.5
+      },
+      {
+       "name": "Ousmane Diop",
+       "pir": 9,
+       "mult": 1.0,
+       "pts": 9.9
+      },
+      {
+       "name": "Vanja Marinkovic",
+       "pir": 0,
+       "mult": 0.5,
+       "pts": 0.0
+      },
+      {
+       "name": "Tyson Ward",
+       "pir": 3,
+       "mult": 0.5,
+       "pts": 1.7
+      },
+      {
+       "name": "Gabriele Procida",
+       "pir": 7,
+       "mult": 0.5,
+       "pts": 3.9
+      },
+      {
+       "name": "Theo Maledon",
+       "pir": 17,
+       "mult": 0.5,
+       "pts": 9.4
+      }
+     ],
+     "captain": "Nadir Hifi",
+     "captain_pir": 16,
+     "best_captain": "Sasha Vezenkov",
+     "best_captain_pir": 23,
+     "key": "A",
+     "name": "Hifi captain, Navarro, Ward on Wednesday",
+     "recommended": true,
+     "pred_mean": 173.4,
+     "pred_p90": 218.2,
+     "pred_p_target": 0.236
+    },
+    {
+     "total": 90.5,
+     "coach_pts": -20,
+     "players": [
+      {
+       "name": "Nadir Hifi",
+       "pir": 16,
+       "mult": 2.0,
+       "pts": 35.2
+      },
+      {
+       "name": "Tyson Carter",
+       "pir": 0,
+       "mult": 1.0,
+       "pts": 0.0
+      },
+      {
+       "name": "Jordan Nwora",
+       "pir": 17,
+       "mult": 1.0,
+       "pts": 17.0
+      },
+      {
+       "name": "Sasha Vezenkov",
+       "pir": 23,
+       "mult": 1.0,
+       "pts": 25.3
+      },
+      {
+       "name": "Kenan Kamenjas",
+       "pir": 5,
+       "mult": 1.0,
+       "pts": 5.5
+      },
+      {
+       "name": "Theo Maledon",
+       "pir": 17,
+       "mult": 1.0,
+       "pts": 18.7
+      },
+      {
+       "name": "Ousmane Diop",
+       "pir": 9,
+       "mult": 0.5,
+       "pts": 5.0
+      },
+      {
+       "name": "Vanja Marinkovic",
+       "pir": 0,
+       "mult": 0.5,
+       "pts": 0.0
+      },
+      {
+       "name": "Clement Frisch",
+       "pir": 0,
+       "mult": 0.5,
+       "pts": 0.0
+      },
+      {
+       "name": "Gabriele Procida",
+       "pir": 7,
+       "mult": 0.5,
+       "pts": 3.9
+      }
+     ],
+     "captain": "Nadir Hifi",
+     "captain_pir": 16,
+     "best_captain": "Sasha Vezenkov",
+     "best_captain_pir": 23,
+     "key": "B",
+     "name": "Same core, 4.0 in the bank for R15",
+     "recommended": false,
+     "pred_mean": 169.3,
+     "pred_p90": 214.7,
+     "pred_p_target": 0.198
+    },
+    {
+     "total": 88.2,
+     "coach_pts": -20,
+     "players": [
+      {
+       "name": "Nadir Hifi",
+       "pir": 16,
+       "mult": 2.0,
+       "pts": 35.2
+      },
+      {
+       "name": "Jordan Nwora",
+       "pir": 17,
+       "mult": 1.0,
+       "pts": 17.0
+      },
+      {
+       "name": "Joel Parra",
+       "pir": 3,
+       "mult": 1.0,
+       "pts": 3.0
+      },
+      {
+       "name": "Christian Koloko",
+       "pir": 6,
+       "mult": 1.0,
+       "pts": 6.0
+      },
+      {
+       "name": "Kenan Kamenjas",
+       "pir": 5,
+       "mult": 1.0,
+       "pts": 5.5
+      },
+      {
+       "name": "Sasha Vezenkov",
+       "pir": 23,
+       "mult": 1.0,
+       "pts": 25.3
+      },
+      {
+       "name": "Marc-Owen Fodzo Dada",
+       "pir": 6,
+       "mult": 0.5,
+       "pts": 3.0
+      },
+      {
+       "name": "Vanja Marinkovic",
+       "pir": 0,
+       "mult": 0.5,
+       "pts": 0.0
+      },
+      {
+       "name": "Gabriele Procida",
+       "pir": 7,
+       "mult": 0.5,
+       "pts": 3.9
+      },
+      {
+       "name": "Theo Maledon",
+       "pir": 17,
+       "mult": 0.5,
+       "pts": 9.4
+      }
+     ],
+     "captain": "Nadir Hifi",
+     "captain_pir": 16,
+     "best_captain": "Jordan Nwora",
+     "best_captain_pir": 17,
+     "key": "C",
+     "name": "Koloko and Parra, Tuesday frontcourt boom",
+     "recommended": false,
+     "pred_mean": 174.6,
+     "pred_p90": 219.3,
+     "pred_p_target": 0.24
+    }
+   ],
+   "team": {
+    "total": 87.8,
+    "coach_pts": -20,
+    "players": [
+     {
+      "name": "Nadir Hifi",
+      "pir": 16,
+      "mult": 2.0,
+      "pts": 35.2
+     },
+     {
+      "name": "Tyson Carter",
+      "pir": 0,
+      "mult": 1.0,
+      "pts": 0.0
+     },
+     {
+      "name": "Jordan Nwora",
+      "pir": 17,
+      "mult": 1.0,
+      "pts": 17.0
+     },
+     {
+      "name": "Sasha Vezenkov",
+      "pir": 23,
+      "mult": 1.0,
+      "pts": 25.3
+     },
+     {
+      "name": "Kenan Kamenjas",
+      "pir": 5,
+      "mult": 1.0,
+      "pts": 5.5
+     },
+     {
+      "name": "Ousmane Diop",
+      "pir": 9,
+      "mult": 1.0,
+      "pts": 9.9
+     },
+     {
+      "name": "Vanja Marinkovic",
+      "pir": 0,
+      "mult": 0.5,
+      "pts": 0.0
+     },
+     {
+      "name": "Tyson Ward",
+      "pir": 3,
+      "mult": 0.5,
+      "pts": 1.7
+     },
+     {
+      "name": "Gabriele Procida",
+      "pir": 7,
+      "mult": 0.5,
+      "pts": 3.9
+     },
+     {
+      "name": "Theo Maledon",
+      "pir": 17,
+      "mult": 0.5,
+      "pts": 9.4
+     }
+    ],
+    "captain": "Nadir Hifi",
+    "captain_pir": 16,
+    "best_captain": "Sasha Vezenkov",
+    "best_captain_pir": 23,
+    "source": "assumed: report 2026-11-24 variation A"
+   },
+   "projections": {
+    "n": 210,
+    "bias": 0.15,
+    "mae": 5.65,
+    "inside_p10_p90": 0.829,
+    "below_p10": 15,
+    "above_p90": 21,
+    "by_tier": {
+     "15+": {
+      "n": 14,
+      "bias": -3.28
+     },
+     "8-15": {
+      "n": 92,
+      "bias": -1.03
+     },
+     "<8": {
+      "n": 104,
+      "bias": 1.66
+     }
+    },
+    "upside_misses": [
+     {
+      "name": "Cory Joseph",
+      "t": "OLY",
+      "price": 6.1,
+      "owned": null,
+      "proj": 7.8,
+      "pir": 31,
+      "min": 37.8,
+      "kind": "upside"
+     },
+     {
+      "name": "Alize Johnson",
+      "t": "PRS",
+      "price": 8.5,
+      "owned": null,
+      "proj": 5.8,
+      "pir": 27,
+      "min": 23.3,
+      "kind": "upside"
+     },
+     {
+      "name": "Moses Wright",
+      "t": "MIL",
+      "price": 14.2,
+      "owned": null,
+      "proj": 15.7,
+      "pir": 35,
+      "min": 30.7,
+      "kind": "upside"
+     },
+     {
+      "name": "Shavon Shields",
+      "t": "ULK",
+      "price": 12.1,
+      "owned": null,
+      "proj": 10,
+      "pir": 28,
+      "min": 34.3,
+      "kind": "upside"
+     },
+     {
+      "name": "Marius Grigonis",
+      "t": "ZAL",
+      "price": 7.3,
+      "owned": null,
+      "proj": 8.9,
+      "pir": 26,
+      "min": 24.6,
+      "kind": "upside"
+     },
+     {
+      "name": "Justin Minaya",
+      "t": "BAR",
+      "price": 5.9,
+      "owned": null,
+      "proj": 5.8,
+      "pir": 21,
+      "min": 26.1,
+      "kind": "upside"
+     },
+     {
+      "name": "Stanley Umude",
+      "t": "BAR",
+      "price": 7.1,
+      "owned": null,
+      "proj": 4.4,
+      "pir": 18,
+      "min": 25.2,
+      "kind": "upside"
+     }
+    ],
+    "downside_misses": [
+     {
+      "name": "Jonas Valanciunas",
+      "t": "ZAL",
+      "price": 17.2,
+      "owned": null,
+      "proj": 17.1,
+      "pir": 2,
+      "min": 13.9,
+      "kind": "downside"
+     },
+     {
+      "name": "Devon Dotson",
+      "t": "BES",
+      "price": 9.4,
+      "owned": null,
+      "proj": 9.9,
+      "pir": -5,
+      "min": 12.9,
+      "kind": "downside"
+     },
+     {
+      "name": "Daniel Theis",
+      "t": "TEL",
+      "price": 11.0,
+      "owned": null,
+      "proj": 9.8,
+      "pir": -4,
+      "min": 14.8,
+      "kind": "downside"
+     },
+     {
+      "name": "Conor Morgan",
+      "t": "BES",
+      "price": 8.1,
+      "owned": null,
+      "proj": 12.7,
+      "pir": -1,
+      "min": 15.8,
+      "kind": "downside"
+     }
+    ]
+   }
   }
  }
 }
