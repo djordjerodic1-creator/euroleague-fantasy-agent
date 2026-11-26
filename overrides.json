@@ -5,31 +5,14 @@
    "club": "BAS",
    "pos": "Center",
    "status": "ok",
-   "pir": 17,
+   "pir": 14.5,
    "until_round": 17,
-   "why": "On loan from Dubai at Baskonia (the site still lists him at Dubai). EuroLeague: R12 vs Hapoel 31' PIR 19, R13 at Bayern 30' 16 pts 13 reb PIR 25. Faried and Santos out, so he's the starting center; 17 rather than 22 because Faried's return would cut his minutes."
+   "why": "On loan from Dubai at Baskonia (the site still lists him at Dubai). R12 31' PIR 19, R13 30' PIR 25, R14 v Efes only 15' PIR 5: knee knock near half-time (helped off, returned; klix.ba, gasteizhoy.com) and Zaccharie Perrin's debut (11 pts 12 reb, PIR 20) took the big minutes. Faried and Santos still out. 14.5 = shared frontcourt with Perrin plus a small knee risk."
   },
   "Nikolaos Rogkavopoulos": {
    "status": "out",
    "until_round": 16,
    "why": "Out of Panathinaikos' EuroLeague rotation (user, 21 Nov; 8' in R12 and barely played in R13). Treated as 0 until he gets real minutes."
-  },
-  "Eugene Omoruyi": {
-   "status": "out",
-   "until_round": 14,
-   "why": "Hurt in a collision with Wilbekin in Besiktas's BSL derby win over Fenerbahce (22 Nov, beinsports.com.tr); the user reports him out for R14 vs Paris."
-  },
-  "Conor Morgan": {
-   "status": "ok",
-   "pir": 12,
-   "until_round": 14,
-   "why": "Omoruyi out (R14): Morgan is the next forward. 0.53 PIR/min over his last 3 (9 PIR in 16.9'); about 23-25' in Omoruyi's role gives ~12."
-  },
-  "Christian Koloko": {
-   "status": "ok",
-   "pir": 12.5,
-   "until_round": 14,
-   "why": "The site still lists Motley and Moneke as out, but Moneke is 'ready' (24 pts in the ABA on 22 Nov) and Motley played on 22 Nov too (basketnews.com, eurohoops.net). Koloko's 15.3 assumed both were absent; 12.5 is his season level as the starting center with them back."
   }
  }
 }

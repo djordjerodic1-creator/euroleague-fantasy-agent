@@ -120,8 +120,8 @@ Cost 110.5 · bank 0.9 · coach RED · captain Nadir Hifi · clubs {'MIL': 1, 'R
 - Domestic last game (auto, ACB): 2026-11-22 @ Surne Bilbao: 33.0' 24 pts 12 reb 1 ast, league PIR 39 · https://live.acb.com/partidos/surne-bilbao-vs-kosner-baskonia-105451/estadisticas
 - Last 5 games: R12 vs HTA L 82-85: 19 PIR, 30.8 min, 12p 12r 1a (start) · R13 @ MUN L 81-100: 25 PIR, 30.2 min, 16p 13r 1a (start) · R14 vs IST W 86-81: 5 PIR, 15.3 min, 8p 2r 0a (start)
 - Price Δ last 3/5/10 rounds: None/None/None · since start 0.3 · projected change after round None · PIR≥price 2/3
-- Schedule: R15 vsTEL 17.1 (diff 5/5) | R16 @ZAL 16.0 (diff 5/5) | R17 vsBAR 17.8 (diff 5/5) | R18 vsPRS 18.0 (diff 4/5, B2B)
-- Window score (site proj, weighted): 43.2 · P10–P90 this round 5.9–29.8 · win prob 0.528
+- Schedule: R15 vsTEL 14.6 (diff 5/5) | R16 @ZAL 13.6 (diff 5/5) | R17 vsBAR 15.2 (diff 5/5) | R18 vsPRS 15.3 (diff 4/5, B2B)
+- Window score (site proj, weighted): 36.82 · P10–P90 this round 5.1–25.4 · win prob 0.528
 - When Marcio Santos, Tadas Sedekerskis, Kenneth Faried out (3 games): minutes +3.1, PIR +1.8 (avg min then 25.4)
 - Domestic league: Liga ACB (Spain)
   - news [transfer] 2026-11-23:  {"from": "DUB", "to": "BAS"}
@@ -151,7 +151,7 @@ Cost 110.5 · bank 0.9 · coach RED · captain Nadir Hifi · clubs {'MIL': 1, 'R
 - OUT Tyson Ward (score 24.49): Marius Grigonis (ZAL, 7.4cr, score 28.59, gain +4.1, own None%); Both Gach (ASV, 9.1cr, score 25.69, gain +1.2, own None%); Timothe Luwawu-Cabarrot (MAD, 9.2cr, score 24.9, gain +0.4, own None%); Oscar Da Silva (MUN, 8.6cr, score 24.82, gain +0.3, own None%)
 - OUT Gabriele Procida (score 17.79): Stefan Joksimovic (BAS, 4.0cr, score 13.45, gain -4.3, own None%); Clement Frisch (BAS, 5.5cr, score 13.3, gain -4.5, own None%); Bodian Massa (ASV, 5.7cr, score 13.06, gain -4.7, own None%); Ognjen Dobric (RED, 4.7cr, score 12.23, gain -5.6, own None%)
 - OUT Sasha Vezenkov (score 58.56): Dwayne Bacon (DUB, 14.7cr, score 39.08, gain -19.5, own None%); Azuolas Tubelis (ZAL, 13.4cr, score 37.61, gain -21.0, own None%); Shavon Shields (ULK, 12.0cr, score 33.2, gain -25.4, own None%); Dario Saric (IST, 14.5cr, score 32.94, gain -25.6, own None%)
-- OUT Kenan Kamenjas (score 43.2): Tai Odiase (HTA, 7.2cr, score 19.72, gain -23.5, own None%); Johannes Voigtmann (MUN, 6.4cr, score 16.87, gain -26.3, own None%); Georgios Papagiannis (IST, 5.8cr, score 16.09, gain -27.1, own None%); Moustapha Fall (PAN, 6.3cr, score 15.49, gain -27.7, own None%)
+- OUT Kenan Kamenjas (score 36.82): Tai Odiase (HTA, 7.2cr, score 19.72, gain -17.1, own None%); Johannes Voigtmann (MUN, 6.4cr, score 16.87, gain -19.9, own None%); Georgios Papagiannis (IST, 5.8cr, score 16.09, gain -20.7, own None%); Moustapha Fall (PAN, 6.3cr, score 15.49, gain -21.3, own None%)
 - OUT Theo Maledon (score 38.59): Justin Robinson (BAR, 13.2cr, score 39.83, gain +1.2, own None%); Carlik Jones (PAR, 14.9cr, score 38.34, gain -0.2, own None%); Andres Feliz (MAD, 9.8cr, score 36.0, gain -2.6, own None%); Lonnie Walker Iv (BES, 11.3cr, score 35.69, gain -2.9, own None%)
 
 ## Guards — market
@@ -207,10 +207,10 @@ Cost 110.5 · bank 0.9 · coach RED · captain Nadir Hifi · clubs {'MIL': 1, 'R
 ## Centers — market
 **Top window score:**
 - Mfiondu Kabengele (DUB) 16.3cr own None% · playing · Δ3 None · L3/L10 16.7/19 · min 26.8/24.1 · R15 @ZAL 17.5 (diff 5/5) | R16 vsBES 18.9 (diff 5/5) | R17 @PAM 17.2 (diff 4/5) | R18 @ASV 19.2 (diff 3/5, B2B) · Δprice None · sig buy
-- Kenan Kamenjas (BAS) 6.6cr own None% · None · Δ3 None · L3/L10 16.3/16.3 · min 25.4/25.4 · R15 vsTEL 17.1 (diff 5/5) | R16 @ZAL 16.0 (diff 5/5) | R17 vsBAR 17.8 (diff 5/5) | R18 vsPRS 18.0 (diff 4/5, B2B) · Δprice None · sig buy
 - Moses Wright (MIL) 14.3cr own None% · playing · Δ3 None · L3/L10 29.3/15.6 · min 28.5/22.5 · R15 @HTA 18 (diff 1/5) | R16 vsMUN 17.1 (diff 3/5) | R17 @BES 16.1 (diff 5/5) | R18 @IST 15.4 (diff 2/5, B2B) · Δprice None · sig hold
 - Aliou Diarra (VIR) 11.5cr own None% · playing · Δ3 None · L3/L10 22/18.9 · min 19.2/18.4 · R15 vsPAR 15.1 (diff 2/5) | R16 vsTEL 15.4 (diff 5/5) | R17 vsASV 15.5 (diff 3/5) | R18 @BAR 14.8 (diff 5/5) · Δprice None · sig buy
 - Jonas Valanciunas (ZAL) 17.2cr own None% · playing · Δ3 None · L3/L10 9.3/18 · min 18.1/20.7 · R15 vsDUB 15.8 (diff 3/5) | R16 vsBAS 15 (diff 2/5) | R17 @TEL 14.1 (diff 5/5) | R18 @HTA 14.8 (diff 1/5, B2B) · Δprice None · sig hold
+- Kenan Kamenjas (BAS) 6.6cr own None% · None · Δ3 None · L3/L10 16.3/16.3 · min 25.4/25.4 · R15 vsTEL 14.6 (diff 5/5) | R16 @ZAL 13.6 (diff 5/5) | R17 vsBAR 15.2 (diff 5/5) | R18 vsPRS 15.3 (diff 4/5, B2B) · Δprice None · sig buy
 - Zacharie Perrin (BAS) 16.3cr own None% · playing · Δ3 None · L3/L10 20/20 · min 24.2/24.2 · R15 vsTEL 13.8 (diff 5/5) | R16 @ZAL 12.9 (diff 5/5) | R17 vsBAR 14.4 (diff 5/5) | R18 vsPRS 14.5 (diff 4/5, B2B) · Δprice None · sig hold
 - Walter Tavares (MAD) 14.0cr own None% · playing · Δ3 None · L3/L10 12/14.4 · min 21.2/20 · R15 vsBAR 14.2 (diff 5/5) | R16 @PRS 13 (diff 4/5) | R17 vsMUN 13.8 (diff 3/5) | R18 vsPAM 13.5 (diff 4/5, B2B) · Δprice None · sig hold
 - Dan Oturu (HTA) 13.8cr own None% · playing · Δ3 None · L3/L10 8/13.1 · min 18.6/20.6 · R15 vsMIL 12.6 (diff 5/5) | R16 vsASV 14.1 (diff 3/5) | R17 @ULK 13.5 (diff 1/5) | R18 vsZAL 13.8 (diff 5/5, B2B) · Δprice None · sig buy
@@ -219,7 +219,7 @@ Cost 110.5 · bank 0.9 · coach RED · captain Nadir Hifi · clubs {'MIL': 1, 'R
 - Neal Sako (PAM) 10.3cr own None% · playing · Δ3 None · L3/L10 19.3/13.3 · min 21.3/19.1 · R15 @IST 11.2 (diff 2/5) | R16 vsRED 12.2 (diff 2/5) | R17 vsDUB 12.3 (diff 3/5) | R18 @MAD 11.4 (diff 4/5, B2B) · Δprice None · sig buy
 - Donta Hall (OLY) 9.6cr own None% · playing · Δ3 None · L3/L10 12.7/9 · min 17.5/13.3 · R15 vsASV 10.7 (diff 3/5) | R16 @PAN 10 (diff 1/5) | R17 @PRS 10.2 (diff 4/5) | R18 vsPAR 10.5 (diff 1/5) · Δprice None · sig hold
 **Cheap value (≤9 cr):**
-- Kenan Kamenjas (BAS) 6.6cr own None% · None · Δ3 None · L3/L10 16.3/16.3 · min 25.4/25.4 · R15 vsTEL 17.1 (diff 5/5) | R16 @ZAL 16.0 (diff 5/5) | R17 vsBAR 17.8 (diff 5/5) | R18 vsPRS 18.0 (diff 4/5, B2B) · Δprice None · sig buy
+- Kenan Kamenjas (BAS) 6.6cr own None% · None · Δ3 None · L3/L10 16.3/16.3 · min 25.4/25.4 · R15 vsTEL 14.6 (diff 5/5) | R16 @ZAL 13.6 (diff 5/5) | R17 vsBAR 15.2 (diff 5/5) | R18 vsPRS 15.3 (diff 4/5, B2B) · Δprice None · sig buy
 - Ousmane Diop (MIL) 5.1cr own None% · playing · Δ3 None · L3/L10 7.7/7.9 · min 9.9/11.5 · R15 @HTA 6.4 (diff 1/5) | R16 vsMUN 8 (diff 3/5) | R17 @BES 7.6 (diff 5/5) | R18 @IST 7.3 (diff 2/5, B2B) · Δprice None · sig buy
 - Kevarrius Hayes (PAR) 8.7cr own None% · playing · Δ3 None · L3/L10 12.3/11.6 · min 21.7/21.2 · R15 @VIR 10.9 (diff 5/5) | R16 vsBAR 10 (diff 5/5) | R17 @IST 9.3 (diff 2/5) | R18 @OLY 9.3 (diff 4/5) · Δprice None · sig buy
 - Mouhamed Faye (PRS) 8.6cr own None% · playing · Δ3 None · L3/L10 10/12.6 · min 19.4/19.1 · R15 @MUN 9.5 (diff 3/5) | R16 vsMAD 9.8 (diff 5/5) | R17 vsOLY 9.8 (diff 4/5) | R18 @BAS 9.8 (diff 2/5) · Δprice None · sig buy

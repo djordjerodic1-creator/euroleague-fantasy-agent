@@ -1,0 +1,355 @@
+{
+ "date": "2026-11-26",
+ "generated": "2026-11-26T11:30Z",
+ "round": 15,
+ "budget": {
+  "total": 111.4,
+  "bank": 0.9
+ },
+ "window": "R15 (3–4 Dec): 4 trades, locked at Thursday 3 Dec 19:30 Athens (Efes–Valencia). No games until then: FIBA window 26 Nov – 1 Dec.",
+ "bottom_line": "R14 was a bust (about 88: Navarro −20, Carter 0, Kamenjas hurt his knee). For R15 move to Olympiacos at home to ASVEL: Nwora → Grigonis, Navarro → Bartzokas (OLY), Carter → Lonnie Walker, Procida → Abalde, captain Vezenkov. About 24% for 200 under your 2-per-game rule (8% as you stand); dropping the rule (Variation C, Fournier + Cory Joseph) gets about 29%.",
+ "current_fix": "With no trades: captain Vezenkov (Friday, home to ASVEL), Ward as the Friday sub for any quiet Thursday starter. About 148 expected, an 8% chance of 200.",
+ "variations": [
+  {
+   "key": "A",
+   "name": "Bartzokas, Grigonis and Walker",
+   "recommended": true,
+   "risk": "Medium",
+   "tagline": "Out of Zvezda, into Olympiacos' home game with ASVEL. Your 2-per-game rule kept, 6 on Thursday and 4 on Friday, 0.8 left.",
+   "trades": [
+    {
+     "out": "Jordan Nwora (14.1)",
+     "in": "Marius Grigonis (7.4)",
+     "credits": "+6.7",
+     "why": "Zvezda are 31% at Fenerbahçe and Navarro's rotation is all over the place. Grigonis: 26 PIR at Madrid (24 pts, 5/6 from three), wider role with Lo, Sirvydis and Williams-Goss out, home to Dubai on Friday, and not in Lithuania's window squad. [dom: LKL 22 Nov at Lietkabelis, stat line unverified after 2 searches, krepsinis.net]"
+    },
+    {
+     "out": "Coach Navarro (RED) (6.8)",
+     "in": "Coach Bartzokas (OLY) (10.2)",
+     "credits": "−3.4",
+     "why": "Olympiacos are 94% at home to ASVEL (site margin +18): ASVEL have lost six in a row. That puts the +20/+25 brackets in reach. Navarro (RED) is 31% away and just lost by 24 at home."
+    },
+    {
+     "out": "Tyson Carter (9.0)",
+     "in": "Lonnie Walker Iv (11.3)",
+     "credits": "−2.3",
+     "why": "Carter: 0 PIR in 15.7' and his minutes swing every week. Walker: 16, 18, 28 PIR in his last three (24 pts v Paris) and Besiktas' top option with Nowell out; home to Panathinaikos on Friday. [dom: unverified after 2 searches]"
+    },
+    {
+     "out": "Gabriele Procida (4.9)",
+     "in": "Alberto Abalde (6.0)",
+     "credits": "−1.1",
+     "why": "Procida: 0, −1, 7 in his last three and −3 in the ACB. Abalde has 23' a night as Madrid's starting forward and is home to a Barcelona without Nebo; a Campazzo return hits the guards, not him. [dom: unverified after 2 searches]"
+    }
+   ],
+   "bank_after": 0.8,
+   "formation": "1-2-2",
+   "starters": [
+    "Nadir Hifi",
+    "Alberto Abalde",
+    "Sasha Vezenkov",
+    "Ousmane Diop",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Marius Grigonis",
+    "Lonnie Walker Iv",
+    "Vanja Marinkovic",
+    "Tyson Ward"
+   ],
+   "coach": "Olympiacos",
+   "captain": "Sasha Vezenkov",
+   "vice": "Nadir Hifi",
+   "captain_note": "Vezenkov: 26.3 PIR over his last three, home to the league's 19th-ranked defence, with Bartzokas and Ward in the same game. Kamenjas lost the armband: knee knock in R14, and Perrin now shares the frontcourt.",
+   "captain_plan": "Captain Vezenkov from the start. Move the armband only if Hifi scores 35+ on Thursday and the Olympiacos game looks like a 25-point blowout.",
+   "reasoning": [
+    "About 24% for 200 and 175 expected (8% as you stand). It is the best plan the optimiser finds under your max-2-players-per-game rule.",
+    "Coach lens: ASVEL are in crisis (six straight losses, Cale released, Parker talking about changes). Bartzokas plus Vezenkov and Ward is the correlated boom.",
+    "Nights: Thursday Hifi, Abalde, Diop, Kamenjas, Maledon, Marinkovic; Friday Vezenkov, Grigonis, Walker, Ward. After Thursday: Diop under ~16 → Walker; Abalde under ~12 → Ward; Maledon under ~11 → Grigonis.",
+    "Diop is the cheapest Thursday starter by design (your rule): Milano just signed Onyema, so expect about 10' and a swap to Walker.",
+    "Upside watch: Grigonis is the pick (role jump with Zalgiris' injuries); Ward already holds Konchar's minutes. Cory Joseph would make a third Olympiacos player, which your rule doesn't allow (see C)."
+   ],
+   "cancel_if": [
+    "If Kamenjas is ruled out with the knee, swap trade 4 to Kamenjas → Mouhamet Diouf (8.4) and keep Procida (bank 0.1).",
+    "If Campazzo is confirmed out for the Clásico, keep the plan; if he's in and Abalde's role shrinks, swap trade 4 to Procida → Dustin Sleva (6.1).",
+    "If Olympiacos sign McKissic before Thursday, Ward drops to bench-only; the plan stands."
+   ]
+  },
+  {
+   "key": "B",
+   "name": "Feliz and Sleva, 2.2 in the bank",
+   "recommended": false,
+   "risk": "Low",
+   "tagline": "Same coach and Zvezda exit, Feliz at home in the Clásico instead of Walker, and 2.2 left for R16.",
+   "trades": [
+    {
+     "out": "Jordan Nwora (14.1)",
+     "in": "Marius Grigonis (7.4)",
+     "credits": "+6.7",
+     "why": "As in A: Zvezda 31% in Istanbul; Grigonis 26 PIR last time out. [dom: LKL 22 Nov, unverified after 2 searches, krepsinis.net]"
+    },
+    {
+     "out": "Coach Navarro (RED) (6.8)",
+     "in": "Coach Bartzokas (OLY) (10.2)",
+     "credits": "−3.4",
+     "why": "Olympiacos 94% at home to ASVEL; Navarro (RED) 31% away."
+    },
+    {
+     "out": "Tyson Carter (9.0)",
+     "in": "Andres Feliz (9.8)",
+     "credits": "−0.8",
+     "why": "Feliz: 21 PIR v Zalgiris and 22 valuation in the ACB; Barcelona come without Nebo and Punter. Risk: Campazzo is 'expected' back for this game, which would trim his minutes. [dom: ACB 22 Nov v Joventut, 23 pts, val 22, unocontraunoweb.com]"
+    },
+    {
+     "out": "Gabriele Procida (4.9)",
+     "in": "Dustin Sleva (6.1)",
+     "credits": "−1.2",
+     "why": "Procida is out of form; Sleva gives a Friday sub at Zalgiris (11 PIR in 15' at Madrid). [dom: unverified after 2 searches]"
+    }
+   ],
+   "bank_after": 2.2,
+   "formation": "2-2-1",
+   "starters": [
+    "Theo Maledon",
+    "Andres Feliz",
+    "Sasha Vezenkov",
+    "Marius Grigonis",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Nadir Hifi",
+   "bench": [
+    "Tyson Ward",
+    "Dustin Sleva",
+    "Ousmane Diop",
+    "Vanja Marinkovic"
+   ],
+   "coach": "Olympiacos",
+   "captain": "Sasha Vezenkov",
+   "vice": "Theo Maledon",
+   "captain_note": "Vezenkov is the template captain; safe for rank. The only risk is a blowout cutting his 4th quarter.",
+   "reasoning": [
+    "Slightly lower ceiling than A, but Feliz is a steadier pick than Walker and 2.2 in the bank covers stale prices and starts the R16 fund.",
+    "Keeps your 2-per-game rule: two Madrid, two Zalgiris, two Olympiacos.",
+    "Thursday 6 (Maledon, Feliz, Hifi, Kamenjas, Diop, Marinkovic), Friday 4 (Vezenkov, Grigonis, Ward, Sleva).",
+    "Upside watch: Grigonis in; Sleva is the Friday bench sub."
+   ],
+   "cancel_if": [
+    "If Campazzo is confirmed back for Thursday, use A's Carter → Walker instead of Feliz.",
+    "If Vezenkov picks up a knock with Bulgaria, captain Maledon."
+   ]
+  },
+  {
+   "key": "C",
+   "name": "Moonshot: drop the 2-per-game rule",
+   "recommended": false,
+   "risk": "High",
+   "tagline": "Four Olympiacos players plus Bartzokas at home to ASVEL. About 29%, the optimiser's top plan, if your rule was only for R14.",
+   "trades": [
+    {
+     "out": "Jordan Nwora (14.1)",
+     "in": "Marius Grigonis (7.4)",
+     "credits": "+6.7",
+     "why": "Funds the stack; Zvezda 31% in Istanbul. [dom: LKL 22 Nov, unverified after 2 searches, krepsinis.net]"
+    },
+    {
+     "out": "Coach Navarro (RED) (6.8)",
+     "in": "Coach Bartzokas (OLY) (10.2)",
+     "credits": "−3.4",
+     "why": "With four Olympiacos players, he is the multiplier on the round's most lopsided game."
+    },
+    {
+     "out": "Tyson Carter (9.0)",
+     "in": "Evan Fournier (9.8)",
+     "credits": "−0.8",
+     "why": "23 pts and 11 ast (27 PIR) v Hapoel at 32'; Montero is out for the season, Konchar has left and Bartzokas has 'no timeline' for Dorsey. [dom: GBL 22 Nov at Karditsa, 15 pts, minutes unverified, olympiacosbc.gr]"
+    },
+    {
+     "out": "Vanja Marinkovic (4.5)",
+     "in": "Cory Joseph (6.2)",
+     "credits": "−1.7",
+     "why": "Career-high 27 pts (31 PIR in 38') v Hapoel as the de facto starting point guard. Marinkovic scored 0 in 11.7' (foul trouble). [dom: GBL 22 Nov at Karditsa, 15 pts, minutes unverified, olympiacosbc.gr]"
+    }
+   ],
+   "bank_after": 1.7,
+   "formation": "1-2-2",
+   "starters": [
+    "Nadir Hifi",
+    "Gabriele Procida",
+    "Sasha Vezenkov",
+    "Ousmane Diop",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Marius Grigonis",
+    "Evan Fournier",
+    "Cory Joseph",
+    "Tyson Ward"
+   ],
+   "coach": "Olympiacos",
+   "captain": "Sasha Vezenkov",
+   "vice": "Nadir Hifi",
+   "captain_note": "Vezenkov, with Fournier and Joseph ready as Friday subs: if Olympiacos win by 20, five slots plus the coach boom together.",
+   "reasoning": [
+    "About 29% for 200, the optimiser's best plan overall, but four players from one game: if Olympiacos lose (6%) or the starters sit the 4th quarter, the round sinks together.",
+    "Cheap Thursday starters (Procida, Diop) with strong Friday bench (Fournier, Joseph, Grigonis, Ward): 5 on each night, the shape your rule asks for.",
+    "After Thursday: Diop under ~16 → Fournier; Procida under ~12 → Ward; Maledon under ~12 → Joseph; Hifi under ~11 → Grigonis.",
+    "Upside watch: Joseph and Grigonis are both role-jump picks.",
+    "Write 'per-game rule off' in the inbox and this becomes the recommendation."
+   ],
+   "cancel_if": [
+    "If Dorsey is cleared for Friday, swap trade 4 back to Marinkovic → Dustin Sleva (6.1).",
+    "If Olympiacos sign McKissic, keep Fournier but drop Joseph for Sleva."
+   ]
+  }
+ ],
+ "alerts": [
+  {
+   "level": "high",
+   "text": "No round has started since yesterday's report, so nothing new was applied to my_team.json (24 Nov Variation A stays). R15 trades lock Thursday 3 Dec 19:30 Athens."
+  },
+  {
+   "level": "high",
+   "text": "Kamenjas hurt his knee in R14 (helped off before half-time, came back, 15' and 5 PIR), and new signing Perrin had 20 PIR in his debut. I cut his expected PIR from 17 to 14.5 and took the armband off him: Vezenkov is captain in all three variations."
+  },
+  {
+   "level": "high",
+   "text": "Prices are still R14's (the site's R15 price page isn't out). All variations keep 0.8+ in the bank; re-import app prices once the game updates."
+  },
+  {
+   "level": "",
+   "text": "Your 2-per-game rule costs about 5 points of probability this round (25% vs 29%), because Olympiacos–ASVEL is the round's most lopsided game. A and B keep it; C drops it. Write 'per-game rule off' in inbox/team.md if it was only for R14."
+  },
+  {
+   "level": "",
+   "text": "FIBA window: Vezenkov (Bulgaria v Denmark, 26 Nov), Procida (Italy, 29 Nov in Belgrade), Kamenjas (Bosnia, 26 and 29 Nov, after the knee knock). Hifi withdrew from France's squad to rest. The daily runs will re-check before Thursday."
+  },
+  {
+   "level": "",
+   "text": "R14 miss: Navarro (RED) −20 after 84–108 at home to Virtus, Carter 0, Kamenjas 5. Olympiacos (104–79) and Madrid (108–93) won big: that's where R15 goes."
+  }
+ ],
+ "rumours": [
+  {
+   "kind": "report",
+   "team": "Olympiacos",
+   "text": "Olympiacos are chasing Shaquielle McKissic to replace Konchar, but need an agreement with Türk Telekom first. Bartzokas has 'no timeline' for Dorsey, who is with Greece for the window.",
+   "impact": "Fournier and Cory Joseph keep big minutes for R15. McKissic would mainly cut Ward's minutes. Bartzokas (OLY) is the R15 coach pick either way.",
+   "source": "https://www.eurohoops.net/en/euroleague/2040988/"
+  },
+  {
+   "kind": "report",
+   "team": "Real Madrid",
+   "text": "Campazzo (hamstring) is 'expected' back for the Clásico on 3 Dec; he was at practice on 24 Nov but couldn't take part, and is out of Argentina's window.",
+   "impact": "If he plays, Maledon's and Feliz's minutes drop a little (B's risk); Abalde and Tavares are unaffected.",
+   "source": "https://defensacentral.com/baloncesto/facu-campazzo-ya-tiene-fecha-volver-jugar-con-real-madrid-clasico-euroliga-proximo-3-diciembre_346897_102.html"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Baskonia",
+   "text": "Kamenjas took a knee knock against Efes and was helped off, but returned; Perrin debuted with 11 pts, 12 reb, 20 PIR. Faried is still out.",
+   "impact": "Kamenjas' minutes ceiling drops from 30' to ~25'; not a captain this round.",
+   "source": "https://www.klix.ba/sport/kosarka/kamenjasa-saigraci-iznijeli-s-parketa-ali-se-vratio-i-odigrao-dobro-u-pobjedi-baskonije/261125219"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Olimpia Milano",
+   "text": "Milano signed centre Ze'Rik Onyema on 25 Nov with Booker and Peters (psoas, two weeks) out.",
+   "impact": "Diop's 10' don't grow; he's only a cheap Thursday starter to sub out.",
+   "source": "https://www.eurohoops.net/en/euroleague/2040519/"
+  },
+  {
+   "kind": "report",
+   "team": "Crvena Zvezda",
+   "text": "Navarro blamed fatigue ('maybe we shouldn't have practiced') for the 84–108 loss; the Serbian federation hit back at his comments on resting national-team players.",
+   "impact": "Rotation unpredictable: Carter's minutes swing week to week. Navarro (RED) at Fenerbahçe is a coach to avoid.",
+   "source": "https://basketnews.com/news-260157-zvezda-coach-takes-responsibility-for-collapse-maybe-we-shouldnt-have-practiced.html"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Partizan",
+   "text": "Vildoza (ankle), Stevens (calf, 4–6 weeks), Thompson and Willis all missed R14 at Dubai.",
+   "impact": "Marinkovic and Franks keep their minutes; Marinkovic's 11.7' in R14 were foul trouble.",
+   "source": "https://www.tvarenasport.com/evroliga/evroliga-kk-partizan/82987/"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Barcelona",
+   "text": "Nebo out 3–4 months (patellar tendon), Punter until late December; Killian Hayes signed, Gibson may return around R15.",
+   "impact": "Helps Madrid's bigs and guards in the Clásico; Robinson's load eases once Hayes plays.",
+   "source": "https://basketnews.com/news-260023-barca-face-another-major-injury-setback-key-big-man-out-longterm.html"
+  }
+ ],
+ "players": [
+  {
+   "name": "Sasha Vezenkov",
+   "verdict": "KEEP/CAPTAIN",
+   "read": "23 PIR v Hapoel (21 pts, 31'), 26.3 over his last three. Home to ASVEL on Friday at 94%: I agree with the site's 24.7 and he's the captain. Plays one game for Bulgaria (26 Nov), flown in privately: small load risk. [dom: GBL 22 Nov 31' PIR 5, esake.gr]"
+  },
+  {
+   "name": "Nadir Hifi",
+   "verdict": "KEEP",
+   "read": "16 PIR at Besiktas; Paris have won seven straight. Withdrew from France's window to rest, so he arrives fresh at Bayern (61%, 186 projected total). Thursday vice-captain. [dom: LNB 21–22 Nov unverified after 2 searches; 14 Nov v Limoges 23' 22 pts, eurohoops.net]"
+  },
+  {
+   "name": "Theo Maledon",
+   "verdict": "KEEP",
+   "read": "17 PIR v Zalgiris in 19.5' (15 pts). Home to a gutted Barcelona; a Campazzo return would trim his minutes slightly, so I'm a bit below the site's 18. 6th man on Thursday. [dom: ACB 22 Nov v Joventut 19.8' PIR 15, acb.com]"
+  },
+  {
+   "name": "Kenan Kamenjas",
+   "verdict": "KEEP",
+   "read": "5 PIR in 15' v Efes: knee knock near half-time (helped off, came back), and Perrin's 20-PIR debut took the big minutes. Still the starting centre with Faried and Santos out; I now expect ~14.5, not 17. Home to Maccabi. [dom: ACB 22 Nov at Bilbao 33' PIR 39, acb.com]"
+  },
+  {
+   "name": "Jordan Nwora",
+   "verdict": "SELL",
+   "read": "17 PIR (12 pts, 7 reb) in the 84–108 loss to Virtus. Zvezda are 31% at Fenerbahçe and pundits say he's 'constantly forgotten' in Navarro's offence. At 14.1 he funds the plan. [dom: none since 22 Nov (ABA resumes 6 Dec); 22 Nov v Cibona 15' PIR 14, aba-liga.com]"
+  },
+  {
+   "name": "Tyson Carter",
+   "verdict": "SELL",
+   "read": "0 PIR in 15.7' a week after 30 at Barcelona: minutes swing with Navarro's mood, and Fenerbahçe have the 5th-best defence. Sell. [dom: ABA 22 Nov v Cibona DNP (rest), aba-liga.com]"
+  },
+  {
+   "name": "Tyson Ward",
+   "verdict": "KEEP",
+   "read": "3 PIR in 23.5' v Hapoel; 9 per game over the season. Keeps Konchar's wing minutes until McKissic (rumoured) arrives. Friday bench sub at home to ASVEL; I'm below the site's 10.9. [dom: unverified after 2 searches]"
+  },
+  {
+   "name": "Ousmane Diop",
+   "verdict": "KEEP",
+   "read": "9 PIR in 9.3' at ASVEL. Milano signed Onyema to share the centre load, so ~10' stays his ceiling. Kept only as the cheap Thursday starter to sub out. [dom: unverified after 2 searches]"
+  },
+  {
+   "name": "Vanja Marinkovic",
+   "verdict": "WATCH",
+   "read": "0 PIR in 11.7' at Dubai: third foul around minute 26. Vildoza is still out, so the minutes are there, but 4.4 PIR a game is a 10th-man level. Sold in C. [dom: ABA 22 Nov v Dubai, stats unverified, aba-liga.com]"
+  },
+  {
+   "name": "Gabriele Procida",
+   "verdict": "SELL",
+   "read": "7 PIR in 15' v Zalgiris after 0 and −1. With Italy for Serbia on 29 Nov. Abalde is the better Madrid forward for R15. [dom: ACB 22 Nov v Joventut 10.6' PIR −3, acb.com]"
+  }
+ ],
+ "watchlist": [
+  {
+   "name": "Cory Joseph (OLY, 6.2)",
+   "why": "31 PIR in 38' v Hapoel as the starting point guard with Montero, Dorsey and Konchar gone. Buy if your per-game rule is off (Variation C)."
+  },
+  {
+   "name": "Evan Fournier (OLY, 9.8)",
+   "why": "27 PIR (23 pts, 11 ast). Buy for R15–R16 if the rule is off; sell signal is Dorsey's return."
+  },
+  {
+   "name": "Aliou Diarra (VIR, 11.5)",
+   "why": "27 PIR at Zvezda, 22 over his last three, home to Partizan on Thursday. The centre upgrade if Kamenjas' knee is a problem."
+  },
+  {
+   "name": "Moses Wright (MIL, 14.3)",
+   "why": "35 PIR in R14 with Booker and Peters out; at Hapoel in R15. A ceiling centre for R16 (home to Bayern) once the bank allows."
+  }
+ ],
+ "review": "R14 (scorecard): Variation A scored 87.8 against 173 predicted (B 90.5, C 88.2); the scorecard uses the pre-round lineup, so with last night's swaps (Vezenkov captain, Ward in) it was nearer 110. Captain Hifi 16 vs best Vezenkov 23. Three things sank it: Navarro (RED) −20 after Zvezda lost 84–108 at home, Carter 0, and Kamenjas' knee knock (5 PIR). I backed Navarro's words and a coach on a home favourite before a FIBA break; lesson kept from yesterday: no coach on a team in a slump, whatever the press conference says. Projections: stars (15+) were 3.3 PIR under projection, cheap players 1.7 over, and the biggest upside misses were Cory Joseph (31 vs 7.8) and Grigonis (26 vs 8.9): role jumps again, so both are in today's plans. Two rounds in a row the best captain was the Olympiacos home star (Vezenkov), so the armband goes to him by default this round. Research: 80 searches, 40 pages read, 7 players unverified (Hifi's last LNB game, Ward, Diop, Grigonis, Walker, Abalde, Sleva domestic lines)."
+}

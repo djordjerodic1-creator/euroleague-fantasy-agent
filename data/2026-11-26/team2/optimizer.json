@@ -1,10 +1,10 @@
 {
  "target": 200.0,
  "current_best_lineup": {
-  "mean": 147.2,
-  "p90": 195.3,
-  "p10": 100.2,
-  "p_target": 0.077
+  "mean": 143.9,
+  "p90": 191.3,
+  "p10": 97.1,
+  "p_target": 0.065
  },
  "plans": [
   {
@@ -51,11 +51,11 @@
     "Tyson Ward",
     "Clement Frisch"
    ],
-   "captain": "Kenan Kamenjas",
-   "mean": 181.9,
-   "p90": 229.3,
-   "p10": 131.3,
-   "p_target": 0.333,
+   "captain": "Sasha Vezenkov",
+   "mean": 178.9,
+   "p90": 227.3,
+   "p10": 127.2,
+   "p_target": 0.309,
    "nights": {
     "count": {
      "1": 6,
@@ -130,11 +130,11 @@
     "Tyson Ward",
     "Clement Frisch"
    ],
-   "captain": "Kenan Kamenjas",
-   "mean": 181.2,
-   "p90": 228.5,
-   "p10": 131.5,
-   "p_target": 0.323,
+   "captain": "Sasha Vezenkov",
+   "mean": 178.4,
+   "p90": 227.3,
+   "p10": 127.0,
+   "p_target": 0.301,
    "nights": {
     "count": {
      "1": 6,
@@ -158,83 +158,7 @@
       11.9
      ],
      [
-      "Aliou Diarra",
-      "Cory Joseph",
-      11.5
-     ]
-    ]
-   }
-  },
-  {
-   "trades": [
-    {
-     "out": "Tyson Carter",
-     "out_price": 9.0,
-     "in": "Cory Joseph",
-     "in_price": 6.2
-    },
-    {
-     "out": "Coach RED",
-     "out_price": 6.8,
-     "in": "Coach OLY",
-     "in_price": 10.2
-    },
-    {
-     "out": "Christian Koloko",
-     "out_price": 10.6,
-     "in": "Aliou Diarra",
-     "in_price": 11.5
-    },
-    {
-     "out": "Clement Frisch",
-     "out_price": 5.5,
-     "in": "Alberto Abalde",
-     "in_price": 6.0
-    }
-   ],
-   "coach": "OLY",
-   "bank_after": 0.9,
-   "formation": "1-2-2",
-   "starters": [
-    "Theo Maledon",
-    "Sasha Vezenkov",
-    "Jordan Nwora",
-    "Kenan Kamenjas",
-    "Aliou Diarra"
-   ],
-   "sixth": "Justin Robinson",
-   "bench": [
-    "Tyson Ward",
-    "Cory Joseph",
-    "Alberto Abalde",
-    "Vanja Marinkovic"
-   ],
-   "captain": "Sasha Vezenkov",
-   "mean": 180.3,
-   "p90": 226.8,
-   "p10": 132.1,
-   "p_target": 0.307,
-   "nights": {
-    "count": {
-     "1": 7,
-     "2": 3
-    },
-    "starters": {
-     "1": 4,
-     "2": 1
-    },
-    "balanced": false,
-    "reasons": [
-     "only 3 of 10 play on night 2"
-    ],
-    "plan": [
-     [
-      "Jordan Nwora",
-      "Tyson Ward",
-      11.9
-     ],
-     [
-      "Justin Robinson",
+      "Kenan Kamenjas",
       "Cory Joseph",
       11.5
      ]
@@ -275,8 +199,8 @@
     "Theo Maledon",
     "Evan Fournier",
     "Sasha Vezenkov",
-    "Kenan Kamenjas",
-    "Aliou Diarra"
+    "Aliou Diarra",
+    "Kenan Kamenjas"
    ],
    "sixth": "Andres Feliz",
    "bench": [
@@ -286,10 +210,10 @@
     "Vanja Marinkovic"
    ],
    "captain": "Sasha Vezenkov",
-   "mean": 179.7,
-   "p90": 228.4,
-   "p10": 129.7,
-   "p_target": 0.307,
+   "mean": 177.1,
+   "p90": 225.2,
+   "p10": 126.9,
+   "p_target": 0.279,
    "nights": {
     "count": {
      "1": 7,
@@ -305,88 +229,9 @@
     ],
     "plan": [
      [
-      "Andres Feliz",
+      "Kenan Kamenjas",
       "Tyson Ward",
       11.9
-     ]
-    ]
-   }
-  },
-  {
-   "trades": [
-    {
-     "out": "Tyson Carter",
-     "out_price": 9.0,
-     "in": "Cory Joseph",
-     "in_price": 6.2
-    },
-    {
-     "out": "Coach RED",
-     "out_price": 6.8,
-     "in": "Coach OLY",
-     "in_price": 10.2
-    },
-    {
-     "out": "Christian Koloko",
-     "out_price": 10.6,
-     "in": "Aliou Diarra",
-     "in_price": 11.5
-    },
-    {
-     "out": "Clement Frisch",
-     "out_price": 5.5,
-     "in": "Arnas Butkevicius",
-     "in_price": 6.5
-    }
-   ],
-   "coach": "OLY",
-   "bank_after": 0.4,
-   "formation": "1-2-2",
-   "starters": [
-    "Justin Robinson",
-    "Sasha Vezenkov",
-    "Jordan Nwora",
-    "Aliou Diarra",
-    "Kenan Kamenjas"
-   ],
-   "sixth": "Theo Maledon",
-   "bench": [
-    "Cory Joseph",
-    "Vanja Marinkovic",
-    "Tyson Ward",
-    "Arnas Butkevicius"
-   ],
-   "captain": "Kenan Kamenjas",
-   "mean": 180.0,
-   "p90": 224.8,
-   "p10": 133.4,
-   "p_target": 0.301,
-   "nights": {
-    "count": {
-     "1": 6,
-     "2": 4
-    },
-    "starters": {
-     "1": 4,
-     "2": 1
-    },
-    "balanced": true,
-    "reasons": [],
-    "plan": [
-     [
-      "Jordan Nwora",
-      "Tyson Ward",
-      11.9
-     ],
-     [
-      "Justin Robinson",
-      "Cory Joseph",
-      11.5
-     ],
-     [
-      "Aliou Diarra",
-      "Arnas Butkevicius",
-      8.4
      ]
     ]
    }
@@ -435,11 +280,11 @@
     "Tyson Ward",
     "Clement Frisch"
    ],
-   "captain": "Kenan Kamenjas",
-   "mean": 179.9,
-   "p90": 225.0,
-   "p10": 131.8,
-   "p_target": 0.3,
+   "captain": "Sasha Vezenkov",
+   "mean": 177.1,
+   "p90": 223.8,
+   "p10": 128.4,
+   "p_target": 0.276,
    "nights": {
     "count": {
      "1": 6,
@@ -496,24 +341,24 @@
    "bank_after": 0.8,
    "formation": "1-2-2",
    "starters": [
-    "Theo Maledon",
+    "Justin Robinson",
     "Sasha Vezenkov",
     "Dwayne Bacon",
     "Aliou Diarra",
     "Kenan Kamenjas"
    ],
-   "sixth": "Justin Robinson",
+   "sixth": "Theo Maledon",
    "bench": [
     "Cory Joseph",
     "Vanja Marinkovic",
     "Tyson Ward",
     "Clement Frisch"
    ],
-   "captain": "Kenan Kamenjas",
-   "mean": 179.8,
-   "p90": 223.8,
-   "p10": 133.2,
-   "p_target": 0.299,
+   "captain": "Sasha Vezenkov",
+   "mean": 176.9,
+   "p90": 222.8,
+   "p10": 128.8,
+   "p_target": 0.276,
    "nights": {
     "count": {
      "1": 6,
@@ -527,12 +372,88 @@
     "reasons": [],
     "plan": [
      [
-      "Justin Robinson",
+      "Kenan Kamenjas",
       "Tyson Ward",
       11.9
      ],
      [
-      "Aliou Diarra",
+      "Justin Robinson",
+      "Cory Joseph",
+      11.5
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Cory Joseph",
+     "in_price": 6.2
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Christian Koloko",
+     "out_price": 10.6,
+     "in": "Aliou Diarra",
+     "in_price": 11.5
+    },
+    {
+     "out": "Clement Frisch",
+     "out_price": 5.5,
+     "in": "Alberto Abalde",
+     "in_price": 6.0
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.9,
+   "formation": "1-2-2",
+   "starters": [
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Jordan Nwora",
+    "Aliou Diarra",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Justin Robinson",
+   "bench": [
+    "Tyson Ward",
+    "Cory Joseph",
+    "Alberto Abalde",
+    "Vanja Marinkovic"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 177.7,
+   "p90": 224.0,
+   "p10": 129.5,
+   "p_target": 0.275,
+   "nights": {
+    "count": {
+     "1": 7,
+     "2": 3
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": false,
+    "reasons": [
+     "only 3 of 10 play on night 2"
+    ],
+    "plan": [
+     [
+      "Jordan Nwora",
+      "Tyson Ward",
+      11.9
+     ],
+     [
+      "Kenan Kamenjas",
       "Cory Joseph",
       11.5
      ]
@@ -583,11 +504,11 @@
     "Tyson Ward",
     "Clement Frisch"
    ],
-   "captain": "Kenan Kamenjas",
-   "mean": 179.8,
-   "p90": 225.1,
-   "p10": 131.8,
-   "p_target": 0.299,
+   "captain": "Sasha Vezenkov",
+   "mean": 177.0,
+   "p90": 224.1,
+   "p10": 127.9,
+   "p_target": 0.274,
    "nights": {
     "count": {
      "1": 6,
@@ -604,6 +525,80 @@
       "Mouhamet Diouf",
       "Evan Fournier",
       16.4
+     ],
+     [
+      "Justin Robinson",
+      "Tyson Ward",
+      11.9
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Christian Koloko",
+     "out_price": 10.6,
+     "in": "Donta Hall",
+     "in_price": 9.6
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Jordan Nwora",
+     "out_price": 14.1,
+     "in": "Azuolas Tubelis",
+     "in_price": 13.4
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Evan Fournier",
+     "in_price": 9.8
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.4,
+   "formation": "2-2-1",
+   "starters": [
+    "Justin Robinson",
+    "Evan Fournier",
+    "Sasha Vezenkov",
+    "Azuolas Tubelis",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Vanja Marinkovic",
+    "Tyson Ward",
+    "Clement Frisch",
+    "Donta Hall"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 175.7,
+   "p90": 223.7,
+   "p10": 124.7,
+   "p_target": 0.272,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 2,
+     "2": 3
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Kenan Kamenjas",
+      "Donta Hall",
+      11.7
      ],
      [
       "Justin Robinson",
@@ -636,45 +631,43 @@
     {
      "out": "Clement Frisch",
      "out_price": 5.5,
-     "in": "Justin Minaya",
-     "in_price": 5.9
+     "in": "Arnas Butkevicius",
+     "in_price": 6.5
     }
    ],
    "coach": "OLY",
-   "bank_after": 1.0,
+   "bank_after": 0.4,
    "formation": "1-2-2",
    "starters": [
-    "Theo Maledon",
+    "Justin Robinson",
     "Sasha Vezenkov",
     "Jordan Nwora",
-    "Kenan Kamenjas",
-    "Aliou Diarra"
+    "Aliou Diarra",
+    "Kenan Kamenjas"
    ],
-   "sixth": "Justin Robinson",
+   "sixth": "Theo Maledon",
    "bench": [
-    "Tyson Ward",
     "Cory Joseph",
-    "Justin Minaya",
-    "Vanja Marinkovic"
+    "Vanja Marinkovic",
+    "Tyson Ward",
+    "Arnas Butkevicius"
    ],
    "captain": "Sasha Vezenkov",
-   "mean": 179.7,
-   "p90": 226.4,
-   "p10": 131.6,
-   "p_target": 0.299,
+   "mean": 177.1,
+   "p90": 222.7,
+   "p10": 129.3,
+   "p_target": 0.271,
    "nights": {
     "count": {
-     "1": 7,
-     "2": 3
+     "1": 6,
+     "2": 4
     },
     "starters": {
      "1": 4,
      "2": 1
     },
-    "balanced": false,
-    "reasons": [
-     "only 3 of 10 play on night 2"
-    ],
+    "balanced": true,
+    "reasons": [],
     "plan": [
      [
       "Jordan Nwora",
@@ -682,9 +675,14 @@
       11.9
      ],
      [
-      "Justin Robinson",
+      "Kenan Kamenjas",
       "Cory Joseph",
       11.5
+     ],
+     [
+      "Justin Robinson",
+      "Arnas Butkevicius",
+      8.4
      ]
     ]
    }
@@ -733,11 +731,11 @@
     "Tyson Ward",
     "Clement Frisch"
    ],
-   "captain": "Kenan Kamenjas",
-   "mean": 179.5,
-   "p90": 225.2,
-   "p10": 132.3,
-   "p_target": 0.296,
+   "captain": "Sasha Vezenkov",
+   "mean": 176.6,
+   "p90": 224.1,
+   "p10": 128.1,
+   "p_target": 0.27,
    "nights": {
     "count": {
      "1": 6,
@@ -809,11 +807,11 @@
     "Tyson Ward",
     "Clement Frisch"
    ],
-   "captain": "Kenan Kamenjas",
-   "mean": 181.9,
-   "p90": 229.3,
-   "p10": 131.3,
-   "p_target": 0.333,
+   "captain": "Sasha Vezenkov",
+   "mean": 178.9,
+   "p90": 227.3,
+   "p10": 127.2,
+   "p_target": 0.309,
    "nights": {
     "count": {
      "1": 6,
@@ -888,11 +886,11 @@
     "Tyson Ward",
     "Clement Frisch"
    ],
-   "captain": "Kenan Kamenjas",
-   "mean": 181.2,
-   "p90": 228.5,
-   "p10": 131.5,
-   "p_target": 0.323,
+   "captain": "Sasha Vezenkov",
+   "mean": 178.4,
+   "p90": 227.3,
+   "p10": 127.0,
+   "p_target": 0.301,
    "nights": {
     "count": {
      "1": 6,
@@ -916,88 +914,9 @@
       11.9
      ],
      [
-      "Aliou Diarra",
+      "Kenan Kamenjas",
       "Cory Joseph",
       11.5
-     ]
-    ]
-   }
-  },
-  {
-   "trades": [
-    {
-     "out": "Tyson Carter",
-     "out_price": 9.0,
-     "in": "Cory Joseph",
-     "in_price": 6.2
-    },
-    {
-     "out": "Coach RED",
-     "out_price": 6.8,
-     "in": "Coach OLY",
-     "in_price": 10.2
-    },
-    {
-     "out": "Christian Koloko",
-     "out_price": 10.6,
-     "in": "Aliou Diarra",
-     "in_price": 11.5
-    },
-    {
-     "out": "Clement Frisch",
-     "out_price": 5.5,
-     "in": "Arnas Butkevicius",
-     "in_price": 6.5
-    }
-   ],
-   "coach": "OLY",
-   "bank_after": 0.4,
-   "formation": "1-2-2",
-   "starters": [
-    "Justin Robinson",
-    "Sasha Vezenkov",
-    "Jordan Nwora",
-    "Aliou Diarra",
-    "Kenan Kamenjas"
-   ],
-   "sixth": "Theo Maledon",
-   "bench": [
-    "Cory Joseph",
-    "Vanja Marinkovic",
-    "Tyson Ward",
-    "Arnas Butkevicius"
-   ],
-   "captain": "Kenan Kamenjas",
-   "mean": 180.0,
-   "p90": 224.8,
-   "p10": 133.4,
-   "p_target": 0.301,
-   "nights": {
-    "count": {
-     "1": 6,
-     "2": 4
-    },
-    "starters": {
-     "1": 4,
-     "2": 1
-    },
-    "balanced": true,
-    "reasons": [],
-    "plan": [
-     [
-      "Jordan Nwora",
-      "Tyson Ward",
-      11.9
-     ],
-     [
-      "Justin Robinson",
-      "Cory Joseph",
-      11.5
-     ],
-     [
-      "Aliou Diarra",
-      "Arnas Butkevicius",
-      8.4
      ]
     ]
    }
@@ -1046,11 +965,11 @@
     "Tyson Ward",
     "Clement Frisch"
    ],
-   "captain": "Kenan Kamenjas",
-   "mean": 179.9,
-   "p90": 225.0,
-   "p10": 131.8,
-   "p_target": 0.3,
+   "captain": "Sasha Vezenkov",
+   "mean": 177.1,
+   "p90": 223.8,
+   "p10": 128.4,
+   "p_target": 0.276,
    "nights": {
     "count": {
      "1": 6,
@@ -1107,24 +1026,24 @@
    "bank_after": 0.8,
    "formation": "1-2-2",
    "starters": [
-    "Theo Maledon",
+    "Justin Robinson",
     "Sasha Vezenkov",
     "Dwayne Bacon",
     "Aliou Diarra",
     "Kenan Kamenjas"
    ],
-   "sixth": "Justin Robinson",
+   "sixth": "Theo Maledon",
    "bench": [
     "Cory Joseph",
     "Vanja Marinkovic",
     "Tyson Ward",
     "Clement Frisch"
    ],
-   "captain": "Kenan Kamenjas",
-   "mean": 179.8,
-   "p90": 223.8,
-   "p10": 133.2,
-   "p_target": 0.299,
+   "captain": "Sasha Vezenkov",
+   "mean": 176.9,
+   "p90": 222.8,
+   "p10": 128.8,
+   "p_target": 0.276,
    "nights": {
     "count": {
      "1": 6,
@@ -1138,14 +1057,88 @@
     "reasons": [],
     "plan": [
      [
-      "Justin Robinson",
+      "Kenan Kamenjas",
       "Tyson Ward",
       11.9
      ],
      [
-      "Aliou Diarra",
+      "Justin Robinson",
       "Cory Joseph",
       11.5
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Christian Koloko",
+     "out_price": 10.6,
+     "in": "Mouhamet Diouf",
+     "in_price": 8.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.8,
+     "in": "Coach OLY",
+     "in_price": 10.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 9.0,
+     "in": "Evan Fournier",
+     "in_price": 9.8
+    },
+    {
+     "out": "Jordan Nwora",
+     "out_price": 14.1,
+     "in": "Dwayne Bacon",
+     "in_price": 14.7
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.3,
+   "formation": "1-2-2",
+   "starters": [
+    "Justin Robinson",
+    "Sasha Vezenkov",
+    "Dwayne Bacon",
+    "Mouhamet Diouf",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Evan Fournier",
+    "Vanja Marinkovic",
+    "Tyson Ward",
+    "Clement Frisch"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 177.0,
+   "p90": 224.1,
+   "p10": 127.9,
+   "p_target": 0.274,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Mouhamet Diouf",
+      "Evan Fournier",
+      16.4
+     ],
+     [
+      "Justin Robinson",
+      "Tyson Ward",
+      11.9
      ]
     ]
    }

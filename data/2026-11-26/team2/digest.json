@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T09:17",
+ "generated": "2026-11-26T09:27",
  "today": "2026-11-26",
  "source_round": 15,
  "rounds_in_progress": [],
@@ -499,14 +499,14 @@
   },
   {
    "out": "Kenan Kamenjas",
-   "out_score": 43.2,
+   "out_score": 36.82,
    "options": [
     {
      "name": "Kevarrius Hayes",
      "team": "PAR",
      "price": 8.7,
      "score": 25.65,
-     "gain": -17.6,
+     "gain": -11.2,
      "owned": null
     },
     {
@@ -514,7 +514,7 @@
      "team": "PRS",
      "price": 9.0,
      "score": 24.7,
-     "gain": -18.5,
+     "gain": -12.1,
      "owned": null
     },
     {
@@ -522,7 +522,7 @@
      "team": "PRS",
      "price": 8.6,
      "score": 24.52,
-     "gain": -18.7,
+     "gain": -12.3,
      "owned": null
     },
     {
@@ -530,7 +530,7 @@
      "team": "VIR",
      "price": 8.4,
      "score": 23.83,
-     "gain": -19.4,
+     "gain": -13.0,
      "owned": null
     },
     {
@@ -538,7 +538,7 @@
      "team": "PAR",
      "price": 8.0,
      "score": 22.43,
-     "gain": -20.8,
+     "gain": -14.4,
      "owned": null
     }
    ]
@@ -7607,9 +7607,9 @@
    "pm0": 20.7,
    "ppm": 0.589,
    "pp": 14,
-   "p10": 5.9,
+   "p10": 5.1,
    "p50": 13.8,
-   "p90": 29.8,
+   "p90": 25.4,
    "conf": 42,
    "opp": "TEL",
    "home": 1,
@@ -7655,7 +7655,7 @@
      18,
      "PRS",
      1,
-     18.0,
+     15.3,
      4,
      1
     ],
@@ -7663,7 +7663,7 @@
      19,
      "RED",
      0,
-     16.1,
+     13.7,
      2,
      0
     ]
@@ -7673,7 +7673,7 @@
      15,
      "TEL",
      1,
-     17.1,
+     14.6,
      5,
      0
     ],
@@ -7681,7 +7681,7 @@
      16,
      "ZAL",
      0,
-     16.0,
+     13.6,
      5,
      0
     ],
@@ -7689,7 +7689,7 @@
      17,
      "BAR",
      1,
-     17.8,
+     15.2,
      5,
      0
     ]
@@ -7756,8 +7756,8 @@
    "price_d5": null,
    "price_d10": null,
    "price_official": 6.2,
-   "override": "On loan from Dubai at Baskonia (the site still lists him at Dubai). EuroLeague: R12 vs Hapoel 31' PIR 19, R13 at Bayern 30' 16 pts 13 reb PIR 25. Faried and Santos out, so he's the starting center; 17 rather than 22 because Faried's return would cut his minutes.",
-   "score": 43.2,
+   "override": "On loan from Dubai at Baskonia (the site still lists him at Dubai). R12 31' PIR 19, R13 30' PIR 25, R14 v Efes only 15' PIR 5: knee knock near half-time (helped off, returned; klix.ba, gasteizhoy.com) and Zaccharie Perrin's debut (11 pts 12 reb, PIR 20) took the big minutes. Faried and Santos still out. 14.5 = shared frontcourt with Perrin plus a small knee risk.",
+   "score": 36.82,
    "fresh": true,
    "g5": [
     [
