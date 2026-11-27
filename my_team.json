@@ -2,47 +2,64 @@
   "_note": "Real squad from the user's screenshot (Round 11, 12 Nov 2026). Maintained by the agent: after each trade deadline it applies Variation A of the latest report unless the user reports otherwise (see PLAYBOOK.md, Team tracking).",
   "round": 15,
   "players": [
+    "Zacharie Perrin",
     "Kenan Kamenjas",
-    "Sasha Vezenkov",
-    "Tyson Ward",
+    "Alberto Abalde",
     "Nadir Hifi",
     "Theo Maledon",
-    "Alberto Abalde",
-    "Dejan Davidovac",
-    "Olek Balcerowski",
-    "Tyson Carter",
-    "Scottie Wilbekin"
+    "Stefano Tonut",
+    "Sasha Vezenkov",
+    "Tyson Ward",
+    "Scottie Wilbekin",
+    "Nikolaos Rogkavopoulos"
   ],
   "lineup": {
     "starters": [
+      "Zacharie Perrin",
+      "Kenan Kamenjas",
+      "Alberto Abalde",
+      "Nadir Hifi",
+      "Theo Maledon"
+    ],
+    "sixth": "Stefano Tonut",
+    "bench": [
+      "Sasha Vezenkov",
+      "Tyson Ward",
+      "Scottie Wilbekin",
+      "Nikolaos Rogkavopoulos"
+    ]
+  },
+  "captain": "Nadir Hifi",
+  "coach": "Olympiacos",
+  "bank": 0.2,
+  "bank_known": true,
+  "total_budget": 108.3,
+  "trades_left_this_round": 0,
+  "tracking": {
+    "source": "user screenshot 27 Nov (R15 trades made: Navarro->Bartzokas, Balcerowski->Perrin, Carter->Tonut, Davidovac->Rogkavopoulos)",
+    "updated": "2026-11-27",
+    "last_applied_report": "2026-11-27"
+  },
+  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. 19 Nov (user screenshot, R13 before trades): Maledon and Davidovac in the squad (not Robinson/Joksimovic); app shows 0.2/107.9, trades 0/4, formation 3-1-1, captain Vezenkov, coach Masiulis (ZAL). 21 Nov (user): unlimited-trade week, team value 109.8 in the app; at the official R14 prices (HAR 21 Nov) the squad is 109.3, so bank 0.5. 21 Nov (screenshot, R14 window): 7 of 11 trades used, 0.2/109.8, coach Banchi (MIL). User wants R14 round by round, balanced over both nights (not all on Tuesday). 27 Nov (screenshots): R14 scored 92.1 FPT (Vezenkov C 50.6, Maledon 18.7, Hifi 17.6, Abalde 9.9, Kamenjas 5.5, Ward 3.3, Wilbekin 4.5, Balcerowski 1, Davidovac 1, Carter 0, coach Navarro -20). R15: team value 108.3, bank 0, 0/4 trades; prices from HAR 27 Nov. 27 Nov (user): per-game rule = max 2 players per game, BUT 3 from a heavily favoured team is okay (e.g. Olympiacos at home to ASVEL). Still wary of Robinson. R15 plan (user): T1 lineup Perrin, Kamenjas, Abalde, Hifi (C), Maledon, 6th Tonut; on Friday Vezenkov in for Abalde, Wilbekin in for Tonut, Ward for a quiet Kamenjas/Abalde, armband to Vezenkov if Hifi < ~25.",
+  "target_points": 200,
+  "app_prices": {
+    "_note": "See app_prices.json (official game HAR, round 13, 19 Nov)."
+  },
+  "round_start": {
+    "round": 15,
+    "players": [
       "Kenan Kamenjas",
       "Sasha Vezenkov",
       "Tyson Ward",
       "Nadir Hifi",
-      "Theo Maledon"
-    ],
-    "sixth": "Alberto Abalde",
-    "bench": [
+      "Theo Maledon",
+      "Alberto Abalde",
       "Dejan Davidovac",
       "Olek Balcerowski",
       "Tyson Carter",
       "Scottie Wilbekin"
-    ]
-  },
-  "captain": "Sasha Vezenkov",
-  "coach": "Crvena Zvezda",
-  "bank": 0.0,
-  "bank_known": true,
-  "total_budget": 108.3,
-  "trades_left_this_round": 4,
-  "tracking": {
-    "source": "user screenshot 27 Nov (R15 window, 0/4 trades)",
-    "updated": "2026-11-27",
-    "last_applied_report": null
-  },
-  "notes": "Aiming for 200+ points per round (ceiling over safety). Always use all 4 trades. 19 Nov (user screenshot, R13 before trades): Maledon and Davidovac in the squad (not Robinson/Joksimovic); app shows 0.2/107.9, trades 0/4, formation 3-1-1, captain Vezenkov, coach Masiulis (ZAL). 21 Nov (user): unlimited-trade week, team value 109.8 in the app; at the official R14 prices (HAR 21 Nov) the squad is 109.3, so bank 0.5. 21 Nov (screenshot, R14 window): 7 of 11 trades used, 0.2/109.8, coach Banchi (MIL). User wants R14 round by round, balanced over both nights (not all on Tuesday). 27 Nov (screenshots): R14 scored 92.1 FPT (Vezenkov C 50.6, Maledon 18.7, Hifi 17.6, Abalde 9.9, Kamenjas 5.5, Ward 3.3, Wilbekin 4.5, Balcerowski 1, Davidovac 1, Carter 0, coach Navarro -20). R15: team value 108.3, bank 0, 0/4 trades; prices from HAR 27 Nov. 27 Nov (user): per-game rule = max 2 players per game, BUT 3 from a heavily favoured team is okay (e.g. Olympiacos at home to ASVEL). Still wary of Robinson.",
-  "target_points": 200,
-  "app_prices": {
-    "_note": "See app_prices.json (official game HAR, round 13, 19 Nov)."
+    ],
+    "coach": "Crvena Zvezda",
+    "bank": 0.0
   }
 }
