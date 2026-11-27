@@ -7,12 +7,28 @@
    "status": "ok",
    "pir": 14.5,
    "until_round": 17,
-   "why": "On loan from Dubai at Baskonia (the site still lists him at Dubai). R12 31' PIR 19, R13 30' PIR 25, R14 v Efes only 15' PIR 5: knee knock near half-time (helped off, returned; klix.ba, gasteizhoy.com) and Zaccharie Perrin's debut (11 pts 12 reb, PIR 20) took the big minutes. Faried and Santos still out. 14.5 = shared frontcourt with Perrin plus a small knee risk."
+   "why": "On loan from Dubai at Baskonia (the site still lists him at Dubai). R12 31' PIR 19, R13 30' PIR 25, R14 v Efes only 15' PIR 5: knee knock near half-time (helped off, returned; klix.ba, gasteizhoy.com) and Zaccharie Perrin's debut (11 pts 12 reb, PIR 20) took the big minutes. Faried and Santos still out. 14.5 = shared frontcourt with Perrin plus a small knee risk. 27 Nov: left out of Bosnia's game in Iceland (26 Nov) with the knee knock from R14 (tuzlalive.ba, times.ba); a week of rest before R15, status still to confirm."
   },
   "Nikolaos Rogkavopoulos": {
    "status": "out",
    "until_round": 16,
    "why": "Out of Panathinaikos' EuroLeague rotation (user, 21 Nov; 8' in R12 and barely played in R13). Treated as 0 until he gets real minutes."
+  },
+  "Tyler Dorsey": {
+   "status": "doubtful",
+   "pir": 5.0,
+   "until_round": 15,
+   "why": "Fit (35' and 17 pts for Greece v Georgia, 26 Nov) but Bartzokas says there is 'no timeline' for his return: a coach decision after his suspension (sportando, 26 Nov). 5.0 = about a coin flip to play, bench minutes if he does."
+  },
+  "Evan Fournier": {
+   "pir": 14.0,
+   "until_round": 15,
+   "why": "Lead creator with Montero out (31.7' L3). Small trim from the site's 14.8 for the chance Dorsey is back in the rotation."
+  },
+  "Cory Joseph": {
+   "pir": 9.0,
+   "until_round": 15,
+   "why": "27.7' L3 with Montero, Dorsey and Konchar out; a Dorsey return would take guard minutes from him first. Site 10.4 -> 9.0."
   }
  }
 }
