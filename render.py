@@ -372,7 +372,7 @@ def page_data(D, sched, team, names, rv):
 
 def player_blob(D, p):
     keys = ("name", "t", "pos", "price", "owned", "status", "l3", "l5", "l10", "m3", "m10", "p10", "p90",
-            "since_start", "proj_price_change", "price_d3", "sig", "nx", "nxe", "bio", "pirpm", "start", "proj")
+            "since_start", "proj_price_change", "price_d3", "sig", "nx", "nxe", "bio", "pirpm", "start", "proj", "model")
     out = {k: p.get(k) for k in keys if p.get(k) is not None}
     out["gl"] = p.get("gl") or []
     return out
@@ -878,6 +878,7 @@ function showP(s){
 ${n?`<h4>Season averages · ${n} games</h4><div class="avg"><div><span>PIR</span><b>${f1(av(15))}</b></div><div><span>Min</span><b>${f1(av(7))}</b></div><div><span>Pts</span><b>${f1(av(8))}</b></div><div><span>Reb</span><b>${f1(av(9))}</b></div><div><span>Ast</span><b>${f1(av(10))}</b></div><div><span>Stl</span><b>${f1(av(11))}</b></div><div><span>TO</span><b>${f1(av(12))}</b></div><div><span>2P%</span><b>${sh(16,17)}</b></div><div><span>3P%</span><b>${sh(18,19)}</b></div><div><span>FT%</span><b>${sh(20,21)}</b></div></div>
 <h4>PIR game by game <small style="text-transform:none;letter-spacing:0">(green = 20+)</small></h4><svg class="bars" viewBox="0 0 100 40" preserveAspectRatio="none">${bars}</svg>`:''}
 ${fx?`<h4>Next games</h4><ul class="fxl">${fx}</ul>`:''}
+${p.model?`<p class="sub">Projection R${M.target}: long-run level ${f1(p.model.base)} · ${tl(p.model.opp)} defence ×${p.model.def} · ${p.model.h2h_n?`vs ${tl(p.model.opp)} before: ${p.model.h2h_n} games, ${f1(p.model.h2h_avg)} PIR avg (×${p.model.h2h})`:`no games vs ${tl(p.model.opp)} before`} → model ${f1(p.model.pure)}, site ${f1(p.model.site)}, used ${f1(p.model.ours)} ${p.model.site_wins?'(site, which has news of an injury or lost role)':'(¾ model, ¼ site)'}.</p>`:''}
 ${n?`<h4>Game log</h4><div class="tblw"><table class="gl"><thead><tr><th>Rd</th><th class="l">Opp</th><th>Result</th><th>Min</th><th>Pts</th><th>Reb</th><th>Ast</th><th>+/−</th><th>PIR</th></tr></thead><tbody>${rows}</tbody></table></div><p class="sub">b = came off the bench.</p>`:'<p class="sub">No game log for this player yet.</p>'}`)}
 function showT(c){
   const t=T[c];if(!t)return;const st=t.st;

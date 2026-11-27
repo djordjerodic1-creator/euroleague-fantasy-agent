@@ -620,6 +620,13 @@ def main():
                         r[19], r[20], r[24], r[25], r[9], r[10], r[11], r[12], r[13], r[14]] for r in g]
         if bio.get(p.get("slug") or p.get("s")):
             p["bio"] = bio[p.get("slug") or p.get("s")]
+    # ----- our projection model (long memory + opponent defence + head-to-head; model.py) replaces most of the
+    # site's numbers, which lean on the last few games. Manual overrides still win, so they're applied again after.
+    import model
+    model.apply(list(pool.values()))
+    apply_overrides(pool, target, app)
+    for p in pool.values():
+        p["score"] = window_score(p, horizon) if p.get("nx") else None
     for p in mine:
         g = logs.get(p.get("slug") or p.get("s")) or []
         p["round_log"] = [parse_game(r) for r in g]
@@ -700,7 +707,7 @@ def main():
         "swaps": swaps, "previews": previews, "role_jumps": rj,
     }
     keep = ("name", "slug", "s", "c", "t", "pos", "price", "status", "owned", "l3", "l5", "l10", "m3", "m10",
-            "nx", "nxe", "sig", "p10", "p90", "pwin", "proj_price_change", "price_d3", "season_summary", "g5", "gl", "bio", "since_start", "pirpm", "start", "grade", "rj", "dom", "price_official", "price_src", "override")
+            "nx", "nxe", "sig", "p10", "p90", "pwin", "proj_price_change", "price_d3", "season_summary", "g5", "gl", "bio", "since_start", "pirpm", "start", "grade", "rj", "dom", "price_official", "price_src", "override", "model", "nx_site")
     slim = [{k: p.get(k) for k in keep if p.get(k) is not None} for p in pool.values()]
     (OUT / "pool.json").write_text(json.dumps(slim, ensure_ascii=False), encoding="utf-8")
     (OUT / "digest.json").write_text(json.dumps({**digest, "roster": mine}, ensure_ascii=False, default=str, indent=1),

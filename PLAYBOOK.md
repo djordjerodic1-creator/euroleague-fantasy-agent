@@ -113,6 +113,24 @@ The user wants **big rounds, not safe rounds**. Rank every decision by its effec
 **Coach pick**: favour a strong favourite with a likely double-digit margin. Avoid coin flips.
 The coach costs a trade like any player, so change him only when the edge is clear.
 
+## Projection model (`model.py`, since 27 Nov 2026)
+The round projections (`nx`/`nxe`, and so everything the optimiser does) are ours, not the site's. The user found
+the site's numbers chase the last few games. Ours = ¾ x (long-run level x opponent defence x head-to-head x home/away)
++ ¼ x the site's number:
+- **Long-run level**: PIR over this season and the last three EuroLeague seasons (`data/history/`, from the official
+  API via `fetch_history.py`), weights halving every 20 games, each older season worth 0.6 of the next.
+- **Opponent defence**: PIR the opponent allows vs the scorers' own averages (this season + last, shrunk).
+- **Head-to-head**: the player's own record against that opponent, all seasons. The backtest showed it is mostly
+  noise, so it only nudges (shrunk by 30 games, capped at ±15%). Mention a strong head-to-head record in the
+  reasoning when it matters, but don't let 2–3 games against a team drive a pick.
+- **Injury/role guard**: when the site projects under half of our number, the site's number is used (it has news
+  we don't). Overrides (`overrides.json`) still beat both.
+- Backtest (27 Nov): last season R15–34 (3,596 player-games): our model MAE 5.75 vs season average 5.81 vs last-5
+  average 6.17. This season R12+R14 (428): ours with the guard MAE 5.58 / correlation 0.42 vs the site 5.62 / 0.40.
+  Recency hurts: a 4-game half-life was clearly worse than 15–30.
+- Each player card shows the breakdown (long-run level, defence, head-to-head games and average, model vs site).
+- At the start of each new season, run `python fetch_history.py E<last season>` once and commit the file.
+
 ## Research duties every run (use WebSearch / WebFetch, cite briefly)
 For **every player on the user's team**, and for every player you recommend buying, check:
 1. **Their last domestic-league game**: minutes, PIR or efficiency, DNP or not, any injury exit.
