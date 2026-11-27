@@ -1,57 +1,120 @@
 {
  "date": "2026-11-27",
- "generated": "2026-11-27T22:05",
+ "generated": "2026-11-27T23:22",
  "round": 15,
  "budget": {
   "total": 108.3,
   "bank": 0.0
  },
  "window": "R15 (3–4 Dec): 4 trades, locked at Thursday 3 Dec 19:30 Athens (Efes–Valencia). FIBA window until 1 Dec; official R15 prices are out.",
- "bottom_line": "Your R15 trades are in: Navarro → Bartzokas, Balcerowski → Perrin, Carter → Tonut, Davidovac → Rogkavopoulos (0.2 left). About 172 expected and 22% for 200 with Vezenkov wearing the armband; on Friday bring Vezenkov in for Abalde, Wilbekin for Tonut, and Ward for a quiet Kamenjas or Abalde.",
- "current_fix": "With no trades: about 146 expected, a 7% chance of 200. Zvezda at Fenerbahçe (31%) drags Navarro, Carter and Davidovac down together, and Madrid–Barcelona has three of your players (Maledon, Abalde, Balcerowski).",
+ "bottom_line": "Re-run with model v2: keep your four trades (Bartzokas, Perrin, Tonut, Rogkavopoulos). One free change: put Vezenkov in the 6th-man slot from the start and Tonut on the bench. That takes you from about 169 expected and 18% for 200 to about 173 and 23%. Re-doing three trades for the best plan the search finds (Hifi → Fournier, Wilbekin → Loyd) adds only ~1 point and brings in Dorsey risk: not worth it.",
+ "current_fix": "Your squad as you planned it (Tonut at 6th, Vezenkov subbed in on Friday): about 169 expected, 18% for 200.",
  "variations": [
   {
    "key": "A",
-   "name": "Bartzokas, Perrin, Fournier and Loyd",
+   "name": "Your trades, Vezenkov at 6th",
    "recommended": true,
    "risk": "Medium",
-   "tagline": "Into Olympiacos' home game (Vezenkov, Ward, Fournier and the coach: three players from a 94% favourite, which your rule now allows), out of Zvezda's away trip. 0.0 left.",
+   "tagline": "Keep all four trades you've made; only the lineup changes. 0.2 left.",
    "trades": [
     {
      "out": "Coach Navarro (RED) (6.1)",
      "in": "Coach Bartzokas (OLY) (10.6)",
      "credits": "−4.5",
-     "why": "Olympiacos are 94% at home to ASVEL (site margin +18; ASVEL have lost five straight). Navarro's Zvezda are 31% at Fenerbahçe after the −20 in R14. Worth about 17 points of expectation on its own: the biggest move this round."
+     "why": "Olympiacos 94% at home to ASVEL (+18): about +18 coach points vs −2 for Navarro at Fenerbahçe."
     },
     {
      "out": "Olek Balcerowski (8.1)",
      "in": "Zacharie Perrin (8.2)",
      "credits": "−0.1",
-     "why": "Balcerowski is 7.6 at Madrid (Nebo's return cuts his minutes; 1 PIR in R14). Perrin was 20 PIR in 24' on his Baskonia debut and is the hedge for Kamenjas' knee: if Kamenjas sits, Perrin takes his minutes. Both play Thursday at home to Maccabi, which keeps Baskonia at your limit of 2."
+     "why": "Perrin 14.0 (24 min at 0.54 PIR/min) vs Balcerowski 7.7 now Nebo is back (+2.3 min for Balcerowski only when Nebo sits)."
+    },
+    {
+     "out": "Tyson Carter (8.5)",
+     "in": "Stefano Tonut (4.0)",
+     "credits": "+4.5",
+     "why": "Funds the coach. Carter is 8.5 at Fenerbahçe (Zvezda 31%); Tonut is a Thursday bench filler."
+    },
+    {
+     "out": "Dejan Davidovac (5.0)",
+     "in": "Nikolaos Rogkavopoulos (4.7)",
+     "credits": "+0.3",
+     "why": "Back in Panathinaikos' rotation (17 min, 15 PIR v Valencia in R14); 6.1 projected and plays Friday, so he is a sub option."
+    }
+   ],
+   "bank_after": 0.2,
+   "formation": "2-1-2",
+   "starters": [
+    "Nadir Hifi",
+    "Theo Maledon",
+    "Alberto Abalde",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Sasha Vezenkov",
+   "bench": [
+    "Tyson Ward",
+    "Scottie Wilbekin",
+    "Nikolaos Rogkavopoulos",
+    "Stefano Tonut"
+   ],
+   "coach": "Olympiacos",
+   "captain": "Nadir Hifi",
+   "vice": "Sasha Vezenkov",
+   "captain_note": "Hifi (18.6 at Bayern) on Thursday; Vezenkov (25.2 v ASVEL) is the Friday option.",
+   "captain_plan": "Captain Hifi. If he scores under ~25 on Thursday, swap Vezenkov into the five for a played starter (e.g. Abalde, who drops to 6th) and give Vezenkov the armband.",
+   "reasoning": [
+    "About 173 expected and 23% for 200, against 169 and 18% with Tonut at 6th: Vezenkov counts 100% either way, but starting him at 6th keeps all three Friday subs free for weak Thursday starters instead of using one swap on Tonut.",
+    "After Thursday: Abalde under ~12 → Ward; Perrin or Kamenjas under ~10 → Wilbekin; Maledon under ~6 → Rogkavopoulos.",
+    "Per-game: Olympiacos–ASVEL has Vezenkov, Ward and the coach (allowed: 94% favourite); Baskonia–Maccabi Perrin and Kamenjas; Madrid–Barcelona Maledon and Abalde.",
+    "News: no change since this morning (FIBA window). Kamenjas' knee, Campazzo's return and Dorsey's status are re-checked by the daily runs before Thursday."
+   ],
+   "cancel_if": [
+    "If Kamenjas is ruled out, keep everything: Perrin starts at centre alone and Wilbekin or Ward replaces Kamenjas' 0 after Thursday."
+   ]
+  },
+  {
+   "key": "B",
+   "name": "Best plan from scratch (re-do 3 trades)",
+   "recommended": false,
+   "risk": "Medium-high",
+   "tagline": "Hifi → Fournier and Wilbekin → Loyd instead of Tonut/Rogkavopoulos. About 175 expected and 26%.",
+   "trades": [
+    {
+     "out": "Coach Navarro (RED) (6.1)",
+     "in": "Coach Bartzokas (OLY) (10.6)",
+     "credits": "−4.5",
+     "why": "Olympiacos 94% at home to ASVEL (+18): about +18 coach points vs −2 for Navarro at Fenerbahçe."
+    },
+    {
+     "out": "Olek Balcerowski (8.1)",
+     "in": "Zacharie Perrin (8.2)",
+     "credits": "−0.1",
+     "why": "Perrin 14.0 (24 min at 0.54 PIR/min) vs Balcerowski 7.7 now Nebo is back (+2.3 min for Balcerowski only when Nebo sits)."
     },
     {
      "out": "Nadir Hifi (16.6)",
      "in": "Evan Fournier (10.4)",
      "credits": "+6.2",
-     "why": "Frees the money for Bartzokas. Hifi is 18.9 at Bayern (61%); Fournier is 15.4 at home to ASVEL as Olympiacos' lead creator with Montero out (27 PIR v Hapoel). He plays Friday, so he's the sub for a quiet Thursday starter. Risk: Dorsey's return (Bartzokas: 'no timeline')."
+     "why": "Fournier 15.4 at home to ASVEL, but +3 min of his role comes from Dorsey's absence: if Dorsey returns, it shrinks."
     },
     {
      "out": "Scottie Wilbekin (9.5)",
      "in": "Jordan Loyd (11.1)",
      "credits": "−1.6",
-     "why": "Wilbekin is 9.8 (2.0 PIR average in 3 past games v Panathinaikos). Loyd: 12.0 at home to Valencia, 19 PIR average in his 2 past games against them, and a Thursday starter so Ward can replace him if he's quiet."
+     "why": "Loyd 11.9 at home to Valencia (Thursday)."
     }
    ],
    "bank_after": 0.0,
-   "formation": "3-1-1",
+   "formation": "1-2-2",
    "starters": [
     "Theo Maledon",
-    "Jordan Loyd",
     "Tyson Carter",
     "Sasha Vezenkov",
+    "Kenan Kamenjas",
     "Zacharie Perrin"
    ],
-   "sixth": "Kenan Kamenjas",
+   "sixth": "Jordan Loyd",
    "bench": [
     "Evan Fournier",
     "Tyson Ward",
@@ -59,133 +122,12 @@
     "Dejan Davidovac"
    ],
    "coach": "Olympiacos",
-   "captain": "Theo Maledon",
+   "captain": "Zacharie Perrin",
    "vice": "Sasha Vezenkov",
-   "captain_note": "Maledon (17.7, home to Barcelona, 73%) on Thursday, so the armband can still move to Vezenkov (25.8, Friday v ASVEL) if Maledon is quiet. Captaining Vezenkov from the start is within 1% of the same chance.",
-   "captain_plan": "Captain Maledon. After Thursday: if he scored under ~25, move the armband to Vezenkov.",
+   "captain_note": "Any Thursday starter with the armband moving to Vezenkov.",
+   "captain_plan": "Move the armband to Vezenkov if the Thursday captain is under ~25.",
    "reasoning": [
-    "About 175 expected and 27% for 200 (146 and 7% as you stand). Projections from the new model: long-run level, opponent defence and a light head-to-head nudge, ¾ model and ¼ site.",
-    "Nights: Thursday Maledon, Loyd, Carter, Perrin, Kamenjas, Abalde, Davidovac; Friday Vezenkov, Fournier, Ward. After Thursday: Carter under ~17 → Fournier; Loyd under ~11 → Ward.",
-    "Per-game: Olympiacos–ASVEL has 3 of yours (all Olympiacos, 94% favourite, allowed by your updated rule); every other game has 2 at most.",
-    "Carter stays: he's the Thursday placeholder that Fournier usually replaces, and selling him gains nothing at this budget."
-   ],
-   "cancel_if": [
-    "If Kamenjas is ruled out (knee), keep the plan: Perrin covers the centre and Abalde moves into the 6th spot.",
-    "If Dorsey is named in Olympiacos' rotation, switch to Variation B (keeps Hifi, no Fournier).",
-    "If Perrin is listed injured, swap trade 2 back (keep Balcerowski)."
-   ]
-  },
-  {
-   "key": "B",
-   "name": "Keep Hifi: Bartzokas, Perrin, Cardenas and Obst",
-   "recommended": false,
-   "risk": "Low-medium",
-   "tagline": "Same coach move, keeps Hifi as captain. About 175 expected and 25%.",
-   "trades": [
-    {
-     "out": "Coach Navarro (RED) (6.1)",
-     "in": "Coach Bartzokas (OLY) (10.6)",
-     "credits": "−4.5",
-     "why": "Olympiacos are 94% at home to ASVEL (site margin +18; ASVEL have lost five straight). Navarro's Zvezda are 31% at Fenerbahçe after the −20 in R14. Worth about 17 points of expectation on its own: the biggest move this round."
-    },
-    {
-     "out": "Olek Balcerowski (8.1)",
-     "in": "Zacharie Perrin (8.2)",
-     "credits": "−0.1",
-     "why": "Balcerowski is 7.6 at Madrid (Nebo's return cuts his minutes; 1 PIR in R14). Perrin was 20 PIR in 24' on his Baskonia debut and is the hedge for Kamenjas' knee: if Kamenjas sits, Perrin takes his minutes. Both play Thursday at home to Maccabi, which keeps Baskonia at your limit of 2."
-    },
-    {
-     "out": "Scottie Wilbekin (9.5)",
-     "in": "Alvaro Cardenas (4.4)",
-     "credits": "+5.1",
-     "why": "Pays for Bartzokas. Cardenas is a cheap Thursday bench guard."
-    },
-    {
-     "out": "Tyson Carter (8.5)",
-     "in": "Andreas Obst (9.0)",
-     "credits": "−0.5",
-     "why": "Obst 10.9 at home to Paris (4 past games v Paris, 14.0 PIR average) against Carter's 8.3 at Fenerbahçe."
-    }
-   ],
-   "bank_after": 0.0,
-   "formation": "2-1-2",
-   "starters": [
-    "Nadir Hifi",
-    "Andreas Obst",
-    "Sasha Vezenkov",
-    "Kenan Kamenjas",
-    "Zacharie Perrin"
-   ],
-   "sixth": "Theo Maledon",
-   "bench": [
-    "Tyson Ward",
-    "Alberto Abalde",
-    "Alvaro Cardenas",
-    "Dejan Davidovac"
-   ],
-   "coach": "Olympiacos",
-   "captain": "Nadir Hifi",
-   "vice": "Sasha Vezenkov",
-   "captain_note": "Hifi on Thursday at Bayern; the armband can move to Vezenkov on Friday.",
-   "captain_plan": "Captain Hifi; move the armband to Vezenkov if Hifi scores under ~25.",
-   "reasoning": [
-    "About 175 expected and 25% for 200: level with A on expectation, a little less upside because only Ward plays Friday off the bench.",
-    "After Thursday: Obst under ~11 → Ward."
-   ],
-   "cancel_if": [
-    "If Kamenjas is out, Perrin starts alone at centre and Abalde moves up."
-   ]
-  },
-  {
-   "key": "C",
-   "name": "Three trades only",
-   "recommended": false,
-   "risk": "Low",
-   "tagline": "Bartzokas, Perrin, and Wilbekin → Cardenas to pay. About 173 expected and 23%, 0.5 left.",
-   "trades": [
-    {
-     "out": "Coach Navarro (RED) (6.1)",
-     "in": "Coach Bartzokas (OLY) (10.6)",
-     "credits": "−4.5",
-     "why": "Olympiacos are 94% at home to ASVEL (site margin +18; ASVEL have lost five straight). Navarro's Zvezda are 31% at Fenerbahçe after the −20 in R14. Worth about 17 points of expectation on its own: the biggest move this round."
-    },
-    {
-     "out": "Olek Balcerowski (8.1)",
-     "in": "Zacharie Perrin (8.2)",
-     "credits": "−0.1",
-     "why": "Balcerowski is 7.6 at Madrid (Nebo's return cuts his minutes; 1 PIR in R14). Perrin was 20 PIR in 24' on his Baskonia debut and is the hedge for Kamenjas' knee: if Kamenjas sits, Perrin takes his minutes. Both play Thursday at home to Maccabi, which keeps Baskonia at your limit of 2."
-    },
-    {
-     "out": "Scottie Wilbekin (9.5)",
-     "in": "Alvaro Cardenas (4.4)",
-     "credits": "+5.1",
-     "why": "Pays for Bartzokas."
-    }
-   ],
-   "bank_after": 0.5,
-   "formation": "2-1-2",
-   "starters": [
-    "Nadir Hifi",
-    "Theo Maledon",
-    "Tyson Carter",
-    "Kenan Kamenjas",
-    "Zacharie Perrin"
-   ],
-   "sixth": "Sasha Vezenkov",
-   "bench": [
-    "Tyson Ward",
-    "Alberto Abalde",
-    "Alvaro Cardenas",
-    "Dejan Davidovac"
-   ],
-   "coach": "Olympiacos",
-   "captain": "Nadir Hifi",
-   "vice": "Sasha Vezenkov",
-   "captain_note": "Hifi on Thursday.",
-   "captain_plan": "Captain Hifi.",
-   "reasoning": [
-    "The coach move does most of the work: this plan keeps a trade spare and is only about 4 points of probability behind A.",
-    "After Thursday: Carter under ~11 → Ward."
+    "Only ~1 point and ~3 percentage points better than A, inside the simulation's noise, and it needs three trades re-done plus a bet on Dorsey staying out. Shown for completeness."
    ],
    "cancel_if": []
   }
