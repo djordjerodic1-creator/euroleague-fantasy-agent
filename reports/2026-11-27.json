@@ -7,7 +7,7 @@
   "bank": 0.0
  },
  "window": "R15 (3–4 Dec): 4 trades, locked at Thursday 3 Dec 19:30 Athens (Efes–Valencia). FIBA window until 1 Dec; official R15 prices are out.",
- "bottom_line": "Rebuilt on your real R15 squad (screenshot) with the new projection model. Four trades: Navarro → Bartzokas (OLY), Balcerowski → Perrin, Hifi → Fournier, Wilbekin → Loyd. About 175 expected and 27% for 200, against 146 and 7% as you stand. Most of the gain is the coach: Zvezda are 31% at Fenerbahçe, Olympiacos 94% at home to ASVEL.",
+ "bottom_line": "Your R15 trades are in: Navarro → Bartzokas, Balcerowski → Perrin, Carter → Tonut, Davidovac → Rogkavopoulos (0.2 left). About 172 expected and 22% for 200 with Vezenkov wearing the armband; on Friday bring Vezenkov in for Abalde, Wilbekin for Tonut, and Ward for a quiet Kamenjas or Abalde.",
  "current_fix": "With no trades: about 146 expected, a 7% chance of 200. Zvezda at Fenerbahçe (31%) drags Navarro, Carter and Davidovac down together, and Madrid–Barcelona has three of your players (Maledon, Abalde, Balcerowski).",
  "variations": [
   {
@@ -191,6 +191,10 @@
   }
  ],
  "alerts": [
+  {
+   "level": "high",
+   "text": "Projection model v2 (28 Nov): minutes × PIR per minute replaces the plain PIR average (better on both backtests). Teammate in/out splits, short rest and per-team home edges were tested and did not help, so they only appear as information on player cards (e.g. Fournier +3.0 min without Dorsey, Maledon +1.2 without Campazzo)."
+  },
   {
    "level": "high",
    "text": "This morning's plan was built on an out-of-date squad (Nwora, Diop, Procida). Rebuilt tonight from your R15 screenshot: Kamenjas, Vezenkov, Ward, Hifi, Maledon, Abalde, Davidovac, Balcerowski, Carter, Wilbekin, coach Navarro, 108.3 and 0.0 bank."

@@ -456,7 +456,10 @@ def write_predictions(date, D, built, team, now):
     for q in D.pool:
         p = D.player(q["name"])
         if not p.get("missing"):
-            proj[p["name"]] = [p.get("t"), p.get("proj"), p.get("p10"), p.get("p90"), p.get("price"), p.get("owned")]
+            site = next((e[3] for e in (p.get("nx_site") or []) + (p.get("nxe_site") or []) if e[0] == D.target), None)
+            mdl = p.get("model") or {}
+            proj[p["name"]] = [p.get("t"), p.get("proj"), p.get("p10"), p.get("p90"), p.get("price"), p.get("owned"),
+                               site, mdl.get("min"), p.get("pos")]
     vs = [{"key": v["key"], "name": v.get("name"), "recommended": v.get("recommended"), "starters": v["starters"],
            "sixth": v.get("sixth"), "bench": v["bench"], "captain": v["captain"], "coach_code": cc,
            "mean": mc["mean"], "p90": mc["p90"], "p_target": mc["p_target"]} for v, st, sixth, bench, cc, total, mc in built]
@@ -566,7 +569,7 @@ def scorecard_html():
     inside = f"{pr['inside_p10_p90']:.0%} inside the predicted range (target 80%)" if pr.get("inside_p10_p90") is not None else ""
     return f"""<div class="card"><h4 class="ovh">Round {esc(r['round'])} scorecard <small style="color:var(--faint)">(report of {esc(r['report_date'])})</small></h4>
 <div class="tblw"><table class="sch"><thead><tr><th class="l">Lineup</th><th>Predicted</th><th>Actual</th><th class="l">Captain PIR</th></tr></thead><tbody>{rows}</tbody></table></div>
-<p class="sub" style="margin-top:10px">Projections: off by {pr['mae']} PIR on average (bias {pr['bias']:+}) · {inside}.
+<p class="sub" style="margin-top:10px">Projections: off by {pr['mae']} PIR on average (bias {pr['bias']:+}){f" · the site's own numbers: {pr['site_mae']}" if pr.get('site_mae') is not None else ''}{f" · minutes off by {pr['minutes_mae']} (bias {pr['minutes_bias']:+})" if pr.get('minutes_mae') is not None else ''} · {inside}.
 {('Biggest upside surprises: ' + ups + '.') if ups else ''}</p>{season}</div>"""
 
 
@@ -878,7 +881,7 @@ function showP(s){
 ${n?`<h4>Season averages · ${n} games</h4><div class="avg"><div><span>PIR</span><b>${f1(av(15))}</b></div><div><span>Min</span><b>${f1(av(7))}</b></div><div><span>Pts</span><b>${f1(av(8))}</b></div><div><span>Reb</span><b>${f1(av(9))}</b></div><div><span>Ast</span><b>${f1(av(10))}</b></div><div><span>Stl</span><b>${f1(av(11))}</b></div><div><span>TO</span><b>${f1(av(12))}</b></div><div><span>2P%</span><b>${sh(16,17)}</b></div><div><span>3P%</span><b>${sh(18,19)}</b></div><div><span>FT%</span><b>${sh(20,21)}</b></div></div>
 <h4>PIR game by game <small style="text-transform:none;letter-spacing:0">(green = 20+)</small></h4><svg class="bars" viewBox="0 0 100 40" preserveAspectRatio="none">${bars}</svg>`:''}
 ${fx?`<h4>Next games</h4><ul class="fxl">${fx}</ul>`:''}
-${p.model?`<p class="sub">Projection R${M.target}: long-run level ${f1(p.model.base)} · ${tl(p.model.opp)} defence ×${p.model.def} · ${p.model.h2h_n?`vs ${tl(p.model.opp)} before: ${p.model.h2h_n} games, ${f1(p.model.h2h_avg)} PIR avg (×${p.model.h2h})`:`no games vs ${tl(p.model.opp)} before`} → model ${f1(p.model.pure)}, site ${f1(p.model.site)}, used ${f1(p.model.ours)} ${p.model.site_wins?'(site, which has news of an injury or lost role)':'(¾ model, ¼ site)'}.</p>`:''}
+${p.model?`<p class="sub">Projection R${M.target}: ${p.model.min!=null?`${f1(p.model.min)} min${p.model.min_adj?` (${p.model.min_adj>0?'+':''}${f1(p.model.min_adj)} for teammates in/out${p.model.tm&&p.model.tm.length?': '+p.model.tm.map(x=>E(x[0])+' '+(x[1]>0?'+':'')+x[1]).join(', '):''})`:''} × ${p.model.rate} PIR/min = ${f1(p.model.base)}`:`long-run level ${f1(p.model.base)}`} · ${tl(p.model.opp)} defence ×${p.model.def} · ${p.model.h2h_n?`vs ${tl(p.model.opp)} before: ${p.model.h2h_n} games, ${f1(p.model.h2h_avg)} PIR avg (×${p.model.h2h})`:`no games vs ${tl(p.model.opp)} before`} → model ${f1(p.model.pure)}, site ${f1(p.model.site)}, used ${f1(p.model.ours)} ${p.model.site_wins?'(site, which has news of an injury or lost role)':'(¾ model, ¼ site)'}.${p.model.mates&&p.model.mates.length?' Minutes when a teammate sits: '+p.model.mates.map(x=>`${E(x[0])} out ${x[1]>0?'+':''}${x[1]} (${x[2]} games)`).join(', ')+'.':''}</p>`:''}
 ${n?`<h4>Game log</h4><div class="tblw"><table class="gl"><thead><tr><th>Rd</th><th class="l">Opp</th><th>Result</th><th>Min</th><th>Pts</th><th>Reb</th><th>Ast</th><th>+/−</th><th>PIR</th></tr></thead><tbody>${rows}</tbody></table></div><p class="sub">b = came off the bench.</p>`:'<p class="sub">No game log for this player yet.</p>'}`)}
 function showT(c){
   const t=T[c];if(!t)return;const st=t.st;

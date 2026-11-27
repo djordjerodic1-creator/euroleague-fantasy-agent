@@ -85,12 +85,21 @@ def score_round(rd, preds, team_snap, pool, sched):
         out["team"]["source"] = team_snap.get("source")
     # projection accuracy over everyone the report projected who played
     errs, inside, below, above, tiers, misses = [], 0, 0, 0, {"15+": [], "8-15": [], "<8": []}, []
-    for name, (t, proj, p10, p90, price, owned) in preds.get("proj", {}).items():
+    site_err, min_err, by_pos = [], [], {}
+    for name, row in preds.get("proj", {}).items():
+        t, proj, p10, p90, price, owned = row[:6]
+        site, mexp, pos = (list(row[6:9]) + [None, None, None])[:3]
         a = actual.get(name)
         if not a or proj is None or proj <= 0:
             continue
         e = a["pir"] - proj
         errs.append(e)
+        if site is not None and site > 0:
+            site_err.append(a["pir"] - site)
+        if mexp is not None:
+            min_err.append(a["min"] - mexp)
+        if pos:
+            by_pos.setdefault(pos, []).append(e)
         tiers["15+" if proj >= 15 else ("8-15" if proj >= 8 else "<8")].append(e)
         if p10 is not None and p90 is not None:
             inside += p10 <= a["pir"] <= p90
@@ -105,6 +114,11 @@ def score_round(rd, preds, team_snap, pool, sched):
         "n": n, "bias": round(sum(errs) / n, 2) if n else None, "mae": round(sum(abs(x) for x in errs) / n, 2) if n else None,
         "inside_p10_p90": round(inside / n, 3) if n else None, "below_p10": below, "above_p90": above,
         "by_tier": {k: {"n": len(v), "bias": round(sum(v) / len(v), 2) if v else None} for k, v in tiers.items()},
+        "site_mae": round(sum(abs(x) for x in site_err) / len(site_err), 2) if site_err else None,
+        "site_n": len(site_err),
+        "minutes_mae": round(sum(abs(x) for x in min_err) / len(min_err), 1) if min_err else None,
+        "minutes_bias": round(sum(min_err) / len(min_err), 1) if min_err else None,
+        "by_pos": {k: {"n": len(v), "bias": round(sum(v) / len(v), 2)} for k, v in by_pos.items()},
         "upside_misses": sorted([m for m in misses if m["kind"] == "upside"], key=lambda m: m["proj"] - m["pir"])[:8],
         "downside_misses": sorted([m for m in misses if m["kind"] == "downside"], key=lambda m: m["pir"] - m["proj"])[:5],
     }

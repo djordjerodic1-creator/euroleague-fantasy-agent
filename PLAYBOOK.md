@@ -113,22 +113,31 @@ The user wants **big rounds, not safe rounds**. Rank every decision by its effec
 **Coach pick**: favour a strong favourite with a likely double-digit margin. Avoid coin flips.
 The coach costs a trade like any player, so change him only when the edge is clear.
 
-## Projection model (`model.py`, since 27 Nov 2026)
+## Projection model (`model.py`, since 27 Nov 2026; v2 28 Nov)
 The round projections (`nx`/`nxe`, and so everything the optimiser does) are ours, not the site's. The user found
-the site's numbers chase the last few games. Ours = ¾ x (long-run level x opponent defence x head-to-head x home/away)
-+ ¼ x the site's number:
-- **Long-run level**: PIR over this season and the last three EuroLeague seasons (`data/history/`, from the official
-  API via `fetch_history.py`), weights halving every 20 games, each older season worth 0.6 of the next.
+the site's numbers chase the last few games. Ours = ¾ x (expected minutes x PIR per minute x opponent defence x
+head-to-head x home/away) + ¼ x the site's number:
+- **Minutes**: recent-weighted (half-life 8 games); roles change, so minutes should react. **PIR per minute**: long
+  memory (half-life 40 games over this season and the last three, `data/history/`), shrunk toward the league rate.
+  Splitting the two beat a plain PIR average on both backtests.
 - **Opponent defence**: PIR the opponent allows vs the scorers' own averages (this season + last, shrunk).
-- **Head-to-head**: the player's own record against that opponent, all seasons. The backtest showed it is mostly
-  noise, so it only nudges (shrunk by 30 games, capped at ±15%). Mention a strong head-to-head record in the
-  reasoning when it matters, but don't let 2–3 games against a team drive a pick.
+- **Head-to-head**: the player's own record against that opponent. Mostly noise, so only a nudge (shrunk by 30 games,
+  capped at ±15%). Mention a strong record when it matters; don't let 2–3 games against a team drive a pick.
 - **Injury/role guard**: when the site projects under half of our number, the site's number is used (it has news
   we don't). Overrides (`overrides.json`) still beat both.
-- Backtest (27 Nov): last season R15–34 (3,596 player-games): our model MAE 5.75 vs season average 5.81 vs last-5
-  average 6.17. This season R12+R14 (428): ours with the guard MAE 5.58 / correlation 0.42 vs the site 5.62 / 0.40.
-  Recency hurts: a 4-game half-life was clearly worse than 15–30.
-- Each player card shows the breakdown (long-run level, defence, head-to-head games and average, model vs site).
+- **Tested and switched off** (28 Nov, no gain or worse): teammate in/out minute splits (absences of fringe players are
+  confounded with blowouts), short rest (no effect in the data), per-team home edges. Player cards still show the
+  splits for key teammates (18+ min), e.g. "Dorsey out: Fournier +3.0 min (6 games)": use them as evidence when a
+  key player is out or coming back, and put the conclusion in an override.
+- Backtest results (MAE in PIR per player-game): last season R15–34 (3,596): last-5 average 6.17, season average 5.81,
+  v1 5.74, **v2 5.69**. This season R12+R14 (428): site 5.62, v1 5.58, **v2 5.53** (correlation 0.43 vs the site's 0.40).
+- **Every round**: the scorecard (data/scorecard.json and the page) now shows our miss next to the site's, the
+  minutes miss and bias, and bias by position. If the site beats us for 3+ rounds running, say so in the report.
+- **Monthly** (or when the scorecard drifts): `python tune_model.py` re-runs the rolling backtest on last season and
+  this season so far. Change `model.PARAMS` only for a change that lowers the miss on BOTH samples.
+- **Betting lines**: the collector uses bookmaker spreads/totals (70% market, 30% model for margins and coach
+  points) when `ODDS_API_KEY` is set (the-odds-api.com, free tier). Not set yet: the user adds it locally and in the
+  cloud environment's settings.
 - At the start of each new season, run `python fetch_history.py E<last season>` once and commit the file.
 
 ## Research duties every run (use WebSearch / WebFetch, cite briefly)
