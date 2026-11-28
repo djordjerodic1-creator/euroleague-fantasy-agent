@@ -1,0 +1,1179 @@
+{
+ "target": 200.0,
+ "current_best_lineup": {
+  "mean": 144.8,
+  "p90": 190.5,
+  "p10": 100.2,
+  "p_target": 0.062
+ },
+ "plans": [
+  {
+   "trades": [
+    {
+     "out": "Nadir Hifi",
+     "out_price": 16.6,
+     "in": "Evan Fournier",
+     "in_price": 10.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.1,
+     "in": "Coach OLY",
+     "in_price": 10.6
+    },
+    {
+     "out": "Olek Balcerowski",
+     "out_price": 8.1,
+     "in": "Zacharie Perrin",
+     "in_price": 8.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.5,
+     "in": "Codi Miller-Mcintyre",
+     "in_price": 9.9
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.2,
+   "formation": "1-2-2",
+   "starters": [
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Alberto Abalde",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Codi Miller-Mcintyre",
+   "bench": [
+    "Tyson Ward",
+    "Evan Fournier",
+    "Dejan Davidovac",
+    "Scottie Wilbekin"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 174.4,
+   "p90": 224.5,
+   "p10": 122.5,
+   "p_target": 0.265,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Alberto Abalde",
+      "Evan Fournier",
+      16.8
+     ],
+     [
+      "Zacharie Perrin",
+      "Tyson Ward",
+      11.7
+     ],
+     [
+      "Theo Maledon",
+      "Scottie Wilbekin",
+      10.3
+     ]
+    ]
+   },
+   "kept_your_trades": 2
+  },
+  {
+   "trades": [
+    {
+     "out": "Nadir Hifi",
+     "out_price": 16.6,
+     "in": "Evan Fournier",
+     "in_price": 10.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.1,
+     "in": "Coach OLY",
+     "in_price": 10.6
+    },
+    {
+     "out": "Olek Balcerowski",
+     "out_price": 8.1,
+     "in": "Zacharie Perrin",
+     "in_price": 8.2
+    },
+    {
+     "out": "Dejan Davidovac",
+     "out_price": 5.0,
+     "in": "Nikolaos Rogkavopoulos",
+     "in_price": 4.7
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.9,
+   "formation": "1-2-2",
+   "starters": [
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Alberto Abalde",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Tyson Carter",
+   "bench": [
+    "Tyson Ward",
+    "Evan Fournier",
+    "Nikolaos Rogkavopoulos",
+    "Scottie Wilbekin"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 175.0,
+   "p90": 222.5,
+   "p10": 125.7,
+   "p_target": 0.257,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Alberto Abalde",
+      "Evan Fournier",
+      16.8
+     ],
+     [
+      "Tyson Carter",
+      "Tyson Ward",
+      11.7
+     ],
+     [
+      "Zacharie Perrin",
+      "Scottie Wilbekin",
+      10.3
+     ],
+     [
+      "Theo Maledon",
+      "Nikolaos Rogkavopoulos",
+      8.6
+     ]
+    ]
+   },
+   "kept_your_trades": 3
+  },
+  {
+   "trades": [
+    {
+     "out": "Nadir Hifi",
+     "out_price": 16.6,
+     "in": "Evan Fournier",
+     "in_price": 10.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.1,
+     "in": "Coach OLY",
+     "in_price": 10.6
+    },
+    {
+     "out": "Olek Balcerowski",
+     "out_price": 8.1,
+     "in": "Zacharie Perrin",
+     "in_price": 8.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.5,
+     "in": "Andreas Obst",
+     "in_price": 9.0
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.1,
+   "formation": "1-2-2",
+   "starters": [
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Alberto Abalde",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Andreas Obst",
+   "bench": [
+    "Tyson Ward",
+    "Evan Fournier",
+    "Dejan Davidovac",
+    "Scottie Wilbekin"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 175.2,
+   "p90": 222.6,
+   "p10": 125.9,
+   "p_target": 0.255,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Alberto Abalde",
+      "Evan Fournier",
+      16.8
+     ],
+     [
+      "Andreas Obst",
+      "Tyson Ward",
+      11.7
+     ],
+     [
+      "Zacharie Perrin",
+      "Scottie Wilbekin",
+      10.3
+     ]
+    ]
+   },
+   "kept_your_trades": 2
+  },
+  {
+   "trades": [
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.5,
+     "in": "Stefano Tonut",
+     "in_price": 4.0
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.1,
+     "in": "Coach OLY",
+     "in_price": 10.6
+    },
+    {
+     "out": "Dejan Davidovac",
+     "out_price": 5.0,
+     "in": "Nikolaos Rogkavopoulos",
+     "in_price": 4.7
+    },
+    {
+     "out": "Olek Balcerowski",
+     "out_price": 8.1,
+     "in": "Zacharie Perrin",
+     "in_price": 8.2
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.2,
+   "formation": "1-2-2",
+   "starters": [
+    "Nadir Hifi",
+    "Sasha Vezenkov",
+    "Alberto Abalde",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Theo Maledon",
+   "bench": [
+    "Tyson Ward",
+    "Nikolaos Rogkavopoulos",
+    "Stefano Tonut",
+    "Scottie Wilbekin"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 174.7,
+   "p90": 221.6,
+   "p10": 127.6,
+   "p_target": 0.244,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Alberto Abalde",
+      "Tyson Ward",
+      11.7
+     ],
+     [
+      "Zacharie Perrin",
+      "Scottie Wilbekin",
+      10.3
+     ],
+     [
+      "Theo Maledon",
+      "Nikolaos Rogkavopoulos",
+      8.6
+     ]
+    ]
+   },
+   "kept_your_trades": 4
+  },
+  {
+   "trades": [
+    {
+     "out": "Nadir Hifi",
+     "out_price": 16.6,
+     "in": "Evan Fournier",
+     "in_price": 10.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.1,
+     "in": "Coach OLY",
+     "in_price": 10.6
+    },
+    {
+     "out": "Olek Balcerowski",
+     "out_price": 8.1,
+     "in": "Zacharie Perrin",
+     "in_price": 8.2
+    },
+    {
+     "out": "Scottie Wilbekin",
+     "out_price": 9.5,
+     "in": "Jordan Loyd",
+     "in_price": 11.1
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.0,
+   "formation": "2-1-2",
+   "starters": [
+    "Theo Maledon",
+    "Evan Fournier",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Jordan Loyd",
+   "bench": [
+    "Tyson Ward",
+    "Tyson Carter",
+    "Alberto Abalde",
+    "Dejan Davidovac"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 173.0,
+   "p90": 220.4,
+   "p10": 123.8,
+   "p_target": 0.242,
+   "nights": {
+    "count": {
+     "1": 7,
+     "2": 3
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": false,
+    "reasons": [
+     "only 3 of 10 play on night 2"
+    ],
+    "plan": [
+     [
+      "Jordan Loyd",
+      "Tyson Ward",
+      11.7
+     ]
+    ]
+   },
+   "kept_your_trades": 2
+  },
+  {
+   "trades": [
+    {
+     "out": "Scottie Wilbekin",
+     "out_price": 9.5,
+     "in": "Vanja Marinkovic",
+     "in_price": 4.3
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.1,
+     "in": "Coach OLY",
+     "in_price": 10.6
+    },
+    {
+     "out": "Olek Balcerowski",
+     "out_price": 8.1,
+     "in": "Zacharie Perrin",
+     "in_price": 8.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.5,
+     "in": "Andreas Obst",
+     "in_price": 9.0
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.1,
+   "formation": "2-1-2",
+   "starters": [
+    "Nadir Hifi",
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Andreas Obst",
+   "bench": [
+    "Tyson Ward",
+    "Alberto Abalde",
+    "Vanja Marinkovic",
+    "Dejan Davidovac"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 173.3,
+   "p90": 218.6,
+   "p10": 127.2,
+   "p_target": 0.231,
+   "nights": {
+    "count": {
+     "1": 8,
+     "2": 2
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": false,
+    "reasons": [
+     "only 2 of 10 play on night 2"
+    ],
+    "plan": [
+     [
+      "Andreas Obst",
+      "Tyson Ward",
+      11.7
+     ]
+    ]
+   },
+   "kept_your_trades": 2
+  },
+  {
+   "trades": [
+    {
+     "out": "Scottie Wilbekin",
+     "out_price": 9.5,
+     "in": "Alvaro Cardenas",
+     "in_price": 4.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.1,
+     "in": "Coach OLY",
+     "in_price": 10.6
+    },
+    {
+     "out": "Olek Balcerowski",
+     "out_price": 8.1,
+     "in": "Zacharie Perrin",
+     "in_price": 8.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.5,
+     "in": "Andreas Obst",
+     "in_price": 9.0
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.0,
+   "formation": "2-1-2",
+   "starters": [
+    "Nadir Hifi",
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Andreas Obst",
+   "bench": [
+    "Tyson Ward",
+    "Alberto Abalde",
+    "Alvaro Cardenas",
+    "Dejan Davidovac"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 173.4,
+   "p90": 218.8,
+   "p10": 126.8,
+   "p_target": 0.23,
+   "nights": {
+    "count": {
+     "1": 8,
+     "2": 2
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": false,
+    "reasons": [
+     "only 2 of 10 play on night 2"
+    ],
+    "plan": [
+     [
+      "Andreas Obst",
+      "Tyson Ward",
+      11.7
+     ]
+    ]
+   },
+   "kept_your_trades": 2
+  },
+  {
+   "trades": [
+    {
+     "out": "Scottie Wilbekin",
+     "out_price": 9.5,
+     "in": "Stefano Tonut",
+     "in_price": 4.0
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.1,
+     "in": "Coach OLY",
+     "in_price": 10.6
+    },
+    {
+     "out": "Olek Balcerowski",
+     "out_price": 8.1,
+     "in": "Zacharie Perrin",
+     "in_price": 8.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.5,
+     "in": "Andreas Obst",
+     "in_price": 9.0
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.4,
+   "formation": "2-1-2",
+   "starters": [
+    "Nadir Hifi",
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Andreas Obst",
+   "bench": [
+    "Tyson Ward",
+    "Alberto Abalde",
+    "Stefano Tonut",
+    "Dejan Davidovac"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 173.1,
+   "p90": 218.6,
+   "p10": 126.8,
+   "p_target": 0.229,
+   "nights": {
+    "count": {
+     "1": 8,
+     "2": 2
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": false,
+    "reasons": [
+     "only 2 of 10 play on night 2"
+    ],
+    "plan": [
+     [
+      "Andreas Obst",
+      "Tyson Ward",
+      11.7
+     ]
+    ]
+   },
+   "kept_your_trades": 3
+  },
+  {
+   "trades": [
+    {
+     "out": "Scottie Wilbekin",
+     "out_price": 9.5,
+     "in": "Juan Nunez",
+     "in_price": 4.3
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.1,
+     "in": "Coach OLY",
+     "in_price": 10.6
+    },
+    {
+     "out": "Olek Balcerowski",
+     "out_price": 8.1,
+     "in": "Zacharie Perrin",
+     "in_price": 8.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.5,
+     "in": "Andreas Obst",
+     "in_price": 9.0
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.1,
+   "formation": "2-1-2",
+   "starters": [
+    "Nadir Hifi",
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Andreas Obst",
+   "bench": [
+    "Tyson Ward",
+    "Alberto Abalde",
+    "Juan Nunez",
+    "Dejan Davidovac"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 173.2,
+   "p90": 218.5,
+   "p10": 126.9,
+   "p_target": 0.227,
+   "nights": {
+    "count": {
+     "1": 8,
+     "2": 2
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": false,
+    "reasons": [
+     "only 2 of 10 play on night 2"
+    ],
+    "plan": [
+     [
+      "Andreas Obst",
+      "Tyson Ward",
+      11.7
+     ]
+    ]
+   },
+   "kept_your_trades": 2
+  },
+  {
+   "trades": [
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.5,
+     "in": "Stefano Tonut",
+     "in_price": 4.0
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.1,
+     "in": "Coach OLY",
+     "in_price": 10.6
+    },
+    {
+     "out": "Dejan Davidovac",
+     "out_price": 5.0,
+     "in": "Gabriele Procida",
+     "in_price": 4.9
+    },
+    {
+     "out": "Olek Balcerowski",
+     "out_price": 8.1,
+     "in": "Zacharie Perrin",
+     "in_price": 8.2
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.0,
+   "formation": "2-2-1",
+   "starters": [
+    "Nadir Hifi",
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Tyson Ward",
+    "Kenan Kamenjas"
+   ],
+   "sixth": "Zacharie Perrin",
+   "bench": [
+    "Scottie Wilbekin",
+    "Alberto Abalde",
+    "Gabriele Procida",
+    "Stefano Tonut"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 171.7,
+   "p90": 217.0,
+   "p10": 124.8,
+   "p_target": 0.222,
+   "nights": {
+    "count": {
+     "1": 7,
+     "2": 3
+    },
+    "starters": {
+     "1": 3,
+     "2": 2
+    },
+    "balanced": false,
+    "reasons": [
+     "only 3 of 10 play on night 2",
+     "no later-night bench player to replace Kamenjas"
+    ],
+    "plan": [
+     [
+      "Zacharie Perrin",
+      "Scottie Wilbekin",
+      10.3
+     ]
+    ]
+   },
+   "kept_your_trades": 3
+  }
+ ],
+ "balanced_plans": [
+  {
+   "trades": [
+    {
+     "out": "Nadir Hifi",
+     "out_price": 16.6,
+     "in": "Evan Fournier",
+     "in_price": 10.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.1,
+     "in": "Coach OLY",
+     "in_price": 10.6
+    },
+    {
+     "out": "Olek Balcerowski",
+     "out_price": 8.1,
+     "in": "Zacharie Perrin",
+     "in_price": 8.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.5,
+     "in": "Codi Miller-Mcintyre",
+     "in_price": 9.9
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 0.2,
+   "formation": "1-2-2",
+   "starters": [
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Alberto Abalde",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Codi Miller-Mcintyre",
+   "bench": [
+    "Tyson Ward",
+    "Evan Fournier",
+    "Dejan Davidovac",
+    "Scottie Wilbekin"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 174.4,
+   "p90": 224.5,
+   "p10": 122.5,
+   "p_target": 0.265,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Alberto Abalde",
+      "Evan Fournier",
+      16.8
+     ],
+     [
+      "Zacharie Perrin",
+      "Tyson Ward",
+      11.7
+     ],
+     [
+      "Theo Maledon",
+      "Scottie Wilbekin",
+      10.3
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Nadir Hifi",
+     "out_price": 16.6,
+     "in": "Evan Fournier",
+     "in_price": 10.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.1,
+     "in": "Coach OLY",
+     "in_price": 10.6
+    },
+    {
+     "out": "Olek Balcerowski",
+     "out_price": 8.1,
+     "in": "Zacharie Perrin",
+     "in_price": 8.2
+    },
+    {
+     "out": "Scottie Wilbekin",
+     "out_price": 9.5,
+     "in": "Codi Miller-Mcintyre",
+     "in_price": 9.9
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.2,
+   "formation": "1-2-2",
+   "starters": [
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Alberto Abalde",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Tyson Carter",
+   "bench": [
+    "Tyson Ward",
+    "Evan Fournier",
+    "Dejan Davidovac",
+    "Codi Miller-Mcintyre"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 174.7,
+   "p90": 223.5,
+   "p10": 122.6,
+   "p_target": 0.263,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Alberto Abalde",
+      "Evan Fournier",
+      16.8
+     ],
+     [
+      "Tyson Carter",
+      "Codi Miller-Mcintyre",
+      12.8
+     ],
+     [
+      "Zacharie Perrin",
+      "Tyson Ward",
+      11.7
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Nadir Hifi",
+     "out_price": 16.6,
+     "in": "Evan Fournier",
+     "in_price": 10.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.1,
+     "in": "Coach OLY",
+     "in_price": 10.6
+    },
+    {
+     "out": "Olek Balcerowski",
+     "out_price": 8.1,
+     "in": "Zacharie Perrin",
+     "in_price": 8.2
+    },
+    {
+     "out": "Dejan Davidovac",
+     "out_price": 5.0,
+     "in": "Nikolaos Rogkavopoulos",
+     "in_price": 4.7
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.9,
+   "formation": "1-2-2",
+   "starters": [
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Alberto Abalde",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Tyson Carter",
+   "bench": [
+    "Tyson Ward",
+    "Evan Fournier",
+    "Nikolaos Rogkavopoulos",
+    "Scottie Wilbekin"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 175.0,
+   "p90": 222.5,
+   "p10": 125.7,
+   "p_target": 0.257,
+   "nights": {
+    "count": {
+     "1": 5,
+     "2": 5
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Alberto Abalde",
+      "Evan Fournier",
+      16.8
+     ],
+     [
+      "Tyson Carter",
+      "Tyson Ward",
+      11.7
+     ],
+     [
+      "Zacharie Perrin",
+      "Scottie Wilbekin",
+      10.3
+     ],
+     [
+      "Theo Maledon",
+      "Nikolaos Rogkavopoulos",
+      8.6
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Nadir Hifi",
+     "out_price": 16.6,
+     "in": "Evan Fournier",
+     "in_price": 10.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.1,
+     "in": "Coach OLY",
+     "in_price": 10.6
+    },
+    {
+     "out": "Olek Balcerowski",
+     "out_price": 8.1,
+     "in": "Zacharie Perrin",
+     "in_price": 8.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.5,
+     "in": "Andreas Obst",
+     "in_price": 9.0
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.1,
+   "formation": "1-2-2",
+   "starters": [
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Alberto Abalde",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Andreas Obst",
+   "bench": [
+    "Tyson Ward",
+    "Evan Fournier",
+    "Dejan Davidovac",
+    "Scottie Wilbekin"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 175.2,
+   "p90": 222.6,
+   "p10": 125.9,
+   "p_target": 0.255,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Alberto Abalde",
+      "Evan Fournier",
+      16.8
+     ],
+     [
+      "Andreas Obst",
+      "Tyson Ward",
+      11.7
+     ],
+     [
+      "Zacharie Perrin",
+      "Scottie Wilbekin",
+      10.3
+     ]
+    ]
+   }
+  },
+  {
+   "trades": [
+    {
+     "out": "Nadir Hifi",
+     "out_price": 16.6,
+     "in": "Evan Fournier",
+     "in_price": 10.4
+    },
+    {
+     "out": "Coach RED",
+     "out_price": 6.1,
+     "in": "Coach OLY",
+     "in_price": 10.6
+    },
+    {
+     "out": "Olek Balcerowski",
+     "out_price": 8.1,
+     "in": "Zacharie Perrin",
+     "in_price": 8.2
+    },
+    {
+     "out": "Tyson Carter",
+     "out_price": 8.5,
+     "in": "Kobi Simmons",
+     "in_price": 8.4
+    }
+   ],
+   "coach": "OLY",
+   "bank_after": 1.7,
+   "formation": "1-2-2",
+   "starters": [
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Alberto Abalde",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Kobi Simmons",
+   "bench": [
+    "Tyson Ward",
+    "Evan Fournier",
+    "Dejan Davidovac",
+    "Scottie Wilbekin"
+   ],
+   "captain": "Sasha Vezenkov",
+   "mean": 174.4,
+   "p90": 222.7,
+   "p10": 124.1,
+   "p_target": 0.255,
+   "nights": {
+    "count": {
+     "1": 6,
+     "2": 4
+    },
+    "starters": {
+     "1": 4,
+     "2": 1
+    },
+    "balanced": true,
+    "reasons": [],
+    "plan": [
+     [
+      "Alberto Abalde",
+      "Evan Fournier",
+      16.8
+     ],
+     [
+      "Kobi Simmons",
+      "Tyson Ward",
+      11.7
+     ],
+     [
+      "Zacharie Perrin",
+      "Scottie Wilbekin",
+      10.3
+     ]
+    ]
+   }
+  }
+ ],
+ "pre_round_squad": true,
+ "with_your_trades": {
+  "mean": 172.7,
+  "p90": 217.8,
+  "p10": 126.5,
+  "p_target": 0.226,
+  "captain": "Sasha Vezenkov"
+ }
+}

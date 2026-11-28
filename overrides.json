@@ -9,16 +9,6 @@
    "until_round": 17,
    "why": "On loan from Dubai at Baskonia (the site still lists him at Dubai). R12 31' PIR 19, R13 30' PIR 25, R14 v Efes only 15' PIR 5: knee knock near half-time (helped off, returned; klix.ba, gasteizhoy.com) and Zaccharie Perrin's debut (11 pts 12 reb, PIR 20) took the big minutes. Faried and Santos still out. 14.5 = shared frontcourt with Perrin plus a small knee risk. 27 Nov: left out of Bosnia's game in Iceland (26 Nov) with the knee knock from R14 (tuzlalive.ba, times.ba); a week of rest before R15, status still to confirm."
   },
-  "Josh Nebo": {
-   "status": "injured",
-   "until_round": 14,
-   "why": "Injured (user, 22 Nov). Re-check before R15."
-  },
-  "Olek Balcerowski": {
-   "pir": 20,
-   "until_round": 14,
-   "why": "Starting center at Barcelona while Nebo is out (user, 22 Nov: count him for 20 PIR). Recently about 19 min and 11 PIR behind Nebo."
-  },
   "Tyler Dorsey": {
    "status": "doubtful",
    "pir": 5.0,
@@ -34,6 +24,14 @@
    "pir": 9.0,
    "until_round": 15,
    "why": "27.7' L3 with Montero, Dorsey and Konchar out; a Dorsey return would take guard minutes from him first. Site 10.4 -> 9.0."
+  },
+  "Nikolaos Rogkavopoulos": {
+   "club": "PAN",
+   "pos": "Forward",
+   "status": "ok",
+   "pir": 8.0,
+   "until_round": 16,
+   "why": "Mitoglou tore his left hamstring for Greece v Georgia (26 Nov) and is out until at least the 11 Dec derby; Kalaitzakis has a sprained ankle (eurohoops.net/el, 27 Nov). Rogkavopoulos played 17' (PIR 15) in R14, the last game without a full frontcourt. 8.0 = about 16' at his career PIR per minute (site/model 6.1)."
   }
  }
 }

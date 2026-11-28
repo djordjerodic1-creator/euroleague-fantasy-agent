@@ -1,0 +1,347 @@
+{
+ "date": "2026-11-28",
+ "generated": "2026-11-28T09:22Z",
+ "round": 15,
+ "budget": {
+  "total": 108.3,
+  "bank": 0.0
+ },
+ "window": "R15 (3–4 Dec): 4 trades, locked at Thursday 3 Dec 19:30 Athens (Efes–Valencia). FIBA window until 1 Dec; official R15 prices.",
+ "bottom_line": "Keep the four trades you've made (Bartzokas, Perrin, Tonut, Rogkavopoulos) and last night's lineup: Hifi captain on Thursday, Vezenkov at 6th to take the armband on Friday if Hifi is quiet. Mitoglou's hamstring tear makes your Rogkavopoulos buy better than it looked. About 24% for 200; the best alternative that keeps your per-game rule (Hifi → Fournier instead of Carter → Tonut) simulates the same, so there's no reason to redo trades.",
+ "current_fix": "Move Vezenkov into the 6th-man slot and Tonut to the bench (same as last night's re-run); captain Hifi.",
+ "variations": [
+  {
+   "key": "A",
+   "name": "Your trades, Hifi then Vezenkov",
+   "recommended": true,
+   "risk": "Medium",
+   "tagline": "Keep all four trades you've made; Vezenkov at 6th, Hifi captain on Thursday. 0.2 left.",
+   "trades": [
+    {
+     "out": "Coach Navarro (CZV) (6.1)",
+     "in": "Coach Bartzokas (OLY) (10.6)",
+     "credits": "−4.5",
+     "why": "Olympiacos 94% at home to winless-in-five ASVEL (site +18): about +14 coach points vs −2 for Navarro at Fenerbahçe."
+    },
+    {
+     "out": "Olek Balcerowski (8.1)",
+     "in": "Zacharie Perrin (8.2)",
+     "credits": "−0.1",
+     "why": "Perrin 20 PIR on his R14 debut (11 pts 12 reb in 24'); Balcerowski lost the minutes to Nebo's return. Home to Maccabi on Thursday. [dom: unverified after 2 searches; last club game for Lleida before his 23 Nov move]"
+    },
+    {
+     "out": "Tyson Carter (8.5)",
+     "in": "Stefano Tonut (4.0)",
+     "credits": "+4.5",
+     "why": "Funds the coach. Carter is at Fenerbahçe (Zvezda 31%) with minutes that swing; Tonut is a Thursday bench filler. [dom: LBA unverified after 2 searches]"
+    },
+    {
+     "out": "Dejan Davidovac (5.0)",
+     "in": "Nikolaos Rogkavopoulos (4.7)",
+     "credits": "+0.3",
+     "why": "Mitoglou tore his hamstring with Greece (out until at least 11 Dec), so Rogkavopoulos is Ataman's backup 4 at Besiktas on Friday. [dom: GBL unverified after 2 searches; R14 17' PIR 15]"
+    }
+   ],
+   "bank_after": 0.2,
+   "formation": "2-1-2",
+   "starters": [
+    "Nadir Hifi",
+    "Theo Maledon",
+    "Alberto Abalde",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Sasha Vezenkov",
+   "bench": [
+    "Tyson Ward",
+    "Scottie Wilbekin",
+    "Nikolaos Rogkavopoulos",
+    "Stefano Tonut"
+   ],
+   "coach": "Olympiacos",
+   "captain": "Nadir Hifi",
+   "vice": "Sasha Vezenkov",
+   "captain_note": "Hifi (November MVP, 18.6 at Bayern, the league's 20th defence) wears it on Thursday; Vezenkov (25.2 v ASVEL) is the Friday fallback.",
+   "captain_plan": "Captain Hifi. If he scores under ~25 on Thursday, move Vezenkov into the five for a played starter (Abalde drops to 6th) and give Vezenkov the armband.",
+   "reasoning": [
+    "Same plan as last night's re-run: the trades are made and the search can't beat them by more than noise without breaking your 2-per-game rule.",
+    "Two captain shots: Hifi's ceiling (39, 29 in R10/R12) on Thursday, then Vezenkov at home to ASVEL on Friday. Simulated 23.7% vs 22.9% with Vezenkov captained from the start.",
+    "Thursday has 6 of your 10 (Perrin, Kamenjas, Hifi, Maledon, Abalde, Tonut) and Friday 4 (Vezenkov, Ward, Wilbekin, Rogkavopoulos): every Thursday starter has a Friday cover.",
+    "Coach lens: Olympiacos are without Montero (out until May), Konchar and Dunston, so Vezenkov and Fournier carry the usage. That is why Vezenkov's 25 is real and Ward's 10 is generous.",
+    "Cheap upside watch: Kamenjas (Faried out) and Ward (Konchar out) are already yours; Rogkavopoulos gets the Mitoglou minutes. No other cheap role jump fits the budget.",
+    "Trade economy: all 4 used, 0.2 left; Tonut and Rogkavopoulos are the cheap enablers that funded Bartzokas."
+   ],
+   "cancel_if": [
+    "If Kamenjas is ruled out (knee), keep everything: Perrin starts alone at centre, and Ward or Wilbekin replaces Kamenjas' 0 after Thursday.",
+    "If Bartzokas confirms Dorsey is still out of the rotation (Wed 2 Dec presser), Variation B (Hifi → Fournier) becomes slightly better: switch only if you want the Olympiacos stack."
+   ]
+  },
+  {
+   "key": "B",
+   "name": "Fournier for Hifi",
+   "recommended": false,
+   "risk": "Medium",
+   "tagline": "Undo Carter → Tonut, sell Hifi for Fournier at home to ASVEL. 1.9 left.",
+   "trades": [
+    {
+     "out": "Coach Navarro (CZV) (6.1)",
+     "in": "Coach Bartzokas (OLY) (10.6)",
+     "credits": "−4.5",
+     "why": "Olympiacos 94% at home to winless-in-five ASVEL (site +18): about +14 coach points vs −2 for Navarro at Fenerbahçe."
+    },
+    {
+     "out": "Olek Balcerowski (8.1)",
+     "in": "Zacharie Perrin (8.2)",
+     "credits": "−0.1",
+     "why": "Perrin 20 PIR on his R14 debut (11 pts 12 reb in 24'); Balcerowski lost the minutes to Nebo's return. Home to Maccabi on Thursday. [dom: unverified after 2 searches; last club game for Lleida before his 23 Nov move]"
+    },
+    {
+     "out": "Nadir Hifi (16.6)",
+     "in": "Evan Fournier (10.4)",
+     "credits": "+6.2",
+     "why": "Fournier 31.7' over his last three as the lead creator with Montero out; home to ASVEL at 94% with the win bonus almost certain. Dorsey's return is the risk. [dom: GBL unverified after 2 searches]"
+    },
+    {
+     "out": "Dejan Davidovac (5.0)",
+     "in": "Nikolaos Rogkavopoulos (4.7)",
+     "credits": "+0.3",
+     "why": "Mitoglou tore his hamstring with Greece (out until at least 11 Dec), so Rogkavopoulos is Ataman's backup 4 at Besiktas on Friday. [dom: GBL unverified after 2 searches; R14 17' PIR 15]"
+    }
+   ],
+   "bank_after": 1.9,
+   "formation": "1-2-2",
+   "starters": [
+    "Theo Maledon",
+    "Alberto Abalde",
+    "Sasha Vezenkov",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Tyson Carter",
+   "bench": [
+    "Evan Fournier",
+    "Tyson Ward",
+    "Scottie Wilbekin",
+    "Nikolaos Rogkavopoulos"
+   ],
+   "coach": "Olympiacos",
+   "captain": "Sasha Vezenkov",
+   "vice": "Theo Maledon",
+   "captain_note": "Vezenkov at home to ASVEL; Maledon is the Thursday vice in the Clásico.",
+   "reasoning": [
+    "The optimiser's best plan that keeps your per-game rule (3 Olympiacos + Bartzokas in a 94% game): 24–26% vs 23% for A.",
+    "Higher floor: Fournier gets the +10% win bonus almost surely; Hifi is 61% at Bayern.",
+    "Coach lens: with Montero out for the season's first half, Fournier is Bartzokas' first option next to Vezenkov; a Dorsey return would take 5–8 of his minutes.",
+    "Carter stays as the Thursday 6th man and Fournier sits on the Friday bench to replace a quiet Thursday player.",
+    "Costs you Hifi's ceiling and the November MVP's momentum, and puts more eggs in one game."
+   ],
+   "cancel_if": [
+    "If Dorsey is back in the Olympiacos rotation, stay with A.",
+    "If Kamenjas is out, Ward or Fournier covers his 0 after Thursday."
+   ]
+  },
+  {
+   "key": "C",
+   "name": "Olympiacos blowout stack",
+   "recommended": false,
+   "risk": "High",
+   "tagline": "Four Olympiacos players plus Bartzokas: breaks your 3-per-game limit on purpose. 0.2 left.",
+   "trades": [
+    {
+     "out": "Coach Navarro (CZV) (6.1)",
+     "in": "Coach Bartzokas (OLY) (10.6)",
+     "credits": "−4.5",
+     "why": "Olympiacos 94% at home to winless-in-five ASVEL (site +18): about +14 coach points vs −2 for Navarro at Fenerbahçe."
+    },
+    {
+     "out": "Olek Balcerowski (8.1)",
+     "in": "Zacharie Perrin (8.2)",
+     "credits": "−0.1",
+     "why": "Perrin 20 PIR on his R14 debut (11 pts 12 reb in 24'); Balcerowski lost the minutes to Nebo's return. Home to Maccabi on Thursday. [dom: unverified after 2 searches; last club game for Lleida before his 23 Nov move]"
+    },
+    {
+     "out": "Nadir Hifi (16.6)",
+     "in": "Evan Fournier (10.4)",
+     "credits": "+6.2",
+     "why": "Fournier's 15.4 at home to ASVEL rides the same blowout as Vezenkov and the coach. [dom: GBL unverified after 2 searches]"
+    },
+    {
+     "out": "Tyson Carter (8.5)",
+     "in": "Codi Miller-Mcintyre (9.9)",
+     "credits": "−1.4",
+     "why": "Miller-McIntyre runs the point with Montero out; 11.7 projected v ASVEL and a 20+ ceiling as a passer in a fast game. [dom: GBL unverified after 2 searches]"
+    }
+   ],
+   "bank_after": 0.2,
+   "formation": "1-2-2",
+   "starters": [
+    "Theo Maledon",
+    "Sasha Vezenkov",
+    "Alberto Abalde",
+    "Kenan Kamenjas",
+    "Zacharie Perrin"
+   ],
+   "sixth": "Codi Miller-Mcintyre",
+   "bench": [
+    "Tyson Ward",
+    "Evan Fournier",
+    "Dejan Davidovac",
+    "Scottie Wilbekin"
+   ],
+   "coach": "Olympiacos",
+   "captain": "Sasha Vezenkov",
+   "vice": "Theo Maledon",
+   "captain_note": "Vezenkov; if Olympiacos run away with it, four players and the coach boom together.",
+   "reasoning": [
+    "The optimiser's top plan overall (26.5%) once your rule is ignored: the extra chance comes from correlation, not from better players.",
+    "If ASVEL keep it close, five slots fail together: that is the definition of a moonshot.",
+    "Blowout risk (coach lens): at +18 Bartzokas sits his starters in the 4th, which caps Vezenkov and Fournier at ~28 minutes.",
+    "Keeps Davidovac on the bench instead of Rogkavopoulos, so one Friday cover fewer."
+   ],
+   "cancel_if": [
+    "Only if you're happy to break the 3-players-per-game rule for one round."
+   ]
+  }
+ ],
+ "alerts": [
+  {
+   "level": "",
+   "text": "Since last night's re-run (23:22): Mitoglou's hamstring tear is confirmed (out until at least the 11 Dec derby), Kalaitzakis sprained an ankle, and Hifi was named EuroLeague MVP of November. I added a Rogkavopoulos override (8.0 PIR, up from 6.1); nothing else in your plan changes. Inbox empty, R15 not started, so nothing to apply to my_team.json."
+  },
+  {
+   "level": "high",
+   "text": "Kamenjas is still unconfirmed for Thursday: knee knock in R14, then left out of Bosnia's window. No Baskonia update found today. Perrin covers him either way."
+  },
+  {
+   "level": "",
+   "text": "The web search found few fresh items today (FIBA window, few club press conferences). The previous run's domestic checks still hold: no domestic games since 22–23 Nov."
+  },
+  {
+   "level": "",
+   "text": "Olympiacos' bench is thin for R15: Montero (out until May), Konchar, Dunston and probably Dorsey. Good for Vezenkov and Fournier's minutes; it also makes a 4th-quarter rest less likely even in a blowout."
+  },
+  {
+   "level": "",
+   "text": "No betting line for Olympiacos–ASVEL yet; the site's +18 is in line with April's −10.5 line in Villeurbanne for the road game. Re-check on Wednesday."
+  },
+  {
+   "level": "",
+   "text": "Prices are the official R15 prices; app_prices.json is from round 13, so re-import from the app if you want exact team values (README: 'Exact prices from the official game')."
+  }
+ ],
+ "rumours": [
+  {
+   "kind": "confirmed",
+   "team": "Panathinaikos",
+   "text": "Mitoglou tore his left hamstring in Greece's 88–92 OT loss to Georgia (26 Nov); out at least until the 11 Dec derby with Olympiacos. Kalaitzakis has a sprained left ankle and is the only one of the two who might make Besiktas.",
+   "impact": "Rogkavopoulos and Hayes-Davis pick up the 4-spot minutes at Besiktas on Friday.",
+   "source": "https://www.eurohoops.net/el/euroleague-el-2/2041840/ethniki-panathinaikos-thlasi-o-mitoglou-off-ki-o-kalaitzakis-me-diastremma/"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Olympiacos",
+   "text": "Montero (lateral meniscus surgery, 30 Oct) is walking on a treadmill; the estimate is still a May return.",
+   "impact": "Fournier and Miller-McIntyre keep the creator minutes through the double week.",
+   "source": "https://www.eurohoops.net/el/euroleague-el-2/2041859/montero-grafi-vimata-ston-diadromo-ke-svini-imeres-gia-tin-epistrofi-video/"
+  },
+  {
+   "kind": "report",
+   "team": "Olympiacos",
+   "text": "Panathinaikos filed two new complaints against Olympiacos and Bartzokas (fan banners and chants; Bartzokas' comments on his fine).",
+   "impact": "None for R15: a ban would not change Bartzokas' coach points, which follow the result.",
+   "source": "https://www.eurohoops.net/en/euroleague/2042044/panathinaikos-has-filed-two-complaints-against-olympiacos-and-bartzokas/"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Paris",
+   "text": "Hifi named EuroLeague MVP of November and says he won't leave Paris this season despite Olympiacos talk.",
+   "impact": "No role change; he stays your Thursday captain.",
+   "source": "https://www.eurohoops.net/en/euroleague/2041828/pariss-nadir-hifi-named-euroleague-mvp-of-november/"
+  },
+  {
+   "kind": "confirmed",
+   "team": "Hapoel Tel Aviv",
+   "text": "Hapoel move daily operations back to Israel in December but keep hosting EuroLeague games in Sofia.",
+   "impact": "Milano's game (Tonut) stays in Bulgaria; no effect.",
+   "source": "https://www.eurohoops.net/en/euroleague/2041004/hapoel-tel-aviv-relocates-team-operations-to-israel-euroleague/"
+  },
+  {
+   "kind": "report",
+   "team": "Real Madrid",
+   "text": "Procida left Italy's camp with a physical problem (27 Nov). Campazzo (hamstring) was targeting the 3 Dec Clásico; no update today.",
+   "impact": "A Campazzo return would trim Maledon's minutes a little; Abalde is unaffected.",
+   "source": "https://sportando.basketball/italbasket-serbia-pajola-procida-petrucelli/"
+  }
+ ],
+ "players": [
+  {
+   "name": "Sasha Vezenkov",
+   "verdict": "KEEP",
+   "read": "23 PIR v Hapoel, 26.3 over his last three, 27 pts for Bulgaria v Denmark (26 Nov). Home to ASVEL at 94% with Montero and Konchar out: I agree with 25 and he's the Friday armband if Hifi is quiet. [dom: GBL 22 Nov 30.8' PIR 5, esake.gr]"
+  },
+  {
+   "name": "Nadir Hifi",
+   "verdict": "KEEP/CAPTAIN",
+   "read": "November MVP; 16 at Besiktas, 22.7 over his last three, Paris on a five-game streak. At Bayern (20th defence, 186 projected points): I'm at the site's 18.6 with a 30+ ceiling, so he's the Thursday captain. Rested from France's window. [dom: LNB unverified after 2 searches; 14 Nov at Limoges 22 pts, eurohoops.net]"
+  },
+  {
+   "name": "Theo Maledon",
+   "verdict": "KEEP",
+   "read": "17 PIR v Zalgiris in 19.5'. Clásico at home (73%) against a Barcelona without Nebo and Punter; a Campazzo return would cost him a few minutes, so I'm slightly under the site's 17.3. [dom: ACB 22 Nov v Joventut 19.8' PIR 15, acb.com]"
+  },
+  {
+   "name": "Zacharie Perrin",
+   "verdict": "KEEP",
+   "read": "20 PIR (11 pts 12 reb) in 24' off the bench on his R14 debut. Faried and Santos still out, so he and Kamenjas share the frontcourt; home to Maccabi (coin flip). I agree with 14. [dom: unverified after 2 searches (last game for Lleida before his move)]"
+  },
+  {
+   "name": "Kenan Kamenjas",
+   "verdict": "WATCH",
+   "read": "19 and 25 PIR before a knee knock in R14 (5 in 15'); then left out of Bosnia's window. If fit he starts v Maccabi (~14.5); no update today. [dom: ACB 22 Nov at Bilbao 33' PIR 39, acb.com]"
+  },
+  {
+   "name": "Alberto Abalde",
+   "verdict": "KEEP",
+   "read": "9 PIR in 23' v Zalgiris; 7.6 a game. Cheap Thursday starter in the Clásico who makes room for Vezenkov's switch. I agree with 7.5. [dom: ACB 22 Nov v Joventut 24.8' PIR 11, acb.com]"
+  },
+  {
+   "name": "Tyson Ward",
+   "verdict": "KEEP",
+   "read": "3 PIR in 23.5' v Hapoel; 9 a game. Keeps Konchar's wing minutes (McKissic not coming). Friday bench cover, a bit under the site's 10.7. [dom: GBL unverified after 2 searches]"
+  },
+  {
+   "name": "Scottie Wilbekin",
+   "verdict": "KEEP",
+   "read": "9 PIR in 18' v Paris after 25 at Partizan (R13); 26.5' over his last three with Nowell and Gabriel (ACL) out. Home to Panathinaikos on Friday: a bench cover, I agree with 9.9. [dom: BSL unverified after 2 searches]"
+  },
+  {
+   "name": "Nikolaos Rogkavopoulos",
+   "verdict": "KEEP",
+   "read": "15 PIR in 17' at Valencia in R14. Mitoglou's hamstring tear (out until 11 Dec) and Kalaitzakis' ankle open the backup-4 minutes at Besiktas: I'm above the site at 8. [dom: GBL unverified after 2 searches]"
+  },
+  {
+   "name": "Stefano Tonut",
+   "verdict": "KEEP",
+   "read": "2 PIR in 15' at ASVEL on his debut for us; a 4.0 bench filler at Hapoel (Milano 27%). He only plays if two Thursday starters fail. [dom: LBA unverified after 2 searches]"
+  }
+ ],
+ "watchlist": [
+  {
+   "name": "Evan Fournier (OLY, 10.4)",
+   "why": "Lead creator with Montero out. Buy (for Hifi) if Bartzokas keeps Dorsey out, or before the R17–R18 double week."
+  },
+  {
+   "name": "Moses Wright (MIL, 15.1)",
+   "why": "Back-to-back Round MVP (29.3 PIR over his last three). Buy when Milano's schedule turns (R16 home v Bayern)."
+  },
+  {
+   "name": "Aliou Diarra (VIR, 12.1)",
+   "why": "22 PIR over his last three; four clubs reportedly chasing him. Buy for R16 (home v Maccabi)."
+  },
+  {
+   "name": "Codi Miller-Mcintyre (OLY, 9.9)",
+   "why": "Point guard minutes with Montero out; buy only if you drop Ward to stay within 3 Olympiacos players."
+  }
+ ],
+ "review": "R14 (scorecard, unchanged): no new round to score (FIBA window); your R14 was 92.1 FPT with Vezenkov the best captain for the third round running. Last night's calls hold: the trades you made are still the best rule-keeping plan within noise, and Rogkavopoulos' buy got better with Mitoglou's injury. Model check: no new round to compare our miss with the site's. Research: 36 searches, 8 pages read, 7 players unverified (Perrin, Ward, Wilbekin, Rogkavopoulos, Tonut domestic lines; Hifi's last LNB game; Fournier)."
+}
